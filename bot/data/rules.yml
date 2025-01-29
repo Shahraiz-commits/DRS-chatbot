@@ -1,0 +1,28 @@
+version: "3.1"
+
+rules:
+
+- rule: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Answer who the research services director is
+  steps:
+  - intent: ask_director_of_digital_research_services
+  - action: utter_ask_director_of_digital_research_services
+
+- rule: Answer if library is open
+  steps:
+  - intent: ask_library_open
+  - action: action_library_open

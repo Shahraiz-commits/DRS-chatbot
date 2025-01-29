@@ -1,0 +1,31 @@
+version: "3.1"
+
+actions:
+  - action_library_open
+
+intents:
+  - greet
+  - goodbye
+  - ask_director_of_digital_research_services
+  - bot_challenge
+  - ask_library_open
+
+responses:
+  utter_greet:
+  - text: "Hey! What can i help you with?"
+
+  utter_ask_director_of_digital_research_services:
+  - text: |
+      The Director of Digital Research Services is Kate Boyd.
+      Phone: 803-777-2249
+      Email: boydkf@mailbox.sc.edu
+
+  utter_goodbye:
+  - text: "Goodbye!"
+
+  utter_iamabot:
+  - text: "I am a bot, and work to provide you information on the university's Digital Library services!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

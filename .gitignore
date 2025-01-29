@@ -1,0 +1,23 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__
+
+# Rasa specific files
+.rasa/
+rasa/
+*.db
+*.sqlite3
+*.log
+
+# Virtual environment
+venv/
+env/
+
+# IDE-specific files
+.vscode/
+
+# Logs and temporary files
+*.log
+*.bak
+*.swp
