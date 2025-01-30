@@ -26,3 +26,38 @@ rules:
   steps:
   - intent: ask_library_open
   - action: action_library_open
+
+- rule: Help with data analysis
+  steps:
+  - intent: ask_data_analysis_support
+  - action: utter_data_analysis_support
+
+- rule: Respond to digital scholarship queries
+  steps:
+  - intent: ask_digital_scholarship
+  - action: utter_digital_scholarship
+
+- rule: Respond to AI/Data Science support queries
+  steps:
+  - intent: ask_ai_support
+  - action: utter_ai_support
+
+- rule: Respond to research data management queries
+  steps:
+  - intent: ask_research_data_management
+  - action: utter_research_data_management
+
+- rule: Respond to data visualization support queries
+  steps:
+  - intent: ask_data_visualization
+  - action: utter_data_visualization
+
+- rule: Respond to workshop queries
+  steps:
+  - intent: ask_workshops
+  - action: utter_workshops
+
+- rule: Respond to contact us query
+  steps:
+  - intent: ask_contact_us
+  - action: utter_contact_us
