@@ -179,3 +179,178 @@ This is a brief summary. For more details, please ask for the full answer.
 
 2025-02-02 21:04:20.743591|user_85550|U19|goodbye|bye|
 2025-02-02 21:04:20.743623|user_85550|B18|||||utter_goodbye|Bye
+2025-02-02 22:07:39.280210|user_41469|U0|greet|hi|
+2025-02-02 22:07:39.280261|user_41469|B0|||||utter_greet|Hey! How are you?
+2025-02-02 22:07:39.280287|user_41469|U1|ask_library_open|Library hours]\|
+2025-02-02 22:07:39.280334|user_41469|U2|lead_digital_research_service|Research leader|
+2025-02-02 22:07:39.280360|user_41469|B1|||||utter_lead_digital_research_service|[Source: ; Date: ] The Director of Digital Research Services is Kate Boyd. Phone: 803-777-2249 Email: boydkf@mailbox.sc.edu
+
+2025-02-02 22:07:39.280381|user_41469|U3|visualize_research_data|research data|
+2025-02-02 22:07:39.280409|user_41469|B2|||||utter_summary_visualize_research_data|Data visualization support may be desired at any stage of your research process.
+The University Libraries offers resources and services useful in data visualization.
+Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:07:39.280432|user_41469|U4|full_answer|full|
+2025-02-02 22:07:39.280457|user_41469|B3|||||utter_visualize_research_data|[Source: ; Date: ] Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization. Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php
+
+2025-02-02 22:07:39.280479|user_41469|U5|data_analysis_help|data help|
+2025-02-02 22:07:39.280504|user_41469|B4|||||utter_summary_data_analysis_help|The library offers support for doing exploratory data analysis and helps with quantitative and qualitative statistical software products.
+Learn more here: https://guides.library.sc.edu/c.php?g=1335227
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:07:39.280526|user_41469|U6|ai_service_library_offer|AI|
+2025-02-02 22:07:39.280554|user_41469|B5|||||utter_summary_ai_service_library_offer|The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:07:39.280577|user_41469|U7|nlu_fallback|Can I get help with AI research ?|
+2025-02-02 22:07:39.280602|user_41469|B6|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-02 22:07:48.988419|user_41469|U0|greet|hi|
+2025-02-02 22:07:48.988464|user_41469|B0|||||utter_greet|Hey! How are you?
+2025-02-02 22:07:48.988489|user_41469|U1|ask_library_open|Library hours]\|
+2025-02-02 22:07:48.988538|user_41469|U2|lead_digital_research_service|Research leader|
+2025-02-02 22:07:48.988562|user_41469|B1|||||utter_lead_digital_research_service|[Source: ; Date: ] The Director of Digital Research Services is Kate Boyd. Phone: 803-777-2249 Email: boydkf@mailbox.sc.edu
+
+2025-02-02 22:07:48.988584|user_41469|U3|visualize_research_data|research data|
+2025-02-02 22:07:48.988622|user_41469|B2|||||utter_summary_visualize_research_data|Data visualization support may be desired at any stage of your research process.
+The University Libraries offers resources and services useful in data visualization.
+Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:07:48.988637|user_41469|U4|full_answer|full|
+2025-02-02 22:07:48.988660|user_41469|B3|||||utter_visualize_research_data|[Source: ; Date: ] Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization. Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php
+
+2025-02-02 22:07:48.988670|user_41469|U5|data_analysis_help|data help|
+2025-02-02 22:07:48.988693|user_41469|B4|||||utter_summary_data_analysis_help|The library offers support for doing exploratory data analysis and helps with quantitative and qualitative statistical software products.
+Learn more here: https://guides.library.sc.edu/c.php?g=1335227
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:07:48.988715|user_41469|U6|ai_service_library_offer|AI|
+2025-02-02 22:07:48.988743|user_41469|B5|||||utter_summary_ai_service_library_offer|The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:07:48.988766|user_41469|U7|nlu_fallback|Can I get help with AI research ?|
+2025-02-02 22:07:48.988791|user_41469|B6|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-02 22:07:48.988896|user_41469|U8|nlu_fallback|Can I get help with AI research?|
+2025-02-02 22:07:48.988920|user_41469|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-02 22:08:34.657514|user_41469|U0|greet|hi|
+2025-02-02 22:08:34.657559|user_41469|B0|||||utter_greet|Hey! How are you?
+2025-02-02 22:08:34.657582|user_41469|U1|ask_library_open|Library hours]\|
+2025-02-02 22:08:34.657630|user_41469|U2|lead_digital_research_service|Research leader|
+2025-02-02 22:08:34.657656|user_41469|B1|||||utter_lead_digital_research_service|[Source: ; Date: ] The Director of Digital Research Services is Kate Boyd. Phone: 803-777-2249 Email: boydkf@mailbox.sc.edu
+
+2025-02-02 22:08:34.657677|user_41469|U3|visualize_research_data|research data|
+2025-02-02 22:08:34.657705|user_41469|B2|||||utter_summary_visualize_research_data|Data visualization support may be desired at any stage of your research process.
+The University Libraries offers resources and services useful in data visualization.
+Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:08:34.657727|user_41469|U4|full_answer|full|
+2025-02-02 22:08:34.657752|user_41469|B3|||||utter_visualize_research_data|[Source: ; Date: ] Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization. Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php
+
+2025-02-02 22:08:34.657774|user_41469|U5|data_analysis_help|data help|
+2025-02-02 22:08:34.657799|user_41469|B4|||||utter_summary_data_analysis_help|The library offers support for doing exploratory data analysis and helps with quantitative and qualitative statistical software products.
+Learn more here: https://guides.library.sc.edu/c.php?g=1335227
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:08:34.657822|user_41469|U6|ai_service_library_offer|AI|
+2025-02-02 22:08:34.657849|user_41469|B5|||||utter_summary_ai_service_library_offer|The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:08:34.657883|user_41469|U7|nlu_fallback|Can I get help with AI research ?|
+2025-02-02 22:08:34.657909|user_41469|B6|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-02 22:08:34.658013|user_41469|U8|nlu_fallback|Can I get help with AI research?|
+2025-02-02 22:08:34.658038|user_41469|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-02 22:08:34.658140|user_41469|U9|ai_service_library_offer|AI service|
+2025-02-02 22:08:34.658167|user_41469|B8|||||utter_summary_ai_service_library_offer|The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:08:34.658190|user_41469|U10|ai_service_library_offer|Can I get help with an AI service?|
+2025-02-02 22:08:34.658219|user_41469|B9|||||utter_summary_ai_service_library_offer|The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:08:34.658241|user_41469|U11|nlu_fallback|Can I get help with AI research?|
+2025-02-02 22:08:34.658266|user_41469|B10|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-02 22:09:46.551706|user_41469|U0|greet|hi|
+2025-02-02 22:09:46.551752|user_41469|B0|||||utter_greet|Hey! How are you?
+2025-02-02 22:09:46.551776|user_41469|U1|ask_library_open|Library hours]\|
+2025-02-02 22:09:46.551825|user_41469|U2|lead_digital_research_service|Research leader|
+2025-02-02 22:09:46.551850|user_41469|B1|||||utter_lead_digital_research_service|[Source: ; Date: ] The Director of Digital Research Services is Kate Boyd. Phone: 803-777-2249 Email: boydkf@mailbox.sc.edu
+
+2025-02-02 22:09:46.551872|user_41469|U3|visualize_research_data|research data|
+2025-02-02 22:09:46.551900|user_41469|B2|||||utter_summary_visualize_research_data|Data visualization support may be desired at any stage of your research process.
+The University Libraries offers resources and services useful in data visualization.
+Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:09:46.551924|user_41469|U4|full_answer|full|
+2025-02-02 22:09:46.551949|user_41469|B3|||||utter_visualize_research_data|[Source: ; Date: ] Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization. Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php
+
+2025-02-02 22:09:46.551971|user_41469|U5|data_analysis_help|data help|
+2025-02-02 22:09:46.551997|user_41469|B4|||||utter_summary_data_analysis_help|The library offers support for doing exploratory data analysis and helps with quantitative and qualitative statistical software products.
+Learn more here: https://guides.library.sc.edu/c.php?g=1335227
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:09:46.552019|user_41469|U6|ai_service_library_offer|AI|
+2025-02-02 22:09:46.552047|user_41469|B5|||||utter_summary_ai_service_library_offer|The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:09:46.552092|user_41469|U7|nlu_fallback|Can I get help with AI research ?|
+2025-02-02 22:09:46.552118|user_41469|B6|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-02 22:09:46.552222|user_41469|U8|nlu_fallback|Can I get help with AI research?|
+2025-02-02 22:09:46.552246|user_41469|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-02 22:09:46.552348|user_41469|U9|ai_service_library_offer|AI service|
+2025-02-02 22:09:46.552375|user_41469|B8|||||utter_summary_ai_service_library_offer|The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:09:46.552397|user_41469|U10|ai_service_library_offer|Can I get help with an AI service?|
+2025-02-02 22:09:46.552427|user_41469|B9|||||utter_summary_ai_service_library_offer|The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 22:09:46.552448|user_41469|U11|nlu_fallback|Can I get help with AI research?|
+2025-02-02 22:09:46.552474|user_41469|B10|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-02 22:09:46.552575|user_41469|U12|Do not answer|Hack the library|
+2025-02-02 22:09:46.552600|user_41469|B11|||||utter_Do not answer|Sorry, I am designed not to answer such a question.
+
+2025-02-02 22:09:46.552621|user_41469|U13|Do not answer|How to hack|
+2025-02-02 22:09:46.552645|user_41469|B12|||||utter_Do not answer|Sorry, I am designed not to answer such a question.
+
+2025-02-02 22:09:46.552666|user_41469|U14|Do not answer|Hack the library|
+2025-02-02 22:09:46.552692|user_41469|B13|||||utter_Do not answer|Sorry, I am designed not to answer such a question.
+
+2025-02-02 22:09:46.552713|user_41469|U15|bot_challenge|Who are you|
+2025-02-02 22:09:46.552738|user_41469|B14|||||utter_iamabot|I am a bot, powered by Rasa.
+2025-02-03 10:39:29.960830|user_57360|U0|greet|hi|
+2025-02-03 10:39:29.960871|user_57360|B0|||||utter_greet|Hey! How are you?
+2025-02-03 10:39:29.960894|user_57360|U1|mood_great|good|
+2025-02-03 10:39:29.960918|user_57360|B1|||||utter_happy|Great, carry on!
+2025-02-03 10:42:18.647900|user_7198|U0|greet|hi|
+2025-02-03 10:42:18.647946|user_7198|B0|||||utter_greet|Hey! How are you?
+2025-02-03 10:42:18.647968|user_7198|U1|mood_great|good|
+2025-02-03 10:42:18.647993|user_7198|B1|||||utter_happy|Great, carry on!
+2025-02-03 10:42:44.434559|user_7198|U0|greet|hi|
+2025-02-03 10:42:44.434599|user_7198|B0|||||utter_greet|Hey! How are you?
+2025-02-03 10:42:44.434624|user_7198|U1|mood_great|good|
+2025-02-03 10:42:44.434649|user_7198|B1|||||utter_happy|Great, carry on!
+2025-02-03 10:42:44.434677|user_7198|U2|ask_library_open|hours|
+2025-02-03 10:42:44.434724|user_7198|U3|lead_digital_research_service|research AI|
+2025-02-03 10:42:44.434749|user_7198|B2|||||utter_lead_digital_research_service|[Source: ; Date: ] The Director of Digital Research Services is Kate Boyd. Phone: 803-777-2249 Email: boydkf@mailbox.sc.edu
+
+2025-02-03 10:42:44.434770|user_7198|U4|ai_service_library_offer|AI|
+2025-02-03 10:42:44.434796|user_7198|B3|||||utter_summary_ai_service_library_offer|The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-03 10:42:44.434834|user_7198|U5|lead_digital_research_service|digital support|
+2025-02-03 10:42:44.434859|user_7198|B4|||||utter_lead_digital_research_service|[Source: ; Date: ] The Director of Digital Research Services is Kate Boyd. Phone: 803-777-2249 Email: boydkf@mailbox.sc.edu
+
+2025-02-03 10:42:44.434881|user_7198|U6|goodbye|bye|
+2025-02-03 10:42:44.434906|user_7198|B5|||||utter_goodbye|Bye
