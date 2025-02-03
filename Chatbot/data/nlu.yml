@@ -1,209 +1,223 @@
 version: "3.1"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
 
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
 
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
 
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
 
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
 
-- intent: ask_library_open
-  examples: |
-    - is the library open?
-    - library hours
-    - library open
-    - Library closing time
+  - intent: ask_library_open
+    examples: |
+      - is the library open?
+      - library hours
+      - library open
+      - Library closing time
 
+  - intent: full_answer
+    examples: |
+      - Tell me the full answer.
+      - Can you provide the full answer?
+      - I need the complete answer.
+      - Could you give me the full answer?
+      - What is the full answer?
+      - Give me the complete answer, please.
+      - Please provide the full answer.
+      - Can you show me the entire answer?
+      - I want the full answer.
+      - Could you provide the entire answer?
+      - Tell me the complete answer.
+      - Show me the full answer.
+      - I'd like to know the full answer.
+      - Can I get the full answer, please?
+      - What is the entire answer?
+      - Provide me with the full answer.
+      - Please give me the complete answer.
+      - I want to see the entire answer.
+      - Would you give me the full answer?
+      - Can you explain the full answer to me?
 
-- intent: full_answer
-  examples: |
-    - Tell me the full answer.
-    - Can you provide the full answer?
-    - I need the complete answer.
-    - Could you give me the full answer?
-    - What is the full answer?
-    - Give me the complete answer, please.
-    - Please provide the full answer.
-    - Can you show me the entire answer?
-    - I want the full answer.
-    - Could you provide the entire answer?
-    - Tell me the complete answer.
-    - Show me the full answer.
-    - I'd like to know the full answer.
-    - Can I get the full answer, please?
-    - What is the entire answer?
-    - Provide me with the full answer.
-    - Please give me the complete answer.
-    - I want to see the entire answer.
-    - Would you give me the full answer?
-    - Can you explain the full answer to me?
-    
-- intent: Do not answer
-  examples: |
-    - How do I hack the library?
-- intent: library_provide_access_wall
-  examples: |
-    - Does the library provide access to the Wall Street Journal online?
-    - Does the Library provide access to the Wall Street Journal online?
-    - Does the library offer access to the Wall Street Journal online?
-    - Does the library provide access to the online Wall Street Journal?
-    - Does the library have access to the Wall Street Journal online?
-    - Does the library provide access to The Wall Street Journal online?
-- intent: cant_connect_eduroam_wireless
-  examples: |
-    - Why can't I connect to the eduroam wireless network?
-    - How do I connect to eduroam wireless network?
-    - How can I connect to eduroam wireless network?
-    - Why can't I connect to eduroam wireless network?
-    - How can I connect to the eduroam wireless network?
-    - Why can't I connect to my eduroam wireless network?
-- intent: contact_library
-  examples: |
-    - How can I contact the library?
-    - How can I contact a library?
-    - How do I contact the library?
-    - How do I contact a library?
-    - Tell me the best way to contact the library?
-    - How can I get in touch with the library?
-- intent: ai_service_library_offer
-  examples: |
-    - What AI services does the library offer?
-    - What AI services does a library offer?
-    - What services does the library offer?
-    - What AI services do libraries offer?
-    - What AI services does the library provide?
-    - list the AI services that the library offers?
-- intent: lead_digital_research_service
-  examples: |
-    - who leads digital research services?
-    - Who leads digital research services?
-    - Who leads digital research?
-    - Who leads the digital research services?
-    - Who is responsible for digital research services?
-    - Who manages digital research services?
-    - Who leads Digital Research Services?
-- intent: data_analysis_help
-  examples: |
-    - Data analysis help
-    - Data analysis help in data analysis.
-    - Data analysis help with data analysis.
-    - Data analysis help you with data analysis.
-    - Data analysis help you improve your data analysis skills.
-    - Data analysis help to improve data analysis.
-    - Data analysis help in data analysis and data analysis.
-- intent: use_digital_tool_research
-  examples: |
-    - How can I use digital tools in research?
-    - How can I use digital tools for research?
-    - How do I use digital tools in research?
-    - How can we use digital tools in research?
-    - How can I use digital tools in my research?
-    - How do I use digital tools for research?
-- intent: data_organization
-  examples: |
-    - Data organization
-    - Data organization data organization data organization data organization data organization data organization
-    - Data organization Data organization Data organization Data organization Data organization Data organization
-    - Data organization Data organization data organization data organization data organization data organization
-    - Data organization data organization data organization data organization data organization
-    - Data organization Data organization Data organization Data organization Data organization
-    - Data organization Data organization Data organization Data organization.
-- intent: visualize_research_data
-  examples: |
-    - How can I visualize my research data?
-    - Tell me the best way to visualize research data?
-    - How do I visualize my research data?
-    - How do I visualize research data?
-    - How do you visualize research data?
-    - How can I visualize research data?
-- intent: library_offer_workshop
-  examples: |
-    - Does the library offer workshops?
-    - Is the library offering workshops?
-    - Does the library offer workshops? If so why?
-    - Do libraries offer workshops?
-    - Does the library have workshops?
-    - Does the Library offer workshops?
+  - intent: Do not answer
+    examples: |
+      - How do I hack the library?
+  - intent: library_provide_access_wall
+    examples: |
+      - Does the library provide access to the Wall Street Journal online?
+      - Does the Library provide access to the Wall Street Journal online?
+      - Does the library offer access to the Wall Street Journal online?
+      - Does the library provide access to the online Wall Street Journal?
+      - Does the library have access to the Wall Street Journal online?
+      - Does the library provide access to The Wall Street Journal online?
+  - intent: cant_connect_eduroam_wireless
+    examples: |
+      - Why can't I connect to the eduroam wireless network?
+      - How do I connect to eduroam wireless network?
+      - How can I connect to eduroam wireless network?
+      - Why can't I connect to eduroam wireless network?
+      - How can I connect to the eduroam wireless network?
+      - Why can't I connect to my eduroam wireless network?
+  - intent: contact_library
+    examples: |
+      - How can I contact the library?
+      - How can I contact a library?
+      - How do I contact the library?
+      - How do I contact a library?
+      - Tell me the best way to contact the library?
+      - How can I get in touch with the library?
+  - intent: ai_service_library_offer
+    examples: |
+      - What AI services does the library offer?
+      - What AI services does a library offer?
+      - What services does the library offer?
+      - What AI services do libraries offer?
+      - What AI services does the library provide?
+      - list the AI services that the library offers?
+  - intent: lead_digital_research_service
+    examples: |
+      - who leads digital research services?
+      - Who leads digital research services?
+      - Who leads digital research?
+      - Who leads the digital research services?
+      - Who is responsible for digital research services?
+      - Who manages digital research services?
+      - Who leads Digital Research Services?
+  - intent: data_analysis_help
+    examples: |
+      - Data analysis help
+      - Data analysis help in data analysis.
+      - Data analysis help with data analysis.
+      - Data analysis help you with data analysis.
+      - Data analysis help you improve your data analysis skills.
+      - Data analysis help to improve data analysis.
+      - Data analysis help in data analysis and data analysis.
+  - intent: use_digital_tool_research
+    examples: |
+      - How can I use digital tools in research?
+      - How can I use digital tools for research?
+      - How do I use digital tools in research?
+      - How can we use digital tools in research?
+      - How can I use digital tools in my research?
+      - How do I use digital tools for research?
+  - intent: data_organization
+    examples: |
+      - Data organization
+      - Data organization data organization data organization data organization data organization data organization
+      - Data organization Data organization Data organization Data organization Data organization Data organization
+      - Data organization Data organization data organization data organization data organization data organization
+      - Data organization data organization data organization data organization data organization
+      - Data organization Data organization Data organization Data organization Data organization
+      - Data organization Data organization Data organization Data organization.
+  - intent: visualize_research_data
+    examples: |
+      - How can I visualize my research data?
+      - Tell me the best way to visualize research data?
+      - How do I visualize my research data?
+      - How do I visualize research data?
+      - How do you visualize research data?
+      - How can I visualize research data?
+  - intent: library_offer_workshop
+    examples: |
+      - Does the library offer workshops?
+      - Is the library offering workshops?
+      - Does the library offer workshops? If so why?
+      - Do libraries offer workshops?
+      - Does the library have workshops?
+      - Does the Library offer workshops?
+      - intent: provide_feedback
+      examples: |
+        - I want to give feedback
+        - Can I provide feedback?
+        - I'd like to share my thoughts
+  - intent: rate_experience
+    examples: |
+      - I rate it 5
+      - My rating is 3
+      - 4
+  - intent: skip_feedback
+    examples: |
+      - I don't want to give feedback
+      - Skip feedback
+      - Not now

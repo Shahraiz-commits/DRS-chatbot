@@ -1,87 +1,97 @@
 version: "3.1"
 
 stories:
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+      - action: action_save_conversation
+      - action: action_session_id
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-  - action: action_save_conversation
-  - action: action_session_id
+  - story: sad path 1
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: affirm
+      - action: utter_happy
+      - action: action_save_conversation
+      - action: action_session_id
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-  - action: action_save_conversation
-  - action: action_session_id
+  - story: sad path 2
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: deny
+      - action: utter_goodbye
+      - action: action_save_conversation
+      - action: action_session_id
 
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
-  - action: action_save_conversation
-  - action: action_session_id
+  - story: library_provide_access_wall path
+    steps:
+      - intent: library_provide_access_wall
+      - action: utter_summary_library_provide_access_wall
+      - intent: full_answer
+      - action: utter_library_provide_access_wall
 
+  - story: cant_connect_eduroam_wireless path
+    steps:
+      - intent: cant_connect_eduroam_wireless
+      - action: utter_summary_cant_connect_eduroam_wireless
+      - intent: full_answer
+      - action: utter_cant_connect_eduroam_wireless
 
-- story: library_provide_access_wall path
-  steps:
-  - intent: library_provide_access_wall
-  - action: utter_summary_library_provide_access_wall
-  - intent: full_answer
-  - action: utter_library_provide_access_wall
-    
-- story: cant_connect_eduroam_wireless path
-  steps:
-  - intent: cant_connect_eduroam_wireless
-  - action: utter_summary_cant_connect_eduroam_wireless
-  - intent: full_answer
-  - action: utter_cant_connect_eduroam_wireless
-    
-- story: contact_library path
-  steps:
-  - intent: contact_library
-  - action: utter_summary_contact_library
-  - intent: full_answer
-  - action: utter_contact_library
-    
-- story: ai_service_library_offer path
-  steps:
-  - intent: ai_service_library_offer
-  - action: utter_summary_ai_service_library_offer
-  - intent: full_answer
-  - action: utter_ai_service_library_offer
-    
-- story: data_analysis_help path
-  steps:
-  - intent: data_analysis_help
-  - action: utter_summary_data_analysis_help
-  - intent: full_answer
-  - action: utter_data_analysis_help
-    
-- story: data_organization path
-  steps:
-  - intent: data_organization
-  - action: utter_summary_data_organization
-  - intent: full_answer
-  - action: utter_data_organization
-    
-- story: visualize_research_data path
-  steps:
-  - intent: visualize_research_data
-  - action: utter_summary_visualize_research_data
-  - intent: full_answer
-  - action: utter_visualize_research_data
-    
+  - story: contact_library path
+    steps:
+      - intent: contact_library
+      - action: utter_summary_contact_library
+      - intent: full_answer
+      - action: utter_contact_library
+
+  - story: ai_service_library_offer path
+    steps:
+      - intent: ai_service_library_offer
+      - action: utter_summary_ai_service_library_offer
+      - intent: full_answer
+      - action: utter_ai_service_library_offer
+
+  - story: data_analysis_help path
+    steps:
+      - intent: data_analysis_help
+      - action: utter_summary_data_analysis_help
+      - intent: full_answer
+      - action: utter_data_analysis_help
+
+  - story: data_organization path
+    steps:
+      - intent: data_organization
+      - action: utter_summary_data_organization
+      - intent: full_answer
+      - action: utter_data_organization
+
+  - story: visualize_research_data path
+    steps:
+      - intent: visualize_research_data
+      - action: utter_summary_visualize_research_data
+      - intent: full_answer
+      - action: utter_visualize_research_data
+
+  - story: Feedback flow
+    steps:
+      - intent: provide_feedback
+      - action: utter_ask_feedback
+      - intent: rate_experience
+      - action: action_store_feedback
+      - action: utter_thank_feedback
+
+  - story: Skip feedback
+    steps:
+      - intent: skip_feedback
+      - action: utter_thank_feedback

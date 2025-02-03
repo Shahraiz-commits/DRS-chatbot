@@ -10,6 +10,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from datetime import datetime, timezone, timedelta
 #import panda as pd
 from nrclex import NRCLex
+import json
 
 
 class ActionSaveConversation(Action):
@@ -187,4 +188,25 @@ class ActionLibraryOpen(Action):
                  "https://sc.edu/about/offices_and_divisions/"
                  "university_libraries/about/hours/index.php")
         dispatcher.utter_message(resp)
+        return []
+
+from rasa_sdk.events import SlotSet
+
+class ActionStoreFeedback(Action):
+    def name(self) -> Text:
+        return "action_store_feedback"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        feedback_data = {
+            "message": tracker.latest_message.get("text"),
+            "feedback": tracker.get_slot("feedback"),
+            "timestamp": datetime.now().isoformat()
+        }
+        
+        with open("feedback.txt", "a") as f:
+            f.write(json.dumps(feedback_data) + "\n")
+        
         return []

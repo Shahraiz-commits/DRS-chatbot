@@ -179,3 +179,22 @@ This is a brief summary. For more details, please ask for the full answer.
 
 2025-02-02 21:04:20.743591|user_85550|U19|goodbye|bye|
 2025-02-02 21:04:20.743623|user_85550|B18|||||utter_goodbye|Bye
+2025-02-03 09:51:02.723517|d46d5bb4f15d4f4bbc8df76a9efe3e60|U0|ask_library_open|library hours|
+2025-02-03 09:51:02.724383|d46d5bb4f15d4f4bbc8df76a9efe3e60|U1|cant_connect_eduroam_wireless|cant connect to eduroam|
+2025-02-03 09:51:02.724383|d46d5bb4f15d4f4bbc8df76a9efe3e60|B0|||||utter_summary_cant_connect_eduroam_wireless|To access the eduroam wireless network, you must use your Network username with @ds.sc.edu added to the end.
+Your Network password is the same as your email password.The most common problem that is NOT related to general capacity or hardware issues is that your password has expired and needs to be updated.
+Learn more here: https://libanswers.library.sc.edu/faq/23748
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-03 09:51:02.724383|d46d5bb4f15d4f4bbc8df76a9efe3e60|U2|affirm|director|
+2025-02-03 09:51:02.724383|d46d5bb4f15d4f4bbc8df76a9efe3e60|B1|||||utter_happy|Great, carry on!
+2025-02-03 10:00:03.547893|user_2691|U0|ask_library_open|library hours|
+2025-02-03 10:00:03.548893|user_2691|U1|lead_digital_research_service|who is the director|
+2025-02-03 10:00:03.548893|user_2691|B0|||||utter_lead_digital_research_service|[Source: ; Date: ] The Director of Digital Research Services is Kate Boyd. Phone: 803-777-2249 Email: boydkf@mailbox.sc.edu
+
+2025-02-03 10:00:03.548893|user_2691|U2|affirm|test|
+2025-02-03 10:00:03.548893|user_2691|B1|||||utter_happy|Great, carry on!
+2025-02-03 10:00:28.120752|user_81491|U0|greet|hello|
+2025-02-03 10:00:28.121886|user_81491|B0|||||utter_greet|Hey! How are you?
+2025-02-03 10:00:28.122767|user_81491|U1|mood_great|Im great how are you!|
+2025-02-03 10:00:28.122767|user_81491|B1|||||utter_happy|Great, carry on!

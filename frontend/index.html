@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>University Digital Research Services Chatbot</title>
-    <link rel="stylesheet" href="./styles.css">
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>University Digital Research Services Chatbot</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="container">
     <div id="chatContainer">
       <div id="chatHeader">Digital Research Services Chatbot</div>
+      <div id="endChatContainer">
+        <button id="endChatBtn">End Conversation</button>
+      </div>
+      <div id="quickActions">
+        <button class="actionBtn" data-query="What are the library hours?">Library Hours</button>
+        <button class="actionBtn" data-query="Who is the director?">Director Info</button>
+        <button class="actionBtn" data-query="What services do you offer?">Services</button>
+        <button class="actionBtn" data-query="How can I contact the library?">Contact</button>
+      </div>
       <div id="chatLog"></div>
       <div id="inputArea">
         <input type="text" id="userInput" placeholder="Type your message..." />
@@ -15,9 +27,37 @@
       </div>
     </div>
 
-    <!-- Footer -->
-    <div id="footer">Created by Shahraiz and Kiran</div>
+    <div id="infoPanel">
+      <h2>About This Chatbot</h2>
+      <p>Welcome to the Digital Research Services Chatbot! I'm here to help you with:</p>
+      <ul>
+        <li>Library hours and access</li>
+        <li>Research tools and services</li>
+        <li>Digital resources</li>
+        <li>Contact information</li>
+        <li>And much more!</li>
+      </ul>
+      <p>Feel free to ask any questions about our services or click one of the quick action buttons above to get
+        started.</p>
+    </div>
+  </div>
 
-    <script src="./script.js"></script>
-  </body>
+  <!-- Survey Form -->
+  <div id="survey" class="survey-modal">
+    <div class="survey-content">
+      <h3>Feedback Survey</h3>
+      <label for="rating">Rating (1-5):</label>
+      <input type="number" id="rating" min="1" max="5">
+      <label for="comments">Comments:</label>
+      <textarea id="comments"></textarea>
+      <button id="submitFeedbackBtn">Submit</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">Created by Shahraiz and Kiran</div>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>

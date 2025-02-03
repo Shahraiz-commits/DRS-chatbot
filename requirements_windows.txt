@@ -86,6 +86,7 @@ msgpack==1.0.3
 multidict==5.2.0
 # netifaces==0.11.0
 networkx==2.6.3
+NRCLex==3.0.0
 numpy==1.23.5
 oauthlib==3.2.0
 opt_einsum==3.4.0
