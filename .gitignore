@@ -1,6 +1,7 @@
 # Python bytecode files
 *.pyc
 *.pyo
+*.pyd
 __pycache__
 
 # Rasa specific files
@@ -9,6 +10,11 @@ rasa/
 *.db
 *.sqlite3
 *.log
+
+# Stuff we can recreate
+Chatbot/models/
+Chatbot/chats.csv
+Chatbot/feedback.txt
 
 # Virtual environment
 venv/
