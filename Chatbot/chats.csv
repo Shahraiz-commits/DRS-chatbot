@@ -1,0 +1,181 @@
+input_time|conversation_id|count|intent|user_input| entity_name|entity_value|action|bot_reply|
+2022-10-27 16:16:16.404150|7c7d4bba78834d01937df49e85703aef|U0|greet|hi|
+2022-10-27 16:16:16.412114|7c7d4bba78834d01937df49e85703aef|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|U1|mood_unhappy|whats upp|
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|B1|||||utter_cheer_up|Here is something to cheer you up:
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|B2|||||utter_did_that_help|Did that help you?
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|U2|goodbye|bye|
+2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|B3|||||utter_goodbye|Bye
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|U0|greet|hi|
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|U1|mood_unhappy|whats upp|
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|B1|||||utter_cheer_up|Here is something to cheer you up:
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|B2|||||utter_did_that_help|Did that help you?
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|U2|goodbye|bye|
+2022-10-27 16:22:22.266678|7c7d4bba78834d01937df49e85703aef|B3|||||utter_goodbye|Bye
+2022-10-27 16:22:22.266678|7c7d4bba78834d01937df49e85703aef|U3|greet|hi|
+2022-10-27 16:22:22.266678|7c7d4bba78834d01937df49e85703aef|B4|||||utter_greet|Hey! How are you?
+2022-10-27 16:22:22.269051|7c7d4bba78834d01937df49e85703aef|U4|bot_challenge|how are youuuu|
+2022-10-27 16:22:22.269051|7c7d4bba78834d01937df49e85703aef|B5|||||utter_iamabot|I am a bot, powered by Rasa.
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|U0|greet|hi|
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|U1|mood_unhappy|whats upp|
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|B1|||||utter_cheer_up|Here is something to cheer you up:
+2022-10-27 16:22:34.192255|7c7d4bba78834d01937df49e85703aef|B2|||||utter_did_that_help|Did that help you?
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|U2|goodbye|bye|
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|B3|||||utter_goodbye|Bye
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|U3|greet|hi|
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|B4|||||utter_greet|Hey! How are you?
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|U4|bot_challenge|how are youuuu|
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|B5|||||utter_iamabot|I am a bot, powered by Rasa.
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|U5|goodbye|bye|
+2022-10-27 16:22:34.207906|7c7d4bba78834d01937df49e85703aef|B6|||||utter_goodbye|Bye
+2022-10-27 16:24:54.513998|a3652bcf738c4b72bfec5c9b8578cd23|U0|greet|hello|
+2022-10-27 16:24:54.513998|a3652bcf738c4b72bfec5c9b8578cd23|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:24:54.513998|a3652bcf738c4b72bfec5c9b8578cd23|U1|bot_challenge|what do you know|
+2022-10-27 16:24:54.513998|a3652bcf738c4b72bfec5c9b8578cd23|B1|||||utter_iamabot|I am a bot, powered by Rasa.
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|U2|goodbye|bye|
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|B2|||||utter_goodbye|Bye
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|U3|greet|hi|
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|B3|||||utter_greet|Hey! How are you?
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|U4|affirm|sorry|
+2022-10-27 16:24:54.519523|a3652bcf738c4b72bfec5c9b8578cd23|B4|||||utter_happy|Great, carry on!
+2022-10-27 16:25:02.297127|a3652bcf738c4b72bfec5c9b8578cd23|U0|greet|hello|
+2022-10-27 16:25:02.297127|a3652bcf738c4b72bfec5c9b8578cd23|B0|||||utter_greet|Hey! How are you?
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U1|bot_challenge|what do you know|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B1|||||utter_iamabot|I am a bot, powered by Rasa.
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U2|goodbye|bye|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B2|||||utter_goodbye|Bye
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U3|greet|hi|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B3|||||utter_greet|Hey! How are you?
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U4|affirm|sorry|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B4|||||utter_happy|Great, carry on!
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U5|goodbye|bye|
+2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B5|||||utter_goodbye|Bye
+2025-02-02 20:56:32.512829|user_85550|U0|greet|hi|
+2025-02-02 20:56:32.512868|user_85550|B0|||||utter_greet|Hey! How are you?
+2025-02-02 20:56:32.512892|user_85550|U1|mood_great|good|
+2025-02-02 20:56:32.512918|user_85550|B1|||||utter_happy|Great, carry on!
+2025-02-02 20:56:38.890724|user_85550|U0|greet|hi|
+2025-02-02 20:56:38.890760|user_85550|B0|||||utter_greet|Hey! How are you?
+2025-02-02 20:56:38.890782|user_85550|U1|mood_great|good|
+2025-02-02 20:56:38.890807|user_85550|B1|||||utter_happy|Great, carry on!
+2025-02-02 20:56:38.890873|user_85550|U2|greet|hello|
+2025-02-02 20:56:38.890897|user_85550|B2|||||utter_greet|Hey! How are you?
+2025-02-02 20:56:38.890917|user_85550|U3|bot_challenge|who are you|
+2025-02-02 20:56:38.890942|user_85550|B3|||||utter_iamabot|I am a bot, powered by Rasa.
+2025-02-02 20:59:56.803451|user_85550|U0|greet|hi|
+2025-02-02 20:59:56.803495|user_85550|B0|||||utter_greet|Hey! How are you?
+2025-02-02 20:59:56.803518|user_85550|U1|mood_great|good|
+2025-02-02 20:59:56.803544|user_85550|B1|||||utter_happy|Great, carry on!
+2025-02-02 20:59:56.803610|user_85550|U2|greet|hello|
+2025-02-02 20:59:56.803635|user_85550|B2|||||utter_greet|Hey! How are you?
+2025-02-02 20:59:56.803657|user_85550|U3|bot_challenge|who are you|
+2025-02-02 20:59:56.803683|user_85550|B3|||||utter_iamabot|I am a bot, powered by Rasa.
+2025-02-02 20:59:56.803787|user_85550|U4|ask_library_open|library hours|
+2025-02-02 20:59:56.803834|user_85550|U5|lead_digital_research_service|digital research|
+2025-02-02 20:59:56.803859|user_85550|B4|||||utter_lead_digital_research_service|[Source: ; Date: ] The Director of Digital Research Services is Kate Boyd. Phone: 803-777-2249 Email: boydkf@mailbox.sc.edu
+
+2025-02-02 20:59:56.803881|user_85550|U6|data_analysis_help|help with data|
+2025-02-02 20:59:56.803908|user_85550|B5|||||utter_summary_data_analysis_help|The library offers support for doing exploratory data analysis and helps with quantitative and qualitative statistical software products.
+Learn more here: https://guides.library.sc.edu/c.php?g=1335227
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 20:59:56.803930|user_85550|U7|greet|Ai help|
+2025-02-02 20:59:56.803958|user_85550|B6|||||utter_greet|Hey! How are you?
+2025-02-02 20:59:56.803978|user_85550|U8|ai_service_library_offer|AI|
+2025-02-02 20:59:56.804006|user_85550|B7|||||utter_summary_ai_service_library_offer|The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 20:59:56.804029|user_85550|U9|ai_service_library_offer|AI resources|
+2025-02-02 20:59:56.804057|user_85550|B8|||||utter_summary_ai_service_library_offer|The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 20:59:56.804079|user_85550|U10|data_organization|data viz|
+2025-02-02 20:59:56.804107|user_85550|B9|||||utter_summary_data_organization|The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more.
+Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 20:59:56.804130|user_85550|U11|visualize_research_data|data visualization|
+2025-02-02 20:59:56.804157|user_85550|B10|||||utter_summary_visualize_research_data|Data visualization support may be desired at any stage of your research process.
+The University Libraries offers resources and services useful in data visualization.
+Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 20:59:56.804179|user_85550|U12|nlu_fallback|data vis|
+2025-02-02 20:59:56.804203|user_85550|B11|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-02 21:04:20.742621|user_85550|U0|greet|hi|
+2025-02-02 21:04:20.742669|user_85550|B0|||||utter_greet|Hey! How are you?
+2025-02-02 21:04:20.742691|user_85550|U1|mood_great|good|
+2025-02-02 21:04:20.742756|user_85550|B1|||||utter_happy|Great, carry on!
+2025-02-02 21:04:20.742796|user_85550|U2|greet|hello|
+2025-02-02 21:04:20.742818|user_85550|B2|||||utter_greet|Hey! How are you?
+2025-02-02 21:04:20.742825|user_85550|U3|bot_challenge|who are you|
+2025-02-02 21:04:20.742835|user_85550|B3|||||utter_iamabot|I am a bot, powered by Rasa.
+2025-02-02 21:04:20.742902|user_85550|U4|ask_library_open|library hours|
+2025-02-02 21:04:20.742920|user_85550|U5|lead_digital_research_service|digital research|
+2025-02-02 21:04:20.742929|user_85550|B4|||||utter_lead_digital_research_service|[Source: ; Date: ] The Director of Digital Research Services is Kate Boyd. Phone: 803-777-2249 Email: boydkf@mailbox.sc.edu
+
+2025-02-02 21:04:20.742937|user_85550|U6|data_analysis_help|help with data|
+2025-02-02 21:04:20.742962|user_85550|B5|||||utter_summary_data_analysis_help|The library offers support for doing exploratory data analysis and helps with quantitative and qualitative statistical software products.
+Learn more here: https://guides.library.sc.edu/c.php?g=1335227
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 21:04:20.742984|user_85550|U7|greet|Ai help|
+2025-02-02 21:04:20.743010|user_85550|B6|||||utter_greet|Hey! How are you?
+2025-02-02 21:04:20.743018|user_85550|U8|ai_service_library_offer|AI|
+2025-02-02 21:04:20.743029|user_85550|B7|||||utter_summary_ai_service_library_offer|The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 21:04:20.743038|user_85550|U9|ai_service_library_offer|AI resources|
+2025-02-02 21:04:20.743050|user_85550|B8|||||utter_summary_ai_service_library_offer|The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 21:04:20.743059|user_85550|U10|data_organization|data viz|
+2025-02-02 21:04:20.743083|user_85550|B9|||||utter_summary_data_organization|The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more.
+Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 21:04:20.743114|user_85550|U11|visualize_research_data|data visualization|
+2025-02-02 21:04:20.743128|user_85550|B10|||||utter_summary_visualize_research_data|Data visualization support may be desired at any stage of your research process.
+The University Libraries offers resources and services useful in data visualization.
+Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 21:04:20.743149|user_85550|U12|nlu_fallback|data vis|
+2025-02-02 21:04:20.743163|user_85550|B11|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-02 21:04:20.743271|user_85550|U13|visualize_research_data|visualtioaon|
+2025-02-02 21:04:20.743299|user_85550|B12|||||utter_summary_visualize_research_data|Data visualization support may be desired at any stage of your research process.
+The University Libraries offers resources and services useful in data visualization.
+Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 21:04:20.743320|user_85550|U14|data_organization|help wiith data organzation|
+2025-02-02 21:04:20.743347|user_85550|B13|||||utter_summary_data_organization|The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more.
+Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 21:04:20.743368|user_85550|U15|library_provide_access_wall|wall|
+2025-02-02 21:04:20.743395|user_85550|B14|||||utter_summary_library_provide_access_wall|Yes!
+University Libraries has a Wall Street Journal Higher Education Membership which provides free individual access for all USC Columbia students, faculty, and staff through WSJ.com, as well as WSJ apps, subscriber-only podcasts, and videos.
+Learn more here: https://libanswers.library.sc.edu/faq/221692
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 21:04:20.743416|user_85550|U16|full_answer|full answer please|
+2025-02-02 21:04:20.743440|user_85550|B15|||||utter_library_provide_access_wall|[Source: ; Date: ] Yes! University Libraries has a Wall Street Journal Higher Education Membership which provides free individual access for all USC Columbia students, faculty, and staff through WSJ.com, as well as WSJ apps, subscriber-only podcasts, and videos. Learn more here: https://libanswers.library.sc.edu/faq/221692
+
+2025-02-02 21:04:20.743461|user_85550|U17|library_provide_access_wall|wall street journal access|
+2025-02-02 21:04:20.743485|user_85550|B16|||||utter_summary_library_provide_access_wall|Yes!
+University Libraries has a Wall Street Journal Higher Education Membership which provides free individual access for all USC Columbia students, faculty, and staff through WSJ.com, as well as WSJ apps, subscriber-only podcasts, and videos.
+Learn more here: https://libanswers.library.sc.edu/faq/221692
+This is a brief summary. For more details, please ask for the full answer.
+
+2025-02-02 21:04:20.743506|user_85550|U18|full_answer|full answer please|
+2025-02-02 21:04:20.743530|user_85550|B17|||||utter_library_provide_access_wall|[Source: ; Date: ] Yes! University Libraries has a Wall Street Journal Higher Education Membership which provides free individual access for all USC Columbia students, faculty, and staff through WSJ.com, as well as WSJ apps, subscriber-only podcasts, and videos. Learn more here: https://libanswers.library.sc.edu/faq/221692
+
+2025-02-02 21:04:20.743591|user_85550|U19|goodbye|bye|
+2025-02-02 21:04:20.743623|user_85550|B18|||||utter_goodbye|Bye

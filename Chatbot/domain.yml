@@ -1,0 +1,148 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+
+  - full_answer
+  - Do not answer
+  - library_provide_access_wall
+  - cant_connect_eduroam_wireless
+  - contact_library
+  - ai_service_library_offer
+  - lead_digital_research_service
+  - data_analysis_help
+  - use_digital_tool_research
+  - data_organization
+  - visualize_research_data
+  - library_offer_workshop
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_out_of_scope:
+  - text: Sorry, I can't handle that request. Please rephrase the question
+ 
+
+  utter_Do not answer:
+  - text: |
+      Sorry, I am designed not to answer such a question.
+    
+  utter_summary_library_provide_access_wall:
+  - text: |
+      Yes!
+      University Libraries has a Wall Street Journal Higher Education Membership which provides free individual access for all USC Columbia students, faculty, and staff through WSJ.com, as well as WSJ apps, subscriber-only podcasts, and videos.
+      Learn more here: https://libanswers.library.sc.edu/faq/221692
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_library_provide_access_wall:
+  - text: |
+      [Source: ; Date: ] Yes! University Libraries has a Wall Street Journal Higher Education Membership which provides free individual access for all USC Columbia students, faculty, and staff through WSJ.com, as well as WSJ apps, subscriber-only podcasts, and videos. Learn more here: https://libanswers.library.sc.edu/faq/221692
+    
+  utter_summary_cant_connect_eduroam_wireless:
+  - text: |
+      To access the eduroam wireless network, you must use your Network username with @ds.sc.edu added to the end.
+      Your Network password is the same as your email password.The most common problem that is NOT related to general capacity or hardware issues is that your password has expired and needs to be updated.
+      Learn more here: https://libanswers.library.sc.edu/faq/23748
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_cant_connect_eduroam_wireless:
+  - text: |
+      [Source: ; Date: ] To access the eduroam wireless network, you must use your Network username with @ds.sc.edu added to the end. Your Network password is the same as your email password.The most common problem that is NOT related to general capacity or hardware issues is that your password has expired and needs to be updated. Learn more here: https://libanswers.library.sc.edu/faq/23748
+    
+  utter_summary_contact_library:
+  - text: |
+      For general inquiries, you can email us at digres@mailbox.sc.edu or connect with us through our Digital Research and Collections Insights Listserv here: https://sc.libwizard.com/f/digireslib.
+      We're happy to assist you!
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_contact_library:
+  - text: |
+      [Source: ; Date: ] For general inquiries, you can email us at digres@mailbox.sc.edu or connect with us through our Digital Research and Collections Insights Listserv here: https://sc.libwizard.com/f/digireslib. We're happy to assist you!
+    
+  utter_summary_ai_service_library_offer:
+  - text: |
+      The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects.
+      You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_ai_service_library_offer:
+  - text: |
+      [Source: ; Date: ] The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php
+    
+  utter_lead_digital_research_service:
+  - text: |
+      [Source: ; Date: ] The Director of Digital Research Services is Kate Boyd. Phone: 803-777-2249 Email: boydkf@mailbox.sc.edu
+    
+  utter_summary_data_analysis_help:
+  - text: |
+      The library offers support for doing exploratory data analysis and helps with quantitative and qualitative statistical software products.
+      Learn more here: https://guides.library.sc.edu/c.php?g=1335227
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_analysis_help:
+  - text: |
+      [Source: ; Date: ] The library offers support for doing exploratory data analysis and helps with quantitative and qualitative statistical software products. Learn more here: https://guides.library.sc.edu/c.php?g=1335227
+    
+  utter_use_digital_tool_research:
+  - text: |
+      [Source: ; Date: ] The library offers support for using digital processes, tools, and methods to enable and present new forms of research. Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php
+    
+  utter_summary_data_organization:
+  - text: |
+      The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more.
+      Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_organization:
+  - text: |
+      [Source: ; Date: ] The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more. Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php
+    
+  utter_summary_visualize_research_data:
+  - text: |
+      Data visualization support may be desired at any stage of your research process.
+      The University Libraries offers resources and services useful in data visualization.
+      Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_visualize_research_data:
+  - text: |
+      [Source: ; Date: ] Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization. Learn more here: https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php
+    
+  utter_library_offer_workshop:
+  - text: |
+      [Source: ; Date: ] You can register for free library workshops on a variety of research data and publishing topics. Learn more here: https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0
+    
+
+actions:
+  - action_save_conversation
+  - action_session_id
+  - action_emotion
+  - action_library_open
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
