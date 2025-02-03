@@ -62,7 +62,7 @@ class ActionSaveConversation(Action):
             with open('chats.csv','a') as file:
                 file.write(chat_data)
 
-        dispatcher.utter_message(text="")
+        #dispatcher.utter_message(text="")
         
 
         return []
@@ -76,7 +76,7 @@ class ActionSessionId(Action):
     ) -> List[Dict[Text, Any]]:
 
         conversation_id=tracker.sender_id
-        dispatcher.utter_message("The conversation id is {}".format(conversation_id))
+        #dispatcher.utter_message("The conversation id is {}".format(conversation_id))
         return []
 
 class ActionEmotion(Action):
@@ -90,8 +90,8 @@ class ActionEmotion(Action):
         
         text = str(tracker.latest_message["text"])
         emotion = NRCLex(text)
-        dispatcher.utter_message(text="The affect frequencies are: {}".format(emotion.affect_frequencies))
-        dispatcher.utter_message(text="Top emotions detected are: {}".format(emotion.top_emotions))
+        #dispatcher.utter_message(text="The affect frequencies are: {}".format(emotion.affect_frequencies))
+        #dispatcher.utter_message(text="Top emotions detected are: {}".format(emotion.top_emotions))
 
         return []
 
