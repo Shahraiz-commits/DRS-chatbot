@@ -1,2 +1,0 @@
-{"message": "/rate_experience{\"rating\": \"4\", \"comments\": \"goood chatbot\"}", "feedback": null, "timestamp": "2025-02-03T11:16:31.840174"}
-{"message": "5", "feedback": null, "timestamp": "2025-02-03T11:24:17.244026"}

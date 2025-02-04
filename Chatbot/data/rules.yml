@@ -1,56 +1,69 @@
 version: "3.1"
 
 rules:
-  # - rule: Say goodbye anytime the user says goodbye
-  #   steps:
-  #     - intent: goodbye
-  #     - action: utter_goodbye
-  #     - action: action_save_conversation
-  #     - action: action_session_id
-  #     - action: action_emotion
 
-  - rule: Say 'I am a bot' anytime the user challenges
-    steps:
-      - intent: bot_challenge
-      - action: utter_iamabot
-      - action: action_save_conversation
-      - action: action_session_id
-      - action: action_emotion
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_save_conversation
+  - action: action_session_id
+  - action: action_emotion
 
-  - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
-    steps:
-      - intent: nlu_fallback
-      - action: utter_out_of_scope
-      - action: action_save_conversation
-      - action: action_session_id
-      - action: action_emotion
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - action: action_save_conversation
+  - action: action_session_id
+  - action: action_emotion
 
-  - rule: Answer if library is open
-    steps:
-      - intent: ask_library_open
-      - action: action_library_open
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_out_of_scope
+  - action: action_save_conversation
+  - action: action_session_id
+  - action: action_emotion
 
-  - rule: Answer Do not answer
-    steps:
-      - intent: Do not answer
-      - action: utter_Do not answer
+- rule: Answer if library is open
+  steps:
+  - intent: ask_library_open
+  - action: action_library_open
 
-  - rule: Answer lead_digital_research_service
-    steps:
-      - intent: lead_digital_research_service
-      - action: utter_lead_digital_research_service
 
-  - rule: Answer use_digital_tool_research
-    steps:
-      - intent: use_digital_tool_research
-      - action: utter_use_digital_tool_research
-
-  - rule: Answer library_offer_workshop
-    steps:
-      - intent: library_offer_workshop
-      - action: utter_library_offer_workshop
-
-  - rule: Ask for feedback at the end of the conversation
-    steps:
-      - intent: goodbye
-      - action: utter_ask_feedback
+- rule: Answer Do not answer
+  steps:
+  - intent: Do not answer
+  - action: utter_Do not answer
+    
+- rule: Answer lead_digital_research_service
+  steps:
+  - intent: lead_digital_research_service
+  - action: utter_lead_digital_research_service
+    
+- rule: Answer use_digital_tool_research
+  steps:
+  - intent: use_digital_tool_research
+  - action: utter_use_digital_tool_research
+    
+- rule: Answer library_offer_workshop
+  steps:
+  - intent: library_offer_workshop
+  - action: utter_library_offer_workshop
+    
+- rule: Answer library_microwave
+  steps:
+  - intent: library_microwave
+  - action: utter_library_microwave
+    
+- rule: Answer library_columbia_campus
+  steps:
+  - intent: library_columbia_campus
+  - action: utter_library_columbia_campus
+    
+- rule: Answer call_number_use_it
+  steps:
+  - intent: call_number_use_it
+  - action: utter_call_number_use_it
+    

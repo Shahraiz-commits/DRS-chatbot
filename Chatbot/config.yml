@@ -49,4 +49,4 @@ policies: null
 
 action_endpoint:
   url: "http://localhost:5005/webhook"
-assistant_id: 20250202-195512-frigid-pool
+assistant_id: 20250203-194059-wintry-tail
