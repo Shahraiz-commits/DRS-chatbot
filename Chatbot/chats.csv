@@ -56,3 +56,77 @@ input_time|conversation_id|count|intent|user_input| entity_name|entity_value|act
 2025-02-03 20:45:09.936220|user_58108|B0|||||utter_greet|Hey! How are you?
 2025-02-03 20:45:09.936243|user_58108|U1|mood_great|good|
 2025-02-03 20:45:09.936270|user_58108|B1|||||utter_happy|Great, carry on!
+2025-02-03 20:54:03.959700|user_40532|U0|greet|/greet|
+2025-02-03 20:54:03.959748|user_40532|B0|||||utter_greet|Hey! How are you?
+2025-02-03 20:54:03.959778|user_40532|U1|nlu_fallback|bad|
+2025-02-03 20:54:03.959804|user_40532|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-03 20:54:18.440152|user_40532|U0|greet|/greet|
+2025-02-03 20:54:18.440197|user_40532|B0|||||utter_greet|Hey! How are you?
+2025-02-03 20:54:18.440219|user_40532|U1|nlu_fallback|bad|
+2025-02-03 20:54:18.440245|user_40532|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-03 20:54:18.440277|user_40532|U2|mood_unhappy|im sad|
+2025-02-03 20:54:18.440301|user_40532|B2|||||utter_cheer_up|Here is something to cheer you up:
+2025-02-03 20:54:18.440321|user_40532|B3|||||utter_did_that_help|Did that help you?
+2025-02-03 20:54:18.440343|user_40532|U3|greet|hi|
+2025-02-03 20:54:18.440367|user_40532|B4|||||utter_greet|Hey! How are you?
+2025-02-03 20:54:18.440388|user_40532|U4|nlu_fallback|who are you|
+2025-02-03 20:54:18.440413|user_40532|B5|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-03 20:54:28.573663|user_40532|U0|greet|/greet|
+2025-02-03 20:54:28.573706|user_40532|B0|||||utter_greet|Hey! How are you?
+2025-02-03 20:54:28.573728|user_40532|U1|nlu_fallback|bad|
+2025-02-03 20:54:28.573753|user_40532|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-03 20:54:28.573786|user_40532|U2|mood_unhappy|im sad|
+2025-02-03 20:54:28.573809|user_40532|B2|||||utter_cheer_up|Here is something to cheer you up:
+2025-02-03 20:54:28.573830|user_40532|B3|||||utter_did_that_help|Did that help you?
+2025-02-03 20:54:28.573851|user_40532|U3|greet|hi|
+2025-02-03 20:54:28.573876|user_40532|B4|||||utter_greet|Hey! How are you?
+2025-02-03 20:54:28.573897|user_40532|U4|nlu_fallback|who are you|
+2025-02-03 20:54:28.573923|user_40532|B5|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-03 20:54:28.573982|user_40532|U5|bot_challenge|are you human|
+2025-02-03 20:54:28.574007|user_40532|B6|||||utter_iamabot|I am a bot, powered by Rasa.
+2025-02-03 21:02:07.400587|user_15872|U0|greet|/greet|
+2025-02-03 21:02:07.400638|user_15872|B0|||||utter_greet|Hey! How are you?
+2025-02-03 21:02:07.400664|user_15872|U1|greet|hi|
+2025-02-03 21:02:07.400684|user_15872|B1|||||utter_greet|Hey! How are you?
+2025-02-03 21:02:07.400706|user_15872|U2|mood_great|good|
+2025-02-03 21:02:07.400736|user_15872|B2|||||utter_happy|Great, carry on!
+2025-02-03 21:02:16.036209|user_15872|U0|greet|/greet|
+2025-02-03 21:02:16.036256|user_15872|B0|||||utter_greet|Hey! How are you?
+2025-02-03 21:02:16.036279|user_15872|U1|greet|hi|
+2025-02-03 21:02:16.036308|user_15872|B1|||||utter_greet|Hey! How are you?
+2025-02-03 21:02:16.036328|user_15872|U2|mood_great|good|
+2025-02-03 21:02:16.036354|user_15872|B2|||||utter_happy|Great, carry on!
+2025-02-03 21:02:16.036382|user_15872|U3|nlu_fallback|south carolinian library|
+2025-02-03 21:02:16.036407|user_15872|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-03 21:02:38.724714|user_15872|U0|greet|/greet|
+2025-02-03 21:02:38.724757|user_15872|B0|||||utter_greet|Hey! How are you?
+2025-02-03 21:02:38.724781|user_15872|U1|greet|hi|
+2025-02-03 21:02:38.724808|user_15872|B1|||||utter_greet|Hey! How are you?
+2025-02-03 21:02:38.724829|user_15872|U2|mood_great|good|
+2025-02-03 21:02:38.724853|user_15872|B2|||||utter_happy|Great, carry on!
+2025-02-03 21:02:38.724881|user_15872|U3|nlu_fallback|south carolinian library|
+2025-02-03 21:02:38.724906|user_15872|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-03 21:02:38.724936|user_15872|U4|lead_digital_research_service|digital services|
+2025-02-03 21:02:38.724961|user_15872|B4|||||utter_lead_digital_research_service|[Source: ; Date: ] The Director of Digital Research Services is Kate Boyd. Phone: 803-777-2249 Email: boydkf@mailbox.sc.edu
+
+2025-02-03 21:02:38.724983|user_15872|U5|nlu_fallback|contact information|
+2025-02-03 21:02:38.725008|user_15872|B5|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-03 21:02:42.834262|user_15872|U0|greet|/greet|
+2025-02-03 21:02:42.834306|user_15872|B0|||||utter_greet|Hey! How are you?
+2025-02-03 21:02:42.834329|user_15872|U1|greet|hi|
+2025-02-03 21:02:42.834358|user_15872|B1|||||utter_greet|Hey! How are you?
+2025-02-03 21:02:42.834379|user_15872|U2|mood_great|good|
+2025-02-03 21:02:42.834405|user_15872|B2|||||utter_happy|Great, carry on!
+2025-02-03 21:02:42.834434|user_15872|U3|nlu_fallback|south carolinian library|
+2025-02-03 21:02:42.834459|user_15872|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-03 21:02:42.834490|user_15872|U4|lead_digital_research_service|digital services|
+2025-02-03 21:02:42.834515|user_15872|B4|||||utter_lead_digital_research_service|[Source: ; Date: ] The Director of Digital Research Services is Kate Boyd. Phone: 803-777-2249 Email: boydkf@mailbox.sc.edu
+
+2025-02-03 21:02:42.834537|user_15872|U5|nlu_fallback|contact information|
+2025-02-03 21:02:42.834561|user_15872|B5|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-03 21:02:42.834590|user_15872|U6|nlu_fallback|contact|
+2025-02-03 21:02:42.834614|user_15872|B6|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-03 21:02:50.462843|user_28160|U0|greet|/greet|
+2025-02-03 21:02:50.462883|user_28160|B0|||||utter_greet|Hey! How are you?
+2025-02-03 21:02:50.462906|user_28160|U1|nlu_fallback|contact|
+2025-02-03 21:02:50.462931|user_28160|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question

@@ -15,7 +15,7 @@ function scrollChatToBottom() {
 function addMessageToChat(text, className) {
   const container = document.createElement("div");
   container.classList.add("message-container");
-
+  text = marked.parse(text)
   const messageDiv = document.createElement("div");
   messageDiv.classList.add("message", className);
   // Replace full URLs with link icons
