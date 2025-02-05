@@ -15,6 +15,8 @@ rasa/
 Chatbot/models/
 Chatbot/chats.csv
 Chatbot/feedback.txt
+rasa_template/Chats.csv
+Chatbot/Chats.csv
 
 # Virtual environment
 venv/

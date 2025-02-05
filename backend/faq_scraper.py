@@ -136,7 +136,7 @@ for link in links_to_be_processed:
         full_answer += p + '\n'
         full_answer = re.sub(r'[“”"]', '', full_answer) # Remove unnecessary double quotes/curly quotes from answer. Messes with yaml syntax
         full_answer = re.sub(r'\s+', ' ', full_answer) # Remove whitespace
-    full_answer += '\n' + "Learn more here: " + link
+    full_answer += '\n' + "[Learn more here](" + link + ")"
     
     
     

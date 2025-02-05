@@ -37,10 +37,10 @@ rules:
   - intent: Do not answer
   - action: utter_Do not answer
     
-- rule: Answer lead_digital_research_service
+- rule: Answer director_digital_research_service
   steps:
-  - intent: lead_digital_research_service
-  - action: utter_lead_digital_research_service
+  - intent: director_digital_research_service
+  - action: utter_director_digital_research_service
     
 - rule: Answer use_digital_tool_research
   steps:
@@ -52,6 +52,11 @@ rules:
   - intent: library_offer_workshop
   - action: utter_library_offer_workshop
     
+- rule: Answer call_number_use_it
+  steps:
+  - intent: call_number_use_it
+  - action: utter_call_number_use_it
+    
 - rule: Answer library_microwave
   steps:
   - intent: library_microwave
@@ -61,9 +66,4 @@ rules:
   steps:
   - intent: library_columbia_campus
   - action: utter_library_columbia_campus
-    
-- rule: Answer call_number_use_it
-  steps:
-  - intent: call_number_use_it
-  - action: utter_call_number_use_it
     
