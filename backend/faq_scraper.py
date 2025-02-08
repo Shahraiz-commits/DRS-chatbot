@@ -1,14 +1,13 @@
 import bs4
-import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import chromedriver_binary # sets PATH for driver automatically
+#import chromedriver_binary # sets PATH for driver automatically
 import time
 import csv
 import re
 
-"""IMPORTANT. RUN COMMAND: pip install chromedriver-binary-auto
-This installs the correct chromedriver for you so selenium can use it
+"""IMPORTANT. If selenium doesnt run RUN COMMAND: pip install chromedriver-binary-auto
+This installs the correct chromedriver for you so selenium can use it (uncomment the driver import)
 Need selenium to access dynamically loaded javascript content (FAQs)"""
 
 
@@ -35,9 +34,9 @@ def save_link(link):
             print(f"link already exists: {link}")
             return False
             
-# Save the fetched question answer pairs into faq_QA.csv
-def save_QA(questions, answers):
-    with open("backend/faq_QA.csv", "a", newline="") as f:
+# Save the fetched question answer pairs into the given file
+def save_QA(questions, answers, filePath):
+    with open(filePath, "a", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         # zip pairs each question with its corresponding answer and loops through both lists (questions and answers) simultaneously
         for question, answer in zip(questions, answers):
@@ -46,6 +45,18 @@ def save_QA(questions, answers):
     
 # Keep hyperlinks intact in answers    
 def configure_hyperlink(text):
+    
+    # For single a tags, as in for hyperlinks at the end of the answer
+    if text.name == 'a':
+        # Remove all <span> tags inside the <a> tag. Removes the "Opens in new window" text
+        for span in text.find_all('span'):
+            span.decompose()  
+        
+        link_text = text.get_text(strip=True)
+        link_href = text.get('href', '#')  # Default to '#' if no href
+        #link_text = re.sub(r'Opens\s?in\s?new\s?window', '', link_text, flags=re.IGNORECASE).strip()
+        return f"[{link_text}]({link_href})"
+    
     # Replace <a> tags with markdown links
     for a_tag in text.find_all('a'):
         link_text = a_tag.get_text()
@@ -125,17 +136,35 @@ for link in links_to_be_processed:
     print(f"running question {count} faq: {link}")
     full_answer = ""
     driver.get(link) # The faq webpage
-    time.sleep(0.2)  # Wait for JavaScript to load content
+    time.sleep(0.5)  # Wait for JavaScript to load content
     soup = bs4.BeautifulSoup(driver.page_source, "html.parser")
     
     question = get_valid_question(soup)   
     answerDIV = soup.find('div', class_ = "s-la-faq-answer-body") or soup.find('div', class_ = "s-la-faq-answer")
-    answer_paragraphs = answerDIV.find_all('p')
-    for p in answer_paragraphs:
-        p = configure_hyperlink(p)
-        full_answer += p + '\n'
-        full_answer = re.sub(r'[“”"]', '', full_answer) # Remove unnecessary double quotes/curly quotes from answer. Messes with yaml syntax
-        full_answer = re.sub(r'\s+', ' ', full_answer) # Remove whitespace
+    #answer_paragraphs = answerDIV.find_all('p')
+    #for p in answer_paragraphs:
+        #p = configure_hyperlink(p)
+        #full_answer += p + '\n'
+    for element in answerDIV.contents:
+        if(element.name):
+            element = configure_hyperlink(element)
+            full_answer += element + '\n'
+    
+    # Hyperlinks relevant to the answer
+    try:
+        answerLinksDIV = soup.find('div', class_ = "s-la-faq-links")
+        answer_links = answerLinksDIV.find_all('a')
+        for a in answer_links:
+            a = configure_hyperlink(a)
+            #print(f"hyper link: {a}")
+            full_answer += a + '\n'
+    except Exception as e:
+        print(f"No extra links error: {e}")
+         
+    full_answer = re.sub(r'[“”"]', '', full_answer) # Remove unnecessary double quotes/curly quotes from answer. Messes with yaml syntax
+    full_answer = re.sub(r'[ \t]+', ' ', full_answer)  # Remove extra spaces/tabs
+    full_answer = re.sub(r'[\u00A0\u2000-\u200B\u202F\u205F\u3000]', ' ', full_answer) # Remove non-breaking spaces and other unicode spaces that break yaml
+    full_answer = re.sub(r'\n+', '\n', full_answer)  # Replace multiple new lines with a single new line
     full_answer += '\n' + "[Learn more here](" + link + ")"
     
     
@@ -147,8 +176,7 @@ for link in links_to_be_processed:
     all_answers.append(full_answer)
     count +=1
 
-# Save question answer pairs
-save_QA(all_questions, all_answers)
-    
-
-        
+# Save question answer pairs to:
+botFile = "data/input/Chat.csv" # For pushing to bot
+testFile = "backend/faq_QA.csv" # For testing
+save_QA(all_questions, all_answers, botFile)

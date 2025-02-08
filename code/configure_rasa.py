@@ -12,6 +12,8 @@ from sumy.summarizers.lsa import LsaSummarizer
 from sumy.nlp.tokenizers import Tokenizer
 from typing import List
 from datetime import datetime
+#import nltk
+#nltk.download('punkt_tab')
 
 def get_plain_text_length(answer: str):
     """Calculates the length of the text in characters after removing all links that may appear in the text
@@ -243,7 +245,8 @@ def main():
             rules_list.append(rule_string)
 
             domain_string = get_domain_yaml_string(
-                intent, f"[Source: {source}; Date: {date}] {answer}"
+                #intent, f"[Source: {source}; Date: {date}] {answer}"
+                intent, answer
             )
             domain_list.append(domain_string)
             # if year == 2024:
@@ -266,7 +269,8 @@ def main():
 
             # maps the providing answer RASA action to answer
             domain_string_answer = get_domain_yaml_string(
-                intent, f"[Source: {source}; Date: {date}] {answer}"
+                #intent, f"[Source: {source}; Date: {date}] {answer}"
+                intent, answer
             )
             domain_list.append(domain_string_answer)
             # if year == 2024:

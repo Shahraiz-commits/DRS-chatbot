@@ -64,6 +64,13 @@ stories:
   - intent: full_answer
   - action: utter_visualize_research_data
     
+- story: search_south_caroliniana_library path
+  steps:
+  - intent: search_south_caroliniana_library
+  - action: utter_summary_search_south_caroliniana_library
+  - intent: full_answer
+  - action: utter_search_south_caroliniana_library
+    
 - story: set_appointment_research_use path
   steps:
   - intent: set_appointment_research_use
@@ -155,47 +162,47 @@ stories:
   - intent: full_answer
   - action: utter_south_caroliniana_library
     
-- story: interlibrary_loan_use_it path
+- story: library_columbia_campus path
   steps:
-  - intent: interlibrary_loan_use_it
-  - action: utter_summary_interlibrary_loan_use_it
+  - intent: library_columbia_campus
+  - action: utter_summary_library_columbia_campus
   - intent: full_answer
-  - action: utter_interlibrary_loan_use_it
+  - action: utter_library_columbia_campus
     
-- story: pascal_delivers path
+- story: floor_plan_finding_location path
   steps:
-  - intent: pascal_delivers
-  - action: utter_summary_pascal_delivers
+  - intent: floor_plan_finding_location
+  - action: utter_summary_floor_plan_finding_location
   - intent: full_answer
-  - action: utter_pascal_delivers
+  - action: utter_floor_plan_finding_location
     
-- story: library_main_find_usc path
+- story: hathitrust_university_member path
   steps:
-  - intent: library_main_find_usc
-  - action: utter_summary_library_main_find_usc
+  - intent: hathitrust_university_member
+  - action: utter_summary_hathitrust_university_member
   - intent: full_answer
-  - action: utter_library_main_find_usc
+  - action: utter_hathitrust_university_member
     
-- story: photocopy_scan_library path
+- story: get_free_subscription_new path
   steps:
-  - intent: photocopy_scan_library
-  - action: utter_summary_photocopy_scan_library
+  - intent: get_free_subscription_new
+  - action: utter_summary_get_free_subscription_new
   - intent: full_answer
-  - action: utter_photocopy_scan_library
+  - action: utter_get_free_subscription_new
     
-- story: workshop_offered_library path
+- story: library_catalog_show_item path
   steps:
-  - intent: workshop_offered_library
-  - action: utter_summary_workshop_offered_library
+  - intent: library_catalog_show_item
+  - action: utter_summary_library_catalog_show_item
   - intent: full_answer
-  - action: utter_workshop_offered_library
+  - action: utter_library_catalog_show_item
     
-- story: request_copy_manuscript path
+- story: suggest_title_library_purchase path
   steps:
-  - intent: request_copy_manuscript
-  - action: utter_summary_request_copy_manuscript
+  - intent: suggest_title_library_purchase
+  - action: utter_summary_suggest_title_library_purchase
   - intent: full_answer
-  - action: utter_request_copy_manuscript
+  - action: utter_suggest_title_library_purchase
     
 - story: retired_faculty_staff_retain path
   steps:
@@ -281,6 +288,48 @@ stories:
   - intent: full_answer
   - action: utter_get_help_citation
     
+- story: interlibrary_loan_use_it path
+  steps:
+  - intent: interlibrary_loan_use_it
+  - action: utter_summary_interlibrary_loan_use_it
+  - intent: full_answer
+  - action: utter_interlibrary_loan_use_it
+    
+- story: pascal_delivers path
+  steps:
+  - intent: pascal_delivers
+  - action: utter_summary_pascal_delivers
+  - intent: full_answer
+  - action: utter_pascal_delivers
+    
+- story: library_main_find_usc path
+  steps:
+  - intent: library_main_find_usc
+  - action: utter_summary_library_main_find_usc
+  - intent: full_answer
+  - action: utter_library_main_find_usc
+    
+- story: photocopy_scan_library path
+  steps:
+  - intent: photocopy_scan_library
+  - action: utter_summary_photocopy_scan_library
+  - intent: full_answer
+  - action: utter_photocopy_scan_library
+    
+- story: workshop_offered_library path
+  steps:
+  - intent: workshop_offered_library
+  - action: utter_summary_workshop_offered_library
+  - intent: full_answer
+  - action: utter_workshop_offered_library
+    
+- story: request_copy_manuscript path
+  steps:
+  - intent: request_copy_manuscript
+  - action: utter_summary_request_copy_manuscript
+  - intent: full_answer
+  - action: utter_request_copy_manuscript
+    
 - story: ask_help_searching_source path
   steps:
   - intent: ask_help_searching_source
@@ -294,6 +343,48 @@ stories:
   - action: utter_summary_cant_access_database_workplace
   - intent: full_answer
   - action: utter_cant_access_database_workplace
+    
+- story: visitor_come_library path
+  steps:
+  - intent: visitor_come_library
+  - action: utter_summary_visitor_come_library
+  - intent: full_answer
+  - action: utter_visitor_come_library
+    
+- story: find_published_example_action path
+  steps:
+  - intent: find_published_example_action
+  - action: utter_summary_find_published_example_action
+  - intent: full_answer
+  - action: utter_find_published_example_action
+    
+- story: register_access_ad_age path
+  steps:
+  - intent: register_access_ad_age
+  - action: utter_summary_register_access_ad_age
+  - intent: full_answer
+  - action: utter_register_access_ad_age
+    
+- story: library_charger_laptop_phone path
+  steps:
+  - intent: library_charger_laptop_phone
+  - action: utter_summary_library_charger_laptop_phone
+  - intent: full_answer
+  - action: utter_library_charger_laptop_phone
+    
+- story: library_textbook path
+  steps:
+  - intent: library_textbook
+  - action: utter_summary_library_textbook
+  - intent: full_answer
+  - action: utter_library_textbook
+    
+- story: library_reader_advisory_database path
+  steps:
+  - intent: library_reader_advisory_database
+  - action: utter_summary_library_reader_advisory_database
+  - intent: full_answer
+  - action: utter_library_reader_advisory_database
     
 - story: see_hostname_error_try path
   steps:
@@ -378,6 +469,13 @@ stories:
   - action: utter_summary_cant_login_interlibrary_loan
   - intent: full_answer
   - action: utter_cant_login_interlibrary_loan
+    
+- story: call_number_use_it path
+  steps:
+  - intent: call_number_use_it
+  - action: utter_summary_call_number_use_it
+  - intent: full_answer
+  - action: utter_call_number_use_it
     
 - story: access_specific_library_database path
   steps:
@@ -722,6 +820,13 @@ stories:
   - intent: full_answer
   - action: utter_library_provide_access_covidence
     
+- story: lost_found path
+  steps:
+  - intent: lost_found
+  - action: utter_summary_lost_found
+  - intent: full_answer
+  - action: utter_lost_found
+    
 - story: charge_card_cost_print path
   steps:
   - intent: charge_card_cost_print
@@ -742,88 +847,4 @@ stories:
   - action: utter_summary_library_fun_book_read
   - intent: full_answer
   - action: utter_library_fun_book_read
-    
-- story: lost_found path
-  steps:
-  - intent: lost_found
-  - action: utter_summary_lost_found
-  - intent: full_answer
-  - action: utter_lost_found
-    
-- story: visitor_come_library path
-  steps:
-  - intent: visitor_come_library
-  - action: utter_summary_visitor_come_library
-  - intent: full_answer
-  - action: utter_visitor_come_library
-    
-- story: find_published_example_action path
-  steps:
-  - intent: find_published_example_action
-  - action: utter_summary_find_published_example_action
-  - intent: full_answer
-  - action: utter_find_published_example_action
-    
-- story: register_access_ad_age path
-  steps:
-  - intent: register_access_ad_age
-  - action: utter_summary_register_access_ad_age
-  - intent: full_answer
-  - action: utter_register_access_ad_age
-    
-- story: library_charger_laptop_phone path
-  steps:
-  - intent: library_charger_laptop_phone
-  - action: utter_summary_library_charger_laptop_phone
-  - intent: full_answer
-  - action: utter_library_charger_laptop_phone
-    
-- story: library_textbook path
-  steps:
-  - intent: library_textbook
-  - action: utter_summary_library_textbook
-  - intent: full_answer
-  - action: utter_library_textbook
-    
-- story: library_reader_advisory_database path
-  steps:
-  - intent: library_reader_advisory_database
-  - action: utter_summary_library_reader_advisory_database
-  - intent: full_answer
-  - action: utter_library_reader_advisory_database
-    
-- story: floor_plan_finding_location path
-  steps:
-  - intent: floor_plan_finding_location
-  - action: utter_summary_floor_plan_finding_location
-  - intent: full_answer
-  - action: utter_floor_plan_finding_location
-    
-- story: hathitrust_university_member path
-  steps:
-  - intent: hathitrust_university_member
-  - action: utter_summary_hathitrust_university_member
-  - intent: full_answer
-  - action: utter_hathitrust_university_member
-    
-- story: get_free_subscription_new path
-  steps:
-  - intent: get_free_subscription_new
-  - action: utter_summary_get_free_subscription_new
-  - intent: full_answer
-  - action: utter_get_free_subscription_new
-    
-- story: library_catalog_show_item path
-  steps:
-  - intent: library_catalog_show_item
-  - action: utter_summary_library_catalog_show_item
-  - intent: full_answer
-  - action: utter_library_catalog_show_item
-    
-- story: suggest_title_library_purchase path
-  steps:
-  - intent: suggest_title_library_purchase
-  - action: utter_summary_suggest_title_library_purchase
-  - intent: full_answer
-  - action: utter_suggest_title_library_purchase
     

@@ -52,18 +52,8 @@ rules:
   - intent: library_offer_workshop
   - action: utter_library_offer_workshop
     
-- rule: Answer call_number_use_it
-  steps:
-  - intent: call_number_use_it
-  - action: utter_call_number_use_it
-    
 - rule: Answer library_microwave
   steps:
   - intent: library_microwave
   - action: utter_library_microwave
-    
-- rule: Answer library_columbia_campus
-  steps:
-  - intent: library_columbia_campus
-  - action: utter_library_columbia_campus
     

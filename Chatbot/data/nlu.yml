@@ -128,10 +128,10 @@ nlu:
   examples: |
     - What AI services does the library offer?
     - What AI services does a library offer?
-    - What services does the library offer?
     - list the AI services that the library offers?
     - What AI services does the library provide?
     - What AI services do libraries offer?
+    - What services does the library offer?
 - intent: director_digital_research_service
   examples: |
     - who is the director of digital research services?
@@ -156,8 +156,8 @@ nlu:
     - How can I use digital tools for research?
     - How do I use digital tools for research?
     - How do I use digital tools in research?
-    - How can I use digital tools in my research?
     - How can we use digital tools in research?
+    - How can I use digital tools in my research?
 - intent: data_organization
   examples: |
     - Data organization
@@ -171,10 +171,10 @@ nlu:
   examples: |
     - How can I visualize my research data?
     - How do I visualize my research data?
-    - How do you visualize research data?
-    - How can I visualize research data?
     - Tell me the best way to visualize research data?
     - How do I visualize research data?
+    - How can I visualize research data?
+    - How do you visualize research data?
 - intent: library_offer_workshop
   examples: |
     - Does the library offer workshops?
@@ -183,30 +183,38 @@ nlu:
     - Does the Library offer workshops?
     - Does the library have workshops?
     - Do libraries offer workshops?
+- intent: search_south_caroliniana_library
+  examples: |
+    - How do I search South Caroliniana Library's collections?
+    - How do I search the South Caroliniana Library collections?
+    - How do I search for South Caroliniana Library collections?
+    - How do I search South Caroliniana Library collections?
+    - How can I search South Caroliniana Library collections?
+    - How can I search South Caroliniana Library's collections?
 - intent: set_appointment_research_use
   examples: |
     - How do I set an appointment to do research or use your collections?
-    - How do I set up an appointment to do research?
-    - How do I set an appointment to do research or use my collection?
+    - How do I set an appointment to do research?
     - How do I set an appointment to do research or use my collections?
     - How do I set an appointment to do research or use your collection?
-    - How do I set an appointment to do research?
+    - How do I set an appointment to do research or use my collection?
+    - How do I set up an appointment to do research?
 - intent: african_american_ancestry_suggestion
   examples: |
     - I have African American ancestry. Do you have suggestions for researching my genealogy?
-    - How do I find out my African American ancestry?
     - I have African American ancestry. Do you have suggestions for researching my family history?
-    - How can I find out my African American ancestry?
     - Do you have any suggestions for researching my African American ancestry?
+    - How can I find out my African American ancestry?
     - I have African American ancestry. Do you have any suggestions for researching my genealogy?
+    - How do I find out my African American ancestry?
 - intent: order_highresolution_scan
   examples: |
     - How do I order a high-resolution scan?
+    - How can I order a high-resolution scan?
+    - How do I order high-resolution scans?
+    - How can I get a high-resolution scan?
     - How do I get a high-resolution scan?
     - How do I order a high resolution scan?
-    - How can I order a high-resolution scan?
-    - How can I get a high-resolution scan?
-    - How do I order high-resolution scans?
 - intent: south_caroliniana_library_building
   examples: |
     - Is the South Caroliniana Library building accessible to people with disabilities or who use wheelchairs, walkers, or other mobility aids?
@@ -220,34 +228,34 @@ nlu:
   examples: |
     - How can I see collection materials from South Caroliniana Library?
     - How can I see the collection materials at South Caroliniana Library?
-    - How do I see collection materials from South Caroliniana Library?
-    - How can I see the collection materials of South Caroliniana Library?
     - How can I see collections from South Caroliniana Library?
+    - How can I see the collection materials of South Caroliniana Library?
+    - How do I see collection materials from South Caroliniana Library?
     - How can I see the collection materials from South Caroliniana Library?
 - intent: found_image_south_caroliniana
   examples: |
     - I found an image from South Caroliniana Library in your Digital Collections. May I use it?
     - I found an image from the South Caroliniana Library in your Digital Collections. May I use it?
-    - I found an image from the South Caroliniana Library in your digital collections. May I use it?
     - I found an image from South Caroliniana Library in your digital collections. May I use it?
+    - I found an image from the South Caroliniana Library in your digital collections. May I use it?
     - I found an image from South Caroliniana Library in your Digital Collections. Can I use it?
     - I found an image of South Caroliniana Library in your Digital Collections. May I use it?
 - intent: im_publishing_book_related
   examples: |
     - I'm publishing a book related to South Carolina that you might be interested in for your collection. May I tell you about it?
     - I'm publishing a book related to South Carolina that you might be interested in for your collection. Can I tell you about it?
+    - I'm publishing a book about South Carolina that you might be interested in for your collection. May I tell you about it?
     - I'm publishing a book related to South Carolina that you may be interested in for your collection. May I tell you about it?
     - I am publishing a book related to South Carolina that you might be interested in for your collection. May I tell you about it?
-    - I'm publishing a book about South Carolina that you might be interested in for your collection. May I tell you about it?
     - I'm publishing a book about South Carolina that you might be interested in for your collection. Can I tell you about it?
 - intent: south_caroliniana_library_located
   examples: |
     - Where is the South Caroliniana Library located?
-    - How is the South Caroliniana Library located?
-    - Where is South Caroliniana Library located?
-    - Where is the South Caroliniana Library?
-    - Where is the South Caroliniana library located?
     - How is South Caroliniana Library located?
+    - How is the South Caroliniana Library located?
+    - Where is the South Caroliniana library located?
+    - Where is the South Caroliniana Library?
+    - Where is South Caroliniana Library located?
 - intent: im_publishing_work_us
   examples: |
     - I'm publishing a work that uses resources from the South Caroliniana Library's collections. How do I credit the Library?
@@ -269,131 +277,133 @@ nlu:
 - intent: park_visit_south_caroliniana
   examples: |
     - Where can I park to visit the South Caroliniana Library?
-    - Where can I park near the South Caroliniana Library?
+    - Where can I park and visit the South Caroliniana Library?
     - Where can I park at the South Caroliniana Library?
     - Where can I park for the South Caroliniana Library?
     - Where can I park to visit South Caroliniana Library?
-    - Where can I park and visit the South Caroliniana Library?
+    - Where can I park near the South Caroliniana Library?
 - intent: south_caroliniana_library_open
   examples: |
     - When is the South Caroliniana Library open?
-    - When is South Caroliniana library open?
-    - When is South Caroliniana Library open?
-    - When is the South Caroliniana library open?
     - When does the South Caroliniana Library open?
     - When is the South Caroliniana Library Open?
+    - When is the South Caroliniana library open?
+    - When is South Caroliniana library open?
+    - When is South Caroliniana Library open?
 - intent: south_caroliniana_library
   examples: |
     - What do you have at the South Caroliniana Library?
     - What do you have at South Caroliniana Library?
     - What do you have in the South Caroliniana Library?
     - What do you have at the South Caroliniana library?
-    - What do you have in South Caroliniana Library?
     - What do you have in the South Caroliniana library?
-- intent: interlibrary_loan_use_it
+    - What do you have in South Caroliniana Library?
+- intent: library_columbia_campus
   examples: |
-    - What is Interlibrary Loan and how do I use it?
-    - What is interlibrary loan? How do I use it?
-    - What is Interlibrary Loan? How can I use it?
-    - What is Interlibrary Loan? How do I use it?
-    - What is interlibrary loan and how do I use it?
-    - What is Interlibrary Loan?
-- intent: pascal_delivers
+    - What libraries are on the Columbia Campus?
+    - What libraries are on Columbia campus?
+    - What libraries are located on the Columbia campus?
+    - What libraries are on the Columbia campus?
+    - list the libraries on the Columbia campus?
+    - Which libraries are on the Columbia campus?
+- intent: floor_plan_finding_location
   examples: |
-    - What is PASCAL Delivers?
-    - What does PASCAL deliver?
-    - Tell me the PASCAL Delivers?
-    - What are PASCAL Delivers?
-    - What does PASCAL Delivers do?
-    - What is PASCAL delivers?
-- intent: library_main_find_usc
+    - Where are floor plans for finding locations within the Thomas Cooper Library?
+    - Where can I find floor plans for the Thomas Cooper Library?
+    - Where are floor plans for finding locations within Thomas Cooper Library?
+    - Where are floor plans for finding locations in the Thomas Cooper Library?
+    - Where is the floor plan for finding locations within the Thomas Cooper Library?
+    - Where can I find floor plans for Thomas Cooper Library?
+- intent: hathitrust_university_member
   examples: |
-    - The library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
-    - The library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do
-    - The Library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
-    - The library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me login. What can I do?
-    - My library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
-    - The library's main Find It at USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
-- intent: photocopy_scan_library
+    - What is HathiTrust and is the university a member?
+    - What is HathiTrust and is the university a member of?
+    - Tell me the HathiTrust and is the university a member?
+    - What is HathiTrust? Is the university a member?
+    - What is HathiTrust?
+    - What is HathiTrust and is the University a member?
+- intent: get_free_subscription_new
   examples: |
-    - Can I photocopy or scan at the library?
-    - Can I photocopy or scan at a library?
-    - Can I scan at the library?
-    - Can I scan or photocopy at the library?
-    - Can I photocopy or scan in the library?
-    - Can I copy or scan at the library?
-- intent: workshop_offered_library
+    - How can I get a free subscription to New York Times online through the library?
+    - How can I get a free subscription to the New York Times online through the library?
+    - How do I get a free subscription to the New York Times online through the library?
+    - How do I get a free subscription to the New York Times online?
+    - How do I get a free subscription to the New York Times online from the library?
+    - How can I get a free subscription to the New York Times online from the library?
+    - How can I get a free subscription to the New York Times online?
+- intent: library_catalog_show_item
   examples: |
-    - What workshops are offered in the library?
-    - Which workshops are offered in the library?
-    - What workshops are offered in library?
-    - list the workshops offered in the library?
-    - can you list the workshops offered in the library?
-    - What workshops are offered at the library?
-- intent: request_copy_manuscript
+    - The library catalog shows that an item is located at the Annex. How can I get it?
+    - The library catalog shows that an item is located at Annex. How can I get it?
+    - The library catalog shows that an item is located in Annex. How can I get it?
+    - The library catalog shows that an item is located at Annex. How do I get it?
+    - The library catalog shows that an item is located in Annex. How do I get it?
+    - The library catalog shows that an item is located at Annex. How can I find it?
+    - How do I find an item in the library catalog?
+- intent: suggest_title_library_purchase
   examples: |
-    - How can I request a copy of a manuscript?
-    - How do I request a copy of my manuscript?
-    - How do you request a copy of a manuscript?
-    - How do I request a copy of a manuscript?
-    - How do I get a copy of a manuscript?
-    - How can I request a copy of my manuscript?
+    - How can I suggest a title for the library to purchase?
+    - How do I suggest a title to the library to purchase?
+    - How do I suggest a title for the library to buy?
+    - How can I suggest a title for the library to buy?
+    - How can I suggest a title to the library to purchase?
+    - How do I suggest a title for the library to purchase?
 - intent: retired_faculty_staff_retain
   examples: |
     - Do retired faculty and staff retain their library privileges?
-    - Do retired faculty retain library privileges?
-    - How do retired faculty and staff retain library privileges?
     - Do retired faculty and staff retain library privileges?
     - Why do retired faculty and staff retain library privileges?
     - Do retired faculty and staff still retain library privileges?
+    - Do retired faculty retain library privileges?
+    - How do retired faculty and staff retain library privileges?
 - intent: library_provide_access_wall
   examples: |
     - Does the library provide access to the Wall Street Journal online?
-    - Does the library have access to the Wall Street Journal online?
     - Does the library provide access to the online Wall Street Journal?
-    - Does the library provide access to The Wall Street Journal online?
     - Does the Library provide access to the Wall Street Journal online?
+    - Does the library have access to the Wall Street Journal online?
     - Does the library offer access to the Wall Street Journal online?
+    - Does the library provide access to The Wall Street Journal online?
 - intent: print_library
   examples: |
     - How do I print in the library?
-    - How do I print in libraries?
     - How do I print in a library?
-    - How do I print in library?
-    - How can I print in the library?
     - How can I print in library?
+    - How do I print in library?
+    - How do I print in libraries?
+    - How can I print in the library?
 - intent: common_issue_printing
   examples: |
     - What are common issues with printing?
     - can you list the common issues with printing?
     - list the common issues with printing?
-    - list some common issues with printing?
-    - can you list the common problems with printing?
     - list the common problems with printing?
+    - can you list the common problems with printing?
+    - list some common issues with printing?
 - intent: access_harvard_business_case
   examples: |
     - How can I access Harvard Business Cases?
+    - How do I access Harvard Business Cases?
+    - How can I get access to Harvard Business Cases?
     - How do I find Harvard Business Cases?
     - How do I get access to Harvard Business Cases?
     - How can I find Harvard Business Cases?
-    - How do I access Harvard Business Cases?
-    - How can I get access to Harvard Business Cases?
 - intent: library_hire_student
   examples: |
     - Does the library hire students?
     - Does the library hire students? Why?
-    - Do libraries hire students?
     - Why does the library hire students?
-    - Is the library hiring students?
+    - Do libraries hire students?
     - Does a library hire students?
+    - Is the library hiring students?
 - intent: library_college_entrance_career
   examples: |
     - Does the library have college entrance and career practice tests and study guides?
     - Do libraries have college entrance and career practice tests and study guides?
     - Do the library have college entrance and career practice tests and study guides?
-    - Does the library have college entrance and career practice test and study guides?
-    - Does the Library have college entrance and career practice tests and study guides?
     - Do the libraries have college entrance and career practice tests and study guides?
+    - Does the Library have college entrance and career practice tests and study guides?
+    - Does the library have college entrance and career practice test and study guides?
 - intent: resource_help_learn_language
   examples: |
     - Are there resources to help me learn a language?
@@ -424,19 +434,67 @@ nlu:
 - intent: username_password_working_do
   examples: |
     - My username and password are not working. What should I do?
-    - What should I do if my username and password is not working?
-    - What should I do if my username and password are not working?
     - My username and password is not working. What should I do?
-    - My username and password are not working. What can I do?
     - My username and my password are not working. What should I do?
+    - What should I do if my username and password is not working?
+    - My username and password are not working. What can I do?
+    - What should I do if my username and password are not working?
 - intent: get_help_citation
   examples: |
     - Where can I get help with my citations?
-    - How can I get help with my citations?
+    - How do I get help with my citations?
     - How can I get help with citations?
     - How do I get help with citations?
     - Where can I get help with citations?
-    - How do I get help with my citations?
+    - How can I get help with my citations?
+- intent: interlibrary_loan_use_it
+  examples: |
+    - What is Interlibrary Loan and how do I use it?
+    - What is Interlibrary Loan? How do I use it?
+    - What is Interlibrary Loan? How can I use it?
+    - What is interlibrary loan and how do I use it?
+    - What is interlibrary loan? How do I use it?
+    - What is Interlibrary Loan?
+- intent: pascal_delivers
+  examples: |
+    - What is PASCAL Delivers?
+    - What does PASCAL deliver?
+    - What does PASCAL Delivers do?
+    - Tell me the PASCAL Delivers?
+    - What are PASCAL Delivers?
+    - What is PASCAL delivers?
+- intent: library_main_find_usc
+  examples: |
+    - The library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
+    - The library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do
+    - The library's main Find It at USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
+    - My library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
+    - The Library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
+    - The library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me login. What can I do?
+- intent: photocopy_scan_library
+  examples: |
+    - Can I photocopy or scan at the library?
+    - Can I photocopy or scan at a library?
+    - Can I scan or photocopy at the library?
+    - Can I scan at the library?
+    - Can I photocopy or scan in the library?
+    - Can I copy or scan at the library?
+- intent: workshop_offered_library
+  examples: |
+    - What workshops are offered in the library?
+    - list the workshops offered in the library?
+    - can you list the workshops offered in the library?
+    - Which workshops are offered in the library?
+    - What workshops are offered in library?
+    - What workshops are offered at the library?
+- intent: request_copy_manuscript
+  examples: |
+    - How can I request a copy of a manuscript?
+    - How can I request a copy of my manuscript?
+    - How do I request a copy of a manuscript?
+    - How do you request a copy of a manuscript?
+    - How do I get a copy of a manuscript?
+    - How do I request a copy of my manuscript?
 - intent: ask_help_searching_source
   examples: |
     - How can I ask for help with searching for sources on my topic?
@@ -449,51 +507,108 @@ nlu:
 - intent: cant_access_database_workplace
   examples: |
     - Why can't I access the databases from my workplace?
-    - Why can't I access databases from my workplace?
     - Why can't I access a database from my office?
-    - Why can't I access a database from my workplace?
     - Why can't I access the database from my workplace?
     - Why can't I access databases from my office?
+    - Why can't I access databases from my workplace?
+    - Why can't I access a database from my workplace?
+- intent: library_microwave
+  examples: |
+    - Does the library have a microwave?
+    - Is the library equipped with a microwave?
+    - Does the library have a microwave? Why?
+    - Does the library has a microwave?
+    - Does the Library have a microwave?
+    - Is there a microwave in the library?
+- intent: visitor_come_library
+  examples: |
+    - Can visitors come to the library?
+    - Can visitors come into the library?
+    - Can visitors come to library?
+    - Can people come to the library?
+    - Can visitors go to the library?
+    - Can visitors come to the Library?
+- intent: find_published_example_action
+  examples: |
+    - How do I find published examples of action research for my education research question?
+    - How do I find published examples of action research for education research question?
+    - How do I find published examples of action research for my educational research question?
+    - How can I find published examples of action research for my education research question?
+    - How do I find published examples of action research in education research question?
+    - How do I find published examples of action research questions?
+- intent: register_access_ad_age
+  examples: |
+    - How do I register for access to Ad Age?
+    - How do I register for Ad Age?
+    - How can I register for Ad Age?
+    - How do I register for ad age?
+    - How do I get access to Ad Age?
+    - How do I register to Ad Age?
+    - How do you register for Ad Age?
+- intent: library_charger_laptop_phone
+  examples: |
+    - Does the library have a charger for my laptop or phone?
+    - Does the library have a charger for my laptop and phone?
+    - Does the library have a charger for your laptop or phone?
+    - Does the library have a charger for my phone or laptop?
+    - Does the library have a charger for my laptop/phone?
+    - Does the library have a charger for my laptop?
+- intent: library_textbook
+  examples: |
+    - Does the library have my textbooks?
+    - Does the library have my books?
+    - Does my library have my textbooks?
+    - Do the library have my textbooks?
+    - Does the library have textbooks?
+    - Do the libraries have my textbooks?
+- intent: library_reader_advisory_database
+  examples: |
+    - Does the library have readers advisory databases?
+    - Do libraries have readers advisory databases?
+    - Does the library have a readers advisory database?
+    - Does the library have a reader advisory database?
+    - Does the library have readers' advisory databases?
+    - Does the library have reader advisory databases?
 - intent: see_hostname_error_try
   examples: |
     - I see a "Hostname Error" when I try to access a database. What do I do?
-    - What should I do when I see a "Hostname Error" when I try to access a database?
-    - I see a "Hostname Error" when I try to access a database. What should I do?
+    - I see a "hostname error" when I try to access a database. What do I do?
     - I see a "Hostname Error" when I try to access a database. What can I do?
     - What should I do if I see a Hostname Error when I try to access a database?
-    - I see a "hostname error" when I try to access a database. What do I do?
+    - What should I do when I see a "Hostname Error" when I try to access a database?
+    - I see a "Hostname Error" when I try to access a database. What should I do?
 - intent: software_available_library_computer
   examples: |
     - What software is available on the library computers?
-    - What software is available in library computers?
-    - Which software is available on library computers?
     - Tell me the software available on library computers?
-    - list the software available on library computers?
     - What software is available on library computers?
+    - list the software available on library computers?
+    - Which software is available on library computers?
+    - What software is available in library computers?
 - intent: library_color_copier
   examples: |
     - Does the library have a color copier?
+    - Is the library equipped with a color copier?
     - Does the library has a color copier?
     - Is there a color copier in the library?
-    - Is the library equipped with a color copier?
-    - Does a library have a color copier?
     - Do libraries have a color copier?
+    - Does a library have a color copier?
 - intent: starbucks_thomas_cooper
   examples: |
     - Where is the Starbucks in Thomas Cooper?
     - Where is Starbucks located in Thomas Cooper?
-    - Where's the Starbucks in Thomas Cooper?
-    - Where's Starbucks in Thomas Cooper?
     - Where is Starbucks in Thomas Cooper?
     - Starbucks in Thomas Cooper?
+    - Where's Starbucks in Thomas Cooper?
+    - Where's the Starbucks in Thomas Cooper?
 - intent: library_childrens_book
   examples: |
     - Does the library have children's books?
     - Does a library have children's books?
     - Does the library have books for children?
-    - Do the libraries have children's books?
     - Do libraries have children's books?
     - Does the library have any children's books?
+    - Do the libraries have children's books?
 - intent: take_online_proctored_exam
   examples: |
     - Where can I take an online or proctored exam?
@@ -506,51 +621,51 @@ nlu:
 - intent: request_book_delivered_campus
   examples: |
     - How do I request to have a book delivered to my campus office?
-    - How do I request a book to be delivered to my campus office?
     - How can I request to have a book delivered to my campus office?
+    - How can I request a book delivered to my campus office?
+    - How do I request a book to be delivered to my campus office?
     - How do I request that a book be delivered to my campus office?
     - How do I request a book delivered to my campus office?
-    - How can I request a book delivered to my campus office?
 - intent: get_library_card
   examples: |
     - How do I get a library card?
-    - How do I get my library card?
     - How do I get library card?
-    - How do you get a library card?
-    - How can I get a library card?
     - How can I get my library card?
+    - How can I get a library card?
+    - How do I get my library card?
+    - How do you get a library card?
 - intent: cant_connect_eduroam_wireless
   examples: |
     - Why can't I connect to the eduroam wireless network?
-    - How can I connect to the eduroam wireless network?
-    - Why can't I connect to my eduroam wireless network?
-    - How can I connect to eduroam wireless network?
-    - How do I connect to eduroam wireless network?
     - Why can't I connect to eduroam wireless network?
+    - How can I connect to the eduroam wireless network?
+    - How do I connect to eduroam wireless network?
+    - How can I connect to eduroam wireless network?
+    - Why can't I connect to my eduroam wireless network?
 - intent: renew_book
   examples: |
     - How do I renew books?
+    - How do I renew my books?
+    - How do I renew my book?
     - How do I renew my old books?
     - How can I renew my books?
-    - How do I renew my book?
     - How do I renew a book?
-    - How do I renew my books?
 - intent: hour_thomas_cooper_library
   examples: |
     - What are the hours for Thomas Cooper Library?
-    - show me the hours for Thomas Cooper Library?
-    - What are hours for the Thomas Cooper Library?
     - show me the hours of Thomas Cooper Library?
+    - show me the hours for Thomas Cooper Library?
     - What are hours for Thomas Cooper Library?
     - What are the hours for the Thomas Cooper Library?
+    - What are hours for the Thomas Cooper Library?
 - intent: cant_login_interlibrary_loan
   examples: |
     - Why can't I login to my Interlibrary Loan account?
-    - How can I login to my Interlibrary Loan account?
-    - Why can't I login to my Interlibrary loan account?
-    - Why can't I login to my interlibrary loan account?
     - Why can't I log into my Interlibrary Loan account?
+    - Why can't I login to my Interlibrary loan account?
     - How do I login to my Interlibrary Loan account?
+    - Why can't I login to my interlibrary loan account?
+    - How can I login to my Interlibrary Loan account?
 - intent: call_number_use_it
   examples: |
     - What is a call number and how do I use it?
@@ -563,11 +678,11 @@ nlu:
 - intent: access_specific_library_database
   examples: |
     - How do I access a specific library database?
-    - How can I access a specific library database?
-    - How do I access library databases?
-    - How can I access a library database?
-    - How do I access a library database?
     - How do I access a particular library database?
+    - How can I access a library database?
+    - How do I access library databases?
+    - How can I access a specific library database?
+    - How do I access a library database?
 - intent: many_book_check_out
   examples: |
     - How many books can I check out?
@@ -580,115 +695,115 @@ nlu:
 - intent: book_mailed_home_address
   examples: |
     - Can I have books mailed to my home address if I am a student at a distance?
+    - Can I have my books mailed to my home address if I am a student at distance?
     - Can I have books mailed to my home address if I am a student at distance?
     - Can I have books mailed to my home address if I am a distance student?
-    - Can I have my books mailed to my home address if I am a student at distance?
-    - Can I have books mailed to my home address if I'm a student at distance?
     - Can I have books sent to my home address if I am a student at distance?
+    - Can I have books mailed to my home address if I'm a student at distance?
 - intent: much_fee_late_return
   examples: |
     - How much are the fees for late returns and/or lost items?
-    - How much is the fee for late returns and/or lost items?
     - How much are the fees for late returns and lost items?
-    - How much are the fees for late return and/or lost items?
-    - How much is the fees for late returns and/or lost items?
     - How much is the fee for late return and/or lost items?
+    - How much are the fees for late return and/or lost items?
+    - How much is the fee for late returns and/or lost items?
+    - How much is the fees for late returns and/or lost items?
 - intent: library_provide_support_endnote
   examples: |
     - Does the library provide support for EndNote?
-    - Does the library support EndNote?
     - Is the library compatible with EndNote?
-    - Does the library support endnote?
     - Does the library supports EndNote?
+    - Does the library support endnote?
     - Does the library support endnotes?
+    - Does the library support EndNote?
 - intent: find_empirical_study
   examples: |
     - How do I find empirical studies?
-    - How can I find empirical research?
-    - How do I find empirical research?
     - How can I find empirical studies?
     - How do you find empirical studies?
+    - How can I find empirical research?
     - Where can I find empirical studies?
+    - How do I find empirical research?
 - intent: library_car_repair_manual
   examples: |
     - Does the library have any car repair manuals?
     - Does the library have any auto repair manuals?
-    - Does the library have any repair manuals?
     - Does the library have any manuals for car repairs?
-    - Does the library have car repair manuals?
+    - Does the library have any repair manuals?
     - Does the Library have any car repair manuals?
+    - Does the library have car repair manuals?
 - intent: alumnus_get_access_research
   examples: |
     - How can alumni get access to research resources?
-    - How can alumni access research resources?
-    - How can I get alumni access to research resources?
     - How do alumni get access to resources?
-    - How can alumni get access to resources?
+    - How can I get alumni access to research resources?
+    - How can alumni access research resources?
     - How do alumni get access to research resources?
+    - How can alumni get access to resources?
 - intent: schedule_research_appointment
   examples: |
     - How can I schedule a research appointment?
     - How do I schedule research appointments?
-    - How do I schedule a research appointment?
     - How do I schedule an appointment for a research appointment?
     - Tell me the best way to schedule a research appointment?
     - How do I schedule an appointment for research?
+    - How do I schedule a research appointment?
 - intent: busy_thomas_cooper_library
   examples: |
     - How busy is Thomas Cooper Library right now?
-    - How busy is the Thomas Cooper library right now?
     - How busy is the Thomas Cooper Library right now?
-    - How busy is Thomas Cooper Library at the moment?
     - How busy is Thomas Cooper library right now?
     - How busy is The Thomas Cooper Library right now?
+    - How busy is Thomas Cooper Library at the moment?
+    - How busy is the Thomas Cooper library right now?
 - intent: reserve_study_room
   examples: |
     - How do I reserve a study room?
-    - How can I reserve a study room?
     - How do I book a study room?
+    - How can I reserve a study room?
     - How do you book a study room?
-    - How can I book a study room?
     - How do you reserve a study room?
+    - How can I book a study room?
 - intent: food_drink_allowed_library
   examples: |
     - Are food and drinks allowed in the library?
-    - Is food and drinks allowed in library?
-    - Are food and drinks allowed in library?
     - Is food and drinks allowed in the library?
     - Is food and drink allowed in the library?
+    - Are food and drinks allowed in library?
     - Are food and drinks allowed at the library?
+    - Is food and drinks allowed in library?
 - intent: find_dissertation_thesis
   examples: |
     - How do I find dissertations and theses?
-    - How do I find a dissertation?
     - How do I find dissertations?
+    - How do I find dissertation and theses?
+    - How do I find a dissertation?
     - How do you find dissertations and theses?
     - How can I find dissertations and theses?
-    - How do I find dissertation and theses?
 - intent: find_historical_newspaper_article
   examples: |
     - How can I find historical newspaper articles?
-    - How can I find newspaper articles?
-    - How do you find historical newspaper articles?
+    - How do I find historical newspaper articles?
     - How can I find historical newspapers?
     - How do I find newspaper articles?
-    - How do I find historical newspaper articles?
+    - How can I find newspaper articles?
+    - How do you find historical newspaper articles?
 - intent: cant_access_thomson_one
   examples: |
     - Why can't I access Thomson One?
+    - Why can't I use Thomson One?
+    - Why can't I access Thomson Reuters?
     - Why can't I get Thomson One?
     - Why can't I access Thomson ONE?
-    - Why can't I access Thomson Reuters?
     - Why can't I access Thomson one?
-    - Why can't I use Thomson One?
 - intent: thomas_cooper_library_located
   examples: |
     - Where is the Thomas Cooper Library located?
-    - Where is the Thomas Cooper Library?
+    - How is the Thomas Cooper Library located?
+    - Where is Thomas Cooper Library located?
     - How is Thomas Cooper Library located?
     - Where is the Thomas Cooper library located?
-    - Where is Thomas Cooper Library located?
-    - How is the Thomas Cooper Library located?
+    - Where is the Thomas Cooper Library?
 - intent: center_teaching_excellence_cte
   examples: |
     - Where is the Center for Teaching Excellence (CTE)?
@@ -701,26 +816,26 @@ nlu:
 - intent: get_help_writing
   examples: |
     - Where can I get help with writing?
-    - Where can I get help with writing a good paper?
     - Where can I get help with writing a great essay?
     - Where can I get help with writing a good essay?
     - Where can I get help with my writing?
+    - Where can I get help with writing a good paper?
     - How can I get help with my writing?
 - intent: something_notarized
   examples: |
     - Where can I have something notarized?
-    - How do I have something notarized?
-    - Where can I get something notarized?
-    - Where can I have my document notarized?
-    - How can I have something notarized?
     - Where can I have my documents notarized?
+    - How can I have something notarized?
+    - Where can I have my document notarized?
+    - Where can I get something notarized?
+    - How do I have something notarized?
 - intent: contact_library
   examples: |
     - How can I contact the library?
-    - How do I contact a library?
-    - How can I contact a library?
-    - Tell me the best way to contact the library?
     - How can I get in touch with the library?
+    - How can I contact a library?
+    - How do I contact a library?
+    - Tell me the best way to contact the library?
     - How do I contact the library?
 - intent: computer_internet_access_technology
   examples: |
@@ -743,19 +858,19 @@ nlu:
 - intent: check_locker
   examples: |
     - Where can I check out a locker?
-    - How can I check out a locker?
     - How do I check out a locker?
+    - How can I check out a locker?
+    - Where can I check a locker?
     - Where can I find a locker?
     - How do I check a locker?
-    - Where can I check a locker?
 - intent: find_example_dissertation_online
   examples: |
     - How can I find examples of dissertations from the online EdD Curriculum and Instruction program?
     - How can I find examples of dissertations from the EdD online curriculum and instruction program?
-    - How can I find examples of dissertations from the EdD curriculum and instruction program?
-    - How do I find examples of dissertations from the online EdD Curriculum and Instruction program?
-    - How do I find examples of dissertations from the online EdD curriculum and instruction program?
     - How can I find examples of dissertations from the online EdD curriculum and instruction program?
+    - How do I find examples of dissertations from the online EdD Curriculum and Instruction program?
+    - How can I find examples of dissertations from the EdD curriculum and instruction program?
+    - How do I find examples of dissertations from the online EdD curriculum and instruction program?
 - intent: carolinasouthern_california_trademark_dispute
   examples: |
     - What was the Carolina/Southern California trademark dispute about, and does it affect the UofSC/USC branding?
@@ -777,114 +892,114 @@ nlu:
 - intent: check_ipad
   examples: |
     - How do I check out an iPad?
-    - How do I check an iPad?
     - How do you check out an iPad?
-    - How do I check out my iPad?
     - How do I check out iPads?
     - How can I check out an iPad?
+    - How do I check an iPad?
+    - How do I check out my iPad?
 - intent: computer_available_library
   examples: |
     - Are there computers available in the library?
-    - Is there any computer in the library?
-    - Are computers available in the library?
     - Are there computers available at the library?
-    - Are there computers in the library?
     - Are there any computers available in the library?
+    - Are computers available in the library?
+    - Are there computers in the library?
+    - Is there any computer in the library?
 - intent: usc_library
   examples: |
     - Where are the other USC libraries?
-    - Where are the other USC Libraries?
     - Where are the other libraries at USC?
     - Where are other USC libraries?
-    - Where are the other libraries of USC?
     - Where are the other libraries in USC?
+    - Where are the other USC Libraries?
+    - Where are the other libraries of USC?
 - intent: library_film_video
   examples: |
     - Does the library have films and videos?
     - Does the library have movies and videos?
-    - Do libraries have films and videos?
-    - Does the library have films and video?
-    - Does the library has films and videos?
     - Does the library have films or videos?
+    - Do libraries have films and videos?
+    - Does the library has films and videos?
+    - Does the library have films and video?
 - intent: get_full_text_access
   examples: |
     - How do I get full text access to a specific article?
     - How do I get full text access to articles?
-    - How do I get full text access to an article?
-    - How do I get full text access to a particular article?
-    - How can I get full text access to an article?
     - How can I get full text access to a specific article?
+    - How do I get full text access to a particular article?
+    - How do I get full text access to an article?
+    - How can I get full text access to an article?
 - intent: access_harvard_business_review
   examples: |
     - How do I access Harvard Business Review articles through the library?
-    - How do I access Harvard Business Review articles via the library?
     - How can I access Harvard Business Review articles through the library?
+    - How do I access Harvard Business Review articles in the library?
     - How do I access Harvard Business Review articles through the Library?
     - How do I access Harvard Business Review articles from the library?
-    - How do I access Harvard Business Review articles in the library?
+    - How do I access Harvard Business Review articles via the library?
 - intent: i’m_outside_united_state
   examples: |
     - I’m outside the United States and can’t access library resources. What do I do?
+    - I’m outside the United States and can’t access library resources. What should I do?
+    - I’m outside the United States and I can’t access library resources. What do I do?
+    - I am outside the United States and can’t access library resources. What should I do?
     - I am outside the United States and I can’t access library resources. What should I do?
     - I’m outside the United States and I can’t access library resources. What should I do?
-    - I’m outside the United States and can’t access library resources. What should I do?
-    - I am outside the United States and can’t access library resources. What should I do?
-    - I’m outside the United States and I can’t access library resources. What do I do?
 - intent: see_zotero_notification_automatically
   examples: |
     - I see a Zotero notification that it "automatically redirected" my request through a proxy. What should I do?
-    - I see a Zotero notification that it has automatically redirected my request through a proxy. What should I do?
     - I see a Zotero notification that it automatically redirected my request through a proxy. What should I do?
+    - I see a Zotero notification that it has automatically redirected my request through a proxy. What should I do?
     - I see a Zotero notification that it redirected my request through a proxy. What should I do?
     - I see a Zotero notification that automatically redirected my request through a proxy. What should I do?
 - intent: floor_thomas_cooper_library
   examples: |
     - Which floors in the Thomas Cooper Library are designated quiet floors?
-    - Which floors in the Thomas Cooper library are designated quiet floors?
+    - Which floors are designated quiet floors in the Thomas Cooper Library?
     - Which floors in Thomas Cooper Library are designated quiet floors?
+    - Which floors in the Thomas Cooper library are designated quiet floors?
     - Which floors of the Thomas Cooper Library are designated quiet floors?
     - What floors in the Thomas Cooper Library are designated quiet floors?
-    - Which floors are designated quiet floors in the Thomas Cooper Library?
 - intent: student_success_center_peer
   examples: |
     - Where is the Student Success Center / Peer Tutoring?
-    - Where is the student success center / peer tutoring?
-    - Where is the Student Success Center/Peer Tutoring?
-    - Where is the Student Success Center Peer Tutoring?
     - Where is Student Success Center / Peer Tutoring?
+    - Where is the student success center / peer tutoring?
     - Where is Student Success Center / Peer Tutoring located?
+    - Where is the Student Success Center Peer Tutoring?
+    - Where is the Student Success Center/Peer Tutoring?
 - intent: mailing_address_thomas_cooper
   examples: |
     - What is the mailing address for the Thomas Cooper Library?
-    - What is the Thomas Cooper Library mailing address?
-    - What is the address of the Thomas Cooper Library?
-    - Tell me the mailing address of the Thomas Cooper Library?
     - What is Thomas Cooper Library's mailing address?
+    - What is the address of the Thomas Cooper Library?
     - Tell me the mailing address for the Thomas Cooper Library?
+    - Tell me the mailing address of the Thomas Cooper Library?
+    - What is the Thomas Cooper Library mailing address?
 - intent: return_book
   examples: |
     - Where can I return books?
-    - Where can I get my books back?
-    - How do I return my books?
-    - How do I return a book?
     - Where can I return a book?
+    - How do I return my books?
     - Where can I return my books?
+    - How do I return a book?
+    - Where can I get my books back?
 - intent: make_suggestion_library
   examples: |
     - How can I make suggestions to the library?
     - How do I make suggestions for the library?
-    - How do I make suggestions for a library?
-    - How can I make a suggestion to the library?
-    - How do I make a suggestion to the library?
     - How do I make suggestions to the library?
+    - How do I make suggestions for a library?
+    - How do I make a suggestion to the library?
+    - How can I make a suggestion to the library?
 - intent: make_noise_complaint_staff
   examples: |
     - How can I make a noise complaint to the staff at Thomas Cooper Library?
-    - How do I complain to the staff at the Thomas Cooper Library?
     - How can I complain to the staff at the Thomas Cooper Library?
-    - How do I make a noise complaint to the staff at Thomas Cooper Library?
-    - How do I complain to the staff at Thomas Cooper Library?
     - How can I complain to the staff at Thomas Cooper Library?
+    - How do I make a noise complaint to the staff at Thomas Cooper Library?
+    - How do I complain to the staff at the Thomas Cooper Library?
+    - How do I complain to the staff at Thomas Cooper Library?
 - intent: find_journal_impact_factor
   examples: |
     - How do I find a journal's impact factor or other rankings?
@@ -897,11 +1012,11 @@ nlu:
 - intent: get_online_access_library
   examples: |
     - When can I get online access to library resources as a newly enrolled student?
-    - When can I get access to library resources online as a newly enrolled student?
-    - Can I get online access to library resources as a newly enrolled student?
-    - How can I get online access to library resources as a newly enrolled student?
-    - When can I get access to library resources as a newly enrolled student?
     - How do I get online access to library resources as a newly enrolled student?
+    - When can I get access to library resources online as a newly enrolled student?
+    - When can I get access to library resources as a newly enrolled student?
+    - How can I get online access to library resources as a newly enrolled student?
+    - Can I get online access to library resources as a newly enrolled student?
 - intent: pay_library_fine
   examples: |
     - Where / How can I pay a library fine?
@@ -914,51 +1029,59 @@ nlu:
 - intent: friend_university_library_previously
   examples: |
     - What is Friends of University Libraries (previously Thomas Cooper Society) and how can I join?
-    - What are Friends of University Libraries (previously the Thomas Cooper Society) and how can I join?
-    - What is Friends of University Libraries (previously the Thomas Cooper Society) and how can I join?
-    - What is Friends of University Libraries (previously the Thomas Cooper Society) and how do I join?
     - What are Friends of University Libraries (previously Thomas Cooper Society) and how can I join?
     - What is Friends of University Libraries (formerly the Thomas Cooper Society) and how can I join?
+    - What is Friends of University Libraries (previously the Thomas Cooper Society) and how do I join?
+    - What is Friends of University Libraries (previously the Thomas Cooper Society) and how can I join?
+    - What are Friends of University Libraries (previously the Thomas Cooper Society) and how can I join?
 - intent: university_institutional_repository
   examples: |
     - Does the university have an institutional repository?
     - Does the university have an institution repository?
+    - Does a university have an institutional repository?
     - Does the University have an institutional repository?
     - Does the university have a repository?
     - Do universities have an institutional repository?
-    - Does a university have an institutional repository?
 - intent: set_link_usc_content
   examples: |
     - How do I set up links to USC content in Google Scholar?
-    - How can I set up links to USC content in Google Scholar?
-    - How do I create links to USC content in Google Scholar?
     - How do I set up links to USC content on Google Scholar?
-    - How do you set up links to USC content in Google Scholar?
+    - How do I create links to USC content in Google Scholar?
+    - How can I set up links to USC content in Google Scholar?
     - How do I set up a link to USC content in Google Scholar?
+    - How do you set up links to USC content in Google Scholar?
 - intent: download_check_ebook
   examples: |
     - How do I download and check out an ebook?
     - How do I download and check out ebooks?
     - How do I download ebooks?
-    - How do I download ebook?
-    - How do I download and check an ebook?
     - How do I download an ebook?
+    - How do I download and check an ebook?
+    - How do I download ebook?
 - intent: check_laptop
   examples: |
     - How do I check out a laptop?
-    - How can I check a laptop?
-    - How do I check a laptop?
-    - How can I check out a laptop?
     - Tell me the best way to check out a laptop?
+    - How can I check a laptop?
+    - How can I check out a laptop?
+    - How do I check a laptop?
     - How do you check out a laptop?
 - intent: library_provide_access_covidence
   examples: |
     - Does the library provide access to Covidence for managing systematic reviews?
-    - Does the library provide access to Covidence for systematic reviews?
+    - Does the library offer access to Covidence for managing systematic reviews?
     - Does the library have access to Covidence for managing systematic reviews?
     - Is the library providing access to Covidence for managing systematic reviews?
-    - Does the library offer access to Covidence for managing systematic reviews?
+    - Does the library provide access to Covidence for systematic reviews?
     - Does the Library provide access to Covidence for managing systematic reviews?
+- intent: lost_found
+  examples: |
+    - Where is the lost and found?
+    - Where are the lost and found?
+    - Where can I find the lost and found?
+    - Where is the Lost and Found?
+    - Where is lost and found?
+    - Where is Lost and Found?
 - intent: charge_card_cost_print
   examples: |
     - Why is there a charge on my card for more than the cost of my print job?
@@ -980,123 +1103,8 @@ nlu:
 - intent: library_fun_book_read
   examples: |
     - Does the library have fun books to read?
-    - Do libraries have fun books to read?
-    - Do the libraries have fun books to read?
     - Do the library have fun books to read?
-    - Is the library full of fun books to read?
     - What fun books do the library have to read?
-- intent: lost_found
-  examples: |
-    - Where is the lost and found?
-    - Where is Lost and Found?
-    - Where are the lost and found?
-    - Where is the Lost and Found?
-    - Where is lost and found?
-    - Where can I find the lost and found?
-- intent: library_microwave
-  examples: |
-    - Does the library have a microwave?
-    - Does the library has a microwave?
-    - Is the library equipped with a microwave?
-    - Does the library have a microwave? Why?
-    - Does the Library have a microwave?
-    - Is there a microwave in the library?
-- intent: visitor_come_library
-  examples: |
-    - Can visitors come to the library?
-    - Can visitors come into the library?
-    - Can people come to the library?
-    - Can visitors go to the library?
-    - Can visitors come to the Library?
-    - Can visitors come to library?
-- intent: find_published_example_action
-  examples: |
-    - How do I find published examples of action research for my education research question?
-    - How do I find published examples of action research questions?
-    - How do I find published examples of action research for my educational research question?
-    - How do I find published examples of action research in education research question?
-    - How can I find published examples of action research for my education research question?
-    - How do I find published examples of action research for education research question?
-- intent: register_access_ad_age
-  examples: |
-    - How do I register for access to Ad Age?
-    - How do I register for Ad Age?
-    - How can I register for Ad Age?
-    - How do I register for ad age?
-    - How do I get access to Ad Age?
-    - How do I register to Ad Age?
-    - How do you register for Ad Age?
-- intent: library_charger_laptop_phone
-  examples: |
-    - Does the library have a charger for my laptop or phone?
-    - Does the library have a charger for my laptop?
-    - Does the library have a charger for my phone or laptop?
-    - Does the library have a charger for my laptop/phone?
-    - Does the library have a charger for your laptop or phone?
-    - Does the library have a charger for my laptop and phone?
-- intent: library_textbook
-  examples: |
-    - Does the library have my textbooks?
-    - Do the library have my textbooks?
-    - Do the libraries have my textbooks?
-    - Does my library have my textbooks?
-    - Does the library have my books?
-    - Does the library have textbooks?
-- intent: library_reader_advisory_database
-  examples: |
-    - Does the library have readers advisory databases?
-    - Does the library have readers' advisory databases?
-    - Does the library have a reader advisory database?
-    - Does the library have a readers advisory database?
-    - Does the library have reader advisory databases?
-    - Do libraries have readers advisory databases?
-- intent: library_columbia_campus
-  examples: |
-    - What libraries are on the Columbia Campus?
-    - What libraries are on Columbia campus?
-    - What libraries are on the Columbia campus?
-    - list the libraries on the Columbia campus?
-    - What libraries are located on the Columbia campus?
-    - Which libraries are on the Columbia campus?
-- intent: floor_plan_finding_location
-  examples: |
-    - Where are floor plans for finding locations within the Thomas Cooper Library?
-    - Where can I find floor plans for the Thomas Cooper Library?
-    - Where is the floor plan for finding locations within the Thomas Cooper Library?
-    - Where are floor plans for finding locations within Thomas Cooper Library?
-    - Where can I find floor plans for Thomas Cooper Library?
-    - Where are floor plans for finding locations in the Thomas Cooper Library?
-- intent: hathitrust_university_member
-  examples: |
-    - What is HathiTrust and is the university a member?
-    - What is HathiTrust and is the university a member of?
-    - What is HathiTrust and is the University a member?
-    - What is HathiTrust?
-    - Tell me the HathiTrust and is the university a member?
-    - What is HathiTrust? Is the university a member?
-- intent: get_free_subscription_new
-  examples: |
-    - How can I get a free subscription to New York Times online through the library?
-    - How can I get a free subscription to the New York Times online through the library?
-    - How do I get a free subscription to the New York Times online through the library?
-    - How do I get a free subscription to the New York Times online?
-    - How do I get a free subscription to the New York Times online from the library?
-    - How can I get a free subscription to the New York Times online from the library?
-    - How can I get a free subscription to the New York Times online?
-- intent: library_catalog_show_item
-  examples: |
-    - The library catalog shows that an item is located at the Annex. How can I get it?
-    - The library catalog shows that an item is located at Annex. How can I get it?
-    - The library catalog shows that an item is located in Annex. How can I get it?
-    - The library catalog shows that an item is located at Annex. How do I get it?
-    - The library catalog shows that an item is located in Annex. How do I get it?
-    - The library catalog shows that an item is located at Annex. How can I find it?
-    - How do I find an item in the library catalog?
-- intent: suggest_title_library_purchase
-  examples: |
-    - How can I suggest a title for the library to purchase?
-    - How can I suggest a title for the library to buy?
-    - How can I suggest a title to the library to purchase?
-    - How do I suggest a title for the library to purchase?
-    - How do I suggest a title for the library to buy?
-    - How do I suggest a title to the library to purchase?
+    - Do the libraries have fun books to read?
+    - Do libraries have fun books to read?
+    - Is the library full of fun books to read?

@@ -49,4 +49,4 @@ policies: null
 
 action_endpoint:
   url: "http://localhost:5005/webhook"
-assistant_id: 20250204-200935-ecru-net
+assistant_id: 20250208-164320-bisque-alternator
