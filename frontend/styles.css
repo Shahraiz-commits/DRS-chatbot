@@ -92,6 +92,7 @@ body {
   max-width: 80%;
   clear: both;
   line-height: 1.4;
+  border: 1px solid black;
 }
 
 .userMsg {

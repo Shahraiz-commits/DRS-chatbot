@@ -21,6 +21,7 @@ Chatbot/Chats.csv
 # Virtual environment
 venv/
 env/
+.venv/
 
 # IDE-specific files
 .vscode/
