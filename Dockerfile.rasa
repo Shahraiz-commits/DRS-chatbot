@@ -1,0 +1,38 @@
+FROM rasa/rasa:3.6.21-full
+COPY Chatbot /Chatbot
+# Ensure Rasa runs inside the correct directory
+WORKDIR /Chatbot
+EXPOSE 8080
+#ENTRYPOINT ["rasa"]
+CMD ["run", "--enable-api", "--cors", "*", "--port", "8080"]
+
+# Cloud run only supports listening on port 8080. Cant use rasas default port 5005. Can still use 5055 for actions.
+
+# Use rasa-chatbot as the image name until we have our own domain. Changing the name rn means everything breaks
+
+# ***RUN COMMANDS FROM ROOT DIRECTORY***
+
+# Create and tag docker image: docker build -t rasa-chatbot .
+
+# **DONT NEED TO RUN IMAGE FOR DEPLOYMENT TO CLOUD. ONLY FOR TESTING CONTAINER LOCALLY**
+# Run image: docker run -it -p 8080:8080 rasa-chatbot 
+
+# Tag the image for GCR: docker tag rasa-bot gcr.io/drs-nlp-chatbot/rasa-bot:latest    
+# Push the image docker push gcr.io/drs-nlp-chatbot/rasa-bot:latest
+# OPTIONAL VERIFICATION: gcloud container images list-tags gcr.io/drs-nlp-chatbot/rasa-bot
+
+# Deploy using this command once the docker file is built and tagged
+# TODO: Automate this process with a yaml file
+
+#gcloud run deploy rasa-chatbot `
+#--image gcr.io/drs-nlp-chatbot/rasa-bot:latest `
+#--platform managed `
+#--region us-central1 `
+#--allow-unauthenticated `
+#--memory=1200Mi `
+#--timeout 300
+
+# Use to test gcloud deployed container. Alternatively use Postman, Insomnia etc
+#curl -X POST https://rasa-chatbot-xyz.a.run.app/webhooks/rest/webhook \
+  #-H "Content-Type: application/json" \
+  #-d '{"sender": "user", "message": "Hello"}'

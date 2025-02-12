@@ -43,8 +43,8 @@ def save_QA(questions, answers, filePath):
             # Write the question and answer as a row in the CSV
             writer.writerow([question, answer])
     
-# Keep hyperlinks intact in answers    
-def configure_hyperlink(text):
+# Keep hyperlinks/headers intact in answers    
+def configure_text(text):
     
     # For single a tags, as in for hyperlinks at the end of the answer
     if text.name == 'a':
@@ -65,6 +65,14 @@ def configure_hyperlink(text):
         
         # Replace the <a> tag with the Markdown formatted link text
         a_tag.replace_with(markdown_link)
+
+    # Format headers correctly for markdown
+    for h_tag in text.find_all('h'):
+        header_text = h_tag.get_text()
+        opening_tag = f"<{h_tag.name}>"
+        closing_tag = f"</{h_tag.name}>"
+        formatted_header = f"{opening_tag}{header_text}{closing_tag}"
+        h_tag.replace_with()
 
     return text.get_text()
 
@@ -147,15 +155,17 @@ for link in links_to_be_processed:
         #full_answer += p + '\n'
     for element in answerDIV.contents:
         if(element.name):
-            element = configure_hyperlink(element)
-            full_answer += element + '\n'
+            element = configure_text(element)
+            full_answer += element + '\\n'
+    
+    full_answer += '\n' # Seperate links from main body of answer
     
     # Hyperlinks relevant to the answer
     try:
         answerLinksDIV = soup.find('div', class_ = "s-la-faq-links")
         answer_links = answerLinksDIV.find_all('a')
         for a in answer_links:
-            a = configure_hyperlink(a)
+            a = configure_text(a)
             #print(f"hyper link: {a}")
             full_answer += a + '\n'
     except Exception as e:

@@ -1,0 +1,21 @@
+FROM nginx:alpine
+
+COPY frontend /usr/share/nginx/html
+WORKDIR /usr/share/nginx/html
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
+
+# docker build -t gcr.io/drs-nlp-chatbot/rasa-frontend .
+
+# docker push gcr.io/drs-nlp-chatbot/rasa-frontend:latest
+
+#gcloud run deploy frontend `    
+#--image gcr.io/drs-nlp-chatbot/rasa-frontend:latest `
+#--platform managed ` 
+#--region us-central1 ` 
+#--allow-unauthenticated ` 
+#--port 80         
+
+
+# Run this to clear gcloud cached containers incase old ones keep showing: gcloud run services update-traffic frontend --to-latest

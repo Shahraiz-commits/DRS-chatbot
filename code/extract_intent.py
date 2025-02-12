@@ -12,7 +12,7 @@ import json
 import pandas as pd
 
 
-nltk.download("punkt")
+#nltk.download("punkt")
 nltk.download("stopwords")
 nltk.download("wordnet")
 warnings.simplefilter("ignore")

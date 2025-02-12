@@ -171,7 +171,7 @@ responses:
     
   utter_ai_service_library_offer:
   - text: |
-      [Source: ; Date: ] The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+      The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
     
   utter_director_digital_research_service:
   - text: |
@@ -185,7 +185,7 @@ responses:
     
   utter_data_analysis_help:
   - text: |
-      [Source: ; Date: ] The library offers support for doing exploratory data analysis and helps with quantitative and qualitative statistical software products. [Learn more here](https://guides.library.sc.edu/c.php?g=1335227)
+      The library offers support for doing exploratory data analysis and helps with quantitative and qualitative statistical software products. [Learn more here](https://guides.library.sc.edu/c.php?g=1335227)
     
   utter_use_digital_tool_research:
   - text: |
@@ -199,7 +199,7 @@ responses:
     
   utter_data_organization:
   - text: |
-      [Source: ; Date: ] The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+      The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
     
   utter_summary_visualize_research_data:
   - text: |
@@ -210,7 +210,7 @@ responses:
     
   utter_visualize_research_data:
   - text: |
-      [Source: ; Date: ] Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
+      Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
     
   utter_library_offer_workshop:
   - text: |
@@ -225,7 +225,7 @@ responses:
     
   utter_search_south_caroliniana_library:
   - text: |
-      [Source: ; Date: ] To search the South Caroliniana Library's collections, please start with our online catalog, which can be found on our [main webpage](http://sc.edu/libraries/scl).
+      To search the South Caroliniana Library's collections, please start with our online catalog, which can be found on our [main webpage](http://sc.edu/libraries/scl).
       To search by keyword, enter keywords in the search box and click search. Or, you can follow the link below the search box to [Advanced Search](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC&mode=advanced). There you will be able to search specific fields within the catalog records and build searches with AND, OR, or NOT.
       In your first results page, you may limit your results further to physical and digital items held by University Libraries, including South Caroliniana Library, by clicking the drop-down arrow next to the search box where it says Articles, Books and More, choosing USC Libraries, and clicking the magnifying glass search icon to refresh your results. Then, if you wish to limit specifically to items within South Caroliniana Library's collections, click the checkboxes to choose all locations that have South Caroliniana as part of their name under the Location menu (at the left of the screen on a computer or under the filters icon on your phone). This may not seem intuitive, but choosing locations containing South Caroliniana returns a complete set of South Caroliniana Library materials, while choosing South Caroliniana Library under Library does not always return a complete set.
       There might be materials within [South Carolina Political Collections](https://sc.edu/about/offices_and_divisions/university_libraries/browse/sc_political_collections/index.php) or [Oral History](https://sc.edu/about/offices_and_divisions/university_libraries/browse/oral_history/index.php) related to your topic as well. To include these in your catalog search results, please choose South Carolina Political Collections or Columbia Oral History as locations. Note, if there are no search results within these locations, the option to select them will not appear.
@@ -246,7 +246,7 @@ responses:
     
   utter_set_appointment_research_use:
   - text: |
-      [Source: ; Date: ] We set research appointments in the Charles W. Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m. until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability. We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month. ([Please check here for holidays and exceptions.](https://sc.edu/about/offices_and_divisions/university_libraries/about/hours/index.php)) 
+      We set research appointments in the Charles W. Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m. until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability. We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month. ([Please check here for holidays and exceptions.](https://sc.edu/about/offices_and_divisions/university_libraries/about/hours/index.php)) 
       Please let us know what date and time would like to arrive and approximately when you plan to leave. We will need a list of the materials you wish to view by 12 noon (ET) at least three weekdays in advance to ensure we have time to locate all materials and bring anything that is stored offsite to the reading room. (For example, if you request materials by 12 noon on Monday, we can usually set your appointment as early as Thursday. If after noon on Monday but before noon on Tuesday, we can set your appointment for Friday.)
       If visiting us in person is not convenient, we offer an hour of research-quality scanning at no charge. See [How can I see collection materials from South Caroliniana Library](https://libanswers.library.sc.edu/scl/faq/372586)?
       Just [contact us here](http://libanswers.library.sc.edu/form?queue_id=6117) when you're ready. 
@@ -263,7 +263,7 @@ responses:
     
   utter_african_american_ancestry_suggestion:
   - text: |
-      [Source: ; Date: ] First, please take a look at [Do you have resources I can use to research my family's genealogy?](https://libanswers.library.sc.edu/scl/faq/372588)
+      First, please take a look at [Do you have resources I can use to research my family's genealogy?](https://libanswers.library.sc.edu/scl/faq/372588)
       Here are some additional suggestions.
       Past records of the [United States Census are available through the National Archives](https://www.archives.gov/research/census). The 1870 census is the first in which formerly enslaved African Americans were listed by name. The 1850 and 1860 censuses included slave schedules listing numbers of enslaved persons held by particular enslavers along with their sex, color (black or mulatto), and age, but without their names.
       If you are able to determine the name of a plantation, family, or person who may have held an ancestor of yours in enslavement, you can look to see if South Caroliniana Library holds antebellum papers from that person, family, or plantation, which might include names of enslaved persons. We also hold series A and B of the Records of ante-bellum Southern Plantations on microfilm. (These are available also from [other libraries](http://www.worldcat.org/oclc/12894903).) We can provide an index to these records, or you can see the lists of names in the two series, [Series A](https://www.familysearch.org/search/catalog/564176) and [Series B](https://www.familysearch.org/search/catalog/559181), as provided by FamilySearch.org.
@@ -287,7 +287,7 @@ responses:
     
   utter_order_highresolution_scan:
   - text: |
-      [Source: ; Date: ] We charge a reproduction fee of $10 per high-resolution file. Usually these are 600 dpi TIF files, but let us know if you need something different. Please review our policies found under Reproductions and Use on our [main webpage](https://sc.edu/about/offices_and_divisions/university_libraries/browse/south_caroliniana/index.php) and the [Library's Notice Regarding Copyright Restrictions and Use of Reproductions](https://forms.office.com/r/CBSnrk7GnB). In most cases, we do not hold copyrights to our collections, and our charge for scans does not grant permission to publish a copyrighted item or imply that the item is not protected by copyright. We make no assessment of copyright status; that burden is on you, the user. [Contact us](http://libanswers.library.sc.edu/form?queue_id=6117) to discuss your needs.
+      We charge a reproduction fee of $10 per high-resolution file. Usually these are 600 dpi TIF files, but let us know if you need something different. Please review our policies found under Reproductions and Use on our [main webpage](https://sc.edu/about/offices_and_divisions/university_libraries/browse/south_caroliniana/index.php) and the [Library's Notice Regarding Copyright Restrictions and Use of Reproductions](https://forms.office.com/r/CBSnrk7GnB). In most cases, we do not hold copyrights to our collections, and our charge for scans does not grant permission to publish a copyrighted item or imply that the item is not protected by copyright. We make no assessment of copyright status; that burden is on you, the user. [Contact us](http://libanswers.library.sc.edu/form?queue_id=6117) to discuss your needs.
       If you don't need high-resolution scans, we offer an hour of research-quality scanning to PDF at no charge. See [How can I see collection materials from South Caroliniana Library?](https://libanswers.library.sc.edu/scl/faq/372586)
 
       [Learn more here](https://libanswers.library.sc.edu//scl/faq/372925)
@@ -301,7 +301,7 @@ responses:
     
   utter_south_caroliniana_library_building:
   - text: |
-      [Source: ; Date: ] Yes. The South Caroliniana Library has an automatic wheelchair accessible door on the garden (rear) side of the building, active during our open hours of 9 a.m. to 4 p.m., Tuesday through Friday and the first Saturday of each month, and monitored to provide access during special events. We have an elevator that goes from the first floor to the second floor exhibits and the Charles W. Joyner Reading Room. 
+      Yes. The South Caroliniana Library has an automatic wheelchair accessible door on the garden (rear) side of the building, active during our open hours of 9 a.m. to 4 p.m., Tuesday through Friday and the first Saturday of each month, and monitored to provide access during special events. We have an elevator that goes from the first floor to the second floor exhibits and the Charles W. Joyner Reading Room. 
       For information on accessible parking, please see the Parking for People Who Have a Disability section of [Where can I park to visit the South Caroliniana Library?](https://libanswers.library.sc.edu/scl/faq/392582)
       If you have additional accessibility needs, please [contact us](https://libanswers.library.sc.edu/form?queue_id=6117) for assistance.
 
@@ -316,7 +316,7 @@ responses:
     
   utter_see_collection_material_south:
   - text: |
-      [Source: ; Date: ] We are not a lending library, but we are a special collections research library with closed stacks. We can support your research through scan-and-deliver services by email or through in-person appointments to use our materials in our reading room.
+      We are not a lending library, but we are a special collections research library with closed stacks. We can support your research through scan-and-deliver services by email or through in-person appointments to use our materials in our reading room.
       We offer a limited amount of research-quality scanning for free, limited to what can be found and scanned within one hour of staff time. If we determine that the quantity of materials you request will exceed an hour, we can provide a quote for scanning additional materials. For more information, you can review our reproduction policies on our [homepage](https://sc.edu/libraries/scl).
       We set research appointments in the Charles W. Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m. until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability. ([Please check here for holidays and exceptions.](https://sc.edu/about/offices_and_divisions/university_libraries/about/hours/index.php))  We will need a list of the materials you wish to view by 12 noon (ET) at least three weekdays in advance to ensure we have time to locate all materials and bring anything that is stored offsite to the reading room. (For example, if you request materials by 12 noon on Monday, we can usually set your appointment as early as Thursday. If after noon on Monday but before noon on Tuesday, we can set your appointment for Friday.)
       Please also see [How do I search South Caroliniana Library's collections?](https://libanswers.library.sc.edu/scl/faq/372585)
@@ -335,7 +335,7 @@ responses:
     
   utter_found_image_south_caroliniana:
   - text: |
-      [Source: ; Date: ] We are glad you found a useful image in our online [Digital Collections](https://sc.edu/about/offices_and_divisions/university_libraries/browse/digital_collections/collections/index.php?search=caroliniana). We do not mind if you use it as long as you credit us, but please know that, in most cases, we do not hold copyrights to our collections. We make no assessment of copyright status; that burden is on you, the user. Please refer to the Reproductions and Use policy as found on our [main webpage](https://sc.edu/libraries/scl) and the [Library's Notice Regarding Copyright Restrictions and Use of Reproductions](https://forms.office.com/r/CBSnrk7GnB) for more information.
+      We are glad you found a useful image in our online [Digital Collections](https://sc.edu/about/offices_and_divisions/university_libraries/browse/digital_collections/collections/index.php?search=caroliniana). We do not mind if you use it as long as you credit us, but please know that, in most cases, we do not hold copyrights to our collections. We make no assessment of copyright status; that burden is on you, the user. Please refer to the Reproductions and Use policy as found on our [main webpage](https://sc.edu/libraries/scl) and the [Library's Notice Regarding Copyright Restrictions and Use of Reproductions](https://forms.office.com/r/CBSnrk7GnB) for more information.
       In all cases of use and publication, the Library respectfully requests that you credit the source as:
       From the South Caroliniana Library, University of South Carolina, Columbia, S.C.
       When the image is part of a specific named collection, you are encouraged to also include the name of the collection; for example, From the ['name' collection or 'name' papers], the South Caroliniana Library, University of South Carolina, Columbia, S.C. Credits should appear in close proximity to the image or in a special section devoted to credits.
@@ -354,7 +354,7 @@ responses:
     
   utter_im_publishing_book_related:
   - text: |
-      [Source: ; Date: ] Yes, please tell us about it!
+      Yes, please tell us about it!
       If you are planning to publish a book related to South Carolina, especially if it uses images or sources from South Caroliniana Library collection materials, please [tell us about it here](https://forms.office.com/Pages/ResponsePage.aspx?id=GUsqSzXRDkKLsrHNI4mYzNvwutl2Ox5CnNJtjgz7j5hUQjRPVjg5RFhUR1pBTERYMUExSkJWMlEySi4u) so we may consider adding your work to our holdings if it fits with our collection development goals.
  
 
@@ -369,7 +369,7 @@ responses:
     
   utter_south_caroliniana_library_located:
   - text: |
-      [Source: ; Date: ] [The South Caroliniana Library is at 910 Sumter Street](https://sc.edu/visit/map/?id=744#!m/223339), on the northwest corner of the University of South Carolina's [historic Horseshoe](https://sc.edu/about/our_history/university_history/historic_horseshoe/index.php).
+      [The South Caroliniana Library is at 910 Sumter Street](https://sc.edu/visit/map/?id=744#!m/223339), on the northwest corner of the University of South Carolina's [historic Horseshoe](https://sc.edu/about/our_history/university_history/historic_horseshoe/index.php).
       It is a red brick building facing the Horseshoe with four large, white columns.
       [Here is our location on Google](https://goo.gl/maps/SXYNHxfpXtQiFKLF7).
       [For information on parking, click here](https://libanswers.library.sc.edu/scl/faq/392582).
@@ -385,7 +385,7 @@ responses:
     
   utter_im_publishing_work_us:
   - text: |
-      [Source: ; Date: ] In all cases of use and publication, the Library respectfully requests that you credit the source as:
+      In all cases of use and publication, the Library respectfully requests that you credit the source as:
       From the South Caroliniana Library, University of South Carolina, Columbia, S.C.
       When the use is from a specific named collection, you are encouraged to also include the name of the collection; for example, From the ['name' collection or 'name' papers], the South Caroliniana Library, University of South Carolina, Columbia, S.C. In the case of an image, the credit should appear in close proximity to the image or in a special section devoted to credits.
       Please note that, in most cases, we do not hold copyrights to our collections. We make no assessment of copyright status; that burden is on you, the user. Please refer to the Reproductions and Use policy as found on our [main webpage](https://sc.edu/libraries/scl) and the [Library's Notice Regarding Copyright Restrictions and Use of Reproductions](https://forms.office.com/r/CBSnrk7GnB) for more information.
@@ -401,7 +401,7 @@ responses:
     
   utter_resource_use_research_family:
   - text: |
-      [Source: ; Date: ] South Caroliniana Library may have primary resource documents, published genealogical works, and genealogical collections that could help you in researching families in South Carolina.
+      South Caroliniana Library may have primary resource documents, published genealogical works, and genealogical collections that could help you in researching families in South Carolina.
       To search our collections, please start with our online catalog, which can be found on our [main webpage](http://sc.edu/libraries/scl).
       To search by keyword, enter keywords in the search box and click search. Or, you can follow the link below the search box to [Advanced Search](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC&mode=advanced). There you will be able to search specific fields within the catalog records and build searches with AND, OR, or NOT.
       In your first results page, you may limit your results further to physical and digital items held by University Libraries, including South Caroliniana Library, by clicking the drop-down arrow next to the search box where it says Articles, Books and More, choosing UofSC Libraries, and clicking the magnifying glass search icon to refresh your results. Then, if you wish to limit specifically to items within South Caroliniana Library's collections, click the checkboxes to choose all locations that have South Caroliniana as part of their name under the Location menu (at the left of the screen on a computer or under the filters icon on your phone). This may not seem intuitive, but choosing locations containing South Caroliniana returns a complete set of South Caroliniana Library Collections, while choosing South Caroliniana Library under Library does not always return a complete set.
@@ -425,7 +425,7 @@ responses:
     
   utter_park_visit_south_caroliniana:
   - text: |
-      [Source: ; Date: ] USC Parking
+      USC Parking
       A visitor's parking permit is available from [USC Parking](https://sc.edu/about/offices_and_divisions/parking/index.php) for $10 per day. This will allow you to park in most surface lots on campus except in parking spaces marked as reserved, including parking in the [C1 Faculty and Staff lot](https://sc.edu/visit/map/?id=744#!m/204265) at 1400 Pendleton Street, next to the back garden of the South Caroliniana Library, and the [C2 Faculty and Staff lot](https://sc.edu/visit/map/?id=744#!m/204122?share) at 901 Sumter Street, north of the James F. Byrnes building and across Sumter Street from South Caroliniana Library.
       Without a visitor's parking permit, the [C1](https://sc.edu/visit/map/?id=744#!m/204265) and [C2](https://sc.edu/visit/map/?id=744#!m/204122?share) Faculty and Staff lots are restricted to University of South Carolina faculty and staff with a C, H or RT permit until 3 p.m. on weekdays. But all faculty and staff permit holders can park there after 3 p.m. And all faculty, staff, and student permit holders can park there on Saturdays.
       University parking is also available to visitors in the [Pendleton Street Garage](https://sc.edu/visit/map/?id=744#!m/204274). The visitors' entrance to the garage is on the west side of the 1000 block of Pickens Street, at the northeast corner of the garage. Visitors' parking is at five-hour meters on levels 1a, 1b, and 2a for up to $1 per hour, depending on payment method. Parking meter cards valid for one full day at any USC meter are available for $5 at the Parking and Transportation Services office on the ground level at the southeast corner of the Pendleton Street Garage. Payment at USC meters is not monitored on Saturday. Note, meters on the street are not University meters, but are maintained by the City of Columbia.
@@ -454,7 +454,7 @@ responses:
     
   utter_south_caroliniana_library_open:
   - text: |
-      [Source: ; Date: ] Our usual hours are 9 a.m. until 4 p.m., Tuesday through Friday, and the first Saturday of each month. [(Please check here for holidays and exceptions.](https://sc.edu/about/offices_and_divisions/university_libraries/about/hours/index.php))
+      Our usual hours are 9 a.m. until 4 p.m., Tuesday through Friday, and the first Saturday of each month. [(Please check here for holidays and exceptions.](https://sc.edu/about/offices_and_divisions/university_libraries/about/hours/index.php))
       Our public exhibits are always open during those times. Research is by appointment only.
  
       We have two floors of exhibits about our collections and the history of the Palmetto state, including portraits and paintings. 
@@ -473,7 +473,7 @@ responses:
     
   utter_south_caroliniana_library:
   - text: |
-      [Source: ; Date: ] South Caroliniana means things related to South Carolina. The South Caroliniana Library holds collections related to South Carolina history, culture, and people.
+      South Caroliniana means things related to South Carolina. The South Caroliniana Library holds collections related to South Carolina history, culture, and people.
       Exhibits
       We are an educational and family destination for South Carolina history, with two floors of exhibits featuring items from our collections that help tell the story of the Palmetto State.
       Collections
@@ -496,7 +496,7 @@ responses:
     
   utter_library_columbia_campus:
   - text: |
-      [Source: ; Date: ] The University Libraries includes:
+      The University Libraries includes:
       [Thomas Cooper Library](http://sc.edu/libraries) (main library)
       [Ernest F. Hollings Special Collections Library](http://sc.edu/about/offices_and_divisions/university_libraries/about/locations/hollings/index.php)
       [Irvin Department of Rare and Special Collections](http://sc.edu/libraries/rare)
@@ -518,7 +518,7 @@ responses:
     
   utter_floor_plan_finding_location:
   - text: |
-      [Source: ; Date: ] You can find Floor Plans for all levels of Thomas Cooper Library, along with a listing of specific offices and services, on the University Libraries website.
+      You can find Floor Plans for all levels of Thomas Cooper Library, along with a listing of specific offices and services, on the University Libraries website.
       [Floor Plans for Thomas Cooper Library](https://sc.edu/about/offices_and_divisions/university_libraries/about/locations/tcl/floor_plans/index.php)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/246199)
@@ -532,7 +532,7 @@ responses:
     
   utter_hathitrust_university_member:
   - text: |
-      [Source: ; Date: ] HathiTrust is an international partnership of academic and research institutions (including University of South Carolina) working together to ensure the long-term preservation and accessibility of the cultural record. Content includes items still under copyright as well as public domain items that have been digitized and also open access content. Access options depend on an item's copyright status.
+      HathiTrust is an international partnership of academic and research institutions (including University of South Carolina) working together to ensure the long-term preservation and accessibility of the cultural record. Content includes items still under copyright as well as public domain items that have been digitized and also open access content. Access options depend on an item's copyright status.
       Full View items can be downloaded by USC users as a feature of our membership.
       Limited (search only) items are still under copyright and cannot be viewed or downloaded. However, users can search within their content to find items of interest.
  
@@ -550,7 +550,7 @@ responses:
     
   utter_get_free_subscription_new:
   - text: |
-      [Source: ; Date: ] Students, faculty and staff of USC can get unlimited access to NYTimes.com and some NYT mobile apps. You will need to claim your free pass and register it with an online account first. After registration, simply login to NYTimes.com from anywhere and enjoy free access.
+      Students, faculty and staff of USC can get unlimited access to NYTimes.com and some NYT mobile apps. You will need to claim your free pass and register it with an online account first. After registration, simply login to NYTimes.com from anywhere and enjoy free access.
       For set up and registration instructions:
       [New York Times - Online Pass](http://guides.library.sc.edu/nytimes)
 
@@ -565,7 +565,7 @@ responses:
     
   utter_library_catalog_show_item:
   - text: |
-      [Source: ; Date: ] If you need a single item (a book, video, map, etc.) from the Columbia Annex, sign in to your library account in the Find It @ USC catalog using your network username and password and choose Request to have it delivered to your chosen pickup location. You will receive an email when the item is available for pickup.
+      If you need a single item (a book, video, map, etc.) from the Columbia Annex, sign in to your library account in the Find It @ USC catalog using your network username and password and choose Request to have it delivered to your chosen pickup location. You will receive an email when the item is available for pickup.
       If you need a book chapter or a specific journal article, choose Request through Scan & Deliver to receive a scanned PDF copy. You will be prompted to sign in to your ILL Express account and then fill out and/or verify the citation details.
       For visitors who do not have a library account, email [ecirc@mailbox.sc.edu](mailto:ecirc@mailbox.sc.edu) to request items from the Annex.
  
@@ -586,7 +586,7 @@ responses:
     
   utter_suggest_title_library_purchase:
   - text: |
-      [Source: ; Date: ] You can make purchase suggestions online to help us build the library's collection. The form requires a USC network username and password.
+      You can make purchase suggestions online to help us build the library's collection. The form requires a USC network username and password.
       Faculty members can also email their Subject Librarian directly, especially when submitting multiple requests at once.
       [Suggest a Purchase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/suggest_a_purchase/index.php)
       [Find My Subject Librarian](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/subject_librarian/index.php)
@@ -602,7 +602,7 @@ responses:
     
   utter_retired_faculty_staff_retain:
   - text: |
-      [Source: ; Date: ] Retired faculty and staff members who are granted affiliate status by their department will have full library privileges including remote access to resources and borrowing. To request affiliate status, contact your unit's Human Resources department and/or department chair.
+      Retired faculty and staff members who are granted affiliate status by their department will have full library privileges including remote access to resources and borrowing. To request affiliate status, contact your unit's Human Resources department and/or department chair.
       Retirees also have the option of joining the Friends of University Libraries, which includes limited borrowing privileges and on-site access to online resources. Friends membership does not include remote access or Interlibrary Loan privileges.
  
       [Friends of University Libraries Membership Levels](https://sc.edu/about/offices_and_divisions/university_libraries/support/friend_groups/friends/membership.php)
@@ -618,7 +618,7 @@ responses:
     
   utter_library_provide_access_wall:
   - text: |
-      [Source: ; Date: ] Yes! University Libraries has a Wall Street Journal Higher Education Membership which provides free individual access for all USC Columbia students, faculty, and staff through WSJ.com, as well as WSJ apps, subscriber-only podcasts, and videos.
+      Yes! University Libraries has a Wall Street Journal Higher Education Membership which provides free individual access for all USC Columbia students, faculty, and staff through WSJ.com, as well as WSJ apps, subscriber-only podcasts, and videos.
       Use our unique partner link below to create your individual account. You must use your university email address. Once you have an account, you can go directly to WSJ.com and WSJ apps to sign in and read articles.
       Creating Your Account
       What if I already have a free account?
@@ -647,7 +647,7 @@ responses:
     
   utter_print_library:
   - text: |
-      [Source: ; Date: ] You can [upload files in advance online](https://printme.com/) or email file(s) as attachments to [print@printme.com](mailto:print@printme.com) to print in the library. You can also print files from a USB drive.
+      You can [upload files in advance online](https://printme.com/) or email file(s) as attachments to [print@printme.com](mailto:print@printme.com) to print in the library. You can also print files from a USB drive.
       Visit a Student Printing Kiosk on the Main Level in Thomas Cooper Library to choose your form of payment and enter your release code.
       For more details, visit one of these help links:
  
@@ -666,7 +666,7 @@ responses:
     
   utter_common_issue_printing:
   - text: |
-      [Source: ; Date: ] You can [upload files in advance online](https://printme.com) or email file(s) as attachments to [print@printme.com](mailto:print@printme.com) to print in the library. You can also print files from a USB drive.
+      You can [upload files in advance online](https://printme.com) or email file(s) as attachments to [print@printme.com](mailto:print@printme.com) to print in the library. You can also print files from a USB drive.
       Visit a Student Printing Kiosk on the Main Level of Thomas Cooper Library to choose your form of payment and enter your release code.
       Most Common Issues:
       Incorrect or unsupported file type
@@ -688,7 +688,7 @@ responses:
     
   utter_access_harvard_business_case:
   - text: |
-      [Source: ; Date: ] Check your syllabus to see if your professor has created a course pack with a link for your class.
+      Check your syllabus to see if your professor has created a course pack with a link for your class.
       Harvard Business Publishing (HBP) has a very strict copyright policy. Professors, students and staff are not allowed to copy, email, post or link to cases without their permission. Because of this, Harvard Business Cases are not available through library resources or the Interlibrary Loan service.
  
       For faculty and instructors
@@ -713,7 +713,7 @@ responses:
     
   utter_library_hire_student:
   - text: |
-      [Source: ; Date: ] We do! Students interested in working at University Libraries can search for open positions and apply in Handshake.
+      We do! Students interested in working at University Libraries can search for open positions and apply in Handshake.
       Under Jobs, select Location as Columbia, SC and click the filter for On-campus. Then search using the word library.  Or try search Handshake for University of South Carolina – University Libraries.
       [Student Employment Opportunities](https://sc.edu/about/offices_and_divisions/university_libraries/about/employment_opportunities/index.php)
       [Handshake screenshot with filters applied](/faq/image/19211/preview)
@@ -729,7 +729,7 @@ responses:
     
   utter_library_college_entrance_career:
   - text: |
-      [Source: ; Date: ] Yes, you can access test preparation materials through these databases:
+      Yes, you can access test preparation materials through these databases:
       LearningExpress Library
       You must register for a personal account to use the wide range of tests, tutorials and ebooks for adults and children. Includes college and graduate school admission tests, career exams, skill building in math, reading, grammar, writing and sciences, U.S citizenship exam, and some materials in Spanish.
       Mometrix eLibrary
@@ -749,7 +749,7 @@ responses:
     
   utter_resource_help_learn_language:
   - text: |
-      [Source: ; Date: ] Richland Library currently offers [Transparent Learning Online](https://www.richlandlibrary.com/databases/transparent-language-online) with over 100 languages. USC Columbia students, regardless of where they live, can [get a public library card at Richland Library](https://askus.richlandlibrary.com/faq/207283) for free and renew it annually while they are still enrolled. Visit a library branch in person with your CarolinaCard.
+      Richland Library currently offers [Transparent Learning Online](https://www.richlandlibrary.com/databases/transparent-language-online) with over 100 languages. USC Columbia students, regardless of where they live, can [get a public library card at Richland Library](https://askus.richlandlibrary.com/faq/207283) for free and renew it annually while they are still enrolled. Visit a library branch in person with your CarolinaCard.
       The USC University Libraries has both books about learning a language and books and newspapers written in other languages. There are also some campus resources.
       Visit our online guide for more details.
  
@@ -766,7 +766,7 @@ responses:
     
   utter_login_use_library_access:
   - text: |
-      [Source: ; Date: ] Student access to library resources is contingent upon the owner of the course the student is enrolled in. If it is a USC Columbia course, select University of South Carolina as the institution.
+      Student access to library resources is contingent upon the owner of the course the student is enrolled in. If it is a USC Columbia course, select University of South Carolina as the institution.
       Students can receive multiple entitlements. For example, a USC Lancaster student taking classes at USC Lancaster and USC Columbia will be assigned the entitlement for both Lancaster and Columbia. The student would be prompted to authenticate as Lancaster or Columbia when prompted for authentication.
       The image shows many more campus/institutional options.
 
@@ -775,13 +775,13 @@ responses:
   utter_summary_sign_orcid_id:
   - text: |
       Signing up for an ORCID iD is free and takes only a few minutes.
-      Contributing your professional information to your ORCID iD will allow you to quickly reuse this information in other systems.
       After registering the first time, you can sign in with your ORCID credentials or you can select Institutional account to log in with your USC network username and password.
+      The first time you log in with the Institutional account option, you'll be asked to link your ORCID account.
       This is a brief summary. For more details, please ask for the full answer.
     
   utter_sign_orcid_id:
   - text: |
-      [Source: ; Date: ] Signing up for an ORCID iD is free and takes only a few minutes. Your ORCID iD distinguishes you from other researchers. Contributing your professional information to your ORCID iD will allow you to quickly reuse this information in other systems.
+      Signing up for an ORCID iD is free and takes only a few minutes. Your ORCID iD distinguishes you from other researchers. Contributing your professional information to your ORCID iD will allow you to quickly reuse this information in other systems.
       After registering the first time, you can sign in with your ORCID credentials or you can select Institutional account to log in with your USC network username and password. The first time you log in with the Institutional account option, you'll be asked to link your ORCID account. 
       [Register (first time)](https://orcid.org/register)
       [Sign in (ORCID or USC credentials)](https://orcid.org/signin)
@@ -797,7 +797,7 @@ responses:
     
   utter_username_password_working_do:
   - text: |
-      [Source: ; Date: ] First make sure you are using the right credentials. Access to most library resources requires your Network username and password, which equates to the beginning of your university email address (before the @) and your email password. (This is different from your VIP ID, which is 8 numbers.)
+      First make sure you are using the right credentials. Access to most library resources requires your Network username and password, which equates to the beginning of your university email address (before the @) and your email password. (This is different from your VIP ID, which is 8 numbers.)
       If your login is still not working, you may need to reset your Network password (even if you can access your email or Blackboard) using the Account Management menu at [https://myaccount.sc.edu](https://myaccount.sc.edu).
       If you are trying to access the eduroam wireless network, you must add @ds.sc.edu to the end of your Network username when logging in. (This is for the wireless network only.)
       These links provide additional help with login issues. If you continue to have problems, please submit a ticket or email us.
@@ -819,7 +819,7 @@ responses:
     
   utter_get_help_citation:
   - text: |
-      [Source: ; Date: ] Try the library's online guide to Citation Formats for help with the most popular citation styles: AMA, APA, MLA and Chicago. We also have styles for the sciences, and for citing the use of generative AI.
+      Try the library's online guide to Citation Formats for help with the most popular citation styles: AMA, APA, MLA and Chicago. We also have styles for the sciences, and for citing the use of generative AI.
       Quick tip: A number of popular databases include tools that will provide a citation. Look for a button labeled Cite or similar and pick the style you need. You should always check these citations for accuracy.
       Physical citation guides: If you are in the library, pop by the reference office on the Main floor of Thomas Cooper Library for a physical copy of a citation style guide.
       Uncommon citation style? For help with less common styles and source types, the best resource is the official citation manual. You can ask at the Research Help Desk for assistance finding and using citation style manuals. The Writing Center can also help with formatting and incorporating citations into your writing.
@@ -838,7 +838,7 @@ responses:
     
   utter_interlibrary_loan_use_it:
   - text: |
-      [Source: ; Date: ] Interlibrary Loan (ILL) is a free service for requesting books, articles and other research materials when what you want is not available in the libraries' collections or online resources. The ILL department will ask another library to loan the items you request.
+      Interlibrary Loan (ILL) is a free service for requesting books, articles and other research materials when what you want is not available in the libraries' collections or online resources. The ILL department will ask another library to loan the items you request.
       To login and make requests or learn more about this service:
       [Request an Interlibrary Loan](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/interlibrary_loan/index.php)
 
@@ -853,7 +853,7 @@ responses:
     
   utter_pascal_delivers:
   - text: |
-      [Source: ; Date: ] PASCAL Delivers is a free book-delivery service which enables current USC students, faculty and staff to request delivery of physical books from other academic libraries across the state to a participating library. If you're wondering, PASCAL stands for Partnership Among South Carolina Academic Libraries.
+      PASCAL Delivers is a free book-delivery service which enables current USC students, faculty and staff to request delivery of physical books from other academic libraries across the state to a participating library. If you're wondering, PASCAL stands for Partnership Among South Carolina Academic Libraries.
       To find items available for request, expand your results in Find It @ USC by choosing to search PASCAL Delivers. Sign in to make requests.
       [Search Find It @ USC (PASCAL Delivers Advanced Search)](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC&amp;lang=en&amp;mode=advanced&amp;search_scope=NewDiscoveryNetwork)
       [PASCAL Delivers FAQ](http://pascalsc.libguides.com/pascaldelivers)
@@ -869,7 +869,7 @@ responses:
     
   utter_library_main_find_usc:
   - text: |
-      [Source: ; Date: ] This issue has affected a small number of off-campus users, and in at least some cases the site has been blocked by the spam filter of their personal internet service.
+      This issue has affected a small number of off-campus users, and in at least some cases the site has been blocked by the spam filter of their personal internet service.
       If you cannot determine the setting that is causing the problem, another solution is to download and install the free Virtual Private Network (VPN) to access library resources from home. If you use the VPN and it does not solve the problem for you, please use the form link below to report your access issue.
  
       [What is the VPN?](https://scprod.service-now.com/kb_view.do?sysparm_article=KB0010878)
@@ -889,7 +889,7 @@ responses:
     
   utter_photocopy_scan_library:
   - text: |
-      [Source: ; Date: ] Yes! There are several locations for photocopying and scanning within the libraries. See our website for additional details.
+      Yes! There are several locations for photocopying and scanning within the libraries. See our website for additional details.
       [Printing, Scanning, Copying](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/printing/index.php)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/23764)
@@ -903,7 +903,7 @@ responses:
     
   utter_workshop_offered_library:
   - text: |
-      [Source: ; Date: ] Librarians periodically offer a variety of workshops covering citation management, research and data management support, and teaching resources.
+      Librarians periodically offer a variety of workshops covering citation management, research and data management support, and teaching resources.
       Find descriptions and registration links on our website.
       [Library Workshops](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/workshops/index.php)
 
@@ -918,7 +918,7 @@ responses:
     
   utter_request_copy_manuscript:
   - text: |
-      [Source: ; Date: ] For manuscripts and other materials held in the libraries' Special Collections departments, contact the department directly to request copies and reproductions.
+      For manuscripts and other materials held in the libraries' Special Collections departments, contact the department directly to request copies and reproductions.
       [Irvin Department of Rare Books and Special Collections](https://sc.edu/libraries/rare)
       [Moving Image Research Collections](https://sc.edu/libraries/mirc)
       [South Carolina Political Collections](https://sc.edu/libraries/scpc)
@@ -935,7 +935,7 @@ responses:
     
   utter_ask_help_searching_source:
   - text: |
-      [Source: ; Date: ] You can ask for help with searching library resources in a variety of ways, including online chat, email, and virtual research appointments through Book a Librarian. Find detailed contact information on our website.
+      You can ask for help with searching library resources in a variety of ways, including online chat, email, and virtual research appointments through Book a Librarian. Find detailed contact information on our website.
       [Get Research Help](https://sc.edu/about/offices_and_divisions/university_libraries/get_research_help/index.php)
       [Book a Librarian](http://guides.library.sc.edu/bookalibrarian)
 
@@ -950,7 +950,7 @@ responses:
     
   utter_cant_access_database_workplace:
   - text: |
-      [Source: ; Date: ] Some agencies, corporations, institutions, and Internet providers may automatically configure browsers so their own proxy server is used. They could also have a firewall or preset internet security settings. Either of these could interfere with the library's proxy server and block access. You will need to talk to the network administrator at your place of business or school.
+      Some agencies, corporations, institutions, and Internet providers may automatically configure browsers so their own proxy server is used. They could also have a firewall or preset internet security settings. Either of these could interfere with the library's proxy server and block access. You will need to talk to the network administrator at your place of business or school.
 
       [Learn more here](https://libanswers.library.sc.edu//faq/262793)
     
@@ -969,7 +969,7 @@ responses:
     
   utter_visitor_come_library:
   - text: |
-      [Source: ; Date: ] The Thomas Cooper Library is open to the general public. Visitors must stop at the visitor desk upon entering the libraries.
+      The Thomas Cooper Library is open to the general public. Visitors must stop at the visitor desk upon entering the libraries.
       See the links below for more details about visitor services, library hours for visitors, and location information.
       [Visitor and Alumni Services](http://sc.edu/about/offices_and_divisions/university_libraries/find_services/visitor_alumni_services/index.php)
       [Building Use Policy](https://sc.edu/about/offices_and_divisions/university_libraries/about/policies/building_use.php)
@@ -987,7 +987,7 @@ responses:
     
   utter_find_published_example_action:
   - text: |
-      [Source: ; Date: ] Searching the education databases is a good place to start.
+      Searching the education databases is a good place to start.
       If searching with the phrase action research doesn’t get enough results when combined with words targeting the subject, try adding more terms that describe action research.  
       Some suggestions:
       action research OR problem of practice OR practice based OR action based OR case study OR applied research OR participatory research OR practitioner research OR teacher researchers
@@ -1011,7 +1011,7 @@ responses:
     
   utter_register_access_ad_age:
   - text: |
-      [Source: ; Date: ] All USC Columbia students, faculty and staff can register for unlimited online access to Ad Age.
+      All USC Columbia students, faculty and staff can register for unlimited online access to Ad Age.
       Use the [provided link](https://adage.com/) to access the Ad Age platform
       Click Register for Free near the top right of the screen
       Complete the form using your USC email address
@@ -1029,7 +1029,7 @@ responses:
     
   utter_library_charger_laptop_phone:
   - text: |
-      [Source: ; Date: ] The Checkout Desk on the Main floor has chargers for all types of devices that you can borrow for up to 4 hours at a time. Use the link below to see availability and reserve now. All reservations are free of charge, unless turned in late.
+      The Checkout Desk on the Main floor has chargers for all types of devices that you can borrow for up to 4 hours at a time. Use the link below to see availability and reserve now. All reservations are free of charge, unless turned in late.
       Portable charging banks are available for free in the Kiosk on the Main level, next to the printers. You can borrow this item for 4 hours at a time.
       There are also several free charging stations for phones available around the Main Level of Thomas Cooper Library and one in the Technology Lounge.
  
@@ -1046,7 +1046,7 @@ responses:
     
   utter_library_textbook:
   - text: |
-      [Source: ; Date: ] The library has a collection of print textbooks, especially for courses with over 100 students. Additional materials are also sometimes provided by instructors or available as ebooks through [Find It @ USC Libraries](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC), but the library does not have the assigned textbook for every course offered at the university.
+      The library has a collection of print textbooks, especially for courses with over 100 students. Additional materials are also sometimes provided by instructors or available as ebooks through [Find It @ USC Libraries](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC), but the library does not have the assigned textbook for every course offered at the university.
       To learn which textbooks have been assigned for a specific course, you can search the university bookstore's site or check for a course syllabus in Blackboard.
  
       [Textbooks and Course Materials - University Libraries](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
@@ -1064,7 +1064,7 @@ responses:
     
   utter_library_reader_advisory_database:
   - text: |
-      [Source: ; Date: ] The databases with Core Collection in the title and the NoveList databases on the Library and Information Science listing are useful for reader's advisory and collection development purposes.  Masterplots provides summaries of short stories, novels, non-fiction, drama, and poetry.
+      The databases with Core Collection in the title and the NoveList databases on the Library and Information Science listing are useful for reader's advisory and collection development purposes.  Masterplots provides summaries of short stories, novels, non-fiction, drama, and poetry.
       [Library and Information Science databases](https://guides.library.sc.edu/az.php?s=131034)
       [Masterplots](https://go.openathens.net/redirector/sc.edu?url=https%3A%2F%2Fonline.salempress.com%2Ftoc.do%3FbookMetaId%3DMP4)
 
@@ -1079,7 +1079,7 @@ responses:
     
   utter_see_hostname_error_try:
   - text: |
-      [Source: ; Date: ] When a hostname error occurs, the library needs to update its settings for that database or journal publisher. Please submit a ticket to the library with the following information so the error can be corrected:
+      When a hostname error occurs, the library needs to update its settings for that database or journal publisher. Please submit a ticket to the library with the following information so the error can be corrected:
       Name of the resource/database you're trying to access
       The hostname line listed on the error page
       [Submit a library access support ticket](https://sc.libwizard.com/f/library-access)
@@ -1095,7 +1095,7 @@ responses:
     
   utter_software_available_library_computer:
   - text: |
-      [Source: ; Date: ] All desktop computers in the library include the same set of available software. Some machines in the Technology Lounge on Level 5 have additional specialized software added. Some of this software can be accessed remotely.
+      All desktop computers in the library include the same set of available software. Some machines in the Technology Lounge on Level 5 have additional specialized software added. Some of this software can be accessed remotely.
       Use the link below for a complete listing and to make remote access requests:
       [Software and Hardware](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
 
@@ -1110,7 +1110,7 @@ responses:
     
   utter_library_color_copier:
   - text: |
-      [Source: ; Date: ] There are no color photocopiers in the library. Color copying is available at Quick Copy in Russell House.
+      There are no color photocopiers in the library. Color copying is available at Quick Copy in Russell House.
       The library does have both color printers and color scanners. For more information see our website.
       [Printing, Scanning, Copying](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/printing/index.php)
 
@@ -1125,7 +1125,7 @@ responses:
     
   utter_starbucks_thomas_cooper:
   - text: |
-      [Source: ; Date: ] As of January 2018, a full-service Starbucks replaced the previous Cooper's Corner coffee shop, located on the Main Level of Thomas Cooper Library in the back corner.
+      As of January 2018, a full-service Starbucks replaced the previous Cooper's Corner coffee shop, located on the Main Level of Thomas Cooper Library in the back corner.
       Carolina Food Co. manages the Starbucks, including their hours, which can be found at the link below.
       Need a snack or drink but Starbucks is closed? There are also food and beverage vending machines on the Main Level and Level 5.
       [Starbucks - Thomas Cooper Library](https://www.sc.edu/about/offices_and_divisions/dining_services/restaurants/starbucks_thomascooper.php)
@@ -1141,7 +1141,7 @@ responses:
     
   utter_library_childrens_book:
   - text: |
-      [Source: ; Date: ] Thomas Cooper Library has a collection of juvenile books on Level 1 that you can check out that range from picture books to young adult literature and includes non-fiction and fiction.
+      Thomas Cooper Library has a collection of juvenile books on Level 1 that you can check out that range from picture books to young adult literature and includes non-fiction and fiction.
       The juvenile collection uses the same call number system as the rest of the library if you want to browse. Find It @ USC lists the location as Columbia Cooper Juvenile. Writing down both the call number and the title of the book is especially helpful for finding books in the juvenile collection.
       The Irvin Department of Rare Books and Special Collections in the Hollings Library has [several collections of children's books](http://sc.edu/about/offices_and_divisions/university_libraries/browse/irvin_dept_special_collections/collections/index.php?search=children) which you can look at in their reading room but cannot check out. Find It @ USC lists the location as Columbia Rare Books & Special Collections. To learn more or make an appointment to use these collections, contact the department directly.
  
@@ -1162,7 +1162,7 @@ responses:
     
   utter_take_online_proctored_exam:
   - text: |
-      [Source: ; Date: ] Desktop computers in the Technology Lounge on Level 5 of the Thomas Cooper Library have the Respondus Lockdown Browser but not Respondus Monitor. These computers do not have webcams due to privacy concerns in a public space. Only students enrolled at USC can use the Technology Lounge.
+      Desktop computers in the Technology Lounge on Level 5 of the Thomas Cooper Library have the Respondus Lockdown Browser but not Respondus Monitor. These computers do not have webcams due to privacy concerns in a public space. Only students enrolled at USC can use the Technology Lounge.
       While the library does not offer additional exam proctoring services, the university has several options for USC students taking online courses. 
       [Exams and Testing for Online Courses](https://www.sc.edu/study/academic_overview/online_education/courses/exams_and_testing/index.php)
       [Test Proctoring - Office of Distributed Learning](https://www.sc.edu/about/offices_and_divisions/distributed_learning/test_proctoring/index.php)
@@ -1180,7 +1180,7 @@ responses:
     
   utter_request_book_delivered_campus:
   - text: |
-      [Source: ; Date: ] Request books through [Find It @ USC](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC). Sign in with your USC network username and password to see the Request link. Under Pickup Location, choose the option for Work Address. 
+      Request books through [Find It @ USC](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC). Sign in with your USC network username and password to see the Request link. Under Pickup Location, choose the option for Work Address. 
       For Interlibrary Loan or PASCAL Delivers items, contact Circulation at [ecirc@mailbox.sc.edu](mailto:ecirc@mailbox.sc.edu) to ask for campus delivery after receiving the email notification that your item has arrived.
       More details are available on our webpage:
  
@@ -1197,7 +1197,7 @@ responses:
     
   utter_get_library_card:
   - text: |
-      [Source: ; Date: ] Your CarolinaCard is your library card. You need it to enter the library and check out books.
+      Your CarolinaCard is your library card. You need it to enter the library and check out books.
       On the Columbia Campus, you can get a CarolinaCard at their office in the basement of the Russell House. If you are unable to come to campus, Distributed Learning Support Services can issue you a library ID card.
       Students at a distance can take advantage of most library resources by signing in with their network username and password without needing a CarolinaCard. See the link below to learn more about accessing resources from off campus.
       If you are not currently affiliated with the University of South Carolina, you can get borrowing privileges by joining either the USC Alumni Association or Friends of the University Libraries.
@@ -1218,7 +1218,7 @@ responses:
     
   utter_cant_connect_eduroam_wireless:
   - text: |
-      [Source: ; Date: ] The Department of Information Technology (DoIT) has created [FAQs that address known issues with Wi-Fi](https://sc.edu/about/offices_and_divisions/division_of_information_technology/infrastructure/wififaqs.php) across campus in general.
+      The Department of Information Technology (DoIT) has created [FAQs that address known issues with Wi-Fi](https://sc.edu/about/offices_and_divisions/division_of_information_technology/infrastructure/wififaqs.php) across campus in general.
       To access the eduroam wireless network, you must use your Network username with @ds.sc.edu added to the end. Your Network password is the same as your email password.
       The most common problem that is NOT related to general capacity or hardware issues is that your password has expired and needs to be updated. Use the link below for help when your password is not working.
       Note: Even if your password has been updated, often your computer has stored an expired password and is not prompting you to enter your new password.
@@ -1241,7 +1241,7 @@ responses:
     
   utter_renew_book:
   - text: |
-      [Source: ; Date: ] Books from USC locations and PASCAL Delivers libraries
+      Books from USC locations and PASCAL Delivers libraries
       You may renew online using [My Account](https://pascal-usc.primo.exlibrisgroup.com/discovery/login?vid=01PASCAL_USCCOL:USC).  After signing in, click on your name in the upper right corner and choose My Loans. Loans from USC Columbia (includes Law and Medicine) display by default. To see loans from PASCAL Delivers including other USC campus libraries, select the loaning institution in the left column.
       Under each institution, you will have the option to Renew All or select and renew individual items.
       For questions about your account, contact the Circulation department at 803-777-3145 or [ecirc@mailbox.sc.edu](mailto:ecirc@mailbox.sc.edu)
@@ -1270,7 +1270,7 @@ responses:
     
   utter_hour_thomas_cooper_library:
   - text: |
-      [Source: ; Date: ] The Thomas Cooper Library's hours are located at [sc.edu/libraries/hours](https://sc.edu/about/offices_and_divisions/university_libraries/about/hours/index.php). Please note there are different hours for USC affiliates and visitors (including Library Friends and alumni.)
+      The Thomas Cooper Library's hours are located at [sc.edu/libraries/hours](https://sc.edu/about/offices_and_divisions/university_libraries/about/hours/index.php). Please note there are different hours for USC affiliates and visitors (including Library Friends and alumni.)
       [Hours of Operation](http://sc.edu/libraries/hours)
       [Visitor and Alumni Services](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/visitor_alumni_services/index.php)
 
@@ -1285,7 +1285,7 @@ responses:
     
   utter_cant_login_interlibrary_loan:
   - text: |
-      [Source: ; Date: ] If you receive the error message that says your account needs to be manually updated, please contact the Interlibrary Loan Department at 803-777-2805 or [uscill@mailbox.sc.edu](mailto:uscill@mailbox.sc.edu?subject=ILL%20account%20needs%20to%20be%20updated). Provide your username, and they can quickly fix the issue.
+      If you receive the error message that says your account needs to be manually updated, please contact the Interlibrary Loan Department at 803-777-2805 or [uscill@mailbox.sc.edu](mailto:uscill@mailbox.sc.edu?subject=ILL%20account%20needs%20to%20be%20updated). Provide your username, and they can quickly fix the issue.
       This error is due to a recent change in the library's authentication process. It is not related to your ability to borrow items through Interlibrary Loan.
       If you have any other issues logging in to library services with your network username and password, please see the link below for additional help.
  
@@ -1302,7 +1302,7 @@ responses:
     
   utter_call_number_use_it:
   - text: |
-      [Source: ; Date: ] Call numbers are used to locate items on the shelf. See our online guide for using call numbers to find a book.
+      Call numbers are used to locate items on the shelf. See our online guide for using call numbers to find a book.
       [Reading Call Numbers](http://guides.library.sc.edu/callnumbers)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/23752)
@@ -1316,7 +1316,7 @@ responses:
     
   utter_access_specific_library_database:
   - text: |
-      [Source: ; Date: ] You can find a complete list of the library's subscription databases with links for access from our website by clicking on Databases at the bottom of the main search box on the homepage or using the link below. If needed, you will be prompted to login with your Network username and password.
+      You can find a complete list of the library's subscription databases with links for access from our website by clicking on Databases at the bottom of the main search box on the homepage or using the link below. If needed, you will be prompted to login with your Network username and password.
       If you are looking for access to a specific publication, such as a particular journal, newspaper, or magazine, the best strategy is to click on Journals (next to the link for databases on the homepage) and search by the publication title to learn what resource(s) provide access.
  
       [A-Z Databases](http://guides.library.sc.edu/az.php)
@@ -1334,7 +1334,7 @@ responses:
     
   utter_many_book_check_out:
   - text: |
-      [Source: ; Date: ] Current USC students, faculty and staff can borrow an unlimited number of most materials from University Libraries. The PASCAL Delivers service has a limit of 50 items at a time. USC Alumni Association and Friends of University Libraries members are allowed up to 5 items at a time.
+      Current USC students, faculty and staff can borrow an unlimited number of most materials from University Libraries. The PASCAL Delivers service has a limit of 50 items at a time. USC Alumni Association and Friends of University Libraries members are allowed up to 5 items at a time.
       There are a few exceptions, such as films or journals, that vary depending on your status at the university. For additional details, see our website.
  
       [Borrow Library Materials](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/library_materials/index.php)
@@ -1350,7 +1350,7 @@ responses:
     
   utter_book_mailed_home_address:
   - text: |
-      [Source: ; Date: ] Yes! Request books through [Find It @ USC](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC). Sign in with your USC network username and password to see the request links. We'll mail items to your home address. Please make sure your address is up to date in your [student](http://my.sc.edu/) record.
+      Yes! Request books through [Find It @ USC](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC). Sign in with your USC network username and password to see the request links. We'll mail items to your home address. Please make sure your address is up to date in your [student](http://my.sc.edu/) record.
       For more details and other ways to use the library from off campus:
       [Off Campus Access](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/off-campus_access/index.php)
 
@@ -1365,7 +1365,7 @@ responses:
     
   utter_much_fee_late_return:
   - text: |
-      [Source: ; Date: ] University Libraries does not charge late fees for most overdue items, except for [reserve textbooks](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php) and [borrowed technology](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/technology/index.php).
+      University Libraries does not charge late fees for most overdue items, except for [reserve textbooks](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php) and [borrowed technology](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/technology/index.php).
       For reserve textbooks on hourly loan within the library, the late return fee is $5 per hour. For extended loans (1 or more days), the fee is $15 per day. Please see our [technology loan policies](https://guides.library.sc.edu/tech-policies) for details on late fees and replacement costs by item type.
       The library will charge replacement costs for any long overdue, lost or damaged items. The charge will be removed if long overdue items are returned.
       Please contact the Circulation Department at [ecirc@mailbox.sc.edu](mailto:ecirc@mailbox.sc.edu) with any questions about fines on your library account. If you believe you have been charged in error, you can submit an online appeal.
@@ -1383,7 +1383,7 @@ responses:
     
   utter_library_provide_support_endnote:
   - text: |
-      [Source: ; Date: ] The library maintains an online help guide with introductory information. Librarians also offer workshops periodically.
+      The library maintains an online help guide with introductory information. Librarians also offer workshops periodically.
       All USC Columbia students, faculty, and staff have access to the free EndNote Online version through the library's subscription to Web of Science. However, this product does not have all of the features of EndNote Desktop.
       EndNote Desktop software is available to USC employees from the Division of Information Technology in the Software section of my.sc.edu. For assistance with purchasing software, contact the DoIT Service Desk. Faculty and staff members can also contact their departments.
       [EndNote Online Guide](https://guides.library.sc.edu/endnote)
@@ -1400,7 +1400,7 @@ responses:
     
   utter_find_empirical_study:
   - text: |
-      [Source: ; Date: ] Look for Methodology filters and facets
+      Look for Methodology filters and facets
       PsycINFO has a Methodology limit. You can select empirical study or specific types of studies, including qualitative or quantitative studies.
       PubMed's Article Type limit includes various types of empirical research.
       When there's not a way to limit by methodology:
@@ -1423,7 +1423,7 @@ responses:
     
   utter_library_car_repair_manual:
   - text: |
-      [Source: ; Date: ] You can find information for servicing automobiles both old and new in a database offered through DISCUS, South Carolina’s Virtual Library. DISCUS makes some core resources available throughout the state by providing access through South Carolina public, school and college libraries.
+      You can find information for servicing automobiles both old and new in a database offered through DISCUS, South Carolina’s Virtual Library. DISCUS makes some core resources available throughout the state by providing access through South Carolina public, school and college libraries.
       [ChiltonLibrary](https://link.gale.com/apps/CHLL?u=colu68650)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/404641)
@@ -1437,7 +1437,7 @@ responses:
     
   utter_alumnus_get_access_research:
   - text: |
-      [Source: ; Date: ] Members of the USC Alumni Association can borrow print materials, make Interlibrary Loan requests, and access alumni versions of select databases. Local alumni can visit Thomas Cooper Library to access subscription resources or study.
+      Members of the USC Alumni Association can borrow print materials, make Interlibrary Loan requests, and access alumni versions of select databases. Local alumni can visit Thomas Cooper Library to access subscription resources or study.
       Due to licensing restrictions, it is not possible for alumni to have off-campus access to library subscription resources. Please share your desire for additional resource access with the Alumni Association for consideration as a potential benefit to members.
       JSTOR offers a number of options for independent researchers including JPASS, an individual subscription to a portion of their journal collections. Many publishers also offer article access on a pay-per view basis.
  
@@ -1455,7 +1455,7 @@ responses:
     
   utter_schedule_research_appointment:
   - text: |
-      [Source: ; Date: ] You can schedule an in-person or virtual one-on-one appointment with a librarian by clicking the link below. To schedule, select the relevant search field or subject librarian. During this appointment, you can request help with:
+      You can schedule an in-person or virtual one-on-one appointment with a librarian by clicking the link below. To schedule, select the relevant search field or subject librarian. During this appointment, you can request help with:
       Finding articles or books
       Identifying relevant databases to search
       Citation managers, and more!
@@ -1474,7 +1474,7 @@ responses:
     
   utter_busy_thomas_cooper_library:
   - text: |
-      [Source: ; Date: ] Thomas Cooper Library now has a live visitor count! Click the link below to choose where you will study today.
+      Thomas Cooper Library now has a live visitor count! Click the link below to choose where you will study today.
  
       Relevant links:
       [Live visitor count - Thomas Cooper Library](https://sc.edu/about/offices_and_divisions/university_libraries/about/visitor_count/)
@@ -1491,7 +1491,7 @@ responses:
     
   utter_reserve_study_room:
   - text: |
-      [Source: ; Date: ] Group study rooms in Thomas Cooper Library, including large and small rooms on Levels 1-4, the Tech Coops on Level 4, and the collaborative technology rooms on the Main Level, must be reserved online up to 3 weeks in advance.
+      Group study rooms in Thomas Cooper Library, including large and small rooms on Levels 1-4, the Tech Coops on Level 4, and the collaborative technology rooms on the Main Level, must be reserved online up to 3 weeks in advance.
       For reservations and additional information:
       [Reserve a Study Room](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/study_room/index.php)
 
@@ -1506,7 +1506,7 @@ responses:
     
   utter_food_drink_allowed_library:
   - text: |
-      [Source: ; Date: ] You are allowed to have food and drinks in most areas of the library. Please wear your mask or face covering when you are not actively eating or drinking.
+      You are allowed to have food and drinks in most areas of the library. Please wear your mask or face covering when you are not actively eating or drinking.
       Exceptions:
       Food and beverages are not allowed in the library classrooms, Library Productions Studios, the Hollings Special Collections Library, or the South Caroliniana Library.
       Remember to Keep it Clean! Please respect your fellow classmates and library users by properly disposing of trash and recycling.  
@@ -1522,7 +1522,7 @@ responses:
     
   utter_find_dissertation_thesis:
   - text: |
-      [Source: ; Date: ] University Libraries offers several resources to help you find doctoral dissertations and master's theses written at USC and elsewhere, and Honors College theses from the University of South Carolina. You can start by searching in the ProQuest database or please visit the research guide below to learn more.
+      University Libraries offers several resources to help you find doctoral dissertations and master's theses written at USC and elsewhere, and Honors College theses from the University of South Carolina. You can start by searching in the ProQuest database or please visit the research guide below to learn more.
       [ProQuest Dissertations and Theses Global database](https://login.pallas2.tcl.sc.edu/login?url=https://search.proquest.com/pqdtglobal/advanced?accountid=13965)
       [Guide to Finding Dissertations and Theses](https://guides.library.sc.edu/dissertations)
 
@@ -1537,7 +1537,7 @@ responses:
     
   utter_find_historical_newspaper_article:
   - text: |
-      [Source: ; Date: ] University Libraries subscribes to numerous historical newspaper databases, and you can see a list using the link below. The dates of coverage vary, so be sure to check that the time period you need is included.
+      University Libraries subscribes to numerous historical newspaper databases, and you can see a list using the link below. The dates of coverage vary, so be sure to check that the time period you need is included.
       Also, Chronicling America is a freely available digital newspaper collection covering most U.S. states from 1836-1922. Additionally, many states have their own collections of digitized historical newspapers that can easily be found online.
       Interested in South Carolina newspapers? Take a look at Historical Newspapers of South Carolina, another freely available resource. You'll find content from the African-American newspapers Lighthouse and Informer and The Palmetto Leader not found in Chronicling America.
       If you can't find online access through one of these sources, historical issues may be available on microfilm. Try searching Find It @ USC Libraries for title of the newspaper.
@@ -1557,7 +1557,7 @@ responses:
     
   utter_cant_access_thomson_one:
   - text: |
-      [Source: ; Date: ] The Thomson One database is considered a legacy product that is no longer being updated or maintained by its owners. Also, it only worked in the Internet Explorer browser, which has also been phased out by Microsoft.
+      The Thomson One database is considered a legacy product that is no longer being updated or maintained by its owners. Also, it only worked in the Internet Explorer browser, which has also been phased out by Microsoft.
       The library has many other [resources for business data and information](https://guides.library.sc.edu/az.php?s=58861). For assistance with business research, please contact Jean C. Mays at [clenneyj@mailbox.sc.edu](mailto:clenneyj@mailbox.sc.edu) or [schedule an appointment](http://libcal.library.sc.edu/appointment/31855).
 
       [Learn more here](https://libanswers.library.sc.edu//faq/316140)
@@ -1571,7 +1571,7 @@ responses:
     
   utter_thomas_cooper_library_located:
   - text: |
-      [Source: ; Date: ] The Thomas Cooper Library is located at 1322 Greene Street, near the corner of Greene and Sumter Streets. Parking is generally available in the Bull Street Parking Garage or in metered spots around campus. See the link below for a map and additional details.
+      The Thomas Cooper Library is located at 1322 Greene Street, near the corner of Greene and Sumter Streets. Parking is generally available in the Bull Street Parking Garage or in metered spots around campus. See the link below for a map and additional details.
  
       [Thomas Cooper Library - Location](http://sc.edu/about/offices_and_divisions/university_libraries/about/locations/tcl/index.php)
 
@@ -1586,7 +1586,7 @@ responses:
     
   utter_center_teaching_excellence_cte:
   - text: |
-      [Source: ; Date: ] The Center for Teaching Excellence (CTE) is located on Level 5 of the Thomas Cooper Library, Room L511. Walk past the elevators. When you enter the open study area, look to your right and you'll find it.
+      The Center for Teaching Excellence (CTE) is located on Level 5 of the Thomas Cooper Library, Room L511. Walk past the elevators. When you enter the open study area, look to your right and you'll find it.
       [Floor Plans for Thomas Cooper Library](https://sc.edu/about/offices_and_divisions/university_libraries/about/locations/tcl/floor_plans/index.php)
       [Center for Teaching Excellence homepage](http://www.sc.edu/cte/)
 
@@ -1601,7 +1601,7 @@ responses:
     
   utter_get_help_writing:
   - text: |
-      [Source: ; Date: ] The University Writing Center is located in Byrnes 703 (on the corner of Sumter and College streets.)
+      The University Writing Center is located in Byrnes 703 (on the corner of Sumter and College streets.)
       Undergraduate students can also use the Writing Lab sponsored by the Student Success Center, which is located in Sims Hall, S109 (in Women's Quad.)
       Make an appointment, find drop-in hours, and learn about the available services at these links:
       [University Writing Center at UofSC](https://www.sc.edu/study/colleges_schools/artsandsciences/english_language_and_literature/beyond_classroom/writing_center/)
@@ -1618,7 +1618,7 @@ responses:
     
   utter_something_notarized:
   - text: |
-      [Source: ; Date: ] The CarolinaCard office in the basement of Russell House has a notary. Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+      The CarolinaCard office in the basement of Russell House has a notary. Call CarolinaCard at 803-777-1708 to check availability at a specific time.
 
       [Learn more here](https://libanswers.library.sc.edu//faq/138210)
     
@@ -1631,7 +1631,7 @@ responses:
     
   utter_contact_library:
   - text: |
-      [Source: ; Date: ] You can ask questions, make noise complaints, look up phone numbers and email addresses, or submit feedback and suggestions on our [Contact page](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/index.php).
+      You can ask questions, make noise complaints, look up phone numbers and email addresses, or submit feedback and suggestions on our [Contact page](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/index.php).
       For help with research, go to our [Get Research Help](https://sc.edu/about/offices_and_divisions/university_libraries/get_research_help/index.php) page and start a chat or [submit a question by email](https://libanswers.library.sc.edu/ask).
       For questions about your library account including renewals and fines, call 803-777-3145 or email [ecirc@mailbox.sc.edu](mailto:ecirc@mailbox.sc.edu).
       To find contact information for specific individuals or departments:
@@ -1650,7 +1650,7 @@ responses:
     
   utter_computer_internet_access_technology:
   - text: |
-      [Source: ; Date: ] Borrow Library Technology
+      Borrow Library Technology
       The Circulation Desk on the Main Level of Thomas Cooper Library loans laptops, iPads, camera equipment, virtual reality devices and more for up to 7 days at a time.
  
       Internet Access Options
@@ -1671,7 +1671,7 @@ responses:
     
   utter_instructor_schedule_class_library:
   - text: |
-      [Source: ; Date: ] Librarians are available to teach your students information literacy and library research skills tailored to your course and assignments, both in person and online. You can use the library's online request form or email your subject librarian directly to discuss your needs and schedule sessions.
+      Librarians are available to teach your students information literacy and library research skills tailored to your course and assignments, both in person and online. You can use the library's online request form or email your subject librarian directly to discuss your needs and schedule sessions.
       The librarians have priority in scheduling, the library has two computer classrooms that faculty and staff can request for occasional use other than librarian-led instruction. Submit requests online.
       [Schedule Library Instruction](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/schedule_library_instruction/index.php)
       [Find My Subject Librarian](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/subject_librarian/index.php)
@@ -1688,7 +1688,7 @@ responses:
     
   utter_check_locker:
   - text: |
-      [Source: ; Date: ] USC Columbia students and university employees can ask for a locker at the Access Services Desk on the Main Level of Thomas Cooper Library.
+      USC Columbia students and university employees can ask for a locker at the Access Services Desk on the Main Level of Thomas Cooper Library.
       Find more details on our webpage:
  
       [Check Out a Locker](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/lockers/index.php)
@@ -1704,7 +1704,7 @@ responses:
     
   utter_find_example_dissertation_online:
   - text: |
-      [Source: ; Date: ] If you want to limit your searching specifically to dissertations from your program, go to Scholar Commons, which is USC's institutional repository. To find Scholar Commons in our list of [databases](http://guides.library.sc.edu/az) you can: 
+      If you want to limit your searching specifically to dissertations from your program, go to Scholar Commons, which is USC's institutional repository. To find Scholar Commons in our list of [databases](http://guides.library.sc.edu/az) you can: 
       change All Database Types to Dissertations and Theses,
       search for it by name, or
       click on the letter S
@@ -1725,7 +1725,7 @@ responses:
     
   utter_carolinasouthern_california_trademark_dispute:
   - text: |
-      [Source: ; Date: ] The 2010 trademark case between the University of South Carolina and the University of Southern California was not over the use of USC. It was over the use of the interlocking SC letters as an athletic logo.
+      The 2010 trademark case between the University of South Carolina and the University of Southern California was not over the use of USC. It was over the use of the interlocking SC letters as an athletic logo.
       Southern California uses an interlocking block SC for its athletic teams, while South Carolina uses an interlocking script SC, which was based on historical designs over a century old. Southern California argued that fans would be confused by a burgundy block SC and a garnet script SC. The University Archives provided documentation of the historical usage of the interlocking SC at the University of South Carolina, but Southern California won the case because in the 1980s the longstanding usage of SC and South Carolina to represent this university were dropped in favor of using USC (and The USC). The judge ruled we had abandoned the mark. Carolina can still use the logo, it just can't be trademarked.
 
       [Learn more here](https://libanswers.library.sc.edu//faq/378742)
@@ -1739,7 +1739,7 @@ responses:
     
   utter_access_journal_marketing_specific:
   - text: |
-      [Source: ; Date: ] You can use the Business Source Complete database to access Journal of Marketing and other similar journals. See our online guide for links and screenshots.
+      You can use the Business Source Complete database to access Journal of Marketing and other similar journals. See our online guide for links and screenshots.
       [Marketing Journals in Business Source Complete](https://guides.library.sc.edu/marketing-journals)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/264187)
@@ -1753,7 +1753,7 @@ responses:
     
   utter_check_ipad:
   - text: |
-      [Source: ; Date: ] iPads are available for checkout from the Checkout desk on the Main floor of Thomas Cooper library. To put one on hold, follow the link below and scroll down to iPads. Valid CarolinaCard is required.
+      iPads are available for checkout from the Checkout desk on the Main floor of Thomas Cooper library. To put one on hold, follow the link below and scroll down to iPads. Valid CarolinaCard is required.
       [Borrow Technology](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/technology/index.php)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/23743)
@@ -1767,7 +1767,7 @@ responses:
     
   utter_computer_available_library:
   - text: |
-      [Source: ; Date: ] Thomas Cooper Library has desktop computers, both Mac and PC, available on Level 5 in the Technology Lounge. Check the Software and Hardware link to see what programs are offered on these computers.
+      Thomas Cooper Library has desktop computers, both Mac and PC, available on Level 5 in the Technology Lounge. Check the Software and Hardware link to see what programs are offered on these computers.
       Laptops and iPads are also available for check out from the Checkout Desk on the Main floor. For more details see our website.
       There are also laptops available for 4-hour loans, located in the Kiosk next to the printers on the Main floor.
       [Borrow Technology](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/technology/index.php)
@@ -1784,7 +1784,7 @@ responses:
     
   utter_usc_library:
   - text: |
-      [Source: ; Date: ] In addition to the University Libraries locations, the Law School and the School of Medicine have their own libraries in Columbia. There are also libraries that support each of the USC system campuses around the state.
+      In addition to the University Libraries locations, the Law School and the School of Medicine have their own libraries in Columbia. There are also libraries that support each of the USC system campuses around the state.
       [All USC Library Locations](https://sc.edu/about/offices_and_divisions/university_libraries/about/locations/index.php)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/23772)
@@ -1798,7 +1798,7 @@ responses:
     
   utter_library_film_video:
   - text: |
-      [Source: ; Date: ] Yes! You can check out videos from Thomas Cooper Library with a valid CarolinaCard. 
+      Yes! You can check out videos from Thomas Cooper Library with a valid CarolinaCard. 
       You can search [Find It @ USC Libraries](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC&mode=advanced) by title, actor/director names, genre or keyword. It helps to limit your search to USC Libraries. Once you conduct a search, select Columbia Cooper Educational Films as the Location. When you identify the film you want, contact Educational Films directly to request it.
       The library also provides free access to several streaming video collections for students, faculty and staff.
       [Educational Films](https://sc.edu/about/offices_and_divisions/university_libraries/browse/educational_films/index.php)
@@ -1815,7 +1815,7 @@ responses:
     
   utter_get_full_text_access:
   - text: |
-      [Source: ; Date: ] From within a library database:
+      From within a library database:
       If you are already in a library database and the PDF or Linked Full Text is not there, try Check for Full Text to search for the article within all of the library's subscriptions.
  
       From the library homepage:
@@ -1848,7 +1848,7 @@ responses:
     
   utter_access_harvard_business_review:
   - text: |
-      [Source: ; Date: ] The Business Source Complete database includes every volume of Harvard Business Review (HBR) magazine back to the first issue published in 1922.
+      The Business Source Complete database includes every volume of Harvard Business Review (HBR) magazine back to the first issue published in 1922.
       From the [publication details page for HBR](https://search.ebscohost.com/login.aspx?direct=true&AuthType=sso&db=bth&jid=HBR&site=ehost-live&custid=s3604775), use Search within this publication on the left to search for the article title or use topic keywords. You can also use the years/volumes/issues menu on the right to drill down to a specific issue.
  
       From the University Libraries homepage:
@@ -1868,7 +1868,7 @@ responses:
     
   utter_i’m_outside_united_state:
   - text: |
-      [Source: ; Date: ] To access library resources from a foreign country, you may need to download and install a virtual private network (VPN) client which is available at no cost from the university. The university’s VPN allows you to connect to the network as if you were on campus, making access to restricted services possible.
+      To access library resources from a foreign country, you may need to download and install a virtual private network (VPN) client which is available at no cost from the university. The university’s VPN allows you to connect to the network as if you were on campus, making access to restricted services possible.
       [USC Virtual Private Network (VPN) Client](https://scprod.service-now.com/kb_view.do?sysparm_article=KB0010878)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/342358)
@@ -1882,7 +1882,7 @@ responses:
     
   utter_see_zotero_notification_automatically:
   - text: |
-      [Source: ; Date: ] University Libraries has transitioned away from using proxy access for online resources to OpenAthens authentication. To help avoid access issues, you should disable Zotero's proxy redirection feature.
+      University Libraries has transitioned away from using proxy access for online resources to OpenAthens authentication. To help avoid access issues, you should disable Zotero's proxy redirection feature.
       When you see the yellow notification at the top of your browser saying Zotero has automatically redirected your request:
       Choose Proxy Settings to the far right in the notification bar
       Uncheck the box next to Enable proxy redirection (see screenshot below)
@@ -1901,7 +1901,7 @@ responses:
     
   utter_floor_thomas_cooper_library:
   - text: |
-      [Source: ; Date: ] Quiet study areas are available on Levels 1, 2 and 3. No talking is permitted in these areas. Silent study carrels are available on a first-come, first-served basis on Levels 1 and 3.
+      Quiet study areas are available on Levels 1, 2 and 3. No talking is permitted in these areas. Silent study carrels are available on a first-come, first-served basis on Levels 1 and 3.
       To report a noise problem:
       [Contact Us](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/index.php)
 
@@ -1916,7 +1916,7 @@ responses:
     
   utter_student_success_center_peer:
   - text: |
-      [Source: ; Date: ] The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library). Find more information or make an appointment on their website.
+      The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library). Find more information or make an appointment on their website.
       Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
       [Student Success Center](http://www.sc.edu/success)
       [Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
@@ -1933,7 +1933,7 @@ responses:
     
   utter_mailing_address_thomas_cooper:
   - text: |
-      [Source: ; Date: ] Mail can be sent to:
+      Mail can be sent to:
       Thomas Cooper Library
       1322 Greene Street
       Columbia, SC 29208
@@ -1953,7 +1953,7 @@ responses:
     
   utter_return_book:
   - text: |
-      [Source: ; Date: ] You can return library items to the Circulation Desk or nearby book drop slots within the Thomas Cooper Library.
+      You can return library items to the Circulation Desk or nearby book drop slots within the Thomas Cooper Library.
       There are also convenient book drops on campus.
       Drive-up book drop behind Callcott and the Health Center, across from the Bull St. garage entrance
       Drive-up book drop in the cul-de-sac in front of the Close-Hipp building
@@ -1974,7 +1974,7 @@ responses:
     
   utter_make_suggestion_library:
   - text: |
-      [Source: ; Date: ] The University Libraries welcomes your comments and suggestions. Simply fill out our brief online form. Include your email address if you would like a personalized reply.
+      The University Libraries welcomes your comments and suggestions. Simply fill out our brief online form. Include your email address if you would like a personalized reply.
       [Contact Us](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/index.php)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/23777)
@@ -1988,7 +1988,7 @@ responses:
     
   utter_make_noise_complaint_staff:
   - text: |
-      [Source: ; Date: ] You can chat live online with the Circulation Department during the hours they are open to report any excessive noise. Use the button to Report a Noise Complaint on the library's contact page.
+      You can chat live online with the Circulation Department during the hours they are open to report any excessive noise. Use the button to Report a Noise Complaint on the library's contact page.
       [Contact Us](http://sc.edu/about/offices_and_divisions/university_libraries/about/contact/index.php)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/110268)
@@ -2002,7 +2002,7 @@ responses:
     
   utter_find_journal_impact_factor:
   - text: |
-      [Source: ; Date: ] There are different metrics that can be used to rank journals. One widely used metric is the Impact Factor that measures the frequency with which the average article in a journal has been cited in a particular year.
+      There are different metrics that can be used to rank journals. One widely used metric is the Impact Factor that measures the frequency with which the average article in a journal has been cited in a particular year.
       Journal Citation Reports (JCR) from Thomson Reuters is the most common tool for locating impact factors and other metrics for leading journals in the sciences and social sciences. Cabells Scholarly Analytics is a another major resource provided by University Libraries for finding metrics.
       Note: not every journal publication has a calculated impact factor.
       For additional details and tools for finding a variety of journal and author metrics, see the library's online guide for Impact Measures.
@@ -2020,7 +2020,7 @@ responses:
     
   utter_get_online_access_library:
   - text: |
-      [Source: ; Date: ] Your online access privileges begin with the first semester in which you are enrolled in classes. So new students enrolled for the Fall semester will gain access after the Summer semester ends, sometime in early August.
+      Your online access privileges begin with the first semester in which you are enrolled in classes. So new students enrolled for the Fall semester will gain access after the Summer semester ends, sometime in early August.
       Continuing graduate students who were enrolled during the Spring semester will retain online access through the summer. Continuing undergraduate students who are enrolled in Summer semester or already registered for Fall semester retain online access through the summer.
       If you are trying to access resources before your first semester, you may receive the message Sorry, you are not currently authorized to access this resource. If you feel this is in error, please Contact Us.
       If you have questions please use the Ask a Librarian online chat or [submit them by email](https://libanswers.library.sc.edu/ask).
@@ -2036,7 +2036,7 @@ responses:
     
   utter_pay_library_fine:
   - text: |
-      [Source: ; Date: ] Library fines should be paid at the Circulation Desk on the Main Level of Thomas Cooper Library. Fines can be paid with cash, personal check, credit card or CarolinaCash.
+      Library fines should be paid at the Circulation Desk on the Main Level of Thomas Cooper Library. Fines can be paid with cash, personal check, credit card or CarolinaCash.
       To appeal fines online or learn more about borrowing from the libraries:
       [Borrow Library Materials](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/library_materials/index.php)
 
@@ -2051,18 +2051,14 @@ responses:
     
   utter_friend_university_library_previously:
   - text: |
-      [Source: ; Date: ] Friends of University Libraries is an organization that supports library acquisitions, student assistantships, and library resources and spaces for students. 
+      Friends of University Libraries is an organization that supports library acquisitions, student assistantships, and library resources and spaces for students. 
       Membership starts at $50/year and core benefits include:
       Open house tours of libraries and special collections departments
       Limited borrowing privileges from Thomas Cooper Library
       Invitations to University Libraries events, exhibitions and programs
       15% discount on all purchases at Barefoot Campus Outfitter in Columbia, S.C.
       Current members of Friends of University Libraries can make requests through the library's [Find It @ USC catalog](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC) to check out up to 5 items at a time. Fill out the form below to receive a username and password for online requesting.
-      [Join Here](https://donate.sc.edu/AG/sfp/libr/friends-of-university-libraries)
-      [Membership Levels](https://sc.edu/about/offices_and_divisions/university_libraries/support/friend_groups/friends/membership.php)
-      [Request a Checkout Account](https://sc.libwizard.com/f/library_borrowing_account_request_form)
-
-      [Learn more here](https://libanswers.library.sc.edu//faq/23770)
+      \n[Join Here](https://donate.sc.edu/AG/sfp/libr/friends-of-university-libraries)\n[Membership Levels](https://sc.edu/about/offices_and_divisions/university_libraries/support/friend_groups/friends/membership.php)\n[Request a Checkout Account](https://sc.libwizard.com/f/library_borrowing_account_request_form)\n[Learn more here](https://libanswers.library.sc.edu//faq/23770)
     
   utter_summary_university_institutional_repository:
   - text: |
@@ -2073,7 +2069,7 @@ responses:
     
   utter_university_institutional_repository:
   - text: |
-      [Source: ; Date: ] Yes! Scholar Commons is our Institutional Repository to preserve, collect and disseminate the research and scholarship of the University of South Carolina. To access and search Scholar Commons or to learn more about contributing your own research, use the links below.
+      Yes! Scholar Commons is our Institutional Repository to preserve, collect and disseminate the research and scholarship of the University of South Carolina. To access and search Scholar Commons or to learn more about contributing your own research, use the links below.
  
       [Access Scholar Commons](https://scholarcommons.sc.edu/)
       [Share Your Research in Scholar Commons](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/share_research)
@@ -2089,7 +2085,7 @@ responses:
     
   utter_set_link_usc_content:
   - text: |
-      [Source: ; Date: ] To set up links to connect directly to USC subscription content from [Google Scholar](https://scholar.google.com/):
+      To set up links to connect directly to USC subscription content from [Google Scholar](https://scholar.google.com/):
       Go to the Menu (icon with 3 horizontal bars in top left) on the Google Scholar page
       Select Settings and click on Library links
       Search and select UofSC University Libraries - ViewIt@UofSC
@@ -2107,7 +2103,7 @@ responses:
     
   utter_download_check_ebook:
   - text: |
-      [Source: ; Date: ] When connected to the internet, you can choose Read Online or PDF Full Text to read an ebook. Downloading is not required.
+      When connected to the internet, you can choose Read Online or PDF Full Text to read an ebook. Downloading is not required.
       Most ebooks also allow downloading of pages or chapters, up to a maximum per session which is set by the publisher. The PDF downloads can be saved to your device and do not expire. (See the video below for a quick demo.)
       To read an ebook on your computer or mobile device while you are offline, you can use the Full Download or Download Book option. Several components are required before you will be able to download an ebook in most cases:
       Adobe Digital Editions free software and a personal Adobe ID
@@ -2131,7 +2127,7 @@ responses:
     
   utter_check_laptop:
   - text: |
-      [Source: ; Date: ] Laptops are available for 4-hour checkout at the Kiosk located on the Main floor, next to the printers. Please make sure to save any work to your Outlook account or flash drive - the laptops will be wiped as soon as it is returned. If it is not returned, a fine will be applied to your account for every hour that it is late.
+      Laptops are available for 4-hour checkout at the Kiosk located on the Main floor, next to the printers. Please make sure to save any work to your Outlook account or flash drive - the laptops will be wiped as soon as it is returned. If it is not returned, a fine will be applied to your account for every hour that it is late.
       [Borrow Technology](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/technology/index.php)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/23744)
@@ -2145,7 +2141,7 @@ responses:
     
   utter_library_provide_access_covidence:
   - text: |
-      [Source: ; Date: ] The University of South Carolina now has access to Covidence to help manage your systematic reviews. Please use your USC affiliated email when signing up. If you have any questions regarding Covidence, please check the links below.
+      The University of South Carolina now has access to Covidence to help manage your systematic reviews. Please use your USC affiliated email when signing up. If you have any questions regarding Covidence, please check the links below.
       [Covidence link - USC login](https://guides.library.sc.edu/az.php?q=covidence)
       [Guide to Systematic Reviews](https://guides.library.sc.edu/systematic-reviews/covidence)
 
@@ -2160,7 +2156,7 @@ responses:
     
   utter_lost_found:
   - text: |
-      [Source: ; Date: ] Wallets, phones, laptops and other valuable or sensitive items are kept at the Ask Us Desk (aka Information Desk) on the Main Level of Thomas Cooper Library. You can stop by in person, call 803-777-4866, or email [ecirc@mailbox.sc.edu](mailto:ecirc@mailbox.sc.edu) with questions.
+      Wallets, phones, laptops and other valuable or sensitive items are kept at the Ask Us Desk (aka Information Desk) on the Main Level of Thomas Cooper Library. You can stop by in person, call 803-777-4866, or email [ecirc@mailbox.sc.edu](mailto:ecirc@mailbox.sc.edu) with questions.
 
       [Learn more here](https://libanswers.library.sc.edu//faq/23766)
     
@@ -2173,7 +2169,7 @@ responses:
     
   utter_charge_card_cost_print:
   - text: |
-      [Source: ; Date: ] Using Student Printing Kiosks:
+      Using Student Printing Kiosks:
       When using a credit or debit card on Student Printing Kiosks, you first choose an authorization amount to cover your printing costs. This will put a temporary charge on your card that will expire. If the charge shows as Pending or Processing with your bank, that is not a posted charge, and you can expect it to be removed or refunded. You should see a separate charge for the actual cost of your printing.
       Bank Policies:
       Depending on the policies of your specific bank, it can take anywhere from 1 to 8 business days for authorization holds to expire. You can contact them to see if they can tell you what to expect. If having these holds on your debit card is not convenient, you may consider keeping a small balance of CarolinaCash to use instead for low-cost print jobs.
@@ -2192,7 +2188,7 @@ responses:
     
   utter_found_book_library_catalog:
   - text: |
-      [Source: ; Date: ] The catalog record indicates the LOCATION and the CALL NUMBER for the book.
+      The catalog record indicates the LOCATION and the CALL NUMBER for the book.
       If the book's location is Columbia Cooper, the first letter of the call number indicates the level of Thomas Cooper where you can find it.
       A - D on Level 1
       E - L on Level 2
@@ -2217,7 +2213,7 @@ responses:
     
   utter_library_fun_book_read:
   - text: |
-      [Source: ; Date: ] The library maintains a collection of popular new fiction and nonfiction books selected for pleasure reading. Of course, depending on your interests, there could be more books in our collection you'll enjoy reading! Try looking at Scholar's Corner on the Main level for the majority of our popular reading selection.
+      The library maintains a collection of popular new fiction and nonfiction books selected for pleasure reading. Of course, depending on your interests, there could be more books in our collection you'll enjoy reading! Try looking at Scholar's Corner on the Main level for the majority of our popular reading selection.
       You can always search [Find It @ USC Libraries](https://pascal-usc.primo.exlibrisgroup.com/discovery/browse?vid=01PASCAL_USCCOL:USC) by author or title.
  
       Related question:

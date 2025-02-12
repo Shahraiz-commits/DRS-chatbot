@@ -56,7 +56,7 @@ function submitMessageFeedback(messageId, feedback) {
   };
 
   // Send feedback to server
-  fetch("http://localhost:5005/webhook/feedback", {
+  fetch("https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook/feedback", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(feedbackData),
@@ -99,7 +99,8 @@ function sendMessageToRasa(message) {
     addMessageToChat(message, "userMsg");
   }
 
-  fetch("http://localhost:5005/webhooks/rest/webhook", {
+  // OLD URL: http://localhost:5005/webhooks/rest/webhook
+  fetch("https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
@@ -133,7 +134,7 @@ function submitFeedback() {
     message: `/rate_experience{"rating": "${rating}", "comments": "${comments}"}`,
   };
 
-  fetch("http://localhost:5005/webhooks/rest/webhook", {
+  fetch("https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(feedbackPayload),
