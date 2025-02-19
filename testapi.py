@@ -13,6 +13,52 @@ UUID = str(uuid.uuid4())
 childrenUUID = str(uuid.uuid4())
 chatId = ""
 
+models = {
+    0: "yi:9b",
+    1: "yi:6b",
+    2: "yi:34b",
+    3: "wizardlm2:latest",
+    4: "wizardcoder:latest",
+    5: "tinydolphin:latest",
+    6: "wizard-math:latest",
+    7: "starcoder:7b",
+    8: "starcoder:1b",
+    9: "starcoder:3b",
+    10: "smollm:latest",
+    11: "qwen2.5:7b",
+    12: "starcoder:15b",
+    13: "qwen2.5:72b",
+    14: "qwen2.5:3b",
+    15: "qwen2.5:32b",
+    16: "qwen2.5:1.5b",
+    17: "qwen2.5:14b",
+    18: "qwen2.5:0.5b",
+    19: "qwen2:latest",
+    20: "phi3.5:latest",
+    21: "qwen:latest",
+    22: "phi:latest",
+    23: "phi3:14b",
+    24: "orca-mini:7b",
+    25: "orca-mini:3b",
+    26: "openchat:latest",
+    27: "orca-mini:13b",
+    28: "moondream:latest",
+    29: "mixtral:latest",
+    30: "mistral:latest",
+    31: "mistral-small:latest",
+    32: "llava-llama3:latest",
+    33: "llava:13b",
+    34: "llama3.2:3b",
+    35: "llama3.2:latest",
+    36: "llama3.2:1b",
+    37: "llama3.1:8b",
+    38: "llama3.1:70b",
+    39: "llama3.1:405b"
+}
+
+model = models[39]
+print("Selected model:", model)
+
 
 def timeStamp():
     return int(time.time())
@@ -40,7 +86,7 @@ def makeNewChat():
         "chat": {
             "id": "",
             "title": "New Chat",
-            "models": ["llama3.1:70b"],
+            "models": [model],
             "params": {},
             "history": {
                 "messages": {
@@ -51,7 +97,7 @@ def makeNewChat():
                         "role": "user",
                         "content": prompt,
                         "timestamp": timestamp,
-                        "models": ["llama3.1:70b"],
+                        "models": [model],
                     }
                 },
                 "currentId": UUID,
@@ -64,7 +110,7 @@ def makeNewChat():
                     "role": "user",
                     "content": prompt,
                     "timestamp": timestamp,
-                    "models": ["llama3.1:70b"],
+                    "models": [model],
                 }
             ],
             "tags": [],
@@ -97,7 +143,7 @@ def viewChat():
 
     body = {
         "chat": {
-            "models": ["llama3.1:70b"],
+            "models": [model],
             "history": {
                 "messages": {
                     UUID: {
@@ -107,7 +153,7 @@ def viewChat():
                         "role": "user",
                         "content": prompt,
                         "timestamp": timestamp,
-                        "models": ["llama3.1:70b"],
+                        "models": [model],
                     },
                     childrenUUID: {
                         "parentId": UUID,
@@ -115,8 +161,8 @@ def viewChat():
                         "childrenIds": [],
                         "role": "assistant",
                         "content": "",
-                        "model": "llama3.1:70b",
-                        "modelName": "llama3.1:70b",
+                        "model": model,
+                        "modelName": model,
                         "modelIdx": 0,
                         "userContext": None,
                         "timestamp": timestamp,
@@ -132,7 +178,7 @@ def viewChat():
                     "role": "user",
                     "content": prompt,
                     "timestamp": timestamp,
-                    "models": ["llama3.1:70b"],
+                    "models": [model],
                 },
                 {
                     "parentId": UUID,
@@ -140,8 +186,8 @@ def viewChat():
                     "childrenIds": [],
                     "role": "assistant",
                     "content": "",
-                    "model": "llama3.1:70b",
-                    "modelName": "llama3.1:70b",
+                    "model": model,
+                    "modelName": model,
                     "modelIdx": 0,
                     "userContext": None,
                     "timestamp": timestamp,
@@ -175,7 +221,7 @@ def chatCompletion():
 
     body = {
         "stream": False,
-        "model": "llama3.1:70b",
+        "model": model,
         "messages": [
             {
                 "role": "user",
@@ -229,7 +275,7 @@ def completed():
     }
 
     body = {
-        "model": "llama3.1:70b",
+        "model": model,
         "messages": [
             {
                 "id": chatId,
@@ -281,4 +327,5 @@ viewPage()
 #time.sleep(10)
 content = viewChat()
 response = content["chat"]["history"]["messages"][childrenUUID]["content"]
+print("\nPrompt:", prompt)
 print("\nResponse:\n", response)
