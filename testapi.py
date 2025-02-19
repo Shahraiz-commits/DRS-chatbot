@@ -1,10 +1,15 @@
 import requests
 import uuid
 import time
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+API = str(os.getenv('API_KEY'))
+
 prompt = "explain calculus concisely"
 
 UUID = str(uuid.uuid4())
-API = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI2ODM2Y2FjLWI2MDUtNGE5Mi04YmM1LWYxNTFlZjJkMTI3NCJ9.FVHV9WO7onQl2JDZ6nMs_orrWeNu3SKH9DV6PZC9MKU"
 childrenUUID = str(uuid.uuid4())
 chatId = ""
 
