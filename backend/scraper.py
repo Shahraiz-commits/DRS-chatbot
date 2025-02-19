@@ -4,10 +4,12 @@ import json
 import re # regex
 
 
+# NOTE: <li> class_ = "next" for navigating sidebar
+
 QUEUE_FILE = "queue.csv"
 
 # Starting point 
-URL = "https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php"
+URL = "https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php"
 
 # The https prefix to only include website links
 PREFIX ="https"
@@ -25,10 +27,12 @@ KEYWORD = (
 IGNORE_LINKS = (
   "https://libcal.library.sc.edu/appointments/",
   "https://libcal.library.sc.edu/calendar/workshops",
+  "auth/"
 )
 
-# The list of the texts
+# The list of the texts and their associated links
 text_list = []
+text_links = []
 # Links we've been to
 checked_links = set()
 added_text = set()
@@ -42,48 +46,101 @@ def save_queue(q_links):
     f.write(", ".join(q_links))
     print("Queue file is written!")
 
-def save_text(text_arr):
-  clean_txt = []
-  for item in text_arr:
-    clean_txt.append(item)
-  #print(len(clean_txt))
-  for i in range(len(clean_txt)):
-    # clean_text = re.sub(r'[^a-zA-Z ]', '', text)
-    clean_txt[i] = re.sub(r'[^a-zA-Z@0-9?!_\-.,;:\' ]', '', clean_txt[i])
-    clean_txt[i]= re.sub(r'\s+', ' ', clean_txt[i])
+def save_text(text_arr, links_arr):
+  
+  for i in range(len(text_arr)):
+    text_arr[i] = re.sub(r'[“”"]', '', text_arr[i]) # Remove unnecessary double quotes/curly quotes from answer. Messes with yaml syntax
+    text_arr[i] = re.sub(r'[ \t]+', ' ', text_arr[i])  # Remove extra spaces/tabs
+    text_arr[i] = re.sub(r'[\u00A0\u2000-\u200B\u202F\u205F\u3000]', ' ', text_arr[i]) # Remove non-breaking spaces and other unicode spaces that break yaml
+    text_arr[i] = re.sub(r'\n{3,}', '\n', text_arr[i]) # Replace 2 or more new lines with a single new line
+    text_arr[i] += '\n' + "[Learn more here](" + links_arr[i] + ")"
+  
+  #print(text_arr[4])
   with open("search_output.json", "a") as f:
+    json.dump(text_arr, f)
+    f.write("\n")
 
-    json.dump(clean_txt, f)
-    # f.write(", ".join(text_arr))
+# Format text to keep headers, hyperlinks etc. intact
+def format_text(page_text):
+  #print(page_text)
+  # Tags we want to keep to process later into markdown
+  allowed_tags = {"h1", "h2", "h3", "h4", "h5", "h6", "li", "a", "p"}
 
-# Returns page_txt, page_links
-def find_page_info(pag_url):
-  # Dont search for info on appointments page
-  if any(link in pag_url for link in IGNORE_LINKS):
-    print(f"Returning. {pag_url} link to be ignored")
+
+  # Remove all tags that are not allowed
+  for tag in page_text.find_all():
+    if tag.name not in allowed_tags:
+      if tag.find_all(allowed_tags):  
+        # If the tag contains allowed tags, unwrap it
+        tag.unwrap()
+      else:
+        # If not, remove it along with its content
+          tag.decompose()
+
+  # Unwrap <p> tags but keep their content
+  for p_tag in page_text.find_all("p"):
+    p_tag.unwrap()
+            
+  # Replace <a> tags with markdown links
+  for a_tag in page_text.find_all('a'):
+    link_text = a_tag.get_text()
+    link_href = a_tag.get('href')
+    markdown_link = f"[{link_text}]({link_href})"
+        
+    # Replace the <a> tag with the Markdown formatted link text
+    a_tag.replace_with(markdown_link)
+
+  # Format headers correctly for markdown
+  for h_tag in page_text.find_all(["h1", "h2", "h3", "h4", "h5", "h6"]):
+    header_text = h_tag.get_text(strip=True)
+    
+    if header_text:  # Process only non-empty headers
+        tag_number = h_tag.name[-1]  # Header level (h3 -> "3")
+        formatted_header = f"{'#' * int(tag_number)} {header_text}"
+        h_tag.replace_with(formatted_header)
+    else:
+        h_tag.decompose()  # Removes empty headers tag and content
+        
+  for listItem in page_text.find_all('li'):
+    formattedListItem = f"\n- {listItem.get_text(strip=True)}"
+    listItem.replace_with(formattedListItem) 
+  
+  # Convert soup object to string so we can apply regex on it
+  html_string = "".join(str(tag) for tag in page_text)
+  return html_string
+
+# Returns page text and any links found
+def find_page_info(page_url):
+  # Dont search for info on certain pages
+  if any(link in page_url for link in IGNORE_LINKS):
+    print(f"Returning. {page_url} link to be ignored")
     return [], []
+  
   try:
-    resp = requests.get(pag_url)
-    # print("HERE", resp.text)
+    resp = requests.get(page_url)
   except:
     return [], []
   try:
     txt = resp.content
     soup = bs4.BeautifulSoup(txt,  "html.parser")
-    main_content = soup.find('div', {"id" : "main"}) or soup.find('div', class_ = "row") #"s-lg-tab-content")
+    main_content = soup.find('div', {"id" : "mainContent"}) or soup.find('div', class_ = "s-lg-tab-content") #"row" | soup.find('div', {"id" : "main"}) or 
     links = main_content.find_all('a')
     clean_links = []
   except Exception as e:
-    print(f"error getting page info for {pag_url}. Main content is: {main_content}: {e}")
+    print(f"error getting page info for {page_url}. Main content is: {main_content}: {e}")
     return [], []
+  
+  # Next page link if there is one
+  try:
+    next_link = soup.find('li', class_ = "next")
+    clean_links.append(next_link.find('a').get('href'))
+  except:
+    pass
   # Finding all the links in the page
   for link in links:
     clean_links.append(link.get('href'))
-  #page_txt = []
-  #ps = soup.find_all('p')
-  #for p in ps:
-    #page_txt.append(p.get_text())
-  return clean_links, main_content.get_text() #page_txt
+  formattedText = format_text(main_content)
+  return clean_links, formattedText
 
 def get_queue():
   with open("queue.csv", "r") as file:
@@ -112,9 +169,6 @@ while(queue_links):
   if(not links and not page_txt):
     continue
   
-  # Save text on the page
-  #for item in page_txt:
-    #text_list.append(item)
   # Save new links found on the page to queue
   for link in links:
     if (link != None and (not link in checked_links) and (not link in queue_links) and (TEMP in link) and any(kword in link for kword in KEYWORD) and link.startswith(PREFIX)):
@@ -125,19 +179,22 @@ while(queue_links):
   if(page_txt not in added_text):
     added_text.add(page_txt)
     text_list.append(page_txt)
+    text_links.append(link_to_check)
   counter += 1
 
   # Save every hundred links just in case
   if (counter % 100 ==0):
-    save_text(text_list)
+    save_text(text_list, text_links)
     save_queue(queue_links)
     queue_links = get_queue()
     text_list = []
+    text_links = []
     print(f"Saved up to {counter}th iteration")
 
   # Completed given number of links. Break.
   if (counter == num_to_run):
-    save_text(text_list)
+    save_text(text_list, text_links)
     save_queue(queue_links)
     break
+    
   print(counter, len(queue_links), link_to_check)

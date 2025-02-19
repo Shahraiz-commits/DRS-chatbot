@@ -1,0 +1,18 @@
+[
+    {
+        "question": "What learning sessions and workshops are available?",
+        "answer": "## Ways We Can Assist\n- [Learning Sessions/Workshops](#s-lib-ctab-31341410-0)\n\nWe offer regularly scheduled online learning sessions each semester covering various aspects of data visualization. We cover:\n- General data visualization knowledge, concepts, and considerations\n- Principles for selecting appropriate data visualization types and tools\n- Basic introductions to use of data visualization tools such as Microsoft Excel, Tableau Public, Microsoft Power BI, and scripting languages such as R and Python\n- Basic introduction to visualizing geospatial data using QGIS and ArcGIS\n- [Register for a Learning Session](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68190&inc=0)\n\nIf you are an instructor that would like to arrange a custom session for your class related to the above-listed topics or other data visualization aspects, please contact us to discuss the possibilities.\n- [Plan a special learning session/workshop](https://libcal.library.sc.edu/appointments/datavis)\n\n[Learn more here](https://guides.library.sc.edu/c.php?g=1316892)"
+    },
+    {
+        "question": "What online consultation services are offered?",
+        "answer": "## Online Consultations\n- [Online Consultations](#s-lib-ctab-31341410-1)\n\nWe offer guidance to discover information about data visualization. We assist with:\n- Finding online information and tutorials about data visualization and data visualization tools\n- Helping you decide on appropriate and effective visualization techniques\n- Considering, comparing, and determining which tool(s) to use\n- [Schedule An Online Consultation](https://libcal.library.sc.edu/appointments/datavis)\n\n[Learn more here](https://guides.library.sc.edu/c.php?g=1316892)"
+    },
+    {
+        "question": "What is the University Libraries DataLab?",
+        "answer": "## University Libraries DataLab\n- [University Libraries DataLab](#s-lib-ctab-31341410-2)\n\nThe University Libraries DataLab is located on the fifth floor of Thomas Cooper Library near the stairway. The space is available on a first-come, first-served basis where you can find three high-powered, Windows-based computers. Each computer has a variety of data visualization and data analysis software installed. In addition, there is a small seminar table with an 80-inch large-screen monitor.\n- [Learn more about the DataLab](https://guides.library.sc.edu/c.php?g=1321483)\n\n[Learn more here](https://guides.library.sc.edu/c.php?g=1316892)"
+    },
+    {
+        "question": "What data analysis software assistance is available?",
+        "answer": "## Data Analysis Software Assistance\nThe University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data. Walk-ins to the University Libraries DataLab are welcome, but we strongly encourage scheduled appointments to assure the best service. For more information about the data analysis and statistics assistance services and how to register, use the link below:\n- [Data Analysis and Statistics Services at the University Libraries](https://guides.library.sc.edu/c.php?g=1335227)\n\n[Learn more here](https://guides.library.sc.edu/c.php?g=1316892)"
+    }
+]

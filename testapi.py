@@ -1,7 +1,6 @@
 import requests
 import uuid
 import time
-
 prompt = "explain calculus concisely"
 
 UUID = str(uuid.uuid4())
@@ -170,7 +169,7 @@ def chatCompletion():
     }
 
     body = {
-        "stream": True,
+        "stream": False,
         "model": "llama3.1:70b",
         "messages": [
             {
@@ -260,21 +259,21 @@ def separator():
 
 data = makeNewChat()
 chatId = data["id"]
-separator()
+#separator()
 
 viewChat()
-separator()
+#separator()
 
 viewPage()
-separator()
+#separator()
 
 chatCompletion()
-separator()
+#separator()
 
 viewPage()
-separator()
+#separator()
 
-time.sleep(10)
+#time.sleep(10)
 content = viewChat()
 response = content["chat"]["history"]["messages"][childrenUUID]["content"]
 print("\nResponse:\n", response)
