@@ -53,7 +53,26 @@ models = {
     36: "llama3.2:1b",
     37: "llama3.1:8b",
     38: "llama3.1:70b",
-    39: "llama3.1:405b"
+    39: "llama3.1:405b",
+    40: "llama3:70b",
+    41: "llama3:8b",
+    42: "llama2:latest",
+    43: "gemma2:latest",
+    44: "gemma2:9b",
+    45: "gemma2:2b",
+    46: "gemma:latest",
+    47: "gemma2:27b",
+    48: "gemma:7b",
+    49: "gemma:2b",
+    50: "deepseek-r1:70b",
+    51: "command-r:latest",
+    52: "codellama:7b",
+    53: "codeqwen:latest",
+    54: "codegemma:2b",
+    55: "codegemma:7b",
+    56: "bakllava:latest",
+    57: "codebooga:latest",
+    58: "aya:latest",
 }
 
 model = models[39]
