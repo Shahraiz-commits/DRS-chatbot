@@ -127,10 +127,10 @@ nlu:
 - intent: ai_service_library_offer
   examples: |
     - What AI services does the library offer?
-    - list the AI services that the library offers?
+    - What services does the library offer?
     - What AI services does a library offer?
     - What AI services does the library provide?
-    - What services does the library offer?
+    - list the AI services that the library offers?
     - What AI services do libraries offer?
 - intent: director_digital_research_service
   examples: |
@@ -153,8 +153,8 @@ nlu:
 - intent: use_digital_tool_research
   examples: |
     - How can I use digital tools in research?
-    - How do I use digital tools for research?
     - How can I use digital tools in my research?
+    - How do I use digital tools for research?
     - How can I use digital tools for research?
     - How can we use digital tools in research?
     - How do I use digital tools in research?
@@ -170,50 +170,50 @@ nlu:
 - intent: visualize_research_data
   examples: |
     - How can I visualize my research data?
-    - How do you visualize research data?
+    - How can I visualize research data?
     - Tell me the best way to visualize research data?
     - How do I visualize research data?
-    - How can I visualize research data?
+    - How do you visualize research data?
     - How do I visualize my research data?
 - intent: library_offer_workshop
   examples: |
     - Does the library offer workshops?
-    - Do libraries offer workshops?
-    - Does the library offer workshops? If so why?
     - Does the Library offer workshops?
-    - Does the library have workshops?
+    - Does the library offer workshops? If so why?
+    - Do libraries offer workshops?
     - Is the library offering workshops?
+    - Does the library have workshops?
 - intent: search_south_caroliniana_library
   examples: |
     - How do I search South Caroliniana Library's collections?
     - How can I search South Caroliniana Library collections?
-    - How can I search South Caroliniana Library's collections?
     - How do I search for South Caroliniana Library collections?
-    - How do I search the South Caroliniana Library collections?
     - How do I search South Caroliniana Library collections?
+    - How do I search the South Caroliniana Library collections?
+    - How can I search South Caroliniana Library's collections?
 - intent: set_appointment_research_use
   examples: |
     - How do I set an appointment to do research or use your collections?
-    - How do I set an appointment to do research or use your collection?
     - How do I set an appointment to do research?
     - How do I set up an appointment to do research?
     - How do I set an appointment to do research or use my collection?
+    - How do I set an appointment to do research or use your collection?
     - How do I set an appointment to do research or use my collections?
 - intent: african_american_ancestry_suggestion
   examples: |
     - I have African American ancestry. Do you have suggestions for researching my genealogy?
-    - How do I find out my African American ancestry?
-    - I have African American ancestry. Do you have suggestions for researching my family history?
-    - Do you have any suggestions for researching my African American ancestry?
     - I have African American ancestry. Do you have any suggestions for researching my genealogy?
     - How can I find out my African American ancestry?
+    - I have African American ancestry. Do you have suggestions for researching my family history?
+    - Do you have any suggestions for researching my African American ancestry?
+    - How do I find out my African American ancestry?
 - intent: order_highresolution_scan
   examples: |
     - How do I order a high-resolution scan?
-    - How do I order high-resolution scans?
-    - How can I get a high-resolution scan?
     - How do I get a high-resolution scan?
     - How can I order a high-resolution scan?
+    - How do I order high-resolution scans?
+    - How can I get a high-resolution scan?
     - How do I order a high resolution scan?
 - intent: south_caroliniana_library_building
   examples: |
@@ -227,35 +227,35 @@ nlu:
 - intent: see_collection_material_south
   examples: |
     - How can I see collection materials from South Caroliniana Library?
-    - How can I see the collection materials of South Caroliniana Library?
     - How do I see collection materials from South Caroliniana Library?
-    - How can I see collections from South Caroliniana Library?
     - How can I see the collection materials from South Caroliniana Library?
     - How can I see the collection materials at South Caroliniana Library?
+    - How can I see collections from South Caroliniana Library?
+    - How can I see the collection materials of South Caroliniana Library?
 - intent: found_image_south_caroliniana
   examples: |
     - I found an image from South Caroliniana Library in your Digital Collections. May I use it?
     - I found an image from the South Caroliniana Library in your digital collections. May I use it?
     - I found an image from South Caroliniana Library in your digital collections. May I use it?
-    - I found an image of South Caroliniana Library in your Digital Collections. May I use it?
-    - I found an image from the South Caroliniana Library in your Digital Collections. May I use it?
     - I found an image from South Caroliniana Library in your Digital Collections. Can I use it?
+    - I found an image from the South Caroliniana Library in your Digital Collections. May I use it?
+    - I found an image of South Caroliniana Library in your Digital Collections. May I use it?
 - intent: im_publishing_book_related
   examples: |
     - I'm publishing a book related to South Carolina that you might be interested in for your collection. May I tell you about it?
-    - I'm publishing a book related to South Carolina that you may be interested in for your collection. May I tell you about it?
-    - I'm publishing a book about South Carolina that you might be interested in for your collection. Can I tell you about it?
-    - I'm publishing a book about South Carolina that you might be interested in for your collection. May I tell you about it?
-    - I am publishing a book related to South Carolina that you might be interested in for your collection. May I tell you about it?
     - I'm publishing a book related to South Carolina that you might be interested in for your collection. Can I tell you about it?
+    - I'm publishing a book about South Carolina that you might be interested in for your collection. May I tell you about it?
+    - I'm publishing a book related to South Carolina that you may be interested in for your collection. May I tell you about it?
+    - I am publishing a book related to South Carolina that you might be interested in for your collection. May I tell you about it?
+    - I'm publishing a book about South Carolina that you might be interested in for your collection. Can I tell you about it?
 - intent: south_caroliniana_library_located
   examples: |
     - Where is the South Caroliniana Library located?
-    - Where is South Caroliniana Library located?
-    - Where is the South Caroliniana library located?
-    - How is the South Caroliniana Library located?
     - Where is the South Caroliniana Library?
     - How is South Caroliniana Library located?
+    - How is the South Caroliniana Library located?
+    - Where is South Caroliniana Library located?
+    - Where is the South Caroliniana library located?
 - intent: im_publishing_work_us
   examples: |
     - I'm publishing a work that uses resources from the South Caroliniana Library's collections. How do I credit the Library?
@@ -277,51 +277,51 @@ nlu:
 - intent: park_visit_south_caroliniana
   examples: |
     - Where can I park to visit the South Caroliniana Library?
+    - Where can I park near the South Caroliniana Library?
+    - Where can I park at the South Caroliniana Library?
+    - Where can I park for the South Caroliniana Library?
     - Where can I park and visit the South Caroliniana Library?
     - Where can I park to visit South Caroliniana Library?
-    - Where can I park near the South Caroliniana Library?
-    - Where can I park for the South Caroliniana Library?
-    - Where can I park at the South Caroliniana Library?
 - intent: south_caroliniana_library_open
   examples: |
     - When is the South Caroliniana Library open?
     - When is the South Caroliniana library open?
     - When is the South Caroliniana Library Open?
+    - When does the South Caroliniana Library open?
     - When is South Caroliniana library open?
     - When is South Caroliniana Library open?
-    - When does the South Caroliniana Library open?
 - intent: south_caroliniana_library
   examples: |
     - What do you have at the South Caroliniana Library?
-    - What do you have in the South Caroliniana Library?
     - What do you have in the South Caroliniana library?
     - What do you have at South Caroliniana Library?
-    - What do you have in South Caroliniana Library?
+    - What do you have in the South Caroliniana Library?
     - What do you have at the South Caroliniana library?
+    - What do you have in South Caroliniana Library?
 - intent: library_columbia_campus
   examples: |
     - What libraries are on the Columbia Campus?
-    - What libraries are located on the Columbia campus?
-    - What libraries are on Columbia campus?
-    - list the libraries on the Columbia campus?
-    - Which libraries are on the Columbia campus?
     - What libraries are on the Columbia campus?
+    - list the libraries on the Columbia campus?
+    - What libraries are on Columbia campus?
+    - Which libraries are on the Columbia campus?
+    - What libraries are located on the Columbia campus?
 - intent: floor_plan_finding_location
   examples: |
     - Where are floor plans for finding locations within the Thomas Cooper Library?
-    - Where are floor plans for finding locations in the Thomas Cooper Library?
-    - Where are floor plans for finding locations within Thomas Cooper Library?
-    - Where is the floor plan for finding locations within the Thomas Cooper Library?
-    - Where can I find floor plans for the Thomas Cooper Library?
     - Where can I find floor plans for Thomas Cooper Library?
+    - Where is the floor plan for finding locations within the Thomas Cooper Library?
+    - Where are floor plans for finding locations in the Thomas Cooper Library?
+    - Where can I find floor plans for the Thomas Cooper Library?
+    - Where are floor plans for finding locations within Thomas Cooper Library?
 - intent: hathitrust_university_member
   examples: |
     - What is HathiTrust and is the university a member?
-    - What is HathiTrust and is the University a member?
-    - What is HathiTrust and is the university a member of?
     - What is HathiTrust? Is the university a member?
-    - What is HathiTrust?
+    - What is HathiTrust and is the University a member?
     - Tell me the HathiTrust and is the university a member?
+    - What is HathiTrust?
+    - What is HathiTrust and is the university a member of?
 - intent: get_free_subscription_new
   examples: |
     - How can I get a free subscription to New York Times online through the library?
@@ -343,66 +343,66 @@ nlu:
 - intent: suggest_title_library_purchase
   examples: |
     - How can I suggest a title for the library to purchase?
-    - How can I suggest a title to the library to purchase?
-    - How can I suggest a title for the library to buy?
     - How do I suggest a title to the library to purchase?
     - How do I suggest a title for the library to buy?
     - How do I suggest a title for the library to purchase?
+    - How can I suggest a title for the library to buy?
+    - How can I suggest a title to the library to purchase?
 - intent: retired_faculty_staff_retain
   examples: |
     - Do retired faculty and staff retain their library privileges?
-    - Do retired faculty retain library privileges?
     - Why do retired faculty and staff retain library privileges?
     - Do retired faculty and staff still retain library privileges?
-    - Do retired faculty and staff retain library privileges?
+    - Do retired faculty retain library privileges?
     - How do retired faculty and staff retain library privileges?
+    - Do retired faculty and staff retain library privileges?
 - intent: library_provide_access_wall
   examples: |
     - Does the library provide access to the Wall Street Journal online?
-    - Does the library provide access to the online Wall Street Journal?
-    - Does the library provide access to The Wall Street Journal online?
-    - Does the library have access to the Wall Street Journal online?
     - Does the Library provide access to the Wall Street Journal online?
+    - Does the library provide access to The Wall Street Journal online?
     - Does the library offer access to the Wall Street Journal online?
+    - Does the library provide access to the online Wall Street Journal?
+    - Does the library have access to the Wall Street Journal online?
 - intent: print_library
   examples: |
     - How do I print in the library?
     - How can I print in library?
-    - How can I print in the library?
-    - How do I print in libraries?
     - How do I print in a library?
+    - How can I print in the library?
     - How do I print in library?
+    - How do I print in libraries?
 - intent: common_issue_printing
   examples: |
     - What are common issues with printing?
-    - can you list the common problems with printing?
+    - list the common issues with printing?
     - list the common problems with printing?
     - list some common issues with printing?
     - can you list the common issues with printing?
-    - list the common issues with printing?
+    - can you list the common problems with printing?
 - intent: access_harvard_business_case
   examples: |
     - How can I access Harvard Business Cases?
-    - How do I access Harvard Business Cases?
     - How can I get access to Harvard Business Cases?
-    - How can I find Harvard Business Cases?
     - How do I get access to Harvard Business Cases?
+    - How can I find Harvard Business Cases?
     - How do I find Harvard Business Cases?
+    - How do I access Harvard Business Cases?
 - intent: library_hire_student
   examples: |
     - Does the library hire students?
-    - Why does the library hire students?
+    - Is the library hiring students?
     - Do libraries hire students?
     - Does the library hire students? Why?
+    - Why does the library hire students?
     - Does a library hire students?
-    - Is the library hiring students?
 - intent: library_college_entrance_career
   examples: |
     - Does the library have college entrance and career practice tests and study guides?
+    - Do libraries have college entrance and career practice tests and study guides?
+    - Do the libraries have college entrance and career practice tests and study guides?
     - Does the library have college entrance and career practice test and study guides?
     - Do the library have college entrance and career practice tests and study guides?
-    - Do the libraries have college entrance and career practice tests and study guides?
-    - Do libraries have college entrance and career practice tests and study guides?
     - Does the Library have college entrance and career practice tests and study guides?
 - intent: resource_help_learn_language
   examples: |
@@ -434,66 +434,66 @@ nlu:
 - intent: username_password_working_do
   examples: |
     - My username and password are not working. What should I do?
+    - My username and password are not working. What can I do?
     - What should I do if my username and password is not working?
     - What should I do if my username and password are not working?
     - My username and my password are not working. What should I do?
-    - My username and password are not working. What can I do?
     - My username and password is not working. What should I do?
 - intent: get_help_citation
   examples: |
     - Where can I get help with my citations?
+    - Where can I get help with citations?
+    - How can I get help with my citations?
+    - How do I get help with citations?
     - How do I get help with my citations?
     - How can I get help with citations?
-    - How do I get help with citations?
-    - How can I get help with my citations?
-    - Where can I get help with citations?
 - intent: interlibrary_loan_use_it
   examples: |
     - What is Interlibrary Loan and how do I use it?
-    - What is Interlibrary Loan?
-    - What is Interlibrary Loan? How do I use it?
+    - What is interlibrary loan? How do I use it?
     - What is interlibrary loan and how do I use it?
     - What is Interlibrary Loan? How can I use it?
-    - What is interlibrary loan? How do I use it?
+    - What is Interlibrary Loan? How do I use it?
+    - What is Interlibrary Loan?
 - intent: pascal_delivers
   examples: |
     - What is PASCAL Delivers?
     - What is PASCAL delivers?
-    - What does PASCAL deliver?
-    - What does PASCAL Delivers do?
     - What are PASCAL Delivers?
     - Tell me the PASCAL Delivers?
+    - What does PASCAL deliver?
+    - What does PASCAL Delivers do?
 - intent: library_main_find_usc
   examples: |
     - The library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
-    - The library's main Find It at USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
-    - My library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
-    - The Library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
     - The library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do
     - The library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me login. What can I do?
+    - My library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
+    - The library's main Find It at USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
+    - The Library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
 - intent: photocopy_scan_library
   examples: |
     - Can I photocopy or scan at the library?
     - Can I scan at the library?
-    - Can I copy or scan at the library?
     - Can I photocopy or scan in the library?
-    - Can I scan or photocopy at the library?
+    - Can I copy or scan at the library?
     - Can I photocopy or scan at a library?
+    - Can I scan or photocopy at the library?
 - intent: workshop_offered_library
   examples: |
     - What workshops are offered in the library?
+    - Which workshops are offered in the library?
     - What workshops are offered at the library?
+    - What workshops are offered in library?
     - list the workshops offered in the library?
     - can you list the workshops offered in the library?
-    - What workshops are offered in library?
-    - Which workshops are offered in the library?
 - intent: request_copy_manuscript
   examples: |
     - How can I request a copy of a manuscript?
-    - How do I request a copy of a manuscript?
     - How can I request a copy of my manuscript?
-    - How do you request a copy of a manuscript?
+    - How do I request a copy of a manuscript?
     - How do I get a copy of a manuscript?
+    - How do you request a copy of a manuscript?
     - How do I request a copy of my manuscript?
 - intent: ask_help_searching_source
   examples: |
@@ -507,35 +507,35 @@ nlu:
 - intent: cant_access_database_workplace
   examples: |
     - Why can't I access the databases from my workplace?
-    - Why can't I access databases from my workplace?
-    - Why can't I access a database from my office?
-    - Why can't I access a database from my workplace?
-    - Why can't I access the database from my workplace?
     - Why can't I access databases from my office?
+    - Why can't I access the database from my workplace?
+    - Why can't I access databases from my workplace?
+    - Why can't I access a database from my workplace?
+    - Why can't I access a database from my office?
 - intent: library_microwave
   examples: |
     - Does the library have a microwave?
     - Is there a microwave in the library?
-    - Does the library has a microwave?
-    - Is the library equipped with a microwave?
     - Does the Library have a microwave?
     - Does the library have a microwave? Why?
+    - Is the library equipped with a microwave?
+    - Does the library has a microwave?
 - intent: visitor_come_library
   examples: |
     - Can visitors come to the library?
-    - Can visitors come to library?
-    - Can people come to the library?
-    - Can visitors come to the Library?
-    - Can visitors come into the library?
     - Can visitors go to the library?
+    - Can visitors come to the Library?
+    - Can people come to the library?
+    - Can visitors come into the library?
+    - Can visitors come to library?
 - intent: find_published_example_action
   examples: |
     - How do I find published examples of action research for my education research question?
-    - How can I find published examples of action research for my education research question?
-    - How do I find published examples of action research for education research question?
-    - How do I find published examples of action research questions?
     - How do I find published examples of action research for my educational research question?
     - How do I find published examples of action research in education research question?
+    - How do I find published examples of action research for education research question?
+    - How can I find published examples of action research for my education research question?
+    - How do I find published examples of action research questions?
 - intent: register_access_ad_age
   examples: |
     - How do I register for access to Ad Age?
@@ -548,67 +548,67 @@ nlu:
 - intent: library_charger_laptop_phone
   examples: |
     - Does the library have a charger for my laptop or phone?
+    - Does the library have a charger for my laptop and phone?
     - Does the library have a charger for your laptop or phone?
     - Does the library have a charger for my laptop/phone?
     - Does the library have a charger for my phone or laptop?
     - Does the library have a charger for my laptop?
-    - Does the library have a charger for my laptop and phone?
 - intent: library_textbook
   examples: |
     - Does the library have my textbooks?
-    - Does the library have textbooks?
-    - Does my library have my textbooks?
     - Does the library have my books?
-    - Do the libraries have my textbooks?
     - Do the library have my textbooks?
+    - Does my library have my textbooks?
+    - Does the library have textbooks?
+    - Do the libraries have my textbooks?
 - intent: library_reader_advisory_database
   examples: |
     - Does the library have readers advisory databases?
-    - Does the library have a readers advisory database?
     - Does the library have reader advisory databases?
     - Does the library have readers' advisory databases?
-    - Does the library have a reader advisory database?
+    - Does the library have a readers advisory database?
     - Do libraries have readers advisory databases?
+    - Does the library have a reader advisory database?
 - intent: see_hostname_error_try
   examples: |
     - I see a "Hostname Error" when I try to access a database. What do I do?
-    - What should I do if I see a Hostname Error when I try to access a database?
-    - I see a "Hostname Error" when I try to access a database. What should I do?
     - I see a "Hostname Error" when I try to access a database. What can I do?
-    - What should I do when I see a "Hostname Error" when I try to access a database?
     - I see a "hostname error" when I try to access a database. What do I do?
+    - I see a "Hostname Error" when I try to access a database. What should I do?
+    - What should I do when I see a "Hostname Error" when I try to access a database?
+    - What should I do if I see a Hostname Error when I try to access a database?
 - intent: software_available_library_computer
   examples: |
     - What software is available on the library computers?
-    - Which software is available on library computers?
     - list the software available on library computers?
+    - Which software is available on library computers?
+    - Tell me the software available on library computers?
     - What software is available on library computers?
     - What software is available in library computers?
-    - Tell me the software available on library computers?
 - intent: library_color_copier
   examples: |
     - Does the library have a color copier?
     - Do libraries have a color copier?
+    - Does the library has a color copier?
     - Is there a color copier in the library?
     - Does a library have a color copier?
     - Is the library equipped with a color copier?
-    - Does the library has a color copier?
 - intent: starbucks_thomas_cooper
   examples: |
     - Where is the Starbucks in Thomas Cooper?
-    - Starbucks in Thomas Cooper?
-    - Where is Starbucks located in Thomas Cooper?
-    - Where's the Starbucks in Thomas Cooper?
-    - Where's Starbucks in Thomas Cooper?
     - Where is Starbucks in Thomas Cooper?
+    - Where's Starbucks in Thomas Cooper?
+    - Starbucks in Thomas Cooper?
+    - Where's the Starbucks in Thomas Cooper?
+    - Where is Starbucks located in Thomas Cooper?
 - intent: library_childrens_book
   examples: |
     - Does the library have children's books?
     - Do the libraries have children's books?
-    - Does a library have children's books?
     - Does the library have books for children?
-    - Does the library have any children's books?
+    - Does a library have children's books?
     - Do libraries have children's books?
+    - Does the library have any children's books?
 - intent: take_online_proctored_exam
   examples: |
     - Where can I take an online or proctored exam?
@@ -621,51 +621,51 @@ nlu:
 - intent: request_book_delivered_campus
   examples: |
     - How do I request to have a book delivered to my campus office?
-    - How do I request a book delivered to my campus office?
     - How can I request to have a book delivered to my campus office?
-    - How can I request a book delivered to my campus office?
     - How do I request a book to be delivered to my campus office?
+    - How do I request a book delivered to my campus office?
     - How do I request that a book be delivered to my campus office?
+    - How can I request a book delivered to my campus office?
 - intent: get_library_card
   examples: |
     - How do I get a library card?
-    - How do I get my library card?
-    - How can I get my library card?
-    - How do you get a library card?
     - How do I get library card?
+    - How do you get a library card?
+    - How can I get my library card?
+    - How do I get my library card?
     - How can I get a library card?
 - intent: cant_connect_eduroam_wireless
   examples: |
     - Why can't I connect to the eduroam wireless network?
-    - How do I connect to eduroam wireless network?
-    - Why can't I connect to my eduroam wireless network?
     - How can I connect to the eduroam wireless network?
     - Why can't I connect to eduroam wireless network?
+    - Why can't I connect to my eduroam wireless network?
+    - How do I connect to eduroam wireless network?
     - How can I connect to eduroam wireless network?
 - intent: renew_book
   examples: |
     - How do I renew books?
-    - How can I renew my books?
-    - How do I renew my old books?
     - How do I renew my book?
-    - How do I renew my books?
     - How do I renew a book?
+    - How can I renew my books?
+    - How do I renew my books?
+    - How do I renew my old books?
 - intent: hour_thomas_cooper_library
   examples: |
     - What are the hours for Thomas Cooper Library?
-    - What are hours for Thomas Cooper Library?
-    - What are the hours for the Thomas Cooper Library?
-    - What are hours for the Thomas Cooper Library?
     - show me the hours for Thomas Cooper Library?
+    - What are the hours for the Thomas Cooper Library?
+    - What are hours for Thomas Cooper Library?
+    - What are hours for the Thomas Cooper Library?
     - show me the hours of Thomas Cooper Library?
 - intent: cant_login_interlibrary_loan
   examples: |
     - Why can't I login to my Interlibrary Loan account?
-    - How can I login to my Interlibrary Loan account?
-    - How do I login to my Interlibrary Loan account?
     - Why can't I login to my Interlibrary loan account?
     - Why can't I log into my Interlibrary Loan account?
     - Why can't I login to my interlibrary loan account?
+    - How can I login to my Interlibrary Loan account?
+    - How do I login to my Interlibrary Loan account?
 - intent: call_number_use_it
   examples: |
     - What is a call number and how do I use it?
@@ -678,11 +678,11 @@ nlu:
 - intent: access_specific_library_database
   examples: |
     - How do I access a specific library database?
+    - How can I access a specific library database?
+    - How can I access a library database?
     - How do I access a library database?
     - How do I access library databases?
-    - How can I access a library database?
     - How do I access a particular library database?
-    - How can I access a specific library database?
 - intent: many_book_check_out
   examples: |
     - How many books can I check out?
@@ -696,114 +696,114 @@ nlu:
   examples: |
     - Can I have books mailed to my home address if I am a student at a distance?
     - Can I have books mailed to my home address if I'm a student at distance?
-    - Can I have books sent to my home address if I am a student at distance?
-    - Can I have books mailed to my home address if I am a distance student?
     - Can I have books mailed to my home address if I am a student at distance?
+    - Can I have books mailed to my home address if I am a distance student?
     - Can I have my books mailed to my home address if I am a student at distance?
+    - Can I have books sent to my home address if I am a student at distance?
 - intent: much_fee_late_return
   examples: |
     - How much are the fees for late returns and/or lost items?
     - How much are the fees for late return and/or lost items?
+    - How much are the fees for late returns and lost items?
     - How much is the fees for late returns and/or lost items?
     - How much is the fee for late returns and/or lost items?
     - How much is the fee for late return and/or lost items?
-    - How much are the fees for late returns and lost items?
 - intent: library_provide_support_endnote
   examples: |
     - Does the library provide support for EndNote?
     - Is the library compatible with EndNote?
-    - Does the library support endnotes?
-    - Does the library support EndNote?
-    - Does the library support endnote?
     - Does the library supports EndNote?
+    - Does the library support EndNote?
+    - Does the library support endnotes?
+    - Does the library support endnote?
 - intent: find_empirical_study
   examples: |
     - How do I find empirical studies?
-    - How do I find empirical research?
-    - How do you find empirical studies?
     - How can I find empirical studies?
+    - How do you find empirical studies?
     - How can I find empirical research?
+    - How do I find empirical research?
     - Where can I find empirical studies?
 - intent: library_car_repair_manual
   examples: |
     - Does the library have any car repair manuals?
-    - Does the library have car repair manuals?
     - Does the library have any manuals for car repairs?
-    - Does the library have any repair manuals?
     - Does the Library have any car repair manuals?
     - Does the library have any auto repair manuals?
+    - Does the library have car repair manuals?
+    - Does the library have any repair manuals?
 - intent: alumnus_get_access_research
   examples: |
     - How can alumni get access to research resources?
     - How do alumni get access to resources?
-    - How do alumni get access to research resources?
     - How can alumni access research resources?
-    - How can I get alumni access to research resources?
+    - How do alumni get access to research resources?
     - How can alumni get access to resources?
+    - How can I get alumni access to research resources?
 - intent: schedule_research_appointment
   examples: |
     - How can I schedule a research appointment?
-    - How do I schedule a research appointment?
-    - How do I schedule an appointment for research?
+    - How do I schedule research appointments?
     - Tell me the best way to schedule a research appointment?
     - How do I schedule an appointment for a research appointment?
-    - How do I schedule research appointments?
+    - How do I schedule an appointment for research?
+    - How do I schedule a research appointment?
 - intent: busy_thomas_cooper_library
   examples: |
     - How busy is Thomas Cooper Library right now?
-    - How busy is Thomas Cooper library right now?
-    - How busy is the Thomas Cooper Library right now?
-    - How busy is The Thomas Cooper Library right now?
-    - How busy is Thomas Cooper Library at the moment?
     - How busy is the Thomas Cooper library right now?
+    - How busy is The Thomas Cooper Library right now?
+    - How busy is the Thomas Cooper Library right now?
+    - How busy is Thomas Cooper Library at the moment?
+    - How busy is Thomas Cooper library right now?
 - intent: reserve_study_room
   examples: |
     - How do I reserve a study room?
-    - How can I reserve a study room?
-    - How can I book a study room?
     - How do I book a study room?
-    - How do you book a study room?
+    - How can I book a study room?
     - How do you reserve a study room?
+    - How can I reserve a study room?
+    - How do you book a study room?
 - intent: food_drink_allowed_library
   examples: |
     - Are food and drinks allowed in the library?
-    - Is food and drinks allowed in library?
-    - Are food and drinks allowed at the library?
-    - Are food and drinks allowed in library?
-    - Is food and drink allowed in the library?
     - Is food and drinks allowed in the library?
+    - Is food and drink allowed in the library?
+    - Are food and drinks allowed in library?
+    - Are food and drinks allowed at the library?
+    - Is food and drinks allowed in library?
 - intent: find_dissertation_thesis
   examples: |
     - How do I find dissertations and theses?
-    - How can I find dissertations and theses?
-    - How do I find dissertations?
     - How do you find dissertations and theses?
     - How do I find a dissertation?
+    - How can I find dissertations and theses?
     - How do I find dissertation and theses?
+    - How do I find dissertations?
 - intent: find_historical_newspaper_article
   examples: |
     - How can I find historical newspaper articles?
     - How do I find newspaper articles?
-    - How can I find historical newspapers?
-    - How can I find newspaper articles?
     - How do I find historical newspaper articles?
+    - How can I find historical newspapers?
     - How do you find historical newspaper articles?
+    - How can I find newspaper articles?
 - intent: cant_access_thomson_one
   examples: |
     - Why can't I access Thomson One?
-    - Why can't I access Thomson one?
-    - Why can't I get Thomson One?
-    - Why can't I access Thomson Reuters?
     - Why can't I access Thomson ONE?
     - Why can't I use Thomson One?
+    - Why can't I access Thomson Reuters?
+    - Why can't I get Thomson One?
+    - Why can't I access Thomson one?
 - intent: thomas_cooper_library_located
   examples: |
     - Where is the Thomas Cooper Library located?
     - Where is Thomas Cooper Library located?
     - How is Thomas Cooper Library located?
     - How is the Thomas Cooper Library located?
-    - Where is the Thomas Cooper Library?
     - Where is the Thomas Cooper library located?
+    - Where is the Thomas Cooper Library?
 - intent: center_teaching_excellence_cte
   examples: |
     - Where is the Center for Teaching Excellence (CTE)?
@@ -817,26 +817,26 @@ nlu:
   examples: |
     - Where can I get help with writing?
     - Where can I get help with writing a great essay?
-    - Where can I get help with writing a good paper?
-    - How can I get help with my writing?
     - Where can I get help with my writing?
+    - How can I get help with my writing?
     - Where can I get help with writing a good essay?
+    - Where can I get help with writing a good paper?
 - intent: something_notarized
   examples: |
     - Where can I have something notarized?
-    - How can I have something notarized?
-    - Where can I have my documents notarized?
-    - Where can I get something notarized?
     - Where can I have my document notarized?
+    - Where can I get something notarized?
+    - Where can I have my documents notarized?
+    - How can I have something notarized?
     - How do I have something notarized?
 - intent: contact_library
   examples: |
     - How can I contact the library?
     - How can I get in touch with the library?
     - How do I contact the library?
+    - How do I contact a library?
     - Tell me the best way to contact the library?
     - How can I contact a library?
-    - How do I contact a library?
 - intent: computer_internet_access_technology
   examples: |
     - If I don't have a computer, internet access, or other technology I need for classes, how can the library help?
@@ -858,19 +858,19 @@ nlu:
 - intent: check_locker
   examples: |
     - Where can I check out a locker?
-    - How do I check out a locker?
     - How can I check out a locker?
-    - Where can I find a locker?
-    - Where can I check a locker?
+    - How do I check out a locker?
     - How do I check a locker?
+    - Where can I check a locker?
+    - Where can I find a locker?
 - intent: find_example_dissertation_online
   examples: |
     - How can I find examples of dissertations from the online EdD Curriculum and Instruction program?
-    - How do I find examples of dissertations from the online EdD Curriculum and Instruction program?
+    - How can I find examples of dissertations from the online EdD curriculum and instruction program?
     - How can I find examples of dissertations from the EdD curriculum and instruction program?
     - How do I find examples of dissertations from the online EdD curriculum and instruction program?
+    - How do I find examples of dissertations from the online EdD Curriculum and Instruction program?
     - How can I find examples of dissertations from the EdD online curriculum and instruction program?
-    - How can I find examples of dissertations from the online EdD curriculum and instruction program?
 - intent: carolinasouthern_california_trademark_dispute
   examples: |
     - What was the Carolina/Southern California trademark dispute about, and does it affect the UofSC/USC branding?
@@ -892,114 +892,114 @@ nlu:
 - intent: check_ipad
   examples: |
     - How do I check out an iPad?
-    - How can I check out an iPad?
     - How do I check out iPads?
     - How do I check an iPad?
     - How do I check out my iPad?
+    - How can I check out an iPad?
     - How do you check out an iPad?
 - intent: computer_available_library
   examples: |
     - Are there computers available in the library?
-    - Is there any computer in the library?
     - Are there computers in the library?
+    - Is there any computer in the library?
     - Are there computers available at the library?
-    - Are there any computers available in the library?
     - Are computers available in the library?
+    - Are there any computers available in the library?
 - intent: usc_library
   examples: |
     - Where are the other USC libraries?
+    - Where are the other USC Libraries?
     - Where are other USC libraries?
     - Where are the other libraries in USC?
     - Where are the other libraries of USC?
     - Where are the other libraries at USC?
-    - Where are the other USC Libraries?
 - intent: library_film_video
   examples: |
     - Does the library have films and videos?
-    - Does the library has films and videos?
     - Does the library have films and video?
     - Does the library have films or videos?
-    - Do libraries have films and videos?
+    - Does the library has films and videos?
     - Does the library have movies and videos?
+    - Do libraries have films and videos?
 - intent: get_full_text_access
   examples: |
     - How do I get full text access to a specific article?
-    - How do I get full text access to a particular article?
-    - How do I get full text access to an article?
-    - How can I get full text access to a specific article?
     - How can I get full text access to an article?
     - How do I get full text access to articles?
+    - How do I get full text access to an article?
+    - How do I get full text access to a particular article?
+    - How can I get full text access to a specific article?
 - intent: access_harvard_business_review
   examples: |
     - How do I access Harvard Business Review articles through the library?
-    - How do I access Harvard Business Review articles through the Library?
     - How can I access Harvard Business Review articles through the library?
-    - How do I access Harvard Business Review articles via the library?
-    - How do I access Harvard Business Review articles from the library?
     - How do I access Harvard Business Review articles in the library?
+    - How do I access Harvard Business Review articles from the library?
+    - How do I access Harvard Business Review articles via the library?
+    - How do I access Harvard Business Review articles through the Library?
 - intent: i’m_outside_united_state
   examples: |
     - I’m outside the United States and can’t access library resources. What do I do?
-    - I am outside the United States and can’t access library resources. What should I do?
-    - I’m outside the United States and I can’t access library resources. What should I do?
-    - I’m outside the United States and can’t access library resources. What should I do?
     - I’m outside the United States and I can’t access library resources. What do I do?
+    - I’m outside the United States and I can’t access library resources. What should I do?
     - I am outside the United States and I can’t access library resources. What should I do?
+    - I’m outside the United States and can’t access library resources. What should I do?
+    - I am outside the United States and can’t access library resources. What should I do?
 - intent: see_zotero_notification_automatically
   examples: |
     - I see a Zotero notification that it "automatically redirected" my request through a proxy. What should I do?
+    - I see a Zotero notification that it has automatically redirected my request through a proxy. What should I do?
     - I see a Zotero notification that automatically redirected my request through a proxy. What should I do?
     - I see a Zotero notification that it redirected my request through a proxy. What should I do?
     - I see a Zotero notification that it automatically redirected my request through a proxy. What should I do?
-    - I see a Zotero notification that it has automatically redirected my request through a proxy. What should I do?
 - intent: floor_thomas_cooper_library
   examples: |
     - Which floors in the Thomas Cooper Library are designated quiet floors?
+    - Which floors are designated quiet floors in the Thomas Cooper Library?
     - What floors in the Thomas Cooper Library are designated quiet floors?
     - Which floors in the Thomas Cooper library are designated quiet floors?
-    - Which floors in Thomas Cooper Library are designated quiet floors?
     - Which floors of the Thomas Cooper Library are designated quiet floors?
-    - Which floors are designated quiet floors in the Thomas Cooper Library?
+    - Which floors in Thomas Cooper Library are designated quiet floors?
 - intent: student_success_center_peer
   examples: |
     - Where is the Student Success Center / Peer Tutoring?
-    - Where is the Student Success Center/Peer Tutoring?
-    - Where is Student Success Center / Peer Tutoring?
     - Where is Student Success Center / Peer Tutoring located?
-    - Where is the student success center / peer tutoring?
+    - Where is Student Success Center / Peer Tutoring?
     - Where is the Student Success Center Peer Tutoring?
+    - Where is the Student Success Center/Peer Tutoring?
+    - Where is the student success center / peer tutoring?
 - intent: mailing_address_thomas_cooper
   examples: |
     - What is the mailing address for the Thomas Cooper Library?
-    - Tell me the mailing address for the Thomas Cooper Library?
-    - What is the Thomas Cooper Library mailing address?
     - Tell me the mailing address of the Thomas Cooper Library?
-    - What is the address of the Thomas Cooper Library?
     - What is Thomas Cooper Library's mailing address?
+    - What is the Thomas Cooper Library mailing address?
+    - Tell me the mailing address for the Thomas Cooper Library?
+    - What is the address of the Thomas Cooper Library?
 - intent: return_book
   examples: |
     - Where can I return books?
-    - Where can I return a book?
-    - Where can I get my books back?
-    - How do I return a book?
-    - Where can I return my books?
     - How do I return my books?
+    - Where can I return a book?
+    - Where can I return my books?
+    - How do I return a book?
+    - Where can I get my books back?
 - intent: make_suggestion_library
   examples: |
     - How can I make suggestions to the library?
     - How do I make suggestions for the library?
     - How do I make suggestions for a library?
-    - How can I make a suggestion to the library?
     - How do I make suggestions to the library?
     - How do I make a suggestion to the library?
+    - How can I make a suggestion to the library?
 - intent: make_noise_complaint_staff
   examples: |
     - How can I make a noise complaint to the staff at Thomas Cooper Library?
-    - How do I complain to the staff at the Thomas Cooper Library?
     - How do I complain to the staff at Thomas Cooper Library?
-    - How can I complain to the staff at the Thomas Cooper Library?
-    - How can I complain to the staff at Thomas Cooper Library?
     - How do I make a noise complaint to the staff at Thomas Cooper Library?
+    - How do I complain to the staff at the Thomas Cooper Library?
+    - How can I complain to the staff at Thomas Cooper Library?
+    - How can I complain to the staff at the Thomas Cooper Library?
 - intent: find_journal_impact_factor
   examples: |
     - How do I find a journal's impact factor or other rankings?
@@ -1012,11 +1012,11 @@ nlu:
 - intent: get_online_access_library
   examples: |
     - When can I get online access to library resources as a newly enrolled student?
-    - When can I get access to library resources online as a newly enrolled student?
     - How can I get online access to library resources as a newly enrolled student?
     - How do I get online access to library resources as a newly enrolled student?
     - Can I get online access to library resources as a newly enrolled student?
     - When can I get access to library resources as a newly enrolled student?
+    - When can I get access to library resources online as a newly enrolled student?
 - intent: pay_library_fine
   examples: |
     - Where / How can I pay a library fine?
@@ -1029,59 +1029,59 @@ nlu:
 - intent: friend_university_library_previously
   examples: |
     - What is Friends of University Libraries (previously Thomas Cooper Society) and how can I join?
+    - What is Friends of University Libraries (previously the Thomas Cooper Society) and how can I join?
+    - What are Friends of University Libraries (previously Thomas Cooper Society) and how can I join?
+    - What are Friends of University Libraries (previously the Thomas Cooper Society) and how can I join?
     - What is Friends of University Libraries (previously the Thomas Cooper Society) and how do I join?
     - What is Friends of University Libraries (formerly the Thomas Cooper Society) and how can I join?
-    - What are Friends of University Libraries (previously Thomas Cooper Society) and how can I join?
-    - What is Friends of University Libraries (previously the Thomas Cooper Society) and how can I join?
-    - What are Friends of University Libraries (previously the Thomas Cooper Society) and how can I join?
 - intent: university_institutional_repository
   examples: |
     - Does the university have an institutional repository?
-    - Do universities have an institutional repository?
-    - Does the university have a repository?
     - Does the university have an institution repository?
-    - Does the University have an institutional repository?
+    - Does the university have a repository?
     - Does a university have an institutional repository?
+    - Does the University have an institutional repository?
+    - Do universities have an institutional repository?
 - intent: set_link_usc_content
   examples: |
     - How do I set up links to USC content in Google Scholar?
-    - How do I set up a link to USC content in Google Scholar?
-    - How can I set up links to USC content in Google Scholar?
-    - How do I set up links to USC content on Google Scholar?
-    - How do I create links to USC content in Google Scholar?
     - How do you set up links to USC content in Google Scholar?
+    - How can I set up links to USC content in Google Scholar?
+    - How do I create links to USC content in Google Scholar?
+    - How do I set up a link to USC content in Google Scholar?
+    - How do I set up links to USC content on Google Scholar?
 - intent: download_check_ebook
   examples: |
     - How do I download and check out an ebook?
-    - How do I download ebook?
-    - How do I download and check an ebook?
     - How do I download and check out ebooks?
-    - How do I download ebooks?
+    - How do I download and check an ebook?
     - How do I download an ebook?
+    - How do I download ebooks?
+    - How do I download ebook?
 - intent: check_laptop
   examples: |
     - How do I check out a laptop?
-    - How do I check a laptop?
-    - How can I check out a laptop?
     - Tell me the best way to check out a laptop?
-    - How can I check a laptop?
+    - How can I check out a laptop?
+    - How do I check a laptop?
     - How do you check out a laptop?
+    - How can I check a laptop?
 - intent: library_provide_access_covidence
   examples: |
     - Does the library provide access to Covidence for managing systematic reviews?
-    - Does the library offer access to Covidence for managing systematic reviews?
     - Does the library provide access to Covidence for systematic reviews?
+    - Is the library providing access to Covidence for managing systematic reviews?
     - Does the Library provide access to Covidence for managing systematic reviews?
     - Does the library have access to Covidence for managing systematic reviews?
-    - Is the library providing access to Covidence for managing systematic reviews?
+    - Does the library offer access to Covidence for managing systematic reviews?
 - intent: lost_found
   examples: |
     - Where is the lost and found?
-    - Where is Lost and Found?
-    - Where are the lost and found?
     - Where is the Lost and Found?
+    - Where is Lost and Found?
     - Where is lost and found?
     - Where can I find the lost and found?
+    - Where are the lost and found?
 - intent: charge_card_cost_print
   examples: |
     - Why is there a charge on my card for more than the cost of my print job?
@@ -1103,8 +1103,730 @@ nlu:
 - intent: library_fun_book_read
   examples: |
     - Does the library have fun books to read?
+    - What fun books do the library have to read?
     - Do the library have fun books to read?
     - Do libraries have fun books to read?
-    - Is the library full of fun books to read?
     - Do the libraries have fun books to read?
-    - What fun books do the library have to read?
+    - Is the library full of fun books to read?
+- intent: data_visualization_support_service
+  examples: |
+    - What data visualization support services are available?
+    - Tell me the best data visualization support service?
+    - can you list the best data visualization support services?
+    - What data visualization support services are available in India?
+    - list the best data visualization support services?
+    - Tell me the best data visualization support services?
+- intent: get_touch_someone_data
+  examples: |
+    - How can I get in touch with someone for data visualization help?
+    - How do I get data visualization help?
+    - How can I get in touch with a data visualization expert?
+    - Tell me the best way to get data visualization help?
+    - How can I get data visualization help?
+    - How do I get in touch with a data visualization expert?
+- intent: type_assistance_library_offer
+  examples: |
+    - What types of assistance does the library offer for data visualization?
+    - What type of assistance does the library offer for data visualization?
+    - What types of help does the library offer for data visualization?
+    - What kind of assistance does the library offer for data visualization?
+    - What kinds of assistance does the library offer for data visualization?
+    - What types of assistance does the library provide for data visualization?
+- intent: kind_guidance_expect_online
+  examples: |
+    - What kind of guidance can I expect from online consultations?
+    - What kind of guidance can I expect from online consultation?
+    - What can I expect from an online consultation?
+    - What advice can I expect from online consultations?
+    - What can I expect from online consultations?
+    - What advice can I expect from an online consultation?
+    - What should I expect from an online consultation?
+- intent: university_library_datalab
+  examples: |
+    - What is the University Libraries DataLab?
+    - What is a University Libraries DataLab?
+    - What is University Libraries DataLab?
+    - What is a DataLab at the University Libraries?
+    - What is a university library data lab?
+    - What is a data lab at the University Libraries?
+- intent: assistance_available_data_analysis
+  examples: |
+    - Is there assistance available for data analysis and statistics?
+    - Is there any assistance available for data analysis and statistics?
+    - Is there any help available for data analysis and statistics?
+    - Is there any support available for data analysis and statistics?
+    - Is there any assistance for data analysis and statistics?
+    - Is there any assistance available in data analysis and statistics?
+    - Is there any help for data analysis and statistics?
+- intent: datalab_located
+  examples: |
+    - What is the DataLab and where is it located?
+    - What is DataLab and where is it located?
+    - Tell me the DataLab and where is it located?
+    - What is a DataLab?
+    - What is DataLab? Where is it located?
+    - What is DataLab?
+    - Tell me the DataLab?
+- intent: kind_data_analysis_statistic
+  examples: |
+    - What kind of data analysis and statistics assistance is available?
+    - What kind of data analysis and statistics assistance are available?
+    - What kind of data analysis and statistical assistance is available?
+    - What kind of data analysis and statistics support is available?
+    - What kind of data analysis and statistics help is available?
+    - What type of data analysis and statistics assistance is available?
+- intent: data_visualization_service_available
+  examples: |
+    - What data visualization services are available?
+    - Which is the best data visualization service?
+    - list the best data visualization services?
+    - Tell me the best data visualization service?
+    - show the best data visualization services?
+    - Which data visualization services are available?
+- intent: specialized_software_available_datalab
+  examples: |
+    - What specialized software is available in the DataLab?
+    - What software is available in the DataLab?
+    - What specialized software is available in DataLab?
+    - Which software is available in the DataLab?
+    - What software is available in DataLab?
+    - Tell me the specialized software available in DataLab?
+- intent: hardware_available_datalab
+  examples: |
+    - What hardware is available in the DataLab?
+    - list the hardware available in the DataLab?
+    - Which hardware is available in the DataLab?
+    - Tell me the hardware available in DataLab?
+    - What hardware is available in DataLab?
+    - Tell me the hardware available in the DataLab?
+- intent: importance_quality_data_data
+  examples: |
+    - What is the importance of quality data in data visualization?
+    - Tell me the importance of quality data in data visualization?
+    - Tell me the importance of data quality in data visualization?
+    - What is importance of quality data in data visualization?
+    - How important is data quality in data visualization?
+    - What is importance of data quality in data visualization?
+    - Tell me the importance of quality data for data visualization?
+- intent: find_subjectspecific_data_statistic
+  examples: |
+    - Where can I find subject-specific data and statistics?
+    - Where can I get subject-specific data and statistics?
+    - Where can I find subject-specific statistics?
+    - Where can I find subject specific data and statistics?
+    - Where can I find subject-specific statistical data?
+    - Where can I find subject-specific statistics and data?
+- intent: open_data
+  examples: |
+    - What is open data?
+    - What is open data? What are some examples?
+    - Tell me the importance of open data?
+    - What is Open Data?
+    - What is open data? What is open data?
+    - What is open data? What is it?
+- intent: kind_research_support_university
+  examples: |
+    - What kind of research support does University Libraries offer?
+    - What kinds of research support do University Libraries offer?
+    - What kind of research support does the University Libraries offer?
+    - What kind of research support do University Libraries offer?
+    - What kind of research support do university libraries offer?
+    - What kinds of research support does the University Libraries offer?
+- intent: service_available_research_support
+  examples: |
+    - What services are available for research support?
+    - can you list the best services for research support?
+    - Tell me the best service for research support?
+    - list the services available for research support?
+    - can you list the services available for research support?
+    - Which services are available for research support?
+- intent: limitation_research_support_service
+  examples: |
+    - Are there any limitations to the research support service?
+    - can you list the limitations of the research support service?
+    - Is there any limit to the research support service?
+    - Is there any limitations to the research support service?
+    - Are there any limitations on the research support service?
+    - Is there any limitation to the research support service?
+- intent: nvivo_it
+  examples: |
+    - What is NVivo and what can I do with it?
+    - What is NVivo?
+    - What is NVivo and what can you do with it?
+    - What can I do with NVivo?
+    - What is NVivo? What can I do with it?
+    - What is NVivo? What can you do with it?
+- intent: access_nvivo
+  examples: |
+    - How can I access NVivo?
+    - Tell me the best way to access NVivo?
+    - How do I get NVivo?
+    - How can I get access to NVivo?
+    - How do I get access to NVivo?
+    - How do I access NVivo?
+- intent: find_additional_help_nvivo
+  examples: |
+    - Where can I find additional help with NVivo?
+    - Where can I get help with NVivo?
+    - Where can I find help with NVivo?
+    - How can I get help with NVivo?
+    - How do I get help with NVivo?
+    - Where can I find support for NVivo?
+    - Where can I get support for NVivo?
+- intent: data_visualization_learning_session
+  examples: |
+    - What data visualization learning sessions are available?
+    - list some of the best data visualization learning sessions?
+    - Tell me the best data visualization learning session?
+    - show the best data visualization learning sessions?
+    - can you list the best data visualization learning sessions?
+    - list the best data visualization learning sessions?
+- intent: difference_data_statistic
+  examples: |
+    - What is the difference between data and statistics?
+    - Tell me the difference between statistics and data?
+    - Tell me the difference between data and statistics?
+    - What is difference between statistics and data?
+    - What's the difference between statistics and data?
+    - Tell me the difference between stats and data?
+    - What is difference between data and statistics?
+- intent: open_data1
+  examples: |
+    - What is open data?
+    - What is open data? What are some examples?
+    - Tell me the importance of open data?
+    - What is Open Data?
+    - What is open data? What is open data?
+    - What is open data? What is it?
+- intent: create_project_file_nvivo
+  examples: |
+    - How do I create a project file in NVivo?
+    - How can I create a project file in NVivo?
+    - How do you create project files in NVivo?
+    - How can I create project files in NVivo?
+    - How do you create a project file in NVivo?
+    - How do I create project files in NVivo?
+- intent: different_part_nvivo_workspace
+  examples: |
+    - What are the different parts of the NVivo workspace?
+    - show the different parts of the NVivo workspace?
+    - list the different parts of the NVivo workspace?
+    - can you list the different parts of the NVivo workspace?
+    - show the different parts of NVivo workspace?
+    - list the different parts of NVivo workspace?
+    - can you list the different parts of NVivo workspace?
+- intent: import_data_file_nvivo
+  examples: |
+    - How do I import data files into NVivo?
+    - How can I import data files into NVivo?
+    - How do I import a data file into NVivo?
+    - How do I import data files in NVivo?
+    - How do I import data files to NVivo?
+    - How do you import data files into NVivo?
+- intent: autocode_data_file_nvivo
+  examples: |
+    - How do I auto-code my data files in NVivo?
+    - How do I auto-code data files in NVivo?
+    - How can I auto-code data files in NVivo?
+    - How do I auto-code a data file in NVivo?
+    - How do you auto-code data files in NVivo?
+    - How can I auto-code my data files in NVivo?
+- intent: use_case_nvivo
+  examples: |
+    - How do I use cases in NVivo?
+    - How do I create use cases in NVivo?
+    - How can I use cases in NVivo?
+    - How can I use NVivo in use cases?
+    - How do I use case in NVivo?
+    - How can I create use cases in NVivo?
+- intent: software_hardware_resource_available
+  examples: |
+    - What software and hardware resources are available at the University Libraries?
+    - Which software and hardware resources are available at the University Libraries?
+    - list the available software and hardware resources at the University Libraries?
+    - list the software and hardware resources available in the University Libraries?
+    - show the software and hardware resources available at the University Libraries?
+    - list the software and hardware resources available at the University Libraries?
+- intent: borrow_technology_library
+  examples: |
+    - How can I borrow technology from the library?
+    - How can I borrow technology from library?
+    - How can I borrow technology from a library?
+    - How do I borrow technology from a library?
+    - How do I borrow technology from the library?
+    - How do I borrow technology from library?
+- intent: request_remote_access_software
+  examples: |
+    - How do I request remote access to software?
+    - How do I request remote access to the software?
+    - How can I request remote access to software?
+    - How do I request remote access to my software?
+    - How do I request remote access to a software?
+    - How do you request remote access to software?
+- intent: general_statistic_resource_available
+  examples: |
+    - What general statistics resources are available?
+    - Tell me the best general statistics resource available?
+    - What statistics resources are available?
+    - Tell me the best general statistics resource?
+    - can you list the best general statistics resources?
+    - can you list the best statistics resources?
+- intent: general_data_set_available
+  examples: |
+    - What general data sets are available?
+    - What data sets are available for general data sets?
+    - What data sets are available?
+    - can you list the available data sets?
+    - What data sets are available in general?
+    - can you list the general data sets available?
+- intent: source_open_data
+  examples: |
+    - What are some sources for open data?
+    - can you list the sources of open data?
+    - can you list the sources for open data?
+    - can you list the best sources for open data?
+    - list some sources for open data?
+    - Tell me the best source for open data?
+    - list some sources of open data?
+- intent: create_codebook_nvivo
+  examples: |
+    - How do I create a codebook in NVivo?
+    - How do I create a codebook using NVivo?
+    - How do you create a codebook in NVivo?
+    - How do I create a codebook for NVivo?
+    - How can I create a codebook in NVivo?
+    - How do I create codebooks in NVivo?
+- intent: add_coding_data
+  examples: |
+    - How do I add coding to my data?
+    - How can I add code to my data?
+    - How can I add coding to my data?
+    - How do I add code to my data?
+    - How do I add code to data?
+    - How do I add coding to data?
+- intent: uncode_data
+  examples: |
+    - How do I uncode data?
+    - How do you uncode data?
+    - How can I uncode data?
+    - How do I uncode a data file?
+    - Tell me the best way to uncode data?
+    - How do I uncode a data?
+- intent: coding_stripe_display_them
+  examples: |
+    - What are coding stripes and how do I display them?
+    - What is coding stripes and how do I display them?
+    - What is coding stripes? How do I display them?
+    - What are coding stripes? How do I display them?
+    - Tell me the best way to display coding stripes?
+    - How do I display coding stripes?
+- intent: export_codebook
+  examples: |
+    - How do I export a codebook?
+    - How do I export codebook?
+    - How do I export codebooks?
+    - How do you export a codebook?
+    - How do I export a Codebook?
+    - How can I export a codebook?
+- intent: learn_coding_nvivo
+  examples: |
+    - Where can I learn more about coding in NVivo?
+    - Where can I learn more about NVivo?
+    - Where can I learn to code in NVivo?
+    - Where can I learn coding in NVivo?
+    - How can I learn to code in NVivo?
+    - Where can I learn programming in NVivo?
+    - Tell me the best way to learn NVivo?
+- intent: data_visualization
+  examples: |
+    - What is data visualization?
+    - What is Data Visualization?
+    - What is a data visualization?
+    - What is data visualization? What are some examples?
+    - Tell me the data visualization?
+    - What is data visualization? What is data visualization?
+- intent: data_visualization_important
+  examples: |
+    - Why is data visualization important?
+    - Why is data visualization so important?
+    - Why is data visualization important for data visualization?
+    - Why is Data Visualization important?
+    - Why data visualization is important?
+    - Why is data visualization important in data visualization?
+- intent: data_science_lifecycle
+  examples: |
+    - What is the data science lifecycle?
+    - Tell me the data science life cycle?
+    - What is a data science life cycle?
+    - Tell me the data science lifecycle?
+    - What is a data science lifecycle?
+    - What is data science lifecycle?
+- intent: common_term_used_data
+  examples: |
+    - What are some common terms used in data visualization?
+    - can you list the common terms used in data visualization?
+    - list some common terms used in data visualization?
+    - show some common terms used in data visualization?
+    - What are common terms used in data visualization?
+    - show the common terms used in data visualization?
+    - recommend some common terms used in data visualization?
+- intent: business_statistic_resource_available
+  examples: |
+    - What business statistics resources are available?
+    - show the best business statistics resources?
+    - Tell me the best business statistics resource?
+    - list the best business statistics resources?
+    - Which business statistics resources are available?
+    - list some good business statistics resources?
+- intent: data_resource_available
+  examples: |
+    - What data resources are available?
+    - Which data resources are available?
+    - list the available data resources?
+    - can you list the data resources available?
+    - can you list the available data resources?
+    - Tell me the best data resource available?
+- intent: source_available_library_usc
+  examples: |
+    - What sources are available from the Libraries for USC students, faculty, and staff?
+    - What resources are available from the USC Libraries for USC students faculty and staff?
+    - What resources are available from the USC Libraries for USC students, faculty and staff?
+    - What resources are available from the Libraries for USC students faculty and staff?
+    - What resources are available from the Libraries for USC students, faculty and staff?
+    - What resources are available from the USC Libraries for students, faculty and staff?
+    - What sources are available from the USC Libraries for USC students faculty and staff?
+- intent: choose_right_visualization_data
+  examples: |
+    - How do I choose the right visualization for my data?
+    - How can I choose the right visualization for my data?
+    - How do I choose a visualization for my data?
+    - How do I choose the best visualization for my data?
+    - How do I select the right visualization for my data?
+    - How do you choose the right visualization for your data?
+- intent: guideline_creating_effective_visualization
+  examples: |
+    - What are the guidelines for creating effective visualizations?
+    - How do I create effective visualizations?
+    - recommend some tips for creating effective visualizations?
+    - How do I create a visual presentation?
+    - Tell me the best way to create visuals?
+    - How can I create effective visualizations?
+    - How can I create a visual presentation?
+- intent: resource_available_finding_criminal
+  examples: |
+    - What resources are available for finding criminal justice statistics?
+    - How do I find criminal justice statistics?
+    - can you list the best resources for finding criminal justice statistics?
+    - What resources are available to find criminal justice statistics?
+    - can you list the available resources for finding criminal justice statistics?
+    - How can I find criminal justice statistics?
+- intent: u_statistic_resource_available
+  examples: |
+    - What US statistics resources are available for criminal justice?
+    - list the best US statistics resources for criminal justice?
+    - What are US statistics resources for criminal justice?
+    - What statistics are available for criminal justice?
+    - What US statistics are available for criminal justice?
+    - What statistics are available for criminal justice in the US?
+- intent: data_set_available_criminal
+  examples: |
+    - What data sets are available for criminal justice research?
+    - list the available data sets for criminal justice research?
+    - can you list the available datasets for criminal justice research?
+    - What datasets are available for criminal justice research?
+    - can you list the data sets available for criminal justice research?
+    - can you list the available data sets for criminal justice research?
+- intent: important_cite_data
+  examples: |
+    - Why is it important to cite data?
+    - Why is it so important to cite data?
+    - Why it is important to cite data?
+    - Why is it important to cite information?
+    - Why is it important to cite the data?
+    - Why is it important to quote data?
+- intent: information_needed_properly_cite
+  examples: |
+    - What information is needed to properly cite a dataset?
+    - How do I properly cite a dataset?
+    - How can I properly cite a dataset?
+    - How do I cite a dataset?
+    - What information is needed to cite a dataset?
+    - How can I cite a dataset?
+    - How do I properly cite datasets?
+- intent: tool_help_data_citation
+  examples: |
+    - Are there tools to help with data citation?
+    - Tell me the best way to help with data citation?
+    - can you list the best tools for data citation?
+    - Are there any tools to help with data citation?
+    - Tell me the best tool to help with data citation?
+    - How can I help with data citation?
+- intent: factor_consider_selecting_data
+  examples: |
+    - What factors should I consider when selecting a data visualization tool?
+    - What factors should be considered when selecting a data visualization tool?
+    - What factors should I consider when selecting a visualization tool?
+    - list the factors to consider when selecting a data visualization tool?
+    - What should I consider when selecting a data visualization tool?
+    - What factors should I consider when choosing a data visualization tool?
+- intent: spreadsheet_software_use_data
+  examples: |
+    - What spreadsheet software can I use for data visualization?
+    - Tell me the best spreadsheet software for data visualization?
+    - Tell me the best spreadsheet software to use for data visualization?
+    - What spreadsheet software should I use for data visualization?
+    - Which spreadsheet software can I use for data visualization?
+    - What spreadsheet software can I use to visualize data?
+- intent: data_visualization_software_available
+  examples: |
+    - What data visualization software is available?
+    - Tell me the best data visualization software available?
+    - What is a good data visualization software?
+    - Tell me the best data visualization software?
+    - list the best data visualization softwares?
+    - Which is the best data visualization software?
+- intent: programming_language_use_data
+  examples: |
+    - What programming languages can I use for data visualization?
+    - Tell me the best programming language to use for data visualization?
+    - What programming language should I use for data visualization?
+    - What programming languages should I use for data visualization?
+    - Tell me the best programming language for data visualization?
+    - can you list the best programming languages for data visualization?
+- intent: resource_available_finding_economic
+  examples: |
+    - What resources are available for finding economic statistics?
+    - can you list the best resources to find economic statistics?
+    - can you list the resources available for finding economic statistics?
+    - can you list the best resources for finding economic statistics?
+    - What resources are available to find economic statistics?
+    - list the best resources for finding economic statistics?
+- intent: data_set_available_economic
+  examples: |
+    - What data sets are available for economic research?
+    - can you list the data sets available for economic research?
+    - can you list the available data sets for economic research?
+    - list the available data sets for economic research?
+    - show the available data sets for economic research?
+    - Which data sets are available for economic research?
+- intent: resource_available_education_statistic
+  examples: |
+    - What resources are available for education statistics?
+    - list the resources available for education statistics?
+    - can you list the available resources for education statistics?
+    - can you list the resources available for education statistics?
+    - can you list the best resources for education statistics?
+    - can you list the resources for education statistics?
+- intent: u_statistic_resource_available1
+  examples: |
+    - What U.S. statistics resources are available for education?
+    - show the best U.S. statistics resources for education?
+    - Tell me the best U.S. statistics resource for education?
+    - list the best U.S. statistics resources for education?
+    - What U.S. statistics resources are available for educational purposes?
+    - Which U.S. statistics resources are available for education?
+- intent: data_set_available_education
+  examples: |
+    - What data sets are available for education?
+    - Tell me the best data set available for education?
+    - can you list the data sets available for education?
+    - can you list the available data sets for education?
+    - Which data sets are available for education?
+    - list the available data sets for education?
+- intent: interlibrary_loan_access_it
+  examples: |
+    - What is Interlibrary Loan and how do I access it?
+    - What is Interlibrary Loan? How do I get it?
+    - What is Interlibrary Loan? How can I access it?
+    - How do I access an interlibrary loan?
+    - What is interlibrary loan? How do I access it?
+    - What is Interlibrary Loan? How do I access it?
+- intent: contact_interlibrary_loan_staff
+  examples: |
+    - How do I contact Interlibrary Loan staff?
+    - How do I contact interlibrary loan staff?
+    - How do I contact the Interlibrary Loan staff?
+    - How can I contact Interlibrary Loan staff?
+    - How do I contact Interlibrary loan staff?
+    - How can I contact the Interlibrary Loan staff?
+- intent: im_usc_columbia_user
+  examples: |
+    - What if I'm not a USC Columbia user?
+    - What if I'm not a Columbia student?
+    - What if I'm not a USC Columbia student?
+    - What if I am not a USC Columbia user?
+    - What if I'm not a student at USC Columbia?
+    - What happens if I'm not a USC Columbia user?
+- intent: learn_interlibrary_loan
+  examples: |
+    - Where can I learn more about Interlibrary Loan?
+    - How can I learn more about Interlibrary Loan?
+    - Where can I learn more about interlibrary loan?
+    - Where can I learn more about interlibrary loans?
+    - How can I learn more about interlibrary loan?
+    - How can I learn more about interlibrary loans?
+- intent: resource_environmental_geospatial_statistic
+  examples: |
+    - What are some resources for environmental and geospatial statistics?
+    - list some resources for environmental and geospatial statistics?
+    - can you list the resources for environmental and geospatial statistics?
+    - Tell me the best resource for environmental and geospatial statistics?
+    - What are resources for environmental and geospatial statistics?
+    - show some resources for environmental and geospatial statistics?
+    - recommend some resources for environmental and geospatial statistics?
+- intent: find_environmental_geospatial_data
+  examples: |
+    - Where can I find environmental and geospatial data sets?
+    - Where can I find geospatial and environmental data?
+    - Where can I find geospatial data sets?
+    - Where can I find environmental and geospatial data?
+    - Where can I find geospatial data?
+    - Where can I get geospatial and environmental data?
+    - Where can I find geospatial datasets?
+- intent: geospatial_data_resource_available
+  examples: |
+    - What geospatial data resources are available?
+    - can you list the available geospatial data resources?
+    - can you list the best geospatial data resources?
+    - can you list the available geospatial data sources?
+    - Which geospatial data resources are available?
+    - list the available geospatial data resources?
+- intent: resource_available_fire_modeling
+  examples: |
+    - What resources are available for fire modeling?
+    - can you list the resources for fire modeling?
+    - list the resources available for fire modeling?
+    - list the best resources for fire modeling?
+    - show the resources available for fire modeling?
+    - Tell me the best resource for fire modeling?
+- intent: hydrological_data_resource_available
+  examples: |
+    - What hydrological data resources are available?
+    - list the hydrological data resources available?
+    - Which hydrological data resources are available?
+    - What hydrological data sources are available?
+    - What hydrological data are available?
+    - show the hydrological data resources available?
+- intent: landuse_landcover_database_available
+  examples: |
+    - What landuse and landcover databases are available?
+    - Which land use and landcover databases are available?
+    - What land use and landcover database are available?
+    - can you list the land use and landcover databases available?
+    - What land use and landcover databases are available?
+    - can you list the available land use and landcover databases?
+- intent: modelled_data_resource_available
+  examples: |
+    - What modelled data resources are available?
+    - can you list the available modelled data resources?
+    - Tell me the best modelled data resource?
+    - show the available modelled data resources?
+    - list the available modelled data resources?
+    - can you list the modelled data resources available?
+- intent: observed_data_resource_available
+  examples: |
+    - What observed data resources are available?
+    - list the available observed data resources?
+    - can you list the available observed data resources?
+    - What observational data resources are available?
+    - can you list the observed data resources available?
+- intent: soil_data_resource_available
+  examples: |
+    - What soil data resources are available?
+    - Tell me the best soil data resource?
+    - What soil data sources are available?
+    - list the available soil data resources?
+    - What are soil data resources available?
+    - What soil data are available?
+- intent: transportation_data_resource_available
+  examples: |
+    - What transportation data resources are available?
+    - can you list the best transportation data resources?
+    - Tell me the best transportation data resource?
+    - can you list the transportation data resources available?
+    - can you list the available transportation data resources?
+    - Which transportation data resources are available?
+- intent: resource_available_finding_health
+  examples: |
+    - What resources are available for finding health statistics and data sets?
+    - What resources are available to find health statistics and data sets?
+    - How can I find health statistics and data sets?
+    - list the best resources for finding health statistics and data sets?
+    - Tell me the best way to find health statistics?
+    - can you list the best resources for finding health statistics?
+- intent: data_set_available_health
+  examples: |
+    - What data sets are available for health research?
+    - Which data sets are available for health research?
+    - can you list the available data sets for health research?
+    - Tell me the best data set available for health research?
+    - can you list the data sets available for health research?
+    - list the available data sets for health research?
+- intent: resource_available_library_statistical
+  examples: |
+    - What resources are available for library statistical resources?
+    - list the resources available for library statistical resources?
+    - list the available resources for library statistical resources?
+    - What resources are available for library statistics resources?
+    - can you list the resources for library statistical resources?
+    - show the resources available for library statistical resources?
+- intent: resource_social_work_statistic
+  examples: |
+    - What are some resources for social work statistics?
+    - can you list the best resources for social work statistics?
+    - can you list the resources for social work statistics?
+    - list some resources for social work statistics?
+    - list some good resources for social work statistics?
+    - show some resources for social work statistics?
+    - recommend some resources for social work statistics?
+- intent: resource_u_statistic
+  examples: |
+    - What are some resources for U.S. statistics?
+    - can you list the best resources for U.S. statistics?
+    - list some resources for U.S. statistics?
+    - can you list the best sources for U.S. statistics?
+    - list some good resources for U.S. statistics?
+    - show some resources for U.S. statistics?
+    - list the best resources for U.S. statistics?
+- intent: resource_data_set
+  examples: |
+    - What are some resources for data sets?
+    - can you list the resources for data sets?
+    - recommend some resources for data sets?
+    - show some resources for data sets?
+    - can you list the best resources for data sets?
+    - list some resources for data sets?
+    - Tell me the best resource for data sets?
+- intent: learn_social_work_statistic
+  examples: |
+    - Where can I learn more about social work statistics and data sets?
+    - Where can I learn more about social work statistics?
+    - Where can I learn more about social work statistics and data?
+    - How can I learn more about social work statistics?
+    - Where can I learn more about social work statistics and statistics?
+    - Where can I learn about social work statistics and data sets?
+    - Where can I find out more about social work statistics?
+- intent: resource_available_sociology_statistic
+  examples: |
+    - What resources are available for sociology statistics and data sets?
+    - can you list the resources for sociology statistics and data sets?
+    - list the resources available for sociology statistics and data sets?
+    - list some resources for sociology statistics and data sets?
+    - list the available resources for sociology statistics and data sets?
+    - show the resources available for sociology statistics and data sets?
+- intent: u_statistic_resource_available2
+  examples: |
+    - What U.S. statistics resources are available?
+    - Which U.S. statistics resources are available?
+    - can you list the available U.S. statistics resources?
+    - can you list the best U.S. statistics resources?
+    - list the best U.S. statistics resources?
+    - Tell me the best U.S. statistics resource?
+- intent: data_set_available_sociology
+  examples: |
+    - What data sets are available for sociology?
+    - can you list the available data sets for sociology?
+    - Which data sets are available for sociology?
+    - list the available data sets for sociology?
+    - What data sets are available in sociology?
+    - can you list the data sets available for sociology?

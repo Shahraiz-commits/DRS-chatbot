@@ -4,6 +4,7 @@ import os
 import csv
 import time
 from dotenv import load_dotenv
+import re
 # File that holds the newly created auestion-answer pairs
 #RESPONSE_JSON = "QApairs.json"
 # File that pairs are saved into as csv
@@ -16,28 +17,28 @@ system_prompt = """
 You are a question-answer pair generator for the development of training data for a library chatbot. I will provide some text, which you will then use to create appropriate question-answer pairs with.
 Please limit the creation of questions so that each question covers as much relevant information as possible, with minimal overlap with the answers of other questions you may generate.
 The questions should be sufficient in relaying all information presented within the text. I.e. the answers altogether should contain ALL of the given text. Do not change the markdown formatting present in the text and ensure all the given text is present in the answers in its entirety. Include any markdown headings and lists etc. Do not omit or change information in the text to shorten the answer in the JSON file.
-Limit the number of question-answer pairs as low as appropriate, not exceeding 10. Give preference to longer answers over creating a new seperate question.
+Limit the number of question-answer pairs to as few as possible, never exceeding 10. Give preference to longer answers over creating a new seperate question.
 
-Make sure each answer contains [Learn more here](link) at the end of each response on a seperate line where the "link" to use will be given at the end of each text in the format [Learn more here](link).
-
+Make sure each answer in the question-answer pairs contains [Learn more here](link) at the end of EVERY answer inside the JSON file. This should be included on a seperate line as part of each answer in the pair where the "link" to use will be given at the end of each text once in the format [Learn more here](link). Use the same link at the end of each answer. If you cannot find this learn more link, then leave it, but do not give me a warning.
+If you see any escaped new line characters like '\\n', then keep them as such in your answers. Do not omit these.
+Do not include "or" or "and" in any question. If you must, seperate the two queries into two questions instead.
+Do not give me any added notes.
 Please create questions and answers and output them in JSON format. Do not output anything other than the complete JSON file.
 
 EXAMPLE INPUT: 
-## Consultations (online / in-person)\nAI Model Development and Training: Assisting in the development, training, and validation of machine learning models for research projects such as:\n- Natural Language Processing (NLP)\n- Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.TIme-Series data analysis and forecasting.Software and tools: Provide guidance on the different AI softwares and tools and their applications.\n## Research Project CollaborationCollaborating on interdisciplinary research projects that require AI or data science expertise.Assist in using other library digital services such as data management and visualization.
+## Consultations (online / in-person)\\nAI Model Development and Training: Assisting in the development, training, and validation of machine learning models for research projects such as:\\n- Natural Language Processing (NLP)\\n- Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.TIme-Series data analysis and forecasting.Software and tools: Provide guidance on the different AI softwares and tools and their applications.\\n## Research Project CollaborationCollaborating on interdisciplinary research projects that require AI or data science expertise.Assist in using other library digital services such as data management and visualization.
 
-EXAMPLE JSON OUTPUT:
+EXAMPLE OUTPUT:
 [
     {
         "question": "Are there AI consultations for me?",
-        "answer": "## Consultations (online / in-person)\nAI Model Development and Training: Assisting in the development, training, and validation of machine learning models for research projects such as:\n- Natural Language Processing (NLP)\n- Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification. TIme-Series data analysis and forecasting. Software and tools: Provide guidance on the different AI softwares and tools and their applications."
+        "answer": "## Consultations (online / in-person)\\nAI Model Development and Training: Assisting in the development, training, and validation of machine learning models for research projects such as:\\n- Natural Language Processing (NLP)\\n- Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification. TIme-Series data analysis and forecasting. Software and tools: Provide guidance on the different AI softwares and tools and their applications."
     },
     {
         "question": "Can I work with someone on my research project?",
-        "answer": "\n## Research Project Collaboration: Collaborating on interdisciplinary research projects that require AI or data science expertise. Assist in using other library digital services such as data management and visualization."
+        "answer": "\\n\\n## Research Project Collaboration: Collaborating on interdisciplinary research projects that require AI or data science expertise. Assist in using other library digital services such as data management and visualization."
     }
 ]
-
-I will begin giving you text to process in the next inputs.
 
 """
 
@@ -56,12 +57,12 @@ def makeNewChat():
         "chat": {
             "id": "",
             "title": "New Chat",
-            "models": ["llama3.1:70b"],
+            "models": ["llama3.1:405b"],
             "messages": [
                 {
                     "role": "user",
                     "content": system_prompt,
-                    "models": ["llama3.1:70b"],
+                    "models": ["llama3.1:405b"],
                 }
             ],
         }
@@ -89,7 +90,8 @@ def chatCompletion():
 
     body = {
         "stream": False,
-        "model": "llama3.1:70b",
+        "model": "llama3.1:405b",
+        "temperature": 0,
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": input_prompt}
@@ -118,18 +120,19 @@ questions_count = 0
 # Convert JSON response to csv QApairs.json
 with open("search_output.json", 'r') as all_text:
     texts_to_process = json.load(all_text)
-
+# NOTE: LLM not processing text at index 23 for some reason. Skipped for now
 for current_text in texts_to_process:
+    if(page_count < 24):
+        page_count += 1
+        continue
     input_prompt = current_text
+    input_prompt = re.sub(r'\n', '\\n', input_prompt)
     recieved = chatCompletion()
-    LLMresponse = recieved['choices'][page_count]['message']['content']
-    print(LLMresponse)
-    
-    # NOTE: Loading LLMresponse as json doesnt work because the scraped text has a lot of literal newline characters '\n' for formatting's sake
-    # and the LLM makes that into an actual new line in its response, breaking the json format. Giving it explicit instruction not to do so doesnt work either
-    # Just review the responses by printing the response for now
+    LLMresponse = recieved['choices'][0]['message']['content']
+    print(f"RESPONSE --------------------------------------------------------------------------------------------------------------------------------------\
+        {LLMresponse}\n")
 
-    """"
+    #LLMresponse = re.sub(r'\\n', '\n', LLMresponse)
     data = json.loads(LLMresponse) 
 
     # Writing to CSV file QAChat.csv
@@ -139,10 +142,11 @@ for current_text in texts_to_process:
         # Write header only if the file is empty
         if file.tell() == 0:
             writer.writeheader()
-        
+            
+        questions_count = 0
         for item in data:
             writer.writerow(item)
             questions_count += 1
-    page_count += 1
-print(f"Completed {questions_count} QA pairs for page {page_count}")
-    """
+        page_count += 1
+    print(f"Completed {questions_count} QA pairs for page {page_count-1}\n\n")
+    

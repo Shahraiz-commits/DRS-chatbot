@@ -1,0 +1,222 @@
+Question,Answer
+What resources are available for education statistics?,"## Education Statistics and Data Set Resources
+Below are some examples of resources that you can use to find education resources.
+## Statistics
+#### International Statistics
+- [EdStats- World Bank](http://datatopics.worldbank.org/education/)
+- [Our World in Data](https://ourworldindata.org/)"
+What U.S. statistics resources are available for education?,"
+#### U.S. Statistics
+- [Child Care & Early Research Connections](https://www.researchconnections.org/research-tools/data-collection)
+- [ChildStats.gov](http://www.childstats.gov/index.asp)
+- [College Navigator](http://nces.ed.gov/collegenavigator/)
+- [Mapping the Measure of America](http://www.measureofamerica.org/maps/)
+- [National Center for Education Statistics (NCES)](https://nces.ed.gov/)
+- [National Center for Education Statistics (NCES) International Comparisons in Education](https://nces.ed.gov/surveys/international/)
+- [National Household Education Surveys (NHES)](http://nces.ed.gov/nhes/)
+- [Schools and Staffing Survey (SASS)](https://nces.ed.gov/surveys/sass/)
+- [South Carolina Department of Education](http://ed.sc.gov/)
+- [South Carolina Joint Citizens and Legislative Committee on Children Data Reference Book](http://www.sc.edu/jclcc/doc/2016%20Data%20Reference%20Book.pdf)
+- [US Department of Education Data and Statistics](https://www.ed.gov/data)"
+What data sets are available for education?,"
+## Data Sets
+- [Campus Safety and Security Data (US Dept. of Education)](https://ope.ed.gov/campussafety/#/)
+- [Child Care & Early Research Connections](https://www.researchconnections.org/research-tools/data-collection)
+- [Common Core of Data (CCD)](https://nces.ed.gov/ccd/index.asp)
+- [Data.gov](https://www.Data.gov)
+- [ED Data Inventory](https://datainventory.ed.gov/)
+- [Integrated Postsecondary Education Data System (IPEDS)](http://nces.ed.gov/ipeds/)
+- [Monitoring the Future @ ICPSR](http://www.icpsr.umich.edu/icpsrweb/ICPSR/series/00035)
+- [National Center for Education Statistics (NCES)](https://nces.ed.gov/)
+- [Scientists and Engineers Statistical Data System](http://sestat.nsf.gov/)
+- [UNdata](http://data.un.org/)
+- [US Department of Education Data and Statistics](https://www.ed.gov/data)
+
+[Learn more here](https://guides.library.sc.edu/data-and-statistics/education)"
+What is Interlibrary Loan and how do I access it?,"## Request an Interlibrary Loan
+Need materials you can't find through University Libraries? Interlibrary Loan is a free service for accessing books, articles and research materials from other libraries.
+[Login to request, renew and view materials](https://ill3.tcl.sc.edu/illiad/)
+
+Select your campus and enter your network username and password. First-time users will be prompted to register.
+
+### Making Requests
+#### Who is Eligible?
+- Currently-enrolled USC Columbia students
+- USC Columbia faculty and staff
+- UofSC Alumni Association members
+
+#### When to Request
+If you have tried [searching](/about/offices_and_divisions/university_libraries/search/index.php) and what you want is not available in the libraries' collections or online resources.
+
+#### What to Request
+Interlibrary Loan will try to get any type of research materials  textbooks and other assigned materials for current courses available at the University Bookstore. Some materials may be difficult to obtain."
+How do I contact Interlibrary Loan staff?,"# Contact Us
+For additional help check out the [ILL online user guide](http://guides.library.sc.edu/interlibraryloan).
+[Interlibrary Loan Staff](/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/index.php?search=Interlibrary)
+[uscill@mailbox.sc.edu](mailto:uscill@mailbox.sc.edu)
+803-777-2805"
+What if I'm not a USC Columbia user?,"# Not a USC Columbia user?
+Check a local institution or a local public library for ILL services.
+In Columbia:
+- [School of Law Library](http://law.sc.edu/library)
+- [School of Medicine Library](http://uscmed.sc.libguides.com/)
+- [Richland Library](http://www.richlandlibrary.com/)"
+Where can I learn more about Interlibrary Loan?,"[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/interlibrary_loan/index.php)
+"
+What are some resources for environmental and geospatial statistics?,"## Environmental & Geospatial Statistics and Data Set Resources
+Below are some examples of resources that you can use to find environmental and geospatial resources. 
+## Statistics
+- [Our World in Data](https://ourworldindata.org/)
+- [Statista](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.statista.com%2F)"
+Where can I find environmental and geospatial data sets?,"
+## Data Sets (.csv)
+- [Climate TRACE](https://climatetrace.org/data)
+- [Data.gov](https://data.gov)
+- [PolicyMap](https://sc.policymap.com/)
+- [Residential Energy Consumption Survey Results - EIA](https://www.eia.gov/consumption/residential/data/2020/index.php?view=characteristics)
+- [U.S. Wildfires - NOAA](https://www.ncei.noaa.gov/access/monitoring/wildfires/ytd/0)
+- [World Bank Open Data](http://data.worldbank.org/)"
+What geospatial data resources are available?,"
+## Geospatial Data
+- [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
+- [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)"
+What resources are available for fire modeling?,"
+#### Fire Modeling
+- [LandFire](https://www.landfire.gov/)
+- [Fire Program Analysis Fire Occurrence Database (FPAFOD)](https://doi.org/10.2737/RDS-2013-0009.6)
+- [Monitoring Trends in Burn Severity (MTBS)](https://www.mtbs.gov/)"
+What hydrological data resources are available?,"
+#### Hydrological Data
+- [USGS National Water Dashboard](https://waterdata.usgs.gov/nwis/rt)
+- [National Hydrography Dataset (NHD)](https://www.usgs.gov/core-science-systems/ngp/national-hydrography/access-national-hydrography-products)"
+What landuse and landcover databases are available?,"
+#### Landuse and Landcover Databases
+- [Multi-Resolution Land Characteristics (MRLC) Consortium](https://www.mrlc.gov/)
+- [Gap Analysis Project](https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap)"
+What modelled data resources are available?,"
+#### Modelled Data
+- [Parameter-elevation Relationships on Independent Slopes Model (PRISM)](http://www.prism.oregonstate.edu/)
+Most of modelled data are stored in NetCDF format. Here is an [introduction](https://www.unidata.ucar.edu/publications/factsheets/current/factsheet_netcdf.pdf) of NetCDF format. Various tools of manipulating NetCDF files found [here](http://www.unidata.ucar.edu/software/netcdf/software.html).
+- [MACA Climatology Lab](https://www.climatologylab.org/maca.html)
+- [NARCCAP - Climate Change Assessment Program](https://www.narccap.ucar.edu/data/index.html)
+- [North American CORDEX Program](https://na-cordex.org/)"
+What observed data resources are available?,"
+#### Observed Data
+- [NOAA - Full List of Data](https://www.ncdc.noaa.gov/data-access)
+- [NOAA - Weather & Climate Quick Links](https://www.ncdc.noaa.gov/data-access/quick-links)
+- [Applied Climate Information System - Query Data](http://builder.rcc-acis.org)To learn how to use this system, click here for[ more information](https://www.rcc-acis.org/docs_webservices.html)."
+What soil data resources are available?,"
+#### Soil Data
+- [Natural Resources Conservation Service - Soil Databases](https://www.nrcs.usda.gov/resources?title=&resource_type=18)
+- [Natural Resources Conservation Service - Web Soil Survey (WSS)](https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm)"
+What transportation data resources are available?,"
+#### Transportation Data
+- [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
+[Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)"
+What resources are available for finding health statistics and data sets?,"## Health Statistics and Data Set Resources
+Below are some examples of resources that you can use to find health resources. 
+Some additional resources for finding statistics or data sets is the [NICHSR Finding Health Statistics tutorial](https://www.nlm.nih.gov/nichsr/usestats/finding_health_statistics.html) or the [Public Health Information & Data Tutorial](https://phpartners.org/tutorial/03-hs/)
+
+## Statistics
+#### International Statistics
+- [Google Public Data Explorer](https://www.google.com/publicdata/directory)
+- [WHO Global Health Observatory](http://apps.who.int/gho/data/)
+
+#### U.S. Statistics
+- [America's Health Rankings](https://www.americashealthrankings.org/)
+- [American Hospital Directory](https://www.ahd.com/)
+- [Behavioral Risk Factor Surveillance System](https://www.cdc.gov/brfss/)
+- [CDC National Center for Health Statistics](http://www.cdc.gov/nchs/)
+- [Census Bureau Subjects A-Z](http://census.gov/main/www/a2z)
+- [Centers for Medicare & Medicaid Services](http://www.cms.gov/Research-Statistics-Data-and-Systems/Research-Statistics-Data-and-Systems.html?redirect=/home/rsds.asp)
+- [HCUPnet- Healthcare Cost and Utilization Project](https://hcupnet.ahrq.gov/)
+- [National Center for Health Statistics](http://www.cdc.gov/nchs/)
+- [National Center for Health Statistics (NCHS)](http://www.cdc.gov/nchs/index.htm)
+- [SC Public Health Data](https://dph.sc.gov/public/data-maps-reports)
+- [South Carolina eHealth Medicaid Statistics](http://www.schealthviz.sc.edu/)
+- [State Health Compare](http://statehealthcompare.shadac.org/)
+- [State Health Facts (Kaiser Family Foundation)](http://www.statehealthfacts.org/)"
+What data sets are available for health research?,"## Data Sets
+- [CDC Wonder](https://wonder.cdc.gov/)
+- [HealthData.gov](https://www.healthdata.gov/)
+- [Our World in Data](https://ourworldindata.org/)
+- [UNAIDS - HIV/AIDS Surveillance Data Base](https://aidsinfo.unaids.org/?did=5fbeb5cb94831556e11c4517&r=world&t=null&tb=q&bt=undefined&ts=0,0&qla=G&qls=All%20Countries)
+- [UNdata](http://data.un.org/)
+- [WorldBank Data](https://data.worldbank.org/data-catalog)
+
+[Learn more here](https://guides.library.sc.edu/data-and-statistics/health)"
+What resources are available for library statistical resources?,"## Museum & Library Statistics and Data Set Resources
+Below are some examples of resources that you can use to find library statistical resources.
+## Statistics
+- [ACRL Benchmark: Library Metrics and Trends](https://login.pallas2.tcl.sc.edu/login?url=https://assets.tcl.sc.edu/eresources/list.html)
+- [IBISWorld](https://login.pallas2.tcl.sc.edu/login?url=https://my.ibisworld.com)
+- [Statista](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.statista.com%2F)
+- [USC Libraries By The Numbers - University of South Carolina](https://guides.library.sc.edu/publicdb?_gl=1*9orde8*_ga*MTYxMDAyMTI4LjE2ODc1NDI3NDU.*_ga_ZGG9QXHNZF*MTY5MjM5MjE0Ny44Mi4xLjE2OTIzOTI3NzEuMC4wLjA.)
+## Data Sets
+- [Libraries of South Carolina - SC State Library](https://guides.statelibrary.sc.gov/sc-public-library-statistics/annual)
+- [Museum Data Files - IMLS](https://www.imls.gov/research-evaluation/data/museum-data-files)
+- [PolicyMap](https://sc.policymap.com/)
+- [Public Library Survey - IMLS](https://www.imls.gov/research-evaluation/surveys/public-libraries-survey-pls)
+
+[Learn more here](https://guides.library.sc.edu/data-and-statistics/lis)"
+What are some resources for social work statistics?,"## Social Work Statistics and Data Set Resources
+Below are some examples of resources that you can use to find social work resources. 
+## Statistics
+#### International Statistics
+- [EUROSTAT](https://ec.europa.eu/eurostat/web/main/data)
+- [Human Rights Watch](https://www.hrw.org/)
+- [Inter-American Development Bank-](https://publications.iadb.org/discover?thumbnail=false&filtertype_Population+Statistics+%26+Information+Systems=subject_en&filter_relational_operator_Population+Statistics+%26+Information+Systems=equals&filter_Population+Statistics+%26+Information+Systems=Population+Statistics+%26+Information+Systems)Produces working papers on economic and social topics. Resources include:-GEPPAL (an analysis tool with indicators of women's political participation in Latin America)-Latin America and Caribbean Macro Watch Data Tool (Over 500 indicators consolidating data on macroeconomics, social issues, trade, capital flows, markets and governance)-Sociómetro-BID (a dataset of social indicators providing insight into socioeconomic conditions in Latin America).
+- [International Organization for Migration](http://www.iom.int/)
+- [Our World in Data](https://ourworldindata.org/)
+- [UNESCO Institute for Statistics](http://uis.unesco.org/)
+- [UN Statistical Resources](http://research.un.org/en/un-resources/statistics)
+- [World Health Organization- Country Statisticsc](http://www.who.int/gho/countries/en/)"
+What are some resources for U.S. statistics?,"
+#### U.S. Statistics
+- [Census Data from data.census.gov](https://data.census.gov/cedsci/)
+- [Agency for Healthcare Research and Quality- Research Tools & Data](https://www.ahrq.gov/research/index.html)
+- [Centers for Medicare & Medicaid Services](https://www.cms.gov/Research-Statistics-Data-and-Systems/Research-Statistics-Data-and-Systems.html)
+- [Data Resource Center for Child & Adolescent Health](http://www.childhealthdata.org/)
+- [PEW Charitable Trust- Research & Analysis](http://www.pewtrusts.org/en/research-and-analysis#list/alphabetical/all/0)
+- [South Carolina Community Profiles](https://dc.statelibrary.sc.gov/collections/d62303af-bfb7-4483-b4c5-3f271972cd65)
+- [South Carolina Higher Education Statistical Abstracts](https://www.che.sc.gov/che-data-and-reports)
+- [South Carolina Statistical Abstract](http://www.sciway.net/statistics)"
+What are some resources for data sets?,"
+## Data Sets
+- [Council of European Social Science Data Archives (CESSDA)](https://datacatalogue.cessda.eu/)
+- [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.[More information](http://guides.library.sc.edu/more_information/icpsr)
+- [National Archive of Criminal Justice Data](http://www.icpsr.umich.edu/icpsrweb/content/NACJD/index.html)
+- [Norwegian Agency for Shared Services in Education and Research (Sikt)](https://sikt.no/en/find-data)
+- [UNdata](http://data.un.org/)
+- [WHO Global Health Observatory](http://apps.who.int/gho/data/)"
+Where can I learn more about social work statistics and data sets?,"
+[Learn more here](https://guides.library.sc.edu/data-and-statistics/social-work)"
+What resources are available for sociology statistics and data sets?,"## Sociology Statistics and Data Set Resources
+Below are some examples of resources that you can use to find sociology resources.
+## Statistics
+#### International Statistics
+- [Economic Indicators](https://www.govinfo.gov/app/collection/ECONI)
+- [InfoShare Online](http://www.infoshare.org/)Includes population statistics, immigration trends, socioeconomic indicators, birth and death data, hospitalizations, local trade data, and much more.You will need to create an individual account.
+- [UNdata](http://data.un.org/)"
+What U.S. statistics resources are available?,"
+
+#### U.S. Statistics
+- [Bureau of Labor Statistics](http://stats.bls.gov/)
+- [Census Data from data.census.gov](https://data.census.gov/cedsci/)
+- [CIA World Factbook](https://www.cia.gov/the-world-factbook/)
+- [Historical Statistics of the United States: Millennial Edition Online](https://pascal-usc.primo.exlibrisgroup.com/permalink/01PASCAL_USCCOL/ena7hp/alma991025864137205618)
+- [OECD iLibrary](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.oecd-ilibrary.org%2F)
+- [Rural Data Portal](http://www.ruraldataportal.org/)
+- [South Carolina Statistics and Statistical Reports - SCIway](http://www.sciway.net/statistics/)
+- [The National Survey of Families and Households (NSFH)](http://www.ssc.wisc.edu/nsfh/home.htm)
+- [United States QuickFacts](https://www.census.gov/quickfacts/fact/table/US/PST045216)
+- [USDA Rural Information Center](https://www.nal.usda.gov/ric)"
+What data sets are available for sociology?,"
+
+## Data Sets
+- [ICPSR](http://www.icpsr.umich.edu/icpsrweb/ICPSR/)
+- [ASA Data Resources on Sociology as a profession](http://www.asanet.org/research-publications/research-sociology/data-resources-sociology-profession)
+- [The General Social Survey ](http://gss.norc.org/)
+- [Pew Research Center Datasets](http://www.pewinternet.org/datasets/)
+
+[Learn more here](https://guides.library.sc.edu/data-and-statistics/sociology)"

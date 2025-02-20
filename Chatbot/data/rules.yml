@@ -57,3 +57,38 @@ rules:
   - intent: library_microwave
   - action: utter_library_microwave
     
+- rule: Answer learn_coding_nvivo
+  steps:
+  - intent: learn_coding_nvivo
+  - action: utter_learn_coding_nvivo
+    
+- rule: Answer learn_interlibrary_loan
+  steps:
+  - intent: learn_interlibrary_loan
+  - action: utter_learn_interlibrary_loan
+    
+- rule: Answer geospatial_data_resource_available
+  steps:
+  - intent: geospatial_data_resource_available
+  - action: utter_geospatial_data_resource_available
+    
+- rule: Answer hydrological_data_resource_available
+  steps:
+  - intent: hydrological_data_resource_available
+  - action: utter_hydrological_data_resource_available
+    
+- rule: Answer landuse_landcover_database_available
+  steps:
+  - intent: landuse_landcover_database_available
+  - action: utter_landuse_landcover_database_available
+    
+- rule: Answer transportation_data_resource_available
+  steps:
+  - intent: transportation_data_resource_available
+  - action: utter_transportation_data_resource_available
+    
+- rule: Answer learn_social_work_statistic
+  steps:
+  - intent: learn_social_work_statistic
+  - action: utter_learn_social_work_statistic
+    

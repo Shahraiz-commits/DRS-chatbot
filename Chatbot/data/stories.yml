@@ -848,3 +848,570 @@ stories:
   - intent: full_answer
   - action: utter_library_fun_book_read
     
+- story: data_visualization_support_service path
+  steps:
+  - intent: data_visualization_support_service
+  - action: utter_summary_data_visualization_support_service
+  - intent: full_answer
+  - action: utter_data_visualization_support_service
+    
+- story: get_touch_someone_data path
+  steps:
+  - intent: get_touch_someone_data
+  - action: utter_summary_get_touch_someone_data
+  - intent: full_answer
+  - action: utter_get_touch_someone_data
+    
+- story: type_assistance_library_offer path
+  steps:
+  - intent: type_assistance_library_offer
+  - action: utter_summary_type_assistance_library_offer
+  - intent: full_answer
+  - action: utter_type_assistance_library_offer
+    
+- story: kind_guidance_expect_online path
+  steps:
+  - intent: kind_guidance_expect_online
+  - action: utter_summary_kind_guidance_expect_online
+  - intent: full_answer
+  - action: utter_kind_guidance_expect_online
+    
+- story: university_library_datalab path
+  steps:
+  - intent: university_library_datalab
+  - action: utter_summary_university_library_datalab
+  - intent: full_answer
+  - action: utter_university_library_datalab
+    
+- story: assistance_available_data_analysis path
+  steps:
+  - intent: assistance_available_data_analysis
+  - action: utter_summary_assistance_available_data_analysis
+  - intent: full_answer
+  - action: utter_assistance_available_data_analysis
+    
+- story: datalab_located path
+  steps:
+  - intent: datalab_located
+  - action: utter_summary_datalab_located
+  - intent: full_answer
+  - action: utter_datalab_located
+    
+- story: kind_data_analysis_statistic path
+  steps:
+  - intent: kind_data_analysis_statistic
+  - action: utter_summary_kind_data_analysis_statistic
+  - intent: full_answer
+  - action: utter_kind_data_analysis_statistic
+    
+- story: data_visualization_service_available path
+  steps:
+  - intent: data_visualization_service_available
+  - action: utter_summary_data_visualization_service_available
+  - intent: full_answer
+  - action: utter_data_visualization_service_available
+    
+- story: specialized_software_available_datalab path
+  steps:
+  - intent: specialized_software_available_datalab
+  - action: utter_summary_specialized_software_available_datalab
+  - intent: full_answer
+  - action: utter_specialized_software_available_datalab
+    
+- story: hardware_available_datalab path
+  steps:
+  - intent: hardware_available_datalab
+  - action: utter_summary_hardware_available_datalab
+  - intent: full_answer
+  - action: utter_hardware_available_datalab
+    
+- story: importance_quality_data_data path
+  steps:
+  - intent: importance_quality_data_data
+  - action: utter_summary_importance_quality_data_data
+  - intent: full_answer
+  - action: utter_importance_quality_data_data
+    
+- story: find_subjectspecific_data_statistic path
+  steps:
+  - intent: find_subjectspecific_data_statistic
+  - action: utter_summary_find_subjectspecific_data_statistic
+  - intent: full_answer
+  - action: utter_find_subjectspecific_data_statistic
+    
+- story: open_data path
+  steps:
+  - intent: open_data
+  - action: utter_summary_open_data
+  - intent: full_answer
+  - action: utter_open_data
+    
+- story: kind_research_support_university path
+  steps:
+  - intent: kind_research_support_university
+  - action: utter_summary_kind_research_support_university
+  - intent: full_answer
+  - action: utter_kind_research_support_university
+    
+- story: service_available_research_support path
+  steps:
+  - intent: service_available_research_support
+  - action: utter_summary_service_available_research_support
+  - intent: full_answer
+  - action: utter_service_available_research_support
+    
+- story: limitation_research_support_service path
+  steps:
+  - intent: limitation_research_support_service
+  - action: utter_summary_limitation_research_support_service
+  - intent: full_answer
+  - action: utter_limitation_research_support_service
+    
+- story: nvivo_it path
+  steps:
+  - intent: nvivo_it
+  - action: utter_summary_nvivo_it
+  - intent: full_answer
+  - action: utter_nvivo_it
+    
+- story: access_nvivo path
+  steps:
+  - intent: access_nvivo
+  - action: utter_summary_access_nvivo
+  - intent: full_answer
+  - action: utter_access_nvivo
+    
+- story: find_additional_help_nvivo path
+  steps:
+  - intent: find_additional_help_nvivo
+  - action: utter_summary_find_additional_help_nvivo
+  - intent: full_answer
+  - action: utter_find_additional_help_nvivo
+    
+- story: data_visualization_learning_session path
+  steps:
+  - intent: data_visualization_learning_session
+  - action: utter_summary_data_visualization_learning_session
+  - intent: full_answer
+  - action: utter_data_visualization_learning_session
+    
+- story: difference_data_statistic path
+  steps:
+  - intent: difference_data_statistic
+  - action: utter_summary_difference_data_statistic
+  - intent: full_answer
+  - action: utter_difference_data_statistic
+    
+- story: open_data1 path
+  steps:
+  - intent: open_data1
+  - action: utter_summary_open_data1
+  - intent: full_answer
+  - action: utter_open_data1
+    
+- story: create_project_file_nvivo path
+  steps:
+  - intent: create_project_file_nvivo
+  - action: utter_summary_create_project_file_nvivo
+  - intent: full_answer
+  - action: utter_create_project_file_nvivo
+    
+- story: different_part_nvivo_workspace path
+  steps:
+  - intent: different_part_nvivo_workspace
+  - action: utter_summary_different_part_nvivo_workspace
+  - intent: full_answer
+  - action: utter_different_part_nvivo_workspace
+    
+- story: import_data_file_nvivo path
+  steps:
+  - intent: import_data_file_nvivo
+  - action: utter_summary_import_data_file_nvivo
+  - intent: full_answer
+  - action: utter_import_data_file_nvivo
+    
+- story: autocode_data_file_nvivo path
+  steps:
+  - intent: autocode_data_file_nvivo
+  - action: utter_summary_autocode_data_file_nvivo
+  - intent: full_answer
+  - action: utter_autocode_data_file_nvivo
+    
+- story: use_case_nvivo path
+  steps:
+  - intent: use_case_nvivo
+  - action: utter_summary_use_case_nvivo
+  - intent: full_answer
+  - action: utter_use_case_nvivo
+    
+- story: software_hardware_resource_available path
+  steps:
+  - intent: software_hardware_resource_available
+  - action: utter_summary_software_hardware_resource_available
+  - intent: full_answer
+  - action: utter_software_hardware_resource_available
+    
+- story: borrow_technology_library path
+  steps:
+  - intent: borrow_technology_library
+  - action: utter_summary_borrow_technology_library
+  - intent: full_answer
+  - action: utter_borrow_technology_library
+    
+- story: request_remote_access_software path
+  steps:
+  - intent: request_remote_access_software
+  - action: utter_summary_request_remote_access_software
+  - intent: full_answer
+  - action: utter_request_remote_access_software
+    
+- story: general_statistic_resource_available path
+  steps:
+  - intent: general_statistic_resource_available
+  - action: utter_summary_general_statistic_resource_available
+  - intent: full_answer
+  - action: utter_general_statistic_resource_available
+    
+- story: general_data_set_available path
+  steps:
+  - intent: general_data_set_available
+  - action: utter_summary_general_data_set_available
+  - intent: full_answer
+  - action: utter_general_data_set_available
+    
+- story: source_open_data path
+  steps:
+  - intent: source_open_data
+  - action: utter_summary_source_open_data
+  - intent: full_answer
+  - action: utter_source_open_data
+    
+- story: create_codebook_nvivo path
+  steps:
+  - intent: create_codebook_nvivo
+  - action: utter_summary_create_codebook_nvivo
+  - intent: full_answer
+  - action: utter_create_codebook_nvivo
+    
+- story: add_coding_data path
+  steps:
+  - intent: add_coding_data
+  - action: utter_summary_add_coding_data
+  - intent: full_answer
+  - action: utter_add_coding_data
+    
+- story: uncode_data path
+  steps:
+  - intent: uncode_data
+  - action: utter_summary_uncode_data
+  - intent: full_answer
+  - action: utter_uncode_data
+    
+- story: coding_stripe_display_them path
+  steps:
+  - intent: coding_stripe_display_them
+  - action: utter_summary_coding_stripe_display_them
+  - intent: full_answer
+  - action: utter_coding_stripe_display_them
+    
+- story: export_codebook path
+  steps:
+  - intent: export_codebook
+  - action: utter_summary_export_codebook
+  - intent: full_answer
+  - action: utter_export_codebook
+    
+- story: data_visualization path
+  steps:
+  - intent: data_visualization
+  - action: utter_summary_data_visualization
+  - intent: full_answer
+  - action: utter_data_visualization
+    
+- story: data_visualization_important path
+  steps:
+  - intent: data_visualization_important
+  - action: utter_summary_data_visualization_important
+  - intent: full_answer
+  - action: utter_data_visualization_important
+    
+- story: data_science_lifecycle path
+  steps:
+  - intent: data_science_lifecycle
+  - action: utter_summary_data_science_lifecycle
+  - intent: full_answer
+  - action: utter_data_science_lifecycle
+    
+- story: common_term_used_data path
+  steps:
+  - intent: common_term_used_data
+  - action: utter_summary_common_term_used_data
+  - intent: full_answer
+  - action: utter_common_term_used_data
+    
+- story: business_statistic_resource_available path
+  steps:
+  - intent: business_statistic_resource_available
+  - action: utter_summary_business_statistic_resource_available
+  - intent: full_answer
+  - action: utter_business_statistic_resource_available
+    
+- story: data_resource_available path
+  steps:
+  - intent: data_resource_available
+  - action: utter_summary_data_resource_available
+  - intent: full_answer
+  - action: utter_data_resource_available
+    
+- story: source_available_library_usc path
+  steps:
+  - intent: source_available_library_usc
+  - action: utter_summary_source_available_library_usc
+  - intent: full_answer
+  - action: utter_source_available_library_usc
+    
+- story: choose_right_visualization_data path
+  steps:
+  - intent: choose_right_visualization_data
+  - action: utter_summary_choose_right_visualization_data
+  - intent: full_answer
+  - action: utter_choose_right_visualization_data
+    
+- story: guideline_creating_effective_visualization path
+  steps:
+  - intent: guideline_creating_effective_visualization
+  - action: utter_summary_guideline_creating_effective_visualization
+  - intent: full_answer
+  - action: utter_guideline_creating_effective_visualization
+    
+- story: resource_available_finding_criminal path
+  steps:
+  - intent: resource_available_finding_criminal
+  - action: utter_summary_resource_available_finding_criminal
+  - intent: full_answer
+  - action: utter_resource_available_finding_criminal
+    
+- story: u_statistic_resource_available path
+  steps:
+  - intent: u_statistic_resource_available
+  - action: utter_summary_u_statistic_resource_available
+  - intent: full_answer
+  - action: utter_u_statistic_resource_available
+    
+- story: data_set_available_criminal path
+  steps:
+  - intent: data_set_available_criminal
+  - action: utter_summary_data_set_available_criminal
+  - intent: full_answer
+  - action: utter_data_set_available_criminal
+    
+- story: important_cite_data path
+  steps:
+  - intent: important_cite_data
+  - action: utter_summary_important_cite_data
+  - intent: full_answer
+  - action: utter_important_cite_data
+    
+- story: information_needed_properly_cite path
+  steps:
+  - intent: information_needed_properly_cite
+  - action: utter_summary_information_needed_properly_cite
+  - intent: full_answer
+  - action: utter_information_needed_properly_cite
+    
+- story: tool_help_data_citation path
+  steps:
+  - intent: tool_help_data_citation
+  - action: utter_summary_tool_help_data_citation
+  - intent: full_answer
+  - action: utter_tool_help_data_citation
+    
+- story: factor_consider_selecting_data path
+  steps:
+  - intent: factor_consider_selecting_data
+  - action: utter_summary_factor_consider_selecting_data
+  - intent: full_answer
+  - action: utter_factor_consider_selecting_data
+    
+- story: spreadsheet_software_use_data path
+  steps:
+  - intent: spreadsheet_software_use_data
+  - action: utter_summary_spreadsheet_software_use_data
+  - intent: full_answer
+  - action: utter_spreadsheet_software_use_data
+    
+- story: data_visualization_software_available path
+  steps:
+  - intent: data_visualization_software_available
+  - action: utter_summary_data_visualization_software_available
+  - intent: full_answer
+  - action: utter_data_visualization_software_available
+    
+- story: programming_language_use_data path
+  steps:
+  - intent: programming_language_use_data
+  - action: utter_summary_programming_language_use_data
+  - intent: full_answer
+  - action: utter_programming_language_use_data
+    
+- story: resource_available_finding_economic path
+  steps:
+  - intent: resource_available_finding_economic
+  - action: utter_summary_resource_available_finding_economic
+  - intent: full_answer
+  - action: utter_resource_available_finding_economic
+    
+- story: data_set_available_economic path
+  steps:
+  - intent: data_set_available_economic
+  - action: utter_summary_data_set_available_economic
+  - intent: full_answer
+  - action: utter_data_set_available_economic
+    
+- story: resource_available_education_statistic path
+  steps:
+  - intent: resource_available_education_statistic
+  - action: utter_summary_resource_available_education_statistic
+  - intent: full_answer
+  - action: utter_resource_available_education_statistic
+    
+- story: u_statistic_resource_available1 path
+  steps:
+  - intent: u_statistic_resource_available1
+  - action: utter_summary_u_statistic_resource_available1
+  - intent: full_answer
+  - action: utter_u_statistic_resource_available1
+    
+- story: data_set_available_education path
+  steps:
+  - intent: data_set_available_education
+  - action: utter_summary_data_set_available_education
+  - intent: full_answer
+  - action: utter_data_set_available_education
+    
+- story: interlibrary_loan_access_it path
+  steps:
+  - intent: interlibrary_loan_access_it
+  - action: utter_summary_interlibrary_loan_access_it
+  - intent: full_answer
+  - action: utter_interlibrary_loan_access_it
+    
+- story: contact_interlibrary_loan_staff path
+  steps:
+  - intent: contact_interlibrary_loan_staff
+  - action: utter_summary_contact_interlibrary_loan_staff
+  - intent: full_answer
+  - action: utter_contact_interlibrary_loan_staff
+    
+- story: im_usc_columbia_user path
+  steps:
+  - intent: im_usc_columbia_user
+  - action: utter_summary_im_usc_columbia_user
+  - intent: full_answer
+  - action: utter_im_usc_columbia_user
+    
+- story: resource_environmental_geospatial_statistic path
+  steps:
+  - intent: resource_environmental_geospatial_statistic
+  - action: utter_summary_resource_environmental_geospatial_statistic
+  - intent: full_answer
+  - action: utter_resource_environmental_geospatial_statistic
+    
+- story: find_environmental_geospatial_data path
+  steps:
+  - intent: find_environmental_geospatial_data
+  - action: utter_summary_find_environmental_geospatial_data
+  - intent: full_answer
+  - action: utter_find_environmental_geospatial_data
+    
+- story: resource_available_fire_modeling path
+  steps:
+  - intent: resource_available_fire_modeling
+  - action: utter_summary_resource_available_fire_modeling
+  - intent: full_answer
+  - action: utter_resource_available_fire_modeling
+    
+- story: modelled_data_resource_available path
+  steps:
+  - intent: modelled_data_resource_available
+  - action: utter_summary_modelled_data_resource_available
+  - intent: full_answer
+  - action: utter_modelled_data_resource_available
+    
+- story: observed_data_resource_available path
+  steps:
+  - intent: observed_data_resource_available
+  - action: utter_summary_observed_data_resource_available
+  - intent: full_answer
+  - action: utter_observed_data_resource_available
+    
+- story: soil_data_resource_available path
+  steps:
+  - intent: soil_data_resource_available
+  - action: utter_summary_soil_data_resource_available
+  - intent: full_answer
+  - action: utter_soil_data_resource_available
+    
+- story: resource_available_finding_health path
+  steps:
+  - intent: resource_available_finding_health
+  - action: utter_summary_resource_available_finding_health
+  - intent: full_answer
+  - action: utter_resource_available_finding_health
+    
+- story: data_set_available_health path
+  steps:
+  - intent: data_set_available_health
+  - action: utter_summary_data_set_available_health
+  - intent: full_answer
+  - action: utter_data_set_available_health
+    
+- story: resource_available_library_statistical path
+  steps:
+  - intent: resource_available_library_statistical
+  - action: utter_summary_resource_available_library_statistical
+  - intent: full_answer
+  - action: utter_resource_available_library_statistical
+    
+- story: resource_social_work_statistic path
+  steps:
+  - intent: resource_social_work_statistic
+  - action: utter_summary_resource_social_work_statistic
+  - intent: full_answer
+  - action: utter_resource_social_work_statistic
+    
+- story: resource_u_statistic path
+  steps:
+  - intent: resource_u_statistic
+  - action: utter_summary_resource_u_statistic
+  - intent: full_answer
+  - action: utter_resource_u_statistic
+    
+- story: resource_data_set path
+  steps:
+  - intent: resource_data_set
+  - action: utter_summary_resource_data_set
+  - intent: full_answer
+  - action: utter_resource_data_set
+    
+- story: resource_available_sociology_statistic path
+  steps:
+  - intent: resource_available_sociology_statistic
+  - action: utter_summary_resource_available_sociology_statistic
+  - intent: full_answer
+  - action: utter_resource_available_sociology_statistic
+    
+- story: u_statistic_resource_available2 path
+  steps:
+  - intent: u_statistic_resource_available2
+  - action: utter_summary_u_statistic_resource_available2
+  - intent: full_answer
+  - action: utter_u_statistic_resource_available2
+    
+- story: data_set_available_sociology path
+  steps:
+  - intent: data_set_available_sociology
+  - action: utter_summary_data_set_available_sociology
+  - intent: full_answer
+  - action: utter_data_set_available_sociology
+    

@@ -8,6 +8,9 @@ const submitFeedbackBtn = document.getElementById("submitFeedbackBtn");
 const senderID = "user_" + Math.floor(Math.random() * 100000);
 let messageCounter = 0;
 
+LOCAL_LINK = "http://localhost:5005/webhooks/rest/webhook"
+PROD_LINK = "https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook"
+
 function scrollChatToBottom() {
   chatLog.scrollTop = chatLog.scrollHeight;
 }
@@ -100,7 +103,7 @@ function sendMessageToRasa(message) {
   }
 
   // OLD URL: http://localhost:5005/webhooks/rest/webhook
-  fetch("https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook", {
+  fetch(LOCAL_LINK, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
@@ -134,7 +137,7 @@ function submitFeedback() {
     message: `/rate_experience{"rating": "${rating}", "comments": "${comments}"}`,
   };
 
-  fetch("https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook", {
+  fetch(LOCAL_LINK, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(feedbackPayload),

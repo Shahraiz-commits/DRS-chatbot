@@ -133,6 +133,94 @@ intents:
   - charge_card_cost_print
   - found_book_library_catalog
   - library_fun_book_read
+  - data_visualization_support_service
+  - get_touch_someone_data
+  - type_assistance_library_offer
+  - kind_guidance_expect_online
+  - university_library_datalab
+  - assistance_available_data_analysis
+  - datalab_located
+  - kind_data_analysis_statistic
+  - data_visualization_service_available
+  - specialized_software_available_datalab
+  - hardware_available_datalab
+  - importance_quality_data_data
+  - find_subjectspecific_data_statistic
+  - open_data
+  - kind_research_support_university
+  - service_available_research_support
+  - limitation_research_support_service
+  - nvivo_it
+  - access_nvivo
+  - find_additional_help_nvivo
+  - data_visualization_learning_session
+  - difference_data_statistic
+  - open_data1
+  - create_project_file_nvivo
+  - different_part_nvivo_workspace
+  - import_data_file_nvivo
+  - autocode_data_file_nvivo
+  - use_case_nvivo
+  - software_hardware_resource_available
+  - borrow_technology_library
+  - request_remote_access_software
+  - general_statistic_resource_available
+  - general_data_set_available
+  - source_open_data
+  - create_codebook_nvivo
+  - add_coding_data
+  - uncode_data
+  - coding_stripe_display_them
+  - export_codebook
+  - learn_coding_nvivo
+  - data_visualization
+  - data_visualization_important
+  - data_science_lifecycle
+  - common_term_used_data
+  - business_statistic_resource_available
+  - data_resource_available
+  - source_available_library_usc
+  - choose_right_visualization_data
+  - guideline_creating_effective_visualization
+  - resource_available_finding_criminal
+  - u_statistic_resource_available
+  - data_set_available_criminal
+  - important_cite_data
+  - information_needed_properly_cite
+  - tool_help_data_citation
+  - factor_consider_selecting_data
+  - spreadsheet_software_use_data
+  - data_visualization_software_available
+  - programming_language_use_data
+  - resource_available_finding_economic
+  - data_set_available_economic
+  - resource_available_education_statistic
+  - u_statistic_resource_available1
+  - data_set_available_education
+  - interlibrary_loan_access_it
+  - contact_interlibrary_loan_staff
+  - im_usc_columbia_user
+  - learn_interlibrary_loan
+  - resource_environmental_geospatial_statistic
+  - find_environmental_geospatial_data
+  - geospatial_data_resource_available
+  - resource_available_fire_modeling
+  - hydrological_data_resource_available
+  - landuse_landcover_database_available
+  - modelled_data_resource_available
+  - observed_data_resource_available
+  - soil_data_resource_available
+  - transportation_data_resource_available
+  - resource_available_finding_health
+  - data_set_available_health
+  - resource_available_library_statistical
+  - resource_social_work_statistic
+  - resource_u_statistic
+  - resource_data_set
+  - learn_social_work_statistic
+  - resource_available_sociology_statistic
+  - u_statistic_resource_available2
+  - data_set_available_sociology
 
 responses:
   utter_greet:
@@ -659,7 +747,7 @@ responses:
     
   utter_summary_common_issue_printing:
   - text: |
-      If you are trying to print from Google Docs you will have to download and save the file in one of these formats first.
+      Visit a Student Printing Kiosk on the Main Level of Thomas Cooper Library to choose your form of payment and enter your release code.
       The same is true for PowerPoint files and Pages documents (on Macs).
       You will need to save as PDF or other supported file type.
       This is a brief summary. For more details, please ask for the full answer.
@@ -884,7 +972,7 @@ responses:
   - text: |
       There are several locations for photocopying and scanning within the libraries.
       See our website for additional details.
-      [Printing, Scanning, Copying](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/printing/index.php)
+      [Learn more here](https://libanswers.library.sc.edu//faq/23764)
       This is a brief summary. For more details, please ask for the full answer.
     
   utter_photocopy_scan_library:
@@ -1297,7 +1385,7 @@ responses:
   - text: |
       Call numbers are used to locate items on the shelf.
       See our online guide for using call numbers to find a book.
-      [Learn more here](https://libanswers.library.sc.edu//faq/23752)
+      [Reading Call Numbers](http://guides.library.sc.edu/callnumbers)
       This is a brief summary. For more details, please ask for the full answer.
     
   utter_call_number_use_it:
@@ -2221,6 +2309,1671 @@ responses:
       [Does the library have children's books?](http://libanswers.library.sc.edu/faq/23788)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/23786)
+    
+  utter_summary_data_visualization_support_service:
+  - text: |
+      The University Libraries offers resources and services useful in data visualization.
+      Discover visualization capabilities of software tools such as Microsoft Excel, Tableau, and the R programming language.
+      Available for use by registered students, faculty, and staff of the University of South Carolina, the space is designed to support data analysis and visualization activities related to University research projects.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_visualization_support_service:
+  - text: |
+      ## Data Visualization Support
+      Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization.
+      ### Available Services
+      #### Guide
+      This guide provides information about the foundations of data visualization, finding data, selecting appropriate visualization types, choosing visualization tools, and additional data visualization learning resources.
+
+      [https://guides.library.sc.edu/c.php?g=1316892](https://guides.library.sc.edu/c.php?g=1316892)
+
+      #### Consultations
+      We can help you online or in-person. Discover information and tutorials about data visualization and data vis tools. Decide on appropriate and effective visualization techniques. Consider, compare, and determine which tool(s) to use. Clean data for visualization.
+
+      #### Workshops
+      Learn about the foundations of data visualization, the principles that lead to effective and ineffective visualizations, and factors useful in choosing the best data visualization type and tool. Discover visualization capabilities of software tools such as Microsoft Excel, Tableau, and the R programming language.
+
+      [https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0)
+
+      #### Resources
+      The University Libraries DataLab space is located on the 5th floor of Thomas Cooper Library near the front staircase. Available for use by registered students, faculty, and staff of the University of South Carolina, the space is designed to support data analysis and visualization activities related to University research projects.
+
+      [https://guides.library.sc.edu/c.php?g=1321483](https://guides.library.sc.edu/c.php?g=1321483)
+
+      # Library Workshops
+      Register for free [library workshops](/about/offices_and_divisions/university_libraries/find_services/workshops/index.php) on a variety of topics.
+
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
+    
+  utter_summary_get_touch_someone_data:
+  - text: |
+      # Contact Us [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.
+      Glenn Bunton Data Visualization Librarian 803-777-2903 [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_get_touch_someone_data:
+  - text: |
+      # Contact Us
+      [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.
+      Glenn Bunton
+      Data Visualization Librarian
+      803-777-2903
+      [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
+
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
+    
+  utter_summary_type_assistance_library_offer:
+  - text: |
+      ## Ways We Can Assist - [Learning Sessions/Workshops](#s-lib-ctab-31341410-0) - [Online Consultations](#s-lib-ctab-31341410-1) - [University Libraries DataLab](#s-lib-ctab-31341410-2) We offer regularly scheduled online learning sessions each semester covering various aspects of data visualization.
+      We cover - General data visualization knowledge, concepts, and considerations - Principles for selecting appropriate data visualization types and tools - Basic introductions to use of data visualization tools such a Microsoft Excel, Tableau Public, Microsoft Power BI, and scripting languages such as R and Python - Basic introduction to visualizing geospatial data using QGIS, and ArcGIS - [Register for a Learning Session](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68190&inc=0)
+      If you are an instructor that would like to arrange a custom session for your class related to the above listed topics or other data visualization aspects, please contact us to discuss the possibilities.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_type_assistance_library_offer:
+  - text: |
+      ## Ways We Can Assist
+      - [Learning Sessions/Workshops](#s-lib-ctab-31341410-0)
+      - [Online Consultations](#s-lib-ctab-31341410-1)
+      - [University Libraries DataLab](#s-lib-ctab-31341410-2)
+      We offer regularly scheduled online learning sessions each semester covering various aspects of data visualization. We cover
+      - General data visualization knowledge, concepts, and considerations
+      - Principles for selecting appropriate data visualization types and tools
+      - Basic introductions to use of data visualization tools such a Microsoft Excel, Tableau Public, Microsoft Power BI, and scripting languages such as R and Python
+      - Basic introduction to visualizing geospatial data using QGIS, and ArcGIS
+      - [Register for a Learning Session](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68190&inc=0)
+
+      If you are an instructor that would like to arrange a custom session for your class related to the above listed topics or other data visualization aspects, please contact us to discuss the possibilities.
+      - [Plan a special learning session/workshop](https://libcal.library.sc.edu/appointments/datavis)
+    
+  utter_summary_kind_guidance_expect_online:
+  - text: |
+      - We offer guidance to discover information about data visualization - We assist with finding online information and tutorials about data visualization and data visualization tools - We can work with you to help you decide on appropriate and effective visualization techniques - We can help you consider, compare, and determine which tool(s) to use - [Schedule An Online Consultation](https://libcal.library.sc.edu/appointments/datavis)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_kind_guidance_expect_online:
+  - text: |
+      - We offer guidance to discover information about data visualization
+      - We assist with finding online information and tutorials about data visualization and data visualization tools
+      - We can work with you to help you decide on appropriate and effective visualization techniques
+      - We can help you consider, compare, and determine which tool(s) to use
+      - [Schedule An Online Consultation](https://libcal.library.sc.edu/appointments/datavis)
+    
+  utter_summary_university_library_datalab:
+  - text: |
+      The space is available on a first come first serve basis where you can find three high-powered, Windows-based computers.
+      In addition, there is a small seminar table with an 80 large-screen monitor.
+      - [Learn more about the DataLab](https://guides.library.sc.edu/c.php?g=1321483)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_university_library_datalab:
+  - text: |
+      The University Libraries DataLab is located on the fifth floor of Thomas Cooper Library near the stairway. The space is available on a first come first serve basis where you can find three high-powered, Windows-based computers. Each computer has a variety of data visualization and data analysis software installed. In addition, there is a small seminar table with an 80 large-screen monitor.
+      - [Learn more about the DataLab](https://guides.library.sc.edu/c.php?g=1321483)
+    
+  utter_summary_assistance_available_data_analysis:
+  - text: |
+      This service provides free, one-on-one or small group help with research data.
+      Walk-ins to the University Libraries DataLab are welcome but we strongly encourage scheduled appointments to assure the best service.
+      For more information about the data analysis and statistics assistance services and how to register, use the link below: - [Data Analysis and Statistics Services at the University Libraries](https://guides.library.sc.edu/c.php?g=1335227)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_assistance_available_data_analysis:
+  - text: |
+      ## Data Analysis Software Assistance
+      The University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data. Walk-ins to the University Libraries DataLab are welcome but we strongly encourage scheduled appointments to assure the best service. For more information about the data analysis and statistics assistance services and how to register, use the link below:
+      - [Data Analysis and Statistics Services at the University Libraries](https://guides.library.sc.edu/c.php?g=1335227)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1316892)
+    
+  utter_summary_datalab_located:
+  - text: |
+      #### Use Policies - Available for currently enrolled students, faculty, and staff.
+      - Priority use given to projects involving data/spatial analysis and data/spatial visualization.
+      - No food or drink in the DataLab space.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_datalab_located:
+  - text: |
+      ## Welcome
+      The DataLab is located on the 5th floor of Thomas Cooper Library near the front staircase. It is available any time Thomas Cooper Library is open. This space and technology supports data visualization and data analysis activities related to University research projects. Services and resources are provided by the Digital Research Services (DRS) unit of the University Libraries.
+
+      #### Use Policies
+      - Available for currently enrolled students, faculty, and staff.
+      - Priority use given to projects involving data/spatial analysis and data/spatial visualization.
+      - No food or drink in the DataLab space.
+      - No viewing of pornographic or other improper content.
+      - No unattended children allowed
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
+    
+  utter_summary_kind_data_analysis_statistic:
+  - text: |
+      Graduate student employees with expertise in statistical and data analysis are available to provide In-person assistance.
+      Appointment times are currently available and can be reserved using an online reservation form.
+      For more information about the data analysis and statistics services offered as well as a link to the reservation form, use the link below: - [Data Analysis and Statistics Services at USC's University Libraries](https://guides.library.sc.edu/c.php?g=1335227)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_kind_data_analysis_statistic:
+  - text: |
+      ## Data Analysis and Statistics Assistance
+      The University Libraries is pleased to offer support for exploratory data analysis and statistics. Graduate student employees with expertise in statistical and data analysis are available to provide In-person assistance. Appointment times are currently available and can be reserved using an online reservation form. Walk-ins to the University Libraries DataLab are welcome but we strongly encourage scheduled appointments to assure the best service. For more information about the data analysis and statistics services offered as well as a link to the reservation form, use the link below:
+      - [Data Analysis and Statistics Services at USC's University Libraries](https://guides.library.sc.edu/c.php?g=1335227)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
+    
+  utter_summary_data_visualization_service_available:
+  - text: |
+      ## Data Visualization Services - [Data Visualization with Python](https://www.youtube.com/watch?v=zIIFsyM5UII) - [Data Visualization with R](https://www.youtube.com/watch?v=Nt7Hpf_M31k) - [Tableau Public 2023](https://public.tableau.com/app/discover) - [Microsoft Power BI](https://powerbi.microsoft.com/en-us/) - [Datawrapper](https://www.datawrapper.de/) - [Google Data Studio/Looker Studio](https://lookerstudio.google.com/overview)
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_visualization_service_available:
+  - text: |
+      ## Data Visualization Services
+      - [Data Visualization with Python](https://www.youtube.com/watch?v=zIIFsyM5UII)
+      - [Data Visualization with R](https://www.youtube.com/watch?v=Nt7Hpf_M31k)
+      - [Tableau Public 2023](https://public.tableau.com/app/discover)
+      - [Microsoft Power BI](https://powerbi.microsoft.com/en-us/)
+      - [Datawrapper](https://www.datawrapper.de/)
+      - [Google Data Studio/Looker Studio](https://lookerstudio.google.com/overview)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
+    
+  utter_summary_specialized_software_available_datalab:
+  - text: |
+      Instructional information about these software applications is available below.
+      Visit the Gamecock Geospatial Portal to learn more and request an account.
+      Additional computers () with ArcGIS, Nvivo, R, SAS, and SPSS software are available at the Gambrell Computing Center located at 817 Henderson Street, Columbia, SC 29208.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_specialized_software_available_datalab:
+  - text: |
+      ## Available Specialized Software
+      A variety of software related to data/spatial analysis and data/spatial visualization is installed on the computers in the DataLab. Instructional information about these software applications is available below.
+      - [SPSS Statistics 29](https://www.youtube.com/watch?v=_zFBUfZEBWQ)
+      - [SAS](https://www.guru99.com/sas-tutorial.html)
+      - [SASOnDemand for Academics (Free)](https://www.sas.com/en_us/learn/academic-programs/software.html)
+      - [Stata 18 SE](https://www.youtube.com/watch?v=M2E0_oWnJfk)
+      - [NVivo 14](https://www.youtube.com/watch?v=2mS4lWyHuWg)
+      - [Guide to NVivo](https://guides.library.sc.edu/nvivo)
+      - [Jupyter Notebook - official documentation](https://docs.jupyter.org/en/latest/)
+      - [Google Colab](https://colab.research.google.com/)
+      - [R Studio](https://www.youtube.com/watch?v=FIrsOBy5k58)
+      - [Visual Studio 2022](https://www.youtube.com/watch?v=urI8_beoziE)
+      - [QGIS](https://www.youtube.com/watch?v=Eg4_duqH5Q4)
+      - [ArcGIS](https://www.youtube.com/watch?v=1YhdQToyPg4&list=PLGZUzt4E4O2IJFxX_Bhp98MJEw5ItRtvb)ArcGIS is geographic information system (GIS) software. It is used for mapping, compiling, analyzing, and sharing mapped geospatial data and information.An individual user account is required to use ArcGIS. Visit the Gamecock Geospatial Portal to learn more and request an account.
+      - [Gamecock Geospatial Portal](https://experience.arcgis.com/experience/e39af447524041deb40b0e2687af7e76)
+
+      Additional computers () with ArcGIS, Nvivo, R, SAS, and SPSS software are available at the Gambrell Computing Center located at 817 Henderson Street, Columbia, SC 29208.
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
+    
+  utter_summary_hardware_available_datalab:
+  - text: |
+      ## Available Hardware - 3 high-powered Windows computers - Large-screen monitor with individual-owned Windows laptops connection capabilities
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_hardware_available_datalab:
+  - text: |
+      ## Available Hardware
+      - 3 high-powered Windows computers
+      - Large-screen monitor with individual-owned Windows laptops connection capabilities
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
+    
+  utter_summary_importance_quality_data_data:
+  - text: |
+      In many cases, your research will create or collect its own data.
+      In some cases, you may wish to use data that has already been collected.
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=9683964)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_importance_quality_data_data:
+  - text: |
+      ## Finding Data
+      Effective data visualization requires quality data be used. In many cases, your research will create or collect its own data. In some cases, you may wish to use data that has already been collected.
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=9683964)
+    
+  utter_summary_find_subjectspecific_data_statistic:
+  - text: |
+      ## Subject Specific Data and Statistics The University Libraries' Research, Instruction, and Reference professionals have curated a significant collection of sources providing statistics and data sets for a variety of subject areas.
+      - [Finding Statistics and Data Sets](https://guides.library.sc.edu/data_and_statistics)
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=9683964)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_find_subjectspecific_data_statistic:
+  - text: |
+      ## Subject Specific Data and Statistics
+      The University Libraries' Research, Instruction, and Reference professionals have curated a significant collection of sources providing statistics and data sets for a variety of subject areas.
+      - [Finding Statistics and Data Sets](https://guides.library.sc.edu/data_and_statistics)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=9683964)
+    
+  utter_summary_open_data:
+  - text: |
+      ## Open Data Open data is data that is freely available for use or distribution by anyone.
+      It is research data that: - Is freely available on the internet; - Permits any user to download, copy, analyze, re-process, pass to software or use for any other purpose; and - Is without financial, legal, or technical barriers other than those inseparable from gaining access to the internet - [Creative Commons Attribution 4.0 International License.
+      The University Libraries Digital Research Services units has created a guide where you can find a variety of open data sources as well as University Libraries-sponsored data sources.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_open_data:
+  - text: |
+      ## Open Data
+      Open data is data that is freely available for use or distribution by anyone. It is research data that:
+      - Is freely available on the internet;
+      - Permits any user to download, copy, analyze, re-process, pass to software or use for any other purpose; and
+      - Is without financial, legal, or technical barriers other than those inseparable from gaining access to the internet
+      - [Creative Commons Attribution 4.0 International License. Copyright SPARC](https://creativecommons.org/licenses/by/4.0/)
+
+      The University Libraries Digital Research Services units has created a guide where you can find a variety of open data sources as well as University Libraries-sponsored data sources.
+      - [Open Data Sources](https://guides.library.sc.edu/opendata)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=9683964)
+    
+  utter_summary_kind_research_support_university:
+  - text: |
+      ### Get Help with Your Research University Libraries is pleased to offer support for exploratory data analysis and statistics.
+      This service provides free, one-on-one or small group help with research data.
+      #### To view availability and make an appointment, visit the.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_kind_research_support_university:
+  - text: |
+      ### Get Help with Your Research
+      University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+      #### To view availability and make an appointment, visit the.
+    
+  utter_summary_service_available_research_support:
+  - text: |
+      #### Services Available - Exploratory data analysis - Statistical tests
+      - R and RStudio - Introductory Python - Introductory SQL
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_service_available_research_support:
+  - text: |
+
+
+      #### Services Available
+      - Exploratory data analysis
+      - Statistical tests
+      - SAS
+      - SPSS
+      - R and RStudio
+      - Introductory Python
+      - Introductory SQL
+    
+  utter_summary_limitation_research_support_service:
+  - text: |
+      This service does not offer tutoring or help with homework.
+      For assistance with coursework, please contact the Student Success Center.
+      - [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php) For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_limitation_research_support_service:
+  - text: |
+
+
+      This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+      - [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+      For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+      - [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1335227)
+    
+  utter_summary_nvivo_it:
+  - text: |
+      NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data.
+      With NVivo, users can: - Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+      - Use visualizations to demonstrate connections, make comparisons, and discover patterns
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_nvivo_it:
+  - text: |
+      ## What is NVivo?
+      NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+      - Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+      - Identify themes and topics using codes
+
+      - Run queries to explore data
+
+      - Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+      [Learn more here](https://guides.library.sc.edu/nvivo)
+    
+  utter_summary_access_nvivo:
+  - text: |
+      Thomas Cooper Library can also provide temporary remote access to NVivo.
+      Fill out the Software Request form to get permission and instructions:
+      For questions regarding software purchasing, please contact the DoIT Service Desk at (803) 777-1800.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_access_nvivo:
+  - text: |
+      ## How Can I Access NVivo?
+      NVivo is available in the DataLab on Level 5 (L516D) in Thomas Cooper Library.
+
+      - [DataLab](https://guides.library.sc.edu/data-viz-lab)
+
+      Thomas Cooper Library can also provide temporary remote access to NVivo. Fill out the Software Request form to get permission and instructions:
+
+      - [Software Request Form](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
+
+      NVivo is also available for purchase through my.sc.edu. For questions regarding software purchasing, please contact the DoIT Service Desk at (803) 777-1800.
+
+      - [Purchase Computer Software](https://my.sc.edu/)
+
+      [Learn more here](https://guides.library.sc.edu/nvivo)
+    
+  utter_summary_find_additional_help_nvivo:
+  - text: |
+      ## Where Can I Find Additional Help with NVivo?
+      Find additional help with NVivo with user guides and online tutorials from University Libraries QSR International.
+      [Learn more here](https://guides.library.sc.edu/nvivo)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_find_additional_help_nvivo:
+  - text: |
+      ## Where Can I Find Additional Help with NVivo?
+      Find additional help with NVivo with user guides and online tutorials from University Libraries QSR International.
+
+      - [NVivo Playlist from University Libraries](https://www.youtube.com/watch?v=JBRFa4bCri0&list=PLdDPdq-AmS7Sp8flZhzZ1xOKPVhkY78KL)
+      - [NVivo Tutorials](https://lumivero.com/resources/support/getting-started-with-nvivo/nvivo-tutorials/?v=7516fd43adaa)
+      - [NVivo User Help (Mac)](https://community.lumivero.com/s/article/TRC-About-NVivo-NVivo-14-Mac?language=en_US)
+      - [NVivo User Help (PC)](https://community.lumivero.com/s/nvivo-knowledge-base?language=en_US)
+
+      [Learn more here](https://guides.library.sc.edu/nvivo)
+    
+  utter_summary_data_visualization_learning_session:
+  - text: |
+      ## Data Vis Learning Sessions The Digital Research Services (DRS) unit of the University Libraries offers a variety of data visualization learning sessions each term.
+      Use the link below to see sessions currently being offered and register for those of interest.
+      ## Curriculum-Based Learning Sessions If you are an instructor that would like to arrange a custom data visualization learning session as part of your course curriculum, we are happy to assist.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_visualization_learning_session:
+  - text: |
+      ## Data Vis Learning Sessions
+      The Digital Research Services (DRS) unit of the University Libraries offers a variety of data visualization learning sessions each term. All sessions are open to all members of the University. Those sessions listed as being part of the  program provide credit to participants leading to successful completion of SHARPGrads requirements. Use the link below to see sessions currently being offered and register for those of interest.
+      - [Currently available learning sessions and workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0)
+
+      ## Curriculum-Based Learning Sessions
+      If you are an instructor that would like to arrange a custom data visualization learning session as part of your course curriculum, we are happy to assist. Feel free to contact us to discuss how we might support your class activities.
+      - [Plan a special learning session/workshop](https://libcal.library.sc.edu/appointments/datavis)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=9683763)
+    
+  utter_summary_difference_data_statistic:
+  - text: |
+      Data can be analyzed and interpreted using statistical procedures to answer why or how.
+      It usually comes in the form of a digital data set that can be analyzed using software such as Excel, , , and so on.
+      It usually comes in the form of a table or chart.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_difference_data_statistic:
+  - text: |
+      ## Data vs Statistics
+      is raw information from which statistics are created.
+      provides a summary and interpretation of the data.
+
+      #### Data
+      - Datasets
+
+      - Machine-readable data files, data files for statistical software programs
+
+      If you want to understand a phenomenon, you want data. Data can be analyzed and interpreted using statistical procedures to answer why or how. Data is used to create new information and knowledge.
+      Raw data is the direct result of research that was conducted as part of a study or survey. It is a primary source. It usually comes in the form of a digital data set that can be analyzed using software such as Excel, , , and so on. This is what a data set looks like:
+
+      #### Statistics
+      - Statistical tables, charts, and graphs
+
+      - Reported numbers and percentages in an article
+
+      If you’re looking for a quick number, you want a statistic. A statistic will answer how much or how many. A statistic repeats a pre-defined observation about reality.
+      Statistics are the results of data analysis. It usually comes in the form of a table or chart. This is what a statistical table looks like:
+
+      Source: [Statistical Abstract of the United States](http://statabs.proquest.com/sa/abstract.html?table-no=1082&acc-no=C7095-1.23&year=2015&z=04AFC9F8FF309B74767FB34B794047B78C6C1284)
+
+      [Learn more here](https://guides.library.sc.edu/data_and_statistics)
+    
+  utter_summary_open_data1:
+  - text: |
+      - Is freely available on the internet; - Permits any user to download, copy, analyze, re-process, pass to software or use for any other purpose; and - Is without financial, legal, or technical barriers other than those inseparable from gaining access ot the internet [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+      When datasets are openly available, they can be easily accessed and used to create a fuller picture of a given area of inquiry, or analyzed by data mining software that can uncover connections not apparent to those who produce the original data.
+      There are a huge number of ways to use or analyze any given dataset.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_open_data1:
+  - text: |
+      - Is freely available on the internet;
+      - Permits any user to download, copy, analyze, re-process, pass to software or use for any other purpose; and
+      - Is without financial, legal, or technical barriers other than those inseparable from gaining access ot the internet
+      [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Copyright SPARC
+
+      ## Why Use Open Data?
+      Open data is important because it:
+      - . When datasets are openly available, they can be easily accessed and used to create a fuller picture of a given area of inquiry, or analyzed by data mining software that can uncover connections not apparent to those who produce the original data.
+      - . Researchers estimate that $3.2 trillion in economic output could be added to global GDP through Open Data across all sectors, with scientific and scholarly data playing an important role. [1]
+      - . There are a huge number of ways to use or analyze any given dataset. What seems like noise to one person could be an important discovery to someone else with a different perspective or analytical technique.
+      - . When the data that underlies findings is accessible, researchers can check each other's work and ensure that conclusions are built upon a firm foundation.
+      - From research funders like the US government to publishers, institutions involved in the research process are beginning to require that, at the very least, the data that underlies publications be made openly accessible.
+      [1] [https://www.omidyar.com/sites/default/files/file_archive/insights/ON%20Report_061114_FNL.pdf](https://www.omidyar.com/sites/default/files/file_archive/insights/ON%20Report_061114_FNL.pdf)
+      [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Copyright SPARC
+
+      [Learn more here](https://guides.library.sc.edu/opendata)
+    
+  utter_summary_create_project_file_nvivo:
+  - text: |
+      ## Creating a Project File - Open NVivo, then click Create a new project - When the New Project dialog box opens, enter a name for the project in the Project title box - Check the File location and click the Browse button to change where the file saves - Click the Create button [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_create_project_file_nvivo:
+  - text: |
+      ## Creating a Project File
+      - Open NVivo, then click Create a new project
+      - When the New Project dialog box opens, enter a name for the project in the Project title box
+      - Check the File location and click the Browse button to change where the file saves
+      - Click the Create button
+      [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
+    
+  utter_summary_different_part_nvivo_workspace:
+  - text: |
+      ## Understanding the Workspace - Menu Bar: Provides access to the commands you need to use when you are working with NVivo - Navigation View: Provides access to all your project items.
+      When you click on a folder in Navigation View, its contents are displayed in List View - List View: Displays the contents of your folders.
+      The Detail View is the main area of the NVivo workspace - Open Items List: Displays all items that are currently open [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_different_part_nvivo_workspace:
+  - text: |
+      ## Understanding the Workspace
+      - Menu Bar: Provides access to the commands you need to use when you are working with NVivo
+      - Navigation View: Provides access to all your project items. When you click on a folder in Navigation View, its contents are displayed in List View
+      - List View: Displays the contents of your folders. When you double-click an item in List view, it will open in Detail View
+      - Detail View: Displays an open file or node. The Detail View is the main area of the NVivo workspace
+      - Open Items List: Displays all items that are currently open
+      [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
+    
+  utter_summary_import_data_file_nvivo:
+  - text: |
+      ## Importing Data Files - In the Menu Bar, click the Data tab - Select the data source to import (e.g., Word document, PDF) - Select the file(s) you want to import and click Import (Tip: Import multiple files of the same type at once by using the Shift or Ctrl buttons to select them) - Click Import, and then the data files should display in the List View [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_import_data_file_nvivo:
+  - text: |
+      ## Importing Data Files
+      - In the Menu Bar, click the Data tab
+      - Select the data source to import (e.g., Word document, PDF)
+      - Select the file(s) you want to import and click Import (Tip: Import multiple files of the same type at once by using the Shift or Ctrl buttons to select them)
+      - Click Import, and then the data files should display in the List View
+      [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
+    
+  utter_summary_autocode_data_file_nvivo:
+  - text: |
+      ## Auto-Coding You can set up your data files (e.g., interview transcripts, focus group transcripts) so that NVivo automatically labels the different parts of the transcript based on the speaker.
+      Auto-coding is particularly helpful if you want to compare different codes that are starting to emerge from your data across the different speakers.
+      - In the Menu Bar, click the Analyze tab - Select Auto Code and then select By Speaker - Under New Classification, create a name for that classification (e.g., People, Participants) - Click the Auto Code button [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_autocode_data_file_nvivo:
+  - text: |
+      ## Auto-Coding
+      You can set up your data files (e.g., interview transcripts, focus group transcripts) so that NVivo automatically labels the different parts of the transcript based on the speaker. Auto-coding is particularly helpful if you want to compare different codes that are starting to emerge from your data across the different speakers.
+      - In the Menu Bar, click the Analyze tab
+      - Select Auto Code and then select By Speaker
+      - Under New Classification, create a name for that classification (e.g., People, Participants)
+      - Click the Auto Code button
+      [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
+    
+  utter_summary_use_case_nvivo:
+  - text: |
+      ### Creating Attributes - In the Navigation View panel, click on Case Classifications - Right-click on the classification you previously created (e.g., People, Participants) and select New Attribute - Enter a name (required) and description (optional).
+      - Under Attribute Values, click the + symbol to add a new value.
+      ### Assigning Attributes to Speakers - Click on the speaker's name to show attributes - Double-click on the attribute and type in the value - Select the value or create a new value - Click Update [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_use_case_nvivo:
+  - text: |
+      ## Using Cases
+      Once you have speakers auto-coded, you can add characteristics that you think might be important to your data analysis, such as demographic information.
+      ### Creating Attributes
+      - In the Navigation View panel, click on Case Classifications
+      - Right-click on the classification you previously created (e.g., People, Participants) and select New Attribute
+      - Enter a name (required) and description (optional).
+      - Under Attribute Values, click the + symbol to add a new value.
+      ### Assigning Attributes to Speakers
+      - Click on the speaker's name to show attributes
+      - Double-click on the attribute and type in the value
+      - Select the value or create a new value
+      - Click Update
+      [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
+    
+  utter_summary_software_hardware_resource_available:
+  - text: |
+      Fill out the Software Request form on this page to get permission and instructions.
+      ### Software Available in the Building - Adobe Reader - Audacity - CDBurner XP - Chrome - Firefox - Internet Explorer - Microsoft Edge
+      - Gelphi - Anaconda 3 - Respondus 2 Lockdown Browser with webcam access - Stata 18 SE ### Hardware Available Desktop workstations and printers are located in Thomas Cooper Library on the Main Level and in the Technology Lounge on Level 5.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_software_hardware_resource_available:
+  - text: |
+      ## Software and Hardware
+      University Libraries provides a variety of computing resources to support the needs of students, faculty and staff for research and coursework.
+      ### Software Available Remotely
+      The Technology Lounge can provide temporary remote access to specialized software. Fill out the Software Request form on this page to get permission and instructions.
+      - Adobe Creative Cloud (including Acrobat Pro)
+      - NVivo 14
+      - SAS
+      - SPSS Statistics 29
+      - Stata 18 SE
+      Due to high demand, resources are very limited and sessions are limited to 2 hours. We cannot guarantee when or if access will be available. Remote access is not a free download or software purchase. Remote access is reset at the beginning of each semester. If you no longer have access, please submit a new request. Visit the [Software section of my.sc.edu](https://my.sc.edu/software) for a list of software available for purchase through the university.
+      ### Software Available in the Building
+      - Adobe Reader
+      - Audacity
+      - CDBurner XP
+      - Chrome
+      - Firefox
+      - Internet Explorer
+      - Microsoft Edge
+      - GIMP
+      - Google Earth
+      - Microsoft Office 365
+      - MBF Bioscience - Biolucida
+      - Notepad++
+      - Open Office
+      - QuickTime
+      - R
+      - RStudio
+      - Respondus Lockdown Browser (webcams are ONLY available in the Data Lab  – RM L516D Thomas Cooper Library )
+      - VLC Media Player
+      - Visual Studio Code
+      - Windows DVD Maker
+      - Windows Movie Maker
+      - Windows Live Photo Gallery
+      - Windows Media Player
+      - 7-Zip
+      - Adobe Creative Cloud – Computers 33-39
+      - Adobe Acrobat Pro – Computers 48-63
+      #### Specialized software in the DataLab on Level 5 RM L516D Thomas Cooper Library
+      The University Libraries offers support for exploratory data analysis and statistics using SAS, SPSS, and NVivo software. Visit the [service webpage](https://guides.library.sc.edu/c.php?g=1335227&_gl=1*125ouzd*_ga*Njg4MTY1OTg2LjE2OTEwNzMwMjQ.*_ga_ZGG9QXHNZF*MTY5NDc5NzE1Ni43MC4xLjE2OTQ3OTcxNjkuMC4wLjA) to learn more and make an appointment
+      - SPSS Statistics 29
+      - SAS 9.4
+      - NVivo 14
+      - Tableau Public 2023
+      - Power BI
+      - RStudio
+      - Visual Studio 2022
+      - R 4.3.1
+      - Python 3.10
+      - ArcGIS
+      - QGIS
+      - Gelphi
+      - Anaconda 3
+      - Respondus 2 Lockdown Browser with webcam access
+      - Stata 18 SE
+      ### Hardware Available
+      Desktop workstations and printers are located in Thomas Cooper Library on the Main Level and in the Technology Lounge on Level 5.
+      - Windows computers
+      - Scanners for Windows
+      - B&W and color printers
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
+    
+  utter_summary_borrow_technology_library:
+  - text: |
+      # Borrow Technology Want to check out a laptop or iPad?
+      Learn about the [technology you can borrow](/about/offices_and_divisions/university_libraries/find_services/borrow/technology/index.php) from the library.
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_borrow_technology_library:
+  - text: |
+      # Borrow Technology
+      Want to check out a laptop or iPad? Learn about the [technology you can borrow](/about/offices_and_divisions/university_libraries/find_services/borrow/technology/index.php) from the library.
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
+    
+  utter_summary_request_remote_access_software:
+  - text: |
+      # Course Support ## Remote Access Software Request Complete this form to request remote access to software.
+      Required fields [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_request_remote_access_software:
+  - text: |
+      # Course Support
+      ## Remote Access Software Request
+      Complete this form to request remote access to software. 
+      Required fields
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
+    
+  utter_summary_general_statistic_resource_available:
+  - text: |
+      ## Statistics - General - [Data Citation Index](https://login.pallas2.tcl.sc.edu/login?url=https://www.webofscience.com/wos/drci/basic-search)Data Citation Index captures metadata from data repositories in the Social Sciences, Life Sciences, Physical Sciences, and Arts & Humanities.Web of Science is the host!
+      - [Google Public Data Explorer](https://www.google.com/publicdata/directory) - [Historical Statistics of the United States: Millennial Edition Online](https://pascal-usc.primo.exlibrisgroup.com/permalink/01PASCAL_USCCOL/ena7hp/alma991025864137205618) - [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.
+      [More information](http://guides.library.sc.edu/more_information/icpsr) - [South Carolina Statistics and Statistical Reports - SCIway](http://www.sciway.net/statistics/) - [Statista](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.statista.com%2F) - [USA Trade Online](https://usatrade.census.gov/)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_general_statistic_resource_available:
+  - text: |
+      ## General Statistics and Data Set Resources
+      Below are some examples of resources that you can use to find general resources. 
+      For subject specific databases, use the navigation tabs to find the field of study needed.
+      ## Statistics - General
+      - [Data Citation Index](https://login.pallas2.tcl.sc.edu/login?url=https://www.webofscience.com/wos/drci/basic-search)Data Citation Index captures metadata from data repositories in the Social Sciences, Life Sciences, Physical Sciences, and Arts & Humanities.Web of Science is the host!
+      - [Google Public Data Explorer](https://www.google.com/publicdata/directory)
+      - [Historical Statistics of the United States: Millennial Edition Online](https://pascal-usc.primo.exlibrisgroup.com/permalink/01PASCAL_USCCOL/ena7hp/alma991025864137205618)
+      - [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.[More information](http://guides.library.sc.edu/more_information/icpsr)
+      - [South Carolina Statistics and Statistical Reports - SCIway](http://www.sciway.net/statistics/)
+      - [Statista](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.statista.com%2F)
+      - [USA Trade Online](https://usatrade.census.gov/)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/general)
+    
+  utter_summary_general_data_set_available:
+  - text: |
+      ## Data Sets - General - [Data.gov](http://www.data.gov/) - [Gapminder Data](https://www.gapminder.org/data/)Identifies the most ignored global facts by comparing what people think against the official statistics.
+      Offers[ visualization tools](https://www.gapminder.org/tools)and other resources.
+      - [Pew Research Center Datasets](http://www.pewinternet.org/datasets/) - [PolicyMap](https://sc.policymap.com/) - [Re3Data: Registry of Research Data Repositories](http://www.re3data.org/) - [UNdata](http://data.un.org/) - [U.S. Census Bureau](https://www.census.gov/) - [World Bank Open Data](http://data.worldbank.org/)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_general_data_set_available:
+  - text: |
+      ## Data Sets - General
+      - [Data.gov](http://www.data.gov/)
+      - [Gapminder Data](https://www.gapminder.org/data/)Identifies the most ignored global facts by comparing what people think against the official statistics. Offers[ visualization tools](https://www.gapminder.org/tools)and other resources.
+      - [Pew Research Center Datasets](http://www.pewinternet.org/datasets/)
+      - [PolicyMap](https://sc.policymap.com/)
+      - [Re3Data: Registry of Research Data Repositories](http://www.re3data.org/)
+      - [UNdata](http://data.un.org/)
+      - [U.S. Census Bureau](https://www.census.gov/)
+      - [World Bank Open Data](http://data.worldbank.org/)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/general)
+    
+  utter_summary_source_open_data:
+  - text: |
+      - [Data.gov](https://www.data.gov/) - [Data.census.gov](https://data.census.gov/cedsci/) - [Google Public Data Explorer](https://www.google.com/publicdata/directory) - [World Bank Open Data](https://data.worldbank.org/) - [Registry of Open Data on AWS](https://registry.opendata.aws/) - [WHO](https://www.who.int/data/gho) - [European Union Open Data Portal](https://data.europa.eu/euodp/en/data/) - [re3data.org](https://www.re3data.org/) - [ICPSR](https://www.icpsr.umich.edu/icpsrweb/) - [Creating an ICPSR Account](http://guides.library.sc.edu/more_information/icpsr) - [Open Science Framework](https://osf.io/)
+      [Learn more here](https://guides.library.sc.edu/c.php?g=831780&p=5938206)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_source_open_data:
+  - text: |
+      - [Data.gov](https://www.data.gov/)
+      - [Data.census.gov](https://data.census.gov/cedsci/)
+      - [Google Public Data Explorer](https://www.google.com/publicdata/directory)
+      - [World Bank Open Data](https://data.worldbank.org/)
+      - [Registry of Open Data on AWS](https://registry.opendata.aws/)
+      - [WHO](https://www.who.int/data/gho)
+      - [European Union Open Data Portal](https://data.europa.eu/euodp/en/data/)
+      - [re3data.org](https://www.re3data.org/)
+      - [ICPSR](https://www.icpsr.umich.edu/icpsrweb/)
+      - [Creating an ICPSR Account](http://guides.library.sc.edu/more_information/icpsr)
+      - [Open Science Framework](https://osf.io/)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=831780&p=5938206)
+    
+  utter_summary_create_codebook_nvivo:
+  - text: |
+      ## Creating a Codebook Codes are collections of references from your data about a specific theme, topic, concept, idea, or experience, and can be descriptive or analytical.
+      ### Creating Codes During Coding - In the Navigation View panel, click on Files.
+      Then, in the List View panel, open a data source - Select the text you would like to code and highlight it when your cursor - Right-click and select Code Selection, then At New Node - Enter a name (required) and a description (optional) - OPTIONAL: If you're going to create hierarchical codes with parent and child codes, check the box, Aggregate coding from child nodes, to have NVivo automatically double-code at the parent code when coding child codes - OPTIONAL: Use the color drop-down menu to assign colors to your codes - Click Done and you'll see the new code added in the List View panel
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_create_codebook_nvivo:
+  - text: |
+      ## Creating a Codebook
+      Codes are collections of references from your data about a specific theme, topic, concept, idea, or experience, and can be descriptive or analytical. You can create codes before you start coding and/or as you code your data.
+
+      ### Creating Codes Before Coding
+      - In the Navigation View panel, click on Nodes
+      - In the List View panel, right-click and select New Top Level Node
+      - Enter a name (required) and a description (optional)
+      - OPTIONAL: If you're going to create hierarchical codes with parent and child codes, check the box, Aggregate coding from child nodes, to have NVivo automatically double-code at the parent code when coding child codes
+      - OPTIONAL: Use the color drop-down menu to assign colors to your codes
+      - Click Done and you'll see the new code added in the List View panel
+      - OPTIONAL: To create a child code, right-click on a code you previously created, click New Node, and repeat the process
+
+      ### Creating Codes During Coding
+      - In the Navigation View panel, click on Files. Then, in the List View panel, open a data source
+      - Select the text you would like to code and highlight it when your cursor
+      - Right-click and select Code Selection, then At New Node
+      - Enter a name (required) and a description (optional)
+      - OPTIONAL: If you're going to create hierarchical codes with parent and child codes, check the box, Aggregate coding from child nodes, to have NVivo automatically double-code at the parent code when coding child codes
+      - OPTIONAL: Use the color drop-down menu to assign colors to your codes
+      - Click Done and you'll see the new code added in the List View panel
+    
+  utter_summary_add_coding_data:
+  - text: |
+      Then, in the List View panel, open a data source - Select the text you would like to code and highlight it when your cursor - Right-click and select Code Selection, then At Existing Nodes or Cases - Check the applicable code(s) and then click Select
+      ### Quick Coding - In the Navigation View panel, click on Files.
+      Then, in the List View panel, open a data source - Select the text you would like to code and highlight it with your cursor - Use the keyboard shortcut (Windows: CTRL + Q; Mac: ⌘ + /) and then search for the applicable code - Select the applicable code
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_add_coding_data:
+  - text: |
+      ## Coding Data
+      ### Add Coding
+      - In the Navigation View panel, click on Files. Then, in the List View panel, open a data source
+      - Select the text you would like to code and highlight it when your cursor
+      - Right-click and select Code Selection, then At Existing Nodes or Cases
+      - Check the applicable code(s) and then click Select
+
+      ### Quick Coding
+      - In the Navigation View panel, click on Files. Then, in the List View panel, open a data source
+      - Select the text you would like to code and highlight it with your cursor
+      - Use the keyboard shortcut (Windows: CTRL + Q; Mac: ⌘ + /) and then search for the applicable code
+      - Select the applicable code
+    
+  utter_summary_uncode_data:
+  - text: |
+      ### Uncoding Data - Select the text you would like to uncode and highlight it with your cursor - Right-click and select Uncode Selection, then select At Existing Nodes or Cases
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_uncode_data:
+  - text: |
+      ### Uncoding Data
+      - Select the text you would like to uncode and highlight it with your cursor
+      - Right-click and select Uncode Selection, then select At Existing Nodes or Cases
+    
+  utter_summary_coding_stripe_display_them:
+  - text: |
+      ## Coding Stripes Coding stripes are a visual indicator of the segments of coded data.
+      You can display coding stripes to see the content that is coded at specific themes or nodes, or you can display coding stripes to show the data that has been coded by specific users.
+      - In the List View panel, select a data source that has been coded or that you'll be coding - In the Menu Bar, click on View, then select Coding Stripes - Select an option from the menu, such as all nodes coded or specific nodes
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_coding_stripe_display_them:
+  - text: |
+      ## Coding Stripes
+      Coding stripes are a visual indicator of the segments of coded data. You can display coding stripes to see the content that is coded at specific themes or nodes, or you can display coding stripes to show the data that has been coded by specific users.
+      - In the List View panel, select a data source that has been coded or that you'll be coding
+      - In the Menu Bar, click on View, then select Coding Stripes
+      - Select an option from the menu, such as all nodes coded or specific nodes
+    
+  utter_summary_export_codebook:
+  - text: |
+      ## Exporting a Codebook - In the Menu Bar, click on the Data tab - Click on Codebook - Select the Nodes folder - Choose a location on your computer to save the document
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_export_codebook:
+  - text: |
+      ## Exporting a Codebook
+      - In the Menu Bar, click on the Data tab
+      - Click on Codebook
+      - Select the Nodes folder
+      - Choose a location on your computer to save the document
+    
+  utter_learn_coding_nvivo:
+  - text: |
+      [Learn more here](https://guides.library.sc.edu/nvivo/coding)
+    
+  utter_summary_data_visualization:
+  - text: |
+      Data visualization is an umbrella term referring to the representation of raw data content in a graphic or pictorial manner.
+      Using visual features of encoded data such as position, size, shape, hue and saturation, motion, etc., data visualization applies tools and techniques to communicate the raw data in visual form.
+      Common examples include charts, graphs, timelines, maps, and even tables.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_visualization:
+  - text: |
+      ## What is Data Visualization?
+      Data visualization is an umbrella term referring to the representation of raw data content in a graphic or pictorial manner. Related concepts include information visualization and scientific visualization. Using visual features of encoded data such as position, size, shape, hue and saturation, motion, etc., data visualization applies tools and techniques to communicate the raw data in visual form.
+      Common examples include charts, graphs, timelines, maps, and even tables.
+    
+  utter_summary_data_visualization_important:
+  - text: |
+      Data visualization applies what we know about human perception to optimize cognition, making it easier to understand, interpret, and analyze patterns, trends, and relationships within the data.
+      Using visualization techniques to examine and discover trends, associations, outliers, etc., that may not be obvious when viewing the raw data.
+      Creating visualizations that make understanding what the data is saying clearer and more obvious.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_visualization_important:
+  - text: |
+
+      ## Why Visualize Data?
+      Raw data and statistics can often appear confusing. Many research data sets are going to be overwhelming in size. Data visualization applies what we know about human perception to optimize cognition, making it easier to understand, interpret, and analyze patterns, trends, and relationships within the data.
+      Use of effective data visualization if often focused on one of two primary purposes:
+      - sometimes referred to as sense-making or data analysis. Using visualization techniques to examine and discover trends, associations, outliers, etc., that may not be obvious when viewing the raw data.
+      - also referred to as storytelling or communication. Creating visualizations that make understanding what the data is saying clearer and more obvious.
+      Successful data visualization relies on selecting the appropriate tool, technique, and visual expression that most effectively presents the story the data is telling. Data visualization should be considered a means to an end, not an end in itself.
+    
+  utter_summary_data_science_lifecycle:
+  - text: |
+      ## The Data Science Lifecycle Data visualization is one component of a much broader data analytics life cycle.
+      While there is some variation in defining the full data analytics life cycle, the graphic below presents a general structure encompassing the basic components.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_science_lifecycle:
+  - text: |
+
+      ## The Data Science Lifecycle
+      Data visualization is one component of a much broader data analytics life cycle. While there is some variation in defining the full data analytics life cycle, the graphic below presents a general structure encompassing the basic components.
+    
+  utter_summary_common_term_used_data:
+  - text: |
+      ## Terminology When discussing data visualization, various related terms may be used somewhat loosely.
+      - Analysis of data to answer questions, identify trends, and extract insights.
+      - techniques using geographic, topological,  or geometric properties to answer questions, identify trends, and extract insights - ...refers to a variety of processes designed to transform raw data into more readily used formats.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_common_term_used_data:
+  - text: |
+
+      ## Terminology
+      When discussing data visualization, various related terms may be used somewhat loosely. The following is a very brief glossary of commonly used data terminology:
+      - A process of building, cleaning, and structuring datasets for the purpose of analysis and extraction of meaning.
+      - Analysis of data to answer questions, identify trends, and extract insights.
+      - techniques using geographic, topological,  or geometric properties to answer questions, identify trends, and extract insights
+      - ...refers to a variety of processes designed to transform raw data into more readily used formats.
+      - [Data Wrangling: What It Is & Why It's Important](https://online.hbs.edu/blog/post/data-wrangling)
+      - Information Visualization...visual metaphors for non-inherently spatial data ...
+
+      - Scientific Visualization...the visual display of spatial data associated with scientific processes.
+      - [Information and Scientific Visualization: Separate but Equal or Happy Together at Last](https://dl.acm.org/doi/pdf/10.1109/VISUAL.2003.1250428)
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=10439116)
+    
+  utter_summary_business_statistic_resource_available:
+  - text: |
+      ## Statistics #### International Statistics - [Fitch Connect](https://saml.fitchconnect.com/saml/login?orgId=6iU4UH3SLU2L51lDBPe9iT) - [Hoover's Online](https://login.pallas2.tcl.sc.edu/login?url=https://www.mergentonline.com/Hoovers) - [IMF Data Mapper](http://www.imf.org/external/datamapper/index.php)Interactive tool for various time periods by country, regions, or analytical groupsTIP: Population and unemployment are under World Economic Outlook dataset - [OECD iLibrary Statistics](https://www.oecd-ilibrary.org/statistics) - [OSHA Statistics and Data](https://www.osha.gov/oshstats/) - [Passport](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.portal.euromonitor.com%2Fportal%2Fserver.pt).Statistics and analysis of consumer products industries and service industries like travel and sports.
+      Also covers consumer lifestyles as well as analysis of the economy, infrastructure, and business environment in over 200 countries.
+      Various tools allow users to customize and print thematic maps of U.S. economic data for geographies including states, counties, and metropolitan statistical areas*[ Need Help?
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_business_statistic_resource_available:
+  - text: |
+      ## Business Statistics and Data Set Resources
+      Below are some examples of resources that you can use to find business resources. 
+      ## Statistics
+      #### International Statistics
+      - [Fitch Connect](https://saml.fitchconnect.com/saml/login?orgId=6iU4UH3SLU2L51lDBPe9iT)
+      - [Hoover's Online](https://login.pallas2.tcl.sc.edu/login?url=https://www.mergentonline.com/Hoovers)
+      - [IMF Data Mapper](http://www.imf.org/external/datamapper/index.php)Interactive tool for various time periods by country, regions, or analytical groupsTIP: Population and unemployment are under World Economic Outlook dataset
+      - [OECD iLibrary Statistics](https://www.oecd-ilibrary.org/statistics)
+      - [OSHA Statistics and Data](https://www.osha.gov/oshstats/)
+      - [Passport](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.portal.euromonitor.com%2Fportal%2Fserver.pt).Statistics and analysis of consumer products industries and service industries like travel and sports. Also covers consumer lifestyles as well as analysis of the economy, infrastructure, and business environment in over 200 countries.
+
+      #### U.S. Statistics
+      - [Bureau of Economic Analysis](http://www.bea.gov/)
+      - [Bureau of Labor Statistics](http://stats.bls.gov/)
+      - [City Data.com](http://www.city-data.com/)
+      - [Consumer Expenditure Survey](http://www.bls.gov/cex/home.htm)
+      - [GeoFRED](http://geofred.stlouisfed.org/)Regional data series includes: residential population, unemployment rate, earnings by place of work, and much more. Various tools allow users to customize and print thematic maps of U.S. economic data for geographies including states, counties, and metropolitan statistical areas*[ Need Help? Get GeoFRED Help Here](https://fredhelp.stlouisfed.org/)
+      - [Historical Statistics of the United States: Millennial Edition Online](https://pascal-usc.primo.exlibrisgroup.com/permalink/01PASCAL_USCCOL/ena7hp/alma991025864137205618)
+      - [Occupational Employment Statistics](https://www.bls.gov/oes/)
+      - [State and County QuickFacts](https://www.census.gov/quickfacts/fact/table/US/PST045224)
+    
+  utter_summary_data_resource_available:
+  - text: |
+      ## Data - [U.S. Census Bureau](https://www.census.gov/) - [World Bank Open Data](http://data.worldbank.org/) - [Data.gov](http://www.data.gov/) - [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/) - [IMF Data](https://data.imf.org/) - [The Supreme Court Database](http://supremecourtdatabase.org/) - [UNdata](http://data.un.org/) - [Wharton Research Data Services](https://wrds-web.wharton.upenn.edu/wrds/)Provides researchers worldwide with instant access to financial, economic, and marketing data though a uniform, web-based interface.1.
+      Use the search or browse tools to find documents in the top right corner; 2.
+      Also check out the Publications link at the top for further searching
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_resource_available:
+  - text: |
+
+      ## Data
+      - [U.S. Census Bureau](https://www.census.gov/)
+      - [World Bank Open Data](http://data.worldbank.org/)
+      - [Data.gov](http://www.data.gov/)
+      - [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/)
+      - [IMF Data](https://data.imf.org/)
+      - [The Supreme Court Database](http://supremecourtdatabase.org/)
+      - [UNdata](http://data.un.org/)
+      - [Wharton Research Data Services](https://wrds-web.wharton.upenn.edu/wrds/)Provides researchers worldwide with instant access to financial, economic, and marketing data though a uniform, web-based interface.1. Use the search or browse tools to find documents in the top right corner; 2. Also check out the Publications link at the top for further searching
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/business)
+    
+  utter_summary_source_available_library_usc:
+  - text: |
+      Sources on this page are not necessarily open, but are made available from the Libraries for USC students, faculty, and staff.
+      - [Cross-National Time-Series Data Archive](https://go.openathens.net/redirector/sc.edu?url=https%3A%2F%2Fdatasets.tcl.sc.edu%2Fdatasets%2F) - [ACRL Benchmark: Library Metrics and Trends](https://login.pallas2.tcl.sc.edu/login?url=https://assets.tcl.sc.edu/eresources/list.html) - [Data Citation Index](https://login.pallas2.tcl.sc.edu/login?url=https://www.webofscience.com/wos/drci/basic-search) - [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.
+      [More information](http://guides.library.sc.edu/more_information/icpsr) - [iPOLL (Roper Center)](https://go.openathens.net/redirector/sc.edu?url=https%3A%2F%2Fropercenter.cornell.edu%2Fipoll%2F) - [PolicyMap](https://sc.policymap.com/) - [UCLA-LoPucki Bankruptcy Research Database Cases Table](https://go.openathens.net/redirector/sc.edu?url=https%3A%2F%2Flopucki.law.ucla.edu%2F)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_source_available_library_usc:
+  - text: |
+      Sources on this page are not necessarily open, but are made available from the Libraries for USC students, faculty, and staff.
+
+      - [Cross-National Time-Series Data Archive](https://go.openathens.net/redirector/sc.edu?url=https%3A%2F%2Fdatasets.tcl.sc.edu%2Fdatasets%2F)
+      - [ACRL Benchmark: Library Metrics and Trends](https://login.pallas2.tcl.sc.edu/login?url=https://assets.tcl.sc.edu/eresources/list.html)
+      - [Data Citation Index](https://login.pallas2.tcl.sc.edu/login?url=https://www.webofscience.com/wos/drci/basic-search)
+      - [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.[More information](http://guides.library.sc.edu/more_information/icpsr)
+      - [iPOLL (Roper Center)](https://go.openathens.net/redirector/sc.edu?url=https%3A%2F%2Fropercenter.cornell.edu%2Fipoll%2F)
+      - [PolicyMap](https://sc.policymap.com/)
+      - [UCLA-LoPucki Bankruptcy Research Database Cases Table](https://go.openathens.net/redirector/sc.edu?url=https%3A%2F%2Flopucki.law.ucla.edu%2F)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=831780&p=7302138)
+    
+  utter_summary_choose_right_visualization_data:
+  - text: |
+      ## Choosing the Appropriate Visualization Visualization of data can be highly effective or ineffective based on the selection and application of the appropriate or inappropriate visualization technique.
+      #### from Data to Viz The web site offers an interactive tool that assists in your selection of the appropriate visualization technique by leading you through a decision tree.
+      Based on your responses, it will recommend an appropriate visualization, provide some relevant code, and offer some common caveats for consideration.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_choose_right_visualization_data:
+  - text: |
+      ## Choosing the Appropriate Visualization
+      Visualization of data can be highly effective or ineffective based on the selection and application of the appropriate or inappropriate visualization technique.
+      #### The Data Visualisation Catalogue
+      What do you need your visualization to communicate to your audience? guides your consideration of various chart, graph, and other visualization approaches based on your communication and/or analysis requirements.
+      - [The Data Visualisation Catalogue](https://datavizcatalogue.com/search.html)
+
+      #### from Data to Viz
+      The web site offers an interactive tool that assists in your selection of the appropriate visualization technique by leading you through a decision tree. Based on your responses, it will recommend an appropriate visualization, provide some relevant code, and offer some common caveats for consideration.
+      - [from Data to Viz](https://www.data-to-viz.com/)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438980)
+    
+  utter_summary_guideline_creating_effective_visualization:
+  - text: |
+      ## Guidelines for Effective Visualizations - Know and understand your audience - Make sure to clearly identify what you are seeking to communicate - Adapt the visualization to the strengths of the medium and vice-versa - Captions are essential - Default settings should not assumed to be optimal - Color should be used selectively and effectively - Be careful not to inadvertently mislead your audience - Simple is good.
+      The goal is effective comprehension and communication, not the most impressive visualization.
+      - Use the best tool - [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_guideline_creating_effective_visualization:
+  - text: |
+      ## Guidelines for Effective Visualizations
+      - Know and understand your audience
+      - Make sure to clearly identify what you are seeking to communicate
+      - Adapt the visualization to the strengths of the medium and vice-versa
+      - Captions are essential
+      - Default settings should not assumed to be optimal
+      - Color should be used selectively and effectively
+      - Be careful not to inadvertently mislead your audience
+      - Simple is good. Avoid Chartjunk.
+      - Image is not everything. The goal is effective comprehension and communication, not the most impressive visualization.
+      - Use the best tool
+      - [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438980)
+    
+  utter_summary_resource_available_finding_criminal:
+  - text: |
+      ## Criminal Justice Statistics and Data Sets Below are some examples of resources that you can use to find criminal justice resources.
+      ## Statistics #### International Statistics - [Dealth Penalty Information Center](https://deathpenaltyinfo.org/) - [European Monitoring Centre for Drugs and Drug Addiction (EMCDDA)](http://www.emcdda.europa.eu/data) - [Transparency International](http://www.transparency.org/) - [United Nations - Commission on Crime Prevention and Criminal Justice](http://www.unodc.org/unodc/en/commissions/CCPCJ/index.html) - [World Prison Brief](http://www.prisonstudies.org/)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_resource_available_finding_criminal:
+  - text: |
+      ## Criminal Justice Statistics and Data Sets
+      Below are some examples of resources that you can use to find criminal justice resources.
+      ## Statistics
+      #### International Statistics
+      - [Dealth Penalty Information Center](https://deathpenaltyinfo.org/)
+      - [European Monitoring Centre for Drugs and Drug Addiction (EMCDDA)](http://www.emcdda.europa.eu/data)
+      - [Transparency International](http://www.transparency.org/)
+      - [United Nations - Commission on Crime Prevention and Criminal Justice](http://www.unodc.org/unodc/en/commissions/CCPCJ/index.html)
+      - [World Prison Brief](http://www.prisonstudies.org/)
+    
+  utter_summary_u_statistic_resource_available:
+  - text: |
+      #### U.S. Statistics - [Bureau of Justice Assistance](https://www.bja.gov/) - [Bureau of Prisons](https://www.bop.gov/) - [Central Intelligence Agency (CIA)](https://www.cia.gov/) - [FBI Uniform Crime Reporting](https://ucr.fbi.gov/) - [Federal Bureau of Investigation (FBI)](http://www.fbi.gov/) - [Justice Research and Statistics Association (JRSA)](http://www.jrsa.org/) - [National Criminal Justice Reference Service (NCJRS)](https://www.ncjrs.gov/) - [National Institute of Corrections (NIC)](http://nicic.gov/) - [South Carolina Department of Corrections Statistics](http://www.doc.sc.gov/research/statistics.html) - [U.S. Bureau of Justice Statistics](https://www.bjs.gov/) - [US Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)](http://www.atf.gov/) - [US Bureau of Justice Statistics](https://www.bjs.gov) - [US Drug Enforcement Administration (DEA) - Statistics](https://www.dea.gov/resource-center/statistics.shtml) - [US Federal Courts- Statistics and Reports](http://www.uscourts.gov/statistics-reports/analysis-reports) - [US National Institute of Justice (NIJ)](https://www.nij.gov) - [US Sentencing Commission- Annual Reports and Sourcebooks of Federal Sentencing Statistics](https://www.ussc.gov/research) - [US State Department](https://www.state.gov/)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_u_statistic_resource_available:
+  - text: |
+
+      #### U.S. Statistics
+      - [Bureau of Justice Assistance](https://www.bja.gov/)
+      - [Bureau of Prisons](https://www.bop.gov/)
+      - [Central Intelligence Agency (CIA)](https://www.cia.gov/)
+      - [FBI Uniform Crime Reporting](https://ucr.fbi.gov/)
+      - [Federal Bureau of Investigation (FBI)](http://www.fbi.gov/)
+      - [Justice Research and Statistics Association (JRSA)](http://www.jrsa.org/)
+      - [National Criminal Justice Reference Service (NCJRS)](https://www.ncjrs.gov/)
+      - [National Institute of Corrections (NIC)](http://nicic.gov/)
+      - [South Carolina Department of Corrections Statistics](http://www.doc.sc.gov/research/statistics.html)
+      - [U.S. Bureau of Justice Statistics](https://www.bjs.gov/)
+      - [US Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)](http://www.atf.gov/)
+      - [US Bureau of Justice Statistics](https://www.bjs.gov)
+      - [US Drug Enforcement Administration (DEA) - Statistics](https://www.dea.gov/resource-center/statistics.shtml)
+      - [US Federal Courts- Statistics and Reports](http://www.uscourts.gov/statistics-reports/analysis-reports)
+      - [US National Institute of Justice (NIJ)](https://www.nij.gov)
+      - [US Sentencing Commission- Annual Reports and Sourcebooks of Federal Sentencing Statistics](https://www.ussc.gov/research)
+      - [US State Department](https://www.state.gov/)
+    
+  utter_summary_data_set_available_criminal:
+  - text: |
+      ## Data Sets - [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.
+      [More information](http://guides.library.sc.edu/more_information/icpsr) - [BJS - Federal Justice Statistics Resource Center](https://www.bjs.gov/fjsrc/index.cfm) - [Compendium of National Juvenile Justice Datasets](https://www.ojjdp.gov/ojstatbb/compendium/) - [Data.gov](https://www.Data.gov) - [Global Terrorism Database (GTD)](http://www.start.umd.edu/gtd/) - [Hall of Justice](http://hallofjustice.sunlightfoundation.com/) - [National Archive of Criminal Justice Data](http://www.icpsr.umich.edu/icpsrweb/content/NACJD/index.html) - [UNdata](http://data.un.org/) - [UN Office On Drugs and Crime Statistics Division](https://data.unodc.org/) - [US Sentencing Commission- Datafiles](https://www.ussc.gov/research/datafiles/commission-datafiles) - [WorldBank Data](https://data.worldbank.org/data-catalog)
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/cj)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_set_available_criminal:
+  - text: |
+
+      ## Data Sets
+      - [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.[More information](http://guides.library.sc.edu/more_information/icpsr)
+      - [BJS - Federal Justice Statistics Resource Center](https://www.bjs.gov/fjsrc/index.cfm)
+      - [Compendium of National Juvenile Justice Datasets](https://www.ojjdp.gov/ojstatbb/compendium/)
+      - [Data.gov](https://www.Data.gov)
+      - [Global Terrorism Database (GTD)](http://www.start.umd.edu/gtd/)
+      - [Hall of Justice](http://hallofjustice.sunlightfoundation.com/)
+      - [National Archive of Criminal Justice Data](http://www.icpsr.umich.edu/icpsrweb/content/NACJD/index.html)
+      - [UNdata](http://data.un.org/)
+      - [UN Office On Drugs and Crime Statistics Division](https://data.unodc.org/)
+      - [US Sentencing Commission- Datafiles](https://www.ussc.gov/research/datafiles/commission-datafiles)
+      - [WorldBank Data](https://data.worldbank.org/data-catalog)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/cj)
+    
+  utter_summary_important_cite_data:
+  - text: |
+      If you are using another researcher's dataset, it's important to cite it to give that producer credit.
+      Citing data also simplifies access to data for re-use.
+      [Learn more here](https://guides.library.sc.edu/c.php?g=831780&p=5941467)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_important_cite_data:
+  - text: |
+      If you are using another researcher's dataset, it's important to cite it to give that producer credit. Citing data also simplifies access to data for re-use.
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=831780&p=5941467)
+    
+  utter_summary_information_needed_properly_cite:
+  - text: |
+      Data Creator Title of Dataset Year of Publication Publisher (usually the data repository where the dataset is housed) Edition or Version Access Information (URL or other persistent identifier) A recommended format is: Creator (PublicationYear).
+      Identifier or, if version and type of resource are available: Creator (PublicationYear).
+      [Learn more here](https://guides.library.sc.edu/c.php?g=831780&p=5941467)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_information_needed_properly_cite:
+  - text: |
+      Data Creator
+      Title of Dataset
+      Year of Publication
+      Publisher (usually the data repository where the dataset is housed)
+      Edition or Version
+      Access Information (URL or other persistent identifier)
+      A recommended format is:
+      Creator (PublicationYear). Title. Publisher. Identifier
+      or, if version and type of resource are available:
+      Creator (PublicationYear). Title. Version. Publisher. ResourceType. Identifier
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=831780&p=5941467)
+    
+  utter_summary_tool_help_data_citation:
+  - text: |
+      - [DOI Citation Formatter](http://citation.crosscite.org/) ## Data Citation Index Data Citation Index, from Web of Science, provides a citation for each dataset indexed in the product.
+      - [Data Citation Index](https://login.pallas2.tcl.sc.edu/login?url=https://www.webofscience.com/wos/drci/basic-search)
+      [Learn more here](https://guides.library.sc.edu/c.php?g=831780&p=5941467)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_tool_help_data_citation:
+  - text: |
+      - [DOI Citation Formatter](http://citation.crosscite.org/)
+      ## Data Citation Index
+      Data Citation Index, from Web of Science, provides a citation for each dataset indexed in the product.
+      - [Data Citation Index](https://login.pallas2.tcl.sc.edu/login?url=https://www.webofscience.com/wos/drci/basic-search)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=831780&p=5941467)
+    
+  utter_summary_factor_consider_selecting_data:
+  - text: |
+      Numerical, geospatial, or textual data may benefit from use of different tools.
+      - : each visualization tool will vary in what features they provide, how easy those features are to use, and how effective they are.
+      Some free versions have limitations that might impact your project.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_factor_consider_selecting_data:
+  - text: |
+      ## Data Visualization Tools
+      Selecting the appropriate data visualization tool can be challenging, given the many available options. You will want to consider: 
+      - : the type and amount will affect the success of the tool you use. Numerical, geospatial, or textual data may benefit from use of different tools.
+      - : based on your level of knowledge, desire to learn, and availability of time, you may find one tool more appropriate than another.
+      - : each visualization tool will vary in what features they provide, how easy those features are to use, and how effective they are. Choose the tool that offers the best outcome for your particular project.
+      - : Some tools are free while others have associated costs. Some free versions have limitations that might impact your project.
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
+    
+  utter_summary_spreadsheet_software_use_data:
+  - text: |
+      ## Spreadsheet Software A program such as Microsoft Excel, while fundamentally a spreadsheet product, offers at least 20 different types of graphs, charts, plots, and other visual representations.
+      Other spreadsheet programs are also likely to provide ways of creating visual representations of spreadsheet data.
+      - [Microsoft Excel visual representation options](https://support.microsoft.com/en-us/office/available-chart-types-in-office-a6187218-807e-4103-9e0a-27cdb19afb90)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_spreadsheet_software_use_data:
+  - text: |
+      ## Spreadsheet Software
+      A program such as Microsoft Excel, while fundamentally a spreadsheet product, offers at least 20 different types of graphs, charts, plots, and other visual representations. Other spreadsheet programs are also likely to provide ways of creating visual representations of spreadsheet data.
+      - [Microsoft Excel visual representation options](https://support.microsoft.com/en-us/office/available-chart-types-in-office-a6187218-807e-4103-9e0a-27cdb19afb90)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
+    
+  utter_summary_data_visualization_software_available:
+  - text: |
+      - [Tableau Public](https://public.tableau.com/app/discover) As a member of the University, you have access to Power BI through Office 365.
+      - [Microsoft Power BI](https://powerbi.microsoft.com/en-us/) Datawrapper is an online data visualization platform.
+      - [Datawrapper](https://www.datawrapper.de/) Looker Studio (formerly Google Data Studio) is an online platform allowing connection to a wide variety of data, creation of visualizations and dashboards, and sharing reports and dashboards with individuals, teams, or the world.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_visualization_software_available:
+  - text: |
+      ## Visualization Software
+      Widely used by the business and research communities, Tableau allows users to connect, visualize, and share data powerfully and interactively, providing a wide range of tools and features for creating dynamic, interactive dashboards, charts, maps, and other visualizations. Tableau Public is free (with certain limitations) while Tableau Creator can be purchased from DoIT.
+      - [Tableau Public](https://public.tableau.com/app/discover)
+      As a member of the University, you have access to Power BI through Office 365. You can connect to various data sources, analyze data, and create interactive visualizations and reports. 
+      - [Microsoft Power BI](https://powerbi.microsoft.com/en-us/)
+      Datawrapper is an online data visualization platform. It allows users to create data visualization by simply copying and pasting data into the site. After analyzing the data, it will help you pick the visualizations.
+      - [Datawrapper](https://www.datawrapper.de/)
+      Looker Studio (formerly Google Data Studio) is an online platform allowing connection to a wide variety of data, creation of visualizations and dashboards, and sharing reports and dashboards with individuals, teams, or the world.
+      - [Google Data Studio/Looker Studio](https://lookerstudio.google.com/overview)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
+    
+  utter_summary_programming_language_use_data:
+  - text: |
+      ## Programming Languages While data visualization products continue to become more sophisticated and capable, you may still find instances where your project requires capabilities or a combination of capabilities not offered by these products.
+      The primary visualization library package used by R is but many other packages build off its functionality.
+      The most commonly used data visualization library is  but others, such as , , and  are also available.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_programming_language_use_data:
+  - text: |
+      ## Programming Languages
+      While data visualization products continue to become more sophisticated and capable, you may still find instances where your project requires capabilities or a combination of capabilities not offered by these products. In such cases, the following languages have significant visualization capabilities along with ability to create, gather, and clean data in one program.
+      The R language is commonly used for statistical analysis and also offers significant methods for creating data visualizations. The primary visualization library package used by R is but many other packages build off its functionality.
+      - [R language](https://www.r-project.org/)
+      - [Ggplot2](https://ggplot2.tidyverse.org/)
+      Python is a general-purpose programming language that, among other abilities, can make use of programming libraries for data visualization. The most commonly used data visualization library is  but others, such as , , and  are also available.
+      - [Python](https://www.python.org/)
+      - [matplotlib](https://matplotlib.org/)
+      - [seaborn](https://seaborn.pydata.org/)
+      - [plotly](https://plotly.com/python/)
+      - [geoplotlib](https://github.com/andrea-cuttone/geoplotlib)
+      JavaScript is well known for its ability to create dynamic websites. The JavaScript library makes use of Javascript's ability to manipulate the Document Object Model (DOM) to create highly interactive data visualization. is another Javascript library that offers creation of charting options.
+      - [Javascript](https://www.javascript.com/)
+      - [D3.js](https://d3js.org/)
+      - [Chart.js](https://www.chartjs.org/)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
+    
+  utter_summary_resource_available_finding_economic:
+  - text: |
+      ## Economic Statistics and Data Set Resources Below are some examples of resources that you can use to find economic resources.
+      ## Statistics #### International Statistics - [AidData](http://aiddata.org/) - [BEA International Economic Accounts](https://www.bea.gov/international/) - [Consumer Price Index](https://www.bls.gov/cpi/) - [EconData.Net](http://www.econdata.net/) - [Economic Indicators](https://www.govinfo.gov/app/collection/ECONI) - [ILOSTAT](http://www.ilo.org/ilostat) - [Wharton Research Data Services](https://wrds-web.wharton.upenn.edu/wrds/)Provides researchers worldwide with instant access to financial, economic, and marketing data though a uniform, web-based interface.
+      #### U.S. Statistics - [Federal Reserve Board: Statistics Releases](https://www.federalreserve.gov/data.htm) - [FRASER - Data & Statistics](https://fraser.stlouisfed.org/theme/21) - [Historical Statistics of the United States: Millennial Edition Online](https://pascal-usc.primo.exlibrisgroup.com/permalink/01PASCAL_USCCOL/ena7hp/alma991025864137205618) - [U.S. Bureau of Labor Statistics - Databases, Tables & Calculators](https://www.bls.gov/data/) - [United States Economy at a Glance](http://www.bls.gov/eag/eag.us.htm)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_resource_available_finding_economic:
+  - text: |
+      ## Economic Statistics and Data Set Resources
+      Below are some examples of resources that you can use to find economic resources.
+      ## Statistics
+      #### International Statistics
+      - [AidData](http://aiddata.org/)
+      - [BEA International Economic Accounts](https://www.bea.gov/international/)
+      - [Consumer Price Index](https://www.bls.gov/cpi/)
+      - [EconData.Net](http://www.econdata.net/)
+      - [Economic Indicators](https://www.govinfo.gov/app/collection/ECONI)
+      - [ILOSTAT](http://www.ilo.org/ilostat)
+      - [Wharton Research Data Services](https://wrds-web.wharton.upenn.edu/wrds/)Provides researchers worldwide with instant access to financial, economic, and marketing data though a uniform, web-based interface.
+
+      #### U.S. Statistics
+      - [Federal Reserve Board: Statistics Releases](https://www.federalreserve.gov/data.htm)
+      - [FRASER - Data & Statistics](https://fraser.stlouisfed.org/theme/21)
+      - [Historical Statistics of the United States: Millennial Edition Online](https://pascal-usc.primo.exlibrisgroup.com/permalink/01PASCAL_USCCOL/ena7hp/alma991025864137205618)
+      - [U.S. Bureau of Labor Statistics - Databases, Tables & Calculators](https://www.bls.gov/data/)
+      - [United States Economy at a Glance](http://www.bls.gov/eag/eag.us.htm)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/economics)
+    
+  utter_summary_data_set_available_economic:
+  - text: |
+      ## Data Sets - [IMF Data](https://data.imf.org/) - [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.
+      [More information](http://guides.library.sc.edu/more_information/icpsr) - [Bureau of Labor Statistics](http://stats.bls.gov/) - [Data.gov](https://www.Data.gov) - [EconData.Net Data Collections](http://econdata.net/data-collections/) - [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/) - [National Bureau of Economic Research](http://www.nber.org/)The nation's leading nonprofit economic research organization.
+      Key focus areas include developing new statistical measurements, estimating quantitative models of economic behavior, and analyzing the effects of public policy.Must create a free account to access parts of the content.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_set_available_economic:
+  - text: |
+      ## Data Sets
+      - [IMF Data](https://data.imf.org/)
+      - [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.[More information](http://guides.library.sc.edu/more_information/icpsr)
+      - [Bureau of Labor Statistics](http://stats.bls.gov/)
+      - [Data.gov](https://www.Data.gov)
+      - [EconData.Net Data Collections](http://econdata.net/data-collections/)
+      - [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/)
+      - [National Bureau of Economic Research](http://www.nber.org/)The nation's leading nonprofit economic research organization. Key focus areas include developing new statistical measurements, estimating quantitative models of economic behavior, and analyzing the effects of public policy.Must create a free account to access parts of the content.
+      - [OECD Stats](http://stats.oecd.org/)
+      - [Panel Studies of Income Dynamics](http://psidonline.isr.umich.edu/)
+      - [Pew Research Center Datasets](http://www.pewresearch.org/download-datasets/)
+      - [UNdata](http://data.un.org/)
+      - [World Bank Open Data](http://data.worldbank.org/)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/economics)
+    
+  utter_summary_resource_available_education_statistic:
+  - text: |
+      ## Education Statistics and Data Set Resources Below are some examples of resources that you can use to find education resources.
+      ## Statistics #### International Statistics - [EdStats- World Bank](http://datatopics.worldbank.org/education/) - [Our World in Data](https://ourworldindata.org/)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_resource_available_education_statistic:
+  - text: |
+      ## Education Statistics and Data Set Resources
+      Below are some examples of resources that you can use to find education resources.
+      ## Statistics
+      #### International Statistics
+      - [EdStats- World Bank](http://datatopics.worldbank.org/education/)
+      - [Our World in Data](https://ourworldindata.org/)
+    
+  utter_summary_u_statistic_resource_available1:
+  - text: |
+      #### U.S. Statistics - [Child Care & Early Research Connections](https://www.researchconnections.org/research-tools/data-collection) - [ChildStats.gov](http://www.childstats.gov/index.asp) - [College Navigator](http://nces.ed.gov/collegenavigator/) - [Mapping the Measure of America](http://www.measureofamerica.org/maps/) - [National Center for Education Statistics (NCES)](https://nces.ed.gov/) - [National Center for Education Statistics (NCES) International Comparisons in Education](https://nces.ed.gov/surveys/international/) - [National Household Education Surveys (NHES)](http://nces.ed.gov/nhes/) - [Schools and Staffing Survey (SASS)](https://nces.ed.gov/surveys/sass/) - [South Carolina Department of Education](http://ed.sc.gov/) - [South Carolina Joint Citizens and Legislative Committee on Children Data Reference Book](http://www.sc.edu/jclcc/doc/2016%20Data%20Reference%20Book.pdf) - [US Department of Education Data and Statistics](https://www.ed.gov/data)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_u_statistic_resource_available1:
+  - text: |
+
+      #### U.S. Statistics
+      - [Child Care & Early Research Connections](https://www.researchconnections.org/research-tools/data-collection)
+      - [ChildStats.gov](http://www.childstats.gov/index.asp)
+      - [College Navigator](http://nces.ed.gov/collegenavigator/)
+      - [Mapping the Measure of America](http://www.measureofamerica.org/maps/)
+      - [National Center for Education Statistics (NCES)](https://nces.ed.gov/)
+      - [National Center for Education Statistics (NCES) International Comparisons in Education](https://nces.ed.gov/surveys/international/)
+      - [National Household Education Surveys (NHES)](http://nces.ed.gov/nhes/)
+      - [Schools and Staffing Survey (SASS)](https://nces.ed.gov/surveys/sass/)
+      - [South Carolina Department of Education](http://ed.sc.gov/)
+      - [South Carolina Joint Citizens and Legislative Committee on Children Data Reference Book](http://www.sc.edu/jclcc/doc/2016%20Data%20Reference%20Book.pdf)
+      - [US Department of Education Data and Statistics](https://www.ed.gov/data)
+    
+  utter_summary_data_set_available_education:
+  - text: |
+      ## Data Sets - [Campus Safety and Security Data (US Dept.
+      of Education)](https://ope.ed.gov/campussafety/#/) - [Child Care & Early Research Connections](https://www.researchconnections.org/research-tools/data-collection) - [Common Core of Data (CCD)](https://nces.ed.gov/ccd/index.asp) - [Data.gov](https://www.Data.gov) - [ED Data Inventory](https://datainventory.ed.gov/) - [Integrated Postsecondary Education Data System (IPEDS)](http://nces.ed.gov/ipeds/) - [Monitoring the Future @ ICPSR](http://www.icpsr.umich.edu/icpsrweb/ICPSR/series/00035) - [National Center for Education Statistics (NCES)](https://nces.ed.gov/) - [Scientists and Engineers Statistical Data System](http://sestat.nsf.gov/) - [UNdata](http://data.un.org/) - [US Department of Education Data and Statistics](https://www.ed.gov/data)
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/education)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_set_available_education:
+  - text: |
+
+      ## Data Sets
+      - [Campus Safety and Security Data (US Dept. of Education)](https://ope.ed.gov/campussafety/#/)
+      - [Child Care & Early Research Connections](https://www.researchconnections.org/research-tools/data-collection)
+      - [Common Core of Data (CCD)](https://nces.ed.gov/ccd/index.asp)
+      - [Data.gov](https://www.Data.gov)
+      - [ED Data Inventory](https://datainventory.ed.gov/)
+      - [Integrated Postsecondary Education Data System (IPEDS)](http://nces.ed.gov/ipeds/)
+      - [Monitoring the Future @ ICPSR](http://www.icpsr.umich.edu/icpsrweb/ICPSR/series/00035)
+      - [National Center for Education Statistics (NCES)](https://nces.ed.gov/)
+      - [Scientists and Engineers Statistical Data System](http://sestat.nsf.gov/)
+      - [UNdata](http://data.un.org/)
+      - [US Department of Education Data and Statistics](https://www.ed.gov/data)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/education)
+    
+  utter_summary_interlibrary_loan_access_it:
+  - text: |
+      ## Request an Interlibrary Loan Need materials you can't find through University Libraries?
+      Interlibrary Loan is a free service for accessing books, articles and research materials from other libraries.
+      #### What to Request Interlibrary Loan will try to get any type of research materials  textbooks and other assigned materials for current courses available at the University Bookstore.
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_interlibrary_loan_access_it:
+  - text: |
+      ## Request an Interlibrary Loan
+      Need materials you can't find through University Libraries? Interlibrary Loan is a free service for accessing books, articles and research materials from other libraries.
+      [Login to request, renew and view materials](https://ill3.tcl.sc.edu/illiad/)
+
+      Select your campus and enter your network username and password. First-time users will be prompted to register.
+
+      ### Making Requests
+      #### Who is Eligible?
+      - Currently-enrolled USC Columbia students
+      - USC Columbia faculty and staff
+      - UofSC Alumni Association members
+
+      #### When to Request
+      If you have tried [searching](/about/offices_and_divisions/university_libraries/search/index.php) and what you want is not available in the libraries' collections or online resources.
+
+      #### What to Request
+      Interlibrary Loan will try to get any type of research materials  textbooks and other assigned materials for current courses available at the University Bookstore. Some materials may be difficult to obtain.
+    
+  utter_summary_contact_interlibrary_loan_staff:
+  - text: |
+      # Contact Us For additional help check out the [ILL online user guide](http://guides.library.sc.edu/interlibraryloan).
+      [Interlibrary Loan Staff](/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/index.php?search=Interlibrary) [uscill@mailbox.sc.edu](mailto:uscill@mailbox.sc.edu) 803-777-2805
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_contact_interlibrary_loan_staff:
+  - text: |
+      # Contact Us
+      For additional help check out the [ILL online user guide](http://guides.library.sc.edu/interlibraryloan).
+      [Interlibrary Loan Staff](/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/index.php?search=Interlibrary)
+      [uscill@mailbox.sc.edu](mailto:uscill@mailbox.sc.edu)
+      803-777-2805
+    
+  utter_summary_im_usc_columbia_user:
+  - text: |
+      # Not a USC Columbia user?
+      Check a local institution or a local public library for ILL services.
+      In Columbia: - [School of Law Library](http://law.sc.edu/library) - [School of Medicine Library](http://uscmed.sc.libguides.com/) - [Richland Library](http://www.richlandlibrary.com/)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_im_usc_columbia_user:
+  - text: |
+      # Not a USC Columbia user?
+      Check a local institution or a local public library for ILL services.
+      In Columbia:
+      - [School of Law Library](http://law.sc.edu/library)
+      - [School of Medicine Library](http://uscmed.sc.libguides.com/)
+      - [Richland Library](http://www.richlandlibrary.com/)
+    
+  utter_learn_interlibrary_loan:
+  - text: |
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/interlibrary_loan/index.php)
+
+    
+  utter_summary_resource_environmental_geospatial_statistic:
+  - text: |
+      ## Environmental & Geospatial Statistics and Data Set Resources Below are some examples of resources that you can use to find environmental and geospatial resources.
+      ## Statistics - [Our World in Data](https://ourworldindata.org/) - [Statista](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.statista.com%2F)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_resource_environmental_geospatial_statistic:
+  - text: |
+      ## Environmental & Geospatial Statistics and Data Set Resources
+      Below are some examples of resources that you can use to find environmental and geospatial resources. 
+      ## Statistics
+      - [Our World in Data](https://ourworldindata.org/)
+      - [Statista](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.statista.com%2F)
+    
+  utter_summary_find_environmental_geospatial_data:
+  - text: |
+      ## Data Sets (.csv) - [Climate TRACE](https://climatetrace.org/data) - [Data.gov](https://data.gov) - [PolicyMap](https://sc.policymap.com/) - [Residential Energy Consumption Survey Results - EIA](https://www.eia.gov/consumption/residential/data/2020/index.php?view=characteristics) - [U.S. Wildfires - NOAA](https://www.ncei.noaa.gov/access/monitoring/wildfires/ytd/0) - [World Bank Open Data](http://data.worldbank.org/)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_find_environmental_geospatial_data:
+  - text: |
+
+      ## Data Sets (.csv)
+      - [Climate TRACE](https://climatetrace.org/data)
+      - [Data.gov](https://data.gov)
+      - [PolicyMap](https://sc.policymap.com/)
+      - [Residential Energy Consumption Survey Results - EIA](https://www.eia.gov/consumption/residential/data/2020/index.php?view=characteristics)
+      - [U.S. Wildfires - NOAA](https://www.ncei.noaa.gov/access/monitoring/wildfires/ytd/0)
+      - [World Bank Open Data](http://data.worldbank.org/)
+    
+  utter_geospatial_data_resource_available:
+  - text: |
+
+      ## Geospatial Data
+      - [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
+      - [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)
+    
+  utter_summary_resource_available_fire_modeling:
+  - text: |
+      #### Fire Modeling - [LandFire](https://www.landfire.gov/) - [Fire Program Analysis Fire Occurrence Database (FPAFOD)](https://doi.org/10.2737/RDS-2013-0009.6) - [Monitoring Trends in Burn Severity (MTBS)](https://www.mtbs.gov/)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_resource_available_fire_modeling:
+  - text: |
+
+      #### Fire Modeling
+      - [LandFire](https://www.landfire.gov/)
+      - [Fire Program Analysis Fire Occurrence Database (FPAFOD)](https://doi.org/10.2737/RDS-2013-0009.6)
+      - [Monitoring Trends in Burn Severity (MTBS)](https://www.mtbs.gov/)
+    
+  utter_hydrological_data_resource_available:
+  - text: |
+
+      #### Hydrological Data
+      - [USGS National Water Dashboard](https://waterdata.usgs.gov/nwis/rt)
+      - [National Hydrography Dataset (NHD)](https://www.usgs.gov/core-science-systems/ngp/national-hydrography/access-national-hydrography-products)
+    
+  utter_landuse_landcover_database_available:
+  - text: |
+
+      #### Landuse and Landcover Databases
+      - [Multi-Resolution Land Characteristics (MRLC) Consortium](https://www.mrlc.gov/)
+      - [Gap Analysis Project](https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap)
+    
+  utter_summary_modelled_data_resource_available:
+  - text: |
+      #### Modelled Data - [Parameter-elevation Relationships on Independent Slopes Model (PRISM)](http://www.prism.oregonstate.edu/) Most of modelled data are stored in NetCDF format.
+      Here is an [introduction](https://www.unidata.ucar.edu/publications/factsheets/current/factsheet_netcdf.pdf) of NetCDF format.
+      Various tools of manipulating NetCDF files found [here](http://www.unidata.ucar.edu/software/netcdf/software.html).
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_modelled_data_resource_available:
+  - text: |
+
+      #### Modelled Data
+      - [Parameter-elevation Relationships on Independent Slopes Model (PRISM)](http://www.prism.oregonstate.edu/)
+      Most of modelled data are stored in NetCDF format. Here is an [introduction](https://www.unidata.ucar.edu/publications/factsheets/current/factsheet_netcdf.pdf) of NetCDF format. Various tools of manipulating NetCDF files found [here](http://www.unidata.ucar.edu/software/netcdf/software.html).
+      - [MACA Climatology Lab](https://www.climatologylab.org/maca.html)
+      - [NARCCAP - Climate Change Assessment Program](https://www.narccap.ucar.edu/data/index.html)
+      - [North American CORDEX Program](https://na-cordex.org/)
+    
+  utter_summary_observed_data_resource_available:
+  - text: |
+      #### Observed Data - [NOAA - Full List of Data](https://www.ncdc.noaa.gov/data-access) - [NOAA - Weather & Climate Quick Links](https://www.ncdc.noaa.gov/data-access/quick-links) - [Applied Climate Information System - Query Data](http://builder.rcc-acis.org)To learn how to use this system, click here for[ more information](https://www.rcc-acis.org/docs_webservices.html).
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_observed_data_resource_available:
+  - text: |
+
+      #### Observed Data
+      - [NOAA - Full List of Data](https://www.ncdc.noaa.gov/data-access)
+      - [NOAA - Weather & Climate Quick Links](https://www.ncdc.noaa.gov/data-access/quick-links)
+      - [Applied Climate Information System - Query Data](http://builder.rcc-acis.org)To learn how to use this system, click here for[ more information](https://www.rcc-acis.org/docs_webservices.html).
+    
+  utter_summary_soil_data_resource_available:
+  - text: |
+      #### Soil Data - [Natural Resources Conservation Service - Soil Databases](https://www.nrcs.usda.gov/resources?title=&resource_type=18) - [Natural Resources Conservation Service - Web Soil Survey (WSS)](https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_soil_data_resource_available:
+  - text: |
+
+      #### Soil Data
+      - [Natural Resources Conservation Service - Soil Databases](https://www.nrcs.usda.gov/resources?title=&resource_type=18)
+      - [Natural Resources Conservation Service - Web Soil Survey (WSS)](https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm)
+    
+  utter_transportation_data_resource_available:
+  - text: |
+
+      #### Transportation Data
+      - [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
+    
+  utter_summary_resource_available_finding_health:
+  - text: |
+      Some additional resources for finding statistics or data sets is the [NICHSR Finding Health Statistics tutorial](https://www.nlm.nih.gov/nichsr/usestats/finding_health_statistics.html) or the [Public Health Information & Data Tutorial](https://phpartners.org/tutorial/03-hs/)
+      ## Statistics #### International Statistics - [Google Public Data Explorer](https://www.google.com/publicdata/directory) - [WHO Global Health Observatory](http://apps.who.int/gho/data/)
+      #### U.S. Statistics - [America's Health Rankings](https://www.americashealthrankings.org/) - [American Hospital Directory](https://www.ahd.com/) - [Behavioral Risk Factor Surveillance System](https://www.cdc.gov/brfss/) - [CDC National Center for Health Statistics](http://www.cdc.gov/nchs/) - [Census Bureau Subjects A-Z](http://census.gov/main/www/a2z) - [Centers for Medicare & Medicaid Services](http://www.cms.gov/Research-Statistics-Data-and-Systems/Research-Statistics-Data-and-Systems.html?redirect=/home/rsds.asp) - [HCUPnet- Healthcare Cost and Utilization Project](https://hcupnet.ahrq.gov/) - [National Center for Health Statistics](http://www.cdc.gov/nchs/) - [National Center for Health Statistics (NCHS)](http://www.cdc.gov/nchs/index.htm) - [SC Public Health Data](https://dph.sc.gov/public/data-maps-reports) - [South Carolina eHealth Medicaid Statistics](http://www.schealthviz.sc.edu/) - [State Health Compare](http://statehealthcompare.shadac.org/) - [State Health Facts (Kaiser Family Foundation)](http://www.statehealthfacts.org/)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_resource_available_finding_health:
+  - text: |
+      ## Health Statistics and Data Set Resources
+      Below are some examples of resources that you can use to find health resources. 
+      Some additional resources for finding statistics or data sets is the [NICHSR Finding Health Statistics tutorial](https://www.nlm.nih.gov/nichsr/usestats/finding_health_statistics.html) or the [Public Health Information & Data Tutorial](https://phpartners.org/tutorial/03-hs/)
+
+      ## Statistics
+      #### International Statistics
+      - [Google Public Data Explorer](https://www.google.com/publicdata/directory)
+      - [WHO Global Health Observatory](http://apps.who.int/gho/data/)
+
+      #### U.S. Statistics
+      - [America's Health Rankings](https://www.americashealthrankings.org/)
+      - [American Hospital Directory](https://www.ahd.com/)
+      - [Behavioral Risk Factor Surveillance System](https://www.cdc.gov/brfss/)
+      - [CDC National Center for Health Statistics](http://www.cdc.gov/nchs/)
+      - [Census Bureau Subjects A-Z](http://census.gov/main/www/a2z)
+      - [Centers for Medicare & Medicaid Services](http://www.cms.gov/Research-Statistics-Data-and-Systems/Research-Statistics-Data-and-Systems.html?redirect=/home/rsds.asp)
+      - [HCUPnet- Healthcare Cost and Utilization Project](https://hcupnet.ahrq.gov/)
+      - [National Center for Health Statistics](http://www.cdc.gov/nchs/)
+      - [National Center for Health Statistics (NCHS)](http://www.cdc.gov/nchs/index.htm)
+      - [SC Public Health Data](https://dph.sc.gov/public/data-maps-reports)
+      - [South Carolina eHealth Medicaid Statistics](http://www.schealthviz.sc.edu/)
+      - [State Health Compare](http://statehealthcompare.shadac.org/)
+      - [State Health Facts (Kaiser Family Foundation)](http://www.statehealthfacts.org/)
+    
+  utter_summary_data_set_available_health:
+  - text: |
+      ## Data Sets - [CDC Wonder](https://wonder.cdc.gov/) - [HealthData.gov](https://www.healthdata.gov/) - [Our World in Data](https://ourworldindata.org/) - [UNAIDS - HIV/AIDS Surveillance Data Base](https://aidsinfo.unaids.org/?did=5fbeb5cb94831556e11c4517&r=world&t=null&tb=q&bt=undefined&ts=0,0&qla=G&qls=All%20Countries) - [UNdata](http://data.un.org/) - [WorldBank Data](https://data.worldbank.org/data-catalog)
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/health)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_set_available_health:
+  - text: |
+      ## Data Sets
+      - [CDC Wonder](https://wonder.cdc.gov/)
+      - [HealthData.gov](https://www.healthdata.gov/)
+      - [Our World in Data](https://ourworldindata.org/)
+      - [UNAIDS - HIV/AIDS Surveillance Data Base](https://aidsinfo.unaids.org/?did=5fbeb5cb94831556e11c4517&r=world&t=null&tb=q&bt=undefined&ts=0,0&qla=G&qls=All%20Countries)
+      - [UNdata](http://data.un.org/)
+      - [WorldBank Data](https://data.worldbank.org/data-catalog)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/health)
+    
+  utter_summary_resource_available_library_statistical:
+  - text: |
+      ## Museum & Library Statistics and Data Set Resources Below are some examples of resources that you can use to find library statistical resources.
+      ## Statistics - [ACRL Benchmark: Library Metrics and Trends](https://login.pallas2.tcl.sc.edu/login?url=https://assets.tcl.sc.edu/eresources/list.html) - [IBISWorld](https://login.pallas2.tcl.sc.edu/login?url=https://my.ibisworld.com) - [Statista](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.statista.com%2F) - [USC Libraries By The Numbers - University of South Carolina](https://guides.library.sc.edu/publicdb?_gl=1*9orde8*_ga*MTYxMDAyMTI4LjE2ODc1NDI3NDU.*_ga_ZGG9QXHNZF*MTY5MjM5MjE0Ny44Mi4xLjE2OTIzOTI3NzEuMC4wLjA.)
+      ## Data Sets - [Libraries of South Carolina - SC State Library](https://guides.statelibrary.sc.gov/sc-public-library-statistics/annual) - [Museum Data Files - IMLS](https://www.imls.gov/research-evaluation/data/museum-data-files) - [PolicyMap](https://sc.policymap.com/) - [Public Library Survey - IMLS](https://www.imls.gov/research-evaluation/surveys/public-libraries-survey-pls)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_resource_available_library_statistical:
+  - text: |
+      ## Museum & Library Statistics and Data Set Resources
+      Below are some examples of resources that you can use to find library statistical resources.
+      ## Statistics
+      - [ACRL Benchmark: Library Metrics and Trends](https://login.pallas2.tcl.sc.edu/login?url=https://assets.tcl.sc.edu/eresources/list.html)
+      - [IBISWorld](https://login.pallas2.tcl.sc.edu/login?url=https://my.ibisworld.com)
+      - [Statista](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.statista.com%2F)
+      - [USC Libraries By The Numbers - University of South Carolina](https://guides.library.sc.edu/publicdb?_gl=1*9orde8*_ga*MTYxMDAyMTI4LjE2ODc1NDI3NDU.*_ga_ZGG9QXHNZF*MTY5MjM5MjE0Ny44Mi4xLjE2OTIzOTI3NzEuMC4wLjA.)
+      ## Data Sets
+      - [Libraries of South Carolina - SC State Library](https://guides.statelibrary.sc.gov/sc-public-library-statistics/annual)
+      - [Museum Data Files - IMLS](https://www.imls.gov/research-evaluation/data/museum-data-files)
+      - [PolicyMap](https://sc.policymap.com/)
+      - [Public Library Survey - IMLS](https://www.imls.gov/research-evaluation/surveys/public-libraries-survey-pls)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/lis)
+    
+  utter_summary_resource_social_work_statistic:
+  - text: |
+      ## Social Work Statistics and Data Set Resources Below are some examples of resources that you can use to find social work resources.
+      ## Statistics #### International Statistics - [EUROSTAT](https://ec.europa.eu/eurostat/web/main/data) - [Human Rights Watch](https://www.hrw.org/) - [Inter-American Development Bank-](https://publications.iadb.org/discover?thumbnail=false&filtertype_Population+Statistics+%26+Information+Systems=subject_en&filter_relational_operator_Population+Statistics+%26+Information+Systems=equals&filter_Population+Statistics+%26+Information+Systems=Population+Statistics+%26+Information+Systems)Produces working papers on economic and social topics.
+      Resources include:-GEPPAL (an analysis tool with indicators of women's political participation in Latin America)-Latin America and Caribbean Macro Watch Data Tool (Over 500 indicators consolidating data on macroeconomics, social issues, trade, capital flows, markets and governance)-Sociómetro-BID (a dataset of social indicators providing insight into socioeconomic conditions in Latin America).
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_resource_social_work_statistic:
+  - text: |
+      ## Social Work Statistics and Data Set Resources
+      Below are some examples of resources that you can use to find social work resources. 
+      ## Statistics
+      #### International Statistics
+      - [EUROSTAT](https://ec.europa.eu/eurostat/web/main/data)
+      - [Human Rights Watch](https://www.hrw.org/)
+      - [Inter-American Development Bank-](https://publications.iadb.org/discover?thumbnail=false&filtertype_Population+Statistics+%26+Information+Systems=subject_en&filter_relational_operator_Population+Statistics+%26+Information+Systems=equals&filter_Population+Statistics+%26+Information+Systems=Population+Statistics+%26+Information+Systems)Produces working papers on economic and social topics. Resources include:-GEPPAL (an analysis tool with indicators of women's political participation in Latin America)-Latin America and Caribbean Macro Watch Data Tool (Over 500 indicators consolidating data on macroeconomics, social issues, trade, capital flows, markets and governance)-Sociómetro-BID (a dataset of social indicators providing insight into socioeconomic conditions in Latin America).
+      - [International Organization for Migration](http://www.iom.int/)
+      - [Our World in Data](https://ourworldindata.org/)
+      - [UNESCO Institute for Statistics](http://uis.unesco.org/)
+      - [UN Statistical Resources](http://research.un.org/en/un-resources/statistics)
+      - [World Health Organization- Country Statisticsc](http://www.who.int/gho/countries/en/)
+    
+  utter_summary_resource_u_statistic:
+  - text: |
+      #### U.S. Statistics - [Census Data from data.census.gov](https://data.census.gov/cedsci/) - [Agency for Healthcare Research and Quality- Research Tools & Data](https://www.ahrq.gov/research/index.html) - [Centers for Medicare & Medicaid Services](https://www.cms.gov/Research-Statistics-Data-and-Systems/Research-Statistics-Data-and-Systems.html) - [Data Resource Center for Child & Adolescent Health](http://www.childhealthdata.org/) - [PEW Charitable Trust- Research & Analysis](http://www.pewtrusts.org/en/research-and-analysis#list/alphabetical/all/0) - [South Carolina Community Profiles](https://dc.statelibrary.sc.gov/collections/d62303af-bfb7-4483-b4c5-3f271972cd65) - [South Carolina Higher Education Statistical Abstracts](https://www.che.sc.gov/che-data-and-reports) - [South Carolina Statistical Abstract](http://www.sciway.net/statistics)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_resource_u_statistic:
+  - text: |
+
+      #### U.S. Statistics
+      - [Census Data from data.census.gov](https://data.census.gov/cedsci/)
+      - [Agency for Healthcare Research and Quality- Research Tools & Data](https://www.ahrq.gov/research/index.html)
+      - [Centers for Medicare & Medicaid Services](https://www.cms.gov/Research-Statistics-Data-and-Systems/Research-Statistics-Data-and-Systems.html)
+      - [Data Resource Center for Child & Adolescent Health](http://www.childhealthdata.org/)
+      - [PEW Charitable Trust- Research & Analysis](http://www.pewtrusts.org/en/research-and-analysis#list/alphabetical/all/0)
+      - [South Carolina Community Profiles](https://dc.statelibrary.sc.gov/collections/d62303af-bfb7-4483-b4c5-3f271972cd65)
+      - [South Carolina Higher Education Statistical Abstracts](https://www.che.sc.gov/che-data-and-reports)
+      - [South Carolina Statistical Abstract](http://www.sciway.net/statistics)
+    
+  utter_summary_resource_data_set:
+  - text: |
+      ## Data Sets - [Council of European Social Science Data Archives (CESSDA)](https://datacatalogue.cessda.eu/) - [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.
+      [More information](http://guides.library.sc.edu/more_information/icpsr) - [National Archive of Criminal Justice Data](http://www.icpsr.umich.edu/icpsrweb/content/NACJD/index.html) - [Norwegian Agency for Shared Services in Education and Research (Sikt)](https://sikt.no/en/find-data) - [UNdata](http://data.un.org/) - [WHO Global Health Observatory](http://apps.who.int/gho/data/)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_resource_data_set:
+  - text: |
+
+      ## Data Sets
+      - [Council of European Social Science Data Archives (CESSDA)](https://datacatalogue.cessda.eu/)
+      - [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.[More information](http://guides.library.sc.edu/more_information/icpsr)
+      - [National Archive of Criminal Justice Data](http://www.icpsr.umich.edu/icpsrweb/content/NACJD/index.html)
+      - [Norwegian Agency for Shared Services in Education and Research (Sikt)](https://sikt.no/en/find-data)
+      - [UNdata](http://data.un.org/)
+      - [WHO Global Health Observatory](http://apps.who.int/gho/data/)
+    
+  utter_learn_social_work_statistic:
+  - text: |
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/social-work)
+    
+  utter_summary_resource_available_sociology_statistic:
+  - text: |
+      ## Sociology Statistics and Data Set Resources Below are some examples of resources that you can use to find sociology resources.
+      ## Statistics #### International Statistics - [Economic Indicators](https://www.govinfo.gov/app/collection/ECONI) - [InfoShare Online](http://www.infoshare.org/)Includes population statistics, immigration trends, socioeconomic indicators, birth and death data, hospitalizations, local trade data, and much more.You will need to create an individual account.
+      - [UNdata](http://data.un.org/)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_resource_available_sociology_statistic:
+  - text: |
+      ## Sociology Statistics and Data Set Resources
+      Below are some examples of resources that you can use to find sociology resources.
+      ## Statistics
+      #### International Statistics
+      - [Economic Indicators](https://www.govinfo.gov/app/collection/ECONI)
+      - [InfoShare Online](http://www.infoshare.org/)Includes population statistics, immigration trends, socioeconomic indicators, birth and death data, hospitalizations, local trade data, and much more.You will need to create an individual account.
+      - [UNdata](http://data.un.org/)
+    
+  utter_summary_u_statistic_resource_available2:
+  - text: |
+      #### U.S. Statistics - [Bureau of Labor Statistics](http://stats.bls.gov/) - [Census Data from data.census.gov](https://data.census.gov/cedsci/) - [CIA World Factbook](https://www.cia.gov/the-world-factbook/) - [Historical Statistics of the United States: Millennial Edition Online](https://pascal-usc.primo.exlibrisgroup.com/permalink/01PASCAL_USCCOL/ena7hp/alma991025864137205618) - [OECD iLibrary](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.oecd-ilibrary.org%2F) - [Rural Data Portal](http://www.ruraldataportal.org/) - [South Carolina Statistics and Statistical Reports - SCIway](http://www.sciway.net/statistics/) - [The National Survey of Families and Households (NSFH)](http://www.ssc.wisc.edu/nsfh/home.htm) - [United States QuickFacts](https://www.census.gov/quickfacts/fact/table/US/PST045216) - [USDA Rural Information Center](https://www.nal.usda.gov/ric)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_u_statistic_resource_available2:
+  - text: |
+
+      #### U.S. Statistics
+      - [Bureau of Labor Statistics](http://stats.bls.gov/)
+      - [Census Data from data.census.gov](https://data.census.gov/cedsci/)
+      - [CIA World Factbook](https://www.cia.gov/the-world-factbook/)
+      - [Historical Statistics of the United States: Millennial Edition Online](https://pascal-usc.primo.exlibrisgroup.com/permalink/01PASCAL_USCCOL/ena7hp/alma991025864137205618)
+      - [OECD iLibrary](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.oecd-ilibrary.org%2F)
+      - [Rural Data Portal](http://www.ruraldataportal.org/)
+      - [South Carolina Statistics and Statistical Reports - SCIway](http://www.sciway.net/statistics/)
+      - [The National Survey of Families and Households (NSFH)](http://www.ssc.wisc.edu/nsfh/home.htm)
+      - [United States QuickFacts](https://www.census.gov/quickfacts/fact/table/US/PST045216)
+      - [USDA Rural Information Center](https://www.nal.usda.gov/ric)
+    
+  utter_summary_data_set_available_sociology:
+  - text: |
+      ## Data Sets - [ICPSR](http://www.icpsr.umich.edu/icpsrweb/ICPSR/) - [ASA Data Resources on Sociology as a profession](http://www.asanet.org/research-publications/research-sociology/data-resources-sociology-profession) - [The General Social Survey ](http://gss.norc.org/) - [Pew Research Center Datasets](http://www.pewinternet.org/datasets/)
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/sociology)
+      This is a brief summary. For more details, please ask for the full answer.
+    
+  utter_data_set_available_sociology:
+  - text: |
+
+      ## Data Sets
+      - [ICPSR](http://www.icpsr.umich.edu/icpsrweb/ICPSR/)
+      - [ASA Data Resources on Sociology as a profession](http://www.asanet.org/research-publications/research-sociology/data-resources-sociology-profession)
+      - [The General Social Survey ](http://gss.norc.org/)
+      - [Pew Research Center Datasets](http://www.pewinternet.org/datasets/)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/sociology)
     
 
 actions:

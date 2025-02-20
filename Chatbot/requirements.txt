@@ -16,3 +16,4 @@ chardet==5.2.0
 lxml==5.3.1
 pycountry==24.6.1
 sumy==0.11.0
+openai==1.63.0

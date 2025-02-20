@@ -53,18 +53,17 @@ def save_text(text_arr, links_arr):
     text_arr[i] = re.sub(r'[ \t]+', ' ', text_arr[i])  # Remove extra spaces/tabs
     text_arr[i] = re.sub(r'[\u00A0\u2000-\u200B\u202F\u205F\u3000]', ' ', text_arr[i]) # Remove non-breaking spaces and other unicode spaces that break yaml
     text_arr[i] = re.sub(r'\n{3,}', '\n', text_arr[i]) # Replace 2 or more new lines with a single new line
-    text_arr[i] += '\n' + "[Learn more here](" + links_arr[i] + ")"
+    text_arr[i] += '\n\n' + "[Learn more here](" + links_arr[i] + ")"
   
   #print(text_arr[4])
   with open("search_output.json", "a") as f:
     json.dump(text_arr, f)
-    f.write("\n")
 
 # Format text to keep headers, hyperlinks etc. intact
 def format_text(page_text):
   #print(page_text)
   # Tags we want to keep to process later into markdown
-  allowed_tags = {"h1", "h2", "h3", "h4", "h5", "h6", "li", "a", "p"}
+  allowed_tags = {"h1", "h2", "h3", "h4", "h5", "h6", "li", "a", "p", "br"}
 
 
   # Remove all tags that are not allowed
@@ -80,16 +79,7 @@ def format_text(page_text):
   # Unwrap <p> tags but keep their content
   for p_tag in page_text.find_all("p"):
     p_tag.unwrap()
-            
-  # Replace <a> tags with markdown links
-  for a_tag in page_text.find_all('a'):
-    link_text = a_tag.get_text()
-    link_href = a_tag.get('href')
-    markdown_link = f"[{link_text}]({link_href})"
-        
-    # Replace the <a> tag with the Markdown formatted link text
-    a_tag.replace_with(markdown_link)
-
+  
   # Format headers correctly for markdown
   for h_tag in page_text.find_all(["h1", "h2", "h3", "h4", "h5", "h6"]):
     header_text = h_tag.get_text(strip=True)
@@ -100,10 +90,25 @@ def format_text(page_text):
         h_tag.replace_with(formatted_header)
     else:
         h_tag.decompose()  # Removes empty headers tag and content
+  
+  # Replace <a> tags with markdown links
+  for a_tag in page_text.find_all('a'):
+    link_text = a_tag.get_text()
+    link_href = a_tag.get('href')
+    markdown_link = f"[{link_text}]({link_href})"
         
+    # Replace the <a> tag with the Markdown formatted link text
+    a_tag.replace_with(markdown_link)
+
+  
+  # Format lists for markdown
   for listItem in page_text.find_all('li'):
     formattedListItem = f"\n- {listItem.get_text(strip=True)}"
     listItem.replace_with(formattedListItem) 
+  
+  # Replace <br> tags with new lines
+  for breakTag in page_text.find_all('br'):
+    breakTag.replace_with("\n\n")
   
   # Convert soup object to string so we can apply regex on it
   html_string = "".join(str(tag) for tag in page_text)
