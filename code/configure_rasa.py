@@ -235,6 +235,16 @@ def main():
         nlu_string = get_nlu_yaml_string(intent, [question] + paraphrased_questions)
         nlu_list.append(nlu_string)
 
+        # ---------------------------------------- MODIFIED TO ONLY USE RULES, NO STORIES (No summarization)
+        rule_string = get_rules_yaml_string(intent)
+        rules_list.append(rule_string)
+
+        domain_string = get_domain_yaml_string(
+            intent, answer
+        )
+        domain_list.append(domain_string)
+            
+        """
         if plain_text_length < 140:
             # Short enough to not summarize
 
@@ -277,7 +287,8 @@ def main():
             #     domain_list.append(get_domain_yaml_string(intent, f"[Source: {source}; Date: Sept, 2024] {answer}"))
             # elif year == 2022:
             #     domain_list.append(get_domain_yaml_string(intent, f"[Source: {source}; Date: Apr, 2022] {answer}"))
-
+        """
+        
         # store user intent
         intent_list.append(get_intent_yaml_string(intent))
 

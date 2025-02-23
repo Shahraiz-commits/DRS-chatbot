@@ -120,9 +120,9 @@ questions_count = 0
 # Convert JSON response to csv QApairs.json
 with open("search_output.json", 'r') as all_text:
     texts_to_process = json.load(all_text)
-# NOTE: LLM not processing text at index 23 for some reason. Skipped for now
+# NOTE: LLM not processing some texts for some reason. Hangs at specific ones it seems.
 for current_text in texts_to_process:
-    if(page_count < 24):
+    if(page_count < 11): # Processed 0-3 already. Added to Chat.csv. Start from this index.
         page_count += 1
         continue
     input_prompt = current_text

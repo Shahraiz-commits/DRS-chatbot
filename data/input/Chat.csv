@@ -942,8 +942,6 @@ What kind of guidance can I expect from online consultations?,"- We offer guidan
 - We can work with you to help you decide on appropriate and effective visualization techniques
 - We can help you consider, compare, and determine which tool(s) to use
 - [Schedule An Online Consultation](https://libcal.library.sc.edu/appointments/datavis)"
-What is the University Libraries DataLab?,"The University Libraries DataLab is located on the fifth floor of Thomas Cooper Library near the stairway. The space is available on a first come first serve basis where you can find three high-powered, Windows-based computers. Each computer has a variety of data visualization and data analysis software installed. In addition, there is a small seminar table with an 80 large-screen monitor.
-- [Learn more about the DataLab](https://guides.library.sc.edu/c.php?g=1321483)"
 Is there assistance available for data analysis and statistics?,"## Data Analysis Software Assistance
 The University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data. Walk-ins to the University Libraries DataLab are welcome but we strongly encourage scheduled appointments to assure the best service. For more information about the data analysis and statistics assistance services and how to register, use the link below:
 - [Data Analysis and Statistics Services at the University Libraries](https://guides.library.sc.edu/c.php?g=1335227)
@@ -1005,17 +1003,6 @@ Effective data visualization requires quality data be used. In many cases, your 
 Where can I find subject-specific data and statistics?,"## Subject Specific Data and Statistics
 The University Libraries' Research, Instruction, and Reference professionals have curated a significant collection of sources providing statistics and data sets for a variety of subject areas.
 - [Finding Statistics and Data Sets](https://guides.library.sc.edu/data_and_statistics)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=9683964)"
-What is open data?,"## Open Data
-Open data is data that is freely available for use or distribution by anyone. It is research data that:
-- Is freely available on the internet;
-- Permits any user to download, copy, analyze, re-process, pass to software or use for any other purpose; and
-- Is without financial, legal, or technical barriers other than those inseparable from gaining access to the internet
-- [Creative Commons Attribution 4.0 International License. Copyright SPARC](https://creativecommons.org/licenses/by/4.0/)
-
-The University Libraries Digital Research Services units has created a guide where you can find a variety of open data sources as well as University Libraries-sponsored data sources.
-- [Open Data Sources](https://guides.library.sc.edu/opendata)
 
 [Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=9683964)"
 What kind of research support does University Libraries offer?,"### Get Help with Your Research
@@ -1105,7 +1092,8 @@ Statistics are the results of data analysis. It usually comes in the form of a t
 Source: [Statistical Abstract of the United States](http://statabs.proquest.com/sa/abstract.html?table-no=1082&acc-no=C7095-1.23&year=2015&z=04AFC9F8FF309B74767FB34B794047B78C6C1284)
 
 [Learn more here](https://guides.library.sc.edu/data_and_statistics)"
-What is open data?,"- Is freely available on the internet;
+What is open data?,"#### Open data is data that is freely available for use or distribution by anyone. It is research data that:
+- Is freely available on the internet;
 - Permits any user to download, copy, analyze, re-process, pass to software or use for any other purpose; and
 - Is without financial, legal, or technical barriers other than those inseparable from gaining access ot the internet
 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Copyright SPARC
@@ -1764,3 +1752,277 @@ What data sets are available for sociology?,"
 - [Pew Research Center Datasets](http://www.pewinternet.org/datasets/)
 
 [Learn more here](https://guides.library.sc.edu/data-and-statistics/sociology)"
+What is Research Data Management?,"## Research Data Management
+Looking for help with data management plans, locating open data sets, data sharing, metadata and more? University Libraries has resources and services to help you throughout the research data lifecycle.
+### Make an appointment to learn more
+Set up a personal consultation to discuss your specific needs for Data Management services."
+What tools and resources are available for Research Data Management?,"
+### Tools and Resources
+#### Data Management Plans
+Guidelines, sample plans and tools to create a Data Management Plan that meets funder requirements.](http://guides.library.sc.edu/c.php?g=592274&p=4095609)[
+#### Data Management Basics
+Learn about tools and resources available to help with the components of data management.](http://guides.library.sc.edu/rdm)[
+#### Sharing Data
+Funders and publishers may require that a research project’s underlying data be made publicly available. Explore options and learn about citing datasets.](http://guides.library.sc.edu/c.php?g=592274&p=4095611)"
+Are there any workshops or training available for Research Data Management?,"
+# Library Workshops
+Register for free [library workshops](/about/offices_and_divisions/university_libraries/find_services/workshops/index.php) on a variety of Research Data Management topics."
+Who can I contact for help with Research Data Management?,"
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Stacy Winchester](/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)"
+What resources are available for writing a Data Management Plan (DMP)?,"- [Sample DMPs from UC San Diego](https://library.ucsd.edu/lpw-staging/research-and-collections/data-curation/data-management/dmp-samples.html)
+- [Data Management Planning Guidelines from NC State University](https://www.lib.ncsu.edu/do/data-management/funding-agency-guidelines)
+- [Sample NIH Data Management and Sharing Plans](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#sample-plans)"
+What should I include in a Data Management Plan (DMP)?,"DMPs often include descriptions of:
+- Roles and Responsibilities
+- Types of Data
+- Data Formats and Metadata
+- Access, Sharing, and Privacy
+- Policies and Provisions for Re-use and Re-Distribution
+- Data Storage and Preservation"
+Why do I need a Data Management Plan (DMP)?,"In 2013, the US Office of Science and Technology issued a policy memorandum expanding requirements for planning and sharing of data. Most federal funding research agencies require DMPs as part of the grant application process.
+Even if you don't need to meet funder requirements, data management plans are still valuable. Planning ahead of time for the storage, backup, archiving, and sharing (if applicable) of data will:
+- Save time and effort down the road
+- Enhance the value and usefulness of data long-term
+- Increase research efficiency"
+Is there a tool to help me create a Data Management Plan (DMP)?,"Available at [dmptool.org](http://dmptool.org), DMPTool is a free tool to help researchers create data management plans that comply with funder requirements. It walks users through the components required by the funder they're applying to, and allows them to create a completed DMP, which can be exported as a Word document or PDF.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095609)"
+What is research data management?,"Managing your data is an essential part of the research process. In this guide, you'll find an overview of the different types and formats of data produced during a scholarly investigation, guidance for creating data management plans and complying with the requirements of funding agencies, information about metadata, and help with sharing and archiving data securely for long-term use.
+
+Materials constituting research data vary by discipline. The following are common examples:
+- Text or Word documents, spreadsheets
+- Laboratory notebooks, field notebooks, diaries
+- Questionnaires, transcripts, codebooks
+- Audiotapes, videotapes
+- Photographs, films
+- Test responses
+- Slides, artifacts, specimens, samples
+- Collection of digital objects acquired and generated during the process of research
+- Data files
+- Database contents including video, audio, text, images
+- Models, algorithms, scripts
+- Contents of an application such as input, output, log files for analysis software, simulation software, schemas
+- Methodologies and workflows
+- Standard operating procedures and protocols
+
+Image [CC BY-NC](https://creativecommons.org/licenses/by-nc/2.0/) from University of Southern California Santa Cruz ([http://guides.library.ucsc.edu/datamanagement/](http://guides.library.ucsc.edu/datamanagement/)). 
+- [Managing and Sharing Data](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf)
+- [DataONE Primer on Data Management: What you always wanted to know (but were afraid to ask)](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)
+
+[Learn more here](http://guides.library.sc.edu/rdm)"
+Why do I need a data management plan?,"Creating a plan to manage and store your data throughout its lifecycle is a critical component of the research process. Not only does having a data management plan save you time and resources, but is a requirement for grant applications for many major funding agencies such as the National Science Foundation (NSF), the National Institutes of Health (NIH), and the National Endowment for the Humanities (NEH). In addition, having a plan to manage your data promotes increased data sharing, transparency, and reproducibility.
+
+[Learn more here](http://guides.library.sc.edu/rdm)"
+What is OSF and how can I use it?,"[](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)"
+What options are available for long-term archiving of research data?,"The University of South Carolina does not currently have a system-wide, long-term archiving option for research data. However, many external disciplinary and general data repositories exist. If you want or need to share your research data, one of these might be a good fit.
+These repositories are also good places to find datasets for re-use.
+- [ICPSR](http://www.icpsr.umich.edu/icpsrweb/)
+- [Open ICPSR](https://www.openicpsr.org/openicpsr/)
+- [Re3Data](http://www.re3data.org/)
+- [NIH-Data Sharing Repositories](https://www.nlm.nih.gov/NIHbmic/domain_specific_repositories.html)
+[here](https://nnlm.gov/data/repositories).
+- [Dataverse](http://dataverse.org/)
+- [Dryad](https://datadryad.org/stash)
+- [Figshare](https://figshare.com/)
+- [Zenodo](https://zenodo.org/)
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)"
+How do I cite a dataset?,"If you are using another researcher's dataset, it's important to cite it to give that producer credit. Citing data also simplifies access to data for re-use.
+
+Data Creator
+Title of Dataset
+Year of Publication
+Publisher (usually the data repository where the dataset is housed)
+Edition or Version
+Access Information (URL or other persistent identifier)
+A recommended format is:
+Creator (PublicationYear). Title. Publisher. Identifier
+or, if version and type of resource are available:
+Creator (PublicationYear). Title. Version. Publisher. ResourceType. Identifier
+- [DOI Citation Formatter](http://citation.crosscite.org/)
+- [Data Citation Index](https://login.pallas2.tcl.sc.edu/login?url=https://www.webofscience.com/wos/drci/basic-search)
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)"
+What is metadata?,"Metadata is information about the context, content, quality, provenance, and/or accessibility of a dataset. In order for your data to be accessible to you, your colleagues, and other researchers, it must be properly documented. Put simply, metadata is data about your data."
+Why is metadata important?,"Data often have a longer lifespan than the research project that creates them. Researchers may continue to work on data after funding has ceased, follow-up projects may analyse or add to the data, and data may be re-used by other researchers. Well organised, well documented, preserved and shared data are invaluable to advance scientific inquiry and to increase opportunities for learning and innovation.
+--[Create and Manage Data, the UK Data Archive](http://www.data-archive.ac.uk/create-manage/life-cycle)"
+What should I include in my metadata?,"- Make a note of all file names and formats associated with the project, how the data are organized, how the data were generated (including any equipment or software used), and information about how the data have been altered or processed.
+- Include an explanation of codes, abbreviations, or variables used in the data or in the file naming structure.
+- Keep notes about where you got the data so that you and others can find it."
+What are the elements of metadata?,"- Name of the dataset or research project that produced it
+- Names and addresses of the organization or people who created the data
+- Number used to identify the data, even if it is just an internal project reference number
+- Keywords or phrases describing the subject or content of the data
+- Organizations or agencies who funded the research
+- Any known intellectual property rights held for the data
+- Where and how your data can be accessed by other researchers
+- Language(s) of the intellectual content of the resource, when applicable
+- Key dates associated with the data, including: project start and end date; release date; time period covered by the data; and other dates associated with the data lifespan, e.g., maintenance cycle updated schedule
+- Where the data relates to a physical location, record information about its spatial coverage
+- How the data were generated, including equipment or software used, experimental protocol, other things one might include in a lab notebook
+- Along the way, record any information on how the data have been altered or processed
+- Citations to material for data derived from other sources, including details of where the source data is held and how it was accessed
+- List of all data files associated with the project, with their names and file extensions (e.g. 'NWPalaceTR.WRL', 'stone.mov')
+- Format(s) of the data, e.g. FITS, SPSS, HTML, JPEG, and any software required to read the data
+- Organization of the data file(s) and the layout of the variables, when applicable"
+Where can I find more information about metadata standards?,"- A directory of [Disciplinary Metadata](http://www.dcc.ac.uk/resources/metadata-standards) standards is available from the UK's Digital Curation Centre. This site is browseable by discipline.
+- For a visualization of the wider metadata universe most often used in the humanities, see Jenn Riley's [Seeing Standards](http://jennriley.com/metadatamap/).
+- The [Metadata Standard Glossary](http://jennriley.com/metadatamap/seeingstandards_glossary_pamphlet.pdf) provides additional description for each of the standards listed.
+- The Digital Library Federation has a wiki for [best practices for shareable metadata](http://webservices.itcs.umich.edu/mediawiki/oaibp/index.php/ShareableMetadataPublic).
+- An NSF funded project, [DataONEpedia](https://www.dataone.org/data), is a database of best practices for data management."
+Where can I learn more about metadata?,[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095612)
+Why is a consistent file naming strategy important?,"Developing and following a consistent file naming strategy can make data easier to find, particularly when large numbers of files exist. Although it's common to think that file names will be remembered in the future, unorganized files and folders can lead to frustration down the road.
+
+Good file naming allows you to identify the contents of the file from the name. It may be useful to consider including some or all of the following information, as long as it is done consistently.
+- File creator's name/initials
+- Date of creation
+- Version number
+- Project or experiment name or acronym
+- Location/spatial coordinates
+- Type of data
+- Conditions
+- File version number
+- Keep file names as short as possible while including necessary information.
+- Do not use special characters such as #, <, >, $, +, %, *, etc. Different operating systems may interpret these as instructions to perform special tasks.
+- Use hyphens (-) instead of underscores (_), full stops (.), or spaces in file names.
+- If you add dates, make sure you use consistent formatting.
+- While underscores are invisible when links are underlined, hyphens can still be seen.
+- For files that might be searched online, some search engines don't recognize underscores and others may downgrade page rankings if underscores are used.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573562)"
+What file formats should I use to ensure long-term accessibility of research data?,"As anyone with data saved on a floppy disk probably realizes, technology changes constantly and, if not planned for, hardware and software obsolescence can render data inaccessible and unreadable. To ensure long-term accessibility of research data, researchers should consider using file formats that share these characteristics:
+- Non-proprietary
+- Open, documented standard
+- Common usage by research community
+- Standard representation ([ASCII](http://www.asciitable.com/),[Unicode](http://unicode.org/))
+- Unencrypted
+- Uncompressed
+
+Data saved in proprietary formats are vulnerable to obsolescence. Here are examples of open file formats you can use to increase the likelihood that research data will be accessible in the future. A number of applications have been developed to open these types of files:
+- instead of a Microsoft Word extension (.doc, .docx)
+- instead of a Microsoft Excel extension (.xls, .xlsx)
+- TIFF or[JPEG2000](https://jpeg.org/jpeg2000/)instead of .gif or .jpg
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573562)"
+What is Open Science Framework?,"[](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. Created by the [Center for Open Science](https://cos.io/), OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+
+Open Science Framework is not just for science! Researchers in any discipline can use this tool. Keep in mind that OSF is for sensitive data."
+How do I get started with Open Science Framework?,"- [Create an Account](https://osf.io/register/)
+
+- [USC OSF Dashboard](https://osf.io/institutions/sc)"
+What type of data should not be stored in Open Science Framework?,"## Not for PII, PHI
+Open Science Framework is not HIPAA-compliant. It is not a place to store data sets containing personally identifiable information.
+
+[Learn more here](http://guides.library.sc.edu/osf)"
+Why is backing up data important?,"Backing up data is an essential part of the data management process. Hardware failure, virus infection, hacking, and loss or theft of hardware are all common realities that can have a devastating effect on research if proper back-up hasn't taken place. See the [UK Data Archive's guidelines on Backing-up Data](https://www.ukdataservice.ac.uk/manage-data/store.aspx) for more information.
+
+Back-up and storage are related concepts, but are not the same thing. While storage refers to ways of preserving files for the short- or long-term, back-up refers to preserving copies of your files in different physical locations and using different media to protect against data loss."
+What is a good rule of thumb for backing up data?,"A good rule of thumb for backing up data is the 3-2-1 rule. It states that at least 3 total copies of data should exist, 2 of which are local but on different media (devices), and at least 1 copy should be stored offsite. The offsite storage is important in case of fires, floods, or theft."
+What is the difference between information security and privacy?,"While information security is concerned with protection, privacy is concerned with the sensitivity of data, the justification for collecting data, and decisions about notification and sharing. International, Federal, and State legislation and regulations may apply. Privacy issues vary greatly by location and subject matter of data, posing significant liabilities, especially with regard to protected personal information (PPI) and personal identifying information (PII)."
+What resources are available for understanding data privacy?,"- [European Union General Data Protection Regulations (GDPR)](https://gdpr-info.eu/)
+- [South Carolina Enterprise Privacy Office](https://admin.sc.gov/services/technology-services/information-security-privacy)
+- [SC-DIS 200, Information Security and Privacy Standards](https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/SCDIS-200_Information_Security_and_Privacy_Standards.xlsx)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)"
+What university policies apply to research data management?,"- [Information Security IT 3.00](http://www.sc.edu/policies/it300.pdf)
+- [Archives and Record Management LIB 1.03](http://www.sc.edu/policies/lib103.pdf)
+- [Research Data Access and Retention RSCH 1.05](http://www.sc.edu/policies/rsch105.pdf)
+- [Data & Information Governance UNIV 1.51](http://www.sc.edu/policies/univ151.pdf)
+- [Responsible Use of Data, Technology, and User Credentials UNIV 1.52 ](http://www.sc.edu/policies/univ152.pdf)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)"
+What services does OSF integrate with?,"## OSF Integrations
+OSF integrates with many services you might already use.
+- [](https://help.osf.io/hc/en-us/categories/360001495973-Creating-and-Managing-Projects)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6737464)"
+What resources are available for research data management education?,"- [DataOne Research Data Management Education Modules](https://www.dataone.org/training/)
+- [MANTRA](https://mantra.ed.ac.uk/)\n\n[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4581796)"
+What is the problem with research published in journals?,"Statistically significant findings are more likely to be published. Because of bias and [](https://login.pallas2.tcl.sc.edu/login?url=https://journals.sagepub.com/doi/full/10.1177/2515245917747646), much of the research published in journals is irreproducible.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)"
+What are Registered Reports in OSF?,"Registrations in OSF are time-stamped, read-only versions of a research plan that explain how data will be collected, manipulated, and analyzed in advance. Providing this [](https://cos.io/rr/) to a participating journal effectively creates two peer-review processes.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)"
+What happens to articles resulting from accepted Registered Reports?,"Articles resulting from accepted Registered Reports are accepted by the journal regardless of outcome after the peer reviewed quality checks are met.
+
+- [](https://help.osf.io/hc/en-us/articles/360019930893-Register-Your-Project)
+- [](https://cos.io/blog/10-preregistration-tips/)
+- [](https://osf.io/93znh/?_ga=2.14338366.884352988.1557167302-1022953819.1557167302)
+- [](https://osf.io/458u9/)
+- [](https://osf.io/e6auq/wiki/Example%20Preregistrations/?_ga=2.77487644.801033972.1522869063-47245329.1522869063)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)"
+What workshops are available at the University Libraries?,"## Workshops
+University Libraries offers a variety of free workshops to support research and teaching at the university. Browse our full calendar of [library workshops](https://libcal.library.sc.edu/calendar/workshops) or explore the categories below. Select individual events for details and registration.
+
+#### Data Management Tools & Services
+Good data management improves research reproducibility, fosters innovation, and promotes compliance with funder requirements. Learn how to find, clean, preserve, share, and plan for the management of your research data.
+
+[Data management workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68187&inc=0)
+
+#### Publishing & Digital Scholarship
+Understanding the basics of scholarly publishing will help you leverage your rights as an author to increase your impact. Identify innovative ways to create and share your work through digital tools and methods.
+
+[Publishing & Digital Scholarship workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68188&inc=0)
+
+#### Text and Data Mining & Analysis
+With the rapidly increasing amounts of digital content available, it is possible to study your research data and texts through new and innovative methods. Learn the basic approaches to mining and analyzing your data sets and large bodies of texts.
+
+[Text and Data Mining workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68189&inc=0)
+
+#### Data Visualization Topics and Tools
+Visualizations (charts, graphs, plots, maps, etc.) have become an essential component in communicating data-intensive research and information. Learn about data visualization concepts, principles, and practices. Learn how to use software tools to create effective data visualizations.
+
+[Data Visualization workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68190&inc=0)
+
+#### AI (Artificial Intelligence) Knowledge, Tools, and Resources
+AI is everywhere these days. Learn AI terminology, how to create effective AI chatbot prompts and discover AI tools for various purposes.
+
+[AI workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68400&inc=0)
+
+#### Citation Management Tools
+A citation manager can change your research life by organizing references and doing the hard work when it comes to citing sources and creating a bibliography. Discover library support for learning EndNote, Mendeley and Zotero.
+
+[Citation Management workshops](https://libcal.library.sc.edu/calendar/workshops?ct=59986)
+
+#### Using Library Resources & Services
+Find out how to take advantage of all the library has to offer for your academic success. Whether you are new to using the library or looking for advanced research methods and resources, there is something for everyone.
+
+[Using library Resources workshops](https://libcal.library.sc.edu/calendar/workshops?ct=59984)
+
+#### Classroom & Teaching Tools
+Incorporating library and open resources into your courses can promote student success and save students money. Explore pedagogical strategies to use both copyrighted materials and open content with confidence.
+
+[Classroom & Teaching Tools workshops](https://libcal.library.sc.edu/calendar/workshops?ct=59985)"
+How do I schedule a workshop session or suggest additional workshop offerings?,"# Contact Us
+Do you have a group interested in scheduling a workshop session? Or have an idea for additional workshop offerings?
+Email us at [tclrefbi@mailbox.sc.edu](mailto:tclrefbi@mailbox.sc.edu).
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=5107061)"
+What other services are available for faculty and instructors?,"# Faculty and Instructor Services
+Learn about other ways that [University Libraries offers support for your teaching and research](/about/offices_and_divisions/university_libraries/find_services/faculty_services/index.php).
+Additional workshops and programs about teaching are offered through the [Center for Teaching Excellence](https://www.sc.edu/about/offices_and_divisions/cte/index.php).
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=5107061)"
+What happens if I make my OSF project public?,"You may choose to make your OSF project public. If you do, OSF's Preservation Fund preserves and maintains read access to any hosted data on OSF. This fund is sufficient for 50+ years of read access hosting at present costs.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738117)"
+Can I get a DOI for my project?,"## Get a DOI
+OSF assigns DOIs for entire projects but not individual data sets within projects.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738117)"
+How is OSF able to be free?,"## How Can OSF Be Free?
+[Center for Open Science](http://cos.io/)[federal agencies, private foundations, and commercial entities](https://cos.io/about_sponsors/)[their finances](https://cos.io/about/our-finances/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738117)"

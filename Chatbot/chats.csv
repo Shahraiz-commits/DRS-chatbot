@@ -52,3 +52,180 @@ input_time|conversation_id|count|intent|user_input| entity_name|entity_value|act
 2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B4|||||utter_happy|Great, carry on!
 2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U5|goodbye|bye|
 2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B5|||||utter_goodbye|Bye
+2025-02-23 00:20:16.024033|user_13928|U0|greet|/greet|
+2025-02-23 00:20:16.024532|user_13928|B0|||||utter_greet|Hey! How are you?
+2025-02-23 00:20:16.025034|user_13928|U1|greet|hi|
+2025-02-23 00:20:16.025034|user_13928|U2|greet|hi|
+2025-02-23 00:20:16.025034|user_13928|U3|nvivo_it|whats nvivo|
+2025-02-23 00:20:16.025533|user_13928|B1|||||utter_nvivo_it|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-02-23 00:20:16.026032|user_13928|U4|nlu_fallback|what is research data management|
+2025-02-23 00:20:16.026032|user_13928|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-23 00:20:34.343966|user_13928|U0|greet|/greet|
+2025-02-23 00:20:34.343966|user_13928|B0|||||utter_greet|Hey! How are you?
+2025-02-23 00:20:34.344465|user_13928|U1|greet|hi|
+2025-02-23 00:20:34.344465|user_13928|U2|greet|hi|
+2025-02-23 00:20:34.344465|user_13928|U3|nvivo_it|whats nvivo|
+2025-02-23 00:20:34.344465|user_13928|B1|||||utter_nvivo_it|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-02-23 00:20:34.345465|user_13928|U4|nlu_fallback|what is research data management|
+2025-02-23 00:20:34.345465|user_13928|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-23 00:20:34.345965|user_13928|U5|nlu_fallback|what is data management|
+2025-02-23 00:20:34.345965|user_13928|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-23 13:47:00.001746|user_92046|U0|greet|/greet|
+2025-02-23 13:47:00.002747|user_92046|B0|||||utter_greet|Hey! How are you?
+2025-02-23 13:47:00.002747|user_92046|U1|nlu_fallback|Can I share my research data in Scholar Commons|
+2025-02-23 13:47:00.002747|user_92046|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-23 13:47:45.645243|user_92046|U0|greet|/greet|
+2025-02-23 13:47:45.645243|user_92046|B0|||||utter_greet|Hey! How are you?
+2025-02-23 13:47:45.646243|user_92046|U1|nlu_fallback|Can I share my research data in Scholar Commons|
+2025-02-23 13:47:45.646243|user_92046|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-23 13:47:45.646243|user_92046|U2|assistance_available_data_analysis|Can the library help me with data analysis and statistics?|
+2025-02-23 13:47:45.646243|user_92046|B2|||||utter_assistance_available_data_analysis|## Data Analysis Software Assistance
+The University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data. Walk-ins to the University Libraries DataLab are welcome but we strongly encourage scheduled appointments to assure the best service. For more information about the data analysis and statistics assistance services and how to register, use the link below:
+- [Data Analysis and Statistics Services at the University Libraries](https://guides.library.sc.edu/c.php?g=1335227)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1316892)
+
+2025-02-23 13:47:45.647243|user_92046|U3|specialized_software_available_datalab|Does the library provide software for data analysis/statistics?|
+2025-02-23 13:47:45.647243|user_92046|B3|||||utter_specialized_software_available_datalab|## Available Specialized Software
+A variety of software related to data/spatial analysis and data/spatial visualization is installed on the computers in the DataLab. Instructional information about these software applications is available below.
+- [SPSS Statistics 29](https://www.youtube.com/watch?v=_zFBUfZEBWQ)
+- [SAS](https://www.guru99.com/sas-tutorial.html)
+- [SASOnDemand for Academics (Free)](https://www.sas.com/en_us/learn/academic-programs/software.html)
+- [Stata 18 SE](https://www.youtube.com/watch?v=M2E0_oWnJfk)
+- [NVivo 14](https://www.youtube.com/watch?v=2mS4lWyHuWg)
+- [Guide to NVivo](https://guides.library.sc.edu/nvivo)
+- [Jupyter Notebook - official documentation](https://docs.jupyter.org/en/latest/)
+- [Google Colab](https://colab.research.google.com/)
+- [R Studio](https://www.youtube.com/watch?v=FIrsOBy5k58)
+- [Visual Studio 2022](https://www.youtube.com/watch?v=urI8_beoziE)
+- [QGIS](https://www.youtube.com/watch?v=Eg4_duqH5Q4)
+- [ArcGIS](https://www.youtube.com/watch?v=1YhdQToyPg4&list=PLGZUzt4E4O2IJFxX_Bhp98MJEw5ItRtvb)ArcGIS is geographic information system (GIS) software. It is used for mapping, compiling, analyzing, and sharing mapped geospatial data and information.An individual user account is required to use ArcGIS. Visit the Gamecock Geospatial Portal to learn more and request an account.
+- [Gamecock Geospatial Portal](https://experience.arcgis.com/experience/e39af447524041deb40b0e2687af7e76)
+
+Additional computers () with ArcGIS, Nvivo, R, SAS, and SPSS software are available at the Gambrell Computing Center located at 817 Henderson Street, Columbia, SC 29208.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
+
+2025-02-23 13:47:45.648611|user_92046|U4|workshop_training_available_research|Do you provide training for data management?|
+2025-02-23 13:47:45.648611|user_92046|B4|||||utter_workshop_training_available_research|
+# Library Workshops
+Register for free [library workshops](/about/offices_and_divisions/university_libraries/find_services/workshops/index.php) on a variety of Research Data Management topics.
+
+2025-02-23 13:47:45.648611|user_92046|U5|nlu_fallback|How do I sign up for SHARPGrads?|
+2025-02-23 13:47:45.648611|user_92046|B5|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-23 13:49:06.718140|user_92046|U0|greet|/greet|
+2025-02-23 13:49:06.719340|user_92046|B0|||||utter_greet|Hey! How are you?
+2025-02-23 13:49:06.720339|user_92046|U1|nlu_fallback|Can I share my research data in Scholar Commons|
+2025-02-23 13:49:06.721338|user_92046|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-23 13:49:06.721338|user_92046|U2|assistance_available_data_analysis|Can the library help me with data analysis and statistics?|
+2025-02-23 13:49:06.722337|user_92046|B2|||||utter_assistance_available_data_analysis|## Data Analysis Software Assistance
+The University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data. Walk-ins to the University Libraries DataLab are welcome but we strongly encourage scheduled appointments to assure the best service. For more information about the data analysis and statistics assistance services and how to register, use the link below:
+- [Data Analysis and Statistics Services at the University Libraries](https://guides.library.sc.edu/c.php?g=1335227)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1316892)
+
+2025-02-23 13:49:06.724348|user_92046|U3|specialized_software_available_datalab|Does the library provide software for data analysis/statistics?|
+2025-02-23 13:49:06.724348|user_92046|B3|||||utter_specialized_software_available_datalab|## Available Specialized Software
+A variety of software related to data/spatial analysis and data/spatial visualization is installed on the computers in the DataLab. Instructional information about these software applications is available below.
+- [SPSS Statistics 29](https://www.youtube.com/watch?v=_zFBUfZEBWQ)
+- [SAS](https://www.guru99.com/sas-tutorial.html)
+- [SASOnDemand for Academics (Free)](https://www.sas.com/en_us/learn/academic-programs/software.html)
+- [Stata 18 SE](https://www.youtube.com/watch?v=M2E0_oWnJfk)
+- [NVivo 14](https://www.youtube.com/watch?v=2mS4lWyHuWg)
+- [Guide to NVivo](https://guides.library.sc.edu/nvivo)
+- [Jupyter Notebook - official documentation](https://docs.jupyter.org/en/latest/)
+- [Google Colab](https://colab.research.google.com/)
+- [R Studio](https://www.youtube.com/watch?v=FIrsOBy5k58)
+- [Visual Studio 2022](https://www.youtube.com/watch?v=urI8_beoziE)
+- [QGIS](https://www.youtube.com/watch?v=Eg4_duqH5Q4)
+- [ArcGIS](https://www.youtube.com/watch?v=1YhdQToyPg4&list=PLGZUzt4E4O2IJFxX_Bhp98MJEw5ItRtvb)ArcGIS is geographic information system (GIS) software. It is used for mapping, compiling, analyzing, and sharing mapped geospatial data and information.An individual user account is required to use ArcGIS. Visit the Gamecock Geospatial Portal to learn more and request an account.
+- [Gamecock Geospatial Portal](https://experience.arcgis.com/experience/e39af447524041deb40b0e2687af7e76)
+
+Additional computers () with ArcGIS, Nvivo, R, SAS, and SPSS software are available at the Gambrell Computing Center located at 817 Henderson Street, Columbia, SC 29208.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
+
+2025-02-23 13:49:06.729341|user_92046|U4|workshop_training_available_research|Do you provide training for data management?|
+2025-02-23 13:49:06.729341|user_92046|B4|||||utter_workshop_training_available_research|
+# Library Workshops
+Register for free [library workshops](/about/offices_and_divisions/university_libraries/find_services/workshops/index.php) on a variety of Research Data Management topics.
+
+2025-02-23 13:49:06.730341|user_92046|U5|nlu_fallback|How do I sign up for SHARPGrads?|
+2025-02-23 13:49:06.731346|user_92046|B5|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-23 13:49:06.731346|user_92046|U6|library_offer_workshop|What workshops does the library offer|
+2025-02-23 13:49:06.732334|user_92046|B6|||||utter_library_offer_workshop|You can register for free library workshops on a variety of research data and publishing topics. [Learn more here](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0)
+
+2025-02-23 13:49:06.732334|user_92046|U7|library_offer_workshop|What workshops do you have|
+2025-02-23 13:49:06.732334|user_92046|B7|||||utter_library_offer_workshop|You can register for free library workshops on a variety of research data and publishing topics. [Learn more here](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0)
+
+2025-02-23 13:49:06.732334|user_92046|U8|workshop_available_university_library|What workshops are available at the University Libraries?|
+2025-02-23 13:49:06.732334|user_92046|B8|||||utter_workshop_available_university_library|## Workshops
+University Libraries offers a variety of free workshops to support research and teaching at the university. Browse our full calendar of [library workshops](https://libcal.library.sc.edu/calendar/workshops) or explore the categories below. Select individual events for details and registration.
+
+#### Data Management Tools & Services
+Good data management improves research reproducibility, fosters innovation, and promotes compliance with funder requirements. Learn how to find, clean, preserve, share, and plan for the management of your research data.
+
+[Data management workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68187&inc=0)
+
+#### Publishing & Digital Scholarship
+Understanding the basics of scholarly publishing will help you leverage your rights as an author to increase your impact. Identify innovative ways to create and share your work through digital tools and methods.
+
+[Publishing & Digital Scholarship workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68188&inc=0)
+
+#### Text and Data Mining & Analysis
+With the rapidly increasing amounts of digital content available, it is possible to study your research data and texts through new and innovative methods. Learn the basic approaches to mining and analyzing your data sets and large bodies of texts.
+
+[Text and Data Mining workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68189&inc=0)
+
+#### Data Visualization Topics and Tools
+Visualizations (charts, graphs, plots, maps, etc.) have become an essential component in communicating data-intensive research and information. Learn about data visualization concepts, principles, and practices. Learn how to use software tools to create effective data visualizations.
+
+[Data Visualization workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68190&inc=0)
+
+#### AI (Artificial Intelligence) Knowledge, Tools, and Resources
+AI is everywhere these days. Learn AI terminology, how to create effective AI chatbot prompts and discover AI tools for various purposes.
+
+[AI workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68400&inc=0)
+
+#### Citation Management Tools
+A citation manager can change your research life by organizing references and doing the hard work when it comes to citing sources and creating a bibliography. Discover library support for learning EndNote, Mendeley and Zotero.
+
+[Citation Management workshops](https://libcal.library.sc.edu/calendar/workshops?ct=59986)
+
+#### Using Library Resources & Services
+Find out how to take advantage of all the library has to offer for your academic success. Whether you are new to using the library or looking for advanced research methods and resources, there is something for everyone.
+
+[Using library Resources workshops](https://libcal.library.sc.edu/calendar/workshops?ct=59984)
+
+#### Classroom & Teaching Tools
+Incorporating library and open resources into your courses can promote student success and save students money. Explore pedagogical strategies to use both copyrighted materials and open content with confidence.
+
+[Classroom & Teaching Tools workshops](https://libcal.library.sc.edu/calendar/workshops?ct=59985)
+
+2025-02-23 13:49:06.735333|user_92046|U9|library_offer_workshop|What workshops does the library have|
+2025-02-23 13:49:06.735333|user_92046|B9|||||utter_library_offer_workshop|You can register for free library workshops on a variety of research data and publishing topics. [Learn more here](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0)
+
+2025-02-23 13:49:06.736333|user_92046|U10|nlu_fallback|What workshops are available at the library|
+2025-02-23 13:49:06.736333|user_92046|B10|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question

@@ -9,10 +9,13 @@ import re # regex
 QUEUE_FILE = "queue.csv"
 
 # Starting point 
-URL = "https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php"
+URL = "https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php"
 
-# The https prefix to only include website links
-PREFIX ="https"
+# The https/http prefix to only include website links
+#PREFIX =(
+  #"https",
+  #"http",
+#)
 
 # Template to use for usc related websites search so we dont get info outside of usc
 TEMP = "sc.edu"
@@ -25,9 +28,10 @@ KEYWORD = (
 
 # Links we dont want to search inside. Give the user these links to explore the page on their own
 IGNORE_LINKS = (
-  "https://libcal.library.sc.edu/appointments/",
-  "https://libcal.library.sc.edu/calendar/workshops",
-  "auth/"
+  "appointments/",
+  "appointment/",
+  "/workshops",
+  "auth/",
 )
 
 # The list of the texts and their associated links
@@ -114,7 +118,7 @@ def format_text(page_text):
   html_string = "".join(str(tag) for tag in page_text)
   return html_string
 
-# Returns page text and any links found
+# Returns page text and any links found in this page
 def find_page_info(page_url):
   # Dont search for info on certain pages
   if any(link in page_url for link in IGNORE_LINKS):
@@ -169,14 +173,13 @@ while(queue_links):
   link_to_check = queue_links.pop(0) # get link in front of the queue 
   checked_links.add(link_to_check) # Mark as checked
   links, page_txt = find_page_info(link_to_check)
-  
   # Move on if page info returned nothing
   if(not links and not page_txt):
     continue
   
   # Save new links found on the page to queue
   for link in links:
-    if (link != None and (not link in checked_links) and (not link in queue_links) and (TEMP in link) and any(kword in link for kword in KEYWORD) and link.startswith(PREFIX)):
+    if (link != None and (not link in checked_links) and (not link in queue_links) and (TEMP in link) and any(kword in link for kword in KEYWORD) and (link.startswith("https") or link.startswith("http"))):
       queue_links.append(link)
       
   #for item in page_txt:
