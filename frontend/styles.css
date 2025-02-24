@@ -128,39 +128,80 @@ body {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .survey-content {
   background: #fff;
-  width: 400px;
-  margin: 100px auto;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 .survey-content h3 {
-  margin-top: 0;
+  margin: 0 0 20px 0;
   color: #73000a;
+  font-size: 24px;
+  text-align: center;
 }
 
 .survey-content label {
   display: block;
-  margin: 10px 0 5px;
+  margin: 15px 0 8px;
+  font-weight: bold;
+  color: #333;
 }
 
-.survey-content input,
+.survey-content input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.survey-content input:focus {
+  border-color: #73000a;
+  outline: none;
+}
+
 .survey-content textarea {
   width: 100%;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  margin-bottom: 10px;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  height: 120px;
+  resize: vertical;
+  font-size: 16px;
+  font-family: inherit;
+  transition: border-color 0.3s;
 }
 
-.survey-content textarea {
-  height: 100px;
-  resize: vertical;
+.survey-content textarea:focus {
+  border-color: #73000a;
+  outline: none;
+}
+
+#submitFeedbackBtn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #73000a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+#submitFeedbackBtn:hover {
+  background: #500008;
 }
 
 #inputArea {
@@ -258,4 +299,54 @@ body {
   height: 16px;
   vertical-align: middle;
   margin-left: 5px;
+}
+
+.feedback-container {
+  margin-top: 5px;
+}
+
+.feedback-buttons-wrapper {
+  text-align: right;
+}
+
+.feedback-input-wrapper {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.feedback-text-input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 4px;
+  border: 2px solid #ddd;
+  font-size: 14px;
+}
+
+.feedback-text-input.positive {
+  border-color: #28a745;
+}
+
+.feedback-text-input.negative {
+  border-color: #dc3545;
+}
+
+.submit-feedback-btn {
+  padding: 8px 16px;
+  background: #73000a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-feedback-btn:hover {
+  background: #500008;
+}
+
+.feedback-thank-you {
+  text-align: right;
+  color: #28a745;
+  font-size: 14px;
+  margin-top: 5px;
 }

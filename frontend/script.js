@@ -8,8 +8,9 @@ const submitFeedbackBtn = document.getElementById("submitFeedbackBtn");
 const senderID = "user_" + Math.floor(Math.random() * 100000);
 let messageCounter = 0;
 
-LOCAL_LINK = "http://localhost:5005/webhooks/rest/webhook"
-PROD_LINK = "https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook"
+LOCAL_LINK = "http://localhost:5005/webhooks/rest/webhook";
+PROD_LINK =
+  "https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook";
 
 function scrollChatToBottom() {
   chatLog.scrollTop = chatLog.scrollHeight;
@@ -18,7 +19,7 @@ function scrollChatToBottom() {
 function addMessageToChat(text, className) {
   const container = document.createElement("div");
   container.classList.add("message-container");
-  text = marked.parse(text)
+  text = marked.parse(text);
   const messageDiv = document.createElement("div");
   messageDiv.classList.add("message", className);
   // Replace full URLs with link icons
@@ -36,9 +37,18 @@ function addMessageToChat(text, className) {
     const messageId = `msg_${messageCounter++}`;
     messageDiv.setAttribute("data-message-id", messageId);
 
+    const feedbackContainer = document.createElement("div");
+    feedbackContainer.classList.add("feedback-container");
+
     feedbackDiv.innerHTML = `
-      <button class="feedback-btn thumbs-up" onclick="submitMessageFeedback('${messageId}', 'positive')">👍</button>
-      <button class="feedback-btn thumbs-down" onclick="submitMessageFeedback('${messageId}', 'negative')">👎</button>
+      <div class="feedback-buttons-wrapper">
+        <button class="feedback-btn thumbs-up" onclick="handleFeedbackClick('${messageId}', 'positive')">👍</button>
+        <button class="feedback-btn thumbs-down" onclick="handleFeedbackClick('${messageId}', 'negative')">👎</button>
+      </div>
+      <div class="feedback-input-wrapper" style="display: none;">
+        <input type="text" class="feedback-text-input" placeholder="">
+        <button class="submit-feedback-btn">Submit</button>
+      </div>
     `;
     container.appendChild(feedbackDiv);
   }
@@ -47,7 +57,45 @@ function addMessageToChat(text, className) {
   scrollChatToBottom();
 }
 
-function submitMessageFeedback(messageId, feedback) {
+function handleFeedbackClick(messageId, feedbackType) {
+  const messageContainer = document.querySelector(
+    `[data-message-id="${messageId}"]`
+  ).parentElement;
+  const feedbackWrapper = messageContainer.querySelector(
+    ".feedback-input-wrapper"
+  );
+  const textInput = messageContainer.querySelector(".feedback-text-input");
+  const buttons = messageContainer.querySelectorAll(".feedback-btn");
+
+  // Reset all buttons
+  buttons.forEach((btn) => btn.classList.remove("selected"));
+
+  // Select clicked button
+  messageContainer
+    .querySelector(feedbackType === "positive" ? ".thumbs-up" : ".thumbs-down")
+    .classList.add("selected");
+
+  // Show input wrapper
+  feedbackWrapper.style.display = "flex";
+
+  // Style based on feedback type
+  if (feedbackType === "positive") {
+    textInput.classList.remove("negative");
+    textInput.classList.add("positive");
+    textInput.placeholder = "Enter your positive feedback...";
+  } else {
+    textInput.classList.remove("positive");
+    textInput.classList.add("negative");
+    textInput.placeholder = "Enter your negative feedback...";
+  }
+
+  // Add submit handler
+  const submitBtn = messageContainer.querySelector(".submit-feedback-btn");
+  submitBtn.onclick = () =>
+    submitMessageFeedback(messageId, feedbackType, textInput.value);
+}
+
+function submitMessageFeedback(messageId, feedback, feedbackText) {
   const messageElement = document.querySelector(
     `[data-message-id="${messageId}"]`
   );
@@ -55,24 +103,34 @@ function submitMessageFeedback(messageId, feedback) {
   const feedbackData = {
     message: messageText,
     feedback: feedback,
+    feedbackText: feedbackText,
     timestamp: new Date().toISOString(),
   };
 
   // Send feedback to server
-  fetch("https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook/feedback", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(feedbackData),
-  }).then(() => {
-    // Update button styles
-    const container = messageElement.parentElement;
-    const buttons = container.querySelectorAll(".feedback-btn");
-    buttons.forEach((btn) => btn.classList.remove("selected"));
-    if (feedback === "positive") {
-      container.querySelector(".thumbs-up").classList.add("selected");
-    } else {
-      container.querySelector(".thumbs-down").classList.add("selected");
+  fetch(
+    "https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook/feedback",
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(feedbackData),
     }
+  ).then(() => {
+    // Hide input wrapper after submission
+    const container = messageElement.parentElement;
+    const feedbackWrapper = container.querySelector(".feedback-input-wrapper");
+    feedbackWrapper.style.display = "none";
+
+    // Show thank you message
+    const thankYouMsg = document.createElement("div");
+    thankYouMsg.classList.add("feedback-thank-you");
+    thankYouMsg.textContent = "Thank you for your feedback!";
+    feedbackWrapper.parentElement.appendChild(thankYouMsg);
+
+    // Remove thank you message after 3 seconds
+    setTimeout(() => {
+      thankYouMsg.remove();
+    }, 3000);
   });
 }
 
