@@ -19,7 +19,12 @@ function scrollChatToBottom() {
 function addMessageToChat(text, className) {
   const container = document.createElement("div");
   container.classList.add("message-container");
+
+  // Preserve intentional paragraph breaks while removing extra newlines
+  // Replace 2 or more newlines with exactly 2 newlines
+  text = text.replace(/\n{3,}/g, "\n\n").trim();
   text = marked.parse(text);
+
   const messageDiv = document.createElement("div");
   messageDiv.classList.add("message", className);
   // Replace full URLs with link icons
@@ -160,7 +165,6 @@ function sendMessageToRasa(message) {
     addMessageToChat(message, "userMsg");
   }
 
-  // OLD URL: http://localhost:5005/webhooks/rest/webhook
   fetch(LOCAL_LINK, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -168,11 +172,16 @@ function sendMessageToRasa(message) {
   })
     .then((response) => response.json())
     .then((data) => {
-      data.forEach((msgObj) => {
-        if (msgObj.text) {
-          addMessageToChat(msgObj.text, "botMsg");
-        }
-      });
+      // Combine all text responses into a single message
+      // Preserve original spacing between messages
+      const combinedText = data
+        .filter((msgObj) => msgObj.text)
+        .map((msgObj) => msgObj.text)
+        .join("\n\n");
+
+      if (combinedText) {
+        addMessageToChat(combinedText, "botMsg");
+      }
     })
     .catch((err) => console.error("Error:", err));
 }
@@ -232,6 +241,5 @@ submitFeedbackBtn.addEventListener("click", submitFeedback);
 
 // End chat button functionality
 document.getElementById("endChatBtn").addEventListener("click", () => {
-  sendMessageToRasa("goodbye");
   showSurvey();
 });

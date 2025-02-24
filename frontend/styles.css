@@ -75,7 +75,7 @@ body {
   color: #fff;
   padding: 15px;
   text-align: center;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: bold;
 }
 
@@ -128,6 +128,10 @@ body {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 1000;
+}
+
+/* Add a new class for when the modal is shown */
+.survey-modal.show {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -136,13 +140,13 @@ body {
 .survey-content {
   background: #fff;
   width: 500px;
-  padding: 30px;
+  padding: 70px;
   border-radius: 15px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 .survey-content h3 {
-  margin: 0 0 20px 0;
+  margin: 0 0 0px 0;
   color: #73000a;
   font-size: 24px;
   text-align: center;
@@ -174,11 +178,13 @@ body {
   padding: 12px;
   border: 2px solid #ddd;
   border-radius: 8px;
-  height: 120px;
+  height: 150px;
   resize: vertical;
   font-size: 16px;
   font-family: inherit;
   transition: border-color 0.3s;
+  resize: none;
+  overflow: hidden;
 }
 
 .survey-content textarea:focus {
@@ -251,16 +257,28 @@ body {
 }
 
 #endChatBtn {
-  background: #73000a;
+  background: linear-gradient(135deg, #8b0000, #6a0000);
   color: white;
+  padding: 12px 24px;
   border: none;
-  padding: 8px 15px;
-  border-radius: 20px;
+  border-radius: 25px;
+  font-size: 0.8em;
+  font-weight: bold;
   cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
 }
 
 #endChatBtn:hover {
-  background: #500008;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #6a0000, #8b0000);
+}
+
+#endChatBtn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .message-container {
@@ -349,4 +367,22 @@ body {
   color: #28a745;
   font-size: 14px;
   margin-top: 5px;
+}
+
+/* fix this later */
+.chatHeader {
+  text-align: center;
+  padding: 20px 0;
+  background: linear-gradient(135deg, #8b0000, #6a0000);
+  color: white;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chatHeader h1 {
+  font-size: 0.5em;
+  margin: 0;
+  font-family: "Georgia", serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
