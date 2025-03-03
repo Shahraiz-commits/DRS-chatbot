@@ -1,3 +1,5 @@
+import { saveMessageFeedback, saveSurveyFeedback } from "./firebase.js";
+
 const chatLog = document.getElementById("chatLog");
 const userInput = document.getElementById("userInput");
 const sendBtn = document.getElementById("sendBtn");
@@ -8,8 +10,8 @@ const submitFeedbackBtn = document.getElementById("submitFeedbackBtn");
 const senderID = "user_" + Math.floor(Math.random() * 100000);
 let messageCounter = 0;
 
-LOCAL_LINK = "http://localhost:5005/webhooks/rest/webhook";
-PROD_LINK =
+const LOCAL_LINK = "http://localhost:5005/webhooks/rest/webhook";
+const PROD_LINK =
   "https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook";
 
 function scrollChatToBottom() {
@@ -112,31 +114,61 @@ function submitMessageFeedback(messageId, feedback, feedbackText) {
     timestamp: new Date().toISOString(),
   };
 
-  // Send feedback to server
-  fetch(
-    "https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook/feedback",
-    {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(feedbackData),
-    }
-  ).then(() => {
-    // Hide input wrapper after submission
-    const container = messageElement.parentElement;
-    const feedbackWrapper = container.querySelector(".feedback-input-wrapper");
-    feedbackWrapper.style.display = "none";
+  // Save feedback to Firebase
+  saveMessageFeedback(feedbackData)
+    .then(() => {
+      // Hide input wrapper after submission
+      const container = messageElement.parentElement;
+      const feedbackWrapper = container.querySelector(
+        ".feedback-input-wrapper"
+      );
+      feedbackWrapper.style.display = "none";
 
-    // Show thank you message
-    const thankYouMsg = document.createElement("div");
-    thankYouMsg.classList.add("feedback-thank-you");
-    thankYouMsg.textContent = "Thank you for your feedback!";
-    feedbackWrapper.parentElement.appendChild(thankYouMsg);
+      // Show thank you message
+      const thankYouMsg = document.createElement("div");
+      thankYouMsg.classList.add("feedback-thank-you");
+      thankYouMsg.textContent = "Thank you for your feedback!";
+      feedbackWrapper.parentElement.appendChild(thankYouMsg);
 
-    // Remove thank you message after 3 seconds
-    setTimeout(() => {
-      thankYouMsg.remove();
-    }, 3000);
-  });
+      // Remove thank you message after 3 seconds
+      setTimeout(() => {
+        thankYouMsg.remove();
+      }, 3000);
+    })
+    .catch((error) => {
+      console.error("Error saving message feedback:", error);
+    });
+}
+
+function submitFeedback() {
+  const rating = ratingInput.value;
+  const comments = commentsInput.value;
+
+  if (!rating || rating < 1 || rating > 5) {
+    alert("Please provide a valid rating between 1 and 5.");
+    return;
+  }
+
+  // Construct survey feedback data
+  const feedbackData = {
+    rating: rating,
+    comments: comments,
+    sender: senderID,
+    timestamp: new Date().toISOString(),
+  };
+
+  // Save survey feedback to Firebase
+  saveSurveyFeedback(feedbackData)
+    .then(() => {
+      console.log("Survey feedback submitted to Firebase");
+      survey.style.display = "none";
+      ratingInput.value = "";
+      commentsInput.value = "";
+      addMessageToChat("Thank you for your feedback!", "botMsg");
+    })
+    .catch((error) => {
+      console.error("Error saving survey feedback:", error);
+    });
 }
 
 // initial greeting
@@ -186,38 +218,15 @@ function sendMessageToRasa(message) {
     .catch((err) => console.error("Error:", err));
 }
 
+// brooooooooooooo css is booty
 function showSurvey() {
+  // Set survey element styling to center it on the screen
   survey.style.display = "block";
-}
-
-function submitFeedback() {
-  const rating = ratingInput.value;
-  const comments = commentsInput.value;
-
-  if (!rating || rating < 1 || rating > 5) {
-    alert("Please provide a valid rating between 1 and 5.");
-    return;
-  }
-
-  const feedbackPayload = {
-    sender: senderID,
-    message: `/rate_experience{"rating": "${rating}", "comments": "${comments}"}`,
-  };
-
-  fetch(LOCAL_LINK, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(feedbackPayload),
-  })
-    .then((response) => response.json())
-    .then((data) => {
-      console.log("Feedback submitted:", data);
-      survey.style.display = "none";
-      ratingInput.value = "";
-      commentsInput.value = "";
-      addMessageToChat("Thank you for your feedback!", "botMsg");
-    })
-    .catch((err) => console.error("Error:", err));
+  survey.style.position = "fixed";
+  survey.style.top = "50%";
+  survey.style.left = "50%";
+  survey.style.transform = "translate(-50%, -50%)";
+  survey.style.zIndex = "1000"; // optional, ensure it's on top
 }
 
 // Event Listeners
@@ -243,3 +252,6 @@ submitFeedbackBtn.addEventListener("click", submitFeedback);
 document.getElementById("endChatBtn").addEventListener("click", () => {
   showSurvey();
 });
+
+// Expose handleFeedbackClick to the global scope for inline event handlers
+window.handleFeedbackClick = handleFeedbackClick;

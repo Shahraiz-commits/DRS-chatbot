@@ -229,3 +229,7 @@ Incorporating library and open resources into your courses can promote student s
 
 2025-02-23 13:49:06.736333|user_92046|U10|nlu_fallback|What workshops are available at the library|
 2025-02-23 13:49:06.736333|user_92046|B10|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-02-24 12:05:40.014402|user_95894|U0|greet|/greet|
+2025-02-24 12:05:40.017401|user_95894|B0|||||utter_greet|Hey! How are you?
+2025-02-24 12:05:40.017401|user_95894|U1|nlu_fallback|Do you provide training for data management?|
+2025-02-24 12:05:40.017401|user_95894|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
