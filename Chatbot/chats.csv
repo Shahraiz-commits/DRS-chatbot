@@ -52,184 +52,430 @@ input_time|conversation_id|count|intent|user_input| entity_name|entity_value|act
 2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B4|||||utter_happy|Great, carry on!
 2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U5|goodbye|bye|
 2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B5|||||utter_goodbye|Bye
-2025-02-23 00:20:16.024033|user_13928|U0|greet|/greet|
-2025-02-23 00:20:16.024532|user_13928|B0|||||utter_greet|Hey! How are you?
-2025-02-23 00:20:16.025034|user_13928|U1|greet|hi|
-2025-02-23 00:20:16.025034|user_13928|U2|greet|hi|
-2025-02-23 00:20:16.025034|user_13928|U3|nvivo_it|whats nvivo|
-2025-02-23 00:20:16.025533|user_13928|B1|||||utter_nvivo_it|## What is NVivo?
-NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
-- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+2025-03-02 13:44:45.373839|user_56634|U0|greet|/greet|
+2025-03-02 13:44:45.373885|user_56634|B0|||||utter_greet|Hey! How are you?
+2025-03-02 13:44:45.373910|user_56634|U1|nlu_fallback|how do i cite in MLA|
+2025-03-02 13:44:45.373923|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:44:50.536249|user_56634|U0|greet|/greet|
+2025-03-02 13:44:50.536292|user_56634|B0|||||utter_greet|Hey! How are you?
+2025-03-02 13:44:50.536316|user_56634|U1|nlu_fallback|how do i cite in MLA|
+2025-03-02 13:44:50.536343|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:44:50.536374|user_56634|U2|nlu_fallback|how to cite MLA 9|
+2025-03-02 13:44:50.536400|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:44:52.956964|user_56634|U0|greet|/greet|
+2025-03-02 13:44:52.957004|user_56634|B0|||||utter_greet|Hey! How are you?
+2025-03-02 13:44:52.957030|user_56634|U1|nlu_fallback|how do i cite in MLA|
+2025-03-02 13:44:52.957058|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:44:52.957089|user_56634|U2|nlu_fallback|how to cite MLA 9|
+2025-03-02 13:44:52.957115|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:44:52.957148|user_56634|U3|nlu_fallback|MLA 9|
+2025-03-02 13:44:52.957174|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:01.957735|user_56634|U0|greet|/greet|
+2025-03-02 13:45:01.957781|user_56634|B0|||||utter_greet|Hey! How are you?
+2025-03-02 13:45:01.957806|user_56634|U1|nlu_fallback|how do i cite in MLA|
+2025-03-02 13:45:01.957834|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:01.957865|user_56634|U2|nlu_fallback|how to cite MLA 9|
+2025-03-02 13:45:01.957890|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:01.957924|user_56634|U3|nlu_fallback|MLA 9|
+2025-03-02 13:45:01.957950|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:01.957983|user_56634|U4|nlu_fallback|library hours|
+2025-03-02 13:45:01.958010|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:52.736914|user_56634|U0|greet|/greet|
+2025-03-02 13:45:52.736956|user_56634|B0|||||utter_greet|Hey! How are you?
+2025-03-02 13:45:52.736980|user_56634|U1|nlu_fallback|how do i cite in MLA|
+2025-03-02 13:45:52.737007|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:52.737038|user_56634|U2|nlu_fallback|how to cite MLA 9|
+2025-03-02 13:45:52.737064|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:52.737095|user_56634|U3|nlu_fallback|MLA 9|
+2025-03-02 13:45:52.737122|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:52.737153|user_56634|U4|nlu_fallback|library hours|
+2025-03-02 13:45:52.737180|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:52.737222|user_56634|U5|library_hour|what are the library hours|
+2025-03-02 13:45:52.737251|user_56634|B5|||||utter_library_hour|# Hours
+Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
 
-- Identify themes and topics using codes
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
 
-- Run queries to explore data
+2025-03-02 13:45:52.737274|user_56634|U6|ask_library_open|is the library open?|
+2025-03-02 13:45:52.737325|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
+2025-03-02 13:45:52.737353|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
+### Available Services
+Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
 
-- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+#### Digital Scholarship
+Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
 
-[Learn more here](https://guides.library.sc.edu/nvivo)
+[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
 
-2025-02-23 00:20:16.026032|user_13928|U4|nlu_fallback|what is research data management|
-2025-02-23 00:20:16.026032|user_13928|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-02-23 00:20:34.343966|user_13928|U0|greet|/greet|
-2025-02-23 00:20:34.343966|user_13928|B0|||||utter_greet|Hey! How are you?
-2025-02-23 00:20:34.344465|user_13928|U1|greet|hi|
-2025-02-23 00:20:34.344465|user_13928|U2|greet|hi|
-2025-02-23 00:20:34.344465|user_13928|U3|nvivo_it|whats nvivo|
-2025-02-23 00:20:34.344465|user_13928|B1|||||utter_nvivo_it|## What is NVivo?
-NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
-- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+#### Content Mining
+Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
 
-- Identify themes and topics using codes
+[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
 
-- Run queries to explore data
+#### Web Hosting for Digital Projects
+Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
 
-- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+[Web Hosting for Digital Projects](https://uofsccreate.org)
 
-[Learn more here](https://guides.library.sc.edu/nvivo)
+#### Electronic Journal Hosting
+Create and manage an open access journal with software and support from University Libraries.
 
-2025-02-23 00:20:34.345465|user_13928|U4|nlu_fallback|what is research data management|
-2025-02-23 00:20:34.345465|user_13928|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-02-23 00:20:34.345965|user_13928|U5|nlu_fallback|what is data management|
-2025-02-23 00:20:34.345965|user_13928|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-02-23 13:47:00.001746|user_92046|U0|greet|/greet|
-2025-02-23 13:47:00.002747|user_92046|B0|||||utter_greet|Hey! How are you?
-2025-02-23 13:47:00.002747|user_92046|U1|nlu_fallback|Can I share my research data in Scholar Commons|
-2025-02-23 13:47:00.002747|user_92046|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-02-23 13:47:45.645243|user_92046|U0|greet|/greet|
-2025-02-23 13:47:45.645243|user_92046|B0|||||utter_greet|Hey! How are you?
-2025-02-23 13:47:45.646243|user_92046|U1|nlu_fallback|Can I share my research data in Scholar Commons|
-2025-02-23 13:47:45.646243|user_92046|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-02-23 13:47:45.646243|user_92046|U2|assistance_available_data_analysis|Can the library help me with data analysis and statistics?|
-2025-02-23 13:47:45.646243|user_92046|B2|||||utter_assistance_available_data_analysis|## Data Analysis Software Assistance
-The University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data. Walk-ins to the University Libraries DataLab are welcome but we strongly encourage scheduled appointments to assure the best service. For more information about the data analysis and statistics assistance services and how to register, use the link below:
-- [Data Analysis and Statistics Services at the University Libraries](https://guides.library.sc.edu/c.php?g=1335227)
+[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
 
-[Learn more here](https://guides.library.sc.edu/c.php?g=1316892)
+#### Digital Collections
+Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
 
-2025-02-23 13:47:45.647243|user_92046|U3|specialized_software_available_datalab|Does the library provide software for data analysis/statistics?|
-2025-02-23 13:47:45.647243|user_92046|B3|||||utter_specialized_software_available_datalab|## Available Specialized Software
-A variety of software related to data/spatial analysis and data/spatial visualization is installed on the computers in the DataLab. Instructional information about these software applications is available below.
-- [SPSS Statistics 29](https://www.youtube.com/watch?v=_zFBUfZEBWQ)
-- [SAS](https://www.guru99.com/sas-tutorial.html)
-- [SASOnDemand for Academics (Free)](https://www.sas.com/en_us/learn/academic-programs/software.html)
-- [Stata 18 SE](https://www.youtube.com/watch?v=M2E0_oWnJfk)
-- [NVivo 14](https://www.youtube.com/watch?v=2mS4lWyHuWg)
-- [Guide to NVivo](https://guides.library.sc.edu/nvivo)
-- [Jupyter Notebook - official documentation](https://docs.jupyter.org/en/latest/)
-- [Google Colab](https://colab.research.google.com/)
-- [R Studio](https://www.youtube.com/watch?v=FIrsOBy5k58)
-- [Visual Studio 2022](https://www.youtube.com/watch?v=urI8_beoziE)
-- [QGIS](https://www.youtube.com/watch?v=Eg4_duqH5Q4)
-- [ArcGIS](https://www.youtube.com/watch?v=1YhdQToyPg4&list=PLGZUzt4E4O2IJFxX_Bhp98MJEw5ItRtvb)ArcGIS is geographic information system (GIS) software. It is used for mapping, compiling, analyzing, and sharing mapped geospatial data and information.An individual user account is required to use ArcGIS. Visit the Gamecock Geospatial Portal to learn more and request an account.
-- [Gamecock Geospatial Portal](https://experience.arcgis.com/experience/e39af447524041deb40b0e2687af7e76)
+[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
 
-Additional computers () with ArcGIS, Nvivo, R, SAS, and SPSS software are available at the Gambrell Computing Center located at 817 Henderson Street, Columbia, SC 29208.
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
 
-[Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
+2025-03-02 13:45:52.737388|user_56634|U8|nlu_fallback|whats content mining|
+2025-03-02 13:45:52.737416|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:59.580511|user_56634|U0|greet|/greet|
+2025-03-02 13:45:59.580550|user_56634|B0|||||utter_greet|Hey! How are you?
+2025-03-02 13:45:59.580573|user_56634|U1|nlu_fallback|how do i cite in MLA|
+2025-03-02 13:45:59.580617|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:59.580648|user_56634|U2|nlu_fallback|how to cite MLA 9|
+2025-03-02 13:45:59.580673|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:59.580707|user_56634|U3|nlu_fallback|MLA 9|
+2025-03-02 13:45:59.580732|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:59.580763|user_56634|U4|nlu_fallback|library hours|
+2025-03-02 13:45:59.580788|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:59.580819|user_56634|U5|library_hour|what are the library hours|
+2025-03-02 13:45:59.580844|user_56634|B5|||||utter_library_hour|# Hours
+Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
 
-2025-02-23 13:47:45.648611|user_92046|U4|workshop_training_available_research|Do you provide training for data management?|
-2025-02-23 13:47:45.648611|user_92046|B4|||||utter_workshop_training_available_research|
-# Library Workshops
-Register for free [library workshops](/about/offices_and_divisions/university_libraries/find_services/workshops/index.php) on a variety of Research Data Management topics.
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
 
-2025-02-23 13:47:45.648611|user_92046|U5|nlu_fallback|How do I sign up for SHARPGrads?|
-2025-02-23 13:47:45.648611|user_92046|B5|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-02-23 13:49:06.718140|user_92046|U0|greet|/greet|
-2025-02-23 13:49:06.719340|user_92046|B0|||||utter_greet|Hey! How are you?
-2025-02-23 13:49:06.720339|user_92046|U1|nlu_fallback|Can I share my research data in Scholar Commons|
-2025-02-23 13:49:06.721338|user_92046|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-02-23 13:49:06.721338|user_92046|U2|assistance_available_data_analysis|Can the library help me with data analysis and statistics?|
-2025-02-23 13:49:06.722337|user_92046|B2|||||utter_assistance_available_data_analysis|## Data Analysis Software Assistance
-The University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data. Walk-ins to the University Libraries DataLab are welcome but we strongly encourage scheduled appointments to assure the best service. For more information about the data analysis and statistics assistance services and how to register, use the link below:
-- [Data Analysis and Statistics Services at the University Libraries](https://guides.library.sc.edu/c.php?g=1335227)
+2025-03-02 13:45:59.580867|user_56634|U6|ask_library_open|is the library open?|
+2025-03-02 13:45:59.580906|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
+2025-03-02 13:45:59.580931|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
+### Available Services
+Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
 
-[Learn more here](https://guides.library.sc.edu/c.php?g=1316892)
+#### Digital Scholarship
+Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
 
-2025-02-23 13:49:06.724348|user_92046|U3|specialized_software_available_datalab|Does the library provide software for data analysis/statistics?|
-2025-02-23 13:49:06.724348|user_92046|B3|||||utter_specialized_software_available_datalab|## Available Specialized Software
-A variety of software related to data/spatial analysis and data/spatial visualization is installed on the computers in the DataLab. Instructional information about these software applications is available below.
-- [SPSS Statistics 29](https://www.youtube.com/watch?v=_zFBUfZEBWQ)
-- [SAS](https://www.guru99.com/sas-tutorial.html)
-- [SASOnDemand for Academics (Free)](https://www.sas.com/en_us/learn/academic-programs/software.html)
-- [Stata 18 SE](https://www.youtube.com/watch?v=M2E0_oWnJfk)
-- [NVivo 14](https://www.youtube.com/watch?v=2mS4lWyHuWg)
-- [Guide to NVivo](https://guides.library.sc.edu/nvivo)
-- [Jupyter Notebook - official documentation](https://docs.jupyter.org/en/latest/)
-- [Google Colab](https://colab.research.google.com/)
-- [R Studio](https://www.youtube.com/watch?v=FIrsOBy5k58)
-- [Visual Studio 2022](https://www.youtube.com/watch?v=urI8_beoziE)
-- [QGIS](https://www.youtube.com/watch?v=Eg4_duqH5Q4)
-- [ArcGIS](https://www.youtube.com/watch?v=1YhdQToyPg4&list=PLGZUzt4E4O2IJFxX_Bhp98MJEw5ItRtvb)ArcGIS is geographic information system (GIS) software. It is used for mapping, compiling, analyzing, and sharing mapped geospatial data and information.An individual user account is required to use ArcGIS. Visit the Gamecock Geospatial Portal to learn more and request an account.
-- [Gamecock Geospatial Portal](https://experience.arcgis.com/experience/e39af447524041deb40b0e2687af7e76)
+[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
 
-Additional computers () with ArcGIS, Nvivo, R, SAS, and SPSS software are available at the Gambrell Computing Center located at 817 Henderson Street, Columbia, SC 29208.
+#### Content Mining
+Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
 
-[Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
+[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
 
-2025-02-23 13:49:06.729341|user_92046|U4|workshop_training_available_research|Do you provide training for data management?|
-2025-02-23 13:49:06.729341|user_92046|B4|||||utter_workshop_training_available_research|
-# Library Workshops
-Register for free [library workshops](/about/offices_and_divisions/university_libraries/find_services/workshops/index.php) on a variety of Research Data Management topics.
+#### Web Hosting for Digital Projects
+Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
 
-2025-02-23 13:49:06.730341|user_92046|U5|nlu_fallback|How do I sign up for SHARPGrads?|
-2025-02-23 13:49:06.731346|user_92046|B5|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-02-23 13:49:06.731346|user_92046|U6|library_offer_workshop|What workshops does the library offer|
-2025-02-23 13:49:06.732334|user_92046|B6|||||utter_library_offer_workshop|You can register for free library workshops on a variety of research data and publishing topics. [Learn more here](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0)
+[Web Hosting for Digital Projects](https://uofsccreate.org)
 
-2025-02-23 13:49:06.732334|user_92046|U7|library_offer_workshop|What workshops do you have|
-2025-02-23 13:49:06.732334|user_92046|B7|||||utter_library_offer_workshop|You can register for free library workshops on a variety of research data and publishing topics. [Learn more here](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0)
+#### Electronic Journal Hosting
+Create and manage an open access journal with software and support from University Libraries.
 
-2025-02-23 13:49:06.732334|user_92046|U8|workshop_available_university_library|What workshops are available at the University Libraries?|
-2025-02-23 13:49:06.732334|user_92046|B8|||||utter_workshop_available_university_library|## Workshops
-University Libraries offers a variety of free workshops to support research and teaching at the university. Browse our full calendar of [library workshops](https://libcal.library.sc.edu/calendar/workshops) or explore the categories below. Select individual events for details and registration.
+[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
 
-#### Data Management Tools & Services
-Good data management improves research reproducibility, fosters innovation, and promotes compliance with funder requirements. Learn how to find, clean, preserve, share, and plan for the management of your research data.
+#### Digital Collections
+Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
 
-[Data management workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68187&inc=0)
+[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
 
-#### Publishing & Digital Scholarship
-Understanding the basics of scholarly publishing will help you leverage your rights as an author to increase your impact. Identify innovative ways to create and share your work through digital tools and methods.
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
 
-[Publishing & Digital Scholarship workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68188&inc=0)
+2025-03-02 13:45:59.580967|user_56634|U8|nlu_fallback|whats content mining|
+2025-03-02 13:45:59.580994|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:45:59.581025|user_56634|U9|nlu_fallback|content mining examples?|
+2025-03-02 13:45:59.581051|user_56634|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:33.146286|user_56634|U0|greet|/greet|
+2025-03-02 13:46:33.146328|user_56634|B0|||||utter_greet|Hey! How are you?
+2025-03-02 13:46:33.146352|user_56634|U1|nlu_fallback|how do i cite in MLA|
+2025-03-02 13:46:33.146380|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:33.146413|user_56634|U2|nlu_fallback|how to cite MLA 9|
+2025-03-02 13:46:33.146438|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:33.146471|user_56634|U3|nlu_fallback|MLA 9|
+2025-03-02 13:46:33.146496|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:33.146542|user_56634|U4|nlu_fallback|library hours|
+2025-03-02 13:46:33.146569|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:33.146603|user_56634|U5|library_hour|what are the library hours|
+2025-03-02 13:46:33.146629|user_56634|B5|||||utter_library_hour|# Hours
+Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
 
-#### Text and Data Mining & Analysis
-With the rapidly increasing amounts of digital content available, it is possible to study your research data and texts through new and innovative methods. Learn the basic approaches to mining and analyzing your data sets and large bodies of texts.
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
 
-[Text and Data Mining workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68189&inc=0)
+2025-03-02 13:46:33.146653|user_56634|U6|ask_library_open|is the library open?|
+2025-03-02 13:46:33.146704|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
+2025-03-02 13:46:33.146732|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
+### Available Services
+Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
 
-#### Data Visualization Topics and Tools
-Visualizations (charts, graphs, plots, maps, etc.) have become an essential component in communicating data-intensive research and information. Learn about data visualization concepts, principles, and practices. Learn how to use software tools to create effective data visualizations.
+#### Digital Scholarship
+Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
 
-[Data Visualization workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68190&inc=0)
+[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
 
-#### AI (Artificial Intelligence) Knowledge, Tools, and Resources
-AI is everywhere these days. Learn AI terminology, how to create effective AI chatbot prompts and discover AI tools for various purposes.
+#### Content Mining
+Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
 
-[AI workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68400&inc=0)
+[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
 
-#### Citation Management Tools
-A citation manager can change your research life by organizing references and doing the hard work when it comes to citing sources and creating a bibliography. Discover library support for learning EndNote, Mendeley and Zotero.
+#### Web Hosting for Digital Projects
+Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
 
-[Citation Management workshops](https://libcal.library.sc.edu/calendar/workshops?ct=59986)
+[Web Hosting for Digital Projects](https://uofsccreate.org)
 
-#### Using Library Resources & Services
-Find out how to take advantage of all the library has to offer for your academic success. Whether you are new to using the library or looking for advanced research methods and resources, there is something for everyone.
+#### Electronic Journal Hosting
+Create and manage an open access journal with software and support from University Libraries.
 
-[Using library Resources workshops](https://libcal.library.sc.edu/calendar/workshops?ct=59984)
+[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
 
-#### Classroom & Teaching Tools
-Incorporating library and open resources into your courses can promote student success and save students money. Explore pedagogical strategies to use both copyrighted materials and open content with confidence.
+#### Digital Collections
+Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
 
-[Classroom & Teaching Tools workshops](https://libcal.library.sc.edu/calendar/workshops?ct=59985)
+[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
 
-2025-02-23 13:49:06.735333|user_92046|U9|library_offer_workshop|What workshops does the library have|
-2025-02-23 13:49:06.735333|user_92046|B9|||||utter_library_offer_workshop|You can register for free library workshops on a variety of research data and publishing topics. [Learn more here](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0)
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
 
-2025-02-23 13:49:06.736333|user_92046|U10|nlu_fallback|What workshops are available at the library|
-2025-02-23 13:49:06.736333|user_92046|B10|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-02-24 12:05:40.014402|user_95894|U0|greet|/greet|
-2025-02-24 12:05:40.017401|user_95894|B0|||||utter_greet|Hey! How are you?
-2025-02-24 12:05:40.017401|user_95894|U1|nlu_fallback|Do you provide training for data management?|
-2025-02-24 12:05:40.017401|user_95894|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:33.146768|user_56634|U8|nlu_fallback|whats content mining|
+2025-03-02 13:46:33.146795|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:33.146827|user_56634|U9|nlu_fallback|content mining examples?|
+2025-03-02 13:46:33.146854|user_56634|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:33.146886|user_56634|U10|nlu_fallback|what is webscraping|
+2025-03-02 13:46:33.146912|user_56634|B9|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:48.473316|user_56634|U0|greet|/greet|
+2025-03-02 13:46:48.473361|user_56634|B0|||||utter_greet|Hey! How are you?
+2025-03-02 13:46:48.473385|user_56634|U1|nlu_fallback|how do i cite in MLA|
+2025-03-02 13:46:48.473412|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:48.473444|user_56634|U2|nlu_fallback|how to cite MLA 9|
+2025-03-02 13:46:48.473470|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:48.473501|user_56634|U3|nlu_fallback|MLA 9|
+2025-03-02 13:46:48.473528|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:48.473560|user_56634|U4|nlu_fallback|library hours|
+2025-03-02 13:46:48.473585|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:48.473618|user_56634|U5|library_hour|what are the library hours|
+2025-03-02 13:46:48.473645|user_56634|B5|||||utter_library_hour|# Hours
+Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
+
+2025-03-02 13:46:48.473667|user_56634|U6|ask_library_open|is the library open?|
+2025-03-02 13:46:48.473717|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
+2025-03-02 13:46:48.473744|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
+### Available Services
+Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
+
+#### Digital Scholarship
+Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
+
+[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
+
+#### Content Mining
+Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
+
+[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
+
+#### Web Hosting for Digital Projects
+Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
+
+[Web Hosting for Digital Projects](https://uofsccreate.org)
+
+#### Electronic Journal Hosting
+Create and manage an open access journal with software and support from University Libraries.
+
+[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
+
+#### Digital Collections
+Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
+
+[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-02 13:46:48.473779|user_56634|U8|nlu_fallback|whats content mining|
+2025-03-02 13:46:48.473806|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:48.473837|user_56634|U9|nlu_fallback|content mining examples?|
+2025-03-02 13:46:48.473862|user_56634|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:48.473896|user_56634|U10|nlu_fallback|what is webscraping|
+2025-03-02 13:46:48.473922|user_56634|B9|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:48.473954|user_56634|U11|nlu_fallback|tell me baoyt open access journals|
+2025-03-02 13:46:48.473980|user_56634|B10|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:52.686234|user_56634|U0|greet|/greet|
+2025-03-02 13:46:52.686275|user_56634|B0|||||utter_greet|Hey! How are you?
+2025-03-02 13:46:52.686298|user_56634|U1|nlu_fallback|how do i cite in MLA|
+2025-03-02 13:46:52.686325|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:52.686358|user_56634|U2|nlu_fallback|how to cite MLA 9|
+2025-03-02 13:46:52.686384|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:52.686417|user_56634|U3|nlu_fallback|MLA 9|
+2025-03-02 13:46:52.686443|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:52.686474|user_56634|U4|nlu_fallback|library hours|
+2025-03-02 13:46:52.686500|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:52.686532|user_56634|U5|library_hour|what are the library hours|
+2025-03-02 13:46:52.686566|user_56634|B5|||||utter_library_hour|# Hours
+Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
+
+2025-03-02 13:46:52.686591|user_56634|U6|ask_library_open|is the library open?|
+2025-03-02 13:46:52.686640|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
+2025-03-02 13:46:52.686668|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
+### Available Services
+Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
+
+#### Digital Scholarship
+Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
+
+[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
+
+#### Content Mining
+Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
+
+[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
+
+#### Web Hosting for Digital Projects
+Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
+
+[Web Hosting for Digital Projects](https://uofsccreate.org)
+
+#### Electronic Journal Hosting
+Create and manage an open access journal with software and support from University Libraries.
+
+[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
+
+#### Digital Collections
+Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
+
+[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-02 13:46:52.686703|user_56634|U8|nlu_fallback|whats content mining|
+2025-03-02 13:46:52.686730|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:52.686763|user_56634|U9|nlu_fallback|content mining examples?|
+2025-03-02 13:46:52.686789|user_56634|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:52.686821|user_56634|U10|nlu_fallback|what is webscraping|
+2025-03-02 13:46:52.686847|user_56634|B9|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:52.686879|user_56634|U11|nlu_fallback|tell me baoyt open access journals|
+2025-03-02 13:46:52.686905|user_56634|B10|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:46:52.686937|user_56634|U12|nlu_fallback|open access journals|
+2025-03-02 13:46:52.686961|user_56634|B11|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:14.977020|user_56634|U0|greet|/greet|
+2025-03-02 13:47:14.977067|user_56634|B0|||||utter_greet|Hey! How are you?
+2025-03-02 13:47:14.977092|user_56634|U1|nlu_fallback|how do i cite in MLA|
+2025-03-02 13:47:14.977120|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:14.977152|user_56634|U2|nlu_fallback|how to cite MLA 9|
+2025-03-02 13:47:14.977178|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:14.977211|user_56634|U3|nlu_fallback|MLA 9|
+2025-03-02 13:47:14.977235|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:14.977269|user_56634|U4|nlu_fallback|library hours|
+2025-03-02 13:47:14.977294|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:14.977328|user_56634|U5|library_hour|what are the library hours|
+2025-03-02 13:47:14.977354|user_56634|B5|||||utter_library_hour|# Hours
+Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
+
+2025-03-02 13:47:14.977377|user_56634|U6|ask_library_open|is the library open?|
+2025-03-02 13:47:14.977427|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
+2025-03-02 13:47:14.977454|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
+### Available Services
+Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
+
+#### Digital Scholarship
+Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
+
+[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
+
+#### Content Mining
+Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
+
+[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
+
+#### Web Hosting for Digital Projects
+Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
+
+[Web Hosting for Digital Projects](https://uofsccreate.org)
+
+#### Electronic Journal Hosting
+Create and manage an open access journal with software and support from University Libraries.
+
+[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
+
+#### Digital Collections
+Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
+
+[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-02 13:47:14.977489|user_56634|U8|nlu_fallback|whats content mining|
+2025-03-02 13:47:14.977517|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:14.977548|user_56634|U9|nlu_fallback|content mining examples?|
+2025-03-02 13:47:14.977574|user_56634|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:14.977608|user_56634|U10|nlu_fallback|what is webscraping|
+2025-03-02 13:47:14.977632|user_56634|B9|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:14.977674|user_56634|U11|nlu_fallback|tell me baoyt open access journals|
+2025-03-02 13:47:14.977699|user_56634|B10|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:14.977733|user_56634|U12|nlu_fallback|open access journals|
+2025-03-02 13:47:14.977758|user_56634|B11|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:14.977791|user_56634|U13|nlu_fallback|Scholar Commons|
+2025-03-02 13:47:14.977816|user_56634|B12|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:18.247809|user_56634|U0|greet|/greet|
+2025-03-02 13:47:18.247854|user_56634|B0|||||utter_greet|Hey! How are you?
+2025-03-02 13:47:18.247880|user_56634|U1|nlu_fallback|how do i cite in MLA|
+2025-03-02 13:47:18.247908|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:18.247940|user_56634|U2|nlu_fallback|how to cite MLA 9|
+2025-03-02 13:47:18.247966|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:18.247997|user_56634|U3|nlu_fallback|MLA 9|
+2025-03-02 13:47:18.248024|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:18.248055|user_56634|U4|nlu_fallback|library hours|
+2025-03-02 13:47:18.248081|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:18.248113|user_56634|U5|library_hour|what are the library hours|
+2025-03-02 13:47:18.248139|user_56634|B5|||||utter_library_hour|# Hours
+Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
+
+2025-03-02 13:47:18.248161|user_56634|U6|ask_library_open|is the library open?|
+2025-03-02 13:47:18.248211|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
+2025-03-02 13:47:18.248238|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
+### Available Services
+Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
+
+#### Digital Scholarship
+Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
+
+[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
+
+#### Content Mining
+Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
+
+[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
+
+#### Web Hosting for Digital Projects
+Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
+
+[Web Hosting for Digital Projects](https://uofsccreate.org)
+
+#### Electronic Journal Hosting
+Create and manage an open access journal with software and support from University Libraries.
+
+[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
+
+#### Digital Collections
+Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
+
+[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-02 13:47:18.248274|user_56634|U8|nlu_fallback|whats content mining|
+2025-03-02 13:47:18.248301|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:18.248333|user_56634|U9|nlu_fallback|content mining examples?|
+2025-03-02 13:47:18.248359|user_56634|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:18.248390|user_56634|U10|nlu_fallback|what is webscraping|
+2025-03-02 13:47:18.248416|user_56634|B9|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:18.248448|user_56634|U11|nlu_fallback|tell me baoyt open access journals|
+2025-03-02 13:47:18.248474|user_56634|B10|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:18.248507|user_56634|U12|nlu_fallback|open access journals|
+2025-03-02 13:47:18.248532|user_56634|B11|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:18.248565|user_56634|U13|nlu_fallback|Scholar Commons|
+2025-03-02 13:47:18.248591|user_56634|B12|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-02 13:47:18.248623|user_56634|U14|nlu_fallback|yo|
+2025-03-02 13:47:18.248649|user_56634|B13|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
