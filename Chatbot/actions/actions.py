@@ -183,6 +183,6 @@ class ActionLibraryOpen(Action):
                         f"(in {format_delta(time_until_open)}). It will stay open until "
                         f"{next_close.strftime('%I:%M %p')}.")
 
-        resp += (f"\nFor the most up to date hours please visit [library hours](https://sc.edu/about/offices_and_divisions/university_libraries/about/hours/index.php)")
+        resp += (f"\n\nFor the most up to date hours please visit [library hours](https://sc.edu/about/offices_and_divisions/university_libraries/about/hours/index.php)")
         dispatcher.utter_message(resp)
         return []

@@ -9,7 +9,7 @@ import re # regex
 QUEUE_FILE = "queue.csv"
 
 # Starting point 
-URL = "https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php"
+URL = "https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php"
 
 # The https/http prefix to only include website links
 #PREFIX =(
@@ -32,6 +32,7 @@ IGNORE_LINKS = (
   "appointment/",
   "/workshops",
   "auth/",
+  "/calendar"
 )
 
 # The list of the texts and their associated links
