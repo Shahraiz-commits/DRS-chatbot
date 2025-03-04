@@ -8,6 +8,7 @@ const ratingInput = document.getElementById("rating");
 const commentsInput = document.getElementById("comments");
 const submitFeedbackBtn = document.getElementById("submitFeedbackBtn");
 const senderID = "user_" + Math.floor(Math.random() * 100000);
+let lastUserQuestion = "";
 let messageCounter = 0;
 
 const LOCAL_LINK = "http://localhost:5005/webhooks/rest/webhook";
@@ -21,6 +22,11 @@ function scrollChatToBottom() {
 function addMessageToChat(text, className) {
   const container = document.createElement("div");
   container.classList.add("message-container");
+
+  // For bot messages, store the last user question as a data attribute
+  if (className === "botMsg") {
+    container.setAttribute("data-user-question", lastUserQuestion);
+  }
 
   // Preserve intentional paragraph breaks while removing extra newlines
   // Replace 2 or more newlines with exactly 2 newlines
@@ -72,20 +78,26 @@ function handleFeedbackClick(messageId, feedbackType) {
     ".feedback-input-wrapper"
   );
   const textInput = messageContainer.querySelector(".feedback-text-input");
-  const buttons = messageContainer.querySelectorAll(".feedback-btn");
+  const targetBtn = messageContainer.querySelector(
+    feedbackType === "positive" ? ".thumbs-up" : ".thumbs-down"
+  );
 
-  // Reset all buttons
+  // Toggle off if already selected
+  if (targetBtn.classList.contains("selected")) {
+    targetBtn.classList.remove("selected");
+    feedbackWrapper.style.display = "none";
+    return;
+  }
+
+  const buttons = messageContainer.querySelectorAll(".feedback-btn");
   buttons.forEach((btn) => btn.classList.remove("selected"));
 
-  // Select clicked button
-  messageContainer
-    .querySelector(feedbackType === "positive" ? ".thumbs-up" : ".thumbs-down")
-    .classList.add("selected");
-
-  // Show input wrapper
+  targetBtn.classList.add("selected");
   feedbackWrapper.style.display = "flex";
 
-  // Style based on feedback type
+  // Scroll the chat down to ensure feedback input is visible
+  scrollChatToBottom();
+
   if (feedbackType === "positive") {
     textInput.classList.remove("negative");
     textInput.classList.add("positive");
@@ -96,22 +108,25 @@ function handleFeedbackClick(messageId, feedbackType) {
     textInput.placeholder = "Enter your negative feedback...";
   }
 
-  // Add submit handler
   const submitBtn = messageContainer.querySelector(".submit-feedback-btn");
   submitBtn.onclick = () =>
     submitMessageFeedback(messageId, feedbackType, textInput.value);
 }
 
 function submitMessageFeedback(messageId, feedback, feedbackText) {
+  if (feedbackText === "") return;
   const messageElement = document.querySelector(
     `[data-message-id="${messageId}"]`
   );
   const messageText = messageElement.textContent;
+  const messageContainer = messageElement.parentElement;
+  const userQuestion =
+    messageContainer.getAttribute("data-user-question") || "";
   const feedbackData = {
-    message: messageText,
     feedback: feedback,
     feedbackText: feedbackText,
-    timestamp: new Date().toISOString(),
+    question: userQuestion,
+    response: messageText,
   };
 
   // Save feedback to Firebase
@@ -143,7 +158,7 @@ function submitMessageFeedback(messageId, feedback, feedbackText) {
 function submitFeedback() {
   const rating = ratingInput.value;
   const comments = commentsInput.value;
-
+  if (comments === "") return;
   if (!rating || rating < 1 || rating > 5) {
     alert("Please provide a valid rating between 1 and 5.");
     return;
@@ -152,9 +167,8 @@ function submitFeedback() {
   // Construct survey feedback data
   const feedbackData = {
     rating: rating,
-    comments: comments,
+    feedback: comments,
     sender: senderID,
-    timestamp: new Date().toISOString(),
   };
 
   // Save survey feedback to Firebase
@@ -171,9 +185,24 @@ function submitFeedback() {
     });
 }
 
-// initial greeting
+// initial greeting and adding survey close button
 document.addEventListener("DOMContentLoaded", () => {
   sendMessageToRasa("/greet");
+
+  // Ensure the survey modal has a close (X) button in the survey-content
+  const surveyModal = document.querySelector(".survey-modal");
+  if (surveyModal) {
+    const surveyContent = surveyModal.querySelector(".survey-content");
+    if (surveyContent && !surveyContent.querySelector("#closeSurveyBtn")) {
+      const closeBtn = document.createElement("button");
+      closeBtn.id = "closeSurveyBtn";
+      closeBtn.innerHTML = "X";
+      surveyContent.appendChild(closeBtn);
+      closeBtn.addEventListener("click", () => {
+        surveyModal.style.display = "none";
+      });
+    }
+  }
 });
 
 // quick action btns
@@ -194,6 +223,8 @@ function sendMessageToRasa(message) {
 
   if (!isIntent) {
     userInput.value = "";
+    // Store the user question globally
+    lastUserQuestion = message;
     addMessageToChat(message, "userMsg");
   }
 
@@ -220,13 +251,8 @@ function sendMessageToRasa(message) {
 
 // brooooooooooooo css is booty
 function showSurvey() {
-  // Set survey element styling to center it on the screen
-  survey.style.display = "block";
-  survey.style.position = "fixed";
-  survey.style.top = "50%";
-  survey.style.left = "50%";
-  survey.style.transform = "translate(-50%, -50%)";
-  survey.style.zIndex = "1000"; // optional, ensure it's on top
+  // Instead of manually setting top, left, transform, etc, rely on CSS for centering
+  survey.style.display = "flex";
 }
 
 // Event Listeners

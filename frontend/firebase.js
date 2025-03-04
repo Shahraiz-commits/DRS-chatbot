@@ -4,6 +4,8 @@ import {
   getFirestore,
   collection,
   addDoc,
+  setDoc,
+  doc,
 } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -25,11 +27,9 @@ const db = getFirestore(app);
 
 export async function saveMessageFeedback(feedbackData) {
   try {
-    const docRef = await addDoc(
-      collection(db, "messageFeedback"),
-      feedbackData
-    );
-    console.log("Message feedback saved with ID:", docRef.id);
+    const currentTime = new Date().toISOString();
+    await setDoc(doc(db, "messageFeedback", currentTime), feedbackData);
+    console.log("Message feedback saved with ID:", currentTime);
   } catch (error) {
     console.error("Error saving message feedback:", error);
     throw error;
@@ -38,8 +38,9 @@ export async function saveMessageFeedback(feedbackData) {
 
 export async function saveSurveyFeedback(feedbackData) {
   try {
-    const docRef = await addDoc(collection(db, "surveyFeedback"), feedbackData);
-    console.log("Survey feedback saved with ID:", docRef.id);
+    const currentTime = new Date().toISOString();
+    await setDoc(doc(db, "surveyFeedback", currentTime), feedbackData);
+    console.log("Survey feedback saved with ID:", currentTime);
   } catch (error) {
     console.error("Error saving survey feedback:", error);
     throw error;
