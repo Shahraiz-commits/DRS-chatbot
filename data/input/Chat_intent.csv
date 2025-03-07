@@ -1,11 +1,63 @@
 Question,Answer,Intent
 What AI services does the library offer?,"The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)",ai_service_library_offer
-who is the director of digital research services?,The Director of Digital Research Services is Kate Boyd. Phone: 803-777-2249 Email: boydkf@mailbox.sc.edu,director_digital_research_service
+who can help me with digital tools?,"
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)",help_digital_tool
 Data analysis help,The library offers support for doing exploratory data analysis and helps with quantitative and qualitative statistical software products. [Learn more here](https://guides.library.sc.edu/c.php?g=1335227),data_analysis_help
 How can I use digital tools in research?,"The library offers support for using digital processes, tools, and methods to enable and present new forms of research. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)",use_digital_tool_research
 Data organization,"The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)",data_organization
 How can I visualize my research data?,Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php),visualize_research_data
-Does the library offer workshops?,You can register for free library workshops on a variety of research data and publishing topics. [Learn more here](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0),library_offer_workshop
+What kind of workshops does the library offer?,"## Workshops
+University Libraries offers a variety of free workshops to support research and teaching at the university. Browse our full calendar of [library workshops](https://libcal.library.sc.edu/calendar/workshops) or explore the categories below. Select individual events for details and registration.
+
+[#### Data Management Tools & Services
+ Good data management improves research reproducibility, fosters innovation, and promotes compliance with funder requirements. Learn how to find, clean, preserve, share, and plan for the management of your research data.
+](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68187&inc=0)
+
+[#### Publishing & Digital Scholarship
+ Understanding the basics of scholarly publishing will help you leverage your rights as an author to increase your impact. Identify innovative ways to create and share your work through digital tools and methods.
+](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68188&inc=0)
+
+[#### Text and Data Mining & Analysis
+ With the rapidly increasing amounts of digital content available, it is possible to study your research data and texts through new and innovative methods. Learn the basic approaches to mining and analyzing your data sets and large bodies of texts.
+](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68189&inc=0)
+
+[#### Data Visualization Topics and Tools
+ Visualizations (charts, graphs, plots, maps, etc.) have become an essential component in communicating data-intensive research and information. Learn about data visualization concepts, principles, and practices. Learn how to use software tools to create effective data visualizations.
+](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68190&inc=0)
+
+[#### AI (Artificial Intelligence) Knowledge, Tools, and Resources
+ AI is everywhere these days. Learn AI terminology, how to create effective AI chatbot prompts and discover AI tools for various purposes.
+](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68400&inc=0)
+
+[#### Citation Management Tools
+ A citation manager can change your research life by organizing references and doing the hard work when it comes to citing sources and creating a bibliography. Discover library support for learning EndNote, Mendeley and Zotero.
+](https://libcal.library.sc.edu/calendar/workshops?ct=59986)
+
+[#### Using Library Resources & Services
+ Find out how to take advantage of all the library has to offer for your academic success. Whether you are new to using the library or looking for advanced research methods and resources, there is something for everyone.
+](https://libcal.library.sc.edu/calendar/workshops?ct=59984)
+
+[#### Classroom & Teaching Tools
+ Incorporating library and open resources into your courses can promote student success and save students money. Explore pedagogical strategies to use both copyrighted materials and open content with confidence.
+](https://libcal.library.sc.edu/calendar/workshops?ct=59985)
+
+# Contact Us
+Do you have a group interested in scheduling a workshop session? Or have an idea for additional workshop offerings?
+Email us at [tclrefbi@mailbox.sc.edu](mailto:tclrefbi@mailbox.sc.edu).
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=5107061)",kind_workshop_library_offer
 How do I search South Caroliniana Library's collections?,"To search the South Caroliniana Library's collections, please start with our online catalog, which can be found on our [main webpage](http://sc.edu/libraries/scl).
 To search by keyword, enter keywords in the search box and click search. Or, you can follow the link below the search box to [Advanced Search](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC&mode=advanced). There you will be able to search specific fields within the catalog records and build searches with AND, OR, or NOT.
 In your first results page, you may limit your results further to physical and digital items held by University Libraries, including South Caroliniana Library, by clicking the drop-down arrow next to the search box where it says Articles, Books and More, choosing USC Libraries, and clicking the magnifying glass search icon to refresh your results. Then, if you wish to limit specifically to items within South Caroliniana Library's collections, click the checkboxes to choose all locations that have South Caroliniana as part of their name under the Location menu (at the left of the screen on a computer or under the filters icon on your phone). This may not seem intuitive, but choosing locations containing South Caroliniana returns a complete set of South Caroliniana Library materials, while choosing South Caroliniana Library under Library does not always return a complete set.
@@ -47,15 +99,6 @@ For information on accessible parking, please see the Parking for People Who Hav
 If you have additional accessibility needs, please [contact us](https://libanswers.library.sc.edu/form?queue_id=6117) for assistance.
 
 [Learn more here](https://libanswers.library.sc.edu//scl/faq/396999)",south_caroliniana_library_building
-How can I see collection materials from South Caroliniana Library?,"We are not a lending library, but we are a special collections research library with closed stacks. We can support your research through scan-and-deliver services by email or through in-person appointments to use our materials in our reading room.
-We offer a limited amount of research-quality scanning for free, limited to what can be found and scanned within one hour of staff time. If we determine that the quantity of materials you request will exceed an hour, we can provide a quote for scanning additional materials. For more information, you can review our reproduction policies on our [homepage](https://sc.edu/libraries/scl).
-We set research appointments in the Charles W. Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m. until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability. ([Please check here for holidays and exceptions.](https://sc.edu/about/offices_and_divisions/university_libraries/about/hours/index.php))  We will need a list of the materials you wish to view by 12 noon (ET) at least three weekdays in advance to ensure we have time to locate all materials and bring anything that is stored offsite to the reading room. (For example, if you request materials by 12 noon on Monday, we can usually set your appointment as early as Thursday. If after noon on Monday but before noon on Tuesday, we can set your appointment for Friday.)
-Please also see [How do I search South Caroliniana Library's collections?](https://libanswers.library.sc.edu/scl/faq/372585)
-And don't miss our online [Digital Collections](https://sc.edu/about/offices_and_divisions/university_libraries/browse/digital_collections/collections/index.php?search=caroliniana).
-When you're ready, [contact us here](http://libanswers.library.sc.edu/form?queue_id=6117).
-Please note that items that are part of the [South Carolina Political Collections](https://sc.edu/about/offices_and_divisions/university_libraries/browse/sc_political_collections/index.php) are not accessible at the South Caroliniana Library, but may be viewed by appointment only in the [Dorothy B. Smith Reading Room](https://sc.edu/about/offices_and_divisions/university_libraries/about/locations/hollings/smith_reading_room/index.php) in the [Ernest F. Hollings Special Collections Library](https://sc.edu/about/offices_and_divisions/university_libraries/about/locations/hollings/index.php), Please visit the [Ernest F. Hollings Special Collections Library](https://sc.edu/about/offices_and_divisions/university_libraries/about/locations/hollings/index.php) for information on hours.
-
-[Learn more here](https://libanswers.library.sc.edu//scl/faq/372586)",see_collection_material_south
 I found an image from South Caroliniana Library in your Digital Collections. May I use it?,"We are glad you found a useful image in our online [Digital Collections](https://sc.edu/about/offices_and_divisions/university_libraries/browse/digital_collections/collections/index.php?search=caroliniana). We do not mind if you use it as long as you credit us, but please know that, in most cases, we do not hold copyrights to our collections. We make no assessment of copyright status; that burden is on you, the user. Please refer to the Reproductions and Use policy as found on our [main webpage](https://sc.edu/libraries/scl) and the [Library's Notice Regarding Copyright Restrictions and Use of Reproductions](https://forms.office.com/r/CBSnrk7GnB) for more information.
 In all cases of use and publication, the Library respectfully requests that you credit the source as:
 From the South Caroliniana Library, University of South Carolina, Columbia, S.C.
@@ -300,11 +343,23 @@ To learn about citation management software options, look for the tabs on the Ci
 [Writing Center at USC](https://sc.edu/study/colleges_schools/artsandsciences/english_language_and_literature/beyond_classroom/writing_center/)
 
 [Learn more here](https://libanswers.library.sc.edu//faq/262345)",get_help_citation
-What is Interlibrary Loan and how do I use it?,"Interlibrary Loan (ILL) is a free service for requesting books, articles and other research materials when what you want is not available in the libraries' collections or online resources. The ILL department will ask another library to loan the items you request.
-To login and make requests or learn more about this service:
-[Request an Interlibrary Loan](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/interlibrary_loan/index.php)
+What is Interlibrary Loan and how do I access it?,"## Request an Interlibrary Loan
+Need materials you can't find through University Libraries? Interlibrary Loan is a free service for accessing books, articles and research materials from other libraries.
+[Login to request, renew and view materials](https://ill3.tcl.sc.edu/illiad/)
 
-[Learn more here](https://libanswers.library.sc.edu//faq/234809)",interlibrary_loan_use_it
+Select your campus and enter your network username and password. First-time users will be prompted to register.
+
+### Making Requests
+#### Who is Eligible?
+- Currently-enrolled USC Columbia students
+- USC Columbia faculty and staff
+- UofSC Alumni Association members
+
+#### When to Request
+If you have tried [searching](/about/offices_and_divisions/university_libraries/search/index.php) and what you want is not available in the libraries' collections or online resources.
+
+#### What to Request
+Interlibrary Loan will try to get any type of research materials  textbooks and other assigned materials for current courses available at the University Bookstore. Some materials may be difficult to obtain.",interlibrary_loan_access_it
 What is PASCAL Delivers?,"PASCAL Delivers is a free book-delivery service which enables current USC students, faculty and staff to request delivery of physical books from other academic libraries across the state to a participating library. If you're wondering, PASCAL stands for Partnership Among South Carolina Academic Libraries.
 To find items available for request, expand your results in Find It @ USC by choosing to search PASCAL Delivers. Sign in to make requests.
 [Search Find It @ USC (PASCAL Delivers Advanced Search)](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC&amp;lang=en&amp;mode=advanced&amp;search_scope=NewDiscoveryNetwork)
@@ -325,11 +380,6 @@ Can I photocopy or scan at the library?,"Yes! There are several locations for ph
 [Printing, Scanning, Copying](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/printing/index.php)
 
 [Learn more here](https://libanswers.library.sc.edu//faq/23764)",photocopy_scan_library
-What workshops are offered in the library?,"Librarians periodically offer a variety of workshops covering citation management, research and data management support, and teaching resources.
-Find descriptions and registration links on our website.
-[Library Workshops](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/workshops/index.php)
-
-[Learn more here](https://libanswers.library.sc.edu//faq/23779)",workshop_offered_library
 How can I request a copy of a manuscript?,"For manuscripts and other materials held in the libraries' Special Collections departments, contact the department directly to request copies and reproductions.
 [Irvin Department of Rare Books and Special Collections](https://sc.edu/libraries/rare)
 [Moving Image Research Collections](https://sc.edu/libraries/mirc)
@@ -385,14 +435,16 @@ There are also several free charging stations for phones available around the Ma
 [Borrow Chargers and Other Computer Accessories](https://libcal.library.sc.edu/equipment?lid=8555&amp;gid=27148)
 
 [Learn more here](https://libanswers.library.sc.edu//faq/262347)",library_charger_laptop_phone
-Does the library have my textbooks?,"The library has a collection of print textbooks, especially for courses with over 100 students. Additional materials are also sometimes provided by instructors or available as ebooks through [Find It @ USC Libraries](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC), but the library does not have the assigned textbook for every course offered at the university.
-To learn which textbooks have been assigned for a specific course, you can search the university bookstore's site or check for a course syllabus in Blackboard.
- 
-[Textbooks and Course Materials - University Libraries](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
-[University Bookstore Find Textbooks](https://sc.bncollege.com/shop/sc/page/find-textbooks)
-[Blackboard](https://blackboard.sc.edu/)
+Does the library have my textbook?,"## Textbooks and Course Materials
+University Libraries gives students access to assigned textbooks and other course materials whenever possible, especially for courses with more than 100 students.
+### Textbook Collection
+Check out textbooks on a first-come, first-served basis at the Checkout Desk on the Main Level of Thomas Cooper Library. You must have a valid CarolinaCard. 
+The library has a large collection of print textbooks, especially for courses with over 100 students. Additional materials are also provided by instructors or the library's collections, but the library does not have the assigned textbook for every course offered at the university.
+Search [Find It @ USC Libraries](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC) by book title or course number (ex. HIST112) to see if the library has your assigned text. Limit to Course Reserves for better results.
 
-[Learn more here](https://libanswers.library.sc.edu//faq/23756)",library_textbook
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
+
+",library_textbook
 Does the library have readers advisory databases?,"The databases with Core Collection in the title and the NoveList databases on the Library and Information Science listing are useful for reader's advisory and collection development purposes.  Masterplots provides summaries of short stories, novels, non-fiction, drama, and poetry.
 [Library and Information Science databases](https://guides.library.sc.edu/az.php?s=131034)
 [Masterplots](https://go.openathens.net/redirector/sc.edu?url=https%3A%2F%2Fonline.salempress.com%2Ftoc.do%3FbookMetaId%3DMP4)
@@ -916,14 +968,14 @@ The University Libraries DataLab space is located on the 5th floor of Thomas Coo
 Register for free [library workshops](/about/offices_and_divisions/university_libraries/find_services/workshops/index.php) on a variety of topics.
 
 [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)",data_visualization_support_service
-How can I get in touch with someone for data visualization help?,"# Contact Us
+How can I get data visualization help?,"# Contact Us
 [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.
 Glenn Bunton
 Data Visualization Librarian
 803-777-2903
 [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
 
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)",get_touch_someone_data
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)",get_data_visualization_help
 What types of assistance does the library offer for data visualization?,"## Ways We Can Assist
 - [Learning Sessions/Workshops](#s-lib-ctab-31341410-0)
 - [Online Consultations](#s-lib-ctab-31341410-1)
@@ -963,15 +1015,6 @@ The University Libraries is pleased to offer support for exploratory data analys
 - [Data Analysis and Statistics Services at USC's University Libraries](https://guides.library.sc.edu/c.php?g=1335227)
 
 [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)",kind_data_analysis_statistic
-What data visualization services are available?,"## Data Visualization Services
-- [Data Visualization with Python](https://www.youtube.com/watch?v=zIIFsyM5UII)
-- [Data Visualization with R](https://www.youtube.com/watch?v=Nt7Hpf_M31k)
-- [Tableau Public 2023](https://public.tableau.com/app/discover)
-- [Microsoft Power BI](https://powerbi.microsoft.com/en-us/)
-- [Datawrapper](https://www.datawrapper.de/)
-- [Google Data Studio/Looker Studio](https://lookerstudio.google.com/overview)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1321483)",data_visualization_service_available
 What specialized software is available in the DataLab?,"## Available Specialized Software
 A variety of software related to data/spatial analysis and data/spatial visualization is installed on the computers in the DataLab. Instructional information about these software applications is available below.
 - [SPSS Statistics 29](https://www.youtube.com/watch?v=_zFBUfZEBWQ)
@@ -1026,7 +1069,7 @@ For help with software installation or troubleshooting, please visit the Divisio
 - [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
 
 [Learn more here](https://guides.library.sc.edu/c.php?g=1335227)",limitation_research_support_service
-What is NVivo and what can I do with it?,"## What is NVivo?
+What is NVivo?,"## What is NVivo?
 NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
 - Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
 
@@ -1036,7 +1079,7 @@ NVivo is a qualitative data analysis software that allows users to organize, ana
 
 - Use visualizations to demonstrate connections, make comparisons, and discover patterns
 
-[Learn more here](https://guides.library.sc.edu/nvivo)",nvivo_it
+[Learn more here](https://guides.library.sc.edu/nvivo)",What_is_NVivo
 How can I access NVivo?,"## How Can I Access NVivo?
 NVivo is available in the DataLab on Level 5 (L516D) in Thomas Cooper Library.
 
@@ -1272,7 +1315,9 @@ Codes are collections of references from your data about a specific theme, topic
 - Enter a name (required) and a description (optional)
 - OPTIONAL: If you're going to create hierarchical codes with parent and child codes, check the box, Aggregate coding from child nodes, to have NVivo automatically double-code at the parent code when coding child codes
 - OPTIONAL: Use the color drop-down menu to assign colors to your codes
-- Click Done and you'll see the new code added in the List View panel",create_codebook_nvivo
+- Click Done and you'll see the new code added in the List View panel
+
+[Learn more here](https://guides.library.sc.edu/nvivo/coding)",create_codebook_nvivo
 How do I add coding to my data?,"## Coding Data
 ### Add Coding
 - In the Navigation View panel, click on Files. Then, in the List View panel, open a data source
@@ -1284,10 +1329,14 @@ How do I add coding to my data?,"## Coding Data
 - In the Navigation View panel, click on Files. Then, in the List View panel, open a data source
 - Select the text you would like to code and highlight it with your cursor
 - Use the keyboard shortcut (Windows: CTRL + Q; Mac: ⌘ + /) and then search for the applicable code
-- Select the applicable code",add_coding_data
+- Select the applicable code
+
+[Learn more here](https://guides.library.sc.edu/nvivo/coding)",add_coding_data
 How do I uncode data?,"### Uncoding Data
 - Select the text you would like to uncode and highlight it with your cursor
-- Right-click and select Uncode Selection, then select At Existing Nodes or Cases",uncode_data
+- Right-click and select Uncode Selection, then select At Existing Nodes or Cases
+
+[Learn more here](https://guides.library.sc.edu/nvivo/coding)",uncode_data
 What are coding stripes and how do I display them?,"## Coding Stripes
 Coding stripes are a visual indicator of the segments of coded data. You can display coding stripes to see the content that is coded at specific themes or nodes, or you can display coding stripes to show the data that has been coded by specific users.
 - In the List View panel, select a data source that has been coded or that you'll be coding
@@ -1298,7 +1347,6 @@ How do I export a codebook?,"## Exporting a Codebook
 - Click on Codebook
 - Select the Nodes folder
 - Choose a location on your computer to save the document",export_codebook
-Where can I learn more about coding in NVivo?,[Learn more here](https://guides.library.sc.edu/nvivo/coding),learn_coding_nvivo
 What is data visualization?,"## What is Data Visualization?
 Data visualization is an umbrella term referring to the representation of raw data content in a graphic or pictorial manner. Related concepts include information visualization and scientific visualization. Using visual features of encoded data such as position, size, shape, hue and saturation, motion, etc., data visualization applies tools and techniques to communicate the raw data in visual form.
 Common examples include charts, graphs, timelines, maps, and even tables.",data_visualization
@@ -1533,25 +1581,6 @@ What data sets are available for economic research?,"## Data Sets
 - [World Bank Open Data](http://data.worldbank.org/)
 
 [Learn more here](https://guides.library.sc.edu/data-and-statistics/economics)",data_set_available_economic
-What resources are available for education statistics?,"## Education Statistics and Data Set Resources
-Below are some examples of resources that you can use to find education resources.
-## Statistics
-#### International Statistics
-- [EdStats- World Bank](http://datatopics.worldbank.org/education/)
-- [Our World in Data](https://ourworldindata.org/)",resource_available_education_statistic
-What U.S. statistics resources are available for education?,"
-#### U.S. Statistics
-- [Child Care & Early Research Connections](https://www.researchconnections.org/research-tools/data-collection)
-- [ChildStats.gov](http://www.childstats.gov/index.asp)
-- [College Navigator](http://nces.ed.gov/collegenavigator/)
-- [Mapping the Measure of America](http://www.measureofamerica.org/maps/)
-- [National Center for Education Statistics (NCES)](https://nces.ed.gov/)
-- [National Center for Education Statistics (NCES) International Comparisons in Education](https://nces.ed.gov/surveys/international/)
-- [National Household Education Surveys (NHES)](http://nces.ed.gov/nhes/)
-- [Schools and Staffing Survey (SASS)](https://nces.ed.gov/surveys/sass/)
-- [South Carolina Department of Education](http://ed.sc.gov/)
-- [South Carolina Joint Citizens and Legislative Committee on Children Data Reference Book](http://www.sc.edu/jclcc/doc/2016%20Data%20Reference%20Book.pdf)
-- [US Department of Education Data and Statistics](https://www.ed.gov/data)",u_statistic_resource_available1
 What data sets are available for education?,"
 ## Data Sets
 - [Campus Safety and Security Data (US Dept. of Education)](https://ope.ed.gov/campussafety/#/)
@@ -1567,23 +1596,19 @@ What data sets are available for education?,"
 - [US Department of Education Data and Statistics](https://www.ed.gov/data)
 
 [Learn more here](https://guides.library.sc.edu/data-and-statistics/education)",data_set_available_education
-What is Interlibrary Loan and how do I access it?,"## Request an Interlibrary Loan
-Need materials you can't find through University Libraries? Interlibrary Loan is a free service for accessing books, articles and research materials from other libraries.
-[Login to request, renew and view materials](https://ill3.tcl.sc.edu/illiad/)
-
-Select your campus and enter your network username and password. First-time users will be prompted to register.
-
-### Making Requests
-#### Who is Eligible?
-- Currently-enrolled USC Columbia students
-- USC Columbia faculty and staff
-- UofSC Alumni Association members
-
-#### When to Request
-If you have tried [searching](/about/offices_and_divisions/university_libraries/search/index.php) and what you want is not available in the libraries' collections or online resources.
-
-#### What to Request
-Interlibrary Loan will try to get any type of research materials  textbooks and other assigned materials for current courses available at the University Bookstore. Some materials may be difficult to obtain.",interlibrary_loan_access_it
+What U.S. statistics resources are available for education?,"
+#### U.S. Statistics
+- [Child Care & Early Research Connections](https://www.researchconnections.org/research-tools/data-collection)
+- [ChildStats.gov](http://www.childstats.gov/index.asp)
+- [College Navigator](http://nces.ed.gov/collegenavigator/)
+- [Mapping the Measure of America](http://www.measureofamerica.org/maps/)
+- [National Center for Education Statistics (NCES)](https://nces.ed.gov/)
+- [National Center for Education Statistics (NCES) International Comparisons in Education](https://nces.ed.gov/surveys/international/)
+- [National Household Education Surveys (NHES)](http://nces.ed.gov/nhes/)
+- [Schools and Staffing Survey (SASS)](https://nces.ed.gov/surveys/sass/)
+- [South Carolina Department of Education](http://ed.sc.gov/)
+- [South Carolina Joint Citizens and Legislative Committee on Children Data Reference Book](http://www.sc.edu/jclcc/doc/2016%20Data%20Reference%20Book.pdf)
+- [US Department of Education Data and Statistics](https://www.ed.gov/data)",u_statistic_resource_available1
 How do I contact Interlibrary Loan staff?,"# Contact Us
 For additional help check out the [ILL online user guide](http://guides.library.sc.edu/interlibraryloan).
 [Interlibrary Loan Staff](/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/index.php?search=Interlibrary)
@@ -1595,8 +1620,6 @@ In Columbia:
 - [School of Law Library](http://law.sc.edu/library)
 - [School of Medicine Library](http://uscmed.sc.libguides.com/)
 - [Richland Library](http://www.richlandlibrary.com/)",usc_columbia_user
-Where can I learn more about Interlibrary Loan?,"[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/interlibrary_loan/index.php)
-",learn_interlibrary_loan
 What are some resources for environmental and geospatial statistics?,"## Environmental & Geospatial Statistics and Data Set Resources
 Below are some examples of resources that you can use to find environmental and geospatial resources. 
 ## Statistics
@@ -1752,48 +1775,6 @@ What data sets are available for sociology?,"
 - [Pew Research Center Datasets](http://www.pewinternet.org/datasets/)
 
 [Learn more here](https://guides.library.sc.edu/data-and-statistics/sociology)",data_set_available_sociology
-What is Research Data Management?,"## Research Data Management
-Looking for help with data management plans, locating open data sets, data sharing, metadata and more? University Libraries has resources and services to help you throughout the research data lifecycle.
-### Make an appointment to learn more
-Set up a personal consultation to discuss your specific needs for Data Management services.",research_data_management
-What tools and resources are available for Research Data Management?,"
-### Tools and Resources
-#### Data Management Plans
-Guidelines, sample plans and tools to create a Data Management Plan that meets funder requirements.](http://guides.library.sc.edu/c.php?g=592274&p=4095609)[
-#### Data Management Basics
-Learn about tools and resources available to help with the components of data management.](http://guides.library.sc.edu/rdm)[
-#### Sharing Data
-Funders and publishers may require that a research project’s underlying data be made publicly available. Explore options and learn about citing datasets.](http://guides.library.sc.edu/c.php?g=592274&p=4095611)",tool_resource_available_research
-Are there any workshops or training available for Research Data Management?,"
-# Library Workshops
-Register for free [library workshops](/about/offices_and_divisions/university_libraries/find_services/workshops/index.php) on a variety of Research Data Management topics.",workshop_training_available_research
-Who can I contact for help with Research Data Management?,"
-# Contact Us
-Contact us with questions or to schedule an appointment to discuss your needs.
-[Stacy Winchester](/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
-Research Data Librarian
-803-777-1968
-[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)",contact_help_research_data
-What resources are available for writing a Data Management Plan (DMP)?,"- [Sample DMPs from UC San Diego](https://library.ucsd.edu/lpw-staging/research-and-collections/data-curation/data-management/dmp-samples.html)
-- [Data Management Planning Guidelines from NC State University](https://www.lib.ncsu.edu/do/data-management/funding-agency-guidelines)
-- [Sample NIH Data Management and Sharing Plans](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#sample-plans)",resource_available_writing_data
-What should I include in a Data Management Plan (DMP)?,"DMPs often include descriptions of:
-- Roles and Responsibilities
-- Types of Data
-- Data Formats and Metadata
-- Access, Sharing, and Privacy
-- Policies and Provisions for Re-use and Re-Distribution
-- Data Storage and Preservation",include_data_management_plan
-Why do I need a Data Management Plan (DMP)?,"In 2013, the US Office of Science and Technology issued a policy memorandum expanding requirements for planning and sharing of data. Most federal funding research agencies require DMPs as part of the grant application process.
-Even if you don't need to meet funder requirements, data management plans are still valuable. Planning ahead of time for the storage, backup, archiving, and sharing (if applicable) of data will:
-- Save time and effort down the road
-- Enhance the value and usefulness of data long-term
-- Increase research efficiency",need_data_management_plan
-Is there a tool to help me create a Data Management Plan (DMP)?,"Available at [dmptool.org](http://dmptool.org), DMPTool is a free tool to help researchers create data management plans that comply with funder requirements. It walks users through the components required by the funder they're applying to, and allows them to create a completed DMP, which can be exported as a Word document or PDF.
-
-[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095609)",tool_help_create_data
 What is research data management?,"Managing your data is an essential part of the research process. In this guide, you'll find an overview of the different types and formats of data produced during a scholarly investigation, guidance for creating data management plans and complying with the requirements of funding agencies, information about metadata, and help with sharing and archiving data securely for long-term use.
 
 Materials constituting research data vary by discipline. The following are common examples:
@@ -1816,10 +1797,64 @@ Image [CC BY-NC](https://creativecommons.org/licenses/by-nc/2.0/) from Universit
 - [Managing and Sharing Data](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf)
 - [DataONE Primer on Data Management: What you always wanted to know (but were afraid to ask)](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)
 
-[Learn more here](http://guides.library.sc.edu/rdm)",research_data_management1
+[Learn more here](http://guides.library.sc.edu/rdm)",research_data_management
+What tools and resources are available for Research Data Management?,"
+### Tools and Resources
+#### Data Management Plans
+Guidelines, sample plans and tools to create a Data Management Plan that meets funder requirements.](http://guides.library.sc.edu/c.php?g=592274&p=4095609)[
+#### Data Management Basics
+Learn about tools and resources available to help with the components of data management.](http://guides.library.sc.edu/rdm)[
+#### Sharing Data
+Funders and publishers may require that a research project’s underlying data be made publicly available. Explore options and learn about citing datasets.](http://guides.library.sc.edu/c.php?g=592274&p=4095611)",tool_resource_available_research
+Are there any workshops or training available for Research Data Management?,"
+# Library Workshops
+Register for free [library workshops](/about/offices_and_divisions/university_libraries/find_services/workshops/index.php) on a variety of Research Data Management topics.",workshop_training_available_research
+Who can I contact for help with Research Data Management?,"
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Stacy Winchester](/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)",contact_help_research_data
+Whats data management plan (DMP)?,"##What are Data Management Plans?
+Data Management Plans, or DMPs, are documents describing what will happen to data during and after research.  Before writing a DMP, review guidelines for the funding agency you are working with. DMPs often include descriptions of:
+
+- Roles and Responsibilities
+- Types of Data
+- Data Formats and Metadata
+- Access, Sharing, and Privacy
+- Policies and Provisions for Re-use and Re-Distribution
+- Data Storage and Preservation
+
+[Checklist for a Data Management Plan, v4.0 from the Digital Curation Center](https://www.dcc.ac.uk/sites/default/files/documents/resource/DMP/DMP_Checklist_2013.pdf)
+
+In 2013, the US Office of Science and Technology issued a policy memorandum expanding requirements for planning and sharing of data. Most federal funding research agencies require DMPs as part of the grant application process.
+
+Even if you don't need to meet funder requirements, data management plans are still valuable. Planning ahead of time for the storage, backup, archiving, and sharing (if applicable) of data will:
+
+- Save time and effort down the road
+- Enhance the value and usefulness of data long-term
+- Increase research efficiency
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095609)",whats_data_management_plan
+What resources are available for writing a Data Management Plan (DMP)?,"- [Sample DMPs from UC San Diego](https://library.ucsd.edu/lpw-staging/research-and-collections/data-curation/data-management/dmp-samples.html)
+- [Data Management Planning Guidelines from NC State University](https://www.lib.ncsu.edu/do/data-management/funding-agency-guidelines)
+- [Sample NIH Data Management and Sharing Plans](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#sample-plans)",resource_available_writing_data
+What should I include in a Data Management Plan (DMP)?,"DMPs often include descriptions of:
+- Roles and Responsibilities
+- Types of Data
+- Data Formats and Metadata
+- Access, Sharing, and Privacy
+- Policies and Provisions for Re-use and Re-Distribution
+- Data Storage and Preservation",include_data_management_plan
 Why do I need a data management plan?,"Creating a plan to manage and store your data throughout its lifecycle is a critical component of the research process. Not only does having a data management plan save you time and resources, but is a requirement for grant applications for many major funding agencies such as the National Science Foundation (NSF), the National Institutes of Health (NIH), and the National Endowment for the Humanities (NEH). In addition, having a plan to manage your data promotes increased data sharing, transparency, and reproducibility.
 
-[Learn more here](http://guides.library.sc.edu/rdm)",need_data_management_plan1
+[Learn more here](http://guides.library.sc.edu/rdm)",need_data_management_plan
+What is DMPtool?,"Available at [dmptool.org](http://dmptool.org), DMPTool is a free tool to help researchers create data management plans that comply with funder requirements. It walks users through the components required by the funder they're applying to, and allows them to create a completed DMP, which can be exported as a Word document or PDF.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095609)",What_is_DMPtool
 What is OSF and how can I use it?,"[](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
 To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
 
@@ -1929,11 +1964,12 @@ Why is backing up data important?,"Backing up data is an essential part of the d
 Back-up and storage are related concepts, but are not the same thing. While storage refers to ways of preserving files for the short- or long-term, back-up refers to preserving copies of your files in different physical locations and using different media to protect against data loss.",backing_data_important
 What is a good rule of thumb for backing up data?,"A good rule of thumb for backing up data is the 3-2-1 rule. It states that at least 3 total copies of data should exist, 2 of which are local but on different media (devices), and at least 1 copy should be stored offsite. The offsite storage is important in case of fires, floods, or theft.",good_rule_thumb_backing
 What is the difference between information security and privacy?,"While information security is concerned with protection, privacy is concerned with the sensitivity of data, the justification for collecting data, and decisions about notification and sharing. International, Federal, and State legislation and regulations may apply. Privacy issues vary greatly by location and subject matter of data, posing significant liabilities, especially with regard to protected personal information (PPI) and personal identifying information (PII).",difference_information_security_privacy
-What resources are available for understanding data privacy?,"- [European Union General Data Protection Regulations (GDPR)](https://gdpr-info.eu/)
+What are some resources for understanding data privacy?,"While information security is concerned with protection, privacy is concerned with the sensitivity of data, the justification for collecting data, and decisions about notification and sharing. International, Federal, and State legislation and regulations may apply. Privacy issues vary greatly by location and subject matter of data, posing significant liabilities, especially with regard to protected personal information (PPI) and personal identifying information (PII). A few resources of note include:
+- [European Union General Data Protection Regulations (GDPR)](https://gdpr-info.eu/)
 - [South Carolina Enterprise Privacy Office](https://admin.sc.gov/services/technology-services/information-security-privacy)
 - [SC-DIS 200, Information Security and Privacy Standards](https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/SCDIS-200_Information_Security_and_Privacy_Standards.xlsx)
 
-[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)",resource_available_understanding_data
+[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)",resource_understanding_data_privacy
 What university policies apply to research data management?,"- [Information Security IT 3.00](http://www.sc.edu/policies/it300.pdf)
 - [Archives and Record Management LIB 1.03](http://www.sc.edu/policies/lib103.pdf)
 - [Research Data Access and Retention RSCH 1.05](http://www.sc.edu/policies/rsch105.pdf)
@@ -1963,48 +1999,6 @@ What happens to articles resulting from accepted Registered Reports?,"Articles r
 - [](https://osf.io/e6auq/wiki/Example%20Preregistrations/?_ga=2.77487644.801033972.1522869063-47245329.1522869063)
 
 [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)",happens_article_resulting_accepted
-What workshops does the library have?,"## Workshops
-University Libraries offers a variety of free workshops to support research and teaching at the university. Browse our full calendar of [library workshops](https://libcal.library.sc.edu/calendar/workshops) or explore the categories below. Select individual events for details and registration.
-
-#### Data Management Tools & Services
-Good data management improves research reproducibility, fosters innovation, and promotes compliance with funder requirements. Learn how to find, clean, preserve, share, and plan for the management of your research data.
-
-[Data management workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68187&inc=0)
-
-#### Publishing & Digital Scholarship
-Understanding the basics of scholarly publishing will help you leverage your rights as an author to increase your impact. Identify innovative ways to create and share your work through digital tools and methods.
-
-[Publishing & Digital Scholarship workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68188&inc=0)
-
-#### Text and Data Mining & Analysis
-With the rapidly increasing amounts of digital content available, it is possible to study your research data and texts through new and innovative methods. Learn the basic approaches to mining and analyzing your data sets and large bodies of texts.
-
-[Text and Data Mining workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68189&inc=0)
-
-#### Data Visualization Topics and Tools
-Visualizations (charts, graphs, plots, maps, etc.) have become an essential component in communicating data-intensive research and information. Learn about data visualization concepts, principles, and practices. Learn how to use software tools to create effective data visualizations.
-
-[Data Visualization workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68190&inc=0)
-
-#### AI (Artificial Intelligence) Knowledge, Tools, and Resources
-AI is everywhere these days. Learn AI terminology, how to create effective AI chatbot prompts and discover AI tools for various purposes.
-
-[AI workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68400&inc=0)
-
-#### Citation Management Tools
-A citation manager can change your research life by organizing references and doing the hard work when it comes to citing sources and creating a bibliography. Discover library support for learning EndNote, Mendeley and Zotero.
-
-[Citation Management workshops](https://libcal.library.sc.edu/calendar/workshops?ct=59986)
-
-#### Using Library Resources & Services
-Find out how to take advantage of all the library has to offer for your academic success. Whether you are new to using the library or looking for advanced research methods and resources, there is something for everyone.
-
-[Using library Resources workshops](https://libcal.library.sc.edu/calendar/workshops?ct=59984)
-
-#### Classroom & Teaching Tools
-Incorporating library and open resources into your courses can promote student success and save students money. Explore pedagogical strategies to use both copyrighted materials and open content with confidence.
-
-[Classroom & Teaching Tools workshops](https://libcal.library.sc.edu/calendar/workshops?ct=59985)",workshop_library_have
 How do I suggest workshops?,"# Contact Us
 Do you have a group interested in scheduling a workshop session? Or have an idea for additional workshop offerings?
 Email us at [tclrefbi@mailbox.sc.edu](mailto:tclrefbi@mailbox.sc.edu).
@@ -2065,15 +2059,15 @@ Can I collaborate with someone on my AI research project?,"#### Research Project
 [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
 
 ",collaborate_someone_ai_research
-Who is the AI/Data Science Specialist?,"# Contact
-[Vandana Srivastava](/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)
+Who can help me with AI?,"# Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)
 AI/Data Science Specialist 
 803-777-5699
 [vandana@sc.edu](mailto:vandana@sc.edu)
 
 [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
 
-",aidata_science_specialist
+",help_ai
 How do I make an appointment for AI and data science assistance?,"# Make an Appointment
 [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
 
@@ -2307,25 +2301,25 @@ What is HathiTrust Research Center?,"## HathiTrust Research Center (USC login re
 Supported by Indiana University and University of Illinois at Urbana-Champaign, HathiTrust Research Center (HTRC) enables computational analysis of works in the HathiTrust Digital Library (HTDL) to facilitate non-profit research and educational use of the collection.
 
 [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)",hathitrust_research_center
-What are some advanced text analysis tools?,"## Advanced Text Analysis Tools
+What advanced text analysis tools are available?,"## Advanced Text Analysis Tools
 These tools will take some learning, but there are people in Research Computing and in the Libraries who can help you get started.
 - [Anaconda](https://www.anaconda.com/)
 - [BERTopic](https://maartengr.github.io/BERTopic/api/bertopic.html)
 - [Google Colab](https://colab.research.google.com/)
 - [Jupyter Lab](https://jupyter.org/)
 - [MATLAB: USC site license available](https://sc.edu/about/offices_and_divisions/division_of_information_technology/end_user_services/available_technology_resources/)
-- [NLTK (Natural Language ToolKit)](https://www.nltk.org/)
+- [NLTK (Natural Language ToolKit)](https://www.nltk.org/)[more...](javascript:void(0);)[less...](javascript:void(0);)
 - [Python Programming Language](https://www.python.org/)
 - [R Studio](https://posit.co/download/rstudio-desktop/)
-- [TAPoR 3](https://tapor.ca/home) 
+- [TAPoR 3](https://tapor.ca/home)
 
 [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)",advanced_text_analysis_tool
-What are some data cleaning tools?,"## Data Cleaning Tools
+What data cleaning tools are available?,"## Data Cleaning Tools
 - [Open Refine](https://openrefine.org/download)
-- [Regexr](https://regexr.com/)
-- [Regular Expressions (Regex)](https://regex101.com/) 
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
 
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)",data_cleaning_tool
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)",data_cleaning_tool_available
 What are some freely available corpora for text mining and analysis?,"## Freely available corpora to mine and analyze
 Here are a few collections of text that are freely available for text mining and analysis. Usually, a freely available or accessible corpora comes with an API which assists the user in pulling the information they need.  See below for information on how to get started with using APIs.
 - [Biodiversity Heritage Library APIs](https://about.biodiversitylibrary.org/tools-and-services/developer-and-data-tools/)
@@ -2417,10 +2411,6 @@ How can I support the library?,"[
 #### Support the Libraries
 Your gift to the libraries funds learning and discovery by helping us acquire new resources, revitalize spaces, and preserve rare and historic materials.
 ](/about/offices_and_divisions/university_libraries/support/index.php)",support_library
-What are the library's hours?,"# Hours
-Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)",library_hour
 How can I print from my device?,"# Print from your device
 [Login to print](https://mobileprint.tcl.sc.edu/myprintcenter/)
 Send documents from your computer directly to library printers.
@@ -2524,16 +2514,6 @@ How do I know which citation style to use?,"Usually your professor will include 
 
 
 [Learn more here](https://guides.library.sc.edu/citation)",know_citation_style_use
-Does the library have my textbook?,"## Textbooks and Course Materials
-University Libraries gives students access to assigned textbooks and other course materials whenever possible, especially for courses with more than 100 students.
-### Textbook Collection
-Check out textbooks on a first-come, first-served basis at the Checkout Desk on the Main Level of Thomas Cooper Library. You must have a valid CarolinaCard. 
-The library has a large collection of print textbooks, especially for courses with over 100 students. Additional materials are also provided by instructors or the library's collections, but the library does not have the assigned textbook for every course offered at the university.
-Search [Find It @ USC Libraries](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC) by book title or course number (ex. HIST112) to see if the library has your assigned text. Limit to Course Reserves for better results.
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
-
-",library_textbook1
 What is the check out policy for textbooks?,"
 #### Check Out Policy
 Generally, you can borrow textbooks for 2 hours and they must stay in the building. There are exceptions, and exact due date and time is provided at check out. Renewals are not allowed so all students have the opportunity to use these in-demand items.
@@ -2722,12 +2702,6 @@ Augustine. . In , edited by Edward Peters. Philadelphia: University of Pennsylva
 Chesnutt, Charles W. Charles W. Chesnutt to George Washington Cable, February 2, 1889. In edited by Joseph R. McElrath Jr. and Robert C. Leitz III. Princeton: Princeton University Press, 1997.
 
 [Learn more here](https://guides.library.sc.edu/citation/chicago)",cite_primary_source_chicago
-What is a DOI?,"## What is a DOI?
-A DOI is a unique alphanumeric string that provides a persistent link to content online. Chicago style asks that you include a DOI for journal articles that have one.
-- [CrossRef](http://www.crossref.org/guestquery/)
-- [Resolve a DOI](https://dx.doi.org/)
-
-[Learn more here](https://guides.library.sc.edu/citation/chicago)",What_is_a_DOI1
 Where can I find examples of Chicago citations?,"## Examples of Chicago Citations
 - [Chicago Manual of Style Online](https://go.openathens.net/redirector/sc.edu?url=https%3A%2F%2Fwww.chicagomanualofstyle.org%2Fbook%2Fed18%2Ffrontmatter%2Ftoc.html)
 - [Quick Citation Guide - Chicago Manual of Style 18th Ed.](https://www.chicagomanualofstyle.org/tools_citationguide.html)
@@ -2760,25 +2734,6 @@ What are some USC related digital scholarship projects?,"## USC Related Work
 - [On the Books: Jim Crow and Algorithms of Resistance](https://onthebooks.lib.unc.edu/)[more...](javascript:void(0);)[less...](javascript:void(0);)
 
 [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886548)",usc_related_digital_scholarship
-What are some example projects that use digital scholarship?,"## Example Projects
-- [Blevins, Cameron. (April 2010) Topic Modeling Marth Ballard's Diary. Blog Post](http://www.cameronblevins.org/posts/topic-modeling-martha-ballards-diary/)
-- [Block, Sharon. (January 2006) Doing More with Digitization. Common Place. Vol.6 No.2](http://commonplace.online/article/doing-more-with-digitization/)
-- [Brown, Nicole et al. ( Aug 2019) In Search of Zora/When Metadata Isn’t Enough: Rescuing the Experiences of Black Women Through Statistical Modeling. Library Metadata. Vol 19. Issue 3-4, Page 141](https://login.pallas2.tcl.sc.edu/login?url=https://www.tandfonline.com/doi/full/10.1080/19386389.2019.1652967)
-- [Emerging Technology and arXiv.(July 2016) Data Mining Reveals Six Basic Emotional Arcs of Storytelling, MIT Review](https://www.technologyreview.com/s/601848/data-mining-reveals-the-six-basic-emotional-arcs-of-storytelling/)
-- [King, Lindsey and Peter Leonard. (2019) Robots Reading Vogue. Yale University.](http://dh.library.yale.edu/projects/vogue/)
-- [Mitts, Tamar. (March 31, 2017) From Isolation to Radicalization: Anti-Muslim Hostility and Support for ISIS in the West. SSRN](http://dx.doi.org/10.2139/ssrn.2795660)
-- [Mueller, Hannes and Christopher Rauh. (May 2018) Reading Between the Lines: Prediction of Political Violence Using Newspaper Text. American Political Science Review. Vol. 112, Issue 2, Page 358](https://doi.org/10.1017/S0003055417000570)
-- [National Science Foundation. (2016) Rescued History: Using Big Data. Press Release](https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=137797&org=NSF)
-- [Nelson, Robert. Mining the Dispatch Digital Scholarship Lab, University of Richmond.](http://dsl.richmond.edu/dispatch/)
-- [Newspapers as Data Project](https://libguides.library.arizona.edu/newspapers-as-data)[more...](javascript:void(0);)[less...](javascript:void(0);)
-- [On the Books: Jim Crow and Algorithms of Resistance](https://onthebooks.lib.unc.edu/)[more...](javascript:void(0);)[less...](javascript:void(0);)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886548)",example_project_use_digital1
-What are some USC related digital scholarship projects?,"## USC Related Work
-- [Gavin, Michael. (2023) Literary Mathematics](https://literarymathematics.org/)
-- [On the Books: Jim Crow and Algorithms of Resistance](https://onthebooks.lib.unc.edu/)[more...](javascript:void(0);)[less...](javascript:void(0);)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886548)",usc_related_digital_scholarship1
 What are the concepts related to artificial intelligence?,"- [Machne Learning (b1, b2, c)](https://www.youtube.com/watch?v=4RixMPF4xis)
 - [Deep Learning (b1,b2, c):](https://www.youtube.com/watch?v=6M5VXKLf4D4)
 - [Natural Language Processing (NLP) (b1 b2, c):](https://www.youtube.com/watch?v=CMrHM8a3hqw)
@@ -3006,24 +2961,6 @@ Where can I find examples of digital projects?,"# Digital Projects Showcase
 [Digital Projects Showcase](/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
 
 [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)",find_example_digital_project
-Who can I contact for digital scholarship help?,"# Contact Us
-Contact us with questions or to schedule an appointment to discuss your needs.
-
-[Kate Boyd](/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
-Director of Digital Research Services
-803-777-2249
-[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
-
-[Amie Freeman](/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
-Assistant Head, Acquisitions & Scholarly Communication
-803-777-8280
-[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)",contact_digital_scholarship_help
-Are there any upcoming library workshops?,"# Library Workshops
-[](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68188&inc=0)
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)",upcoming_library_workshop
 What is digital scholarship?,"## Digital Scholarship
 #### Digital scholarship is the use of digital evidence and method, digital authoring, digital publishing, digital curation and preservation, and digital use and reuse of scholarship. (Abby Rumsey, 2011)
 
@@ -3068,22 +3005,6 @@ How do I get started with text mining?,"## Getting Started
 - Pull together a. This could be through:Scanning and OCRing contentScraping the webRequesting licensed data from a company or vendor.
 
 [Learn more here](https://guides.library.sc.edu/c.php?g=1341033)",get_started_text_mining
-What are common text analysis methods?,"## Common Text Analysis Methods
-- : Most themes and words used throughout the text
-- Finding the most significant terms across documents
-- Finding connections or pairings of words
-- : Searhing for similar topics in many books, a long running diary, a whole run of a journal or periodical
-- : Mapping emotions in a body of texts
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033)",common_text_analysis_method1
-How do I store and create machine-readable text?,"## Storing and Creating Machine Readable Text
-Your data , text, or content must be machine readable and together in one place for the algorthims in any platform to work.  In other words, images like PNG or JPG will not work, so they must be OCRed or converted into text. PDFs may work if the text is searchable within the document.  Here are a few tools for converting your data into the proper text format.  TXT , TSV, or CSV are the best formats for working with data.
-If your computer can no longer handle the size of the data set, contact DoIT [Research Computing ](https://sc.edu/about/offices_and_divisions/division_of_information_technology/rc/index.php)about their high performance computing (HPC) options.
-- [DataFile Converter](https://www.withdata.com/data-file-converter/)
-- [How to convert PDFs to Text files](https://www.pdf2go.com/)
-- [Tesseract OCR software](https://tesseract-ocr.github.io/tessdoc/)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033)",store_create_machinereadable_text
 Can I create an open access journal through the University of South Carolina Libraries?,"## Create and Manage Open Access Journals
 The University of South Carolina Libraries offers software and support for the creation and management of open access journals. The library uses [Digital Commons software to host journals](https://www.bepress.com/reference_guide_dc/managing-publishing-journals/). Benefits of using this software include support for all types of content, search engine optimization, access to detailed analytics, and flexible peer-review workflows.
 USC affiliated faculty are eligible for free journal hosting and support. Before launching a new journal, you’ll need to carefully consider the details of your journal, including people, policies, content, production, design, workflow, and sustainability. In most cases, you'll be asked to sign a memorandum of understanding with the University Libraries to delineate expectations and responsibilities.
@@ -3189,14 +3110,6 @@ Are there more digital projects I can explore?,"[
  Explore exhibits from Scholar Commons, the Institutional Repository of the University of South Carolina.
 ](https://scholarcommons.sc.edu/exhibit/)",digital_project_explore
 Where can I learn more about the Digital Projects Showcase?,[Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php),learn_digital_project_showcase
-What introductory tools are available for text analysis?,"## Introductory Tools
-These are wonderful, easy to use tools to explore whether you want to learn more about text analysis.  We are members of HathiTrust, which gives you access to their tools. Voyant is a free web browser and AntConc is application available to download.  Constellate is a product from JSTOR for  which we have a license.
-- [Laurence Anthony's Software AntConc](https://www.laurenceanthony.net/software/antconc/)
-- [Constellate](https://constellate.org/)
-- [HathiTrust](https://analytics.hathitrust.org/)
-- [Voyant](https://voyant-tools.org/)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)",introductory_tool_available_text
 What is Constellate and how do I use it?,"## Constellate (USC login required)
 - [See the Contellate Guide for detailed instructions](https://constellate.org/docs/log-in) or visit their [YouTube site for video tutorials](https://www.youtube.com/@Constellate_org).
 The web site offers Tutorials in the top right link on Beginner Python Lessons and Intermediate Text Analysis.  Their site will help you 
@@ -3212,25 +3125,6 @@ Supported by Indiana University and University of Illinois at Urbana-Champaign, 
 As institutional members of [HathiTrust](https://www.hathitrust.org/), Columbia faculty and students have access to the HathiTrust Research Center. To access this portal, you must first Login to HathiTrust using your USC network id. Once signed in, you can read about the [HathiTrust Research Center here](https://www.hathitrust.org/member-libraries/services-programs/htrc/).
 
 [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)",hathitrust_research_center_access
-What advanced text analysis tools are available?,"## Advanced Text Analysis Tools
-These tools will take some learning, but there are people in Research Computing and in the Libraries who can help you get started.
-- [Anaconda](https://www.anaconda.com/)
-- [BERTopic](https://maartengr.github.io/BERTopic/api/bertopic.html)
-- [Google Colab](https://colab.research.google.com/)
-- [Jupyter Lab](https://jupyter.org/)
-- [MATLAB: USC site license available](https://sc.edu/about/offices_and_divisions/division_of_information_technology/end_user_services/available_technology_resources/)
-- [NLTK (Natural Language ToolKit)](https://www.nltk.org/)[more...](javascript:void(0);)[less...](javascript:void(0);)
-- [Python Programming Language](https://www.python.org/)
-- [R Studio](https://posit.co/download/rstudio-desktop/)
-- [TAPoR 3](https://tapor.ca/home)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)",advanced_text_analysis_tool1
-What data cleaning tools are available?,"## Data Cleaning Tools
-- [Open Refine](https://openrefine.org/download)
-- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
-- [Regular Expressions (Regex)](https://regex101.com/)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)",data_cleaning_tool_available
 How can I track the impact of my research?,"## Impact
 After adding your research to Scholar Commons, you’ll have access to useful insights into the ways that others are using your research. In this video, learn how to use the Author Dashboard to understand the reach and impact of your scholarly works.
 [Learn more here](https://guides.library.sc.edu/scholarcommons/impact)",track_impact_research
@@ -3259,10 +3153,19 @@ What digital tools are available for my project?,"## Digital Tools
 You've [picked your CMS](http://guides.library.sc.edu/digitalscholarship/cms). Now, it's time to create content for your site.
 You'll likely need a number of digital tools to build your vision. Here are some areas you might consider when developing your website and an explanation of some of the tools available to move your project from dream to reality. Most of the tools mentioned here are reasonably user-friendly and free to use or sample, but a few require payment for advanced options.
 Not sure where to start? Visit [TAPoR 3](http://tapor.ca/home), a fantastic project that connects you with a large, curated collection of trusted tools widely used by digital humanities scholars.",digital_tool_available_project
-What text analysis tools are available?,"## Text Analysis Tools
-- [Text Analysis](https://guides.library.sc.edu/c.php?g=1341033)
-- [Voyant](https://voyant-tools.org/)
-- [Textal](http://www.textal.org/)",text_analysis_tool_available
+What advanced text analysis tools are available?,"## Advanced Text Analysis Tools
+These tools will take some learning, but there are people in Research Computing and in the Libraries who can help you get started.
+- [Anaconda](https://www.anaconda.com/)
+- [BERTopic](https://maartengr.github.io/BERTopic/api/bertopic.html)
+- [Google Colab](https://colab.research.google.com/)
+- [Jupyter Lab](https://jupyter.org/)
+- [MATLAB: USC site license available](https://sc.edu/about/offices_and_divisions/division_of_information_technology/end_user_services/available_technology_resources/)
+- [NLTK (Natural Language ToolKit)](https://www.nltk.org/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Python Programming Language](https://www.python.org/)
+- [R Studio](https://posit.co/download/rstudio-desktop/)
+- [TAPoR 3](https://tapor.ca/home)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)",advanced_text_analysis_tool1
 What annotation tools are available?,"## Annotation Tools
 - [Hypothes.is](https://web.hypothes.is/)",annotation_tool_available
 What timeline tools are available?,"## Timeline Tools
@@ -3354,42 +3257,10 @@ How do I modify an existing Open Educational Resource?,"## Modifying OER
 Modifying an existing OER is a a simpler way of adopting content to suit your needs than creating a new OER. Before modifying an OER, check that the Creative Commons license does not contain a no derivatives clause. If it does, you do not have permission to modify the work. Search for formats that are conducive to modification, such as .docx and .rtf. Once you've downloaded and modified the OER, you can upload it to many of the sites listed in the [Sites for Creating and Hosting OER](http://guides.library.sc.edu/c.php?g=410356&p=3732812#s-lg-box-wrapper-13612726) section.
 
 [Learn more here](http://guides.library.sc.edu/OER/createOER)",modify_existing_open_educational
-What resources are available for creating and hosting Open Educational Resources?,"## Resources for Creating and Hosting OER
-- [Google Drive](http://docs.google.com)
-- [Slideshare](http://www.slideshare.net/)
-- [YouTube](https://www.youtube.com/)
-- [Internet Archive](http://archive.org/)
-- [WordPress](http://wordpress.com/)
-- [Open Author from OER Commons](https://www.oercommons.org/)
-- [Merlot Content Builder](https://www.merlot.org/merlot/index.htm)
-- [WikiEducator](https://wikieducator.org/Main_Page)
-
-[Learn more here](http://guides.library.sc.edu/OER/createOER)",resource_available_creating_hosting
 What is the attribution for this information on Open Educational Resources?,"## Attribution
 Sections of this page have been modified from the [COERLL Module on Open Educational Resources](https://utexas.instructure.com/courses/1097558), licensed under a [CC BY 4.0 Attribution](http://creativecommons.org/licenses/by/4.0) License.
 
 [Learn more here](http://guides.library.sc.edu/OER/createOER)",attribution_information_open_educational
-What freely available corpora can I use for text mining and analysis?,"## Freely available corpora to mine and analyze
-Here are a few collections of text that are freely available for text mining and analysis. Usually, a freely available or accessible corpora comes with an API which assists the user in pulling the information they need.  See below for information on how to get started with using APIs.
-- [Biodiversity Heritage Library APIs](https://about.biodiversitylibrary.org/tools-and-services/developer-and-data-tools/)
-- [Chronicling America Newspapers API](https://chroniclingamerica.loc.gov/about/api/)
-- [Digital Public Library of America (DPLA)](https://pro.dp.la/developers/api-codex)
-- [English-Corpora.org](https://www.english-corpora.org/corpora.asp)
-- [General Index](https://archive.org/details/GeneralIndex)
-- [Internet Archive eBooks and Texts](https://archive.org/details/texts)
-- [Library of Congress Labs](https://data.labs.loc.gov/)
-- [New York Times APIs](https://developer.nytimes.com/)
-- [Project Gutenberg](https://www.gutenberg.org/)[more...](javascript:void(0);)[less...](javascript:void(0);)
-- [Public Library of Science (PLOS)](http://api.plos.org/)
-- [PubTator Central](https://www.ncbi.nlm.nih.gov/research/pubtator/)[more...](javascript:void(0);)[less...](javascript:void(0);)
-- [University of Oxford Text Archive](https://ota.bodleian.ox.ac.uk/repository/xmlui/)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886165)",freely_available_corpus_use
-How do I learn to work with an API?,"## Learn to work with an API
-Here is some information to learn how to pull in some of these free content and work with their API (Application Programming Interface).
-- [University of Alambama API Code Examples](https://ualibweb.github.io/UALIB_ScholarlyAPI_Cookbook/content/about/introduction.html)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886165)",learn_work_api1
 How do I create an account in Scholar Commons?,"## Creating an Account in Scholar Commons
 This video will guide you through the steps of creating an account with Scholar Commons, the institutional repository of the University of South Carolina.
 [Learn more here](https://guides.library.sc.edu/scholarcommons/tutorials)",create_account_scholar_common
@@ -3399,9 +3270,6 @@ In this video, learn how to archive and share your research and scholarship thro
 How can I assess the impact of my research in Scholar Commons?,"## Using Scholar Commons to Assess your Research Impact
 After adding your research to Scholar Commons, you’ll have access to useful insights into the ways that others are using your research. In this video, learn how to use the Author Dashboard to understand the reach and impact of your scholarly works.
 [Learn more here](https://guides.library.sc.edu/scholarcommons/tutorials)",assess_impact_research_scholar
-What platforms are available for digital scholarship projects?,"## Selecting a Platform
-There are many content management systems or platforms that can be used for digital scholarship projects. The library offers many content management systems at no cost to faculty, staff, and graduate students through [](https://uofsccreate.org/). Simply log in with your network username and password to get started. You can also choose to support these platforms on your own.
-Use the links below to access the tools or, when available, log in to [USC Create Digital ](https://uofsccreate.org/)to discover free tools offered by the library.",platform_available_digital_scholarship
 What content management systems are available?,"
 ## Content Management Systems
 - [Drupal](https://www.drupal.org/)
@@ -3570,10 +3438,6 @@ Can I share my article versions online?,"Yes, if you've published in a [RoMEO gr
 Yes, if you've published in a [RoMEO blue or yellow journal](http://www.sherpa.ac.uk/romeoinfo.html). Blue and Yellow journals allow the author to deposit the accepted  manuscript (post-print) in a repository.
 Subscription journals typically don't allow authors to legally share the published version of their article online unless it was published open access, but there are exceptions. You can usually find information on your journal's self-archiving policy at [http://www.sherpa.ac.uk/romeo/search.php](http://www.sherpa.ac.uk/romeo/search.php).
 [Learn more here](https://guides.library.sc.edu/openaccessresources/version)",share_article_version_online
-What is OSF and how can I use it?,"[](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
-
-To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
-[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)",osf_use_it1
 Are there any long-term archiving options for research data at the University of South Carolina?,"The University of South Carolina does not currently have a system-wide, long-term archiving option for research data. However, many external disciplinary and general data repositories exist.
 [Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)",longterm_archiving_option_research
 What are some external data repositories I can use?,"- [ICPSR](http://www.icpsr.umich.edu/icpsrweb/)
@@ -3586,24 +3450,6 @@ What are some external data repositories I can use?,"- [ICPSR](http://www.icpsr.
 - [Figshare](https://figshare.com/)
 - [Zenodo](https://zenodo.org/)
 [Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)",external_data_repository_use
-How do I cite a dataset?,"If you are using another researcher's dataset, it's important to cite it to give that producer credit. Citing data also simplifies access to data for re-use.
-
-Data Creator
-Title of Dataset
-Year of Publication
-Publisher (usually the data repository where the dataset is housed)
-Edition or Version
-Access Information (URL or other persistent identifier)
-A recommended format is:
-Creator (PublicationYear). Title. Publisher. Identifier
-or, if version and type of resource are available:
-Creator (PublicationYear). Title. Version. Publisher. ResourceType. Identifier
-- [DOI Citation Formatter](http://citation.crosscite.org/)
-- [Data Citation Index](https://login.pallas2.tcl.sc.edu/login?url=https://www.webofscience.com/wos/drci/basic-search)
-[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)",cite_dataset1
-What are the policies for text analysis of licensed content?,"## Licensed Content for Text Analysis
-Policies and terms of use for text and data mining of licensed products are subject to change and may be adjusted without notice. Many requests can be mediated through the Libraries, but you may need to negotiate directly with the vendor and pay associated costs. The Libraries does not pay content mining fees for researchers.
-[Learn more here](https://guides.library.sc.edu/text-analysis/content)",policy_text_analysis_licensed1
 What vendors allow text and data mining of their licensed content?,"The following list is representative of vendor policies but is not exhaustive. Please [contact the Libraries ](mailto:digres@mailbox.sc.edu?subject=Vendor%20Content%20Mining%20Request)for help getting started with these or other databases
 - [AM (Adam Matthew)](https://www.amdigital.co.uk/support/digital-humanities)AM allows text and data mining of non-video licensed content subject to written consent from AM for the purposes of research, education, teaching or other non-commercial use. Request access from[AM's website](https://www.amdigital.co.uk/contact/text-and-data-mining).
 - [Cambridge University Press](https://www.cambridge.org/digital-products)[Contact the Libraries](mailto:digres@mailbox.sc.edu)to initiate the process.
@@ -3679,9 +3525,13 @@ How do I contact the course materials support team?,"
 Contact us with questions or to submit requests.
 : 803-777-3145
 : [ereserve@mailbox.sc.edu](mailto:ereserve@mailbox.sc.edu)",contact_course_material_support
-What are Open Educational Resources?,"
-# Open Educational Resources
-Discover freely accessible and customizable course materials to reduce textbook costs for your students. Explore our [OER guide](http://guides.library.sc.edu/OER).",open_educational_resource
+What is the impact of Open Educational Resources?,"## OER Impact
+The use of Open Educational Resources (OER) can benefit students and instructors. Research has shown that:
+- [The use of OER can save students money without negatively impacting learning outcomes.](https://openpraxis.org/index.php/OpenPraxis/article/view/505)
+- [OER adoption improves end-of-course grades and decreases course withdrawals and the grades of D and F (DFW grades). ](http://www.isetl.org/ijtlhe/pdf/IJTLHE3386.pdf)
+At the University of South Carolina, the use of OER and other freely-available materials has saved students over $3,000,000 since 2015.
+
+[Learn more here](http://guides.library.sc.edu/OER)",impact_open_educational_resource
 Where can I find more information about music materials?,"
 # Related Information
 For streaming audio reserves and other music materials contact the [Music Library](/about/offices_and_divisions/university_libraries/browse/music_library/index.php).
@@ -3703,25 +3553,6 @@ There are many repositories that archive and make works openly available. As men
 - [SSRN](https://www.ssrn.com/)
 
 [Learn more here](https://guides.library.sc.edu/openaccessresources/tools)",find_openly_available_research
-Why is a consistent file naming strategy important?,"Developing and following a consistent file naming strategy can make data easier to find, particularly when large numbers of files exist. Although it's common to think that file names will be remembered in the future, unorganized files and folders can lead to frustration down the road.
-
-Good file naming allows you to identify the contents of the file from the name. It may be useful to consider including some or all of the following information, as long as it is done consistently.
-- File creator's name/initials
-- Date of creation
-- Version number
-- Project or experiment name or acronym
-- Location/spatial coordinates
-- Type of data
-- Conditions
-- File version number
-- Keep file names as short as possible while including necessary information.
-- Do not use special characters such as #, <, >, $, +, %, *, etc. Different operating systems may interpret these as instructions to perform special tasks.
-- Use hyphens (-) instead of underscores (_), full stops (.), or spaces in file names.
-- If you add dates, make sure you use consistent formatting.
-- While underscores are invisible when links are underlined, hyphens can still be seen.
-- For files that might be searched online, some search engines don't recognize underscores and others may downgrade page rankings if underscores are used.
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573562)",consistent_file_naming_strategy1
 What file formats should I use to ensure long-term accessibility?,"As anyone with data saved on a floppy disk probably realizes, technology changes constantly and, if not planned for, hardware and software obsolescence can render data inaccessible and unreadable. To ensure long-term accessibility of research data, researchers should consider using file formats that share these characteristics:
 - Non-proprietary
 - Open, documented standard
@@ -3736,66 +3567,12 @@ Data saved in proprietary formats are vulnerable to obsolescence. Here are examp
 - TIFF or[JPEG2000](https://jpeg.org/jpeg2000/)instead of .gif or .jpg
 
 [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573562)",file_format_use_ensure1
-What is Open Science Framework?,"[](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. Created by the [Center for Open Science](https://cos.io/), OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
-
-Open Science Framework is not just for science! Researchers in any discipline can use this tool. Keep in mind that OSF is for sensitive data.",open_science_framework1
-How do I get started with Open Science Framework?,"- [Create an Account](https://osf.io/register/)
-
-- [USC OSF Dashboard](https://osf.io/institutions/sc)",get_started_open_science1
-What kind of data should not be stored on Open Science Framework?,"## Not for PII, PHI
-Open Science Framework is not HIPAA-compliant. It is not a place to store data sets containing personally identifiable information.
-
-[Learn more here](http://guides.library.sc.edu/osf)",kind_data_stored_open
-What learning sessions are offered by USC Libraries?,"## Learning Sessions offered by USC Libraries
-Each semester, the Libraries offers online, live learning sessions or workshops for different topics.  Please visit the link below for the latest offerings in text analysis.
-- [Text Analysis workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68189&inc=0)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886483)",learning_session_offered_usc1
-What events are offered by Constellate?,"## Constellate Events
-JSTOR's [Constellate ](https://constellate.org/events)offers events through out the year,  Some upcoming events include:
-- Wat Can you Do with Word Counts (Sept. 13)
-- Introduction to Language Models (Sept. 20th)
-- Python Basics (Oct. 16-20)
-- Python Intensive (Oct. 23-27)
-USC Columbia faculty and students may register for these on their site at [https://constellate.org/events](https://constellate.org/events) .
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886483)",event_offered_constellate1
-What tutorials are available for text analysis?,"## Tutorials
-- [Blei, David (2012) Modeling Science: Dynamic Topic Models of Scholarly Research. GoogleTalks Archive YouTube Video](https://www.youtube.com/watch?v=7BMsuyBPx90)
-- [Hermenuti.ca](http://hermeneuti.ca/)
-- [Mimno, David. (2012) Topic Modeling MITH Workshop on Topic Modeling Vimeo Video](https://vimeo.com/53080123)
-- [Programming Historian Tutorials](https://programminghistorian.org/en/lessons/)
-- [PythonHumanities](https://pythonhumanities.com/)
-- [Python Video Tutorials by William Mattingly](https://www.youtube.com/@python-programming)
-- [Sage Text Mining Tutorials for Social Scientists](https://us.sagepub.com/en-us/nam/text-mining-for-social-scientists-ignatow)
-- [The TDM Today Show! Episode 01](https://archive.org/details/tdm.today.ep.01)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886483)",tutorial_available_text_analysis1
-What instructions and articles are available for text analysis?,"## Instructions and Articles
-- [Brett, Megan.(Winter 2012) Topic Modeling, A Basic Introduction. Journal of Digital Humanities. Vol 2, No.1](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/)
-- [Gavin, Michael. (2023) Literary Mathematics](https://literarymathematics.org/)
-- [Posner, Miriam, (2012) Very basic strategies for interpreting results from the Topic Modeling Tool, Miriam Posner's Blog](https://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/)
-- [Underwood, Ted. (August 2015) Distant Reading with HathiTrust, The Stone and the Shell Blog.](https://tedunderwood.com/2015/08/07/a-dataset-for-distant-reading-literature-in-english-1700-1922/)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886483)",instruction_article_available_text1
-What are Open Educational Resources?,"## What Are Open Educational Resources?
-Open Educational Resources are educational materials offered freely and openly for anyone to use. They are usually licensed to allow sharing, remixing, or customization. The resources can include textbooks, full courses, course materials, modules, streaming videos, tests, software, and any other resources used to support access to knowledge.
-The image used for the 5 Rs of OER was retrieved from [Making Open Educational Resources: A Guide for Students by Students](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fecampusontario.pressbooks.pub%2Foer4students%2Fchapter%2Fwhat-are-oers-and-why-use-them%2F&data=05%7C01%7CDILLARDA%40mailbox.sc.edu%7C2e8b287b0624446f35d808db18dafa12%7C4b2a4b19d135420e8bb2b1cd238998cc%7C0%7C0%7C638131101012281011%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=LMhhEH%2FmtLBYOO7OJd%2BB4YUHZHFnzsRhGgugApTiYiY%3D&reserved=0) and is available under a [Creative Commons Attribution Non Commercial ShareAlike 4.0 International License](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-sa%2F4.0%2F&data=05%7C01%7CDILLARDA%40mailbox.sc.edu%7C2e8b287b0624446f35d808db18dafa12%7C4b2a4b19d135420e8bb2b1cd238998cc%7C0%7C0%7C638131101012281011%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=UtItNIycH%2BA%2F32ZrBi1GOHgO8cfG9PrURIc6A6MxFfI%3D&reserved=0).
-
-[Learn more here](http://guides.library.sc.edu/OER)",open_educational_resource1
 What are some statistics about textbook costs?,"## Did You Know?
 The average student should budget $1298 a year for books and supplies. - [College Board](https://bigfuture.collegeboard.org/pay-for-college/college-costs/quick-guide-college-costs)
 64.2% of students have chosen not to purchase a textbook because it was too expensive. - [2018 Student Textbook and Course Materials Survey ](https://dlss.flvc.org/documents/210036/1314923/2018+Student+Textbook+and+Course+Materials+Survey+Report+--+FINAL+VERSION+--+20190308.pdf/07478d85-89c2-3742-209a-9cc5df8cd7ea)
 Textbook costs have risen more than 1,000 percent since the 1970's. - [NBC](https://www.nbcnews.com/feature/freshman-year/college-textbook-prices-have-risen-812-percent-1978-n399926).
 
 [Learn more here](http://guides.library.sc.edu/OER)",statistic_textbook_cost
-What is the impact of Open Educational Resources?,"## OER Impact
-The use of Open Educational Resources (OER) can benefit students and instructors. Research has shown that:
-- [The use of OER can save students money without negatively impacting learning outcomes.](https://openpraxis.org/index.php/OpenPraxis/article/view/505)
-- [OER adoption improves end-of-course grades and decreases course withdrawals and the grades of D and F (DFW grades). ](http://www.isetl.org/ijtlhe/pdf/IJTLHE3386.pdf)
-At the University of South Carolina, the use of OER and other freely-available materials has saved students over $3,000,000 since 2015.
-
-[Learn more here](http://guides.library.sc.edu/OER)",impact_open_educational_resource
 What are predatory publishers?,"## Predatory Publishers
 Frequently, these publishers do not initially mention an author's fee, but may later ask for a publication fee under the guise of operating as a quality journal.
 [Learn more here](https://guides.library.sc.edu/openaccessresources/predatory)",predatory_publisher
@@ -3810,55 +3587,12 @@ How can I determine if a journal is predatory?,"## Determining if a Journal is P
 What industry memberships indicate a journal is not predatory?,"## Industry Memberships
 Membership in the [Directory of Open Access Journals](https://doaj.org/) or the [Open Access Scholarly Publishers Association](http://oaspa.org/) is a good indicator that a journal is not predatory. You can check these sites to help you determine that the journal you are interested is legitimate.
 [Learn more here](https://guides.library.sc.edu/openaccessresources/predatory)",industry_membership_indicate_journal
-Why is backing up data important?,"Backing up data is an essential part of the data management process. Hardware failure, virus infection, hacking, and loss or theft of hardware are all common realities that can have a devastating effect on research if proper back-up hasn't taken place.
-
-See the [UK Data Archive's guidelines on Backing-up Data](https://www.ukdataservice.ac.uk/manage-data/store.aspx) for more information.
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)",backing_data_important1
 What is the difference between back-up and storage?,"Back-up and storage are related concepts, but are not the same thing. While storage refers to ways of preserving files for the short- or long-term, back-up refers to preserving copies of your files in different physical locations and using different media to protect against data loss.
 
 [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)",difference_backup_storage
 What is the 3-2-1 rule for backing up data?,"A good rule of thumb for backing up data is the 3-2-1 rule. It states that at least 3 total copies of data should exist, 2 of which are local but on different media (devices), and at least 1 copy should be stored offsite. The offsite storage is important in case of fires, floods, or theft.
 
 [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)",321_rule_backing_data
-What are some resources for understanding data privacy?,"While information security is concerned with protection, privacy is concerned with the sensitivity of data, the justification for collecting data, and decisions about notification and sharing. International, Federal, and State legislation and regulations may apply. Privacy issues vary greatly by location and subject matter of data, posing significant liabilities, especially with regard to protected personal information (PPI) and personal identifying information (PII). A few resources of note include:
-- [European Union General Data Protection Regulations (GDPR)](https://gdpr-info.eu/)
-- [South Carolina Enterprise Privacy Office](https://admin.sc.gov/services/technology-services/information-security-privacy)
-- [SC-DIS 200, Information Security and Privacy Standards](https://www.admin.sc.gov/sites/admin/files/Documents/PMOOTIS/SCDIS-200_Information_Security_and_Privacy_Standards.xlsx)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)",resource_understanding_data_privacy
-What university policies apply to research data management?,"The following university policies are potentially applicable to research data management.
-- [Information Security IT 3.00](http://www.sc.edu/policies/it300.pdf)
-- [Archives and Record Management LIB 1.03](http://www.sc.edu/policies/lib103.pdf)
-- [Research Data Access and Retention RSCH 1.05](http://www.sc.edu/policies/rsch105.pdf)
-- [Data & Information Governance UNIV 1.51](http://www.sc.edu/policies/univ151.pdf)
-- [Responsible Use of Data, Technology, and User Credentials UNIV 1.52 ](http://www.sc.edu/policies/univ152.pdf)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)",university_policy_apply_research1
-What services does OSF integrate with?,"## OSF Integrations
-OSF integrates with many services you might already use.
-- [](https://help.osf.io/hc/en-us/categories/360001495973-Creating-and-Managing-Projects)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6737464)",service_osf_integrate_with1
-What are some example projects that use digital scholarship?,"## Example Projects
-- [Blevins, Cameron. (April 2010) Topic Modeling Marth Ballard's Diary. Blog Post](http://www.cameronblevins.org/posts/topic-modeling-martha-ballards-diary/)
-- [Block, Sharon. (January 2006) Doing More with Digitization. Common Place. Vol.6 No.2](http://commonplace.online/article/doing-more-with-digitization/)
-- [Brown, Nicole et al. ( Aug 2019) In Search of Zora/When Metadata Isn’t Enough: Rescuing the Experiences of Black Women Through Statistical Modeling. Library Metadata. Vol 19. Issue 3-4, Page 141](https://login.pallas2.tcl.sc.edu/login?url=https://www.tandfonline.com/doi/full/10.1080/19386389.2019.1652967)
-- [Emerging Technology and arXiv.(July 2016) Data Mining Reveals Six Basic Emotional Arcs of Storytelling, MIT Review](https://www.technologyreview.com/s/601848/data-mining-reveals-the-six-basic-emotional-arcs-of-storytelling/)
-- [King, Lindsey and Peter Leonard. (2019) Robots Reading Vogue. Yale University.](http://dh.library.yale.edu/projects/vogue/)
-- [Mitts, Tamar. (March 31, 2017) From Isolation to Radicalization: Anti-Muslim Hostility and Support for ISIS in the West. SSRN](http://dx.doi.org/10.2139/ssrn.2795660)
-- [Mueller, Hannes and Christopher Rauh. (May 2018) Reading Between the Lines: Prediction of Political Violence Using Newspaper Text. American Political Science Review. Vol. 112, Issue 2, Page 358](https://doi.org/10.1017/S0003055417000570)
-- [National Science Foundation. (2016) Rescued History: Using Big Data. Press Release](https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=137797&org=NSF)
-- [Nelson, Robert. Mining the Dispatch Digital Scholarship Lab, University of Richmond.](http://dsl.richmond.edu/dispatch/)
-- [Newspapers as Data Project](https://libguides.library.arizona.edu/newspapers-as-data)[more...](javascript:void(0);)[less...](javascript:void(0);)
-- [On the Books: Jim Crow and Algorithms of Resistance](https://onthebooks.lib.unc.edu/)[more...](javascript:void(0);)[less...](javascript:void(0);)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886548)",example_project_use_digital2
-What are some USC related digital scholarship projects?,"## USC Related Work
-- [Gavin, Michael. (2023) Literary Mathematics](https://literarymathematics.org/)
-- [On the Books: Jim Crow and Algorithms of Resistance](https://onthebooks.lib.unc.edu/)[more...](javascript:void(0);)[less...](javascript:void(0);)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886548)",usc_related_digital_scholarship2
 How can I make my class affordable?,"## Making Your Class Affordable
 Many faculty members across USC have converted traditional courses to zero cost courses. How can you do the same? There's no one answer for everyone, but you can use a mix of Open Educational Resources, library-licensed resources, and items freely available or in the public domain on the web. Don't get discouraged if you do not immediately see an open textbook that fits your needs. A librarian can help you locate alternate resources to make your class affordable.
 
@@ -3888,19 +3622,9 @@ We are happy to offer a syllabus review service to help you locate affordable re
 Email: [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu?subject=Help%20locating%20affordable%20resources&body=Name%3A%0A%0ADepartment%3A%0A%0ACourse%3A%0A%0AReading%20List%20(please%20cut%20and%20paste%20your%20reading%20list)%3A%0A%0AIs%20there%20anything%20else%20you'd%20like%20to%20let%20us%20know%3F)
 
 [Learn more here](https://guides.library.sc.edu/OER/affordableclass)",get_help_locating_affordable
-What resources are available for research data management education?,"- [DataOne Research Data Management Education Modules](https://www.dataone.org/training/)
-- [MANTRA](https://mantra.ed.ac.uk/)
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4581796)",resource_available_research_data1
 What is the problem with published research findings?,"Statistically significant findings are more likely to be published. Because of bias and [](https://login.pallas2.tcl.sc.edu/login?url=https://journals.sagepub.com/doi/full/10.1177/2515245917747646), much of the research published in journals is irreproducible.
 
 [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)",problem_published_research_finding
-What are Registered Reports in OSF?,"Registrations in OSF are time-stamped, read-only versions of a research plan that explain how data will be collected, manipulated, and analyzed in advance. Providing this [](https://cos.io/rr/) to a participating journal effectively creates two peer-review processes.
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)",registered_report_osf1
-What happens to articles resulting from accepted Registered Reports?,"Articles resulting from accepted Registered Reports are accepted by the journal regardless of outcome after the peer reviewed quality checks are met.
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)",happens_article_resulting_accepted1
 Where can I find resources for registering my project?,"- [](https://help.osf.io/hc/en-us/articles/360019930893-Register-Your-Project)
 - [](https://cos.io/blog/10-preregistration-tips/)
 - [](https://osf.io/93znh/?_ga=2.14338366.884352988.1557167302-1022953819.1557167302)
@@ -3928,15 +3652,12 @@ The SCoer Awards recognize and support faculty who use open educational resource
 
 Given annually by University Libraries, the SCoer Awards recognize faculty who use open educational resources in their classrooms.
 
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2024/scoer_winners_24.php)",scoer_award
-How do the SCoer Awards work?,"To participate in the program, Track One honorees attend a workshop hosted by University Libraries to help them identify or create OER materials for their courses. They commit to switching from the use of a traditional textbook to an OER or library-based resource in one of their classes and are recognized with a certificate and a $1,000 award.
-
+To participate in the program, Track One honorees attend a workshop hosted by University Libraries to help them identify or create OER materials for their courses. They commit to switching from the use of a traditional textbook to an OER or library-based resource in one of their classes and are recognized with a certificate and a $1,000 award.
 Track Two honorees are recognized for their existing use of OER materials and agree to serve as affordable learning advocates and to create resources for other instructors interested in transitioning to the use of affordable learning materials.
-
 Award recipients are selected by USC Student Government representatives and University Libraries staff.
 
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2024/scoer_winners_24.php)",scoer_award_work
-Who are the winners of the 2024 SCoer Awards?,"# 2024 TRACK ONE SCOER AWARD WINNER
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2024/scoer_winners_24.php)",scoer_award
+Who are the winners of SCoer Awards?,"# 2024 TRACK ONE SCOER AWARD WINNER
 Nicola Waldron
 # 2024 TRACK ONE SCOER AWARD WINNER
 Toni Williams
@@ -3945,35 +3666,31 @@ Leah McClimans
 # 2024 TRACK TWO SCOER AWARD WINNER
 Lauren Sklaroff
 
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2024/scoer_winners_24.php)",winner_2024_scoer_award
-What are the benefits of using Open Educational Resources (OER) according to the award recipients?,"The award recipients mentioned several benefits, including reducing costs for students, promoting equity across campus, allowing students to flourish in the classroom, and providing a more diverse body of knowledge and content.",benefit_using_open_educational
-What are some quotes from the award recipients on why they chose to use OER?,"One recipient mentioned that 'I have always kept cost in mind since I started to teach at USC. As a graduate student, I had to save money at the beginning of each semester to purchase textbooks.' Another recipient stated that 'OER has been a central focus of my research endeavors, and I have conducted multiple research projects promoting the adoption of OER in K-12 and higher education.'",quote_award_recipient_chose
-Who are the 2023 SCoer award winners?,"# 2023 SCOER Award Winner
 Michael Grant
 # 2023 SCOER Award Winner
 Jin Liu
 # 2023 SCOER Award Winner
 Hengtao Tang
 # 2023 SCOER Award Winner
-Kasie Whitener",2023_scoer_award_winner
-Who are the 2022 SCoer award winners?,"# 2022 SCOER Award Winner
+Kasie Whitener
+
 Brett W.
 # 2022 SCOER Award Winner
 Coenen Snyder
 # 2022 SCOER Award Winner
 Loren Tharp
 # 2022 SCOER Award Winner
-Yang Wang",2022_scoer_award_winner
-Who won the SCoer awards for 2021?,"## Four faculty win SCoer awards for 2021
-Congratulations to the four recipients of this year’s SCoer faculty awards. These instructors will create or incorporate open educational resources and other free learning resources into their classrooms, exploring innovate new pedagogical practices, and in the process, save their students money.
-The winners are , Department of Computer Science and Engineering, , Department of Psychology, ,Biological Sciences and ,College of Nursing.",scoer_award_2021
+Yang Wang
+
+[Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2021/scoer_2021.php)",winner_scoer_award
+What are the benefits of using Open Educational Resources (OER) according to the award recipients?,"The award recipients mentioned several benefits, including reducing costs for students, promoting equity across campus, allowing students to flourish in the classroom, and providing a more diverse body of knowledge and content.",benefit_using_open_educational
+What are some quotes from the award recipients on why they chose to use OER?,"One recipient mentioned that 'I have always kept cost in mind since I started to teach at USC. As a graduate student, I had to save money at the beginning of each semester to purchase textbooks.' Another recipient stated that 'OER has been a central focus of my research endeavors, and I have conducted multiple research projects promoting the adoption of OER in K-12 and higher education.'",quote_award_recipient_chose
 What factors did the selection committee consider?,"The selection committee looks closely at three determining factors: applicants who showed a strong desire to learn the process of finding and using online educational resources, the potential for long-term financial savings for students, and the availability of OER materials on the subject taught, says , Scholarly Communication Librarian.",factor_selection_committee_consider
 What do the winners plan to achieve with their awards?,"Meet this year’s winners:
 I wrote a free textbook for upper-level robotics courses, but do not have experience identifying, selecting, and utilizing OER created by others, especially for lower-level courses like my UNIX/Linux Fundamentals course. The subject of this course is one that lends itself well to OER, compared to other aspects of computer science, because there is a long history and plenty of free materials. Students have told me that the current traditional textbooks are not helpful, so I suspect that an OER format may both improve learning outcomes and reduce the costs for students.
 After years of teaching at UofSC, I can clearly identify the potential benefits of using affordable and accessible resources into my own classes. It seems to me that participating in this award program may greatly help me with this transition.
 As a first-generation college student myself, I remember the struggle of having to decide between meals or textbooks. I remember the high cost of education being compounded by high textbook costs that seemed to provide just another barrier against an equitable educational experience. Now, as a faculty member at UofSC, I am focused on creating an equitable, anti-racist class for our students, and one of the direct ways I can take action is by offering a zero-cost course, in terms of needed materials. The pandemic has also brought to light the inequities in our community and in higher education. Equity is a concept that means a lot to me, and the more barriers I can help dismantle for the continued and augmented success of our students, the better, and this program will allow me the resources needed to do just that.
 I am participating in this award program in order to enhance the overall course delivery modalities, engage students in meaningful learning, and cultivate a desire for students to embrace lifelong learning. I believe using innovative and intriguing strategies will better equip my students for success after college and allow them the opportunity to recognize that there are many ways to continue to grow and learn.",winner_plan_achieve_award
-Where can I learn more about the SCoer awards?,[Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2021/scoer_2021.php),learn_scoer_award
 Who won the SCoer Faculty Awards for 2020?,"The winners are , Department of Biological Sciences, , Department of Psychology, Department of Psychology, and , Department of Languages, Literature and Culture.
 
 Meet this year’s winners:
@@ -3988,100 +3705,27 @@ As a college professor, I understand that textbooks can be expensive for student
 Especially during the COVID-19 crisis, it is crucial to democratize courses by making content affordable and accessible. Language textbooks are expensive, and it can be challenging to get French books shipped from abroad. Students already face enormous pressure from high tuition and an uncertain economy. By taking the expense of course materials out of the picture, all students can instead focus on content from day one of the semester, regardless of their financial situation. Providing equal access ensures a more fair, diverse and rich learning environment.",scoer_faculty_award_2020
 What do winners of the SCoer Faculty Award receive?,"Winners have shown great enthusiasm for using OER in their courses, and we congratulate them.
 SCoer Faculty Awards are awarded on an annual basis. While the next award cycle will end in spring 2021, you can [learn about adopting OER here.](https://guides.library.sc.edu/OER)",winner_scoer_faculty_award
-How can I learn more about the SCoer Faculty Award?,[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/scoer2020.php),learn_scoer_faculty_award
-What is required for faculty members to participate in the SCoer program?,"To participate in the program, the winning faculty members each attended a one-hour workshop hosted by the University Libraries to help them identify or create OER materials for their courses. They have committed to switching from the use of a traditional textbook to an OER or library-licensed resource in one of their classes.",required_faculty_member_participate
+What is required to participate in the SCoer program?,"To participate in the program, the winning faculty members each attended a one-hour workshop hosted by the University Libraries to help them identify or create OER materials for their courses. They have committed to switching from the use of a traditional textbook to an OER or library-licensed resource in one of their classes.",required_participate_scoer_program
 How are SCoer Grant recipients selected?,"The SCoer Grant recipients are selected by Student Government representatives and members of the University Libraries. The selection committee looks closely at three determining factors: applicants who showed a strong desire to learn the process of finding and using online educational resources, the potential for long-term financial savings for students, and the availability of OER materials on the subject taught, said , Scholarly Communication Librarian.",scoer_grant_recipient_selected
-What are the goals and motivations of this year's SCoer Grant recipients?,"### Meredith DeBoom
+SCoer Grant recipients,"### Meredith DeBoom
 I am a first-generation college graduate ... When I began my career as an Assistant Professor at USC in Fall 2018, I made a commitment to myself that improving the inclusivity of higher education would be a priority in my career. Rather than walking away with an expensive textbook, I would much rather my students leave with a clear understanding of how they can apply geographic tools and theories in their careers.
 ### Austin Downey
 I want to use this program to help me to develop Open Educational Resources (OER) (textbook, code, and YouTube Videos) and a no-cost Mechanical Vibrations (EMCH 330) course that will be free of any copyright issues or software costs, allowing it to be freely shared.
 ### Jennifer Pournelle
 As a primary instructor for a Carolina Core science course open to all non-science majors, I have the privilege of working with a huge share of students unfamiliar with, and often terrified by, science terms and practices they view as mystifying and inapplicable.
 ### Timothy Shaw
-I have gotten permission to teach from the OpenStax text on a trial basis this fall and develop a slide set for later adoption in more sections based on the OER commons resources.",goal_motivation_year_scoer
-Who are the SCoer Grant recipients?,"## SCoer Grant Recipient
-Meredith DeBoom
-## SCoer Grant Recipient
-Austin Downey
-## SCoer Grant Recipient
-Jennifer Pournelle
-## SCoer Grant Recipient
-Timothy Shaw",scoer_grant_recipient
-Where can I learn more about the SCoer Faculty Grant?,[Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/scoer_2019.php),learn_scoer_faculty_grant
-Who won the SCoer! Faculty Grant for 2018?,"## Four faculty win SCoer! grants for 2018
-Congratulations to the four recipients of this year’s SCoer! Faculty Grant. They will learn how to use freely accessible resources in their classrooms and, in the process, save their students a significant sum of money. The winners are , Department of Retailing and Interdisciplinary Studies; , Department of International Business and International Activities; , Department of Language, Literature and Cultures; and , Department of Management Science.
-Meet this year’s winners:
-### Marianne Bickle
-### David Hudgens
-### Rebecca Janzen
-### Jayanth Jayaram
-[Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2018/scoer_2018.php)",scoer_faculty_grant_2018
-What is the SCoer! Faculty Grant?,"Now in its fourth year, the SCoer! Faculty Grant encourages the classroom use of Open Educational Resources (OER) – teaching, learning and research resources that are freely available to students. The grant is sponsored by the University of South Carolina Libraries.
+I have gotten permission to teach from the OpenStax text on a trial basis this fall and develop a slide set for later adoption in more sections based on the OER commons resources.",scoer_grant_recipient
+What is the SCoer Faculty Grant?,"Now in its fourth year, the SCoer! Faculty Grant encourages the classroom use of Open Educational Resources (OER) – teaching, learning and research resources that are freely available to students. The grant is sponsored by the University of South Carolina Libraries.
 To participate in the program, the winning faculty members will attend a one-hour workshop hosted by the University Libraries that will help them identify OER materials for their courses. They then will commit to switching from using a traditional textbook to an OER or library-licensed resource in one of their classes. Each winner receives a certificate and a $500 grant.
 [Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2018/scoer_2018.php)",scoer_faculty_grant
-What are the requirements for the SCoer! Faculty Grant?,"# The SCoer! Faculty Grant
-Requirements for the award:
-- Attend a one-hour workshop.
-- Replace a traditional textbook with an OER or library-licensed resource in one of your courses.
-- Complete two brief follow-up surveys.
-Winners receive a certificate and a $500 monetary award.
-The next award deadline is May 2019.
-[Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2018/scoer_2018.php)",requirement_scoer_faculty_grant
-What kind of workshops does the library offer?,"## Workshops
-University Libraries offers a variety of free workshops to support research and teaching at the university. Browse our full calendar of [library workshops](https://libcal.library.sc.edu/calendar/workshops) or explore the categories below. Select individual events for details and registration.
-
-[#### Data Management Tools & Services
- Good data management improves research reproducibility, fosters innovation, and promotes compliance with funder requirements. Learn how to find, clean, preserve, share, and plan for the management of your research data.
-](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68187&inc=0)
-
-[#### Publishing & Digital Scholarship
- Understanding the basics of scholarly publishing will help you leverage your rights as an author to increase your impact. Identify innovative ways to create and share your work through digital tools and methods.
-](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68188&inc=0)
-
-[#### Text and Data Mining & Analysis
- With the rapidly increasing amounts of digital content available, it is possible to study your research data and texts through new and innovative methods. Learn the basic approaches to mining and analyzing your data sets and large bodies of texts.
-](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68189&inc=0)
-
-[#### Data Visualization Topics and Tools
- Visualizations (charts, graphs, plots, maps, etc.) have become an essential component in communicating data-intensive research and information. Learn about data visualization concepts, principles, and practices. Learn how to use software tools to create effective data visualizations.
-](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68190&inc=0)
-
-[#### AI (Artificial Intelligence) Knowledge, Tools, and Resources
- AI is everywhere these days. Learn AI terminology, how to create effective AI chatbot prompts and discover AI tools for various purposes.
-](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68400&inc=0)
-
-[#### Citation Management Tools
- A citation manager can change your research life by organizing references and doing the hard work when it comes to citing sources and creating a bibliography. Discover library support for learning EndNote, Mendeley and Zotero.
-](https://libcal.library.sc.edu/calendar/workshops?ct=59986)
-
-[#### Using Library Resources & Services
- Find out how to take advantage of all the library has to offer for your academic success. Whether you are new to using the library or looking for advanced research methods and resources, there is something for everyone.
-](https://libcal.library.sc.edu/calendar/workshops?ct=59984)
-
-[#### Classroom & Teaching Tools
- Incorporating library and open resources into your courses can promote student success and save students money. Explore pedagogical strategies to use both copyrighted materials and open content with confidence.
-](https://libcal.library.sc.edu/calendar/workshops?ct=59985)
-
-# Contact Us
-Do you have a group interested in scheduling a workshop session? Or have an idea for additional workshop offerings?
-Email us at [tclrefbi@mailbox.sc.edu](mailto:tclrefbi@mailbox.sc.edu).
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=5107061)",kind_workshop_library_offer
 How can I schedule a workshop session or suggest additional workshop offerings?,"# Contact Us
 Do you have a group interested in scheduling a workshop session? Or have an idea for additional workshop offerings?
 Email us at [tclrefbi@mailbox.sc.edu](mailto:tclrefbi@mailbox.sc.edu).
 [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=5107061)",schedule_workshop_session_suggest
-What other services does the library offer for faculty and instructors?,"# Faculty and Instructor Services
+What services does the library offer for faculty and instructors?,"# Faculty and Instructor Services
 Learn about other ways that [University Libraries offers support for your teaching and research](/about/offices_and_divisions/university_libraries/find_services/faculty_services/index.php).
 Additional workshops and programs about teaching are offered through the [Center for Teaching Excellence](https://www.sc.edu/about/offices_and_divisions/cte/index.php).
 [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=5107061)",service_library_offer_faculty
-What happens if I make my OSF project public?,"You may choose to make your OSF project public. If you do, OSF's Preservation Fund preserves and maintains read access to any hosted data on OSF. This fund is sufficient for 50+ years of read access hosting at present costs.
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738117)",happens_make_osf_project1
-Can I get a DOI for my project?,"## Get a DOI
-OSF assigns DOIs for entire projects but not individual data sets within projects.
-
-[Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738117)",get_doi_project1
 How is OSF free?,"## How Can OSF Be Free?
 [Center for Open Science](http://cos.io/)[federal agencies, private foundations, and commercial entities](https://cos.io/about_sponsors/)[their finances](https://cos.io/about/our-finances/)
 

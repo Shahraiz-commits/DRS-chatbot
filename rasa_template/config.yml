@@ -21,6 +21,7 @@ pipeline:
   - name: EntitySynonymMapper
   - name: FallbackClassifier
     threshold: 0.2
+    ambiguity_threshold: 0.05
 
 #pipeline: null
 # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.

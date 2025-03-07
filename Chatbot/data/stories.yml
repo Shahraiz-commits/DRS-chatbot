@@ -34,4 +34,3 @@ stories:
   - action: utter_goodbye
   - action: action_save_conversation
   - action: action_session_id
-

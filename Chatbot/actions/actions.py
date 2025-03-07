@@ -10,7 +10,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from datetime import datetime, timezone, timedelta
 #import panda as pd
 from nrclex import NRCLex
-
+import yaml
 
 class ActionSaveConversation(Action):
 
@@ -93,6 +93,38 @@ class ActionEmotion(Action):
         #dispatcher.utter_message(text="Top emotions detected are: {}".format(emotion.top_emotions))
 
         return []
+    
+class ActionProcessFallback(Action):
+    def name(self) -> Text:
+        return "action_process_fallback"
+    
+    def run(self, dispatcher, tracker : Tracker, domain):
+        out_of_scope = "Sorry, I can't handle that request. Please rephrase the question"
+        intents = tracker.latest_message["intent_ranking"]
+        first_text = ""
+        second_text = ""
+        third_text = ""
+        name1 = intents[1]['name']
+        confidence1 = intents[1]['confidence']
+        name2 = intents[2]['name']
+        confidence2 = intents[2]['confidence']
+        name3 = intents[3]['name']
+        
+
+        # Search for first two intents text
+        with open("../Chatbot/domain.yml", "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f)
+            for response_key, response_list in data["responses"].items():
+                if response_key == "utter_"+name1:
+                    first_text = response_list[0]["text"] 
+                elif response_key == "utter_"+name2:
+                    second_text = response_list[0]["text"]
+                elif response_key == "utter_"+name3:
+                    third_text = response_list[0]["text"] 
+        
+        dispatcher.utter_message(f"Sorry I am a bit unsure with my response. Is this what you were looking for?:\n-----------------------------------\n{first_text}\n-----------------------------------\n\nI also found this information that may be relevant:\n-----------------------------------\n{second_text}\
+            \n-----------------------------------\n\nHeres one more, that may be less relevant:\n-----------------------------------\n{third_text} \
+        \n---------------------------------------------------------\nWere any of these responses helpful? If so, please tell me your preferred response so I can improve. If none of these responses answer your question, please say so.")
 
 class ActionLibraryOpen(Action):
     def name(self) -> Text:

@@ -52,430 +52,1972 @@ input_time|conversation_id|count|intent|user_input| entity_name|entity_value|act
 2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B4|||||utter_happy|Great, carry on!
 2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|U5|goodbye|bye|
 2022-10-27 16:25:02.312776|a3652bcf738c4b72bfec5c9b8578cd23|B5|||||utter_goodbye|Bye
-2025-03-02 13:44:45.373839|user_56634|U0|greet|/greet|
-2025-03-02 13:44:45.373885|user_56634|B0|||||utter_greet|Hey! How are you?
-2025-03-02 13:44:45.373910|user_56634|U1|nlu_fallback|how do i cite in MLA|
-2025-03-02 13:44:45.373923|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:44:50.536249|user_56634|U0|greet|/greet|
-2025-03-02 13:44:50.536292|user_56634|B0|||||utter_greet|Hey! How are you?
-2025-03-02 13:44:50.536316|user_56634|U1|nlu_fallback|how do i cite in MLA|
-2025-03-02 13:44:50.536343|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:44:50.536374|user_56634|U2|nlu_fallback|how to cite MLA 9|
-2025-03-02 13:44:50.536400|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:44:52.956964|user_56634|U0|greet|/greet|
-2025-03-02 13:44:52.957004|user_56634|B0|||||utter_greet|Hey! How are you?
-2025-03-02 13:44:52.957030|user_56634|U1|nlu_fallback|how do i cite in MLA|
-2025-03-02 13:44:52.957058|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:44:52.957089|user_56634|U2|nlu_fallback|how to cite MLA 9|
-2025-03-02 13:44:52.957115|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:44:52.957148|user_56634|U3|nlu_fallback|MLA 9|
-2025-03-02 13:44:52.957174|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:01.957735|user_56634|U0|greet|/greet|
-2025-03-02 13:45:01.957781|user_56634|B0|||||utter_greet|Hey! How are you?
-2025-03-02 13:45:01.957806|user_56634|U1|nlu_fallback|how do i cite in MLA|
-2025-03-02 13:45:01.957834|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:01.957865|user_56634|U2|nlu_fallback|how to cite MLA 9|
-2025-03-02 13:45:01.957890|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:01.957924|user_56634|U3|nlu_fallback|MLA 9|
-2025-03-02 13:45:01.957950|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:01.957983|user_56634|U4|nlu_fallback|library hours|
-2025-03-02 13:45:01.958010|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:52.736914|user_56634|U0|greet|/greet|
-2025-03-02 13:45:52.736956|user_56634|B0|||||utter_greet|Hey! How are you?
-2025-03-02 13:45:52.736980|user_56634|U1|nlu_fallback|how do i cite in MLA|
-2025-03-02 13:45:52.737007|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:52.737038|user_56634|U2|nlu_fallback|how to cite MLA 9|
-2025-03-02 13:45:52.737064|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:52.737095|user_56634|U3|nlu_fallback|MLA 9|
-2025-03-02 13:45:52.737122|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:52.737153|user_56634|U4|nlu_fallback|library hours|
-2025-03-02 13:45:52.737180|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:52.737222|user_56634|U5|library_hour|what are the library hours|
-2025-03-02 13:45:52.737251|user_56634|B5|||||utter_library_hour|# Hours
-Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
-
-2025-03-02 13:45:52.737274|user_56634|U6|ask_library_open|is the library open?|
-2025-03-02 13:45:52.737325|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
-2025-03-02 13:45:52.737353|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
-### Available Services
-Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
-
-#### Digital Scholarship
-Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
-
-[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
-
-#### Content Mining
-Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
-
-[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
-
-#### Web Hosting for Digital Projects
-Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
-
-[Web Hosting for Digital Projects](https://uofsccreate.org)
-
-#### Electronic Journal Hosting
-Create and manage an open access journal with software and support from University Libraries.
-
-[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
-
-#### Digital Collections
-Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
-
-[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
-
-2025-03-02 13:45:52.737388|user_56634|U8|nlu_fallback|whats content mining|
-2025-03-02 13:45:52.737416|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:59.580511|user_56634|U0|greet|/greet|
-2025-03-02 13:45:59.580550|user_56634|B0|||||utter_greet|Hey! How are you?
-2025-03-02 13:45:59.580573|user_56634|U1|nlu_fallback|how do i cite in MLA|
-2025-03-02 13:45:59.580617|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:59.580648|user_56634|U2|nlu_fallback|how to cite MLA 9|
-2025-03-02 13:45:59.580673|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:59.580707|user_56634|U3|nlu_fallback|MLA 9|
-2025-03-02 13:45:59.580732|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:59.580763|user_56634|U4|nlu_fallback|library hours|
-2025-03-02 13:45:59.580788|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:59.580819|user_56634|U5|library_hour|what are the library hours|
-2025-03-02 13:45:59.580844|user_56634|B5|||||utter_library_hour|# Hours
-Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
-
-2025-03-02 13:45:59.580867|user_56634|U6|ask_library_open|is the library open?|
-2025-03-02 13:45:59.580906|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
-2025-03-02 13:45:59.580931|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
-### Available Services
-Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
-
-#### Digital Scholarship
-Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
-
-[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
-
-#### Content Mining
-Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
-
-[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
-
-#### Web Hosting for Digital Projects
-Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
-
-[Web Hosting for Digital Projects](https://uofsccreate.org)
-
-#### Electronic Journal Hosting
-Create and manage an open access journal with software and support from University Libraries.
-
-[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
-
-#### Digital Collections
-Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
-
-[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
-
-2025-03-02 13:45:59.580967|user_56634|U8|nlu_fallback|whats content mining|
-2025-03-02 13:45:59.580994|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:45:59.581025|user_56634|U9|nlu_fallback|content mining examples?|
-2025-03-02 13:45:59.581051|user_56634|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:33.146286|user_56634|U0|greet|/greet|
-2025-03-02 13:46:33.146328|user_56634|B0|||||utter_greet|Hey! How are you?
-2025-03-02 13:46:33.146352|user_56634|U1|nlu_fallback|how do i cite in MLA|
-2025-03-02 13:46:33.146380|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:33.146413|user_56634|U2|nlu_fallback|how to cite MLA 9|
-2025-03-02 13:46:33.146438|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:33.146471|user_56634|U3|nlu_fallback|MLA 9|
-2025-03-02 13:46:33.146496|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:33.146542|user_56634|U4|nlu_fallback|library hours|
-2025-03-02 13:46:33.146569|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:33.146603|user_56634|U5|library_hour|what are the library hours|
-2025-03-02 13:46:33.146629|user_56634|B5|||||utter_library_hour|# Hours
-Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
-
-2025-03-02 13:46:33.146653|user_56634|U6|ask_library_open|is the library open?|
-2025-03-02 13:46:33.146704|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
-2025-03-02 13:46:33.146732|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
-### Available Services
-Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
-
-#### Digital Scholarship
-Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
-
-[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
-
-#### Content Mining
-Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
-
-[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
-
-#### Web Hosting for Digital Projects
-Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
-
-[Web Hosting for Digital Projects](https://uofsccreate.org)
-
-#### Electronic Journal Hosting
-Create and manage an open access journal with software and support from University Libraries.
-
-[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
-
-#### Digital Collections
-Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
-
-[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
-
-2025-03-02 13:46:33.146768|user_56634|U8|nlu_fallback|whats content mining|
-2025-03-02 13:46:33.146795|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:33.146827|user_56634|U9|nlu_fallback|content mining examples?|
-2025-03-02 13:46:33.146854|user_56634|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:33.146886|user_56634|U10|nlu_fallback|what is webscraping|
-2025-03-02 13:46:33.146912|user_56634|B9|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:48.473316|user_56634|U0|greet|/greet|
-2025-03-02 13:46:48.473361|user_56634|B0|||||utter_greet|Hey! How are you?
-2025-03-02 13:46:48.473385|user_56634|U1|nlu_fallback|how do i cite in MLA|
-2025-03-02 13:46:48.473412|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:48.473444|user_56634|U2|nlu_fallback|how to cite MLA 9|
-2025-03-02 13:46:48.473470|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:48.473501|user_56634|U3|nlu_fallback|MLA 9|
-2025-03-02 13:46:48.473528|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:48.473560|user_56634|U4|nlu_fallback|library hours|
-2025-03-02 13:46:48.473585|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:48.473618|user_56634|U5|library_hour|what are the library hours|
-2025-03-02 13:46:48.473645|user_56634|B5|||||utter_library_hour|# Hours
-Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
-
-2025-03-02 13:46:48.473667|user_56634|U6|ask_library_open|is the library open?|
-2025-03-02 13:46:48.473717|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
-2025-03-02 13:46:48.473744|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
-### Available Services
-Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
-
-#### Digital Scholarship
-Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
-
-[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
-
-#### Content Mining
-Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
-
-[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
-
-#### Web Hosting for Digital Projects
-Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
-
-[Web Hosting for Digital Projects](https://uofsccreate.org)
-
-#### Electronic Journal Hosting
-Create and manage an open access journal with software and support from University Libraries.
-
-[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
-
-#### Digital Collections
-Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
-
-[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
-
-2025-03-02 13:46:48.473779|user_56634|U8|nlu_fallback|whats content mining|
-2025-03-02 13:46:48.473806|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:48.473837|user_56634|U9|nlu_fallback|content mining examples?|
-2025-03-02 13:46:48.473862|user_56634|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:48.473896|user_56634|U10|nlu_fallback|what is webscraping|
-2025-03-02 13:46:48.473922|user_56634|B9|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:48.473954|user_56634|U11|nlu_fallback|tell me baoyt open access journals|
-2025-03-02 13:46:48.473980|user_56634|B10|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:52.686234|user_56634|U0|greet|/greet|
-2025-03-02 13:46:52.686275|user_56634|B0|||||utter_greet|Hey! How are you?
-2025-03-02 13:46:52.686298|user_56634|U1|nlu_fallback|how do i cite in MLA|
-2025-03-02 13:46:52.686325|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:52.686358|user_56634|U2|nlu_fallback|how to cite MLA 9|
-2025-03-02 13:46:52.686384|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:52.686417|user_56634|U3|nlu_fallback|MLA 9|
-2025-03-02 13:46:52.686443|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:52.686474|user_56634|U4|nlu_fallback|library hours|
-2025-03-02 13:46:52.686500|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:52.686532|user_56634|U5|library_hour|what are the library hours|
-2025-03-02 13:46:52.686566|user_56634|B5|||||utter_library_hour|# Hours
-Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
-
-2025-03-02 13:46:52.686591|user_56634|U6|ask_library_open|is the library open?|
-2025-03-02 13:46:52.686640|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
-2025-03-02 13:46:52.686668|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
-### Available Services
-Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
-
-#### Digital Scholarship
-Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
-
-[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
-
-#### Content Mining
-Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
-
-[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
-
-#### Web Hosting for Digital Projects
-Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
-
-[Web Hosting for Digital Projects](https://uofsccreate.org)
-
-#### Electronic Journal Hosting
-Create and manage an open access journal with software and support from University Libraries.
-
-[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
-
-#### Digital Collections
-Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
-
-[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
-
-2025-03-02 13:46:52.686703|user_56634|U8|nlu_fallback|whats content mining|
-2025-03-02 13:46:52.686730|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:52.686763|user_56634|U9|nlu_fallback|content mining examples?|
-2025-03-02 13:46:52.686789|user_56634|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:52.686821|user_56634|U10|nlu_fallback|what is webscraping|
-2025-03-02 13:46:52.686847|user_56634|B9|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:52.686879|user_56634|U11|nlu_fallback|tell me baoyt open access journals|
-2025-03-02 13:46:52.686905|user_56634|B10|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:46:52.686937|user_56634|U12|nlu_fallback|open access journals|
-2025-03-02 13:46:52.686961|user_56634|B11|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:14.977020|user_56634|U0|greet|/greet|
-2025-03-02 13:47:14.977067|user_56634|B0|||||utter_greet|Hey! How are you?
-2025-03-02 13:47:14.977092|user_56634|U1|nlu_fallback|how do i cite in MLA|
-2025-03-02 13:47:14.977120|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:14.977152|user_56634|U2|nlu_fallback|how to cite MLA 9|
-2025-03-02 13:47:14.977178|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:14.977211|user_56634|U3|nlu_fallback|MLA 9|
-2025-03-02 13:47:14.977235|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:14.977269|user_56634|U4|nlu_fallback|library hours|
-2025-03-02 13:47:14.977294|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:14.977328|user_56634|U5|library_hour|what are the library hours|
-2025-03-02 13:47:14.977354|user_56634|B5|||||utter_library_hour|# Hours
-Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
-
-2025-03-02 13:47:14.977377|user_56634|U6|ask_library_open|is the library open?|
-2025-03-02 13:47:14.977427|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
-2025-03-02 13:47:14.977454|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
-### Available Services
-Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
-
-#### Digital Scholarship
-Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
-
-[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
-
-#### Content Mining
-Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
-
-[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
-
-#### Web Hosting for Digital Projects
-Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
-
-[Web Hosting for Digital Projects](https://uofsccreate.org)
-
-#### Electronic Journal Hosting
-Create and manage an open access journal with software and support from University Libraries.
-
-[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
-
-#### Digital Collections
-Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
-
-[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
-
-2025-03-02 13:47:14.977489|user_56634|U8|nlu_fallback|whats content mining|
-2025-03-02 13:47:14.977517|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:14.977548|user_56634|U9|nlu_fallback|content mining examples?|
-2025-03-02 13:47:14.977574|user_56634|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:14.977608|user_56634|U10|nlu_fallback|what is webscraping|
-2025-03-02 13:47:14.977632|user_56634|B9|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:14.977674|user_56634|U11|nlu_fallback|tell me baoyt open access journals|
-2025-03-02 13:47:14.977699|user_56634|B10|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:14.977733|user_56634|U12|nlu_fallback|open access journals|
-2025-03-02 13:47:14.977758|user_56634|B11|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:14.977791|user_56634|U13|nlu_fallback|Scholar Commons|
-2025-03-02 13:47:14.977816|user_56634|B12|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:18.247809|user_56634|U0|greet|/greet|
-2025-03-02 13:47:18.247854|user_56634|B0|||||utter_greet|Hey! How are you?
-2025-03-02 13:47:18.247880|user_56634|U1|nlu_fallback|how do i cite in MLA|
-2025-03-02 13:47:18.247908|user_56634|B1|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:18.247940|user_56634|U2|nlu_fallback|how to cite MLA 9|
-2025-03-02 13:47:18.247966|user_56634|B2|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:18.247997|user_56634|U3|nlu_fallback|MLA 9|
-2025-03-02 13:47:18.248024|user_56634|B3|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:18.248055|user_56634|U4|nlu_fallback|library hours|
-2025-03-02 13:47:18.248081|user_56634|B4|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:18.248113|user_56634|U5|library_hour|what are the library hours|
-2025-03-02 13:47:18.248139|user_56634|B5|||||utter_library_hour|# Hours
-Check the library's [hours](/about/offices_and_divisions/university_libraries/about/hours/index.php) before you visit.
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
-
-2025-03-02 13:47:18.248161|user_56634|U6|ask_library_open|is the library open?|
-2025-03-02 13:47:18.248211|user_56634|U7|digital_scholarship_service_available|digital scholarship services|
-2025-03-02 13:47:18.248238|user_56634|B6|||||utter_digital_scholarship_service_available|## Digital Scholarship
-### Available Services
-Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
-
-#### Digital Scholarship
-Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
-
-[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
-
-#### Content Mining
-Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
-
-[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
-
-#### Web Hosting for Digital Projects
-Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
-
-[Web Hosting for Digital Projects](https://uofsccreate.org)
-
-#### Electronic Journal Hosting
-Create and manage an open access journal with software and support from University Libraries.
-
-[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
-
-#### Digital Collections
-Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
-
-[Digital Collections](/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
-
-[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
-
-2025-03-02 13:47:18.248274|user_56634|U8|nlu_fallback|whats content mining|
-2025-03-02 13:47:18.248301|user_56634|B7|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:18.248333|user_56634|U9|nlu_fallback|content mining examples?|
-2025-03-02 13:47:18.248359|user_56634|B8|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:18.248390|user_56634|U10|nlu_fallback|what is webscraping|
-2025-03-02 13:47:18.248416|user_56634|B9|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:18.248448|user_56634|U11|nlu_fallback|tell me baoyt open access journals|
-2025-03-02 13:47:18.248474|user_56634|B10|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:18.248507|user_56634|U12|nlu_fallback|open access journals|
-2025-03-02 13:47:18.248532|user_56634|B11|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:18.248565|user_56634|U13|nlu_fallback|Scholar Commons|
-2025-03-02 13:47:18.248591|user_56634|B12|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
-2025-03-02 13:47:18.248623|user_56634|U14|nlu_fallback|yo|
-2025-03-02 13:47:18.248649|user_56634|B13|||||utter_out_of_scope|Sorry, I can't handle that request. Please rephrase the question
+2025-03-05 23:54:25.982203|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-05 23:54:25.982250|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-05 23:54:25.982276|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-05 23:54:25.982304|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-05 23:54:25.982377|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-05 23:56:48.886768|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-05 23:56:48.886820|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-05 23:56:48.886849|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-05 23:56:48.886879|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-05 23:56:48.886906|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-05 23:56:48.886945|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-05 23:57:23.782128|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-05 23:57:23.782186|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-05 23:57:23.782214|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-05 23:57:23.782242|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-05 23:57:23.782280|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-05 23:57:23.782306|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-05 23:57:23.782341|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-05 23:57:23.782372|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-05 23:57:23.782403|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-05 23:57:23.782429|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-05 23:57:23.782455|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-05 23:57:23.782488|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:13:37.568200|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:13:37.568245|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:13:37.568256|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:13:37.568283|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:13:37.568310|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:13:37.568347|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:13:37.568382|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:13:37.568412|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:13:37.568442|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:13:37.568467|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:13:37.568490|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:13:37.568522|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:13:37.568557|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:13:37.568587|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:14:31.063196|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:14:31.063243|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:14:31.063266|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:14:31.063293|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:14:31.063330|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:14:31.063368|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:14:31.063403|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:14:31.063432|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:14:31.063462|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:14:31.063486|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:14:31.063509|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:14:31.063541|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:14:31.063575|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:14:31.063604|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:14:31.063662|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:20:23.026861|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:20:23.026909|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:20:23.026932|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:20:23.026960|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:20:23.026994|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:20:23.027029|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:20:23.027066|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:20:23.027095|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:20:23.027124|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:20:23.027148|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:20:23.027171|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:20:23.027202|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:20:23.027318|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:20:23.027351|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:20:23.027380|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:20:23.027440|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:30:46.313744|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:30:46.313802|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:30:46.313831|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:30:46.313861|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:30:46.313897|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:30:46.313937|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:30:46.313975|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:30:46.314007|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:30:46.314042|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:30:46.314069|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:30:46.314094|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:30:46.314128|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:30:46.314169|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:30:46.314203|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:30:46.314267|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:30:46.314329|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:30:46.314392|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:32:45.740517|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:32:45.740568|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:32:45.740596|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:32:45.740625|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:32:45.740684|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:32:45.740722|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:32:45.740758|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:32:45.740793|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:32:45.740849|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:32:45.740862|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:32:45.740873|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:32:45.740903|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:32:45.740942|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:32:45.740973|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:32:45.741038|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:32:45.741098|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:32:45.741159|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:32:45.741196|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:32:52.659881|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:32:52.659936|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:32:52.659964|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:32:52.659994|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:32:52.660021|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:32:52.660061|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:32:52.660102|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:32:52.660135|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:32:52.660170|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:32:52.660197|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:32:52.660223|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:32:52.660258|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:32:52.660300|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:32:52.660335|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:32:52.660400|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:32:52.660462|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:32:52.660525|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:32:52.660566|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:32:52.660606|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:35:10.184256|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:35:10.184352|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:35:10.184376|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:35:10.184404|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:35:10.184431|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:35:10.184469|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:35:10.184506|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:35:10.184537|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:35:10.184567|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:35:10.184593|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:35:10.184618|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:35:10.184651|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:35:10.184689|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:35:10.184719|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:35:10.184779|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:35:10.184839|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:35:10.184897|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:35:10.184933|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:35:10.184969|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:35:10.185005|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:38:13.079321|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:38:13.079376|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:38:13.079404|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:38:13.079431|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:38:13.079459|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:38:13.079496|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:38:13.079518|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:38:13.079549|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:38:13.079579|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:38:13.079605|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:38:13.079629|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:38:13.079661|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:38:13.079698|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:38:13.079729|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:38:13.079787|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:38:13.079846|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:38:13.079906|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:38:13.079941|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:38:13.079976|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:38:13.080014|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:38:13.080049|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:38:13.080079|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:44:49.184460|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:44:49.184500|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:44:49.184534|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:44:49.184561|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:44:49.184652|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:44:49.184690|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:44:49.184725|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:44:49.184756|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:44:49.184786|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:44:49.184811|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:44:49.184835|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:44:49.184868|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:44:49.184903|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:44:49.184934|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:44:49.185003|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:44:49.185064|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:44:49.185120|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:44:49.185156|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:44:49.185191|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:44:49.185226|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:44:49.185261|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:44:49.185291|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:44:49.185326|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:45:08.141305|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:45:08.141360|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:45:08.141394|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:45:08.141423|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:45:08.141512|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:45:08.141552|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:45:08.141588|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:45:08.141619|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:45:08.141637|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:45:08.141647|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:45:08.141681|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:45:08.141713|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:45:08.141777|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:45:08.141812|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:45:08.141875|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:45:08.141935|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:45:08.141999|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:45:08.142035|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:45:08.142075|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:45:08.142115|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:45:08.142153|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:45:08.142185|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:45:08.142222|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:45:08.142260|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 00:45:14.039597|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:45:14.039656|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:45:14.039684|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:45:14.039714|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:45:14.041951|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:45:14.041995|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:45:14.042032|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:45:14.042064|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:45:14.042096|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:45:14.042122|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:45:14.042148|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:45:14.042183|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:45:14.042221|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:45:14.042253|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:45:14.042316|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:45:14.042378|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:45:14.042439|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:45:14.042477|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:45:14.042515|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:45:14.042554|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:45:14.042590|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:45:14.042625|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:45:14.042662|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:45:14.042701|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 00:45:14.042737|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:46:07.685090|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:46:07.685143|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:46:07.685171|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:46:07.685200|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:46:07.685307|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:46:07.685346|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:46:07.685382|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:46:07.685412|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:46:07.685443|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:46:07.685468|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:46:07.685493|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:46:07.685527|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:46:07.685563|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:46:07.685593|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:46:07.685653|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:46:07.685712|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:46:07.685772|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:46:07.685809|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:46:07.685845|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:46:07.685880|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:46:07.685915|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:46:07.685946|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:46:07.685980|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:46:07.686017|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 00:46:07.686052|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:46:07.686087|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 00:47:24.892976|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:47:24.893022|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:47:24.893047|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:47:24.893075|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:47:24.893111|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:47:24.893150|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:47:24.893184|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:47:24.893216|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:47:24.893247|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:47:24.893272|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:47:24.893295|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:47:24.893327|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:47:24.893362|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:47:24.893392|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:47:24.893451|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:47:24.893508|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:47:24.893565|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:47:24.893601|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:47:24.893635|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:47:24.893677|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:47:24.893711|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:47:24.893741|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:47:24.893776|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:47:24.893810|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 00:47:24.893846|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:47:24.893880|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 00:47:24.893915|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 00:47:24.893944|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:47:53.227420|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:47:53.227464|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:47:53.227489|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:47:53.227517|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:47:53.227544|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:47:53.227581|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:47:53.227616|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:47:53.227647|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:47:53.227678|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:47:53.227702|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:47:53.227726|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:47:53.227758|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:47:53.227795|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:47:53.227825|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:47:53.227884|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:47:53.227942|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:47:53.228001|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:47:53.228038|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:47:53.228072|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:47:53.228109|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:47:53.228144|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:47:53.228174|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:47:53.228209|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:47:53.228244|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 00:47:53.228279|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:47:53.228314|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 00:47:53.228349|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 00:47:53.228379|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:47:53.228415|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 00:47:53.228444|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:48:33.036073|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:48:33.036130|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:48:33.036157|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:48:33.036184|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:48:33.036219|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:48:33.036257|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:48:33.036292|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:48:33.036324|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:48:33.036355|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:48:33.036379|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:48:33.036403|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:48:33.036435|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:48:33.036472|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:48:33.036503|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:48:33.036563|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:48:33.036622|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:48:33.036681|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:48:33.036717|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:48:33.036752|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:48:33.036788|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:48:33.036824|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:48:33.036854|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:48:33.036890|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:48:33.036926|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 00:48:33.036962|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:48:33.036998|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 00:48:33.037033|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 00:48:33.037064|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:48:33.037164|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 00:48:33.037200|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:48:33.037235|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 00:48:33.037266|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:49:08.828654|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:49:08.828696|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:49:08.828706|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:49:08.828732|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:49:08.828768|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:49:08.828806|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:49:08.828844|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:49:08.828873|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:49:08.828912|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:49:08.828941|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:49:08.828965|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:49:08.828997|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:49:08.829033|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:49:08.829063|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:49:08.829122|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:49:08.829179|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:49:08.829237|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:49:08.829273|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:49:08.829307|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:49:08.829342|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:49:08.829376|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:49:08.829437|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:49:08.829472|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:49:08.829510|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 00:49:08.829545|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:49:08.829580|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 00:49:08.829614|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 00:49:08.829644|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:49:08.829678|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 00:49:08.829707|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:49:08.829742|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 00:49:08.829771|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:49:08.829805|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 00:49:08.829834|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:50:12.857482|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:50:12.857523|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:50:12.857546|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:50:12.857573|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:50:12.857599|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:50:12.857636|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:50:12.857670|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:50:12.857700|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:50:12.857729|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:50:12.857754|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:50:12.857776|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:50:12.857808|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:50:12.857844|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:50:12.857872|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:50:12.857929|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:50:12.857986|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:50:12.858042|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:50:12.858077|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:50:12.858111|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:50:12.858144|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:50:12.858178|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:50:12.858207|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:50:12.858242|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:50:12.858276|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 00:50:12.858317|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:50:12.858354|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 00:50:12.858388|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 00:50:12.858418|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:50:12.858452|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 00:50:12.858481|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:50:12.858515|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 00:50:12.858544|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:50:12.858579|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 00:50:12.858608|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:50:12.858666|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 00:53:24.955738|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:53:24.955779|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:53:24.955802|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:53:24.955830|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:53:24.955874|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:53:24.955912|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:53:24.955949|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:53:24.955979|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:53:24.956010|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:53:24.956035|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:53:24.956058|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:53:24.956091|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:53:24.956125|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:53:24.956156|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:53:24.956215|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:53:24.956272|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:53:24.956330|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:53:24.956365|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:53:24.956402|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:53:24.956438|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:53:24.956473|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:53:24.956504|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:53:24.956539|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:53:24.956574|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 00:53:24.956610|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:53:24.956646|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 00:53:24.956681|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 00:53:24.956712|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:53:24.956748|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 00:53:24.956778|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:53:24.956814|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 00:53:24.956844|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:53:24.956880|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 00:53:24.956910|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:53:24.956968|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 00:53:24.957025|a929e0122daf4e0eb0dca8c91a9ea38a|U32|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 00:54:32.299235|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:54:32.299287|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:54:32.299316|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:54:32.299346|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:54:32.299382|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:54:32.299422|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:54:32.299460|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:54:32.299492|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:54:32.299525|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:54:32.299550|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:54:32.299575|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:54:32.299611|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:54:32.299648|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:54:32.299682|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:54:32.299745|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:54:32.299808|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:54:32.299870|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:54:32.299909|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:54:32.299946|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:54:32.299984|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:54:32.300022|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:54:32.300055|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:54:32.300098|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:54:32.300137|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 00:54:32.300177|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:54:32.300215|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 00:54:32.300253|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 00:54:32.300287|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:54:32.300327|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 00:54:32.300362|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:54:32.300401|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 00:54:32.300434|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:54:32.300472|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 00:54:32.300505|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:54:32.300568|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 00:54:32.300634|a929e0122daf4e0eb0dca8c91a9ea38a|U32|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 00:54:32.300700|a929e0122daf4e0eb0dca8c91a9ea38a|U33|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:55:38.888218|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:55:38.888255|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:55:38.888279|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:55:38.888295|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:55:38.888308|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:55:38.888329|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:55:38.888349|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:55:38.888364|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:55:38.888380|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:55:38.888390|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:55:38.888399|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:55:38.888426|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:55:38.888446|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:55:38.888476|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:55:38.888504|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:55:38.888545|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:55:38.888604|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:55:38.888643|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:55:38.888684|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:55:38.888753|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:55:38.888791|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:55:38.888807|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:55:38.888846|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:55:38.888881|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 00:55:38.888917|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:55:38.888952|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 00:55:38.888987|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 00:55:38.889017|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:55:38.889053|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 00:55:38.889083|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:55:38.889122|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 00:55:38.889154|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:55:38.889193|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 00:55:38.889225|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:55:38.889284|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 00:55:38.889343|a929e0122daf4e0eb0dca8c91a9ea38a|U32|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 00:55:38.889402|a929e0122daf4e0eb0dca8c91a9ea38a|U33|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:55:38.897832|a929e0122daf4e0eb0dca8c91a9ea38a|U34|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 00:57:42.153584|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 00:57:42.153625|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 00:57:42.153647|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 00:57:42.153674|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 00:57:42.153718|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 00:57:42.153754|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 00:57:42.153789|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 00:57:42.153820|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 00:57:42.153850|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 00:57:42.153873|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 00:57:42.153896|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 00:57:42.153928|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 00:57:42.153964|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 00:57:42.153993|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:57:42.154051|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:57:42.154107|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 00:57:42.154150|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 00:57:42.154184|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 00:57:42.154218|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:57:42.154253|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:57:42.154288|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 00:57:42.154317|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 00:57:42.154351|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:57:42.154385|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 00:57:42.154420|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:57:42.154454|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 00:57:42.154488|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 00:57:42.154519|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:57:42.154552|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 00:57:42.154581|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 00:57:42.154616|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 00:57:42.154645|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:57:42.154680|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 00:57:42.154709|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:57:42.154762|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 00:57:42.154819|a929e0122daf4e0eb0dca8c91a9ea38a|U32|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 00:57:42.154875|a929e0122daf4e0eb0dca8c91a9ea38a|U33|nlu_fallback|who can help with coding nvivo|
+2025-03-06 00:57:42.164454|a929e0122daf4e0eb0dca8c91a9ea38a|U34|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 00:57:42.164526|a929e0122daf4e0eb0dca8c91a9ea38a|U35|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:01:48.659102|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 01:01:48.659143|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 01:01:48.659166|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 01:01:48.659194|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 01:01:48.659230|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 01:01:48.659270|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 01:01:48.659307|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 01:01:48.659338|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 01:01:48.659369|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 01:01:48.659396|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 01:01:48.659421|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 01:01:48.659455|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 01:01:48.659506|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 01:01:48.659541|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:01:48.659602|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:01:48.659664|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 01:01:48.659725|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 01:01:48.659765|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 01:01:48.659803|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:01:48.659839|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:01:48.659875|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 01:01:48.659906|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:01:48.659946|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:01:48.659985|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 01:01:48.660021|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:01:48.660057|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 01:01:48.660094|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 01:01:48.660124|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:01:48.660164|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 01:01:48.660197|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:01:48.660237|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 01:01:48.660270|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:01:48.660310|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 01:01:48.660343|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:01:48.660405|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:01:48.660465|a929e0122daf4e0eb0dca8c91a9ea38a|U32|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:01:48.660535|a929e0122daf4e0eb0dca8c91a9ea38a|U33|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:01:48.671260|a929e0122daf4e0eb0dca8c91a9ea38a|U34|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:01:48.671340|a929e0122daf4e0eb0dca8c91a9ea38a|U35|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:01:48.671417|a929e0122daf4e0eb0dca8c91a9ea38a|U36|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:24.237061|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 01:05:24.237115|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 01:05:24.237141|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 01:05:24.237168|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 01:05:24.237195|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 01:05:24.237234|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 01:05:24.237269|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 01:05:24.237301|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 01:05:24.237332|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 01:05:24.237358|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 01:05:24.237382|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 01:05:24.237414|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 01:05:24.237450|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 01:05:24.237482|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:24.237543|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:24.237602|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 01:05:24.237663|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 01:05:24.237701|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 01:05:24.237737|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:05:24.237774|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:24.237811|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 01:05:24.237842|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:05:24.237881|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:24.237918|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 01:05:24.237956|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:24.237996|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 01:05:24.238038|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 01:05:24.238071|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:24.238110|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 01:05:24.238147|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:24.238185|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 01:05:24.238218|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:24.238254|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 01:05:24.238287|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:24.238351|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:05:24.238412|a929e0122daf4e0eb0dca8c91a9ea38a|U32|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:05:24.238472|a929e0122daf4e0eb0dca8c91a9ea38a|U33|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:24.249159|a929e0122daf4e0eb0dca8c91a9ea38a|U34|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:05:24.249279|a929e0122daf4e0eb0dca8c91a9ea38a|U35|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:24.249395|a929e0122daf4e0eb0dca8c91a9ea38a|U36|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:24.249503|a929e0122daf4e0eb0dca8c91a9ea38a|U37|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:05:37.517132|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 01:05:37.517190|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 01:05:37.517216|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 01:05:37.517244|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 01:05:37.517352|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 01:05:37.517390|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 01:05:37.517429|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 01:05:37.517459|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 01:05:37.517489|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 01:05:37.517515|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 01:05:37.517540|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 01:05:37.517573|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 01:05:37.517611|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 01:05:37.517642|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:37.517704|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:37.517764|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 01:05:37.517825|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 01:05:37.517861|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 01:05:37.517897|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:05:37.517932|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:37.517967|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 01:05:37.517998|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:05:37.518034|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:37.518069|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 01:05:37.518104|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:37.518141|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 01:05:37.518176|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 01:05:37.518207|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:37.518242|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 01:05:37.518272|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:37.518308|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 01:05:37.518339|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:37.518375|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 01:05:37.518404|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:37.518465|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:05:37.518521|a929e0122daf4e0eb0dca8c91a9ea38a|U32|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:05:37.518581|a929e0122daf4e0eb0dca8c91a9ea38a|U33|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:37.528160|a929e0122daf4e0eb0dca8c91a9ea38a|U34|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:05:37.528252|a929e0122daf4e0eb0dca8c91a9ea38a|U35|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:37.528325|a929e0122daf4e0eb0dca8c91a9ea38a|U36|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:37.528396|a929e0122daf4e0eb0dca8c91a9ea38a|U37|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:05:37.528436|a929e0122daf4e0eb0dca8c91a9ea38a|U38|nlu_fallback|whoo|
+2025-03-06 01:05:42.608478|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 01:05:42.608518|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 01:05:42.608539|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 01:05:42.608566|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 01:05:42.608599|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 01:05:42.608636|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 01:05:42.608672|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 01:05:42.608701|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 01:05:42.608717|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 01:05:42.608740|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 01:05:42.608766|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 01:05:42.608798|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 01:05:42.608835|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 01:05:42.608864|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:42.608922|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:42.608979|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 01:05:42.609037|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 01:05:42.609071|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 01:05:42.609105|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:05:42.609141|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:42.609176|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 01:05:42.609205|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:05:42.609239|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:42.609274|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 01:05:42.609309|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:42.609344|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 01:05:42.609378|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 01:05:42.609408|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:42.609442|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 01:05:42.609472|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:05:42.609506|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 01:05:42.609537|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:42.609572|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 01:05:42.609601|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:42.609658|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:05:42.609711|a929e0122daf4e0eb0dca8c91a9ea38a|U32|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:05:42.609769|a929e0122daf4e0eb0dca8c91a9ea38a|U33|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:42.618141|a929e0122daf4e0eb0dca8c91a9ea38a|U34|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:05:42.618211|a929e0122daf4e0eb0dca8c91a9ea38a|U35|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:42.618282|a929e0122daf4e0eb0dca8c91a9ea38a|U36|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:05:42.618354|a929e0122daf4e0eb0dca8c91a9ea38a|U37|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:05:42.618393|a929e0122daf4e0eb0dca8c91a9ea38a|U38|nlu_fallback|whoo|
+2025-03-06 01:05:42.618430|a929e0122daf4e0eb0dca8c91a9ea38a|U39|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:06:51.384598|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 01:06:51.384639|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 01:06:51.384662|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 01:06:51.384691|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 01:06:51.384718|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 01:06:51.384757|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 01:06:51.384794|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 01:06:51.384826|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 01:06:51.384860|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 01:06:51.384887|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 01:06:51.384912|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 01:06:51.384946|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 01:06:51.384986|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 01:06:51.385019|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:06:51.385093|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:06:51.385154|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 01:06:51.385217|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 01:06:51.385256|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 01:06:51.385294|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:06:51.385330|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:06:51.385366|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 01:06:51.385398|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:06:51.385438|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:06:51.385477|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 01:06:51.385513|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:06:51.385549|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 01:06:51.385586|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 01:06:51.385617|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:06:51.385654|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 01:06:51.385684|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:06:51.385724|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 01:06:51.385757|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:06:51.385794|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 01:06:51.385825|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:06:51.385887|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:06:51.385948|a929e0122daf4e0eb0dca8c91a9ea38a|U32|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:06:51.386011|a929e0122daf4e0eb0dca8c91a9ea38a|U33|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:06:51.396655|a929e0122daf4e0eb0dca8c91a9ea38a|U34|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:06:51.396736|a929e0122daf4e0eb0dca8c91a9ea38a|U35|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:06:51.396838|a929e0122daf4e0eb0dca8c91a9ea38a|U36|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:06:51.396908|a929e0122daf4e0eb0dca8c91a9ea38a|U37|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:06:51.396964|a929e0122daf4e0eb0dca8c91a9ea38a|U38|nlu_fallback|whoo|
+2025-03-06 01:06:51.396993|a929e0122daf4e0eb0dca8c91a9ea38a|U39|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:06:51.397151|a929e0122daf4e0eb0dca8c91a9ea38a|U40|nlu_fallback|how do i write a paper|
+2025-03-06 01:19:00.170538|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 01:19:00.170576|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 01:19:00.170587|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 01:19:00.170615|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 01:19:00.170655|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 01:19:00.170694|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 01:19:00.170730|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 01:19:00.170762|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 01:19:00.170793|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 01:19:00.170818|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 01:19:00.170842|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 01:19:00.170875|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 01:19:00.170911|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 01:19:00.170943|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:00.171004|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:00.171062|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 01:19:00.171117|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 01:19:00.171153|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 01:19:00.171189|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:19:00.171224|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:00.171260|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 01:19:00.171290|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:19:00.171326|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:00.171362|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 01:19:00.171399|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:00.171435|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 01:19:00.171471|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 01:19:00.171502|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:00.171538|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 01:19:00.171568|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:00.171604|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 01:19:00.171635|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:19:00.171672|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 01:19:00.171703|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:19:00.171762|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:19:00.171821|a929e0122daf4e0eb0dca8c91a9ea38a|U32|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:19:00.171879|a929e0122daf4e0eb0dca8c91a9ea38a|U33|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:19:00.183597|a929e0122daf4e0eb0dca8c91a9ea38a|U34|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:19:00.183672|a929e0122daf4e0eb0dca8c91a9ea38a|U35|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:19:00.183744|a929e0122daf4e0eb0dca8c91a9ea38a|U36|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:19:00.183819|a929e0122daf4e0eb0dca8c91a9ea38a|U37|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:19:00.183856|a929e0122daf4e0eb0dca8c91a9ea38a|U38|nlu_fallback|whoo|
+2025-03-06 01:19:00.183895|a929e0122daf4e0eb0dca8c91a9ea38a|U39|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:19:00.183972|a929e0122daf4e0eb0dca8c91a9ea38a|U40|nlu_fallback|how do i write a paper|
+2025-03-06 01:19:00.184049|a929e0122daf4e0eb0dca8c91a9ea38a|U41|nlu_fallback|how do i use powerBI|
+2025-03-06 01:19:37.643166|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 01:19:37.643203|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 01:19:37.643226|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 01:19:37.643254|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 01:19:37.643288|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 01:19:37.643326|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 01:19:37.643361|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 01:19:37.643390|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 01:19:37.643420|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 01:19:37.643445|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 01:19:37.643468|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 01:19:37.643501|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 01:19:37.643536|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 01:19:37.643568|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:37.643624|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:37.643736|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 01:19:37.643795|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 01:19:37.643831|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 01:19:37.643867|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:19:37.643902|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:37.643937|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 01:19:37.643967|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:19:37.644001|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:37.644036|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 01:19:37.644071|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:37.644106|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 01:19:37.644141|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 01:19:37.644171|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:37.644206|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 01:19:37.644236|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:19:37.644272|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 01:19:37.644302|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:19:37.644337|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 01:19:37.644367|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:19:37.644424|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:19:37.644482|a929e0122daf4e0eb0dca8c91a9ea38a|U32|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:19:37.644540|a929e0122daf4e0eb0dca8c91a9ea38a|U33|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:19:37.654388|a929e0122daf4e0eb0dca8c91a9ea38a|U34|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:19:37.654459|a929e0122daf4e0eb0dca8c91a9ea38a|U35|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:19:37.654531|a929e0122daf4e0eb0dca8c91a9ea38a|U36|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:19:37.654601|a929e0122daf4e0eb0dca8c91a9ea38a|U37|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:19:37.654639|a929e0122daf4e0eb0dca8c91a9ea38a|U38|nlu_fallback|whoo|
+2025-03-06 01:19:37.654678|a929e0122daf4e0eb0dca8c91a9ea38a|U39|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:19:37.654760|a929e0122daf4e0eb0dca8c91a9ea38a|U40|nlu_fallback|how do i write a paper|
+2025-03-06 01:19:37.654842|a929e0122daf4e0eb0dca8c91a9ea38a|U41|nlu_fallback|how do i use powerBI|
+2025-03-06 01:19:37.654919|a929e0122daf4e0eb0dca8c91a9ea38a|U42|nlu_fallback|what research tools can i use|
+2025-03-06 01:20:11.027505|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 01:20:11.027548|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 01:20:11.027570|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 01:20:11.027598|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 01:20:11.027642|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 01:20:11.027683|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 01:20:11.027719|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 01:20:11.027751|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 01:20:11.027780|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 01:20:11.027805|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 01:20:11.027829|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 01:20:11.027863|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 01:20:11.027899|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 01:20:11.027931|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:20:11.027993|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:20:11.028054|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 01:20:11.028117|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 01:20:11.028155|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 01:20:11.028192|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:20:11.028228|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:20:11.028265|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 01:20:11.028335|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 01:20:11.028376|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:20:11.028413|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 01:20:11.028455|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:20:11.028490|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 01:20:11.028530|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 01:20:11.028564|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:20:11.028604|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 01:20:11.028635|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 01:20:11.028672|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 01:20:11.028703|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:20:11.028743|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 01:20:11.028777|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:20:11.028839|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:20:11.028900|a929e0122daf4e0eb0dca8c91a9ea38a|U32|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:20:11.028962|a929e0122daf4e0eb0dca8c91a9ea38a|U33|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:20:11.037834|a929e0122daf4e0eb0dca8c91a9ea38a|U34|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:20:11.037912|a929e0122daf4e0eb0dca8c91a9ea38a|U35|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:20:11.037989|a929e0122daf4e0eb0dca8c91a9ea38a|U36|nlu_fallback|who can help with coding nvivo|
+2025-03-06 01:20:11.038073|a929e0122daf4e0eb0dca8c91a9ea38a|U37|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:20:11.038115|a929e0122daf4e0eb0dca8c91a9ea38a|U38|nlu_fallback|whoo|
+2025-03-06 01:20:11.038157|a929e0122daf4e0eb0dca8c91a9ea38a|U39|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 01:20:11.038240|a929e0122daf4e0eb0dca8c91a9ea38a|U40|nlu_fallback|how do i write a paper|
+2025-03-06 01:20:11.038311|a929e0122daf4e0eb0dca8c91a9ea38a|U41|nlu_fallback|how do i use powerBI|
+2025-03-06 01:20:11.038436|a929e0122daf4e0eb0dca8c91a9ea38a|U42|nlu_fallback|what research tools can i use|
+2025-03-06 01:20:11.038517|a929e0122daf4e0eb0dca8c91a9ea38a|U43|nlu_fallback|what reserch tools do ya'll have for me|
+2025-03-06 02:54:47.740723|a929e0122daf4e0eb0dca8c91a9ea38a|U0|greet|hello|
+2025-03-06 02:54:47.740885|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_greet|Hey! How are you?
+2025-03-06 02:54:47.740922|a929e0122daf4e0eb0dca8c91a9ea38a|U1|kind_research_support_university|what kind of service can i get for research|
+2025-03-06 02:54:47.740937|a929e0122daf4e0eb0dca8c91a9ea38a|B1|||||utter_kind_research_support_university|### Get Help with Your Research
+University Libraries is pleased to offer support for exploratory data analysis and statistics. This service provides free, one-on-one or small group help with research data. In-person and virtual appointments are available. Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
+#### To view availability and make an appointment, visit the [booking request form](https://libcal.library.sc.edu/appointments/data-and-stats).
+#### Services Available
+- Exploratory data analysis
+- Statistical tests
+- SAS
+- SPSS
+- R and RStudio
+- Introductory Python
+- Introductory SQL
+
+This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
+
+- [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
+For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
+
+- [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
+Get help from the University of South Carolina's central IT department
+
+2025-03-06 02:54:47.740951|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|can you tell me who can assist me with my research project?|
+2025-03-06 02:54:47.740972|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|yo whats up|
+2025-03-06 02:54:47.741008|a929e0122daf4e0eb0dca8c91a9ea38a|U4|greet|hi|
+2025-03-06 02:54:47.741040|a929e0122daf4e0eb0dca8c91a9ea38a|U5|greet|hello|
+2025-03-06 02:54:47.741072|a929e0122daf4e0eb0dca8c91a9ea38a|U6|What_is_NVivo|whats nvivo|
+2025-03-06 02:54:47.741097|a929e0122daf4e0eb0dca8c91a9ea38a|B2|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-06 02:54:47.741120|a929e0122daf4e0eb0dca8c91a9ea38a|U7|greet|hello|
+2025-03-06 02:54:47.741153|a929e0122daf4e0eb0dca8c91a9ea38a|U8|nlu_fallback|how do i code with nvivo|
+2025-03-06 02:54:47.741188|a929e0122daf4e0eb0dca8c91a9ea38a|U9|greet|hello|
+2025-03-06 02:54:47.741218|a929e0122daf4e0eb0dca8c91a9ea38a|U10|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 02:54:47.741307|a929e0122daf4e0eb0dca8c91a9ea38a|U11|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 02:54:47.741356|a929e0122daf4e0eb0dca8c91a9ea38a|U12|nlu_fallback|who can helo me with coding in nvivo?|
+2025-03-06 02:54:47.741443|a929e0122daf4e0eb0dca8c91a9ea38a|U13|nlu_fallback|Who can help me coding in nvivo?|
+2025-03-06 02:54:47.741464|a929e0122daf4e0eb0dca8c91a9ea38a|U14|nlu_fallback|who|
+2025-03-06 02:54:47.741541|a929e0122daf4e0eb0dca8c91a9ea38a|U15|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 02:54:47.741563|a929e0122daf4e0eb0dca8c91a9ea38a|U16|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 02:54:47.741599|a929e0122daf4e0eb0dca8c91a9ea38a|U17|greet|hello|
+2025-03-06 02:54:47.741631|a929e0122daf4e0eb0dca8c91a9ea38a|U18|nlu_fallback|who can help me with coding in nvivo?|
+2025-03-06 02:54:47.741665|a929e0122daf4e0eb0dca8c91a9ea38a|U19|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 02:54:47.741701|a929e0122daf4e0eb0dca8c91a9ea38a|U20|nlu_fallback|w|
+2025-03-06 02:54:47.741740|a929e0122daf4e0eb0dca8c91a9ea38a|U21|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 02:54:47.741775|a929e0122daf4e0eb0dca8c91a9ea38a|U22|nlu_fallback|ww|
+2025-03-06 02:54:47.741810|a929e0122daf4e0eb0dca8c91a9ea38a|U23|greet|hi|
+2025-03-06 02:54:47.741849|a929e0122daf4e0eb0dca8c91a9ea38a|U24|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 02:54:47.741889|a929e0122daf4e0eb0dca8c91a9ea38a|U25|greet|hi|
+2025-03-06 02:54:47.741939|a929e0122daf4e0eb0dca8c91a9ea38a|U26|nlu_fallback|who can help me with coding in nvivo|
+2025-03-06 02:54:47.741979|a929e0122daf4e0eb0dca8c91a9ea38a|U27|greet|hi|
+2025-03-06 02:54:47.742020|a929e0122daf4e0eb0dca8c91a9ea38a|U28|nlu_fallback|who can help with coding nvivo|
+2025-03-06 02:54:47.742055|a929e0122daf4e0eb0dca8c91a9ea38a|U29|greet|hi|
+2025-03-06 02:54:47.742086|a929e0122daf4e0eb0dca8c91a9ea38a|U30|nlu_fallback|who can help with coding nvivo|
+2025-03-06 02:54:47.742146|a929e0122daf4e0eb0dca8c91a9ea38a|U31|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 02:54:47.742209|a929e0122daf4e0eb0dca8c91a9ea38a|U32|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 02:54:47.742277|a929e0122daf4e0eb0dca8c91a9ea38a|U33|nlu_fallback|who can help with coding nvivo|
+2025-03-06 02:54:47.752134|a929e0122daf4e0eb0dca8c91a9ea38a|U34|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 02:54:47.752208|a929e0122daf4e0eb0dca8c91a9ea38a|U35|nlu_fallback|who can help with coding nvivo|
+2025-03-06 02:54:47.752295|a929e0122daf4e0eb0dca8c91a9ea38a|U36|nlu_fallback|who can help with coding nvivo|
+2025-03-06 02:54:47.752353|a929e0122daf4e0eb0dca8c91a9ea38a|U37|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 02:54:47.752391|a929e0122daf4e0eb0dca8c91a9ea38a|U38|nlu_fallback|whoo|
+2025-03-06 02:54:47.752435|a929e0122daf4e0eb0dca8c91a9ea38a|U39|nlu_fallback|who can help me with coding nvivo|
+2025-03-06 02:54:47.752541|a929e0122daf4e0eb0dca8c91a9ea38a|U40|nlu_fallback|how do i write a paper|
+2025-03-06 02:54:47.752638|a929e0122daf4e0eb0dca8c91a9ea38a|U41|nlu_fallback|how do i use powerBI|
+2025-03-06 02:54:47.752747|a929e0122daf4e0eb0dca8c91a9ea38a|U42|nlu_fallback|what research tools can i use|
+2025-03-06 02:54:47.752839|a929e0122daf4e0eb0dca8c91a9ea38a|U43|nlu_fallback|what reserch tools do ya'll have for me|
+2025-03-06 02:54:47.753007|a929e0122daf4e0eb0dca8c91a9ea38a|U44|nlu_fallback|how do i do data mining|
+2025-03-06 02:55:11.842593|a929e0122daf4e0eb0dca8c91a9ea38a|U0|nlu_fallback|how do i do data mining|
+2025-03-06 02:55:11.842716|a929e0122daf4e0eb0dca8c91a9ea38a|U1|nlu_fallback|help with data mining|
+2025-03-06 02:55:27.112428|a929e0122daf4e0eb0dca8c91a9ea38a|U0|nlu_fallback|how do i do data mining|
+2025-03-06 02:55:27.112526|a929e0122daf4e0eb0dca8c91a9ea38a|U1|nlu_fallback|help with data mining|
+2025-03-06 02:55:27.112598|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|help with text mining|
+2025-03-06 02:55:57.874216|a929e0122daf4e0eb0dca8c91a9ea38a|U0|nlu_fallback|how do i do data mining|
+2025-03-06 02:55:57.874297|a929e0122daf4e0eb0dca8c91a9ea38a|U1|nlu_fallback|help with data mining|
+2025-03-06 02:55:57.874326|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|help with text mining|
+2025-03-06 02:55:57.874375|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|ho|
+2025-03-06 02:56:03.979874|a929e0122daf4e0eb0dca8c91a9ea38a|U0|nlu_fallback|how do i do data mining|
+2025-03-06 02:56:03.979969|a929e0122daf4e0eb0dca8c91a9ea38a|U1|nlu_fallback|help with data mining|
+2025-03-06 02:56:03.980040|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|help with text mining|
+2025-03-06 02:56:03.980077|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|ho|
+2025-03-06 02:56:03.980137|a929e0122daf4e0eb0dca8c91a9ea38a|U4|nlu_fallback|help with text mining|
+2025-03-06 02:59:58.983145|a929e0122daf4e0eb0dca8c91a9ea38a|U0|nlu_fallback|how do i do data mining|
+2025-03-06 02:59:58.983243|a929e0122daf4e0eb0dca8c91a9ea38a|U1|nlu_fallback|help with data mining|
+2025-03-06 02:59:58.983308|a929e0122daf4e0eb0dca8c91a9ea38a|U2|nlu_fallback|help with text mining|
+2025-03-06 02:59:58.983343|a929e0122daf4e0eb0dca8c91a9ea38a|U3|nlu_fallback|ho|
+2025-03-06 02:59:58.983403|a929e0122daf4e0eb0dca8c91a9ea38a|U4|nlu_fallback|help with text mining|
+2025-03-06 02:59:58.983473|a929e0122daf4e0eb0dca8c91a9ea38a|U5|common_text_analysis_method|text analysis methods|
+2025-03-06 02:59:58.983498|a929e0122daf4e0eb0dca8c91a9ea38a|B0|||||utter_common_text_analysis_method|## Common Text Analysis Methods
+- : Most themes and words used throughout the text
+
+- Finding the most significant terms across documents
+
+- Finding connections or pairings of words
+
+- : Searhing for similar topics in many books, a long running diary, a whole run of a journal or periodical
+
+- : Mapping emotions in a body of texts
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-06 02:59:58.983522|a929e0122daf4e0eb0dca8c91a9ea38a|U6|nlu_fallback|who to contact for text mining help|

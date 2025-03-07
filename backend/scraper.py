@@ -8,8 +8,14 @@ import re # regex
 
 QUEUE_FILE = "queue.csv"
 
-# Starting point 
-URL = "https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php"
+# service urls
+digital_scholarship = "https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php" # 80
+ai = "https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php" # 34
+rdm = "https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php" # 15
+data_viz = "https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php" # 89
+
+# Starting point (To do all links at once, add the four links to queue.csv and leave URL blank)
+URL = ""
 
 # The https/http prefix to only include website links
 #PREFIX =(

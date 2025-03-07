@@ -21,6 +21,7 @@ pipeline:
 - name: EntitySynonymMapper
 - name: FallbackClassifier
   threshold: 0.2
+  ambiguity_threshold: 0.05
 
 #pipeline: null
 # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
@@ -62,7 +63,7 @@ policies: null
 #     max_history: 5
 #     epochs: 100
 #     constrain_similarities: true
-assistant_id: 20250302-123926-short-oil
+assistant_id: 20250305-191431-primordial-quiver
 # # No configuration for policies was provided. The following default policies were used to train your model.
 # # If you'd like to customize them, uncomment and adjust the policies.
 # # See https://rasa.com/docs/rasa/policies for more information.

@@ -37,11 +37,11 @@ def paraphrase_question_list(questions: List[str]):
         generated_tokens = model.generate(
             input_tokens,
             max_length=100,  # Maximum length of output sequence
-            num_beams=10,  # beam search width
+            num_beams=50,  # beam search width
             early_stopping=True,  # stops when no better sequences are found
             top_p=0.99,
             top_k=30,
-            num_return_sequences=6,  # returns 6 different paraphrases
+            num_return_sequences=3,  # returns 6 different paraphrases
         )
 
         # decodes all tokens into english
