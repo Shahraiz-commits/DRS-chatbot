@@ -1,27 +1,12 @@
+version: "3.1"
 nlu:
-- examples:
-  - '- hey cann i contact someone for research stuff'
-  - '- help with research'
-  - help with data pls rn
-  - can yall help with research stuff please
-  - give me RESEARCHH
-  intent: contact_help_research_data
-- examples: '- yes
-
-    - y
-
-    - indeed
-
-    - of course
-
-    - that sounds good
-
-    - correct
-
-    '
-  intent: affirm
-- examples:
-  - '- cu'
-  - do u guys have loans for books?
-  intent: interlibrary_loan_access_it
-version: '3.1'
+- intent: contact_help_research_data
+  examples: |
+    - hey
+    - hello
+- intent: interlibrary_loan_access_it
+  examples: |
+    - yo
+- intent: affirm
+  examples: |
+    - absolutely
