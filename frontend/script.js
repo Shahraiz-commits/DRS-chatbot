@@ -228,7 +228,7 @@ function sendMessageToRasa(message) {
     addMessageToChat(message, "userMsg");
   }
 
-  fetch(PROD_LINK, {
+  fetch(LOCAL_LINK, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),

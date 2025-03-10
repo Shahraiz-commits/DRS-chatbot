@@ -34,3 +34,13 @@ stories:
   - action: utter_goodbye
   - action: action_save_conversation
   - action: action_session_id
+
+#- story: Ask the user to rephrase whenever they send a message with low NLU confidence
+#  steps:
+#  - intent: nlu_fallback
+#  - action: action_process_fallback
+#  - intent: choose_number
+#  - action: action_process_choice
+#  - action: action_save_conversation
+#  - action: action_session_id
+#  - action: action_emotion

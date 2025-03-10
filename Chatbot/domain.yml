@@ -1,5 +1,6 @@
 version: '3.1'
 intents:
+- choose_number # Temporary fallback processing. Remove this later
 - 321_rule_backing_data
 - Do not answer
 - What_is_Constellate
@@ -5151,6 +5152,10 @@ actions:
 - action_session_id
 - action_emotion
 - action_process_fallback
+- action_process_choice
+
+entities:
+- number
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

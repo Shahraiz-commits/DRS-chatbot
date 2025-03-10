@@ -11,6 +11,11 @@ from datetime import datetime, timezone, timedelta
 #import panda as pd
 from nrclex import NRCLex
 import yaml
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+print("Sys Path:", sys.path)  # Print paths to check where Python is looking
+from backend.firebase_utils import add_questions_to_intent, add_unassigned_question
 
 class ActionSaveConversation(Action):
 
@@ -94,6 +99,29 @@ class ActionEmotion(Action):
 
         return []
     
+class ActionProcessChoice(Action):
+    def name(self) -> Text:
+        return "action_process_choice"
+    
+    def run(self, dispatcher, tracker : Tracker, domain):
+        user_question_event = tracker.get_last_event_for("user", skip=1)
+        question = user_question_event.get("text")
+        intent_ranking = user_question_event["parse_data"].get("intent_ranking", [])
+        intents = []
+        for i in range(1, 4):
+            intents.append(intent_ranking[i]["name"])
+            #dispatcher.utter_message(intents[i-1])
+
+        number = int(next(tracker.get_latest_entity_values("number"), None))        
+        if(number in [1,2,3]):
+            bot_responses = [event for event in tracker.events if event.get("event") == "bot"]
+            picked_answer = bot_responses[number-5].get("text")
+            add_questions_to_intent(intents[number-1], question)
+            #dispatcher.utter_message(f"You picked answer: {picked_answer} \nAnd intent: {intents[number-1]}")
+        else:
+            #dispatcher.utter_message(f"Question: {question} unassigned")
+            add_unassigned_question(question)
+                
 class ActionProcessFallback(Action):
     def name(self) -> Text:
         return "action_process_fallback"
@@ -121,10 +149,13 @@ class ActionProcessFallback(Action):
                     second_text = response_list[0]["text"]
                 elif response_key == "utter_"+name3:
                     third_text = response_list[0]["text"] 
-        
-        dispatcher.utter_message(f"Sorry I am a bit unsure with my response. Is this what you were looking for?:\n-----------------------------------\n{first_text}\n-----------------------------------\n\nI also found this information that may be relevant:\n-----------------------------------\n{second_text}\
-            \n-----------------------------------\n\nHeres one more, that may be less relevant:\n-----------------------------------\n{third_text} \
-        \n---------------------------------------------------------\nWere any of these responses helpful? If so, please tell me your preferred response so I can improve. If none of these responses answer your question, please say so.")
+        dispatcher.utter_message(first_text)
+        dispatcher.utter_message(second_text)
+        dispatcher.utter_message(third_text)
+        dispatcher.utter_message("\n\nEnter 1,2, or 3 for the response that answers your question.\nEnter 0 if none of these responses answer your question.")
+        #dispatcher.utter_message(f"Sorry I am a bit unsure with my response. Is this what you were looking for?:\n-----------------------------------\n{first_text}\n-----------------------------------\n\nI also found this information that may be relevant:\n-----------------------------------\n{second_text}\
+        #    \n-----------------------------------\n\nHeres one more, that may be less relevant:\n-----------------------------------\n{third_text} \
+        #\n---------------------------------------------------------\nWere any of these responses helpful? If so, please tell me your preferred response so I can improve. If none of these responses answer your question, please say so.")
 
 class ActionLibraryOpen(Action):
     def name(self) -> Text:

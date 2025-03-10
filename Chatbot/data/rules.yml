@@ -26,6 +26,14 @@ rules:
   - action: action_session_id
   - action: action_emotion
 
+- rule: Pick response choice
+  steps:
+  - intent: choose_number
+  - action: action_process_choice
+  - action: action_save_conversation
+  - action: action_session_id
+  - action: action_emotion
+
 - rule: Answer if library is open
   steps:
   - intent: ask_library_open

@@ -15,6 +15,7 @@ rasa/
 Chatbot/models/
 Chatbot/chats.csv
 Chatbot/feedback.txt
+Chatbot/chats.csv
 rasa_template/Chats.csv
 Chatbot/Chats.csv
 

@@ -1,5 +1,11 @@
-version: "3.1"
+version: '3.1'
 nlu:
+- intent: choose_number
+  examples: |
+    - [1](number)
+    - [2](number)
+    - [3](number)
+    - [4](number)
 - intent: greet
   examples: |
     - hey
@@ -2588,7 +2594,7 @@ nlu:
     - Where can I find open and free case studies?
     - Where can I find free case studies?
 - intent: open_access_journal_featuring
-  examples: |
+  examples: |-
     - Are there open access journals featuring case studies?
     - Are there any open access journals featuring case studies?
     - Are there any open access journals that feature case studies?

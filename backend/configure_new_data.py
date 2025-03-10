@@ -2,9 +2,11 @@
 from ruamel.yaml import YAML
 import json
 
+# Finds the intent and adds questions to its examples
 def configure_nlu(intent: str, questions: list):
+    OUTPUT_FILE = "../Chatbot/data/nlu.yml"
     yaml = YAML()
-    with open("test_nlu.yml", "r", encoding="utf-8") as file:
+    with open(OUTPUT_FILE, "r", encoding="utf-8") as file:
         data = yaml.load(file)
     
     for index, item in enumerate(data["nlu"]):
@@ -14,7 +16,7 @@ def configure_nlu(intent: str, questions: list):
             item["examples"] += questions + "\n"
             break
 
-    with open("test_nlu.yml", "w", encoding="utf-8") as file:
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
         yaml.dump(data, file)
     
 def main():
@@ -25,8 +27,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
-
-#"interlibrary_loan_access_it": [
-#"do u guys have loans for books?"
-#]
