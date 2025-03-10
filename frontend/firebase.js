@@ -9,13 +9,13 @@ import {
 } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDOxApOTKHFJAOuGbVMUytu7q4IzCu6TGk",
-  authDomain: "drs-chatbot.firebaseapp.com",
-  projectId: "drs-chatbot",
-  storageBucket: "drs-chatbot.firebasestorage.app",
-  messagingSenderId: "425418688280",
-  appId: "1:425418688280:web:02670aceb91ecccc7ec06d",
-  measurementId: "G-Z73V709CN8",
+  apiKey: "AIzaSyB2o6nc-wshofHBGDUik6qIehZCmOO2YF8",
+  authDomain: "drs-chatbot-75b67.firebaseapp.com",
+  projectId: "drs-chatbot-75b67",
+  storageBucket: "drs-chatbot-75b67.firebasestorage.app",
+  messagingSenderId: "721902099793",
+  appId: "1:721902099793:web:cf812adb9ff75702038770",
+  measurementId: "G-XDYMZY4K3E",
 };
 
 // Initialize Firebase
