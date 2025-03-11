@@ -1,6 +1,10 @@
 #import yaml
 from ruamel.yaml import YAML
 import json
+import firebase_admin
+from firebase_admin import credentials, firestore
+from datetime import datetime
+import csv
 
 # Finds the intent and adds questions to its examples
 def configure_nlu(intent: str, questions: list):
@@ -20,10 +24,29 @@ def configure_nlu(intent: str, questions: list):
         yaml.dump(data, file)
     
 def main():
-    with open("feedback_examples.json", "r", encoding="utf-8") as file:
-        data = json.load(file)
-        for intent, questions in data.items():
-            configure_nlu(intent, list(questions))
+    cred = credentials.Certificate(cert="../firebase_service_key.json")
+    firebase_admin.initialize_app(cred)
+    db = firestore.client()
 
+    # Configured automatically
+    doc_ref = db.collection("trainingQuestions")
+    for doc in doc_ref.get():
+        data = doc.to_dict()
+        questions = data.get("questions", [])
+        #configure_nlu(doc.id, questions)
+        print(f"Added questions for intent: {doc.id}\n Questions: {questions}\n--------------------------------")
+    
+    # Configure these questions manually
+    doc_ref = db.collection("unassignedQuestions")
+    unassignedQs = []
+    for doc in doc_ref.get():
+        data = doc.to_dict()
+        unassignedQs.append(data.get("question", ""))
+
+    with open("unassigned_questions.csv", "a", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        for q in unassignedQs:
+            file.write(q)
+            file.write("\n")
 if __name__ == "__main__":
     main()

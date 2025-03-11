@@ -14,7 +14,6 @@ import yaml
 import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
-print("Sys Path:", sys.path)  # Print paths to check where Python is looking
 from backend.firebase_utils import add_questions_to_intent, add_unassigned_question
 
 class ActionSaveConversation(Action):
@@ -115,7 +114,7 @@ class ActionProcessChoice(Action):
         number = int(next(tracker.get_latest_entity_values("number"), None))        
         if(number in [1,2,3]):
             bot_responses = [event for event in tracker.events if event.get("event") == "bot"]
-            picked_answer = bot_responses[number-5].get("text")
+            #picked_answer = bot_responses[number-5].get("text")
             add_questions_to_intent(intents[number-1], question)
             #dispatcher.utter_message(f"You picked answer: {picked_answer} \nAnd intent: {intents[number-1]}")
         else:
@@ -133,9 +132,9 @@ class ActionProcessFallback(Action):
         second_text = ""
         third_text = ""
         name1 = intents[1]['name']
-        confidence1 = intents[1]['confidence']
+        #confidence1 = intents[1]['confidence']
         name2 = intents[2]['name']
-        confidence2 = intents[2]['confidence']
+        #confidence2 = intents[2]['confidence']
         name3 = intents[3]['name']
         
 
