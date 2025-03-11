@@ -1,7 +1,31 @@
 digraph  {
 0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
 1 [class=active, fontsize=12, label=action_session_start];
-2 [class="intent dashed active", label="  ?  ", shape=rect];
+2 [class=active, fontsize=12, label=utter_machine_learning];
+3 [class=active, fontsize=12, label=utter_kind_ai_support_library];
+4 [class=active, fontsize=12, label=utter_collaborate_someone_ai_research];
+5 [class=active, fontsize=12, label=utter_schedule_research_appointment];
+6 [class=active, fontsize=12, label=utter_get_data_visualization_help];
+7 [class=active, fontsize=12, label=utter_common_text_analysis_method];
+8 [class="intent dashed active", label="  ?  ", shape=rect];
+9 [class="intent active", fillcolor=lightblue, label="/machine_learning", shape=rect, style=filled];
+10 [class="intent active", fillcolor=lightblue, label="/kind_ai_support_library", shape=rect, style=filled];
+11 [class="intent active", fillcolor=lightblue, label="/collaborate_someone_ai_research", shape=rect, style=filled];
+12 [class="intent active", fillcolor=lightblue, label="/schedule_research_appointment", shape=rect, style=filled];
+13 [class="intent active", fillcolor=lightblue, label="/get_data_visualization_help", shape=rect, style=filled];
+14 [class="intent active", fillcolor=lightblue, label="/common_text_analysis_method", shape=rect, style=filled];
 0 -> 1  [class=active, key=NONE, label=""];
-1 -> 2  [class=active, key=NONE, label=""];
+1 -> 9  [class=active, key=0];
+2 -> 10  [class=active, key=0];
+3 -> 11  [class=active, key=0];
+4 -> 12  [class=active, key=0];
+5 -> 13  [class=active, key=0];
+6 -> 14  [class=active, key=0];
+7 -> 8  [class=active, key=NONE, label=""];
+9 -> 2  [class=active, key=0];
+10 -> 3  [class=active, key=0];
+11 -> 4  [class=active, key=0];
+12 -> 5  [class=active, key=0];
+13 -> 6  [class=active, key=0];
+14 -> 7  [class=active, key=0];
 }

@@ -4,7 +4,8 @@ import json
 import firebase_admin
 from firebase_admin import credentials, firestore
 from datetime import datetime
-import csv
+import os
+import json
 
 # Finds the intent and adds questions to its examples
 def configure_nlu(intent: str, questions: list):
@@ -24,9 +25,17 @@ def configure_nlu(intent: str, questions: list):
         yaml.dump(data, file)
     
 def main():
-    cred = credentials.Certificate(cert="../firebase_service_key.json")
+    cred = credentials.Certificate(cert="../Chatbot/actions/firebase_service_key.json")
     firebase_admin.initialize_app(cred)
     db = firestore.client()
+
+    ASSIGNED_QS_PATH = "assigned_questions.json"
+    # Keep track of added questions locally for reference/backup
+    if(os.path.getsize(ASSIGNED_QS_PATH) != 0):
+        with open(ASSIGNED_QS_PATH, "r", encoding="utf-8") as file:
+            json_data = json.load(file)
+    else:
+        json_data = {}
 
     # Configured automatically
     doc_ref = db.collection("trainingQuestions")
@@ -35,9 +44,18 @@ def main():
         questions = data.get("questions", [])
         if(isinstance(questions, str)):
             questions = [questions]
+        
+        # Update local file with new questions
+        if(doc.id in json_data.items()):
+            json_data[doc.id].extend(questions) # Append to existing
+        else:
+            json_data[doc.id] = questions # new entry
         configure_nlu(doc.id, questions)
         print(f"Added questions for intent: {doc.id}\n Questions: {questions}\n--------------------------------")
         doc.reference.delete()
+    
+    with open(ASSIGNED_QS_PATH, "w", encoding="utf-8") as file:
+        json.dump(json_data, file, indent=4)
 
     # Configure these questions manually
     doc_ref = db.collection("unassignedQuestions")
@@ -53,5 +71,6 @@ def main():
             file.write(q)
             file.write("\n")
     print(f"Added unassigned questions:\n{unassignedQs}")
+    
 if __name__ == "__main__":
     main()

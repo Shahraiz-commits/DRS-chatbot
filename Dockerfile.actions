@@ -1,7 +1,8 @@
 FROM python:3.8.20-slim
 COPY Chatbot/actions /Chatbot/actions
+COPY Chatbot/domain.yml /Chatbot/actions
 WORKDIR /Chatbot/actions
-RUN pip install --no-cache-dir -r /Chatbot/actions/requirements.txt
+RUN pip install -r /Chatbot/actions/requirements.txt
 EXPOSE 5055
 ENV PORT=5055
 CMD ["rasa", "run", "actions", "--port", "5055"]

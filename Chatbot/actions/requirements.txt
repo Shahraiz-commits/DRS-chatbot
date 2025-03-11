@@ -2,3 +2,4 @@ NRCLex==3.0.0
 pytz==2022.7.1
 rasa_sdk==3.6.2
 rasa==3.6.21
+firebase-admin==6.6.0

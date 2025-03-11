@@ -2154,16 +2154,6 @@ rules:
   - intent: share_article_version_online
   - action: utter_share_article_version_online
     
-- rule: Answer longterm_archiving_option_research
-  steps:
-  - intent: longterm_archiving_option_research
-  - action: utter_longterm_archiving_option_research
-    
-- rule: Answer external_data_repository_use
-  steps:
-  - intent: external_data_repository_use
-  - action: utter_external_data_repository_use
-    
 - rule: Answer vendor_allow_text_data
   steps:
   - intent: vendor_allow_text_data

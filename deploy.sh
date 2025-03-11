@@ -10,10 +10,10 @@ IMAGE_TAG=$(git rev-parse --short HEAD)  # Git commit hash as tag
 
 # Authenticate Docker with GCR (one time only)
 #gcloud auth login
-gcloud config set project $PROJECT_ID
-gcloud auth configure-docker
-gcloud services enable containerregistry.googleapis.com storage.googleapis.com
-gcloud config get-value project
+#gcloud config set project $PROJECT_ID
+#gcloud auth configure-docker
+#gcloud services enable containerregistry.googleapis.com storage.googleapis.com
+#gcloud config get-value project
 
 # Build and push Rasa Chatbot image
 echo "Building and pushing Rasa Chatbot image..."

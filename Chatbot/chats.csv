@@ -1806,3 +1806,36 @@ number|0|2025-03-11 00:10:11.741337|user_59168|U22|nlu_fallback|help with rsrach
 2025-03-11 00:10:11.741695|user_59168|U24|nlu_fallback|want reserach partner|
 2025-03-11 00:10:11.741846|user_59168|U25|choose_number|0|
 number|0|2025-03-11 00:10:11.741926|user_59168|U26|nlu_fallback|how to gettext mining help|
+2025-03-11 01:33:26.051451|b9e1cbdd976747dfb9c38c75064fe347|U0|greet|hi|
+2025-03-11 01:33:26.051711|b9e1cbdd976747dfb9c38c75064fe347|B0|||||utter_greet|Hey! How are you?
+2025-03-11 01:33:26.051790|b9e1cbdd976747dfb9c38c75064fe347|U1|What_is_NVivo|whats nvivo|
+2025-03-11 01:33:26.051825|b9e1cbdd976747dfb9c38c75064fe347|B1|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-11 01:33:26.052066|b9e1cbdd976747dfb9c38c75064fe347|U2|nlu_fallback|can u help with analyzing|
+2025-03-11 01:35:05.163248|b9e1cbdd976747dfb9c38c75064fe347|U0|greet|hi|
+2025-03-11 01:35:05.163353|b9e1cbdd976747dfb9c38c75064fe347|B0|||||utter_greet|Hey! How are you?
+2025-03-11 01:35:05.163411|b9e1cbdd976747dfb9c38c75064fe347|U1|What_is_NVivo|whats nvivo|
+2025-03-11 01:35:05.163506|b9e1cbdd976747dfb9c38c75064fe347|B1|||||utter_What_is_NVivo|## What is NVivo?
+NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data. With NVivo, users can:
+- Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
+
+- Identify themes and topics using codes
+
+- Run queries to explore data
+
+- Use visualizations to demonstrate connections, make comparisons, and discover patterns
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-11 01:35:05.163588|b9e1cbdd976747dfb9c38c75064fe347|U2|nlu_fallback|can u help with analyzing|
+2025-03-11 01:35:05.163806|b9e1cbdd976747dfb9c38c75064fe347|U3|nlu_fallback|can u help w analyzing stuff|

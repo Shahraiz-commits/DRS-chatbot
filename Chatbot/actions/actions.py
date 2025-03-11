@@ -13,8 +13,11 @@ from nrclex import NRCLex
 import yaml
 import os
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
-from backend.firebase_utils import add_question_to_intent, add_unassigned_question
+import nltk
+nltk.download('punkt_tab')
+nltk.download('punkt')
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../")))
+from firebase_utils import add_question_to_intent, add_unassigned_question
 
 class ActionSaveConversation(Action):
 
@@ -139,7 +142,8 @@ class ActionProcessFallback(Action):
         
 
         # Search for first two intents text
-        with open("../Chatbot/domain.yml", "r", encoding="utf-8") as f:
+        # NOTE: "../Chatbot/domain.yml" for LOCAL "domain.yml" for PROD
+        with open("domain.yml", "r", encoding="utf-8") as f:
             data = yaml.safe_load(f)
             for response_key, response_list in data["responses"].items():
                 if response_key == "utter_"+name1:
