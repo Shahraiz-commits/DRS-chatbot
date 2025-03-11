@@ -5,7 +5,7 @@ nlu:
     - [1](number)
     - [2](number)
     - [3](number)
-    - [4](number)
+    - [0](number)
 - intent: greet
   examples: |
     - hey
@@ -102,7 +102,8 @@ nlu:
 - intent: ai_service_library_offer
   examples: |
     - What AI services does the library offer?
-    - What AI services does a library offer?
+    - ai resources
+    - ai services
 - intent: help_digital_tool
   examples: |
     - who can help me with digital tools?
@@ -1160,12 +1161,12 @@ nlu:
     - need help with DMP
     - who can help me with DMPtool
     - who do i contact for help with data management plan
+    - who is stacy
 - intent: whats_data_management_plan
   examples: |
     - Whats data management plan (DMP)?
-    - What is a data management plan?
-    - What is a data management plan (DMP)?
-    - What is data management plan?
+    - wahts dmp
+    - dmp
 - intent: resource_available_writing_data
   examples: |
     - What resources are available for writing a Data Management Plan (DMP)?
@@ -1176,14 +1177,11 @@ nlu:
 - intent: include_data_management_plan
   examples: |
     - What should I include in a Data Management Plan (DMP)?
-    - What should I include in a data management plan?
-    - What should I include in a Data Management Plan?
-    - What should I include in my data management plan?
+    - What to put in dmp
 - intent: need_data_management_plan
   examples: |
     - Why do I need a data management plan?
     - Why should I have a data management plan?
-    - Why do you need a data management plan?
     - how do i manage my data
     - need something to store my data
 - intent: What_is_DMPtool
@@ -1194,8 +1192,7 @@ nlu:
 - intent: osf_use_it
   examples: |
     - What is OSF and how can I use it?
-    - What is OSF and how do I use it?
-    - What is OSF? How can I use it?
+    - how to use OSF
 - intent: option_available_longterm_archiving
   examples: |
     - What options are available for long-term archiving of research data?
@@ -1348,6 +1345,32 @@ nlu:
     - What kind of consultations are available for AI projects?
     - What kinds of consultations are available for AI projects?
     - What kind of consulting services are available for AI projects?
+    - d
+    - o
+    -  
+    - u
+    -  
+    - h
+    - a
+    - v
+    - e
+    -  
+    - a
+    - i
+    -  
+    - c
+    - o
+    - n
+    - s
+    - u
+    - l
+    - t
+    - a
+    - t
+    - i
+    - o
+    - n
+    - s
 - intent: workshop_available_ai_data
   examples: |
     - What workshops are available for AI and data science?
@@ -1367,6 +1390,8 @@ nlu:
     - i need help with ai
     - who can help with ai stuff
     - how do i get help with NLP
+    - help with making a chatbot
+    - ai help
 - intent: make_appointment_ai_data
   examples: |
     - How do I make an appointment for AI and data science assistance?
@@ -1521,13 +1546,14 @@ nlu:
 - intent: advanced_text_analysis_tool
   examples: |
     - What advanced text analysis tools are available?
-    - Tell me the best text analysis tool?
-    - Which advanced text analysis tools are available?
+    - best text analysis software
+    - tools for analyzing text
+    - text cleaning resources
 - intent: data_cleaning_tool_available
   examples: |
     - What data cleaning tools are available?
     - list the best data cleaning tools?
-    - can you list the best data cleaning tools?
+    - how to clean data
 - intent: freely_available_corpus_text
   examples: |
     - What are some freely available corpora for text mining and analysis?

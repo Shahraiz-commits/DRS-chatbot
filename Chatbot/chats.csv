@@ -8,4 +8,1801 @@ input_time|conversation_id|count|intent|user_input| entity_name|entity_value|act
 2022-10-27 16:16:16.412640|7c7d4bba78834d01937df49e85703aef|B3|||||utter_goodbye|Bye
 2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|U0|greet|hi|
 2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|B0|||||utter_greet|Hey! How are you?
-2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|U1|mood_unhappy|whats upp|
+2022-10-27 16:22:22.257649|7c7d4bba78834d01937df49e85703aef|U1|mood_unhappy|whats upp|2025-03-10 22:30:10.679237|user_62866|U0|greet|/greet|
+2025-03-10 22:30:10.680104|user_62866|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:30:10.680545|user_62866|U1|nlu_fallback|how can i get help making a chatbot|
+2025-03-10 22:31:26.871431|user_62866|U0|greet|/greet|
+2025-03-10 22:31:26.871563|user_62866|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:31:26.871625|user_62866|U1|nlu_fallback|how can i get help making a chatbot|
+2025-03-10 22:31:26.872062|user_62866|U2|choose_number|0|
+number|0|2025-03-10 22:31:58.347761|user_62866|U0|greet|/greet|
+2025-03-10 22:31:58.347901|user_62866|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:31:58.347947|user_62866|U1|nlu_fallback|how can i get help making a chatbot|
+2025-03-10 22:31:58.348466|user_62866|U2|choose_number|0|
+number|0|2025-03-10 22:31:58.348658|user_62866|U3|nlu_fallback|can you help me create a chatbot|
+2025-03-10 22:32:38.477828|user_62866|U0|greet|/greet|
+2025-03-10 22:32:38.478034|user_62866|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:32:38.478126|user_62866|U1|nlu_fallback|how can i get help making a chatbot|
+2025-03-10 22:32:38.478592|user_62866|U2|choose_number|0|
+number|0|2025-03-10 22:32:38.478788|user_62866|U3|nlu_fallback|can you help me create a chatbot|
+2025-03-10 22:32:38.479874|user_62866|U4|choose_number|0|
+number|0|2025-03-10 22:37:23.231901|user_41430|U0|greet|/greet|
+2025-03-10 22:37:23.232088|user_41430|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:37:23.232197|user_41430|U1|help_ai|hey can you help me make a NLP based bot|
+2025-03-10 22:37:23.232431|user_41430|B1|||||utter_help_ai|# Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)
+AI/Data Science Specialist 
+803-777-5699
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-10 22:37:23.232630|user_41430|U2|nlu_fallback|how do i see tutorials?|
+2025-03-10 22:40:28.447181|user_17095|U0|greet|/greet|
+2025-03-10 22:40:28.447247|user_17095|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:40:28.447263|user_17095|U1|nlu_fallback|how do i see tutorials?|
+2025-03-10 22:42:49.668088|user_39424|U0|greet|/greet|
+2025-03-10 22:42:49.668153|user_39424|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:42:49.668170|user_39424|U1|nlu_fallback|how do i see tutorials|
+2025-03-10 22:44:33.012702|user_41404|U0|greet|/greet|
+2025-03-10 22:44:33.012814|user_41404|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:44:33.012890|user_41404|U1|nlu_fallback|how do i see tutorials|
+2025-03-10 22:45:52.871949|user_10051|U0|greet|/greet|
+2025-03-10 22:45:52.872022|user_10051|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:45:52.872041|user_10051|U1|nlu_fallback|tutorials|
+2025-03-10 22:46:12.266583|user_10051|U0|greet|/greet|
+2025-03-10 22:46:12.266641|user_10051|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:46:12.266657|user_10051|U1|nlu_fallback|tutorials|
+2025-03-10 22:46:12.266870|user_10051|U2|nlu_fallback|Tutorial|
+2025-03-10 22:49:31.818392|user_5654|U0|greet|/greet|
+2025-03-10 22:49:31.818471|user_5654|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:49:31.818488|user_5654|U1|nlu_fallback|whats qualitative data analysis|
+2025-03-10 22:49:45.236565|user_5654|U0|greet|/greet|
+2025-03-10 22:49:45.236695|user_5654|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:49:45.236787|user_5654|U1|nlu_fallback|whats qualitative data analysis|
+2025-03-10 22:49:45.237017|user_5654|U2|choose_number|1|
+number|1|2025-03-10 22:51:17.172057|user_3974|U0|greet|/greet|
+2025-03-10 22:51:17.172195|user_3974|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:51:17.172275|user_3974|U1|nlu_fallback|whats qualitative data anaylsis|
+2025-03-10 22:52:30.025702|user_3974|U0|greet|/greet|
+2025-03-10 22:52:30.025797|user_3974|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:52:30.025869|user_3974|U1|nlu_fallback|whats qualitative data anaylsis|
+2025-03-10 22:52:30.026108|user_3974|U2|nlu_fallback|do u have Ai consultations|
+2025-03-10 22:52:45.513261|user_3974|U0|greet|/greet|
+2025-03-10 22:52:45.513368|user_3974|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:52:45.513446|user_3974|U1|nlu_fallback|whats qualitative data anaylsis|
+2025-03-10 22:52:45.513704|user_3974|U2|nlu_fallback|do u have Ai consultations|
+2025-03-10 22:52:45.513933|user_3974|U3|choose_number|1|
+number|1|2025-03-10 22:56:39.304044|user_32072|U0|greet|/greet|
+2025-03-10 22:56:39.304151|user_32072|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:56:39.304169|user_32072|U1|nlu_fallback|do u have ai consultations|
+2025-03-10 22:56:44.418494|user_32072|U0|greet|/greet|
+2025-03-10 22:56:44.418593|user_32072|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:56:44.418653|user_32072|U1|nlu_fallback|do u have ai consultations|
+2025-03-10 22:56:44.418852|user_32072|U2|choose_number|1|
+number|1|2025-03-10 22:57:10.841002|user_32072|U0|greet|/greet|
+2025-03-10 22:57:10.841062|user_32072|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:57:10.841077|user_32072|U1|nlu_fallback|do u have ai consultations|
+2025-03-10 22:57:10.841299|user_32072|U2|choose_number|1|
+number|1|2025-03-10 22:57:10.841414|user_32072|U3|nlu_fallback|quantitaive analysis|
+2025-03-10 22:59:28.078045|user_32072|U0|greet|/greet|
+2025-03-10 22:59:28.078110|user_32072|B0|||||utter_greet|Hey! How are you?
+2025-03-10 22:59:28.078126|user_32072|U1|nlu_fallback|do u have ai consultations|
+2025-03-10 22:59:28.078296|user_32072|U2|choose_number|1|
+number|1|2025-03-10 22:59:28.078428|user_32072|U3|nlu_fallback|quantitaive analysis|
+2025-03-10 22:59:28.078645|user_32072|U4|nlu_fallback|tools for analysing text|
+2025-03-10 23:00:39.448334|user_32072|U0|greet|/greet|
+2025-03-10 23:00:39.448411|user_32072|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:00:39.448490|user_32072|U1|nlu_fallback|do u have ai consultations|
+2025-03-10 23:00:39.448680|user_32072|U2|choose_number|1|
+number|1|2025-03-10 23:00:39.448790|user_32072|U3|nlu_fallback|quantitaive analysis|
+2025-03-10 23:00:39.448980|user_32072|U4|nlu_fallback|tools for analysing text|
+2025-03-10 23:00:39.449184|user_32072|U5|data_cleaning_tool_available|tools for cleaning data|
+2025-03-10 23:00:39.449260|user_32072|B1|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:00:39.449348|user_32072|U6|data_cleaning_tool_available|tools for cleaning text|
+2025-03-10 23:00:39.449410|user_32072|B2|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:00:39.449460|user_32072|U7|store_create_machine_readable|machine readable text|
+2025-03-10 23:00:39.449478|user_32072|B3|||||utter_store_create_machine_readable|## Storing and Creating Machine Readable Text
+Your data , text, or content must be machine readable and together in one place for the algorthims in any platform to work.  In other words, images like PNG or JPG will not work, so they must be OCRed or converted into text. PDFs may work if the text is searchable within the document.  Here are a few tools for converting your data into the proper text format.  TXT , TSV, or CSV are the best formats for working with data.
+If your computer can no longer handle the size of the data set, contact DoIT [Research Computing ](https://sc.edu/about/offices_and_divisions/division_of_information_technology/rc/index.php)about their high performance computing (HPC) options.
+
+- [DataFile Converter](https://www.withdata.com/data-file-converter/)
+- [How to convert PDFs to Text files](https://www.pdf2go.com/)
+- [Tesseract OCR software](https://tesseract-ocr.github.io/tessdoc/)
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-10 23:00:39.449567|user_32072|U8|nlu_fallback|sentiment analysis|
+2025-03-10 23:00:50.531084|user_32072|U0|greet|/greet|
+2025-03-10 23:00:50.531185|user_32072|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:00:50.531213|user_32072|U1|nlu_fallback|do u have ai consultations|
+2025-03-10 23:00:50.531446|user_32072|U2|choose_number|1|
+number|1|2025-03-10 23:00:50.531560|user_32072|U3|nlu_fallback|quantitaive analysis|
+2025-03-10 23:00:50.531884|user_32072|U4|nlu_fallback|tools for analysing text|
+2025-03-10 23:00:50.532328|user_32072|U5|data_cleaning_tool_available|tools for cleaning data|
+2025-03-10 23:00:50.532426|user_32072|B1|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:00:50.532518|user_32072|U6|data_cleaning_tool_available|tools for cleaning text|
+2025-03-10 23:00:50.532700|user_32072|B2|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:00:50.532800|user_32072|U7|store_create_machine_readable|machine readable text|
+2025-03-10 23:00:50.532903|user_32072|B3|||||utter_store_create_machine_readable|## Storing and Creating Machine Readable Text
+Your data , text, or content must be machine readable and together in one place for the algorthims in any platform to work.  In other words, images like PNG or JPG will not work, so they must be OCRed or converted into text. PDFs may work if the text is searchable within the document.  Here are a few tools for converting your data into the proper text format.  TXT , TSV, or CSV are the best formats for working with data.
+If your computer can no longer handle the size of the data set, contact DoIT [Research Computing ](https://sc.edu/about/offices_and_divisions/division_of_information_technology/rc/index.php)about their high performance computing (HPC) options.
+
+- [DataFile Converter](https://www.withdata.com/data-file-converter/)
+- [How to convert PDFs to Text files](https://www.pdf2go.com/)
+- [Tesseract OCR software](https://tesseract-ocr.github.io/tessdoc/)
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-10 23:00:50.533105|user_32072|U8|nlu_fallback|sentiment analysis|
+2025-03-10 23:00:50.533367|user_32072|U9|choose_number|0|
+number|0|2025-03-10 23:01:32.482842|user_32072|U0|greet|/greet|
+2025-03-10 23:01:32.482905|user_32072|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:01:32.482921|user_32072|U1|nlu_fallback|do u have ai consultations|
+2025-03-10 23:01:32.483086|user_32072|U2|choose_number|1|
+number|1|2025-03-10 23:01:32.483230|user_32072|U3|nlu_fallback|quantitaive analysis|
+2025-03-10 23:01:32.483448|user_32072|U4|nlu_fallback|tools for analysing text|
+2025-03-10 23:01:32.483595|user_32072|U5|data_cleaning_tool_available|tools for cleaning data|
+2025-03-10 23:01:32.483715|user_32072|B1|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:01:32.483739|user_32072|U6|data_cleaning_tool_available|tools for cleaning text|
+2025-03-10 23:01:32.483829|user_32072|B2|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:01:32.483906|user_32072|U7|store_create_machine_readable|machine readable text|
+2025-03-10 23:01:32.483984|user_32072|B3|||||utter_store_create_machine_readable|## Storing and Creating Machine Readable Text
+Your data , text, or content must be machine readable and together in one place for the algorthims in any platform to work.  In other words, images like PNG or JPG will not work, so they must be OCRed or converted into text. PDFs may work if the text is searchable within the document.  Here are a few tools for converting your data into the proper text format.  TXT , TSV, or CSV are the best formats for working with data.
+If your computer can no longer handle the size of the data set, contact DoIT [Research Computing ](https://sc.edu/about/offices_and_divisions/division_of_information_technology/rc/index.php)about their high performance computing (HPC) options.
+
+- [DataFile Converter](https://www.withdata.com/data-file-converter/)
+- [How to convert PDFs to Text files](https://www.pdf2go.com/)
+- [Tesseract OCR software](https://tesseract-ocr.github.io/tessdoc/)
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-10 23:01:32.484052|user_32072|U8|nlu_fallback|sentiment analysis|
+2025-03-10 23:01:32.484181|user_32072|U9|choose_number|0|
+number|0|2025-03-10 23:01:32.484233|user_32072|U10|web_scraper_available|web scraping|
+2025-03-10 23:01:32.484282|user_32072|B4|||||utter_web_scraper_available|## Web Scrapers
+- [Data Miner](https://dataminer.io/)
+- [Google News Scraper](https://wiki.digitalmethods.net/Dmi/ToolGoogleNewsScraper)
+- [WIScker](http://cloud.tapor.ca/wiscker/)Tool to scrape previous versions of Wikipedia articles. WIScker is free to use. The resulting corpus from any query can be analyzed through[Voyant](https://voyant-tools.org/)or on your own.
+
+2025-03-10 23:01:32.484330|user_32072|U11|nlu_fallback|how do i use dmp|
+2025-03-10 23:02:12.981692|user_32072|U0|greet|/greet|
+2025-03-10 23:02:12.981871|user_32072|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:02:12.981967|user_32072|U1|nlu_fallback|do u have ai consultations|
+2025-03-10 23:02:12.982220|user_32072|U2|choose_number|1|
+number|1|2025-03-10 23:02:12.982376|user_32072|U3|nlu_fallback|quantitaive analysis|
+2025-03-10 23:02:12.982561|user_32072|U4|nlu_fallback|tools for analysing text|
+2025-03-10 23:02:12.982894|user_32072|U5|data_cleaning_tool_available|tools for cleaning data|
+2025-03-10 23:02:12.982989|user_32072|B1|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:02:12.983078|user_32072|U6|data_cleaning_tool_available|tools for cleaning text|
+2025-03-10 23:02:12.983176|user_32072|B2|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:02:12.983265|user_32072|U7|store_create_machine_readable|machine readable text|
+2025-03-10 23:02:12.983320|user_32072|B3|||||utter_store_create_machine_readable|## Storing and Creating Machine Readable Text
+Your data , text, or content must be machine readable and together in one place for the algorthims in any platform to work.  In other words, images like PNG or JPG will not work, so they must be OCRed or converted into text. PDFs may work if the text is searchable within the document.  Here are a few tools for converting your data into the proper text format.  TXT , TSV, or CSV are the best formats for working with data.
+If your computer can no longer handle the size of the data set, contact DoIT [Research Computing ](https://sc.edu/about/offices_and_divisions/division_of_information_technology/rc/index.php)about their high performance computing (HPC) options.
+
+- [DataFile Converter](https://www.withdata.com/data-file-converter/)
+- [How to convert PDFs to Text files](https://www.pdf2go.com/)
+- [Tesseract OCR software](https://tesseract-ocr.github.io/tessdoc/)
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-10 23:02:12.983375|user_32072|U8|nlu_fallback|sentiment analysis|
+2025-03-10 23:02:12.983474|user_32072|U9|choose_number|0|
+number|0|2025-03-10 23:02:12.983543|user_32072|U10|web_scraper_available|web scraping|
+2025-03-10 23:02:12.983623|user_32072|B4|||||utter_web_scraper_available|## Web Scrapers
+- [Data Miner](https://dataminer.io/)
+- [Google News Scraper](https://wiki.digitalmethods.net/Dmi/ToolGoogleNewsScraper)
+- [WIScker](http://cloud.tapor.ca/wiscker/)Tool to scrape previous versions of Wikipedia articles. WIScker is free to use. The resulting corpus from any query can be analyzed through[Voyant](https://voyant-tools.org/)or on your own.
+
+2025-03-10 23:02:12.983722|user_32072|U11|nlu_fallback|how do i use dmp|
+2025-03-10 23:02:12.983869|user_32072|U12|contact_help_research_data|dmp help|
+2025-03-10 23:02:12.983956|user_32072|B5|||||utter_contact_help_research_data|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-10 23:02:12.983999|user_32072|U13|nlu_fallback|ai help|
+2025-03-10 23:02:20.989657|user_32072|U0|greet|/greet|
+2025-03-10 23:02:20.989797|user_32072|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:02:20.989840|user_32072|U1|nlu_fallback|do u have ai consultations|
+2025-03-10 23:02:20.990050|user_32072|U2|choose_number|1|
+number|1|2025-03-10 23:02:20.990167|user_32072|U3|nlu_fallback|quantitaive analysis|
+2025-03-10 23:02:20.990479|user_32072|U4|nlu_fallback|tools for analysing text|
+2025-03-10 23:02:20.991330|user_32072|U5|data_cleaning_tool_available|tools for cleaning data|
+2025-03-10 23:02:20.991458|user_32072|B1|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:02:20.991562|user_32072|U6|data_cleaning_tool_available|tools for cleaning text|
+2025-03-10 23:02:20.991630|user_32072|B2|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:02:20.991725|user_32072|U7|store_create_machine_readable|machine readable text|
+2025-03-10 23:02:20.991800|user_32072|B3|||||utter_store_create_machine_readable|## Storing and Creating Machine Readable Text
+Your data , text, or content must be machine readable and together in one place for the algorthims in any platform to work.  In other words, images like PNG or JPG will not work, so they must be OCRed or converted into text. PDFs may work if the text is searchable within the document.  Here are a few tools for converting your data into the proper text format.  TXT , TSV, or CSV are the best formats for working with data.
+If your computer can no longer handle the size of the data set, contact DoIT [Research Computing ](https://sc.edu/about/offices_and_divisions/division_of_information_technology/rc/index.php)about their high performance computing (HPC) options.
+
+- [DataFile Converter](https://www.withdata.com/data-file-converter/)
+- [How to convert PDFs to Text files](https://www.pdf2go.com/)
+- [Tesseract OCR software](https://tesseract-ocr.github.io/tessdoc/)
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-10 23:02:20.991972|user_32072|U8|nlu_fallback|sentiment analysis|
+2025-03-10 23:02:20.992260|user_32072|U9|choose_number|0|
+number|0|2025-03-10 23:02:20.992423|user_32072|U10|web_scraper_available|web scraping|
+2025-03-10 23:02:20.992499|user_32072|B4|||||utter_web_scraper_available|## Web Scrapers
+- [Data Miner](https://dataminer.io/)
+- [Google News Scraper](https://wiki.digitalmethods.net/Dmi/ToolGoogleNewsScraper)
+- [WIScker](http://cloud.tapor.ca/wiscker/)Tool to scrape previous versions of Wikipedia articles. WIScker is free to use. The resulting corpus from any query can be analyzed through[Voyant](https://voyant-tools.org/)or on your own.
+
+2025-03-10 23:02:20.992575|user_32072|U11|nlu_fallback|how do i use dmp|
+2025-03-10 23:02:20.992748|user_32072|U12|contact_help_research_data|dmp help|
+2025-03-10 23:02:20.992833|user_32072|B5|||||utter_contact_help_research_data|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-10 23:02:20.992916|user_32072|U13|nlu_fallback|ai help|
+2025-03-10 23:02:20.993146|user_32072|U14|choose_number|1|
+number|1|2025-03-10 23:03:11.367731|user_32072|U0|greet|/greet|
+2025-03-10 23:03:11.367794|user_32072|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:03:11.367810|user_32072|U1|nlu_fallback|do u have ai consultations|
+2025-03-10 23:03:11.367999|user_32072|U2|choose_number|1|
+number|1|2025-03-10 23:03:11.368112|user_32072|U3|nlu_fallback|quantitaive analysis|
+2025-03-10 23:03:11.368296|user_32072|U4|nlu_fallback|tools for analysing text|
+2025-03-10 23:03:11.368642|user_32072|U5|data_cleaning_tool_available|tools for cleaning data|
+2025-03-10 23:03:11.368723|user_32072|B1|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:03:11.368788|user_32072|U6|data_cleaning_tool_available|tools for cleaning text|
+2025-03-10 23:03:11.368860|user_32072|B2|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:03:11.368924|user_32072|U7|store_create_machine_readable|machine readable text|
+2025-03-10 23:03:11.368988|user_32072|B3|||||utter_store_create_machine_readable|## Storing and Creating Machine Readable Text
+Your data , text, or content must be machine readable and together in one place for the algorthims in any platform to work.  In other words, images like PNG or JPG will not work, so they must be OCRed or converted into text. PDFs may work if the text is searchable within the document.  Here are a few tools for converting your data into the proper text format.  TXT , TSV, or CSV are the best formats for working with data.
+If your computer can no longer handle the size of the data set, contact DoIT [Research Computing ](https://sc.edu/about/offices_and_divisions/division_of_information_technology/rc/index.php)about their high performance computing (HPC) options.
+
+- [DataFile Converter](https://www.withdata.com/data-file-converter/)
+- [How to convert PDFs to Text files](https://www.pdf2go.com/)
+- [Tesseract OCR software](https://tesseract-ocr.github.io/tessdoc/)
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-10 23:03:11.369156|user_32072|U8|nlu_fallback|sentiment analysis|
+2025-03-10 23:03:11.369402|user_32072|U9|choose_number|0|
+number|0|2025-03-10 23:03:11.369530|user_32072|U10|web_scraper_available|web scraping|
+2025-03-10 23:03:11.369617|user_32072|B4|||||utter_web_scraper_available|## Web Scrapers
+- [Data Miner](https://dataminer.io/)
+- [Google News Scraper](https://wiki.digitalmethods.net/Dmi/ToolGoogleNewsScraper)
+- [WIScker](http://cloud.tapor.ca/wiscker/)Tool to scrape previous versions of Wikipedia articles. WIScker is free to use. The resulting corpus from any query can be analyzed through[Voyant](https://voyant-tools.org/)or on your own.
+
+2025-03-10 23:03:11.369731|user_32072|U11|nlu_fallback|how do i use dmp|
+2025-03-10 23:03:11.369863|user_32072|U12|contact_help_research_data|dmp help|
+2025-03-10 23:03:11.369934|user_32072|B5|||||utter_contact_help_research_data|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-10 23:03:11.370007|user_32072|U13|nlu_fallback|ai help|
+2025-03-10 23:03:11.370233|user_32072|U14|choose_number|1|
+number|1|2025-03-10 23:03:11.370364|user_32072|U15|nlu_fallback|ai help|
+2025-03-10 23:03:16.335452|user_32072|U0|greet|/greet|
+2025-03-10 23:03:16.335566|user_32072|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:03:16.335587|user_32072|U1|nlu_fallback|do u have ai consultations|
+2025-03-10 23:03:16.335797|user_32072|U2|choose_number|1|
+number|1|2025-03-10 23:03:16.335927|user_32072|U3|nlu_fallback|quantitaive analysis|
+2025-03-10 23:03:16.336175|user_32072|U4|nlu_fallback|tools for analysing text|
+2025-03-10 23:03:16.336398|user_32072|U5|data_cleaning_tool_available|tools for cleaning data|
+2025-03-10 23:03:16.336490|user_32072|B1|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:03:16.336605|user_32072|U6|data_cleaning_tool_available|tools for cleaning text|
+2025-03-10 23:03:16.336702|user_32072|B2|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:03:16.336796|user_32072|U7|store_create_machine_readable|machine readable text|
+2025-03-10 23:03:16.336891|user_32072|B3|||||utter_store_create_machine_readable|## Storing and Creating Machine Readable Text
+Your data , text, or content must be machine readable and together in one place for the algorthims in any platform to work.  In other words, images like PNG or JPG will not work, so they must be OCRed or converted into text. PDFs may work if the text is searchable within the document.  Here are a few tools for converting your data into the proper text format.  TXT , TSV, or CSV are the best formats for working with data.
+If your computer can no longer handle the size of the data set, contact DoIT [Research Computing ](https://sc.edu/about/offices_and_divisions/division_of_information_technology/rc/index.php)about their high performance computing (HPC) options.
+
+- [DataFile Converter](https://www.withdata.com/data-file-converter/)
+- [How to convert PDFs to Text files](https://www.pdf2go.com/)
+- [Tesseract OCR software](https://tesseract-ocr.github.io/tessdoc/)
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-10 23:03:16.337008|user_32072|U8|nlu_fallback|sentiment analysis|
+2025-03-10 23:03:16.337272|user_32072|U9|choose_number|0|
+number|0|2025-03-10 23:03:16.337417|user_32072|U10|web_scraper_available|web scraping|
+2025-03-10 23:03:16.337513|user_32072|B4|||||utter_web_scraper_available|## Web Scrapers
+- [Data Miner](https://dataminer.io/)
+- [Google News Scraper](https://wiki.digitalmethods.net/Dmi/ToolGoogleNewsScraper)
+- [WIScker](http://cloud.tapor.ca/wiscker/)Tool to scrape previous versions of Wikipedia articles. WIScker is free to use. The resulting corpus from any query can be analyzed through[Voyant](https://voyant-tools.org/)or on your own.
+
+2025-03-10 23:03:16.337629|user_32072|U11|nlu_fallback|how do i use dmp|
+2025-03-10 23:03:16.337860|user_32072|U12|contact_help_research_data|dmp help|
+2025-03-10 23:03:16.337951|user_32072|B5|||||utter_contact_help_research_data|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-10 23:03:16.338058|user_32072|U13|nlu_fallback|ai help|
+2025-03-10 23:03:16.338255|user_32072|U14|choose_number|1|
+number|1|2025-03-10 23:03:16.338405|user_32072|U15|nlu_fallback|ai help|
+2025-03-10 23:03:16.338610|user_32072|U16|choose_number|1|
+number|1|2025-03-10 23:04:50.858139|user_32072|U0|greet|/greet|
+2025-03-10 23:04:50.858214|user_32072|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:04:50.858229|user_32072|U1|nlu_fallback|do u have ai consultations|
+2025-03-10 23:04:50.858400|user_32072|U2|choose_number|1|
+number|1|2025-03-10 23:04:50.858599|user_32072|U3|nlu_fallback|quantitaive analysis|
+2025-03-10 23:04:50.858939|user_32072|U4|nlu_fallback|tools for analysing text|
+2025-03-10 23:04:50.859037|user_32072|U5|data_cleaning_tool_available|tools for cleaning data|
+2025-03-10 23:04:50.859121|user_32072|B1|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:04:50.859223|user_32072|U6|data_cleaning_tool_available|tools for cleaning text|
+2025-03-10 23:04:50.859249|user_32072|B2|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:04:50.859376|user_32072|U7|store_create_machine_readable|machine readable text|
+2025-03-10 23:04:50.859461|user_32072|B3|||||utter_store_create_machine_readable|## Storing and Creating Machine Readable Text
+Your data , text, or content must be machine readable and together in one place for the algorthims in any platform to work.  In other words, images like PNG or JPG will not work, so they must be OCRed or converted into text. PDFs may work if the text is searchable within the document.  Here are a few tools for converting your data into the proper text format.  TXT , TSV, or CSV are the best formats for working with data.
+If your computer can no longer handle the size of the data set, contact DoIT [Research Computing ](https://sc.edu/about/offices_and_divisions/division_of_information_technology/rc/index.php)about their high performance computing (HPC) options.
+
+- [DataFile Converter](https://www.withdata.com/data-file-converter/)
+- [How to convert PDFs to Text files](https://www.pdf2go.com/)
+- [Tesseract OCR software](https://tesseract-ocr.github.io/tessdoc/)
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-10 23:04:50.859528|user_32072|U8|nlu_fallback|sentiment analysis|
+2025-03-10 23:04:50.859719|user_32072|U9|choose_number|0|
+number|0|2025-03-10 23:04:50.859879|user_32072|U10|web_scraper_available|web scraping|
+2025-03-10 23:04:50.859983|user_32072|B4|||||utter_web_scraper_available|## Web Scrapers
+- [Data Miner](https://dataminer.io/)
+- [Google News Scraper](https://wiki.digitalmethods.net/Dmi/ToolGoogleNewsScraper)
+- [WIScker](http://cloud.tapor.ca/wiscker/)Tool to scrape previous versions of Wikipedia articles. WIScker is free to use. The resulting corpus from any query can be analyzed through[Voyant](https://voyant-tools.org/)or on your own.
+
+2025-03-10 23:04:50.860002|user_32072|U11|nlu_fallback|how do i use dmp|
+2025-03-10 23:04:50.860235|user_32072|U12|contact_help_research_data|dmp help|
+2025-03-10 23:04:50.860324|user_32072|B5|||||utter_contact_help_research_data|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-10 23:04:50.860408|user_32072|U13|nlu_fallback|ai help|
+2025-03-10 23:04:50.860702|user_32072|U14|choose_number|1|
+number|1|2025-03-10 23:04:50.860867|user_32072|U15|nlu_fallback|ai help|
+2025-03-10 23:04:50.861085|user_32072|U16|choose_number|1|
+number|1|2025-03-10 23:04:50.861232|user_32072|U17|nlu_fallback|ai help|
+2025-03-10 23:04:54.493776|user_32072|U0|greet|/greet|
+2025-03-10 23:04:54.493876|user_32072|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:04:54.493941|user_32072|U1|nlu_fallback|do u have ai consultations|
+2025-03-10 23:04:54.494135|user_32072|U2|choose_number|1|
+number|1|2025-03-10 23:04:54.494262|user_32072|U3|nlu_fallback|quantitaive analysis|
+2025-03-10 23:04:54.494444|user_32072|U4|nlu_fallback|tools for analysing text|
+2025-03-10 23:04:54.494620|user_32072|U5|data_cleaning_tool_available|tools for cleaning data|
+2025-03-10 23:04:54.494717|user_32072|B1|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:04:54.494782|user_32072|U6|data_cleaning_tool_available|tools for cleaning text|
+2025-03-10 23:04:54.494860|user_32072|B2|||||utter_data_cleaning_tool_available|## Data Cleaning Tools
+- [Open Refine](https://openrefine.org/download)
+- [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+- [Regular Expressions (Regex)](https://regex101.com/)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+
+2025-03-10 23:04:54.494947|user_32072|U7|store_create_machine_readable|machine readable text|
+2025-03-10 23:04:54.495024|user_32072|B3|||||utter_store_create_machine_readable|## Storing and Creating Machine Readable Text
+Your data , text, or content must be machine readable and together in one place for the algorthims in any platform to work.  In other words, images like PNG or JPG will not work, so they must be OCRed or converted into text. PDFs may work if the text is searchable within the document.  Here are a few tools for converting your data into the proper text format.  TXT , TSV, or CSV are the best formats for working with data.
+If your computer can no longer handle the size of the data set, contact DoIT [Research Computing ](https://sc.edu/about/offices_and_divisions/division_of_information_technology/rc/index.php)about their high performance computing (HPC) options.
+
+- [DataFile Converter](https://www.withdata.com/data-file-converter/)
+- [How to convert PDFs to Text files](https://www.pdf2go.com/)
+- [Tesseract OCR software](https://tesseract-ocr.github.io/tessdoc/)
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-10 23:04:54.495097|user_32072|U8|nlu_fallback|sentiment analysis|
+2025-03-10 23:04:54.495258|user_32072|U9|choose_number|0|
+number|0|2025-03-10 23:04:54.495357|user_32072|U10|web_scraper_available|web scraping|
+2025-03-10 23:04:54.495423|user_32072|B4|||||utter_web_scraper_available|## Web Scrapers
+- [Data Miner](https://dataminer.io/)
+- [Google News Scraper](https://wiki.digitalmethods.net/Dmi/ToolGoogleNewsScraper)
+- [WIScker](http://cloud.tapor.ca/wiscker/)Tool to scrape previous versions of Wikipedia articles. WIScker is free to use. The resulting corpus from any query can be analyzed through[Voyant](https://voyant-tools.org/)or on your own.
+
+2025-03-10 23:04:54.495503|user_32072|U11|nlu_fallback|how do i use dmp|
+2025-03-10 23:04:54.495685|user_32072|U12|contact_help_research_data|dmp help|
+2025-03-10 23:04:54.495751|user_32072|B5|||||utter_contact_help_research_data|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-10 23:04:54.495817|user_32072|U13|nlu_fallback|ai help|
+2025-03-10 23:04:54.495973|user_32072|U14|choose_number|1|
+number|1|2025-03-10 23:04:54.496072|user_32072|U15|nlu_fallback|ai help|
+2025-03-10 23:04:54.496228|user_32072|U16|choose_number|1|
+number|1|2025-03-10 23:04:54.496354|user_32072|U17|nlu_fallback|ai help|
+2025-03-10 23:04:54.496538|user_32072|U18|choose_number|1|
+number|1|2025-03-10 23:07:44.226289|user_51982|U0|greet|/greet|
+2025-03-10 23:07:44.226538|user_51982|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:07:44.226647|user_51982|U1|nlu_fallback|ai help|
+2025-03-10 23:07:47.189166|user_51982|U0|greet|/greet|
+2025-03-10 23:07:47.189275|user_51982|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:07:47.189349|user_51982|U1|nlu_fallback|ai help|
+2025-03-10 23:07:47.189703|user_51982|U2|choose_number|1|
+number|1|2025-03-10 23:10:45.458311|user_51982|U0|greet|/greet|
+2025-03-10 23:10:45.458402|user_51982|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:10:45.458444|user_51982|U1|nlu_fallback|ai help|
+2025-03-10 23:10:45.458642|user_51982|U2|choose_number|1|
+number|1|2025-03-10 23:10:45.458800|user_51982|U3|greet|hello|
+2025-03-10 23:10:45.458870|user_51982|U4|nlu_fallback|ai help|
+2025-03-10 23:10:59.585908|user_51982|U0|greet|/greet|
+2025-03-10 23:10:59.585970|user_51982|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:10:59.585986|user_51982|U1|nlu_fallback|ai help|
+2025-03-10 23:10:59.586224|user_51982|U2|choose_number|1|
+number|1|2025-03-10 23:10:59.586271|user_51982|U3|greet|hello|
+2025-03-10 23:10:59.586363|user_51982|U4|nlu_fallback|ai help|
+2025-03-10 23:10:59.586483|user_51982|U5|choose_number|0|
+number|0|2025-03-10 23:11:28.186611|user_51982|U0|greet|/greet|
+2025-03-10 23:11:28.186679|user_51982|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:11:28.186695|user_51982|U1|nlu_fallback|ai help|
+2025-03-10 23:11:28.186912|user_51982|U2|choose_number|1|
+number|1|2025-03-10 23:11:28.186995|user_51982|U3|greet|hello|
+2025-03-10 23:11:28.187057|user_51982|U4|nlu_fallback|ai help|
+2025-03-10 23:11:28.187260|user_51982|U5|choose_number|0|
+number|0|2025-03-10 23:11:28.187379|user_51982|U6|nlu_fallback|ai help|
+2025-03-10 23:11:33.105570|user_51982|U0|greet|/greet|
+2025-03-10 23:11:33.105695|user_51982|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:11:33.105778|user_51982|U1|nlu_fallback|ai help|
+2025-03-10 23:11:33.106082|user_51982|U2|choose_number|1|
+number|1|2025-03-10 23:11:33.106247|user_51982|U3|greet|hello|
+2025-03-10 23:11:33.106342|user_51982|U4|nlu_fallback|ai help|
+2025-03-10 23:11:33.106580|user_51982|U5|choose_number|0|
+number|0|2025-03-10 23:11:33.106745|user_51982|U6|nlu_fallback|ai help|
+2025-03-10 23:11:33.107012|user_51982|U7|choose_number|1|
+number|1|2025-03-10 23:11:55.740635|user_51982|U0|greet|/greet|
+2025-03-10 23:11:55.740775|user_51982|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:11:55.740836|user_51982|U1|nlu_fallback|ai help|
+2025-03-10 23:11:55.741043|user_51982|U2|choose_number|1|
+number|1|2025-03-10 23:11:55.741163|user_51982|U3|greet|hello|
+2025-03-10 23:11:55.741273|user_51982|U4|nlu_fallback|ai help|
+2025-03-10 23:11:55.741504|user_51982|U5|choose_number|0|
+number|0|2025-03-10 23:11:55.741679|user_51982|U6|nlu_fallback|ai help|
+2025-03-10 23:11:55.741891|user_51982|U7|choose_number|1|
+number|1|2025-03-10 23:11:55.742017|user_51982|U8|nlu_fallback|ai help|
+2025-03-10 23:11:58.951888|user_51982|U0|greet|/greet|
+2025-03-10 23:11:58.951995|user_51982|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:11:58.952054|user_51982|U1|nlu_fallback|ai help|
+2025-03-10 23:11:58.952241|user_51982|U2|choose_number|1|
+number|1|2025-03-10 23:11:58.952371|user_51982|U3|greet|hello|
+2025-03-10 23:11:58.952462|user_51982|U4|nlu_fallback|ai help|
+2025-03-10 23:11:58.952707|user_51982|U5|choose_number|0|
+number|0|2025-03-10 23:11:58.952856|user_51982|U6|nlu_fallback|ai help|
+2025-03-10 23:11:58.953062|user_51982|U7|choose_number|1|
+number|1|2025-03-10 23:11:58.953151|user_51982|U8|nlu_fallback|ai help|
+2025-03-10 23:11:58.953377|user_51982|U9|choose_number|2|
+number|2|2025-03-10 23:12:16.778904|user_51982|U0|greet|/greet|
+2025-03-10 23:12:16.778960|user_51982|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:12:16.778975|user_51982|U1|nlu_fallback|ai help|
+2025-03-10 23:12:16.779120|user_51982|U2|choose_number|1|
+number|1|2025-03-10 23:12:16.779244|user_51982|U3|greet|hello|
+2025-03-10 23:12:16.779340|user_51982|U4|nlu_fallback|ai help|
+2025-03-10 23:12:16.779502|user_51982|U5|choose_number|0|
+number|0|2025-03-10 23:12:16.779588|user_51982|U6|nlu_fallback|ai help|
+2025-03-10 23:12:16.779776|user_51982|U7|choose_number|1|
+number|1|2025-03-10 23:12:16.779903|user_51982|U8|nlu_fallback|ai help|
+2025-03-10 23:12:16.780103|user_51982|U9|choose_number|2|
+number|2|2025-03-10 23:12:16.780227|user_51982|U10|nlu_fallback|ai help|
+2025-03-10 23:12:19.800613|user_51982|U0|greet|/greet|
+2025-03-10 23:12:19.800680|user_51982|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:12:19.800696|user_51982|U1|nlu_fallback|ai help|
+2025-03-10 23:12:19.800860|user_51982|U2|choose_number|1|
+number|1|2025-03-10 23:12:19.800991|user_51982|U3|greet|hello|
+2025-03-10 23:12:19.801099|user_51982|U4|nlu_fallback|ai help|
+2025-03-10 23:12:19.801465|user_51982|U5|choose_number|0|
+number|0|2025-03-10 23:12:19.801594|user_51982|U6|nlu_fallback|ai help|
+2025-03-10 23:12:19.801808|user_51982|U7|choose_number|1|
+number|1|2025-03-10 23:12:19.801933|user_51982|U8|nlu_fallback|ai help|
+2025-03-10 23:12:19.802150|user_51982|U9|choose_number|2|
+number|2|2025-03-10 23:12:19.802213|user_51982|U10|nlu_fallback|ai help|
+2025-03-10 23:12:19.802429|user_51982|U11|choose_number|3|
+number|3|2025-03-10 23:14:27.807948|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:14:48.120707|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:14:48.121181|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:16:52.940150|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:16:52.940417|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:16:52.940585|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:16:58.161430|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:16:58.162405|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:16:58.162529|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:16:58.162777|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:17:02.857665|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:17:02.858295|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:17:02.858435|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:17:02.858681|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:17:02.858785|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:17:07.583721|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:17:07.583939|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:17:07.584037|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:17:07.584204|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:17:07.584326|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:17:07.584491|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:17:18.900444|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:17:18.900832|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:17:18.901024|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:17:18.901348|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:17:18.901612|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:17:18.901950|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:17:18.902076|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:17:20.589166|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:17:20.589477|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:17:20.589612|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:17:20.589868|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:17:20.590030|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:17:20.590355|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:17:20.590526|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:17:20.590785|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:17:35.691775|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:17:35.692170|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:17:35.692300|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:17:35.692594|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:17:35.692701|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:17:35.692872|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:17:35.693020|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:17:35.693349|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:17:35.693487|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:17:37.066887|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:17:37.067145|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:17:37.067315|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:17:37.067542|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:17:37.067655|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:17:37.067854|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:17:37.067978|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:17:37.068170|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:17:37.068389|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:17:37.068492|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:17:45.858307|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:17:45.858615|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:17:45.858755|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:17:45.858973|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:17:45.859072|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:17:45.859296|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:17:45.859413|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:17:45.859562|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:17:45.859652|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:17:45.859827|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:17:45.859946|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:17:46.931185|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:17:46.931482|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:17:46.931636|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:17:46.931864|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:17:46.932003|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:17:46.932233|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:17:46.932351|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:17:46.932592|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:17:46.932739|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:17:46.932945|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:17:46.933100|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:17:46.933271|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:17:59.127670|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:17:59.127928|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:17:59.128023|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:17:59.128232|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:17:59.128324|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:17:59.128516|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:17:59.128687|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:17:59.128829|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:17:59.128955|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:17:59.129204|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:17:59.129364|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:17:59.129609|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:17:59.129794|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:18:01.850014|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:18:01.850288|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:18:01.850461|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:18:01.850683|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:18:01.850826|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:18:01.851046|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:18:01.851204|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:18:01.851299|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:18:01.851422|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:18:01.851522|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:18:01.851631|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:18:01.851755|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:18:01.851864|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:18:01.852079|014d9086a4af44d4bcfdf288447cee93|U13|choose_number|3|
+number|3|2025-03-10 23:18:15.106298|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:18:15.106581|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:18:15.106702|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:18:15.106934|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:18:15.107064|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:18:15.107188|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:18:15.107347|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:18:15.107455|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:18:15.107580|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:18:15.107679|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:18:15.107774|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:18:15.107850|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:18:15.107973|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:18:15.108182|014d9086a4af44d4bcfdf288447cee93|U13|choose_number|3|
+number|3|2025-03-10 23:18:15.108295|014d9086a4af44d4bcfdf288447cee93|U14|nlu_fallback|ai help|
+2025-03-10 23:18:16.488567|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:18:16.488893|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:18:16.489025|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:18:16.489209|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:18:16.489394|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:18:16.489638|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:18:16.489773|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:18:16.489897|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:18:16.489971|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:18:16.490186|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:18:16.490315|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:18:16.490407|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:18:16.490520|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:18:16.490728|014d9086a4af44d4bcfdf288447cee93|U13|choose_number|3|
+number|3|2025-03-10 23:18:16.490872|014d9086a4af44d4bcfdf288447cee93|U14|nlu_fallback|ai help|
+2025-03-10 23:18:16.491066|014d9086a4af44d4bcfdf288447cee93|U15|choose_number|1|
+number|1|2025-03-10 23:23:34.719848|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:23:34.720001|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:23:34.720091|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:23:34.720303|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:23:34.720490|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:23:34.720799|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:23:34.720963|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:23:34.721202|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:23:34.721325|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:23:34.721536|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:23:34.721679|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:23:34.721797|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:23:34.721911|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:23:34.722071|014d9086a4af44d4bcfdf288447cee93|U13|choose_number|3|
+number|3|2025-03-10 23:23:34.722191|014d9086a4af44d4bcfdf288447cee93|U14|nlu_fallback|ai help|
+2025-03-10 23:23:34.722374|014d9086a4af44d4bcfdf288447cee93|U15|choose_number|1|
+number|1|2025-03-10 23:23:34.722520|014d9086a4af44d4bcfdf288447cee93|U16|nlu_fallback|ai help|
+2025-03-10 23:23:37.460817|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:23:37.461059|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:23:37.461222|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:23:37.461461|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:23:37.461596|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:23:37.461826|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:23:37.461964|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:23:37.462231|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:23:37.462392|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:23:37.462698|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:23:37.462862|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:23:37.462993|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:23:37.463167|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:23:37.463395|014d9086a4af44d4bcfdf288447cee93|U13|choose_number|3|
+number|3|2025-03-10 23:23:37.463567|014d9086a4af44d4bcfdf288447cee93|U14|nlu_fallback|ai help|
+2025-03-10 23:23:37.463836|014d9086a4af44d4bcfdf288447cee93|U15|choose_number|1|
+number|1|2025-03-10 23:23:37.466740|014d9086a4af44d4bcfdf288447cee93|U16|nlu_fallback|ai help|
+2025-03-10 23:23:37.466970|014d9086a4af44d4bcfdf288447cee93|U17|choose_number|1|
+number|1|2025-03-10 23:25:25.036505|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:25:25.036609|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:25:25.036705|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:25:25.036952|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:25:25.037059|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:25:25.037301|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:25:25.037434|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:25:25.037607|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:25:25.037756|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:25:25.037979|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:25:25.038100|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:25:25.038204|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:25:25.038307|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:25:25.038494|014d9086a4af44d4bcfdf288447cee93|U13|choose_number|3|
+number|3|2025-03-10 23:25:25.038549|014d9086a4af44d4bcfdf288447cee93|U14|nlu_fallback|ai help|
+2025-03-10 23:25:25.038675|014d9086a4af44d4bcfdf288447cee93|U15|choose_number|1|
+number|1|2025-03-10 23:25:25.038818|014d9086a4af44d4bcfdf288447cee93|U16|nlu_fallback|ai help|
+2025-03-10 23:25:25.039093|014d9086a4af44d4bcfdf288447cee93|U17|choose_number|1|
+number|1|2025-03-10 23:25:25.039230|014d9086a4af44d4bcfdf288447cee93|U18|nlu_fallback|ai helpp|
+2025-03-10 23:25:26.257440|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:25:26.257780|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:25:26.257923|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:25:26.258189|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:25:26.258308|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:25:26.258542|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:25:26.258729|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:25:26.259073|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:25:26.259187|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:25:26.259490|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:25:26.259666|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:25:26.259794|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:25:26.259961|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:25:26.260219|014d9086a4af44d4bcfdf288447cee93|U13|choose_number|3|
+number|3|2025-03-10 23:25:26.260378|014d9086a4af44d4bcfdf288447cee93|U14|nlu_fallback|ai help|
+2025-03-10 23:25:26.260803|014d9086a4af44d4bcfdf288447cee93|U15|choose_number|1|
+number|1|2025-03-10 23:25:26.260907|014d9086a4af44d4bcfdf288447cee93|U16|nlu_fallback|ai help|
+2025-03-10 23:25:26.261134|014d9086a4af44d4bcfdf288447cee93|U17|choose_number|1|
+number|1|2025-03-10 23:25:26.261321|014d9086a4af44d4bcfdf288447cee93|U18|nlu_fallback|ai helpp|
+2025-03-10 23:25:26.261423|014d9086a4af44d4bcfdf288447cee93|U19|choose_number|1|
+number|1|2025-03-10 23:25:36.054454|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:25:36.054734|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:25:36.054832|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:25:36.055086|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:25:36.055228|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:25:36.055492|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:25:36.055606|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:25:36.055788|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:25:36.055931|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:25:36.056127|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:25:36.056243|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:25:36.056331|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:25:36.056483|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:25:36.056663|014d9086a4af44d4bcfdf288447cee93|U13|choose_number|3|
+number|3|2025-03-10 23:25:36.056811|014d9086a4af44d4bcfdf288447cee93|U14|nlu_fallback|ai help|
+2025-03-10 23:25:36.057061|014d9086a4af44d4bcfdf288447cee93|U15|choose_number|1|
+number|1|2025-03-10 23:25:36.057170|014d9086a4af44d4bcfdf288447cee93|U16|nlu_fallback|ai help|
+2025-03-10 23:25:36.057481|014d9086a4af44d4bcfdf288447cee93|U17|choose_number|1|
+number|1|2025-03-10 23:25:36.057678|014d9086a4af44d4bcfdf288447cee93|U18|nlu_fallback|ai helpp|
+2025-03-10 23:25:36.057948|014d9086a4af44d4bcfdf288447cee93|U19|choose_number|1|
+number|1|2025-03-10 23:25:36.058192|014d9086a4af44d4bcfdf288447cee93|U20|nlu_fallback|help aii|
+2025-03-10 23:25:38.047462|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:25:38.047563|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:25:38.047768|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:25:38.047903|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:25:38.048034|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:25:38.048131|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:25:38.048313|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:25:38.048414|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:25:38.048613|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:25:38.048714|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:25:38.048854|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:25:38.048946|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:25:38.049086|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:25:38.049187|014d9086a4af44d4bcfdf288447cee93|U13|choose_number|3|
+number|3|2025-03-10 23:25:38.049300|014d9086a4af44d4bcfdf288447cee93|U14|nlu_fallback|ai help|
+2025-03-10 23:25:38.049398|014d9086a4af44d4bcfdf288447cee93|U15|choose_number|1|
+number|1|2025-03-10 23:25:38.049511|014d9086a4af44d4bcfdf288447cee93|U16|nlu_fallback|ai help|
+2025-03-10 23:25:38.049759|014d9086a4af44d4bcfdf288447cee93|U17|choose_number|1|
+number|1|2025-03-10 23:25:38.049900|014d9086a4af44d4bcfdf288447cee93|U18|nlu_fallback|ai helpp|
+2025-03-10 23:25:38.050077|014d9086a4af44d4bcfdf288447cee93|U19|choose_number|1|
+number|1|2025-03-10 23:25:38.050218|014d9086a4af44d4bcfdf288447cee93|U20|nlu_fallback|help aii|
+2025-03-10 23:25:38.050526|014d9086a4af44d4bcfdf288447cee93|U21|choose_number|1|
+number|1|2025-03-10 23:25:49.186278|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:25:49.186545|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:25:49.186698|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:25:49.186850|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:25:49.187019|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:25:49.187206|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:25:49.187333|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:25:49.187557|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:25:49.187651|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:25:49.187862|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:25:49.187955|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:25:49.188047|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:25:49.188260|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:25:49.188512|014d9086a4af44d4bcfdf288447cee93|U13|choose_number|3|
+number|3|2025-03-10 23:25:49.188659|014d9086a4af44d4bcfdf288447cee93|U14|nlu_fallback|ai help|
+2025-03-10 23:25:49.188873|014d9086a4af44d4bcfdf288447cee93|U15|choose_number|1|
+number|1|2025-03-10 23:25:49.189013|014d9086a4af44d4bcfdf288447cee93|U16|nlu_fallback|ai help|
+2025-03-10 23:25:49.189232|014d9086a4af44d4bcfdf288447cee93|U17|choose_number|1|
+number|1|2025-03-10 23:25:49.189382|014d9086a4af44d4bcfdf288447cee93|U18|nlu_fallback|ai helpp|
+2025-03-10 23:25:49.189601|014d9086a4af44d4bcfdf288447cee93|U19|choose_number|1|
+number|1|2025-03-10 23:25:49.189866|014d9086a4af44d4bcfdf288447cee93|U20|nlu_fallback|help aii|
+2025-03-10 23:25:49.190148|014d9086a4af44d4bcfdf288447cee93|U21|choose_number|1|
+number|1|2025-03-10 23:25:49.190283|014d9086a4af44d4bcfdf288447cee93|U22|nlu_fallback|helpp mee|
+2025-03-10 23:25:50.554529|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:25:50.554899|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:25:50.555018|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:25:50.555255|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:25:50.555392|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:25:50.555634|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:25:50.555732|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:25:50.555908|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:25:50.556034|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:25:50.556209|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:25:50.556348|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:25:50.556495|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:25:50.556643|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:25:50.556862|014d9086a4af44d4bcfdf288447cee93|U13|choose_number|3|
+number|3|2025-03-10 23:25:50.557010|014d9086a4af44d4bcfdf288447cee93|U14|nlu_fallback|ai help|
+2025-03-10 23:25:50.557247|014d9086a4af44d4bcfdf288447cee93|U15|choose_number|1|
+number|1|2025-03-10 23:25:50.557391|014d9086a4af44d4bcfdf288447cee93|U16|nlu_fallback|ai help|
+2025-03-10 23:25:50.557638|014d9086a4af44d4bcfdf288447cee93|U17|choose_number|1|
+number|1|2025-03-10 23:25:50.557736|014d9086a4af44d4bcfdf288447cee93|U18|nlu_fallback|ai helpp|
+2025-03-10 23:25:50.557923|014d9086a4af44d4bcfdf288447cee93|U19|choose_number|1|
+number|1|2025-03-10 23:25:50.558052|014d9086a4af44d4bcfdf288447cee93|U20|nlu_fallback|help aii|
+2025-03-10 23:25:50.558251|014d9086a4af44d4bcfdf288447cee93|U21|choose_number|1|
+number|1|2025-03-10 23:25:50.558423|014d9086a4af44d4bcfdf288447cee93|U22|nlu_fallback|helpp mee|
+2025-03-10 23:25:50.558705|014d9086a4af44d4bcfdf288447cee93|U23|choose_number|1|
+number|1|2025-03-10 23:26:11.023113|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:26:11.023412|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:26:11.023613|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:26:11.023853|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:26:11.023996|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:26:11.024272|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:26:11.024441|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:26:11.024752|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:26:11.024903|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:26:11.025193|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:26:11.025310|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:26:11.025448|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:26:11.025576|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:26:11.025819|014d9086a4af44d4bcfdf288447cee93|U13|choose_number|3|
+number|3|2025-03-10 23:26:11.025971|014d9086a4af44d4bcfdf288447cee93|U14|nlu_fallback|ai help|
+2025-03-10 23:26:11.026181|014d9086a4af44d4bcfdf288447cee93|U15|choose_number|1|
+number|1|2025-03-10 23:26:11.026284|014d9086a4af44d4bcfdf288447cee93|U16|nlu_fallback|ai help|
+2025-03-10 23:26:11.026423|014d9086a4af44d4bcfdf288447cee93|U17|choose_number|1|
+number|1|2025-03-10 23:26:11.026565|014d9086a4af44d4bcfdf288447cee93|U18|nlu_fallback|ai helpp|
+2025-03-10 23:26:11.026766|014d9086a4af44d4bcfdf288447cee93|U19|choose_number|1|
+number|1|2025-03-10 23:26:11.026933|014d9086a4af44d4bcfdf288447cee93|U20|nlu_fallback|help aii|
+2025-03-10 23:26:11.027197|014d9086a4af44d4bcfdf288447cee93|U21|choose_number|1|
+number|1|2025-03-10 23:26:11.027312|014d9086a4af44d4bcfdf288447cee93|U22|nlu_fallback|helpp mee|
+2025-03-10 23:26:11.027571|014d9086a4af44d4bcfdf288447cee93|U23|choose_number|1|
+number|1|2025-03-10 23:26:11.027742|014d9086a4af44d4bcfdf288447cee93|U24|nlu_fallback|ai ai|
+2025-03-10 23:26:12.431899|014d9086a4af44d4bcfdf288447cee93|U0|nlu_fallback|ai help|
+2025-03-10 23:26:12.432203|014d9086a4af44d4bcfdf288447cee93|U1|choose_number|1|
+number|1|2025-03-10 23:26:12.432334|014d9086a4af44d4bcfdf288447cee93|U2|nlu_fallback|ai help|
+2025-03-10 23:26:12.432711|014d9086a4af44d4bcfdf288447cee93|U3|choose_number|1|
+number|1|2025-03-10 23:26:12.432850|014d9086a4af44d4bcfdf288447cee93|U4|nlu_fallback|ai help|
+2025-03-10 23:26:12.432968|014d9086a4af44d4bcfdf288447cee93|U5|choose_number|2|
+number|2|2025-03-10 23:26:12.433113|014d9086a4af44d4bcfdf288447cee93|U6|nlu_fallback|testtesttesst|
+2025-03-10 23:26:12.433508|014d9086a4af44d4bcfdf288447cee93|U7|choose_number|1|
+number|1|2025-03-10 23:26:12.433687|014d9086a4af44d4bcfdf288447cee93|U8|nlu_fallback|testtesttest t|
+2025-03-10 23:26:12.434317|014d9086a4af44d4bcfdf288447cee93|U9|choose_number|1|
+number|1|2025-03-10 23:26:12.434459|014d9086a4af44d4bcfdf288447cee93|U10|choose_number|tesst 2|
+2025-03-10 23:26:12.434597|014d9086a4af44d4bcfdf288447cee93|U11|choose_number|2|
+number|2|2025-03-10 23:26:12.434746|014d9086a4af44d4bcfdf288447cee93|U12|nlu_fallback|ai help|
+2025-03-10 23:26:12.435080|014d9086a4af44d4bcfdf288447cee93|U13|choose_number|3|
+number|3|2025-03-10 23:26:12.435255|014d9086a4af44d4bcfdf288447cee93|U14|nlu_fallback|ai help|
+2025-03-10 23:26:12.435546|014d9086a4af44d4bcfdf288447cee93|U15|choose_number|1|
+number|1|2025-03-10 23:26:12.435726|014d9086a4af44d4bcfdf288447cee93|U16|nlu_fallback|ai help|
+2025-03-10 23:26:12.436018|014d9086a4af44d4bcfdf288447cee93|U17|choose_number|1|
+number|1|2025-03-10 23:26:12.436188|014d9086a4af44d4bcfdf288447cee93|U18|nlu_fallback|ai helpp|
+2025-03-10 23:26:12.436471|014d9086a4af44d4bcfdf288447cee93|U19|choose_number|1|
+number|1|2025-03-10 23:26:12.436618|014d9086a4af44d4bcfdf288447cee93|U20|nlu_fallback|help aii|
+2025-03-10 23:26:12.436841|014d9086a4af44d4bcfdf288447cee93|U21|choose_number|1|
+number|1|2025-03-10 23:26:12.437004|014d9086a4af44d4bcfdf288447cee93|U22|nlu_fallback|helpp mee|
+2025-03-10 23:26:12.437278|014d9086a4af44d4bcfdf288447cee93|U23|choose_number|1|
+number|1|2025-03-10 23:26:12.437415|014d9086a4af44d4bcfdf288447cee93|U24|nlu_fallback|ai ai|
+2025-03-10 23:26:12.437639|014d9086a4af44d4bcfdf288447cee93|U25|choose_number|1|
+number|1|2025-03-10 23:50:37.801087|user_21568|U0|greet|/greet|
+2025-03-10 23:50:37.801532|user_21568|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:50:37.801719|user_21568|U1|nlu_fallback|ai help|
+2025-03-10 23:50:42.467700|user_21568|U0|greet|/greet|
+2025-03-10 23:50:42.467825|user_21568|B0|||||utter_greet|Hey! How are you?
+2025-03-10 23:50:42.467918|user_21568|U1|nlu_fallback|ai help|
+2025-03-10 23:50:42.468227|user_21568|U2|choose_number|1|
+number|1|2025-03-11 00:01:08.050393|user_59168|U0|greet|/greet|
+2025-03-11 00:01:08.050571|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:01:08.050681|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:01:08.050742|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:01:08.050960|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:01:28.151955|user_59168|U0|greet|/greet|
+2025-03-11 00:01:28.152051|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:01:28.152122|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:01:28.152211|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:01:28.152290|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:01:28.152541|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:01:44.650161|user_59168|U0|greet|/greet|
+2025-03-11 00:01:44.650264|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:01:44.650281|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:01:44.650374|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:01:44.650442|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:01:44.650628|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:01:44.650721|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:01:54.445708|user_59168|U0|greet|/greet|
+2025-03-11 00:01:54.445787|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:01:54.445805|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:01:54.445901|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:01:54.445978|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:01:54.446194|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:01:54.446295|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:01:54.446455|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:02:01.992940|user_59168|U0|greet|/greet|
+2025-03-11 00:02:01.993002|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:02:01.993019|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:02:01.993036|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:02:01.993150|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:02:01.993397|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:02:01.993525|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:02:01.993720|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:02:01.993917|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:02:20.265522|user_59168|U0|greet|/greet|
+2025-03-11 00:02:20.265601|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:02:20.265690|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:02:20.265767|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:02:20.265854|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:02:20.266078|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:02:20.266208|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:02:20.266465|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:02:20.266718|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:02:20.266971|user_59168|U7|text_analysis|text analysis tools|
+2025-03-11 00:02:20.267074|user_59168|B2|||||utter_text_analysis|## What is It?
+ is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-11 00:02:20.267169|user_59168|U8|nlu_fallback|text tools|
+2025-03-11 00:04:19.635421|user_59168|U0|greet|/greet|
+2025-03-11 00:04:19.635514|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:04:19.635538|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:04:19.635603|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:04:19.635668|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:04:19.635846|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:04:19.635942|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:04:19.636053|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:04:19.636232|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:04:19.636375|user_59168|U7|text_analysis|text analysis tools|
+2025-03-11 00:04:19.636406|user_59168|B2|||||utter_text_analysis|## What is It?
+ is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-11 00:04:19.636463|user_59168|U8|nlu_fallback|text tools|
+2025-03-11 00:04:19.636599|user_59168|U9|make_appointment_ai_data|make appointment AI|
+2025-03-11 00:04:19.636659|user_59168|B3|||||utter_make_appointment_ai_data|# Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-11 00:04:19.636684|user_59168|U10|nlu_fallback|make appointment data visualization|
+2025-03-11 00:04:57.848310|user_59168|U0|greet|/greet|
+2025-03-11 00:04:57.848406|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:04:57.848431|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:04:57.848572|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:04:57.848639|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:04:57.848896|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:04:57.849000|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:04:57.849166|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:04:57.849383|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:04:57.849689|user_59168|U7|text_analysis|text analysis tools|
+2025-03-11 00:04:57.849852|user_59168|B2|||||utter_text_analysis|## What is It?
+ is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-11 00:04:57.850002|user_59168|U8|nlu_fallback|text tools|
+2025-03-11 00:04:57.850292|user_59168|U9|make_appointment_ai_data|make appointment AI|
+2025-03-11 00:04:57.850435|user_59168|B3|||||utter_make_appointment_ai_data|# Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-11 00:04:57.850503|user_59168|U10|nlu_fallback|make appointment data visualization|
+2025-03-11 00:04:57.850694|user_59168|U11|choose_number|0|
+number|0|2025-03-11 00:05:20.149244|user_59168|U0|greet|/greet|
+2025-03-11 00:05:20.149322|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:05:20.149408|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:05:20.149505|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:05:20.149604|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:05:20.149765|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:05:20.149902|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:05:20.150089|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:05:20.150270|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:05:20.150473|user_59168|U7|text_analysis|text analysis tools|
+2025-03-11 00:05:20.150551|user_59168|B2|||||utter_text_analysis|## What is It?
+ is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-11 00:05:20.150601|user_59168|U8|nlu_fallback|text tools|
+2025-03-11 00:05:20.150757|user_59168|U9|make_appointment_ai_data|make appointment AI|
+2025-03-11 00:05:20.150859|user_59168|B3|||||utter_make_appointment_ai_data|# Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-11 00:05:20.150939|user_59168|U10|nlu_fallback|make appointment data visualization|
+2025-03-11 00:05:20.151105|user_59168|U11|choose_number|0|
+number|0|2025-03-11 00:05:20.151248|user_59168|U12|greet|glenn|
+2025-03-11 00:05:20.151334|user_59168|U13|nlu_fallback|who is glenn|
+2025-03-11 00:06:16.472346|user_59168|U0|greet|/greet|
+2025-03-11 00:06:16.472429|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:06:16.472499|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:06:16.472594|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:06:16.472690|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:06:16.472849|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:06:16.472966|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:06:16.473172|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:06:16.473316|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:06:16.473516|user_59168|U7|text_analysis|text analysis tools|
+2025-03-11 00:06:16.473639|user_59168|B2|||||utter_text_analysis|## What is It?
+ is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-11 00:06:16.473733|user_59168|U8|nlu_fallback|text tools|
+2025-03-11 00:06:16.473849|user_59168|U9|make_appointment_ai_data|make appointment AI|
+2025-03-11 00:06:16.473934|user_59168|B3|||||utter_make_appointment_ai_data|# Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-11 00:06:16.474290|user_59168|U10|nlu_fallback|make appointment data visualization|
+2025-03-11 00:06:16.474439|user_59168|U11|choose_number|0|
+number|0|2025-03-11 00:06:16.474530|user_59168|U12|greet|glenn|
+2025-03-11 00:06:16.474613|user_59168|U13|nlu_fallback|who is glenn|
+2025-03-11 00:06:16.474751|user_59168|U14|nlu_fallback|make appointment digital research|
+2025-03-11 00:06:24.719573|user_59168|U0|greet|/greet|
+2025-03-11 00:06:24.719697|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:06:24.719774|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:06:24.719889|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:06:24.719976|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:06:24.720202|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:06:24.720316|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:06:24.720510|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:06:24.720714|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:06:24.720916|user_59168|U7|text_analysis|text analysis tools|
+2025-03-11 00:06:24.721015|user_59168|B2|||||utter_text_analysis|## What is It?
+ is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-11 00:06:24.721089|user_59168|U8|nlu_fallback|text tools|
+2025-03-11 00:06:24.721389|user_59168|U9|make_appointment_ai_data|make appointment AI|
+2025-03-11 00:06:24.721477|user_59168|B3|||||utter_make_appointment_ai_data|# Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-11 00:06:24.721562|user_59168|U10|nlu_fallback|make appointment data visualization|
+2025-03-11 00:06:24.721770|user_59168|U11|choose_number|0|
+number|0|2025-03-11 00:06:24.721859|user_59168|U12|greet|glenn|
+2025-03-11 00:06:24.721948|user_59168|U13|nlu_fallback|who is glenn|
+2025-03-11 00:06:24.722245|user_59168|U14|nlu_fallback|make appointment digital research|
+2025-03-11 00:06:24.722366|user_59168|U15|choose_number|0|
+number|0|2025-03-11 00:07:35.914832|user_59168|U0|greet|/greet|
+2025-03-11 00:07:35.914897|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:07:35.914914|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:07:35.914931|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:07:35.915030|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:07:35.915183|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:07:35.915267|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:07:35.915423|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:07:35.915655|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:07:35.915777|user_59168|U7|text_analysis|text analysis tools|
+2025-03-11 00:07:35.915868|user_59168|B2|||||utter_text_analysis|## What is It?
+ is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-11 00:07:35.915953|user_59168|U8|nlu_fallback|text tools|
+2025-03-11 00:07:35.916130|user_59168|U9|make_appointment_ai_data|make appointment AI|
+2025-03-11 00:07:35.916218|user_59168|B3|||||utter_make_appointment_ai_data|# Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-11 00:07:35.916328|user_59168|U10|nlu_fallback|make appointment data visualization|
+2025-03-11 00:07:35.916574|user_59168|U11|choose_number|0|
+number|0|2025-03-11 00:07:35.916700|user_59168|U12|greet|glenn|
+2025-03-11 00:07:35.916821|user_59168|U13|nlu_fallback|who is glenn|
+2025-03-11 00:07:35.917090|user_59168|U14|nlu_fallback|make appointment digital research|
+2025-03-11 00:07:35.917309|user_59168|U15|choose_number|0|
+number|0|2025-03-11 00:07:35.917424|user_59168|U16|help_digital_tool|contact digital tools|
+2025-03-11 00:07:35.917499|user_59168|B4|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:07:35.917566|user_59168|U17|help_digital_tool|contact digital rsrch|
+2025-03-11 00:07:35.917608|user_59168|B5|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:07:35.917722|user_59168|U18|What_is_DMPtool|dmptool|
+2025-03-11 00:07:35.917813|user_59168|B6|||||utter_What_is_DMPtool|Available at [dmptool.org](http://dmptool.org), DMPTool is a free tool to help researchers create data management plans that comply with funder requirements. It walks users through the components required by the funder they're applying to, and allows them to create a completed DMP, which can be exported as a Word document or PDF.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095609)
+
+2025-03-11 00:07:35.917950|user_59168|U19|contact_help_research_data|dmp help|
+2025-03-11 00:07:35.918032|user_59168|B7|||||utter_contact_help_research_data|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-11 00:07:35.918082|user_59168|U20|nlu_fallback|whtas dmp|
+2025-03-11 00:07:50.607977|user_59168|U0|greet|/greet|
+2025-03-11 00:07:50.608047|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:07:50.608066|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:07:50.608085|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:07:50.608204|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:07:50.608348|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:07:50.608461|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:07:50.608669|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:07:50.608842|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:07:50.608991|user_59168|U7|text_analysis|text analysis tools|
+2025-03-11 00:07:50.609086|user_59168|B2|||||utter_text_analysis|## What is It?
+ is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-11 00:07:50.609128|user_59168|U8|nlu_fallback|text tools|
+2025-03-11 00:07:50.609370|user_59168|U9|make_appointment_ai_data|make appointment AI|
+2025-03-11 00:07:50.609471|user_59168|B3|||||utter_make_appointment_ai_data|# Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-11 00:07:50.609546|user_59168|U10|nlu_fallback|make appointment data visualization|
+2025-03-11 00:07:50.609748|user_59168|U11|choose_number|0|
+number|0|2025-03-11 00:07:50.609887|user_59168|U12|greet|glenn|
+2025-03-11 00:07:50.610000|user_59168|U13|nlu_fallback|who is glenn|
+2025-03-11 00:07:50.610185|user_59168|U14|nlu_fallback|make appointment digital research|
+2025-03-11 00:07:50.610380|user_59168|U15|choose_number|0|
+number|0|2025-03-11 00:07:50.610504|user_59168|U16|help_digital_tool|contact digital tools|
+2025-03-11 00:07:50.610558|user_59168|B4|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:07:50.610641|user_59168|U17|help_digital_tool|contact digital rsrch|
+2025-03-11 00:07:50.610700|user_59168|B5|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:07:50.610815|user_59168|U18|What_is_DMPtool|dmptool|
+2025-03-11 00:07:50.610920|user_59168|B6|||||utter_What_is_DMPtool|Available at [dmptool.org](http://dmptool.org), DMPTool is a free tool to help researchers create data management plans that comply with funder requirements. It walks users through the components required by the funder they're applying to, and allows them to create a completed DMP, which can be exported as a Word document or PDF.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095609)
+
+2025-03-11 00:07:50.610996|user_59168|U19|contact_help_research_data|dmp help|
+2025-03-11 00:07:50.611102|user_59168|B7|||||utter_contact_help_research_data|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-11 00:07:50.611126|user_59168|U20|nlu_fallback|whtas dmp|
+2025-03-11 00:07:50.611321|user_59168|U21|choose_number|0|
+number|0|2025-03-11 00:09:31.089666|user_59168|U0|greet|/greet|
+2025-03-11 00:09:31.089747|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:09:31.089833|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:09:31.089930|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:09:31.090015|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:09:31.090193|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:09:31.090348|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:09:31.090575|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:09:31.090818|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:09:31.091055|user_59168|U7|text_analysis|text analysis tools|
+2025-03-11 00:09:31.091155|user_59168|B2|||||utter_text_analysis|## What is It?
+ is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-11 00:09:31.091245|user_59168|U8|nlu_fallback|text tools|
+2025-03-11 00:09:31.091479|user_59168|U9|make_appointment_ai_data|make appointment AI|
+2025-03-11 00:09:31.091496|user_59168|B3|||||utter_make_appointment_ai_data|# Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-11 00:09:31.091588|user_59168|U10|nlu_fallback|make appointment data visualization|
+2025-03-11 00:09:31.091818|user_59168|U11|choose_number|0|
+number|0|2025-03-11 00:09:31.091949|user_59168|U12|greet|glenn|
+2025-03-11 00:09:31.092009|user_59168|U13|nlu_fallback|who is glenn|
+2025-03-11 00:09:31.092220|user_59168|U14|nlu_fallback|make appointment digital research|
+2025-03-11 00:09:31.092496|user_59168|U15|choose_number|0|
+number|0|2025-03-11 00:09:31.092624|user_59168|U16|help_digital_tool|contact digital tools|
+2025-03-11 00:09:31.092736|user_59168|B4|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:09:31.092836|user_59168|U17|help_digital_tool|contact digital rsrch|
+2025-03-11 00:09:31.092933|user_59168|B5|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:09:31.092952|user_59168|U18|What_is_DMPtool|dmptool|
+2025-03-11 00:09:31.093045|user_59168|B6|||||utter_What_is_DMPtool|Available at [dmptool.org](http://dmptool.org), DMPTool is a free tool to help researchers create data management plans that comply with funder requirements. It walks users through the components required by the funder they're applying to, and allows them to create a completed DMP, which can be exported as a Word document or PDF.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095609)
+
+2025-03-11 00:09:31.093127|user_59168|U19|contact_help_research_data|dmp help|
+2025-03-11 00:09:31.093169|user_59168|B7|||||utter_contact_help_research_data|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-11 00:09:31.093278|user_59168|U20|nlu_fallback|whtas dmp|
+2025-03-11 00:09:31.093488|user_59168|U21|choose_number|0|
+number|0|2025-03-11 00:09:31.093585|user_59168|U22|nlu_fallback|help with rsrach partner|
+2025-03-11 00:09:41.595318|user_59168|U0|greet|/greet|
+2025-03-11 00:09:41.595545|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:09:41.595654|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:09:41.595691|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:09:41.595780|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:09:41.595974|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:09:41.596116|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:09:41.596259|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:09:41.596452|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:09:41.596719|user_59168|U7|text_analysis|text analysis tools|
+2025-03-11 00:09:41.596803|user_59168|B2|||||utter_text_analysis|## What is It?
+ is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-11 00:09:41.597033|user_59168|U8|nlu_fallback|text tools|
+2025-03-11 00:09:41.597299|user_59168|U9|make_appointment_ai_data|make appointment AI|
+2025-03-11 00:09:41.597351|user_59168|B3|||||utter_make_appointment_ai_data|# Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-11 00:09:41.597456|user_59168|U10|nlu_fallback|make appointment data visualization|
+2025-03-11 00:09:41.597549|user_59168|U11|choose_number|0|
+number|0|2025-03-11 00:09:41.597705|user_59168|U12|greet|glenn|
+2025-03-11 00:09:41.597812|user_59168|U13|nlu_fallback|who is glenn|
+2025-03-11 00:09:41.598068|user_59168|U14|nlu_fallback|make appointment digital research|
+2025-03-11 00:09:41.598286|user_59168|U15|choose_number|0|
+number|0|2025-03-11 00:09:41.598414|user_59168|U16|help_digital_tool|contact digital tools|
+2025-03-11 00:09:41.598509|user_59168|B4|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:09:41.598562|user_59168|U17|help_digital_tool|contact digital rsrch|
+2025-03-11 00:09:41.598617|user_59168|B5|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:09:41.598636|user_59168|U18|What_is_DMPtool|dmptool|
+2025-03-11 00:09:41.598654|user_59168|B6|||||utter_What_is_DMPtool|Available at [dmptool.org](http://dmptool.org), DMPTool is a free tool to help researchers create data management plans that comply with funder requirements. It walks users through the components required by the funder they're applying to, and allows them to create a completed DMP, which can be exported as a Word document or PDF.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095609)
+
+2025-03-11 00:09:41.598746|user_59168|U19|contact_help_research_data|dmp help|
+2025-03-11 00:09:41.598839|user_59168|B7|||||utter_contact_help_research_data|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-11 00:09:41.598924|user_59168|U20|nlu_fallback|whtas dmp|
+2025-03-11 00:09:41.599084|user_59168|U21|choose_number|0|
+number|0|2025-03-11 00:09:41.599195|user_59168|U22|nlu_fallback|help with rsrach partner|
+2025-03-11 00:09:41.599331|user_59168|U23|nlu_fallback|want rsrch partner|
+2025-03-11 00:09:53.109419|user_59168|U0|greet|/greet|
+2025-03-11 00:09:53.109503|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:09:53.109596|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:09:53.109669|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:09:53.109732|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:09:53.109936|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:09:53.110072|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:09:53.110235|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:09:53.110449|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:09:53.110638|user_59168|U7|text_analysis|text analysis tools|
+2025-03-11 00:09:53.110709|user_59168|B2|||||utter_text_analysis|## What is It?
+ is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-11 00:09:53.110899|user_59168|U8|nlu_fallback|text tools|
+2025-03-11 00:09:53.111184|user_59168|U9|make_appointment_ai_data|make appointment AI|
+2025-03-11 00:09:53.111270|user_59168|B3|||||utter_make_appointment_ai_data|# Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-11 00:09:53.111355|user_59168|U10|nlu_fallback|make appointment data visualization|
+2025-03-11 00:09:53.111531|user_59168|U11|choose_number|0|
+number|0|2025-03-11 00:09:53.111650|user_59168|U12|greet|glenn|
+2025-03-11 00:09:53.111740|user_59168|U13|nlu_fallback|who is glenn|
+2025-03-11 00:09:53.112041|user_59168|U14|nlu_fallback|make appointment digital research|
+2025-03-11 00:09:53.112479|user_59168|U15|choose_number|0|
+number|0|2025-03-11 00:09:53.112634|user_59168|U16|help_digital_tool|contact digital tools|
+2025-03-11 00:09:53.112705|user_59168|B4|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:09:53.112791|user_59168|U17|help_digital_tool|contact digital rsrch|
+2025-03-11 00:09:53.112857|user_59168|B5|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:09:53.112971|user_59168|U18|What_is_DMPtool|dmptool|
+2025-03-11 00:09:53.113064|user_59168|B6|||||utter_What_is_DMPtool|Available at [dmptool.org](http://dmptool.org), DMPTool is a free tool to help researchers create data management plans that comply with funder requirements. It walks users through the components required by the funder they're applying to, and allows them to create a completed DMP, which can be exported as a Word document or PDF.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095609)
+
+2025-03-11 00:09:53.113198|user_59168|U19|contact_help_research_data|dmp help|
+2025-03-11 00:09:53.113264|user_59168|B7|||||utter_contact_help_research_data|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-11 00:09:53.113349|user_59168|U20|nlu_fallback|whtas dmp|
+2025-03-11 00:09:53.113577|user_59168|U21|choose_number|0|
+number|0|2025-03-11 00:09:53.113690|user_59168|U22|nlu_fallback|help with rsrach partner|
+2025-03-11 00:09:53.113899|user_59168|U23|nlu_fallback|want rsrch partner|
+2025-03-11 00:09:53.114112|user_59168|U24|nlu_fallback|want reserach partner|
+2025-03-11 00:09:58.451657|user_59168|U0|greet|/greet|
+2025-03-11 00:09:58.451719|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:09:58.451736|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:09:58.451754|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:09:58.451872|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:09:58.452028|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:09:58.452220|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:09:58.452335|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:09:58.452525|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:09:58.452681|user_59168|U7|text_analysis|text analysis tools|
+2025-03-11 00:09:58.452784|user_59168|B2|||||utter_text_analysis|## What is It?
+ is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-11 00:09:58.452866|user_59168|U8|nlu_fallback|text tools|
+2025-03-11 00:09:58.453103|user_59168|U9|make_appointment_ai_data|make appointment AI|
+2025-03-11 00:09:58.453207|user_59168|B3|||||utter_make_appointment_ai_data|# Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-11 00:09:58.453276|user_59168|U10|nlu_fallback|make appointment data visualization|
+2025-03-11 00:09:58.453374|user_59168|U11|choose_number|0|
+number|0|2025-03-11 00:09:58.453532|user_59168|U12|greet|glenn|
+2025-03-11 00:09:58.453599|user_59168|U13|nlu_fallback|who is glenn|
+2025-03-11 00:09:58.453765|user_59168|U14|nlu_fallback|make appointment digital research|
+2025-03-11 00:09:58.453961|user_59168|U15|choose_number|0|
+number|0|2025-03-11 00:09:58.454086|user_59168|U16|help_digital_tool|contact digital tools|
+2025-03-11 00:09:58.454168|user_59168|B4|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:09:58.454251|user_59168|U17|help_digital_tool|contact digital rsrch|
+2025-03-11 00:09:58.454275|user_59168|B5|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:09:58.454404|user_59168|U18|What_is_DMPtool|dmptool|
+2025-03-11 00:09:58.454493|user_59168|B6|||||utter_What_is_DMPtool|Available at [dmptool.org](http://dmptool.org), DMPTool is a free tool to help researchers create data management plans that comply with funder requirements. It walks users through the components required by the funder they're applying to, and allows them to create a completed DMP, which can be exported as a Word document or PDF.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095609)
+
+2025-03-11 00:09:58.454511|user_59168|U19|contact_help_research_data|dmp help|
+2025-03-11 00:09:58.454528|user_59168|B7|||||utter_contact_help_research_data|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-11 00:09:58.454641|user_59168|U20|nlu_fallback|whtas dmp|
+2025-03-11 00:09:58.454819|user_59168|U21|choose_number|0|
+number|0|2025-03-11 00:09:58.454933|user_59168|U22|nlu_fallback|help with rsrach partner|
+2025-03-11 00:09:58.455077|user_59168|U23|nlu_fallback|want rsrch partner|
+2025-03-11 00:09:58.455284|user_59168|U24|nlu_fallback|want reserach partner|
+2025-03-11 00:09:58.455443|user_59168|U25|choose_number|0|
+number|0|2025-03-11 00:10:11.737800|user_59168|U0|greet|/greet|
+2025-03-11 00:10:11.737879|user_59168|B0|||||utter_greet|Hey! How are you?
+2025-03-11 00:10:11.737971|user_59168|U1|osf_use_it|how to use osf|
+2025-03-11 00:10:11.738045|user_59168|B1|||||utter_osf_use_it|[OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+To learn more about this resource, visit the [](http://guides.library.sc.edu/osf).
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+
+2025-03-11 00:10:11.738108|user_59168|U2|nlu_fallback|who is stacy|
+2025-03-11 00:10:11.738296|user_59168|U3|choose_number|3|
+number|3|2025-03-11 00:10:11.738444|user_59168|U4|nlu_fallback|vandana|
+2025-03-11 00:10:11.738568|user_59168|U5|nlu_fallback|whos vandana|
+2025-03-11 00:10:11.738838|user_59168|U6|nlu_fallback|text tools|
+2025-03-11 00:10:11.738994|user_59168|U7|text_analysis|text analysis tools|
+2025-03-11 00:10:11.739062|user_59168|B2|||||utter_text_analysis|## What is It?
+ is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+
+[Learn more here](https://guides.library.sc.edu/text-analysis)
+
+2025-03-11 00:10:11.739126|user_59168|U8|nlu_fallback|text tools|
+2025-03-11 00:10:11.739317|user_59168|U9|make_appointment_ai_data|make appointment AI|
+2025-03-11 00:10:11.739339|user_59168|B3|||||utter_make_appointment_ai_data|# Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-11 00:10:11.739459|user_59168|U10|nlu_fallback|make appointment data visualization|
+2025-03-11 00:10:11.739616|user_59168|U11|choose_number|0|
+number|0|2025-03-11 00:10:11.739714|user_59168|U12|greet|glenn|
+2025-03-11 00:10:11.739811|user_59168|U13|nlu_fallback|who is glenn|
+2025-03-11 00:10:11.740028|user_59168|U14|nlu_fallback|make appointment digital research|
+2025-03-11 00:10:11.740260|user_59168|U15|choose_number|0|
+number|0|2025-03-11 00:10:11.740392|user_59168|U16|help_digital_tool|contact digital tools|
+2025-03-11 00:10:11.740498|user_59168|B4|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:10:11.740615|user_59168|U17|help_digital_tool|contact digital rsrch|
+2025-03-11 00:10:11.740689|user_59168|B5|||||utter_help_digital_tool|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
+Director of Digital Research Services
+803-777-2249
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
+Assistant Head, Acquisitions & Scholarly Communication
+803-777-8280
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-11 00:10:11.740714|user_59168|U18|What_is_DMPtool|dmptool|
+2025-03-11 00:10:11.740792|user_59168|B6|||||utter_What_is_DMPtool|Available at [dmptool.org](http://dmptool.org), DMPTool is a free tool to help researchers create data management plans that comply with funder requirements. It walks users through the components required by the funder they're applying to, and allows them to create a completed DMP, which can be exported as a Word document or PDF.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095609)
+
+2025-03-11 00:10:11.740907|user_59168|U19|contact_help_research_data|dmp help|
+2025-03-11 00:10:11.741019|user_59168|B7|||||utter_contact_help_research_data|
+# Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
+Research Data Librarian
+803-777-1968
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-11 00:10:11.741089|user_59168|U20|nlu_fallback|whtas dmp|
+2025-03-11 00:10:11.741220|user_59168|U21|choose_number|0|
+number|0|2025-03-11 00:10:11.741337|user_59168|U22|nlu_fallback|help with rsrach partner|
+2025-03-11 00:10:11.741549|user_59168|U23|nlu_fallback|want rsrch partner|
+2025-03-11 00:10:11.741695|user_59168|U24|nlu_fallback|want reserach partner|
+2025-03-11 00:10:11.741846|user_59168|U25|choose_number|0|
+number|0|2025-03-11 00:10:11.741926|user_59168|U26|nlu_fallback|how to gettext mining help|

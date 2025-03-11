@@ -14,7 +14,7 @@ import yaml
 import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
-from backend.firebase_utils import add_questions_to_intent, add_unassigned_question
+from backend.firebase_utils import add_question_to_intent, add_unassigned_question
 
 class ActionSaveConversation(Action):
 
@@ -113,9 +113,9 @@ class ActionProcessChoice(Action):
 
         number = int(next(tracker.get_latest_entity_values("number"), None))        
         if(number in [1,2,3]):
-            bot_responses = [event for event in tracker.events if event.get("event") == "bot"]
+            #bot_responses = [event for event in tracker.events if event.get("event") == "bot"]
             #picked_answer = bot_responses[number-5].get("text")
-            add_questions_to_intent(intents[number-1], question)
+            add_question_to_intent(intents[number-1], question)
             #dispatcher.utter_message(f"You picked answer: {picked_answer} \nAnd intent: {intents[number-1]}")
         else:
             #dispatcher.utter_message(f"Question: {question} unassigned")
@@ -147,14 +147,8 @@ class ActionProcessFallback(Action):
                 elif response_key == "utter_"+name2:
                     second_text = response_list[0]["text"]
                 elif response_key == "utter_"+name3:
-                    third_text = response_list[0]["text"] 
-        dispatcher.utter_message(first_text)
-        dispatcher.utter_message(second_text)
-        dispatcher.utter_message(third_text)
-        dispatcher.utter_message("\n\nEnter 1,2, or 3 for the response that answers your question.\nEnter 0 if none of these responses answer your question.")
-        #dispatcher.utter_message(f"Sorry I am a bit unsure with my response. Is this what you were looking for?:\n-----------------------------------\n{first_text}\n-----------------------------------\n\nI also found this information that may be relevant:\n-----------------------------------\n{second_text}\
-        #    \n-----------------------------------\n\nHeres one more, that may be less relevant:\n-----------------------------------\n{third_text} \
-        #\n---------------------------------------------------------\nWere any of these responses helpful? If so, please tell me your preferred response so I can improve. If none of these responses answer your question, please say so.")
+                    third_text = response_list[0]["text"]
+        dispatcher.utter_message(f"Sorry, I am a bit unsure with my response. Is this what you were looking for? [1]\n\n---\n{first_text}\n\n---\n\nI also found this information that may be relevant [2]\n\n---\n{second_text}\n\n---\n\nHere's one more, that may be less relevant [3]\n\n---\n{third_text}\n\n---\n\nDid any of these responses answer your question? If so, please enter 1, 2, or 3 for the response that answered your question.\nEnter 0 if none of these responses answer your question.")
 
 class ActionLibraryOpen(Action):
     def name(self) -> Text:

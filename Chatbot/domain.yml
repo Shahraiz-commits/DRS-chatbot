@@ -508,15 +508,15 @@ responses:
 
       # Contact Us
       Contact us with questions or to schedule an appointment to discuss your needs.
-      [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)
-      Director of Digital Research Services
-      803-777-2249
-      [boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)
+      [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
+      Director of Digital Research Services  
+      803-777-2249  
+      [boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)  
 
-      [Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)
-      Assistant Head, Acquisitions & Scholarly Communication
-      803-777-8280
-      [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+      [Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+      Assistant Head, Acquisitions & Scholarly Communication  
+      803-777-8280  
+      [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)  
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
   utter_data_analysis_help:
@@ -2717,9 +2717,9 @@ responses:
       # Contact Us
       Contact us with questions or to schedule an appointment to discuss your needs.
 
-      [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)
-      Research Data Librarian
-      803-777-1968
+      [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
+      Research Data Librarian  
+      803-777-1968  
       [winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
@@ -2965,7 +2965,7 @@ responses:
   utter_suggest_workshop:
   - text: |
       # Contact Us
-      Do you have a group interested in scheduling a workshop session? Or have an idea for additional workshop offerings?
+      Do you have a group interested in scheduling a workshop session? Or have an idea for additional workshop offerings?  
       Email us at [tclrefbi@mailbox.sc.edu](mailto:tclrefbi@mailbox.sc.edu).
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=5107061)
@@ -3028,10 +3028,10 @@ responses:
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
   utter_help_ai:
   - text: |
-      # Contact
-      [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)
-      AI/Data Science Specialist 
-      803-777-5699
+      ### Contact
+      [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+      AI/Data Science Specialist  
+      803-777-5699  
       [vandana@sc.edu](mailto:vandana@sc.edu)
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
@@ -3124,7 +3124,7 @@ responses:
   utter_text_analysis:
   - text: |
       ## What is It?
-       is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
+      Text analysis is a subset of data mining, using computational methodes to study natural languages as unstructured data sets. It can allow you to explore connections between words and topics.   It can be large blocks of text, not in a table or database.  This research method is increasing in use, but should not be done alone.  It can be called Distant Reading, but you should also do a close reading on a portion of the texts so that you are well informed on the content you are researching.
 
       [Learn more here](https://guides.library.sc.edu/text-analysis)
   utter_terminology_used_text_analysis:
@@ -3146,28 +3146,28 @@ responses:
       [Learn more here](https://guides.library.sc.edu/text-analysis)
   utter_get_started_text_analysis:
   - text: |
-      ## Getting Started
-      - What is your?
+      ## Getting Started with text analysis
+      - What is your research question?
 
-      - Pull together aof support: librarians, computer programmers, statisticians are on campus and here to help.
+      - Pull together a team of support: librarians, computer programmers, statisticians are on campus and here to help.
 
-      - These projects taketo pull together and perform.  Make sure you have this, especially for preparing the data.
+      - These projects take time to pull together and perform.  Make sure you have this, especially for preparing the data.
 
-      - Pull together a. This could be through:Scanning and OCRing contentScraping the webRequesting licensed data from a company or vendor.
+      - Pull together a machine-readable data set. This could be through:Scanning and OCRing contentScraping the webRequesting licensed data from a company or vendor.
 
       [Learn more here](https://guides.library.sc.edu/text-analysis)
   utter_common_text_analysis_method:
   - text: |
       ## Common Text Analysis Methods
-      - : Most themes and words used throughout the text
+      - Word Frequency: Most themes and words used throughout the text
 
-      - Finding the most significant terms across documents
+      - Significant Terms or TFIDF (Term Frequency and Inverse Document Frequency): Finding the most significant terms across documents
 
-      - Finding connections or pairings of words
+      - Collocation or Concordances: Finding connections or pairings of words
 
-      - : Searhing for similar topics in many books, a long running diary, a whole run of a journal or periodical
+      - Topic Modeling: Searhing for similar topics in many books, a long running diary, a whole run of a journal or periodical
 
-      - : Mapping emotions in a body of texts
+      - Sentiment Analysis: Mapping emotions in a body of texts
 
       [Learn more here](https://guides.library.sc.edu/text-analysis)
   utter_store_create_machine_readable:
@@ -5074,7 +5074,9 @@ responses:
   utter_osf_free:
   - text: |
       ## How Can OSF Be Free?
-      [Center for Open Science](http://cos.io/)[federal agencies, private foundations, and commercial entities](https://cos.io/about_sponsors/)[their finances](https://cos.io/about/our-finances/)
+      [Center for Open Science](http://cos.io/)
+      [federal agencies, private foundations, and commercial entities](https://cos.io/about_sponsors/)
+      [their finances](https://cos.io/about/our-finances/)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738117)
   utter_criterion_use_evaluate_oer:

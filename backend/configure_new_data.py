@@ -33,20 +33,25 @@ def main():
     for doc in doc_ref.get():
         data = doc.to_dict()
         questions = data.get("questions", [])
-        #configure_nlu(doc.id, questions)
+        if(isinstance(questions, str)):
+            questions = [questions]
+        configure_nlu(doc.id, questions)
         print(f"Added questions for intent: {doc.id}\n Questions: {questions}\n--------------------------------")
-    
+        doc.reference.delete()
+
     # Configure these questions manually
     doc_ref = db.collection("unassignedQuestions")
     unassignedQs = []
     for doc in doc_ref.get():
         data = doc.to_dict()
         unassignedQs.append(data.get("question", ""))
+        doc.reference.delete()
 
     with open("unassigned_questions.csv", "a", encoding="utf-8") as file:
         writer = csv.writer(file)
         for q in unassignedQs:
             file.write(q)
             file.write("\n")
+    print(f"Added unassigned questions:\n{unassignedQs}")
 if __name__ == "__main__":
     main()
