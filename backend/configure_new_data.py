@@ -66,7 +66,7 @@ def main():
         doc.reference.delete()
 
     with open("unassigned_questions.csv", "a", encoding="utf-8") as file:
-        writer = csv.writer(file)
+        #writer = csv.writer(file)
         for q in unassignedQs:
             file.write(q)
             file.write("\n")

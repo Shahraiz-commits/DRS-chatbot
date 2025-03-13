@@ -483,22 +483,22 @@ intents:
 - workshop_available_ai_data
 - workshop_training_available_research
 responses:
-  utter_greet:
-  - text: Hey! How are you?
-  utter_cheer_up:
-  - text: 'Here is something to cheer you up:'
-    image: https://i.imgur.com/nGF1K8f.jpg
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
-  utter_goodbye:
-  - text: Bye
-  utter_iamabot:
-  - text: I am a bot, powered by Rasa.
-  utter_Do not answer:
-  - text: |
-      Sorry, I am designed not to answer such a question.
+#  utter_greet:
+#  - text: Hi! How can I help you?
+#  utter_cheer_up:
+#  - text: 'Here is something to cheer you up:'
+#    image: https://images.ctfassets.net/ub3bwfd53mwy/5WFv6lEUb1e6kWeP06CLXr/acd328417f24786af98b1750d90813de/4_Image.jpg?w=750
+#  utter_did_that_help:
+#  - text: Did that help you?
+#  utter_happy:
+#  - text: Great, carry on!
+#  utter_goodbye:
+#  - text: Bye
+#  utter_iamabot:
+#  - text: I am a bot, powered by Rasa.
+#  utter_Do not answer:
+#  - text: |
+#      Sorry, I am designed not to answer such a question.
   utter_ai_service_library_offer:
   - text: |
       The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
@@ -719,14 +719,14 @@ responses:
   utter_library_columbia_campus:
   - text: |
       The University Libraries includes:
-      [Thomas Cooper Library](http://sc.edu/libraries) (main library)
-      [Ernest F. Hollings Special Collections Library](http://sc.edu/about/offices_and_divisions/university_libraries/about/locations/hollings/index.php)
-      [Irvin Department of Rare and Special Collections](http://sc.edu/libraries/rare)
-      [South Carolina Political Collections](http://sc.edu/libraries/scpc)
-      [Digital Collections](http://sc.edu/libraries/digi)
-      [Moving Image Research Collections](http://sc.edu/libraries/mirc)
-      [Music Library](http://sc.edu/libraries/music)
-      [South Caroliniana Library](http://sc.edu/libraries/scl)
+      - [Thomas Cooper Library](http://sc.edu/libraries) (main library)
+      - [Ernest F. Hollings Special Collections Library](http://sc.edu/about/offices_and_divisions/university_libraries/about/locations/hollings/index.php)
+      - [Irvin Department of Rare and Special Collections](http://sc.edu/libraries/rare)
+      - [South Carolina Political Collections](http://sc.edu/libraries/scpc)
+      - [Digital Collections](http://sc.edu/libraries/digi)
+      - [Moving Image Research Collections](http://sc.edu/libraries/mirc)
+      - [Music Library](http://sc.edu/libraries/music)
+      - [South Caroliniana Library](http://sc.edu/libraries/scl)
       There are also libraries for the [Law School](http://www.law.sc.edu/library) and [School of Medicine](http://uscmed.sc.libguides.com/).
 
       [Learn more here](https://libanswers.library.sc.edu//faq/23771)
@@ -946,11 +946,11 @@ responses:
       This issue has affected a small number of off-campus users, and in at least some cases the site has been blocked by the spam filter of their personal internet service.
       If you cannot determine the setting that is causing the problem, another solution is to download and install the free Virtual Private Network (VPN) to access library resources from home. If you use the VPN and it does not solve the problem for you, please use the form link below to report your access issue.
 
-      [What is the VPN?](https://scprod.service-now.com/kb_view.do?sysparm_article=KB0010878)
-      [Install and Connect to the VPN - Windows](https://scprod.service-now.com/kb_view.do?sysparm_article=KB0011418)
-      [Install and Connect to the VPN - Mac (macOS)](https://scprod.service-now.com/kb_view.do?sysparm_article=KB0011419)
-      [VPN Installation and Connection Instructions - Linux](https://scprod.service-now.com/kb_view.do?sysparm_article=KB0011156)
-      [Report access issue](https://sc.libwizard.com/f/library-access)
+      - [What is the VPN?](https://scprod.service-now.com/kb_view.do?sysparm_article=KB0010878)
+      - [Install and Connect to the VPN - Windows](https://scprod.service-now.com/kb_view.do?sysparm_article=KB0011418)
+      - [Install and Connect to the VPN - Mac (macOS)](https://scprod.service-now.com/kb_view.do?sysparm_article=KB0011419)
+      - [VPN Installation and Connection Instructions - Linux](https://scprod.service-now.com/kb_view.do?sysparm_article=KB0011156)
+      - [Report access issue](https://sc.libwizard.com/f/library-access)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/375227)
   utter_photocopy_scan_library:
@@ -962,17 +962,17 @@ responses:
   utter_request_copy_manuscript:
   - text: |
       For manuscripts and other materials held in the libraries' Special Collections departments, contact the department directly to request copies and reproductions.
-      [Irvin Department of Rare Books and Special Collections](https://sc.edu/libraries/rare)
-      [Moving Image Research Collections](https://sc.edu/libraries/mirc)
-      [South Carolina Political Collections](https://sc.edu/libraries/scpc)
-      [South Caroliniana Library](https://sc.edu/libraries/scl)
+      [Irvin Department of Rare Books and Special Collections](https://sc.edu/libraries/rare)  
+      [Moving Image Research Collections](https://sc.edu/libraries/mirc)  
+      [South Carolina Political Collections](https://sc.edu/libraries/scpc)  
+      [South Caroliniana Library](https://sc.edu/libraries/scl)  
 
       [Learn more here](https://libanswers.library.sc.edu//faq/246201)
   utter_ask_help_searching_source:
   - text: |
       You can ask for help with searching library resources in a variety of ways, including online chat, email, and virtual research appointments through Book a Librarian. Find detailed contact information on our website.
-      [Get Research Help](https://sc.edu/about/offices_and_divisions/university_libraries/get_research_help/index.php)
-      [Book a Librarian](http://guides.library.sc.edu/bookalibrarian)
+      [Get Research Help](https://sc.edu/about/offices_and_divisions/university_libraries/get_research_help/index.php)  
+      [Book a Librarian](http://guides.library.sc.edu/bookalibrarian)  
 
       [Learn more here](https://libanswers.library.sc.edu//faq/261799)
   utter_cant_access_database_workplace:
@@ -989,10 +989,10 @@ responses:
   - text: |
       The Thomas Cooper Library is open to the general public. Visitors must stop at the visitor desk upon entering the libraries.
       See the links below for more details about visitor services, library hours for visitors, and location information.
-      [Visitor and Alumni Services](http://sc.edu/about/offices_and_divisions/university_libraries/find_services/visitor_alumni_services/index.php)
-      [Building Use Policy](https://sc.edu/about/offices_and_divisions/university_libraries/about/policies/building_use.php)
-      [Library Hours](http://sc.edu/libraries/hours)
-      [Location and Parking Information](http://sc.edu/about/offices_and_divisions/university_libraries/about/locations/tcl/index.php)
+      - [Visitor and Alumni Services](http://sc.edu/about/offices_and_divisions/university_libraries/find_services/visitor_alumni_services/index.php)
+      - [Building Use Policy](https://sc.edu/about/offices_and_divisions/university_libraries/about/policies/building_use.php)
+      - [Library Hours](http://sc.edu/libraries/hours)
+      - [Location and Parking Information](http://sc.edu/about/offices_and_divisions/university_libraries/about/locations/tcl/index.php)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/23794)
   utter_find_published_example_action:
@@ -5125,12 +5125,19 @@ responses:
       - [Case Studies in Construction Materials](https://www.journals.elsevier.com/case-studies-in-construction-materials)
       [Learn more here](https://guides.library.sc.edu/OER/casestudies)
 actions:
+- utter_data_analysis_help
+- utter_mapping_tool_available
+- utter_special_collection_available
+- utter_type_assistance_library_offer
+- utter_cite_ai_manuscript
+- utter_data_visualization_support_service
+- utter_data_visualization_software_available
+- utter_schedule_research_appointment
 - utter_kind_ai_support_library
 - utter_get_data_visualization_help
 - utter_machine_learning
 - utter_common_text_analysis_method
 - utter_collaborate_someone_ai_research
-- utter_schedule_research_appointment
 - action_library_open
 - action_save_conversation
 - action_session_id
