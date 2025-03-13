@@ -345,7 +345,6 @@ intents:
 - problem_research_published_journal
 - programming_language_use_data
 - prompt_engineering
-- provide_example_question_using
 - public_domain
 - publishing_book_related_south
 - publishing_work_us_resource
@@ -3885,11 +3884,6 @@ responses:
   - text: |
       ## The CLEAR Framework for effective AI prompts
       Dr. Leo Lo, Dean of the College of University Libraries & Learning Sciences at the University of New Mexico, has developed a framework for effective AI prompt engineering. The CLEAR framework is comprised of five characteristics.
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10065331)
-  utter_provide_example_question_using:
-  - text: |2
-
-      Can you provide me with a detailed explanation of the process of photosynthesis and its significance?
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10065331)
   utter_learn_clear_framework:
   - text: |

@@ -6281,7 +6281,6 @@ nlu:
     - Designing inputs for generative AI
 - intent: framework_use_effective_ai
   examples: |
-    - What framework can I use for effective AI prompts?
     - What framework can I use for AI prompts?
     - Tell me the best framework for AI prompts?
     - What framework should I use for AI prompts?
@@ -6294,28 +6293,9 @@ nlu:
     - AI prompt characteristics
     - clear framework traits
     - effective AI prompting techniques
-    -  CLEAR framework library resource
+    - CLEAR framework library resource
     - How to write good AI prompts
     - CLEAR framework learning guide
-- intent: provide_example_question_using
-  examples: |
-    - Can you provide an example question using the CLEAR framework?
-    - Can you provide an example question using the CLEAR Framework?
-    - Can you provide an example question using CLEAR framework?
-    - What is photosynthesis?
-    - How does photosynthesis work?
-    - photosynthesis explanation
-    - Can you describe the process of photosynthesis?
-    - Why is photosynthesis important?
-    - significance of photosynthesis
-    - What's the point of photosynthesis?
-    - Tell me about photosynthesis
-    - photosynthesis details
-    - How do plants make food?
-    - plant growth and photosynthesis
-    - Can you explain photosynthesis in detail?
-    - What role does photosynthesis play?
-    - Why is photosynthesis vital?
 - intent: learn_clear_framework
   examples: |
     - Where can I learn more about the CLEAR framework?
@@ -7055,9 +7035,6 @@ nlu:
 - intent: digital_tool_available_project
   examples: |
     - What digital tools are available for my project?
-    - What digital tools are available for a project?
-    - What digital tools can I use for my project?
-    - What digital tools do I need for my website?
     - I picked a CMS, now what?
     - How do I create content for my site?
     - What tools are available for digital scholarship?
