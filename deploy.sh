@@ -38,7 +38,7 @@ gcloud run deploy rasa-chatbot \
   --region $REGION \
   --allow-unauthenticated \
   --port 8080 \
-  --memory=3000Mi
+  --memory=5000Mi
 
 # Deploy Action Server to Cloud Run
 #echo "Deploying Action Server to Cloud Run..."

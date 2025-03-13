@@ -26,22 +26,16 @@ language: en
 
 pipeline:
 - name: WhitespaceTokenizer
-- name: LanguageModelFeaturizer # Pretrained embeddings for better generalization
+- name: LanguageModelFeaturizer # Pretrained embeddings
   model_name: "bert"
   model_weights: "bert-base-uncased"
 - name: RegexFeaturizer # Useful for patterns like phone nums, emails etc
-- name: LexicalSyntacticFeaturizer
-- name: CountVectorsFeaturizer
-- name: CountVectorsFeaturizer
-  analyzer: char_wb
-  min_ngram: 1
-  max_ngram: 4
 - name: DIETClassifier
   epochs: 200
   constrain_similarities: true
-  batch_size: [32, 64]
+  batch_size: [64, 128] # Lower this range if low on memory
   learning_rate: 0.001
-  embedding_dimension: 50
+  embedding_dimension: auto
 - name: FallbackClassifier
   threshold: 0.3
   ambiguity_threshold: 0.05
