@@ -1200,11 +1200,6 @@ rules:
   - intent: kind_ai_support_library
   - action: utter_kind_ai_support_library
     
-- rule: Answer kind_consultation_available_ai
-  steps:
-  - intent: kind_consultation_available_ai
-  - action: utter_kind_consultation_available_ai
-    
 - rule: Answer workshop_available_ai_data
   steps:
   - intent: workshop_available_ai_data
@@ -1219,12 +1214,7 @@ rules:
   steps:
   - intent: help_ai
   - action: utter_help_ai
-    
-- rule: Answer make_appointment_ai_data
-  steps:
-  - intent: make_appointment_ai_data
-  - action: utter_make_appointment_ai_data
-    
+  
 - rule: Answer artificial_intelligence
   steps:
   - intent: artificial_intelligence
@@ -1244,21 +1234,6 @@ rules:
   steps:
   - intent: application_artificial_intelligence
   - action: utter_application_artificial_intelligence
-    
-- rule: Answer guide_about
-  steps:
-  - intent: guide_about
-  - action: utter_guide_about
-    
-- rule: Answer guide_date
-  steps:
-  - intent: guide_date
-  - action: utter_guide_date
-    
-- rule: Answer library_endorse_ai_tool
-  steps:
-  - intent: library_endorse_ai_tool
-  - action: utter_library_endorse_ai_tool
     
 - rule: Answer consider_using_ai_technology
   steps:
@@ -1314,11 +1289,6 @@ rules:
   steps:
   - intent: news_event_related_ai
   - action: utter_news_event_related_ai
-    
-- rule: Answer artificial_intelligence_institute_usc
-  steps:
-  - intent: artificial_intelligence_institute_usc
-  - action: utter_artificial_intelligence_institute_usc
     
 - rule: Answer ai_degree_certificate_offered
   steps:

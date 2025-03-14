@@ -34,7 +34,6 @@ intents:
 - apa_publication_manual
 - application_artificial_intelligence
 - artificial_intelligence
-- artificial_intelligence_institute_usc
 - ask_help_searching_source
 - ask_library_open
 - assess_impact_research_scholar
@@ -218,8 +217,6 @@ intents:
 - graduate_program_offer_ai
 - greet
 - guidance_university_college_provide
-- guide_about
-- guide_date
 - guideline_creating_effective_visualization
 - happens_article_resulting_accepted
 - happens_make_osf_project
@@ -246,7 +243,6 @@ intents:
 - i’m_outside_united_state
 - key_term_related_machine
 - kind_ai_support_library
-- kind_consultation_available_ai
 - kind_data_analysis_statistic
 - kind_guidance_expect_online
 - kind_research_support_university
@@ -270,7 +266,6 @@ intents:
 - library_color_copier
 - library_columbia_campus
 - library_database_use_them
-- library_endorse_ai_tool
 - library_film_video
 - library_fun_book_read
 - library_help_copyright_permission
@@ -290,7 +285,6 @@ intents:
 - lost_found
 - machine_learning
 - mailing_address_thomas_cooper
-- make_appointment_ai_data
 - make_class_affordable
 - make_copyright_decision
 - make_noise_complaint_staff
@@ -2645,12 +2639,15 @@ responses:
   - text: |2
 
       # Contact Us
-      Contact us with questions or to schedule an appointment to discuss your needs.
+      Contact us with questions or to schedule an appointment.
 
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
       [winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+      
+      ### Make an Appointment
+      [Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.  
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
   utter_whats_data_management_plan:
@@ -2871,8 +2868,11 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6737464)
   utter_resource_available_research_data:
   - text: |
-      - [DataOne Research Data Management Education Modules](https://www.dataone.org/training/)
-      - [MANTRA](https://mantra.ed.ac.uk/)\n\n[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4581796)
+        ## Online Data Management Educational Resources
+      - [DataOne Research Data Management Education Modules](https://www.dataone.org/training/)  
+        DataONE is a platform for sharing environmental and ecological data. The DataONE Research Data Management Education Modules provide guidance on many concepts.
+      - [MANTRA](https://mantra.ed.ac.uk/)\n\n[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4581796)  
+        A free online data management course from the University of Edinburgh that provides modules geared toward Research Students, Career Researchers, Senior Academics, and Information Professionals.
   utter_problem_research_published_journal:
   - text: |
       Statistically significant findings are more likely to be published. Because of bias and [](https://login.pallas2.tcl.sc.edu/login?url=https://journals.sagepub.com/doi/full/10.1177/2515245917747646), much of the research published in journals is irreproducible.
@@ -2928,17 +2928,18 @@ responses:
       - [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
       - [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
       - [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+      
+      #### Artificial Intelligence Institute at USC
+      - [The Artificial Intelligence Institute](https://aiisc.ai/)
 
-
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
-  utter_kind_consultation_available_ai:
-  - text: |
       #### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
       - Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
       - TIme-Series data analysis and forecasting.
       - Software and tools: Provide guidance on the different AI softwares and tools and their applications.
 
-
+      ##### Disclaimer
+      The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+      
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
   utter_workshop_available_ai_data:
   - text: |
@@ -2966,10 +2967,7 @@ responses:
       803-777-5699  
       [vandana@sc.edu](mailto:vandana@sc.edu)
 
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
-  utter_make_appointment_ai_data:
-  - text: |
-      # Make an Appointment
+      ### Make an Appointment
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
@@ -3022,36 +3020,20 @@ responses:
 
       - In healthcare, analysis of biosignals (EEG, ECG, MEG) and imaging (MRI) using AI has helped in understanding the diseases and making better predictions for health.
       References:
-      - [](https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf)
+      - [AI Risk Management Framework by NIST](https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf)
 
-      - [](https://aws.amazon.com/what-is/deep-learning/?trk=000d1383-ada6-4917-81ee-e97955c9e062&sc_channel=ps&ef_id=Cj0KCQiAoae5BhCNARIsADVLzZfspwAtXshzPjE8rctNKE7TkOeJndswmSmxF9cK82t1dkjjuJQDlT4aAlyxEALw_wcB:G:s&s_kwcid=AL!4422!3!651784491766!p!!g!!neural%20networks!19852661882!145019257097&gclid=Cj0KCQiAoae5BhCNARIsADVLzZfspwAtXshzPjE8rctNKE7TkOeJndswmSmxF9cK82t1dkjjuJQDlT4aAlyxEALw_wcB)
+      - [Amazon web services (AWS) what-is series on AI terms](https://aws.amazon.com/what-is/deep-learning/?trk=000d1383-ada6-4917-81ee-e97955c9e062&sc_channel=ps&ef_id=Cj0KCQiAoae5BhCNARIsADVLzZfspwAtXshzPjE8rctNKE7TkOeJndswmSmxF9cK82t1dkjjuJQDlT4aAlyxEALw_wcB:G:s&s_kwcid=AL!4422!3!651784491766!p!!g!!neural%20networks!19852661882!145019257097&gclid=Cj0KCQiAoae5BhCNARIsADVLzZfspwAtXshzPjE8rctNKE7TkOeJndswmSmxF9cK82t1dkjjuJQDlT4aAlyxEALw_wcB)
 
-      - [](https://www.ibm.com/topics/artificial-intelligence)
+      - [IBM topics on AI](https://www.ibm.com/topics/artificial-intelligence)
 
-      - [](https://en.wikipedia.org/wiki/Applications_of_artificial_intelligence)
+      - [Applications of AI](https://en.wikipedia.org/wiki/Applications_of_artificial_intelligence)
 
       [Learn more here](https://guides.library.sc.edu/welcome-to-the-world-of-ai)
-  utter_guide_about:
-  - text: |
-      ## About This Guide
-      The University Libraries offers this guide as a starting point for students, faculty, researchers, and staff to learn about AI, find out what's happening with AI on campus, discover AI-related resources and services provided by the Libraries, and more.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1353979)
-  utter_guide_date:
-  - text: |
-      ## Disclaimer
-      - The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1353979)
-  utter_library_endorse_ai_tool:
-  - text: |
-      - While this guide presents information about, and actively uses, various AI tools, the University Libraries recommend or endorse any specific AI technology and/or tool(s).
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1353979)
   utter_consider_using_ai_technology:
   - text: |
-      - Be sure to review and understand the[](https://sc.edu/about/offices_and_divisions/student_conduct_and_academic_integrity/academic_integrity/artificial_intelligence/index.php)implications before choosing to use AI technologies and/or tools.
-
+      - Be sure to review and understand the [implications](https://sc.edu/about/offices_and_divisions/student_conduct_and_academic_integrity/academic_integrity/artificial_intelligence/index.php) before choosing to use AI technologies and/or tools.
+      - While our guide presents information about, and actively uses, various AI tools, the University Libraries recommend or endorse any specific AI technology and/or tool(s).
+      
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979)
   utter_text_analysis:
   - text: |
@@ -3166,12 +3148,6 @@ responses:
       ## USC News & Events
       - [New projects explore AI in art and science](https://www.sc.edu/study/colleges_schools/artsandsciences/about/news/2023/artificial_intelligence.php)
       - [Harnessing the power of artificial intelligence](https://sc.edu/uofsc/posts/2023/05/artificial-intelligence.php)
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10028526)
-  utter_artificial_intelligence_institute_usc:
-  - text: |
-      ## Artificial Intelligence Institute at USC
-      - [The Artificial Intelligence Institute](https://aiisc.ai/)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10028526)
   utter_ai_degree_certificate_offered:
@@ -5039,6 +5015,7 @@ actions:
 - action_process_choice
 entities:
 - number
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

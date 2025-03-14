@@ -836,18 +836,16 @@ nlu:
     - What are the visitor hours for Thomas Cooper Library?
     - Where is the visitor desk at Thomas Cooper Library?
     - Do I need to sign in when visiting Thomas Cooper Library?
-    - tcl library hours
     - Is Thomas Cooper Library open to non-students?
     - Can alumni use Thomas Cooper Library?
     - What are the rules for visitors at Thomas Cooper Library?
     - Where can I park when visiting Thomas Cooper Library?
     - Are there specific services for visitors at Thomas Cooper Library?
     - Do I need a pass to visit Thomas Cooper Library?
+    - is the library open to the public
 - intent: find_published_example_action
   examples: |
     - How do I find published examples of action research for my education research question?
-    - How can I find published examples of action research for my education research question?
-    - How do I find published examples of action research for my educational research question?
     - How do I search education databases?
     - Where can I find action research articles?
     - What keywords should I use for action research?
@@ -866,8 +864,6 @@ nlu:
   examples: |
     - How do I register for access to Ad Age?
     - How do I register for Ad Age?
-    - How can I register for Ad Age?
-    - How do I register for ad age?
     - How do I access Ad Age online?
     - Can I get free access to Ad Age?
     - Ad Age subscription for USC students
@@ -884,8 +880,6 @@ nlu:
 - intent: library_charger_laptop_phone
   examples: |
     - Does the library have a charger for my laptop or phone?
-    - Does the library have a charger for my laptop?
-    - Does the library have a charger for my laptop/phone?
     - Where can I charge my phone in the library?
     - Are there free chargers available in the library?
     - I need to charge my laptop, where can I do that?
@@ -1048,9 +1042,6 @@ nlu:
 - intent: request_book_delivered_campus
   examples: |
     - How do I request to have a book delivered to my campus office?
-    - How do I request a book delivered to my campus office?
-    - How do I request a book to be delivered to my campus office?
-    - How do I request books to be delivered to my office?
     - Can I get books delivered to my work address?
     - Book delivery for faculty?
     - How do I sign up for employee book delivery?
@@ -1084,9 +1075,6 @@ nlu:
 - intent: cant_connect_eduroam_wireless
   examples: |
     - Why can't I connect to the eduroam wireless network?
-    - Why can't I connect to eduroam wireless network?
-    - How can I connect to eduroam wireless network?
-    - How can I connect to the eduroam wireless network?
     - wifi not working on campus
     - How do I connect to eduroam?
     - eduroam login issues
@@ -1105,8 +1093,6 @@ nlu:
 - intent: renew_book
   examples: |
     - How do I renew books?
-    - How can I renew my books?
-    - How do I renew my books?
     - How do I renew USC library books?
     - Can I renew books online?
     - usc book renewal
@@ -1125,8 +1111,6 @@ nlu:
 - intent: cant_login_interlibrary_loan
   examples: |
     - Why can't I login to my Interlibrary Loan account?
-    - Why can't I log into my Interlibrary Loan account?
-    - Why can't I login to my Interlibrary loan account?
     - I'm getting an error message that my account needs to be updated, what do I do?
     - Why can't I log in to ILL?
     - Account update needed error
@@ -1453,6 +1437,7 @@ nlu:
     - Where is the University of South Carolina library?
     - Thomas Cooper Library directions
     - usc lib location
+    - where is the library located
 - intent: center_teaching_excellence_cte
   examples: |
     - Where is the Center for Teaching Excellence (CTE)?
@@ -1699,6 +1684,7 @@ nlu:
     - Do I have to pay for video rentals at USC library?
     - usc film database
     - How do I request a video from Educational Films?
+    - can i borrow films here
 - intent: get_full_text_access
   examples: |
     - How do I get full text access to a specific article?
@@ -3611,6 +3597,7 @@ nlu:
     - Librarian contact information
     - research support contact
     - How do I get in touch with Stacy Winchester?
+    - stacy
 - intent: whats_data_management_plan
   examples: |
     - Whats data management plan (DMP)?
@@ -3621,6 +3608,7 @@ nlu:
     - Do I need a DMP for my research?
     - Data management plan requirements
     - what's included in a dmp?
+    - I think I need to createa a data management plan.  How do I go about this?
     - dmp checklist
     - What are the benefits of having a DMP?
     - Is a DMP required for funding?
@@ -3694,6 +3682,7 @@ nlu:
     - How do I export my DMP as a PDF?
     - Need help with funder requirements
     - Data management plan tool?
+    - how does dmptool work
 - intent: osf_use_it
   examples: |
     - how to use OSF
@@ -3729,6 +3718,7 @@ nlu:
     - Can I use figshare for my research data?
     - usc library research data storage
     - Is there a disciplinary repository for my field of study?
+    - does the university have a data repo
 - intent: cite_dataset
   examples: |
     - How do I cite a dataset?
@@ -4194,8 +4184,37 @@ nlu:
     - OSF DOI policy?
 - intent: kind_ai_support_library
   examples: |
+    - Is there an Artificial Intelligence Institute at USC?
+    - AI institute
+    - What is the AI institute at USC?
+    - USC artificial intelligence
+    - AI research at USC?
+    - Is there an AI program at USC?
+    - usc ai institute
+    - Where can I learn about AI at USC?
+    - Artificial Intelligence Institute info
+    - aiisc.ai?
+    - What does USC offer for AI studies?
+    - USC computer science AI
+    - AI courses at USC
+    - AI institute location
+    - Can I study AI at USC?
     - What type of AI support does the library offer?
     - ai support
+    - What kind of consulting services are available for AI projects?
+    - Can I get help with machine learning models for research?
+    - Who can assist me with NLP project?
+    - I need help with text analysis, is there a service available?
+    - Time series data analysis support
+    - What AI software and tools are available for research?
+    - Are there any consultations for AI projects?
+    - I want to do sentiment analysis, where do I start?
+    - Can someone guide me on topic modeling?
+    - Classification project help needed
+    - Is in-person consultation available for machine learning projects?
+    - Online support for digital research?
+    - Where can I find resources for AI data science support?
+    - What kind of projects does the library's AI support cover?
     - what can i do with ML
     - Where can I get help with machine learning projects?
     - AI resources for research?
@@ -4227,24 +4246,7 @@ nlu:
     - AI tools for teaching
     - Can I get assistance with digital research at USC?
     - Library resources for data science
-- intent: kind_consultation_available_ai
-  examples: |
-    - What kind of consultations are available for AI projects?
-    - What kinds of consultations are available for AI projects?
-    - What kind of consulting services are available for AI projects?
-    - Can I get help with machine learning models for research?
-    - Who can assist me with NLP project?
-    - I need help with text analysis, is there a service available?
-    - Time series data analysis support
-    - What AI software and tools are available for research?
-    - Are there any consultations for AI projects?
-    - I want to do sentiment analysis, where do I start?
-    - Can someone guide me on topic modeling?
-    - Classification project help needed
-    - Is in-person consultation available for machine learning projects?
-    - Online support for digital research?
-    - Where can I find resources for AI data science support?
-    - What kind of projects does the library's AI support cover?
+    - what can you tell me about AI
 - intent: workshop_available_ai_data
   examples: |
     - What workshops are available for AI and data science?
@@ -4288,6 +4290,18 @@ nlu:
     - How can I learn AI?
     - Who can help me to learn AI?
     - i need help with ai
+    - How do I make an appointment for AI and data science assistance?
+    - How do I get help with AI projects?
+    - Can I schedule a meeting for data science assistance?
+    - Make an appointment for what?
+    - I need help with AI, who should I contact?
+    - Data science support at USC?
+    - Can someone assist me with my AI assignment?
+    - ai and data science resources
+    - Who can I talk to about AI research?
+    - USC AI support appointment
+    - Need help with machine learning project
+    - set up meeting for ai help
     - who can help with ai stuff
     - how do i get help with NLP
     - help with making a chatbot
@@ -4304,20 +4318,6 @@ nlu:
     - Can I contact Vandana for data help?
     - usc ai specialist phone number
     - Where do I go for data science support?
-- intent: make_appointment_ai_data
-  examples: |
-    - How do I make an appointment for AI and data science assistance?
-    - How do I get help with AI projects?
-    - Can I schedule a meeting for data science assistance?
-    - Make an appointment for what?
-    - I need help with AI, who should I contact?
-    - Data science support at USC?
-    - Can someone assist me with my AI assignment?
-    - ai and data science resources
-    - Who can I talk to about AI research?
-    - USC AI support appointment
-    - Need help with machine learning project
-    - set up meeting for ai help
 - intent: artificial_intelligence
   examples: |
     - What is Artificial Intelligence?
@@ -4374,13 +4374,16 @@ nlu:
     - domains of AI
 - intent: application_artificial_intelligence
   examples: |
-    - What are the applications of Artificial Intelligence?
+    - What are the applications of AI
     - can you list the applications of Artificial Intelligence?
     - list the applications of Artificial Intelligence?
-    - show the applications of Artificial Intelligence?
+    - show the applications of ai
+    - tell me applications of ai
     - What are AI applications?
     - uses of artificial intelligence
     - AI in healthcare
+    - where is AI applied
+    - where can ai be applied to
     - How does AI help in finance?
     - What is AI used for?
     - Applications of Artificial Intelligence
@@ -4393,44 +4396,8 @@ nlu:
     - Facial recognition AI
     - AI in advertising
     - What is deep learning used for?
-- intent: guide_about
+- intent: consider_using_ai_technology
   examples: |
-    - What is this guide about?
-    - Tell me the purpose of the guide?
-    - Tell me the purpose of this guide?
-    - What is this guide for?
-    - USC AI research guide
-    - Where can I find info on AI at USC?
-    - library resources for AI
-    - whats happening with ai on campus
-    - ai related services usc
-    - How do I learn about AI?
-    - AI stuff at university of south carolina
-    - What does the library offer for AI research?
-    - usc libraries ai guide
-    - Starting point for AI learning
-    - Where can I find USC AI resources?
-- intent: guide_date
-  examples: |
-    - Is this guide up to date?
-    - Is the guide up to date?
-    - Is the library's AI info up to date?
-    - How current is your AI information?
-    - usc library ai guide
-    - Why might the library's AI info be wrong?
-    - Can I trust the library's AI resources?
-    - library ai accuracy
-    - How often does the library update AI info?
-    - What if the AI info is outdated?
-    - AI guide reliable?
-    - Will you update AI info if its wrong?
-    - library ai currency
-    - Why is the AI guide not updated?
-    - Can I report errors in AI guide?
-- intent: library_endorse_ai_tool
-  examples: |
-    - Does the library use any AI tools?
-    - Does the library recommend AI tools?
     - Does the Library endorse any AI tools?
     - Does USC library recommend any AI tools?
     - What AI tech does USC lib use?
@@ -4444,8 +4411,6 @@ nlu:
     - ai technology recommendation
     - Does the lib support any AI tool?
     - What's the lib policy on AI tools
-- intent: consider_using_ai_technology
-  examples: |
     - What should I consider before using AI?
     - What are the rules for using AI at USC?
     - AI usage policy
@@ -4591,6 +4556,7 @@ nlu:
     - machine learning methods
     - types of machine learning algorithms
     - How many categories are there in machine learning?
+    - types of ML
 - intent: key_term_related_machine
   examples: |
     - What are some key terms related to Machine Learning?
@@ -4646,23 +4612,6 @@ nlu:
     - recent developments at usc
     - can I find USC news on the library website
     - USC innovation news
-- intent: artificial_intelligence_institute_usc
-  examples: |
-    - Is there an Artificial Intelligence Institute at USC?
-    - AI institute
-    - What is the AI institute at USC?
-    - USC artificial intelligence
-    - AI research at USC?
-    - Is there an AI program at USC?
-    - usc ai institute
-    - Where can I learn about AI at USC?
-    - Artificial Intelligence Institute info
-    - aiisc.ai?
-    - What does USC offer for AI studies?
-    - USC computer science AI
-    - AI courses at USC
-    - AI institute location
-    - Can I study AI at USC?
 - intent: ai_degree_certificate_offered
   examples: |
     - What AI degrees and certificates are offered?
@@ -5002,6 +4951,7 @@ nlu:
     - Borrowing policies
     - What else can I do at the library?
     - Services provided by university libraries
+    - what services do u have
 - intent: get_research_help
   examples: |
     - How can I get research help?
@@ -5040,6 +4990,9 @@ nlu:
     - What kind of materials are in USC special collections?
     - usc library art collection
     - How do I browse USC special collections?
+    - movies
+    - do u guys have movies
+    - librry special collections
 - intent: support_library
   examples: |
     - How can I support the library?

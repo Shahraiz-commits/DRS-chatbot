@@ -31,14 +31,14 @@ pipeline:
   model_weights: "bert-base-uncased"
 - name: RegexFeaturizer # Useful for patterns like phone nums, emails etc
 - name: DIETClassifier
-  epochs: 200
+  epochs: 150
   constrain_similarities: true
   batch_size: [64, 128] # Lower this range if low on memory
   learning_rate: 0.001
-  embedding_dimension: 50
+  embedding_dimension: 100
 - name: FallbackClassifier
   threshold: 0.15
-  ambiguity_threshold: 0.05
+  ambiguity_threshold: 0.005
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
