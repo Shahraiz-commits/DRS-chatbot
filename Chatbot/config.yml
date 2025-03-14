@@ -35,7 +35,7 @@ pipeline:
   constrain_similarities: true
   batch_size: [64, 128] # Lower this range if low on memory
   learning_rate: 0.001
-  embedding_dimension: auto
+  embedding_dimension: 50
 - name: FallbackClassifier
   threshold: 0.3
   ambiguity_threshold: 0.05

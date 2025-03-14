@@ -160,7 +160,6 @@ intents:
 - example_policy_guideline_ai
 - example_project_use_digital
 - export_codebook
-- external_data_repository_use
 - factor_consider_selecting_data
 - factor_selection_committee_consider
 - faculty_member_make_course
@@ -169,7 +168,6 @@ intents:
 - featured_repository
 - federal_legal_response_ai
 - file_format_use_ensure
-- file_format_use_ensure1
 - find_additional_help_nvivo
 - find_article_version
 - find_dissertation_thesis
@@ -238,7 +236,6 @@ intents:
 - hathitrust_university_member
 - help_ai
 - help_digital_tool
-- hour_thomas_cooper_library
 - hydrological_data_resource_available
 - impact_open_educational_resource
 - import_data_file_nvivo
@@ -452,8 +449,6 @@ intents:
 - type_repository_sharing_research
 - type_work_copyrighted
 - u_statistic_resource_available
-- u_statistic_resource_available1
-- u_statistic_resource_available2
 - uncode_data
 - undergraduate_program_offer_ai
 - university_alabama_api_code
@@ -482,22 +477,22 @@ intents:
 - workshop_available_ai_data
 - workshop_training_available_research
 responses:
-#  utter_greet:
-#  - text: Hi! How can I help you?
-#  utter_cheer_up:
-#  - text: 'Here is something to cheer you up:'
-#    image: https://images.ctfassets.net/ub3bwfd53mwy/5WFv6lEUb1e6kWeP06CLXr/acd328417f24786af98b1750d90813de/4_Image.jpg?w=750
-#  utter_did_that_help:
-#  - text: Did that help you?
-#  utter_happy:
-#  - text: Great, carry on!
-#  utter_goodbye:
-#  - text: Bye
-#  utter_iamabot:
-#  - text: I am a bot, powered by Rasa.
-#  utter_Do not answer:
-#  - text: |
-#      Sorry, I am designed not to answer such a question.
+  utter_greet:
+  - text: Hi! How can I help you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://images.ctfassets.net/ub3bwfd53mwy/5WFv6lEUb1e6kWeP06CLXr/acd328417f24786af98b1750d90813de/4_Image.jpg?w=750
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_Do not answer:
+  - text: |
+      Sorry, I am designed not to answer such a question.
   utter_ai_service_library_offer:
   - text: |
       The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
@@ -1157,13 +1152,6 @@ responses:
       [How to renew from your Interlibrary Loan account](http://guides.library.sc.edu/renewals)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/23780)
-  utter_hour_thomas_cooper_library:
-  - text: |
-      The Thomas Cooper Library's hours are located at [sc.edu/libraries/hours](https://sc.edu/about/offices_and_divisions/university_libraries/about/hours/index.php). Please note there are different hours for USC affiliates and visitors (including Library Friends and alumni.)
-      [Hours of Operation](http://sc.edu/libraries/hours)
-      [Visitor and Alumni Services](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/visitor_alumni_services/index.php)
-
-      [Learn more here](https://libanswers.library.sc.edu//faq/23738)
   utter_cant_login_interlibrary_loan:
   - text: |
       If you receive the error message that says your account needs to be manually updated, please contact the Interlibrary Loan Department at 803-777-2805 or [uscill@mailbox.sc.edu](mailto:uscill@mailbox.sc.edu?subject=ILL%20account%20needs%20to%20be%20updated). Provide your username, and they can quickly fix the issue.
@@ -2437,21 +2425,6 @@ responses:
       - [US Department of Education Data and Statistics](https://www.ed.gov/data)
 
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/education)
-  utter_u_statistic_resource_available1:
-  - text: |2
-
-      #### U.S. Statistics
-      - [Child Care & Early Research Connections](https://www.researchconnections.org/research-tools/data-collection)
-      - [ChildStats.gov](http://www.childstats.gov/index.asp)
-      - [College Navigator](http://nces.ed.gov/collegenavigator/)
-      - [Mapping the Measure of America](http://www.measureofamerica.org/maps/)
-      - [National Center for Education Statistics (NCES)](https://nces.ed.gov/)
-      - [National Center for Education Statistics (NCES) International Comparisons in Education](https://nces.ed.gov/surveys/international/)
-      - [National Household Education Surveys (NHES)](http://nces.ed.gov/nhes/)
-      - [Schools and Staffing Survey (SASS)](https://nces.ed.gov/surveys/sass/)
-      - [South Carolina Department of Education](http://ed.sc.gov/)
-      - [South Carolina Joint Citizens and Legislative Committee on Children Data Reference Book](http://www.sc.edu/jclcc/doc/2016%20Data%20Reference%20Book.pdf)
-      - [US Department of Education Data and Statistics](https://www.ed.gov/data)
   utter_contact_interlibrary_loan_staff:
   - text: |
       # Contact Us
@@ -2638,20 +2611,6 @@ responses:
       - [Economic Indicators](https://www.govinfo.gov/app/collection/ECONI)
       - [InfoShare Online](http://www.infoshare.org/)Includes population statistics, immigration trends, socioeconomic indicators, birth and death data, hospitalizations, local trade data, and much more.You will need to create an individual account.
       - [UNdata](http://data.un.org/)
-  utter_u_statistic_resource_available2:
-  - text: |2
-
-      #### U.S. Statistics
-      - [Bureau of Labor Statistics](http://stats.bls.gov/)
-      - [Census Data from data.census.gov](https://data.census.gov/cedsci/)
-      - [CIA World Factbook](https://www.cia.gov/the-world-factbook/)
-      - [Historical Statistics of the United States: Millennial Edition Online](https://pascal-usc.primo.exlibrisgroup.com/permalink/01PASCAL_USCCOL/ena7hp/alma991025864137205618)
-      - [OECD iLibrary](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.oecd-ilibrary.org%2F)
-      - [Rural Data Portal](http://www.ruraldataportal.org/)
-      - [South Carolina Statistics and Statistical Reports - SCIway](http://www.sciway.net/statistics/)
-      - [The National Survey of Families and Households (NSFH)](http://www.ssc.wisc.edu/nsfh/home.htm)
-      - [United States QuickFacts](https://www.census.gov/quickfacts/fact/table/US/PST045216)
-      - [USDA Rural Information Center](https://www.nal.usda.gov/ric)
   utter_data_set_available_sociology:
   - text: |2
 
@@ -4810,22 +4769,6 @@ responses:
       - [SSRN](https://www.ssrn.com/)
 
       [Learn more here](https://guides.library.sc.edu/openaccessresources/tools)
-  utter_file_format_use_ensure1:
-  - text: |
-      As anyone with data saved on a floppy disk probably realizes, technology changes constantly and, if not planned for, hardware and software obsolescence can render data inaccessible and unreadable. To ensure long-term accessibility of research data, researchers should consider using file formats that share these characteristics:
-      - Non-proprietary
-      - Open, documented standard
-      - Common usage by research community
-      - Standard representation ([ASCII](http://www.asciitable.com/),[Unicode](http://unicode.org/))
-      - Unencrypted
-      - Uncompressed
-
-      Data saved in proprietary formats are vulnerable to obsolescence. Here are examples of open file formats you can use to increase the likelihood that research data will be accessible in the future. A number of applications have been developed to open these types of files:
-      - instead of a Microsoft Word extension (.doc, .docx)
-      - instead of a Microsoft Excel extension (.xls, .xlsx)
-      - TIFF or[JPEG2000](https://jpeg.org/jpeg2000/)instead of .gif or .jpg
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573562)
   utter_statistic_textbook_cost:
   - text: |
       ## Did You Know?
@@ -5119,19 +5062,6 @@ responses:
       - [Case Studies in Construction Materials](https://www.journals.elsevier.com/case-studies-in-construction-materials)
       [Learn more here](https://guides.library.sc.edu/OER/casestudies)
 actions:
-- utter_data_analysis_help
-- utter_mapping_tool_available
-- utter_special_collection_available
-- utter_type_assistance_library_offer
-- utter_cite_ai_manuscript
-- utter_data_visualization_support_service
-- utter_data_visualization_software_available
-- utter_schedule_research_appointment
-- utter_kind_ai_support_library
-- utter_get_data_visualization_help
-- utter_machine_learning
-- utter_common_text_analysis_method
-- utter_collaborate_someone_ai_research
 - action_library_open
 - action_save_conversation
 - action_session_id

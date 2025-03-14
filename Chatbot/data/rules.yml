@@ -354,11 +354,6 @@ rules:
   - intent: renew_book
   - action: utter_renew_book
     
-- rule: Answer hour_thomas_cooper_library
-  steps:
-  - intent: hour_thomas_cooper_library
-  - action: utter_hour_thomas_cooper_library
-    
 - rule: Answer cant_login_interlibrary_loan
   steps:
   - intent: cant_login_interlibrary_loan
@@ -919,11 +914,6 @@ rules:
   - intent: data_set_available_education
   - action: utter_data_set_available_education
     
-- rule: Answer u_statistic_resource_available1
-  steps:
-  - intent: u_statistic_resource_available1
-  - action: utter_u_statistic_resource_available1
-    
 - rule: Answer contact_interlibrary_loan_staff
   steps:
   - intent: contact_interlibrary_loan_staff
@@ -1023,11 +1013,6 @@ rules:
   steps:
   - intent: resource_available_sociology_statistic
   - action: utter_resource_available_sociology_statistic
-    
-- rule: Answer u_statistic_resource_available2
-  steps:
-  - intent: u_statistic_resource_available2
-  - action: utter_u_statistic_resource_available2
     
 - rule: Answer data_set_available_sociology
   steps:
@@ -1724,11 +1709,6 @@ rules:
   - intent: framework_use_effective_ai
   - action: utter_framework_use_effective_ai
     
-- rule: Answer provide_example_question_using
-  steps:
-  - intent: provide_example_question_using
-  - action: utter_provide_example_question_using
-    
 - rule: Answer learn_clear_framework
   steps:
   - intent: learn_clear_framework
@@ -2208,11 +2188,6 @@ rules:
   steps:
   - intent: find_openly_available_research
   - action: utter_find_openly_available_research
-    
-- rule: Answer file_format_use_ensure1
-  steps:
-  - intent: file_format_use_ensure1
-  - action: utter_file_format_use_ensure1
     
 - rule: Answer statistic_textbook_cost
   steps:
