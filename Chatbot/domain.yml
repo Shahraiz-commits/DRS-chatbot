@@ -22,7 +22,6 @@ intents:
 - additional_resource_available_learning
 - additional_resource_mla_citation
 - advanced_text_analysis_tool
-- affirm
 - african_american_ancestry_suggestion
 - ai_art_generator_work
 - ai_course_available
@@ -132,7 +131,6 @@ intents:
 - data_visualization_software_available
 - data_visualization_support_service
 - datalab_located
-- deny
 - detail_consider_creating_open
 - determine_journal_predatory
 - difference_backup_storage
@@ -217,7 +215,6 @@ intents:
 - get_started_text_mining
 - get_started_uscs_create
 - good_rule_thumb_backing
-- goodbye
 - graduate_program_offer_ai
 - greet
 - guidance_university_college_provide
@@ -303,8 +300,6 @@ intents:
 - metadata_important
 - modelled_data_resource_available
 - modify_existing_open_educational
-- mood_great
-- mood_unhappy
 - much_fee_late_return
 - need_additional_storage
 - need_cite_source
@@ -476,15 +471,6 @@ intents:
 responses:
   utter_greet:
   - text: Hi! How can I help you?
-  utter_cheer_up:
-  - text: 'Here is something to cheer you up:'
-    image: https://images.ctfassets.net/ub3bwfd53mwy/5WFv6lEUb1e6kWeP06CLXr/acd328417f24786af98b1750d90813de/4_Image.jpg?w=750
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
-  utter_goodbye:
-  - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_Do not answer:

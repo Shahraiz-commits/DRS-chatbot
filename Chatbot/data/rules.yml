@@ -1,15 +1,6 @@
 version: "3.1"
 
 rules:
-
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
-  - action: action_save_conversation
-  - action: action_session_id
-  - action: action_emotion
-
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
   - intent: bot_challenge
@@ -43,6 +34,11 @@ rules:
   steps:
   - intent: Do not answer
   - action: utter_Do not answer
+
+- rule: greet the user
+  steps:
+  - intent: greet
+  - action: utter_greet
     
 - rule: Answer help_digital_tool
   steps:

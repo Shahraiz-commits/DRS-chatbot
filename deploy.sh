@@ -16,9 +16,9 @@ IMAGE_TAG=$(git rev-parse --short HEAD)  # Git commit hash as tag
 #gcloud config get-value project
 
 # Build and push Rasa Chatbot image
-#echo "Building and pushing Rasa Chatbot image..."
-#docker build -t gcr.io/$PROJECT_ID/rasa-chatbot:$IMAGE_TAG -f Dockerfile.rasa .
-#docker push gcr.io/$PROJECT_ID/rasa-chatbot:$IMAGE_TAG
+echo "Building and pushing Rasa Chatbot image..."
+docker build -t gcr.io/$PROJECT_ID/rasa-chatbot:$IMAGE_TAG -f Dockerfile.rasa .
+docker push gcr.io/$PROJECT_ID/rasa-chatbot:$IMAGE_TAG
 
 # Build and push Action Server image
 #echo "Building and pushing Action Server image..."
@@ -38,7 +38,7 @@ gcloud run deploy rasa-chatbot \
   --region $REGION \
   --allow-unauthenticated \
   --port 8080 \
-  --memory=5000Mi
+  --memory=4000Mi
 
 # Deploy Action Server to Cloud Run
 #echo "Deploying Action Server to Cloud Run..."

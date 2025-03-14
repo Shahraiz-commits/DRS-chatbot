@@ -37,7 +37,7 @@ pipeline:
   learning_rate: 0.001
   embedding_dimension: 50
 - name: FallbackClassifier
-  threshold: 0.2
+  threshold: 0.15
   ambiguity_threshold: 0.05
 
 # Configuration for Rasa Core.
