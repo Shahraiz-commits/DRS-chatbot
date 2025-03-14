@@ -44,11 +44,6 @@ rules:
   - intent: Do not answer
   - action: utter_Do not answer
     
-- rule: Answer ai_service_library_offer
-  steps:
-  - intent: ai_service_library_offer
-  - action: utter_ai_service_library_offer
-    
 - rule: Answer help_digital_tool
   steps:
   - intent: help_digital_tool
@@ -1319,11 +1314,6 @@ rules:
   - intent: resource_available_academic_integrity
   - action: utter_resource_available_academic_integrity
     
-- rule: Answer ai_used_teaching_learning
-  steps:
-  - intent: ai_used_teaching_learning
-  - action: utter_ai_used_teaching_learning
-    
 - rule: Answer news_event_related_ai
   steps:
   - intent: news_event_related_ai
@@ -2213,11 +2203,6 @@ rules:
   steps:
   - intent: difference_backup_storage
   - action: utter_difference_backup_storage
-    
-- rule: Answer 321_rule_backing_data
-  steps:
-  - intent: 321_rule_backing_data
-  - action: utter_321_rule_backing_data
     
 - rule: Answer make_class_affordable
   steps:

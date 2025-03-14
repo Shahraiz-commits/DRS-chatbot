@@ -1,6 +1,5 @@
 version: '3.1'
 intents:
-- 321_rule_backing_data
 - Do not answer
 - What_is_Constellate
 - What_is_DMPtool
@@ -29,8 +28,6 @@ intents:
 - ai_course_available
 - ai_degree_certificate_offered
 - ai_evolved_time
-- ai_service_library_offer
-- ai_used_teaching_learning
 - alumnus_get_access_research
 - ama_citation_style
 - animation_tool_available
@@ -493,9 +490,6 @@ responses:
   utter_Do not answer:
   - text: |
       Sorry, I am designed not to answer such a question.
-  utter_ai_service_library_offer:
-  - text: |
-      The library offers support with the application of AI and Machine Learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
   utter_help_digital_tool:
   - text: |2
 
@@ -2331,10 +2325,10 @@ responses:
   - text: |
       ## Data Visualization Tools
       Selecting the appropriate data visualization tool can be challenging, given the many available options. You will want to consider: 
-      - : the type and amount will affect the success of the tool you use. Numerical, geospatial, or textual data may benefit from use of different tools.
-      - : based on your level of knowledge, desire to learn, and availability of time, you may find one tool more appropriate than another.
-      - : each visualization tool will vary in what features they provide, how easy those features are to use, and how effective they are. Choose the tool that offers the best outcome for your particular project.
-      - : Some tools are free while others have associated costs. Some free versions have limitations that might impact your project.
+      - Your data : the type and amount will affect the success of the tool you use. Numerical, geospatial, or textual data may benefit from use of different tools.
+      - Ease of use : based on your level of knowledge, desire to learn, and availability of time, you may find one tool more appropriate than another.
+      - Tool features : each visualization tool will vary in what features they provide, how easy those features are to use, and how effective they are. Choose the tool that offers the best outcome for your particular project.
+      - Cost : Some tools are free while others have associated costs. Some free versions have limitations that might impact your project.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
   utter_spreadsheet_software_use_data:
@@ -3179,12 +3173,6 @@ responses:
   - text: |
       ## Academic Integrity and Student Conduct
       - [AI and Student Conduct/Academic Integrity](https://sc.edu/about/offices_and_divisions/student_conduct_and_academic_integrity/academic_integrity/artificial_intelligence/index.php)
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10028526)
-  utter_ai_used_teaching_learning:
-  - text: |
-      ## AI Use in Teaching and Learning
-      - [Generative Artificial Intelligence (GenAI)](https://sc.edu/about/offices_and_divisions/cte/teaching_resources/generative_ai/index.php)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10028526)
   utter_news_event_related_ai:
@@ -4800,11 +4788,6 @@ responses:
   utter_difference_backup_storage:
   - text: |
       Back-up and storage are related concepts, but are not the same thing. While storage refers to ways of preserving files for the short- or long-term, back-up refers to preserving copies of your files in different physical locations and using different media to protect against data loss.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)
-  utter_321_rule_backing_data:
-  - text: |
-      A good rule of thumb for backing up data is the 3-2-1 rule. It states that at least 3 total copies of data should exist, 2 of which are local but on different media (devices), and at least 1 copy should be stored offsite. The offsite storage is important in case of fires, floods, or theft.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)
   utter_make_class_affordable:

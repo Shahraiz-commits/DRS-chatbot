@@ -99,25 +99,6 @@ nlu:
   examples: |
     - How do I hack the library?
     - Tell me how to steal a book
-- intent: ai_service_library_offer
-  examples: |
-    - What AI services does the library offer?
-    - ai resources
-    - ai services
-    - what are library services for AI
-    - Does the library offer AI support?
-    - ML tools for research
-    - How do I use GenAI responsibly?
-    - Can I get help with AI projects in the library?
-    - Safe usage of generative AI?
-    - library ai services
-    - I need help with machine learning
-    - What resources are available for AI research?
-    - genai support usc
-    - usc library ml guidance
-    - AI tools for teaching
-    - Can I get assistance with digital research at USC?
-    - Library resources for data science
 - intent: help_digital_tool
   examples: |
     - who can help me with digital tools?
@@ -4054,6 +4035,19 @@ nlu:
     - Importance of offsite storage
     - Can you explain 3-2-1 rule?
     - Do I need more than one copy of data?
+    - What is a 3-2-1 rule for backing up data?
+    - What's the best way to backup data?
+    - data backup tips
+    - How many copies of my files should I have?
+    - what is 3-2-1 rule
+    - Data storage best practices?
+    - What if there's a fire and my data gets destroyed?
+    - how to protect against data loss
+    - Can you explain the 321 backup rule?
+    - Best way to prevent data theft?
+    - How often should I back up data?
+    - Offsite storage options
+    - What's a good rule for backing up files?
 - intent: difference_information_security_privacy
   examples: |
     - What is the difference between information security and privacy?
@@ -4281,6 +4275,23 @@ nlu:
     - Is there a guide for artificial intelligence basics?
     - Where can I find info on text mining?
     - Can I get help with AI project in the library?
+    - What AI services does the library offer?
+    - ai resources
+    - ai services
+    - what are library services for AI
+    - Does the library offer AI support?
+    - ML tools for research
+    - How do I use GenAI responsibly?
+    - Can I get help with AI projects in the library?
+    - Safe usage of generative AI?
+    - library ai services
+    - I need help with machine learning
+    - What resources are available for AI research?
+    - genai support usc
+    - usc library ml guidance
+    - AI tools for teaching
+    - Can I get assistance with digital research at USC?
+    - Library resources for data science
 - intent: kind_consultation_available_ai
   examples: |
     - What kind of consultations are available for AI projects?
@@ -4681,23 +4692,6 @@ nlu:
     - academic integrity guidelines
     - AI usage in academics
     - Is it okay to use AI for research papers?
-- intent: ai_used_teaching_learning
-  examples: |
-    - How is AI used in teaching and learning?
-    - How can AI be used in teaching?
-    - How is AI used in teaching and learning?
-    - AI in education resources
-    - What is GenAI in teaching?
-    - usc ai learning tools
-    - teaching with artificial intelligence
-    - ai in classroom
-    - GenAI info for teachers
-    - ai teaching guide
-    - resources on AI in education
-    - Can I use AI in my lessons?
-    - AI teaching best practices
-    - How to incorporate AI in class
-    - usc resources for ai learning
 - intent: news_event_related_ai
   examples: |
     - What news and events are related to AI at USC?
@@ -7791,9 +7785,6 @@ nlu:
 - intent: difference_backup_storage
   examples: |
     - What is the difference between back-up and storage?
-    - Tell me the difference between backup and storage?
-    - Tell me the difference between back-up and storage?
-    - Tell me the difference between backing up and storage?
     - What's the difference between backup and storage?
     - backup vs storage?
     - Is backing up same as storing?
@@ -7807,21 +7798,6 @@ nlu:
     - Can I lose data if I only store it?
     - Backup or storage, which one is better?
     - Do I need both backup and storage?
-- intent: 321_rule_backing_data
-  examples: |
-    - What is a 3-2-1 rule for backing up data?
-    - What's the best way to backup data?
-    - data backup tips
-    - How many copies of my files should I have?
-    - what is 3-2-1 rule
-    - Data storage best practices?
-    - What if there's a fire and my data gets destroyed?
-    - how to protect against data loss
-    - Can you explain the 321 backup rule?
-    - Best way to prevent data theft?
-    - How often should I back up data?
-    - Offsite storage options
-    - What's a good rule for backing up files?
 - intent: make_class_affordable
   examples: |
     - How can I make my class affordable?
