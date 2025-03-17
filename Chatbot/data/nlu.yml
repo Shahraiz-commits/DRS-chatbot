@@ -14,7 +14,7 @@ nlu:
     - [9](number)
 - intent: greet
   examples: |
-    - hi
+    - greet
     - hello
     - heyyy
 - intent: bot_challenge
@@ -103,22 +103,6 @@ nlu:
     - USC data management plans
     - Can I get help with dataset discovery?
     - data lifecycle help
-- intent: visualize_research_data
-  examples: |
-    - How can I visualize my research data?
-    - How can I visualize my research data?
-    - data visualization help
-    - What resources are available for data visualization?
-    - Does USC have data visualization tools?
-    - Where can I get help with data viz?
-    - Can the library assist with data visualization?
-    - Do you guys offer data visualization services?
-    - Need help visualizing research findings
-    - data viz support at usc
-    - Can I get data visualization training?
-    - What kind of data visualization resources does USC offer?
-    - I need to create a data visualization, where do I start?
-    - USC library data visualization?
 - intent: kind_workshop_library_offer
   examples: |
     - What kind of workshops do libraries offer?
@@ -2129,7 +2113,20 @@ nlu:
     - Where can I find info on foundations of data visualization?
 - intent: get_data_visualization_help
   examples: |
+    - How can I visualize my research data?
+    - data visualization help
+    - help data visz
+    - Where can I get help with data viz?
+    - Can the library assist with data visualization?
+    - Do you guys offer data visualization services?
+    - Need help visualizing research findings
+    - data viz support at usc
+    - Can I get data visualization training?
+    - What kind of data visualization resources does USC offer?
+    - I need to create a data visualization, where do I start?
+    - USC library data visualization?
     - How can I get data visualization help?
+    - who can helo me with ccvisualizing data
     - Tell me the best way to get data visualization help?
     - How do I get data visualization help?
     - who can help with data visualization
@@ -2145,6 +2142,9 @@ nlu:
     - I need to talk to someone about my data project
     - datavisualization service contact
     - Who can I talk to about GIS services?
+    - campus GIS person
+    - who can help me with mapping tools
+    - can someone help me with gis
     - can i schedule meeting for datavisualisation help
 - intent: type_assistance_library_offer
   examples: |
@@ -3698,6 +3698,22 @@ nlu:
     - Open science tools
 - intent: option_available_longterm_archiving
   examples: |
+    - How can I share my research data with others?
+    - How do I share my research data?
+    - How do I share research data at USC?
+    - Where can I archive my research data?
+    - USC data sharing options
+    - Can I store my research data at USC?
+    - data repository usc
+    - Where should I save my research data?
+    - share data guide usc
+    - What are the options for long-term data archiving?
+    - Does USC have a data repository?
+    - How can I make my research data public?
+    - USC open access repositories
+    - Can I use external data repositories?
+    - Where can I find info on sharing data at USC?
+    - research data storage usc
     - Is there a data repository
     - What are options for archiving data
     - Where do i archive research data
@@ -4396,6 +4412,7 @@ nlu:
     - Facial recognition AI
     - AI in advertising
     - What is deep learning used for?
+    - tell me applications of artifical intelligence
 - intent: consider_using_ai_technology
   examples: |
     - Does the Library endorse any AI tools?
@@ -6881,30 +6898,10 @@ nlu:
     - Terms of service for academic social networks
     - Can I share my research online?
     - Is Academia.edu an open access repository?
-- intent: share_research_data
-  examples: |
-    - How can I share my research data with others?
-    - How do I share my research data?
-    - How do I share research data at USC?
-    - Where can I archive my research data?
-    - USC data sharing options
-    - Can I store my research data at USC?
-    - data repository usc
-    - Where should I save my research data?
-    - share data guide usc
-    - What are the options for long-term data archiving?
-    - Does USC have a data repository?
-    - How can I make my research data public?
-    - USC open access repositories
-    - Can I use external data repositories?
-    - Where can I find info on sharing data at USC?
-    - research data storage usc
 - intent: featured_repository
   examples: |
     - What are some featured repositories?
     - can you list the featured repositories?
-    - list some of the featured repositories?
-    - show some of the featured repositories?
     - What are some open access repositories?
     - featured repositories?
     - Where can I find free research papers?

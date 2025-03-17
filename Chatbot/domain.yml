@@ -389,7 +389,6 @@ intents:
 - set_appointment_research_use
 - set_link_usc_content
 - share_article_version_online
-- share_research_data
 - sign_orcid_id
 - software_available_library_computer
 - software_hardware_resource_available
@@ -452,7 +451,6 @@ intents:
 - vendor_allow_text_data
 - version_work_share
 - visitor_come_library
-- visualize_research_data
 - way_search_across_multiple
 - web_archiving
 - web_scraper_available
@@ -466,7 +464,7 @@ responses:
   utter_greet:
   - text: Hi! How can I help you?
   utter_iamabot:
-  - text: I am a bot, powered by Rasa.
+  - text: I am a bot, designed to assist you with anything Digital Research Services (DRS) related!
   utter_Do not answer:
   - text: |
       Sorry, I am designed not to answer such a question.
@@ -495,9 +493,6 @@ responses:
   utter_data_organization:
   - text: |
       The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
-  utter_visualize_research_data:
-  - text: |
-      Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
   utter_kind_workshop_library_offer:
   - text: |
       ## Workshops
@@ -1544,7 +1539,7 @@ responses:
       \n[Join Here](https://donate.sc.edu/AG/sfp/libr/friends-of-university-libraries)\n[Membership Levels](https://sc.edu/about/offices_and_divisions/university_libraries/support/friend_groups/friends/membership.php)\n[Request a Checkout Account](https://sc.libwizard.com/f/library_borrowing_account_request_form)\n[Learn more here](https://libanswers.library.sc.edu//faq/23770)
   utter_university_institutional_repository:
   - text: |
-      Yes! Scholar Commons is our Institutional Repository to preserve, collect and disseminate the research and scholarship of the University of South Carolina. To access and search Scholar Commons or to learn more about contributing your own research, use the links below.
+      Scholar Commons is our Institutional Repository to preserve, collect and disseminate the research and scholarship of the University of South Carolina. To access and search Scholar Commons or to learn more about contributing your own research, use the links below.
 
       [Access Scholar Commons](https://scholarcommons.sc.edu/)
       [Share Your Research in Scholar Commons](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/share_research)
@@ -1662,6 +1657,8 @@ responses:
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
   utter_get_data_visualization_help:
   - text: |
+      Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization.  
+      
       # Contact Us
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
@@ -2868,7 +2865,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6737464)
   utter_resource_available_research_data:
   - text: |
-        ## Online Data Management Educational Resources
+      ## Online Data Management Educational Resources
       - [DataOne Research Data Management Education Modules](https://www.dataone.org/training/)  
         DataONE is a platform for sharing environmental and ecological data. The DataONE Research Data Management Education Modules provide guidance on many concepts.
       - [MANTRA](https://mantra.ed.ac.uk/)\n\n[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4581796)  
@@ -4321,12 +4318,6 @@ responses:
       ## Social Networking
       Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines. These sites are often used as social media and outreach tools. Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
       The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite). 
-
-      [Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
-  utter_share_research_data:
-  - text: |
-      ## Sharing Data
-      The University of South Carolina does not currently have a system-wide, long-term archiving option for research data. However, many external disciplinary and general data repositories exist. If you want or need to share your research data, please visit the [Sharing Data guide](http://guides.library.sc.edu/c.php?g=592274&p=4095611) to locate an appropriate repository and find additional information.
 
       [Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
   utter_featured_repository:

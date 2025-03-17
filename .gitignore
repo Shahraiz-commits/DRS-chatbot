@@ -12,7 +12,7 @@ rasa/
 *.log
 
 # Stuff we can recreate
-Chatbot/models/
+#Chatbot/models/
 Chatbot/chats.csv
 Chatbot/feedback.txt
 Chatbot/chats.csv

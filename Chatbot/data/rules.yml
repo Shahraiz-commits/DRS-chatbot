@@ -60,11 +60,6 @@ rules:
   - intent: data_organization
   - action: utter_data_organization
     
-- rule: Answer visualize_research_data
-  steps:
-  - intent: visualize_research_data
-  - action: utter_visualize_research_data
-    
 - rule: Answer kind_workshop_library_offer
   steps:
   - intent: kind_workshop_library_offer
@@ -1214,7 +1209,7 @@ rules:
   steps:
   - intent: help_ai
   - action: utter_help_ai
-  
+
 - rule: Answer artificial_intelligence
   steps:
   - intent: artificial_intelligence
@@ -1939,12 +1934,7 @@ rules:
   steps:
   - intent: academic_social_networking_site
   - action: utter_academic_social_networking_site
-    
-- rule: Answer share_research_data
-  steps:
-  - intent: share_research_data
-  - action: utter_share_research_data
-    
+
 - rule: Answer featured_repository
   steps:
   - intent: featured_repository
