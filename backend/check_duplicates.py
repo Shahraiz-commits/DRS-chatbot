@@ -133,13 +133,12 @@ def generalize_intents(domain_data, target_intents, ignore_intents):
         merged_response = f"{target_response}{most_similar_response}"
         
         target_examples = get_intent_examples(target_intent)
-        print(target_examples)
-        #configure_domain("modify", most_similar_intent, merged_response) # Overwrite the response of this intent to be the merged response
-        #configure_domain("remove", target_intent) # Remove the short response from domain
+        configure_domain("modify", most_similar_intent, merged_response) # Overwrite the response of this intent to be the merged response
+        configure_domain("remove", target_intent) # Remove the short response from domain
         configure_nlu("modify", most_similar_intent, target_examples) # Add to this intent's examples, the examples from short response
         configure_nlu("remove", target_intent) # Remove the short response from nlu
         
-        print(f"\nMerged {target_intent} into {most_similar_intent}:\n{merged_response}\n--------------------------------------------------------------------------------------------------------------")
+        print(f"\nMerged {target_intent} into {most_similar_intent}:\n{merged_response}\n-------------------------------------------------------------------------------------------------------------------------------------------")
         
         #print(f"\nMost similar intent to '{target_intent}' with the same link: '{most_similar_intent}'")
         #print(f"Link: {target_link}")
@@ -183,7 +182,6 @@ def main():
         if(len(response) <= 300 and intent not in IGNORE_INTENTS and "Contact Us" not in response):
             target_intents.append(intent)
     
-    target_intents = ["prompt_engineering"]
     generalize_intents(data, target_intents, IGNORE_INTENTS)
     
 if __name__ == "__main__":

@@ -1,15 +1,11 @@
 version: '3.1'
 intents:
 - Do not answer
-- What_is_Constellate
 - What_is_DMPtool
 - What_is_NVivo
-- What_is_a_DOI
 - What_is_metadata
 - academic_social_networking_site
 - acceptable_us_librarylicensed_resource
-- access_constellate
-- access_course_material
 - access_harvard_business_case
 - access_harvard_business_review
 - access_journal_marketing_specific
@@ -18,7 +14,6 @@ intents:
 - add_coding_data
 - add_course_reading_blackboard
 - additional_resource_available_chicago
-- additional_resource_available_evaluating
 - additional_resource_available_learning
 - additional_resource_mla_citation
 - advanced_text_analysis_tool
@@ -38,15 +33,12 @@ intents:
 - ask_library_open
 - assistance_available_data_analysis
 - attribute_ai_research
-- attribution_information_open_educational
 - attribution_work
 - audio_production_tool_available
 - autocode_data_file_nvivo
 - backing_data_important
-- benefit_archiving_research
 - benefit_using_open_educational
 - book_mailed_home_address
-- borrow_technology_library
 - bot_challenge
 - business_statistic_resource_available
 - busy_thomas_cooper_library
@@ -61,31 +53,21 @@ intents:
 - check_ipad
 - check_laptop
 - check_locker
-- check_policy_textbook
-- chicago_17_authordate_citation
 - chicago_manual_style
 - choose_number
 - choose_right_visualization_data
 - citation_style_guide
 - cite_ai_manuscript
-- cite_book_book_chapter
 - cite_book_reference_text
 - cite_data_set_software
-- cite_data_statistical_software
 - cite_dataset
-- cite_dissertation
 - cite_dissertation_thesis_apa
-- cite_dissertation_thesis_chicago
 - cite_government_business_technical
 - cite_government_report
-- cite_journal_article_chicago
-- cite_newspaper_magazine_article
 - cite_periodical_apa_style
 - cite_primary_source_chicago
 - cite_webpage_website_apa
-- cite_website_blog_social
 - coding_stripe_display_them
-- collaborate_someone_ai_research
 - collaboration_tool_available
 - common_issue_printing
 - common_term_used_data
@@ -110,11 +92,8 @@ intents:
 - create_codebook_nvivo
 - create_open_access_journal
 - create_open_educational_resource
-- create_project_file_nvivo
 - criterion_evaluating_online_resource
 - criterion_use_evaluate_oer
-- data_cleaning_tool_available
-- data_organization
 - data_resource_available
 - data_science_lifecycle
 - data_set_available_criminal
@@ -147,16 +126,13 @@ intents:
 - evaluation_method_digital_scholarship
 - event_offered_constellate
 - event_upcoming
-- example_ai_art_generator
 - example_generative_ai_chatbots
 - example_policy_guideline_ai
 - example_project_use_digital
 - export_codebook
 - factor_consider_selecting_data
 - factor_selection_committee_consider
-- faculty_member_make_course
 - fair_use
-- fair_use_apply_student
 - featured_repository
 - federal_legal_response_ai
 - file_format_use_ensure
@@ -166,7 +142,6 @@ intents:
 - find_empirical_study
 - find_environmental_geospatial_data
 - find_example_chicago_citation
-- find_example_digital_project
 - find_example_dissertation_online
 - find_historical_newspaper_article
 - find_information_apa_citation
@@ -175,7 +150,6 @@ intents:
 - find_journal_impact_factor
 - find_open_freely_available
 - find_openly_available_research
-- find_printable_style_sheet
 - find_published_example_action
 - find_resource_registering_project
 - find_subjectspecific_data_statistic
@@ -187,7 +161,6 @@ intents:
 - format_work_cited_entry
 - found_book_library_catalog
 - found_image_south_caroliniana
-- framework_use_effective_ai
 - freely_available_corpus_text
 - friend_university_library_previously
 - general_data_set_available
@@ -195,7 +168,6 @@ intents:
 - general_statistic_resource_available
 - geospatial_data_resource_available
 - get_data_visualization_help
-- get_doi_project
 - get_free_subscription_new
 - get_full_text_access
 - get_help_citation
@@ -211,14 +183,10 @@ intents:
 - get_started_text_mining
 - get_started_uscs_create
 - good_rule_thumb_backing
-- graduate_program_offer_ai
 - greet
 - guidance_university_college_provide
 - guideline_creating_effective_visualization
 - happens_article_resulting_accepted
-- happens_make_osf_project
-- happens_return_textbook_late
-- hardware_available_datalab
 - hathitrust_research_center
 - hathitrust_research_center_access
 - hathitrust_university_member
@@ -227,8 +195,6 @@ intents:
 - hydrological_data_resource_available
 - impact_open_educational_resource
 - import_data_file_nvivo
-- importance_quality_data_data
-- important_cite_data
 - include_data_management_plan
 - include_metadata
 - industry_membership_indicate_journal
@@ -244,7 +210,6 @@ intents:
 - kind_guidance_expect_online
 - kind_research_support_university
 - kind_workshop_library_offer
-- know_citation_style_use
 - landuse_landcover_database_available
 - learn_clear_framework
 - learn_digital_project_showcase
@@ -275,7 +240,6 @@ intents:
 - library_reader_advisory_database
 - library_textbook
 - licensing_apply_using_content
-- limitation_uscs_create_digital
 - login_use_library_access
 - lost_found
 - machine_learning
@@ -298,7 +262,6 @@ intents:
 - observed_data_resource_available
 - ongoing_event_happening_library
 - open_access_journal_featuring
-- open_case_study_use
 - open_data
 - open_pedagogy
 - open_science_framework
@@ -315,27 +278,20 @@ intents:
 - policy_established_open_access
 - policy_text_analysis_licensed
 - policy_using_ai_developing
-- predatory_publisher
-- print_device
 - print_library
 - print_material_available_course
-- problem_published_research_finding
 - programming_language_use_data
-- prompt_engineering
 - public_domain
 - publishing_book_related_south
 - publishing_work_us_resource
 - quote_award_recipient_chose
 - register_access_ad_age
-- registered_report_osf
 - renew_book
 - request_book_delivered_campus
 - request_copy_manuscript
-- request_remote_access_software
 - required_participate_scoer_program
 - research_data_management
 - reserve_study_room
-- resource_available_academic_integrity
 - resource_available_finding_criminal
 - resource_available_finding_economic
 - resource_available_finding_health
@@ -403,7 +359,6 @@ intents:
 - store_create_machine_readable
 - student_involved_creation_knowledge
 - student_success_center_peer
-- subfields_artificial_intelligence
 - suggest_title_library_purchase
 - suggest_workshop
 - support_library
@@ -426,23 +381,17 @@ intents:
 - type_repository_sharing_research
 - type_work_copyrighted
 - u_statistic_resource_available
-- uncode_data
-- undergraduate_program_offer_ai
-- university_alabama_api_code
 - university_institutional_repository
 - university_policy_apply_research
 - usc_columbia_user
 - usc_library
-- usc_related_digital_scholarship
 - uscs_create_digital
 - use_case_nvivo
-- use_digital_tool_research
 - username_password_working_do
 - vendor_allow_text_analysis
 - vendor_allow_text_data
 - version_work_share
 - visitor_come_library
-- way_search_across_multiple
 - web_archiving
 - web_scraper_available
 - whats_data_management_plan
@@ -454,7 +403,8 @@ responses:
   utter_greet:
   - text: Hi! How can I help you?
   utter_iamabot:
-  - text: I am a bot, designed to assist you with anything Digital Research Services (DRS) related!
+  - text: I am a bot, designed to assist you with anything Digital Research Services
+      (DRS) related!
   utter_Do not answer:
   - text: |
       Sorry, I am designed not to answer such a question.
@@ -474,12 +424,6 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)  
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
-  utter_use_digital_tool_research:
-  - text: |
-      The library offers support for using digital processes, tools, and methods to enable and present new forms of research. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
-  utter_data_organization:
-  - text: |
-      The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
   utter_kind_workshop_library_offer:
   - text: |
       ## Workshops
@@ -1645,7 +1589,7 @@ responses:
   utter_get_data_visualization_help:
   - text: |
       Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization.  
-      
+
       # Contact Us
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
@@ -1705,6 +1649,10 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
   utter_specialized_software_available_datalab:
   - text: |
+      ## Available Hardware
+      - 3 high-powered Windows computers
+      - Large-screen monitor with individual-owned Windows laptops connection capabilities
+
       ## Available Specialized Software
       A variety of software related to data/spatial analysis and data/spatial visualization is installed on the computers in the DataLab. Instructional information about these software applications is available below.
       - [SPSS Statistics 29](https://www.youtube.com/watch?v=_zFBUfZEBWQ)
@@ -1724,21 +1672,11 @@ responses:
       Additional computers () with ArcGIS, Nvivo, R, SAS, and SPSS software are available at the Gambrell Computing Center located at 817 Henderson Street, Columbia, SC 29208.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
-  utter_hardware_available_datalab:
-  - text: |
-      ## Available Hardware
-      - 3 high-powered Windows computers
-      - Large-screen monitor with individual-owned Windows laptops connection capabilities
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
-  utter_importance_quality_data_data:
+  utter_find_subjectspecific_data_statistic:
   - text: |
       ## Finding Data
       Effective data visualization requires quality data be used. In many cases, your research will create or collect its own data. In some cases, you may wish to use data that has already been collected.
 
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=9683964)
-  utter_find_subjectspecific_data_statistic:
-  - text: |
       ## Subject Specific Data and Statistics
       The University Libraries' Research, Instruction, and Reference professionals have curated a significant collection of sources providing statistics and data sets for a variety of subject areas.
       - [Finding Statistics and Data Sets](https://guides.library.sc.edu/data_and_statistics)
@@ -1862,16 +1800,13 @@ responses:
       [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Copyright SPARC
 
       [Learn more here](https://guides.library.sc.edu/opendata)
-  utter_create_project_file_nvivo:
+  utter_different_part_nvivo_workspace:
   - text: |
       ## Creating a Project File
       - Open NVivo, then click Create a new project
       - When the New Project dialog box opens, enter a name for the project in the Project title box
       - Check the File location and click the Browse button to change where the file saves
       - Click the Create button
-      [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
-  utter_different_part_nvivo_workspace:
-  - text: |
       ## Understanding the Workspace
       - Menu Bar: Provides access to the commands you need to use when you are working with NVivo
       - Navigation View: Provides access to all your project items. When you click on a folder in Navigation View, its contents are displayed in List View
@@ -1913,6 +1848,10 @@ responses:
       [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
   utter_software_hardware_resource_available:
   - text: |
+      # Course Support
+      ## Remote Access Software Request
+      Complete this form to request remote access to software. 
+      Required fields
       ## Software and Hardware
       University Libraries provides a variety of computing resources to support the needs of students, faculty and staff for research and coursework.
       ### Software Available Remotely
@@ -1972,18 +1911,6 @@ responses:
       - Windows computers
       - Scanners for Windows
       - B&W and color printers
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
-  utter_borrow_technology_library:
-  - text: |
-      # Borrow Technology
-      Want to check out a laptop or iPad? Learn about the [technology you can borrow](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/technology/index.php) from the library.
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
-  utter_request_remote_access_software:
-  - text: |
-      # Course Support
-      ## Remote Access Software Request
-      Complete this form to request remote access to software. 
-      Required fields
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
   utter_general_statistic_resource_available:
   - text: |
@@ -2054,6 +1981,10 @@ responses:
       [Learn more here](https://guides.library.sc.edu/nvivo/coding)
   utter_add_coding_data:
   - text: |
+      ### Uncoding Data
+      - Select the text you would like to uncode and highlight it with your cursor
+      - Right-click and select Uncode Selection, then select At Existing Nodes or Cases
+
       ## Coding Data
       ### Add Coding
       - In the Navigation View panel, click on Files. Then, in the List View panel, open a data source
@@ -2066,13 +1997,6 @@ responses:
       - Select the text you would like to code and highlight it with your cursor
       - Use the keyboard shortcut (Windows: CTRL + Q; Mac: ⌘ + /) and then search for the applicable code
       - Select the applicable code
-
-      [Learn more here](https://guides.library.sc.edu/nvivo/coding)
-  utter_uncode_data:
-  - text: |
-      ### Uncoding Data
-      - Select the text you would like to uncode and highlight it with your cursor
-      - Right-click and select Uncode Selection, then select At Existing Nodes or Cases
 
       [Learn more here](https://guides.library.sc.edu/nvivo/coding)
   utter_coding_stripe_display_them:
@@ -2250,13 +2174,10 @@ responses:
       - [WorldBank Data](https://data.worldbank.org/data-catalog)
 
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/cj)
-  utter_important_cite_data:
+  utter_information_needed_properly_cite:
   - text: |
       If you are using another researcher's dataset, it's important to cite it to give that producer credit. Citing data also simplifies access to data for re-use.
 
-      [Learn more here](https://guides.library.sc.edu/c.php?g=831780&p=5941467)
-  utter_information_needed_properly_cite:
-  - text: |
       Data Creator
       Title of Dataset
       Year of Publication
@@ -2607,7 +2528,8 @@ responses:
       #### Sharing Data
       Funders and publishers may require that a research project’s underlying data be made publicly available. Explore options and learn about citing datasets.](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
   utter_contact_help_research_data:
-  - text: |2
+  - text: |
+      The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more. 
 
       # Contact Us
       Contact us with questions or to schedule an appointment.
@@ -2616,7 +2538,7 @@ responses:
       Research Data Librarian  
       803-777-1968  
       [winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
-      
+
       ### Make an Appointment
       [Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.  
 
@@ -2844,13 +2766,10 @@ responses:
         DataONE is a platform for sharing environmental and ecological data. The DataONE Research Data Management Education Modules provide guidance on many concepts.
       - [MANTRA](https://mantra.ed.ac.uk/)\n\n[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4581796)  
         A free online data management course from the University of Edinburgh that provides modules geared toward Research Students, Career Researchers, Senior Academics, and Information Professionals.
-  utter_registered_report_osf:
+  utter_happens_article_resulting_accepted:
   - text: |
       Registrations in OSF are time-stamped, read-only versions of a research plan that explain how data will be collected, manipulated, and analyzed in advance. Providing this [](https://cos.io/rr/) to a participating journal effectively creates two peer-review processes.
 
-      [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)
-  utter_happens_article_resulting_accepted:
-  - text: |
       Articles resulting from accepted Registered Reports are accepted by the journal regardless of outcome after the peer reviewed quality checks are met.
 
       - [Register your Project with OSF](https://help.osf.io/hc/en-us/articles/360019930893-Register-Your-Project)
@@ -2874,19 +2793,13 @@ responses:
       Additional workshops and programs about teaching are offered through the [Center for Teaching Excellence](https://www.sc.edu/about/offices_and_divisions/cte/index.php).
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=5107061)
-  utter_happens_make_osf_project:
-  - text: |
-      You may choose to make your OSF project public. If you do, OSF's Preservation Fund preserves and maintains read access to any hosted data on OSF. This fund is sufficient for 50+ years of read access hosting at present costs.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738117)
-  utter_get_doi_project:
-  - text: |
-      ## Get a DOI
-      OSF assigns DOIs for entire projects but not individual data sets within projects.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738117)
   utter_kind_ai_support_library:
   - text: |
+      #### Research Project Collaboration
+      - Collaborating on interdisciplinary research projects that require AI or data science expertise.
+      - Assist in using other library digital services such as data management and visualization.
+
+
       ## AI/Data Science Support
       The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
 
@@ -2894,7 +2807,7 @@ responses:
       - [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
       - [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
       - [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
-      
+
       #### Artificial Intelligence Institute at USC
       - [The Artificial Intelligence Institute](https://aiisc.ai/)
 
@@ -2905,7 +2818,7 @@ responses:
 
       ##### Disclaimer
       The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
-      
+
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
   utter_workshop_available_ai_data:
   - text: |
@@ -2914,14 +2827,6 @@ responses:
       - AI/Machine learning: Offering training to improve data literacy covering topics like data ethics, data management, and basic analysis techniques.
       - AI Ethics and Responsible AI: Educating the academic community on the ethical implications of AI, including bias, fairness, and transparency.
       - GenAI: Usage of GenAI for research and learning.
-
-
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
-  utter_collaborate_someone_ai_research:
-  - text: |
-      #### Research Project Collaboration
-      - Collaborating on interdisciplinary research projects that require AI or data science expertise.
-      - Assist in using other library digital services such as data management and visualization.
 
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
@@ -2964,14 +2869,11 @@ responses:
       - Generative AI and Large Language Models revolutionized AI.
 
       [Learn more here](https://guides.library.sc.edu/welcome-to-the-world-of-ai)
-  utter_subfields_artificial_intelligence:
+  utter_application_artificial_intelligence:
   - text: |
       ## What are the subfields of AI?
       The term AI can be used for any system mimicking human cognitive skills, such as planning, pattern recognition, and decision-making.
 
-      [Learn more here](https://guides.library.sc.edu/welcome-to-the-world-of-ai)
-  utter_application_artificial_intelligence:
-  - text: |
       ## What are the applications of AI?
       There are numerous applications of AI; from healthcare to finance, from designing robots to cybersecurity, from recommender systems to search engines, and so on. Some of the other applications are given below:
       - Targeted advertising and personalized recommendations (like Amazon)
@@ -2999,7 +2901,7 @@ responses:
   - text: |
       - Be sure to review and understand the [implications](https://sc.edu/about/offices_and_divisions/student_conduct_and_academic_integrity/academic_integrity/artificial_intelligence/index.php) before choosing to use AI technologies and/or tools.
       - While our guide presents information about, and actively uses, various AI tools, the University Libraries recommend or endorse any specific AI technology and/or tool(s).
-      
+
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979)
   utter_text_analysis:
   - text: |
@@ -3103,12 +3005,6 @@ responses:
       - Subset of data (different from training and validation) on which model is tested.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1430013&p=10626775)
-  utter_resource_available_academic_integrity:
-  - text: |
-      ## Academic Integrity and Student Conduct
-      - [AI and Student Conduct/Academic Integrity](https://sc.edu/about/offices_and_divisions/student_conduct_and_academic_integrity/academic_integrity/artificial_intelligence/index.php)
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10028526)
   utter_news_event_related_ai:
   - text: |
       ## USC News & Events
@@ -3122,18 +3018,10 @@ responses:
       - [Graduate Certificate in Artificial Intelligence](https://sc.edu/study/colleges_schools/engineering_and_computing/academics/graduate_programs/artificial_intelligence_certificate/index.php)The Artificial Intelligence Graduate Certificate is a 12-credit hour program comprised of core and elective courses.Major subjects include: Big Data Analytics, Robotics Systems, Machine Learning, Data Mining and Warehousing, Bayesian Networks and Decision Graphs, Computer Processing and Natural Language, Pattern Recognition and Classification
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10028526)
-  utter_undergraduate_program_offer_ai:
-  - text: |
-      - [Artificial Intelligence Concentration](https://academicbulletins.sc.edu/undergraduate/engineering-computing/computer-science-engineering/computer-engineering-bse/#requirementstext)Computer Engineering, B.S.E.Computer Information Systems, B.S.Computer Science, B.S.C.S
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10028526)
-  utter_graduate_program_offer_ai:
+  utter_ai_course_available:
   - text: |
       - [Information Technology, M.S.](https://academicbulletins.sc.edu/graduate/engineering-computing/integrated-information-technology/information-technology-ms/#requirementstext)ITEC 781 - Artificial Intelligence and Informatics IITEC 782 - Artificial Intelligence and Informatics II
 
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10028526)
-  utter_ai_course_available:
-  - text: |
       - [Course Listings](https://academicbulletins.sc.edu/search/?search=artificial+intelligence)CSCE 580 - Artificial IntelligenceCSCE 581 - Trusted Artificial IntelligenceENCP 788 - Independent Project in Artificial IntelligenceITEC 781 - Artificial Intelligence and Informatics IITEC 782 - Artificial Intelligence and Informatics IILAWS 851 - Artificial Intelligence, Law, Ethics, and Policy
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10028526)
@@ -3147,17 +3035,6 @@ responses:
       - [Voyant](https://voyant-tools.org/) 
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
-  utter_What_is_Constellate:
-  - text: |
-      ## Constellate (USC login required)
-      A text and data analysis licensed service from Ithaka's JSTOR for learning and performing text analysis, building datasets, and sharing files. 
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
-  utter_access_constellate:
-  - text: |
-      After you sign into JSTOR, you should be able to access the tutorials and Jupyter lab notebooks. [See the Contellate Guide for detailed instructions](https://constellate.org/docs/log-in) or visit their [YouTube site for video tutorials](https://www.youtube.com/@Constellate_org).
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
   utter_hathitrust_research_center:
   - text: |
       ## HathiTrust Research Center (USC login required)
@@ -3166,6 +3043,11 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
   utter_advanced_text_analysis_tool:
   - text: |
+      ## Data Cleaning Tools
+      - [Open Refine](https://openrefine.org/download)
+      - [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+      - [Regular Expressions (Regex)](https://regex101.com/)
+
       ## Advanced Text Analysis Tools
       These tools will take some learning, but there are people in Research Computing and in the Libraries who can help you get started.
       - [Anaconda](https://www.anaconda.com/)
@@ -3177,14 +3059,6 @@ responses:
       - [Python Programming Language](https://www.python.org/)
       - [R Studio](https://posit.co/download/rstudio-desktop/)
       - [TAPoR 3](https://tapor.ca/home)
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
-  utter_data_cleaning_tool_available:
-  - text: |
-      ## Data Cleaning Tools
-      - [Open Refine](https://openrefine.org/download)
-      - [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
-      - [Regular Expressions (Regex)](https://regex101.com/)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
   utter_freely_available_corpus_text:
@@ -3207,13 +3081,10 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886165)
   utter_learn_work_api:
   - text: |
-      ## Learn to work with an API
-      Here is some information to learn how to pull in some of these free content and work with their API (Application Programming Interface).
       - [University of Alambama API Code Examples](https://ualibweb.github.io/UALIB_ScholarlyAPI_Cookbook/content/about/introduction.html)
 
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886165)
-  utter_university_alabama_api_code:
-  - text: |
+      ## Learn to work with an API
+      Here is some information to learn how to pull in some of these free content and work with their API (Application Programming Interface).
       - [University of Alambama API Code Examples](https://ualibweb.github.io/UALIB_ScholarlyAPI_Cookbook/content/about/introduction.html)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886165)
@@ -3292,16 +3163,13 @@ responses:
       #### Support the Libraries
       Your gift to the libraries funds learning and discovery by helping us acquire new resources, revitalize spaces, and preserve rare and historic materials.
       [Ways to Give](https://sc.edu/about/offices_and_divisions/university_libraries/support/index.php)
-  utter_print_device:
+  utter_event_upcoming:
   - text: |
       # Print from your device
       [Login to print](https://mobileprint.tcl.sc.edu/myprintcenter/)
       Send documents from your computer directly to library printers.
       [Need help?](https://libanswers.library.sc.edu/faq/268696)
 
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
-  utter_event_upcoming:
-  - text: |
       ### Upcoming Events
       #### Graduate Student Research ToolboxMonday, Mar. 3, 2025See event description for more details.
       #### A Curious Heart: The Life and Letters of Elizabeth Boatwright Coker Book Talk and SigningTuesday, Mar. 4, 2025Hollings Special Collections Library Program Room0
@@ -3382,6 +3250,9 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10053229)
   utter_citation_style_guide:
   - text: |
+      Usually your professor will include the required or preferred citation style in your assignment instructions. If you're not sure what style you should use, ask your professor for clarification.
+
+
       ## Citation Style Guides
       Proper citation formats are determined by the particular citation style guide that you are following. Usually your professor will include the required or preferred citation style in your assignment instructions. If you're not sure what style you should use, ask your professor for clarification.
       This guide includes examples to help with citation formats in the most commonly used styles:
@@ -3413,42 +3284,6 @@ responses:
 
 
       [Learn more here](https://guides.library.sc.edu/citation)
-  utter_know_citation_style_use:
-  - text: |
-      Usually your professor will include the required or preferred citation style in your assignment instructions. If you're not sure what style you should use, ask your professor for clarification.
-
-
-      [Learn more here](https://guides.library.sc.edu/citation)
-  utter_check_policy_textbook:
-  - text: |2
-
-      #### Check Out Policy
-      Generally, you can borrow textbooks for 2 hours and they must stay in the building. There are exceptions, and exact due date and time is provided at check out. Renewals are not allowed so all students have the opportunity to use these in-demand items.
-
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
-  utter_happens_return_textbook_late:
-  - text: |2
-
-      #### Fines and Blocked Accounts
-      Returning a textbook late can block you from future textbook check outs.
-      - Hourly loans for building use only: $5 per hour
-      - Extended loans for 1 day, 3 days or 1 week: $15 per day
-
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
-  utter_access_course_material:
-  - text: |2
-
-      ### Other Course Materials
-      We are working with instructors to make course materials, such as ebooks, online articles and streaming films, available in Blackboard whenever possible. Please check [Blackboard](https://blackboard.sc.edu/) or contact your instructor.
-
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
-  utter_faculty_member_make_course:
-  - text: |2
-
-      # For Faculty and Instructors
-      Want to make course materials available for your students? [Find out how the library can help](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php).
-
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
   utter_contact_library_textbook_course:
   - text: |2
 
@@ -3491,6 +3326,10 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886483)
   utter_ama_citation_style:
   - text: |
+      A DOI is a unique alphanumeric string that provides a persistent link to content online.
+
+      - [Free DOI search from Crossref](http://www.crossref.org/guestquery/)
+
       ## American Medical Association (AMA) Citation Style 11th ed.
       These guidelines are based on the 11th edition of the AMA Manual of Style.  For additional information, please see [the official AMA 11 manual (online).](https://guides.library.sc.edu/citation/ama#s-lg-box-24654216)
 
@@ -3506,28 +3345,13 @@ responses:
       [Learn more here](https://guides.library.sc.edu/citation/ama)
   utter_cite_government_report:
   - text: |
-      National Heart, Lung and Blood Institute. . National Institute of Health; 2017. NIH publication 17-HL-8031. Accessed August 6, 2020. https://www.nhlbi.nih.gov/sites/default/files/publications/COPD%20National%20Action%20Plan%20508.pdf
-
-      Center for Global Health. . National Institutes of Health; 2016. NIH publication 16-CA-8025. Accessed August 6, 2020. https://www.cancer.gov/about-nci/organization/cgh/research/annual-report
-
-      [Learn more here](https://guides.library.sc.edu/citation/ama)
-  utter_cite_dissertation:
-  - text: |
-      Webb, LA. . Dissertation. University of South Carolina; 2019. Accessed August 4, 2020. https://scholarcommons.sc.edu/ etd/5327/
-
-      [Learn more here](https://guides.library.sc.edu/citation/ama)
-  utter_cite_data_statistical_software:
-  - text: |
       Cutter AD, Gray JC. Data from: Ephemeral ecological speciation and the latitudinal biodiversity gradient. . Deposited August 17, 2016. doi:10/5061/dryad.734v9
 
       . Version 18. StataCorp; 2025. Accessed March 14, 2025. http://www.stata.com/
 
-      [Learn more here](https://guides.library.sc.edu/citation/ama)
-  utter_What_is_a_DOI:
-  - text: |
-      A DOI is a unique alphanumeric string that provides a persistent link to content online.
+      National Heart, Lung and Blood Institute. . National Institute of Health; 2017. NIH publication 17-HL-8031. Accessed August 6, 2020. https://www.nhlbi.nih.gov/sites/default/files/publications/COPD%20National%20Action%20Plan%20508.pdf
 
-      - [Free DOI search from Crossref](http://www.crossref.org/guestquery/)
+      Center for Global Health. . National Institutes of Health; 2016. NIH publication 16-CA-8025. Accessed August 6, 2020. https://www.cancer.gov/about-nci/organization/cgh/research/annual-report
 
       [Learn more here](https://guides.library.sc.edu/citation/ama)
   utter_apa_publication_manual:
@@ -3589,40 +3413,6 @@ responses:
       This guide provides examples of notes and bibliographic entries*  Chicago Manual of Style (CMOS), preferred by scholars in history, literature, and the arts. For additional guidance, take a look at [the CMOS 18 official handbook (online).](https://guides.library.sc.edu/citation/chicago#s-lg-box-16965191)
 
       [Learn more here](https://guides.library.sc.edu/citation/chicago)
-  utter_cite_journal_article_chicago:
-  - text: |
-      ## Journal Articles
-
-      For guidance on citing journal articles, refer to the Chicago Manual of Style.
-
-      [Learn more here](https://guides.library.sc.edu/citation/chicago)
-  utter_cite_book_book_chapter:
-  - text: |
-      ## Books and Book Chapters
-
-      For guidance on citing books and book chapters, refer to the Chicago Manual of Style.
-
-      [Learn more here](https://guides.library.sc.edu/citation/chicago)
-  utter_cite_newspaper_magazine_article:
-  - text: |
-      ## Newspaper and Magazine Articles
-
-      For guidance on citing newspaper and magazine articles, refer to the Chicago Manual of Style.
-
-      [Learn more here](https://guides.library.sc.edu/citation/chicago)
-  utter_cite_dissertation_thesis_chicago:
-  - text: |
-      ## Dissertations and Theses
-
-      For guidance on citing dissertations and theses, refer to the Chicago Manual of Style.
-
-      [Learn more here](https://guides.library.sc.edu/citation/chicago)
-  utter_cite_website_blog_social:
-  - text: |
-      ## Websites, Blogs, and Social Media
-      - For guidance on citing websites, blogs, and social media, refer to the Chicago Manual of Style.
-
-      [Learn more here](https://guides.library.sc.edu/citation/chicago)
   utter_cite_primary_source_chicago:
   - text: |
       ## Primary Sources
@@ -3640,16 +3430,13 @@ responses:
       [Learn more here](https://guides.library.sc.edu/citation/chicago)
   utter_find_example_chicago_citation:
   - text: |
+      ## Printable style sheets
+      - [Chicago Style 17th edition](https://guides.library.sc.edu/ld.php?content_id=38692665)
+
       ## Examples of Chicago Citations
       - [Chicago Manual of Style Online](https://go.openathens.net/redirector/sc.edu?url=https%3A%2F%2Fwww.chicagomanualofstyle.org%2Fbook%2Fed18%2Ffrontmatter%2Ftoc.html)
       - [Quick Citation Guide - Chicago Manual of Style 18th Ed.](https://www.chicagomanualofstyle.org/tools_citationguide.html)
       - [FAQ's - Chicago Manual of Style 18th Ed.](https://www.chicagomanualofstyle.org/qanda/latest.html)
-
-      [Learn more here](https://guides.library.sc.edu/citation/chicago)
-  utter_find_printable_style_sheet:
-  - text: |
-      ## Printable style sheets
-      - [Chicago Style 17th edition](https://guides.library.sc.edu/ld.php?content_id=38692665)
 
       [Learn more here](https://guides.library.sc.edu/citation/chicago)
   utter_ongoing_event_happening_library:
@@ -3659,6 +3446,10 @@ responses:
       [Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/calendar/ongoing_events_calendar.php?trumbaEmbed=view%3devent%26eventid%3d1238861865)
   utter_example_project_use_digital:
   - text: |
+      ## USC Related Work
+      - [Gavin, Michael. (2023) Literary Mathematics](https://literarymathematics.org/)
+      - [On the Books: Jim Crow and Algorithms of Resistance](https://onthebooks.lib.unc.edu/)[more...](javascript:void(0);)[less...](javascript:void(0);)
+
       ## Example Projects
       - [Blevins, Cameron. (April 2010) Topic Modeling Marth Ballard's Diary. Blog Post](http://www.cameronblevins.org/posts/topic-modeling-martha-ballards-diary/)
       - [Block, Sharon. (January 2006) Doing More with Digitization. Common Place. Vol.6 No.2](http://commonplace.online/article/doing-more-with-digitization/)
@@ -3670,13 +3461,6 @@ responses:
       - [National Science Foundation. (2016) Rescued History: Using Big Data. Press Release](https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=137797&org=NSF)
       - [Nelson, Robert. Mining the Dispatch Digital Scholarship Lab, University of Richmond.](http://dsl.richmond.edu/dispatch/)
       - [Newspapers as Data Project](https://libguides.library.arizona.edu/newspapers-as-data)[more...](javascript:void(0);)[less...](javascript:void(0);)
-      - [On the Books: Jim Crow and Algorithms of Resistance](https://onthebooks.lib.unc.edu/)[more...](javascript:void(0);)[less...](javascript:void(0);)
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886548)
-  utter_usc_related_digital_scholarship:
-  - text: |
-      ## USC Related Work
-      - [Gavin, Michael. (2023) Literary Mathematics](https://literarymathematics.org/)
       - [On the Books: Jim Crow and Algorithms of Resistance](https://onthebooks.lib.unc.edu/)[more...](javascript:void(0);)[less...](javascript:void(0);)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886548)
@@ -3743,23 +3527,17 @@ responses:
       - [Student Conduct and Academic Integrity - Artificial Intelligence](https://sc.edu/about/offices_and_divisions/student_conduct_and_academic_integrity/academic_integrity/artificial_intelligence/index.php)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=410193&p=10386858)
-  utter_prompt_engineering:
-  - text: |
-      ## Prompt Engineering Defined
-      Prompt engineering is the practice of designing inputs for generative AI tools that will produce optimal outputs.
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10065331)
-  utter_framework_use_effective_ai:
+  utter_learn_clear_framework:
   - text: |
       ## The CLEAR Framework for effective AI prompts
       Dr. Leo Lo, Dean of the College of University Libraries & Learning Sciences at the University of New Mexico, has developed a framework for effective AI prompt engineering. The CLEAR framework is comprised of five characteristics.
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10065331)
-  utter_learn_clear_framework:
-  - text: |
       - [The CLEAR path: A framework for enhancing information literacy through prompt engineering](https://doi.org/10.1016/j.acalib.2023.102720)Leo S. Lo, The CLEAR path: A framework for enhancing information literacy through prompt engineering,The Journal of Academic Librarianship, Volume 49, Issue 4,2023
       - [CLEARer Dialogues with AI: Unpacking Prompt Engineering for Librarians](https://www.youtube.com/watch?v=3pvmMEnJhCs)
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10065331)
   utter_learn_prompt_engineering:
   - text: |
+      ## Prompt Engineering Defined
+      Prompt engineering is the practice of designing inputs for generative AI tools that will produce optimal outputs.
       ## Learn Prompt Engineering
       - [12 ways to get better at using ChatGPT: Comprehensive prompt guide](https://www.businessinsider.com/how-to-use-get-better-chatgpt-ai-prompt-guide)
       - [Prompt Engineering for ChatGPT](https://www.coursera.org/learn/prompt-engineering?action=enroll)
@@ -3788,7 +3566,11 @@ responses:
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1370928&p=10133633)
   utter_evaluating_resource_checklist:
-  - text: |
+  - text: |2
+
+      ## Additional Resources
+      Evaluating Sources: Credo Reference Videos (YouTube) [3:47]
+      The Facts About Fact Checking: Crash Course (YouTube) [13:55]
       ## Evaluating Resources Checklist
       - [Checklist for Evaluating Web Pages](https://guides.library.sc.edu/ld.php?content_id=76915064)
 
@@ -3836,15 +3618,11 @@ responses:
       - [Why Are We Still Listening To Mainstream News? (Medium, 2020)](https://medium.com/indian-thoughts/why-are-we-still-listening-to-mainstream-news-ad8f9b901ad2)
       - [Why do billionaires want to own the news? (BBC News, 2018)](https://www.bbc.com/news/business-45550747)
       [Learn more here](https://guides.library.sc.edu/evaluate)
-  utter_additional_resource_available_evaluating:
-  - text: |2
-
-      ## Additional Resources
-      Evaluating Sources: Credo Reference Videos (YouTube) [3:47]
-      The Facts About Fact Checking: Crash Course (YouTube) [13:55]
-      [Learn more here](https://guides.library.sc.edu/evaluate)
   utter_example_generative_ai_chatbots:
   - text: |
+      - [Dall-E 2](https://openai.com/dall-e-2)
+      - [Bing Image Creator](https://www.bing.com/create)
+
       ## Generative AI Chatbots
       In their own words
       - [Bard](https://bard.google.com/?hl=en)Created by Google.I would describe myself as a large language model, also known as a conversational AI or chatbot, trained to be informative and comprehensive. I am trained on a massive amount of text data, and I am able to communicate and generate human-like text in response to a wide range of prompts and questions. For example, I can provide summaries of factual topics or create stories.I am still under development, but I have learned to perform many kinds of tasks, including* I will try my best to follow your instructions and complete your requests thoughtfully.* I will use my knowledge to answer your questions in a comprehensive and informative way, even if they are open ended, challenging, or strange.* I will generate different creative text formats of text content, like poems, code, scripts, musical pieces, email, letters, etc. I will try my best to fulfill all your requirements.I am excited to be a part of your study guide, and I hope that I can help you to learn and understand new things.
@@ -3859,12 +3637,6 @@ responses:
       ### How do AI art generators work?
       The goal of an AI art generator is to take a text prompt and turn it into an image that represents the prompt. Comparable to LLMs (large language models), art generators use vast image-text pair content models to discern and learn image meanings and characteristics. Ultimately, they render a resulting image using either a diffusion model or generative adversarial networks (GANS).
       Unlike the major generative AI chatbots, most generative AI art generators have limited or no free access.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10019175)
-  utter_example_ai_art_generator:
-  - text: |
-      - [Dall-E 2](https://openai.com/dall-e-2)
-      - [Bing Image Creator](https://www.bing.com/create)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10019175)
   utter_attribute_ai_research:
@@ -3890,14 +3662,11 @@ responses:
       - [How to cite ChatGPT by the APA Style Blog](https://apastyle.apa.org/blog/how-to-cite-chatgpt)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1370928&p=10133636)
-  utter_chicago_17_authordate_citation:
+  utter_format_footnote_citation_chicago:
   - text: |
       ## Chicago 17: Author-date
       (Program, Month Day, Year).
       Before the industrial era, paper could be made out of cotton or hemp by the way of pulping the fibers before mixing the materials with water to then press and dry the fibers into sheets (ChatGPT, May 18, 2023).
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1370928&p=10133625)
-  utter_format_footnote_citation_chicago:
-  - text: |
       ## Chicago 17: Footnote Citation
       ### Prompttext
       1. Text generated by Program, Company, Month Day, Year, https://chat.openai.com/chat.
@@ -3946,12 +3715,6 @@ responses:
       Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
 
       [Digital Collections](https://sc.edu/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
-
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
-  utter_find_example_digital_project:
-  - text: |
-      # Digital Projects Showcase
-      [Digital Projects Showcase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
   utter_digital_scholarship:
@@ -4135,6 +3898,8 @@ responses:
       [Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
   utter_constellate_use_it:
   - text: |
+      After you sign into JSTOR, you should be able to access the tutorials and Jupyter lab notebooks. [See the Contellate Guide for detailed instructions](https://constellate.org/docs/log-in) or visit their [YouTube site for video tutorials](https://www.youtube.com/@Constellate_org).
+
       ## Constellate (USC login required)
       - [See the Contellate Guide for detailed instructions](https://constellate.org/docs/log-in) or visit their [YouTube site for video tutorials](https://www.youtube.com/@Constellate_org).
       The web site offers Tutorials in the top right link on Beginner Python Lessons and Intermediate Text Analysis.  Their site will help you 
@@ -4159,14 +3924,11 @@ responses:
       [Learn more here](https://guides.library.sc.edu/scholarcommons/impact)
   utter_uscs_create_digital:
   - text: |
+      Users are limited to 1 GB of hosting space in most cases. Please read the [Terms of Service](https://uofsccreate.org/terms-of-service/) and [Documentation](https://docs.usccreate.org/#create-digital-and-storage) for more information.
+
       ## Web Hosting with USC's Create Digital
       [](https://uofsccreate.org/)
       USC Libraries is happy to offer [](https://uofsccreate.org/), a free web hosting service for digital research and scholarship projects, to USC Columbia faculty, staff, and graduate students. Simply log in with your network username and password to access one-click installations and hosting for popular platforms such as Omeka, Wordpress, Scalar, and more. USC Create Digital allows you to manage all of your digital scholarship projects from one location.
-
-      [Learn more here](https://guides.library.sc.edu/digitalscholarship/webhosting)
-  utter_limitation_uscs_create_digital:
-  - text: |
-      Users are limited to 1 GB of hosting space in most cases. Please read the [Terms of Service](https://uofsccreate.org/terms-of-service/) and [Documentation](https://docs.usccreate.org/#create-digital-and-storage) for more information.
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/webhosting)
   utter_need_additional_storage:
@@ -4296,6 +4058,9 @@ responses:
       [Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
   utter_create_open_educational_resource:
   - text: |
+      ## Attribution
+      Sections of this page have been modified from the [COERLL Module on Open Educational Resources](https://utexas.instructure.com/courses/1097558), licensed under a [CC BY 4.0 Attribution](http://creativecommons.org/licenses/by/4.0) License.
+
       ## Creating OER
       Creating an OER is similar to authoring any other document, except that you are assigning that content an open license which usually allows for its free use and re-purposing by others. 
       Things to consider:
@@ -4311,12 +4076,6 @@ responses:
       Modifying an existing OER is a a simpler way of adopting content to suit your needs than creating a new OER. Before modifying an OER, check that the Creative Commons license does not contain a no derivatives clause. If it does, you do not have permission to modify the work. Search for formats that are conducive to modification, such as .docx and .rtf. Once you've downloaded and modified the OER, you can upload it to many of the sites listed in the [Sites for Creating and Hosting OER](http://guides.library.sc.edu/c.php?g=410356&p=3732812#s-lg-box-wrapper-13612726) section.
 
       [Learn more here](http://guides.library.sc.edu/OER/createOER)
-  utter_attribution_information_open_educational:
-  - text: |
-      ## Attribution
-      Sections of this page have been modified from the [COERLL Module on Open Educational Resources](https://utexas.instructure.com/courses/1097558), licensed under a [CC BY 4.0 Attribution](http://creativecommons.org/licenses/by/4.0) License.
-
-      [Learn more here](http://guides.library.sc.edu/OER/createOER)
   utter_create_account_scholar_common:
   - text: |
       ## Creating an Account in Scholar Commons
@@ -4330,14 +4089,14 @@ responses:
 
       [Learn more here](https://guides.library.sc.edu/scholarcommons/tutorials)
   utter_content_management_system_available:
-  - text: |2
+  - text: |
       ## Content Management Systems
       - [Drupal](https://www.drupal.org/)
       - [Omeka](https://omeka.org/)
       - [Scalar](https://scalar.me/anvc/)Scalar is an open source platform that specializes in book-length digital scholarship. It allows users to incorporate writings and media from many sources and enables non-linear writing formats. Download Scalar from USC Create Digital or register for[an account](http://scalar.usc.edu/works)from Scalar.
       - [Wordpress](http://wordpress.org/)
   utter_select_suitable_content_management:
-  - text: |2
+  - text: |
       ## Selection Criteria
       Selecting a CMS may seem like a simple task, but picking a CMS that is suitable is critical for the success of the project. Viewing tutorials and reviewing documentation in advance of your selection will help you to understand both the technical expertise necessary to administer your project and to decide if the CMS offers the tools needed to showcase your work.
       Need help selecting a CMS?[ Reach out to us for assistance!](mailto:boydkf@mailbox.sc.edu?subject=CMS%20help)
@@ -4460,16 +4219,13 @@ responses:
       [Learn more here](http://guides.library.sc.edu/copyright/fairuse)
   utter_resource_help_determine_fair:
   - text: |
+      ## Fair Use for Students
+      - [Fair Use in a Day in the Life of a College Student](https://guides.library.sc.edu/ld.php?content_id=19742476)
       ## Fair Use Checklist Examples
       There are many Fair Use checklists developed that have been developed by U.S. universities. These may be useful in helping you determine whether your intended use of a work is fair.
       - [Cornell University Fair Use Checklist](https://guides.library.cornell.edu/ld.php?content_id=63936868)
       - [Columbia University Fair Use Checklist](http://copyright.columbia.edu/copyright/fair-use/fair-use-checklist/)
       - [Fair Use Evaluator Tool](http://librarycopyright.net/resources/fairuse/index.php)
-      [Learn more here](http://guides.library.sc.edu/copyright/fairuse)
-  utter_fair_use_apply_student:
-  - text: |
-      ## Fair Use for Students
-      - [Fair Use in a Day in the Life of a College Student](https://guides.library.sc.edu/ld.php?content_id=19742476)
       [Learn more here](http://guides.library.sc.edu/copyright/fairuse)
   utter_need_permission_use_copyrighted:
   - text: |
@@ -4503,11 +4259,6 @@ responses:
       The University Libraries will seek and will sometimes pay reasonable permissions fees for items used for teaching in Blackboard. If you would like our help, please email your syllabus or reading list with citations to [Mark Volmer](mailto:volmerm@mailbox.sc.edu). Visit [Electronic Reserves at USC](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php) for more information.
 
       [Learn more here](http://guides.library.sc.edu/copyright/permission)
-  utter_benefit_archiving_research:
-  - text: |
-      ## Overview
-      Archiving your research can make your work freely accessible, stops your research from being taken down, and gets you a wider audience to increase your research impact. But, it can be a bit tricky to know your rights and choose the right version of your work to share.
-      [Learn more here](https://guides.library.sc.edu/openaccessresources/version)
   utter_different_version_article:
   - text: |
       ## Pre-print
@@ -4525,6 +4276,8 @@ responses:
       [Learn more here](https://guides.library.sc.edu/openaccessresources/version)
   utter_find_article_version:
   - text: |
+      ## Overview
+      Archiving your research can make your work freely accessible, stops your research from being taken down, and gets you a wider audience to increase your research impact. But, it can be a bit tricky to know your rights and choose the right version of your work to share.
       - Search your email, computer hard drive and cloud storage
       - Contact your co-authors
       - Log into the journal's submission page and retrieve a copy of the submitted version
@@ -4603,7 +4356,7 @@ responses:
 
       [Learn more here](https://guides.library.sc.edu/copyright/moreresources)
   utter_add_course_reading_blackboard:
-  - text: |2
+  - text: |
       ## Course Materials Support
       Send us your syllabus to request links in Blackboard for articles, streaming videos, book chapters, ebooks and Open Educational Resources. We can even consider purchasing new items to support your teaching.
       Use the [Course Materials Request form](https://sc.libwizard.com/f/eReserve) for help with articles, books and films in both online and physical formats.
@@ -4611,7 +4364,7 @@ responses:
       ### Online Materials in Blackboard
       Add scans or links to course readings in Blackboard. University Libraries will help address any copyright issues. Requests made at least 3 weeks before classes begin receive priority.
   utter_print_material_available_course:
-  - text: |2
+  - text: |
       ### Print Materials
       #### Textbooks
       The library has a large collection of print textbooks, especially for courses with over 100 students. To see if the library has the textbook for your course, search by book title or course number in [Find It @ USC Libraries](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC) under Course Reserves.
@@ -4621,7 +4374,7 @@ responses:
       - Personal copies from the instructor
       - Request new purchases for the collection (ebook is default)
   utter_contact_course_material_support:
-  - text: |2
+  - text: |
       # Contact Us
       Contact course materials support with questions or to submit requests.
       Phone : 803-777-3145
@@ -4636,9 +4389,9 @@ responses:
 
       [Learn more here](http://guides.library.sc.edu/OER)
   utter_find_information_music_material:
-  - text: |2
+  - text: |
       For streaming audio reserves and other music materials contact the [Music Library](https://sc.edu/about/offices_and_divisions/university_libraries/browse/music_library/index.php).
-      
+
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php)
   utter_find_openly_available_research:
   - text: |
@@ -4667,13 +4420,10 @@ responses:
       Textbook costs have risen more than 1,000 percent since the 1970's. - [NBC](https://www.nbcnews.com/feature/freshman-year/college-textbook-prices-have-risen-812-percent-1978-n399926).
 
       [Learn more here](http://guides.library.sc.edu/OER)
-  utter_predatory_publisher:
+  utter_determine_journal_predatory:
   - text: |
       ## Predatory Publishers
       Frequently, these publishers do not initially mention an author's fee, but may later ask for a publication fee under the guise of operating as a quality journal.
-      [Learn more here](https://guides.library.sc.edu/openaccessresources/predatory)
-  utter_determine_journal_predatory:
-  - text: |
       ## Determining if a Journal is Predatory
       - Closely examine the editor and staff of the journal. Is a single editor responsible for a large number of journals across a publisher? Is there a lack of information or diversity on the editorial or review board?
       - Does the publisher fail to list transparent policies and fees? Did the publisher's operations begin with a large fleet of quickly created journals?
@@ -4731,11 +4481,6 @@ responses:
       Email: [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu?subject=Help%20locating%20affordable%20resources&body=Name%3A%0A%0ADepartment%3A%0A%0ACourse%3A%0A%0AReading%20List%20(please%20cut%20and%20paste%20your%20reading%20list)%3A%0A%0AIs%20there%20anything%20else%20you'd%20like%20to%20let%20us%20know%3F)
 
       [Learn more here](https://guides.library.sc.edu/OER/affordableclass)
-  utter_problem_published_research_finding:
-  - text: |
-      Statistically significant findings are more likely to be published. Because of bias and [](https://login.pallas2.tcl.sc.edu/login?url=https://journals.sagepub.com/doi/full/10.1177/2515245917747646), much of the research published in journals is irreproducible.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)
   utter_find_resource_registering_project:
   - text: |
       - [](https://help.osf.io/hc/en-us/articles/360019930893-Register-Your-Project)
@@ -4747,6 +4492,9 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)
   utter_open_textbook_source_available:
   - text: |
+      ## Search Across OER Sources
+      [](https://oasis.geneseo.edu/advanced_search.php)
+
       ## Open Textbooks
       - [Open Textbook Library](https://open.umn.edu/opentextbooks/)
       - [MERLOT](https://www.merlot.org/)
@@ -4754,12 +4502,6 @@ responses:
       - [OpenStax](https://openstax.org)
       - [LibreTexts](https://libretexts.org/)
       - [Milne Open Textbooks](https://milneopentextbooks.org/category/available-now/)
-
-      [Learn more here](https://guides.library.sc.edu/OER/opentextbooks)
-  utter_way_search_across_multiple:
-  - text: |
-      ## Search Across OER Sources
-      [](https://oasis.geneseo.edu/advanced_search.php)
 
       [Learn more here](https://guides.library.sc.edu/OER/opentextbooks)
   utter_scoer_award:
@@ -4867,6 +4609,9 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=5107061)
   utter_osf_free:
   - text: |
+      ## Get a DOI
+      OSF assigns DOIs for entire projects but not individual data sets within projects.
+
       ## How Can OSF Be Free?
       OSF is maintained and developed by the [Center for Open Science](http://cos.io/) (COS), a 501(c)3 non-profit organization. COS is supported through grants from a variety of supporters, including [federal agencies, private foundations, and commercial entities](https://cos.io/about_sponsors/). Read more about [their finances](https://cos.io/about/our-finances/).
 
@@ -4917,11 +4662,6 @@ responses:
       - [WordPress](https://wordpress.org/)
 
       [Learn more here](https://guides.library.sc.edu/OER/pedagogy)
-  utter_open_case_study_use:
-  - text: |
-      ## Open Case Studies
-      Open Case Studies can be valuable supplemental resources for your course content. Most Creative Commons licensed case studies can be incorporated directly into other OER for seamless reading.
-      [Learn more here](https://guides.library.sc.edu/OER/casestudies)
   utter_find_open_freely_available:
   - text: |
       ## Open and Freely Available Case Studies
@@ -4932,6 +4672,8 @@ responses:
       [Learn more here](https://guides.library.sc.edu/OER/casestudies)
   utter_open_access_journal_featuring:
   - text: |
+      ## Open Case Studies
+      Open Case Studies can be valuable supplemental resources for your course content. Most Creative Commons licensed case studies can be incorporated directly into other OER for seamless reading.
       ## Open Access Journals Featuring Case Studies
       There are a number of open access journals featuring case studies across many disciplines. This list is not exhaustive. You may be able to locate additional case studies within OA journals by searching the [Directory of Open Access Journals](https://www.doaj.org/).
       - [Case Studies in Engineering Failure Analysis](https://www.sciencedirect.com/journal/case-studies-in-engineering-failure-analysis)
@@ -4940,6 +4682,64 @@ responses:
       - [Mathematics-in-Industry Case Studies](https://micsjournal.springeropen.com/)
       - [Case Studies in Construction Materials](https://www.journals.elsevier.com/case-studies-in-construction-materials)
       [Learn more here](https://guides.library.sc.edu/OER/casestudies)
+  utter_check_policy_textbook:
+  - text: |2
+
+      #### Fines and Blocked Accounts
+      Returning a textbook late can block you from future textbook check outs.
+      - Hourly loans for building use only: $5 per hour
+      - Extended loans for 1 day, 3 days or 1 week: $15 per day
+
+
+      #### Check Out Policy
+      Generally, you can borrow textbooks for 2 hours and they must stay in the building. There are exceptions, and exact due date and time is provided at check out. Renewals are not allowed so all students have the opportunity to use these in-demand items.
+
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
+  utter_access_course_material:
+  - text: |2
+
+      # For Faculty and Instructors
+      Want to make course materials available for your students? [Find out how the library can help](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php).
+
+
+      ### Other Course Materials
+      We are working with instructors to make course materials, such as ebooks, online articles and streaming films, available in Blackboard whenever possible. Please check [Blackboard](https://blackboard.sc.edu/) or contact your instructor.
+
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
+  utter_cite_journal_article_chicago:
+  - text: |
+      ## Dissertations and Theses
+
+      For guidance on citing dissertations and theses, refer to the Chicago Manual of Style.
+
+      ## Journal Articles
+
+      For guidance on citing journal articles, refer to the Chicago Manual of Style.
+
+      [Learn more here](https://guides.library.sc.edu/citation/chicago)
+  utter_cite_newspaper_magazine_article:
+  - text: |
+      ## Websites, Blogs, and Social Media
+      - For guidance on citing websites, blogs, and social media, refer to the Chicago Manual of Style.
+
+      ## Newspaper and Magazine Articles
+
+      For guidance on citing newspaper and magazine articles, refer to the Chicago Manual of Style.
+
+      [Learn more here](https://guides.library.sc.edu/citation/chicago)
+  utter_use_digital_tool_research:
+  - text: |
+      # Digital Projects Showcase
+      [Digital Projects Showcase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
+
+      The library offers support for using digital processes, tools, and methods to enable and present new forms of research. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+  utter_registered_report_osf:
+  - text: |
+      Statistically significant findings are more likely to be published. Because of bias and [](https://login.pallas2.tcl.sc.edu/login?url=https://journals.sagepub.com/doi/full/10.1177/2515245917747646), much of the research published in journals is irreproducible.
+
+      Registrations in OSF are time-stamped, read-only versions of a research plan that explain how data will be collected, manipulated, and analyzed in advance. Providing this [](https://cos.io/rr/) to a participating journal effectively creates two peer-review processes.
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)
 actions:
 - action_library_open
 - action_save_conversation

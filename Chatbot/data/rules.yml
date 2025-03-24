@@ -1,4 +1,4 @@
-version: "3.1"
+version: '3.1'
 
 rules:
 - rule: Say 'I am a bot' anytime the user challenges
@@ -39,1152 +39,1087 @@ rules:
   steps:
   - intent: greet
   - action: utter_greet
-    
+
 - rule: Answer help_digital_tool
   steps:
   - intent: help_digital_tool
   - action: utter_help_digital_tool
-    
-- rule: Answer use_digital_tool_research
-  steps:
-  - intent: use_digital_tool_research
-  - action: utter_use_digital_tool_research
-    
-- rule: Answer data_organization
-  steps:
-  - intent: data_organization
-  - action: utter_data_organization
-    
+
 - rule: Answer kind_workshop_library_offer
   steps:
   - intent: kind_workshop_library_offer
   - action: utter_kind_workshop_library_offer
-    
+
 - rule: Answer search_south_caroliniana_library
   steps:
   - intent: search_south_caroliniana_library
   - action: utter_search_south_caroliniana_library
-    
+
 - rule: Answer set_appointment_research_use
   steps:
   - intent: set_appointment_research_use
   - action: utter_set_appointment_research_use
-    
+
 - rule: Answer african_american_ancestry_suggestion
   steps:
   - intent: african_american_ancestry_suggestion
   - action: utter_african_american_ancestry_suggestion
-    
+
 - rule: Answer order_highresolution_scan
   steps:
   - intent: order_highresolution_scan
   - action: utter_order_highresolution_scan
-    
+
 - rule: Answer south_caroliniana_library_building
   steps:
   - intent: south_caroliniana_library_building
   - action: utter_south_caroliniana_library_building
-    
+
 - rule: Answer found_image_south_caroliniana
   steps:
   - intent: found_image_south_caroliniana
   - action: utter_found_image_south_caroliniana
-    
+
 - rule: Answer publishing_book_related_south
   steps:
   - intent: publishing_book_related_south
   - action: utter_publishing_book_related_south
-    
+
 - rule: Answer south_caroliniana_library_located
   steps:
   - intent: south_caroliniana_library_located
   - action: utter_south_caroliniana_library_located
-    
+
 - rule: Answer publishing_work_us_resource
   steps:
   - intent: publishing_work_us_resource
   - action: utter_publishing_work_us_resource
-    
+
 - rule: Answer resource_use_research_family
   steps:
   - intent: resource_use_research_family
   - action: utter_resource_use_research_family
-    
+
 - rule: Answer park_visit_south_caroliniana
   steps:
   - intent: park_visit_south_caroliniana
   - action: utter_park_visit_south_caroliniana
-    
+
 - rule: Answer south_caroliniana_library_open
   steps:
   - intent: south_caroliniana_library_open
   - action: utter_south_caroliniana_library_open
-    
+
 - rule: Answer south_caroliniana_library
   steps:
   - intent: south_caroliniana_library
   - action: utter_south_caroliniana_library
-    
+
 - rule: Answer library_columbia_campus
   steps:
   - intent: library_columbia_campus
   - action: utter_library_columbia_campus
-    
+
 - rule: Answer floor_plan_finding_location
   steps:
   - intent: floor_plan_finding_location
   - action: utter_floor_plan_finding_location
-    
+
 - rule: Answer hathitrust_university_member
   steps:
   - intent: hathitrust_university_member
   - action: utter_hathitrust_university_member
-    
+
 - rule: Answer get_free_subscription_new
   steps:
   - intent: get_free_subscription_new
   - action: utter_get_free_subscription_new
-    
+
 - rule: Answer library_catalog_show_item
   steps:
   - intent: library_catalog_show_item
   - action: utter_library_catalog_show_item
-    
+
 - rule: Answer suggest_title_library_purchase
   steps:
   - intent: suggest_title_library_purchase
   - action: utter_suggest_title_library_purchase
-    
+
 - rule: Answer retired_faculty_staff_retain
   steps:
   - intent: retired_faculty_staff_retain
   - action: utter_retired_faculty_staff_retain
-    
+
 - rule: Answer library_provide_access_wall
   steps:
   - intent: library_provide_access_wall
   - action: utter_library_provide_access_wall
-    
+
 - rule: Answer print_library
   steps:
   - intent: print_library
   - action: utter_print_library
-    
+
 - rule: Answer common_issue_printing
   steps:
   - intent: common_issue_printing
   - action: utter_common_issue_printing
-    
+
 - rule: Answer access_harvard_business_case
   steps:
   - intent: access_harvard_business_case
   - action: utter_access_harvard_business_case
-    
+
 - rule: Answer library_hire_student
   steps:
   - intent: library_hire_student
   - action: utter_library_hire_student
-    
+
 - rule: Answer library_college_entrance_career
   steps:
   - intent: library_college_entrance_career
   - action: utter_library_college_entrance_career
-    
+
 - rule: Answer resource_help_learn_language
   steps:
   - intent: resource_help_learn_language
   - action: utter_resource_help_learn_language
-    
+
 - rule: Answer login_use_library_access
   steps:
   - intent: login_use_library_access
   - action: utter_login_use_library_access
-    
+
 - rule: Answer sign_orcid_id
   steps:
   - intent: sign_orcid_id
   - action: utter_sign_orcid_id
-    
+
 - rule: Answer username_password_working_do
   steps:
   - intent: username_password_working_do
   - action: utter_username_password_working_do
-    
+
 - rule: Answer get_help_citation
   steps:
   - intent: get_help_citation
   - action: utter_get_help_citation
-    
+
 - rule: Answer interlibrary_loan_access_it
   steps:
   - intent: interlibrary_loan_access_it
   - action: utter_interlibrary_loan_access_it
-    
+
 - rule: Answer pascal_delivers
   steps:
   - intent: pascal_delivers
   - action: utter_pascal_delivers
-    
+
 - rule: Answer library_main_find_usc
   steps:
   - intent: library_main_find_usc
   - action: utter_library_main_find_usc
-    
+
 - rule: Answer photocopy_scan_library
   steps:
   - intent: photocopy_scan_library
   - action: utter_photocopy_scan_library
-    
+
 - rule: Answer request_copy_manuscript
   steps:
   - intent: request_copy_manuscript
   - action: utter_request_copy_manuscript
-    
+
 - rule: Answer ask_help_searching_source
   steps:
   - intent: ask_help_searching_source
   - action: utter_ask_help_searching_source
-    
+
 - rule: Answer cant_access_database_workplace
   steps:
   - intent: cant_access_database_workplace
   - action: utter_cant_access_database_workplace
-    
+
 - rule: Answer library_microwave
   steps:
   - intent: library_microwave
   - action: utter_library_microwave
-    
+
 - rule: Answer visitor_come_library
   steps:
   - intent: visitor_come_library
   - action: utter_visitor_come_library
-    
+
 - rule: Answer find_published_example_action
   steps:
   - intent: find_published_example_action
   - action: utter_find_published_example_action
-    
+
 - rule: Answer register_access_ad_age
   steps:
   - intent: register_access_ad_age
   - action: utter_register_access_ad_age
-    
+
 - rule: Answer library_charger_laptop_phone
   steps:
   - intent: library_charger_laptop_phone
   - action: utter_library_charger_laptop_phone
-    
+
 - rule: Answer library_textbook
   steps:
   - intent: library_textbook
   - action: utter_library_textbook
-    
+
 - rule: Answer library_reader_advisory_database
   steps:
   - intent: library_reader_advisory_database
   - action: utter_library_reader_advisory_database
-    
+
 - rule: Answer see_hostname_error_try
   steps:
   - intent: see_hostname_error_try
   - action: utter_see_hostname_error_try
-    
+
 - rule: Answer software_available_library_computer
   steps:
   - intent: software_available_library_computer
   - action: utter_software_available_library_computer
-    
+
 - rule: Answer library_color_copier
   steps:
   - intent: library_color_copier
   - action: utter_library_color_copier
-    
+
 - rule: Answer starbucks_thomas_cooper
   steps:
   - intent: starbucks_thomas_cooper
   - action: utter_starbucks_thomas_cooper
-    
+
 - rule: Answer library_childrens_book
   steps:
   - intent: library_childrens_book
   - action: utter_library_childrens_book
-    
+
 - rule: Answer take_online_proctored_exam
   steps:
   - intent: take_online_proctored_exam
   - action: utter_take_online_proctored_exam
-    
+
 - rule: Answer request_book_delivered_campus
   steps:
   - intent: request_book_delivered_campus
   - action: utter_request_book_delivered_campus
-    
+
 - rule: Answer get_library_card
   steps:
   - intent: get_library_card
   - action: utter_get_library_card
-    
+
 - rule: Answer cant_connect_eduroam_wireless
   steps:
   - intent: cant_connect_eduroam_wireless
   - action: utter_cant_connect_eduroam_wireless
-    
+
 - rule: Answer renew_book
   steps:
   - intent: renew_book
   - action: utter_renew_book
-    
+
 - rule: Answer cant_login_interlibrary_loan
   steps:
   - intent: cant_login_interlibrary_loan
   - action: utter_cant_login_interlibrary_loan
-    
+
 - rule: Answer call_number_use_it
   steps:
   - intent: call_number_use_it
   - action: utter_call_number_use_it
-    
+
 - rule: Answer access_specific_library_database
   steps:
   - intent: access_specific_library_database
   - action: utter_access_specific_library_database
-    
+
 - rule: Answer many_book_check_out
   steps:
   - intent: many_book_check_out
   - action: utter_many_book_check_out
-    
+
 - rule: Answer book_mailed_home_address
   steps:
   - intent: book_mailed_home_address
   - action: utter_book_mailed_home_address
-    
+
 - rule: Answer much_fee_late_return
   steps:
   - intent: much_fee_late_return
   - action: utter_much_fee_late_return
-    
+
 - rule: Answer library_provide_support_endnote
   steps:
   - intent: library_provide_support_endnote
   - action: utter_library_provide_support_endnote
-    
+
 - rule: Answer find_empirical_study
   steps:
   - intent: find_empirical_study
   - action: utter_find_empirical_study
-    
+
 - rule: Answer library_car_repair_manual
   steps:
   - intent: library_car_repair_manual
   - action: utter_library_car_repair_manual
-    
+
 - rule: Answer alumnus_get_access_research
   steps:
   - intent: alumnus_get_access_research
   - action: utter_alumnus_get_access_research
-    
+
 - rule: Answer schedule_research_appointment
   steps:
   - intent: schedule_research_appointment
   - action: utter_schedule_research_appointment
-    
+
 - rule: Answer busy_thomas_cooper_library
   steps:
   - intent: busy_thomas_cooper_library
   - action: utter_busy_thomas_cooper_library
-    
+
 - rule: Answer reserve_study_room
   steps:
   - intent: reserve_study_room
   - action: utter_reserve_study_room
-    
+
 - rule: Answer food_drink_allowed_library
   steps:
   - intent: food_drink_allowed_library
   - action: utter_food_drink_allowed_library
-    
+
 - rule: Answer find_dissertation_thesis
   steps:
   - intent: find_dissertation_thesis
   - action: utter_find_dissertation_thesis
-    
+
 - rule: Answer find_historical_newspaper_article
   steps:
   - intent: find_historical_newspaper_article
   - action: utter_find_historical_newspaper_article
-    
+
 - rule: Answer cant_access_thomson_one
   steps:
   - intent: cant_access_thomson_one
   - action: utter_cant_access_thomson_one
-    
+
 - rule: Answer thomas_cooper_library_located
   steps:
   - intent: thomas_cooper_library_located
   - action: utter_thomas_cooper_library_located
-    
+
 - rule: Answer center_teaching_excellence_cte
   steps:
   - intent: center_teaching_excellence_cte
   - action: utter_center_teaching_excellence_cte
-    
+
 - rule: Answer get_help_writing
   steps:
   - intent: get_help_writing
   - action: utter_get_help_writing
-    
+
 - rule: Answer something_notarized
   steps:
   - intent: something_notarized
   - action: utter_something_notarized
-    
+
 - rule: Answer contact_library
   steps:
   - intent: contact_library
   - action: utter_contact_library
-    
+
 - rule: Answer computer_internet_access_technology
   steps:
   - intent: computer_internet_access_technology
   - action: utter_computer_internet_access_technology
-    
+
 - rule: Answer instructor_schedule_class_library
   steps:
   - intent: instructor_schedule_class_library
   - action: utter_instructor_schedule_class_library
-    
+
 - rule: Answer check_locker
   steps:
   - intent: check_locker
   - action: utter_check_locker
-    
+
 - rule: Answer find_example_dissertation_online
   steps:
   - intent: find_example_dissertation_online
   - action: utter_find_example_dissertation_online
-    
+
 - rule: Answer carolinasouthern_california_trademark_dispute
   steps:
   - intent: carolinasouthern_california_trademark_dispute
   - action: utter_carolinasouthern_california_trademark_dispute
-    
+
 - rule: Answer access_journal_marketing_specific
   steps:
   - intent: access_journal_marketing_specific
   - action: utter_access_journal_marketing_specific
-    
+
 - rule: Answer check_ipad
   steps:
   - intent: check_ipad
   - action: utter_check_ipad
-    
+
 - rule: Answer computer_available_library
   steps:
   - intent: computer_available_library
   - action: utter_computer_available_library
-    
+
 - rule: Answer usc_library
   steps:
   - intent: usc_library
   - action: utter_usc_library
-    
+
 - rule: Answer library_film_video
   steps:
   - intent: library_film_video
   - action: utter_library_film_video
-    
+
 - rule: Answer get_full_text_access
   steps:
   - intent: get_full_text_access
   - action: utter_get_full_text_access
-    
+
 - rule: Answer access_harvard_business_review
   steps:
   - intent: access_harvard_business_review
   - action: utter_access_harvard_business_review
-    
+
 - rule: Answer i’m_outside_united_state
   steps:
   - intent: i’m_outside_united_state
   - action: utter_i’m_outside_united_state
-    
+
 - rule: Answer see_zotero_notification_automatically
   steps:
   - intent: see_zotero_notification_automatically
   - action: utter_see_zotero_notification_automatically
-    
+
 - rule: Answer floor_thomas_cooper_library
   steps:
   - intent: floor_thomas_cooper_library
   - action: utter_floor_thomas_cooper_library
-    
+
 - rule: Answer student_success_center_peer
   steps:
   - intent: student_success_center_peer
   - action: utter_student_success_center_peer
-    
+
 - rule: Answer mailing_address_thomas_cooper
   steps:
   - intent: mailing_address_thomas_cooper
   - action: utter_mailing_address_thomas_cooper
-    
+
 - rule: Answer return_book
   steps:
   - intent: return_book
   - action: utter_return_book
-    
+
 - rule: Answer make_suggestion_library
   steps:
   - intent: make_suggestion_library
   - action: utter_make_suggestion_library
-    
+
 - rule: Answer make_noise_complaint_staff
   steps:
   - intent: make_noise_complaint_staff
   - action: utter_make_noise_complaint_staff
-    
+
 - rule: Answer find_journal_impact_factor
   steps:
   - intent: find_journal_impact_factor
   - action: utter_find_journal_impact_factor
-    
+
 - rule: Answer get_online_access_library
   steps:
   - intent: get_online_access_library
   - action: utter_get_online_access_library
-    
+
 - rule: Answer pay_library_fine
   steps:
   - intent: pay_library_fine
   - action: utter_pay_library_fine
-    
+
 - rule: Answer friend_university_library_previously
   steps:
   - intent: friend_university_library_previously
   - action: utter_friend_university_library_previously
-    
+
 - rule: Answer university_institutional_repository
   steps:
   - intent: university_institutional_repository
   - action: utter_university_institutional_repository
-    
+
 - rule: Answer set_link_usc_content
   steps:
   - intent: set_link_usc_content
   - action: utter_set_link_usc_content
-    
+
 - rule: Answer download_check_ebook
   steps:
   - intent: download_check_ebook
   - action: utter_download_check_ebook
-    
+
 - rule: Answer check_laptop
   steps:
   - intent: check_laptop
   - action: utter_check_laptop
-    
+
 - rule: Answer library_provide_access_covidence
   steps:
   - intent: library_provide_access_covidence
   - action: utter_library_provide_access_covidence
-    
+
 - rule: Answer lost_found
   steps:
   - intent: lost_found
   - action: utter_lost_found
-    
+
 - rule: Answer charge_card_cost_print
   steps:
   - intent: charge_card_cost_print
   - action: utter_charge_card_cost_print
-    
+
 - rule: Answer found_book_library_catalog
   steps:
   - intent: found_book_library_catalog
   - action: utter_found_book_library_catalog
-    
+
 - rule: Answer library_fun_book_read
   steps:
   - intent: library_fun_book_read
   - action: utter_library_fun_book_read
-    
+
 - rule: Answer data_visualization_support_service
   steps:
   - intent: data_visualization_support_service
   - action: utter_data_visualization_support_service
-    
+
 - rule: Answer get_data_visualization_help
   steps:
   - intent: get_data_visualization_help
   - action: utter_get_data_visualization_help
-    
+
 - rule: Answer type_assistance_library_offer
   steps:
   - intent: type_assistance_library_offer
   - action: utter_type_assistance_library_offer
-    
+
 - rule: Answer kind_guidance_expect_online
   steps:
   - intent: kind_guidance_expect_online
   - action: utter_kind_guidance_expect_online
-    
+
 - rule: Answer assistance_available_data_analysis
   steps:
   - intent: assistance_available_data_analysis
   - action: utter_assistance_available_data_analysis
-    
+
 - rule: Answer datalab_located
   steps:
   - intent: datalab_located
   - action: utter_datalab_located
-    
+
 - rule: Answer kind_data_analysis_statistic
   steps:
   - intent: kind_data_analysis_statistic
   - action: utter_kind_data_analysis_statistic
-    
+
 - rule: Answer specialized_software_available_datalab
   steps:
   - intent: specialized_software_available_datalab
   - action: utter_specialized_software_available_datalab
-    
-- rule: Answer hardware_available_datalab
-  steps:
-  - intent: hardware_available_datalab
-  - action: utter_hardware_available_datalab
-    
-- rule: Answer importance_quality_data_data
-  steps:
-  - intent: importance_quality_data_data
-  - action: utter_importance_quality_data_data
-    
+
 - rule: Answer find_subjectspecific_data_statistic
   steps:
   - intent: find_subjectspecific_data_statistic
   - action: utter_find_subjectspecific_data_statistic
-    
+
 - rule: Answer kind_research_support_university
   steps:
   - intent: kind_research_support_university
   - action: utter_kind_research_support_university
-    
+
 - rule: Answer What_is_NVivo
   steps:
   - intent: What_is_NVivo
   - action: utter_What_is_NVivo
-    
+
 - rule: Answer access_nvivo
   steps:
   - intent: access_nvivo
   - action: utter_access_nvivo
-    
+
 - rule: Answer find_additional_help_nvivo
   steps:
   - intent: find_additional_help_nvivo
   - action: utter_find_additional_help_nvivo
-    
+
 - rule: Answer data_visualization_learning_session
   steps:
   - intent: data_visualization_learning_session
   - action: utter_data_visualization_learning_session
-    
+
 - rule: Answer difference_data_statistic
   steps:
   - intent: difference_data_statistic
   - action: utter_difference_data_statistic
-    
+
 - rule: Answer open_data
   steps:
   - intent: open_data
   - action: utter_open_data
-    
-- rule: Answer create_project_file_nvivo
-  steps:
-  - intent: create_project_file_nvivo
-  - action: utter_create_project_file_nvivo
-    
+
 - rule: Answer different_part_nvivo_workspace
   steps:
   - intent: different_part_nvivo_workspace
   - action: utter_different_part_nvivo_workspace
-    
+
 - rule: Answer import_data_file_nvivo
   steps:
   - intent: import_data_file_nvivo
   - action: utter_import_data_file_nvivo
-    
+
 - rule: Answer autocode_data_file_nvivo
   steps:
   - intent: autocode_data_file_nvivo
   - action: utter_autocode_data_file_nvivo
-    
+
 - rule: Answer use_case_nvivo
   steps:
   - intent: use_case_nvivo
   - action: utter_use_case_nvivo
-    
+
 - rule: Answer software_hardware_resource_available
   steps:
   - intent: software_hardware_resource_available
   - action: utter_software_hardware_resource_available
-    
-- rule: Answer borrow_technology_library
-  steps:
-  - intent: borrow_technology_library
-  - action: utter_borrow_technology_library
-    
-- rule: Answer request_remote_access_software
-  steps:
-  - intent: request_remote_access_software
-  - action: utter_request_remote_access_software
-    
+
 - rule: Answer general_statistic_resource_available
   steps:
   - intent: general_statistic_resource_available
   - action: utter_general_statistic_resource_available
-    
+
 - rule: Answer general_data_set_available
   steps:
   - intent: general_data_set_available
   - action: utter_general_data_set_available
-    
+
 - rule: Answer source_open_data
   steps:
   - intent: source_open_data
   - action: utter_source_open_data
-    
+
 - rule: Answer create_codebook_nvivo
   steps:
   - intent: create_codebook_nvivo
   - action: utter_create_codebook_nvivo
-    
+
 - rule: Answer add_coding_data
   steps:
   - intent: add_coding_data
   - action: utter_add_coding_data
-    
-- rule: Answer uncode_data
-  steps:
-  - intent: uncode_data
-  - action: utter_uncode_data
-    
+
 - rule: Answer coding_stripe_display_them
   steps:
   - intent: coding_stripe_display_them
   - action: utter_coding_stripe_display_them
-    
+
 - rule: Answer export_codebook
   steps:
   - intent: export_codebook
   - action: utter_export_codebook
-    
+
 - rule: Answer data_visualization
   steps:
   - intent: data_visualization
   - action: utter_data_visualization
-    
+
 - rule: Answer data_visualization_important
   steps:
   - intent: data_visualization_important
   - action: utter_data_visualization_important
-    
+
 - rule: Answer data_science_lifecycle
   steps:
   - intent: data_science_lifecycle
   - action: utter_data_science_lifecycle
-    
+
 - rule: Answer common_term_used_data
   steps:
   - intent: common_term_used_data
   - action: utter_common_term_used_data
-    
+
 - rule: Answer business_statistic_resource_available
   steps:
   - intent: business_statistic_resource_available
   - action: utter_business_statistic_resource_available
-    
+
 - rule: Answer data_resource_available
   steps:
   - intent: data_resource_available
   - action: utter_data_resource_available
-    
+
 - rule: Answer source_available_library_usc
   steps:
   - intent: source_available_library_usc
   - action: utter_source_available_library_usc
-    
+
 - rule: Answer choose_right_visualization_data
   steps:
   - intent: choose_right_visualization_data
   - action: utter_choose_right_visualization_data
-    
+
 - rule: Answer guideline_creating_effective_visualization
   steps:
   - intent: guideline_creating_effective_visualization
   - action: utter_guideline_creating_effective_visualization
-    
+
 - rule: Answer resource_available_finding_criminal
   steps:
   - intent: resource_available_finding_criminal
   - action: utter_resource_available_finding_criminal
-    
+
 - rule: Answer u_statistic_resource_available
   steps:
   - intent: u_statistic_resource_available
   - action: utter_u_statistic_resource_available
-    
+
 - rule: Answer data_set_available_criminal
   steps:
   - intent: data_set_available_criminal
   - action: utter_data_set_available_criminal
-    
-- rule: Answer important_cite_data
-  steps:
-  - intent: important_cite_data
-  - action: utter_important_cite_data
-    
+
 - rule: Answer information_needed_properly_cite
   steps:
   - intent: information_needed_properly_cite
   - action: utter_information_needed_properly_cite
-    
+
 - rule: Answer tool_help_data_citation
   steps:
   - intent: tool_help_data_citation
   - action: utter_tool_help_data_citation
-    
+
 - rule: Answer factor_consider_selecting_data
   steps:
   - intent: factor_consider_selecting_data
   - action: utter_factor_consider_selecting_data
-    
+
 - rule: Answer spreadsheet_software_use_data
   steps:
   - intent: spreadsheet_software_use_data
   - action: utter_spreadsheet_software_use_data
-    
+
 - rule: Answer data_visualization_software_available
   steps:
   - intent: data_visualization_software_available
   - action: utter_data_visualization_software_available
-    
+
 - rule: Answer programming_language_use_data
   steps:
   - intent: programming_language_use_data
   - action: utter_programming_language_use_data
-    
+
 - rule: Answer resource_available_finding_economic
   steps:
   - intent: resource_available_finding_economic
   - action: utter_resource_available_finding_economic
-    
+
 - rule: Answer data_set_available_economic
   steps:
   - intent: data_set_available_economic
   - action: utter_data_set_available_economic
-    
+
 - rule: Answer data_set_available_education
   steps:
   - intent: data_set_available_education
   - action: utter_data_set_available_education
-    
+
 - rule: Answer contact_interlibrary_loan_staff
   steps:
   - intent: contact_interlibrary_loan_staff
   - action: utter_contact_interlibrary_loan_staff
-    
+
 - rule: Answer usc_columbia_user
   steps:
   - intent: usc_columbia_user
   - action: utter_usc_columbia_user
-    
+
 - rule: Answer resource_environmental_geospatial_statistic
   steps:
   - intent: resource_environmental_geospatial_statistic
   - action: utter_resource_environmental_geospatial_statistic
-    
+
 - rule: Answer find_environmental_geospatial_data
   steps:
   - intent: find_environmental_geospatial_data
   - action: utter_find_environmental_geospatial_data
-    
+
 - rule: Answer geospatial_data_resource_available
   steps:
   - intent: geospatial_data_resource_available
   - action: utter_geospatial_data_resource_available
-    
+
 - rule: Answer resource_available_fire_modeling
   steps:
   - intent: resource_available_fire_modeling
   - action: utter_resource_available_fire_modeling
-    
+
 - rule: Answer hydrological_data_resource_available
   steps:
   - intent: hydrological_data_resource_available
   - action: utter_hydrological_data_resource_available
-    
+
 - rule: Answer landuse_landcover_database_available
   steps:
   - intent: landuse_landcover_database_available
   - action: utter_landuse_landcover_database_available
-    
+
 - rule: Answer modelled_data_resource_available
   steps:
   - intent: modelled_data_resource_available
   - action: utter_modelled_data_resource_available
-    
+
 - rule: Answer observed_data_resource_available
   steps:
   - intent: observed_data_resource_available
   - action: utter_observed_data_resource_available
-    
+
 - rule: Answer soil_data_resource_available
   steps:
   - intent: soil_data_resource_available
   - action: utter_soil_data_resource_available
-    
+
 - rule: Answer transportation_data_resource_available
   steps:
   - intent: transportation_data_resource_available
   - action: utter_transportation_data_resource_available
-    
+
 - rule: Answer resource_available_finding_health
   steps:
   - intent: resource_available_finding_health
   - action: utter_resource_available_finding_health
-    
+
 - rule: Answer data_set_available_health
   steps:
   - intent: data_set_available_health
   - action: utter_data_set_available_health
-    
+
 - rule: Answer resource_available_library_statistical
   steps:
   - intent: resource_available_library_statistical
   - action: utter_resource_available_library_statistical
-    
+
 - rule: Answer resource_social_work_statistic
   steps:
   - intent: resource_social_work_statistic
   - action: utter_resource_social_work_statistic
-    
+
 - rule: Answer resource_u_statistic
   steps:
   - intent: resource_u_statistic
   - action: utter_resource_u_statistic
-    
+
 - rule: Answer resource_data_set
   steps:
   - intent: resource_data_set
   - action: utter_resource_data_set
-    
+
 - rule: Answer learn_social_work_statistic
   steps:
   - intent: learn_social_work_statistic
   - action: utter_learn_social_work_statistic
-    
+
 - rule: Answer resource_available_sociology_statistic
   steps:
   - intent: resource_available_sociology_statistic
   - action: utter_resource_available_sociology_statistic
-    
+
 - rule: Answer data_set_available_sociology
   steps:
   - intent: data_set_available_sociology
   - action: utter_data_set_available_sociology
-    
+
 - rule: Answer research_data_management
   steps:
   - intent: research_data_management
   - action: utter_research_data_management
-    
+
 - rule: Answer tool_resource_available_research
   steps:
   - intent: tool_resource_available_research
   - action: utter_tool_resource_available_research
-    
+
 - rule: Answer contact_help_research_data
   steps:
   - intent: contact_help_research_data
   - action: utter_contact_help_research_data
-    
+
 - rule: Answer whats_data_management_plan
   steps:
   - intent: whats_data_management_plan
   - action: utter_whats_data_management_plan
-    
+
 - rule: Answer resource_available_writing_data
   steps:
   - intent: resource_available_writing_data
   - action: utter_resource_available_writing_data
-    
+
 - rule: Answer include_data_management_plan
   steps:
   - intent: include_data_management_plan
   - action: utter_include_data_management_plan
-    
+
 - rule: Answer need_data_management_plan
   steps:
   - intent: need_data_management_plan
   - action: utter_need_data_management_plan
-    
+
 - rule: Answer What_is_DMPtool
   steps:
   - intent: What_is_DMPtool
   - action: utter_What_is_DMPtool
-    
+
 - rule: Answer osf_use_it
   steps:
   - intent: osf_use_it
   - action: utter_osf_use_it
-    
+
 - rule: Answer option_available_longterm_archiving
   steps:
   - intent: option_available_longterm_archiving
   - action: utter_option_available_longterm_archiving
-    
+
 - rule: Answer cite_dataset
   steps:
   - intent: cite_dataset
   - action: utter_cite_dataset
-    
+
 - rule: Answer What_is_metadata
   steps:
   - intent: What_is_metadata
   - action: utter_What_is_metadata
-    
+
 - rule: Answer metadata_important
   steps:
   - intent: metadata_important
   - action: utter_metadata_important
-    
+
 - rule: Answer include_metadata
   steps:
   - intent: include_metadata
   - action: utter_include_metadata
-    
+
 - rule: Answer element_metadata
   steps:
   - intent: element_metadata
   - action: utter_element_metadata
-    
+
 - rule: Answer find_information_metadata_standard
   steps:
   - intent: find_information_metadata_standard
   - action: utter_find_information_metadata_standard
-    
+
 - rule: Answer learn_metadata
   steps:
   - intent: learn_metadata
   - action: utter_learn_metadata
-    
+
 - rule: Answer consistent_file_naming_strategy
   steps:
   - intent: consistent_file_naming_strategy
   - action: utter_consistent_file_naming_strategy
-    
+
 - rule: Answer file_format_use_ensure
   steps:
   - intent: file_format_use_ensure
   - action: utter_file_format_use_ensure
-    
+
 - rule: Answer open_science_framework
   steps:
   - intent: open_science_framework
   - action: utter_open_science_framework
-    
+
 - rule: Answer get_started_open_science
   steps:
   - intent: get_started_open_science
   - action: utter_get_started_open_science
-    
+
 - rule: Answer type_data_stored_open
   steps:
   - intent: type_data_stored_open
   - action: utter_type_data_stored_open
-    
+
 - rule: Answer backing_data_important
   steps:
   - intent: backing_data_important
   - action: utter_backing_data_important
-    
+
 - rule: Answer good_rule_thumb_backing
   steps:
   - intent: good_rule_thumb_backing
   - action: utter_good_rule_thumb_backing
-    
+
 - rule: Answer difference_information_security_privacy
   steps:
   - intent: difference_information_security_privacy
   - action: utter_difference_information_security_privacy
-    
+
 - rule: Answer resource_understanding_data_privacy
   steps:
   - intent: resource_understanding_data_privacy
   - action: utter_resource_understanding_data_privacy
-    
+
 - rule: Answer university_policy_apply_research
   steps:
   - intent: university_policy_apply_research
   - action: utter_university_policy_apply_research
-    
+
 - rule: Answer service_osf_integrate_with
   steps:
   - intent: service_osf_integrate_with
   - action: utter_service_osf_integrate_with
-    
+
 - rule: Answer resource_available_research_data
   steps:
   - intent: resource_available_research_data
   - action: utter_resource_available_research_data
-    
-- rule: Answer registered_report_osf
-  steps:
-  - intent: registered_report_osf
-  - action: utter_registered_report_osf
-    
+
 - rule: Answer happens_article_resulting_accepted
   steps:
   - intent: happens_article_resulting_accepted
   - action: utter_happens_article_resulting_accepted
-    
+
 - rule: Answer suggest_workshop
   steps:
   - intent: suggest_workshop
   - action: utter_suggest_workshop
-    
+
 - rule: Answer service_available_faculty_instructor
   steps:
   - intent: service_available_faculty_instructor
   - action: utter_service_available_faculty_instructor
-    
-- rule: Answer happens_make_osf_project
-  steps:
-  - intent: happens_make_osf_project
-  - action: utter_happens_make_osf_project
-    
-- rule: Answer get_doi_project
-  steps:
-  - intent: get_doi_project
-  - action: utter_get_doi_project
-    
+
 - rule: Answer kind_ai_support_library
   steps:
   - intent: kind_ai_support_library
   - action: utter_kind_ai_support_library
-    
+
 - rule: Answer workshop_available_ai_data
   steps:
   - intent: workshop_available_ai_data
   - action: utter_workshop_available_ai_data
-    
-- rule: Answer collaborate_someone_ai_research
-  steps:
-  - intent: collaborate_someone_ai_research
-  - action: utter_collaborate_someone_ai_research
-    
+
 - rule: Answer help_ai
   steps:
   - intent: help_ai
@@ -1194,717 +1129,562 @@ rules:
   steps:
   - intent: artificial_intelligence
   - action: utter_artificial_intelligence
-    
+
 - rule: Answer ai_evolved_time
   steps:
   - intent: ai_evolved_time
   - action: utter_ai_evolved_time
-    
-- rule: Answer subfields_artificial_intelligence
-  steps:
-  - intent: subfields_artificial_intelligence
-  - action: utter_subfields_artificial_intelligence
-    
+
 - rule: Answer application_artificial_intelligence
   steps:
   - intent: application_artificial_intelligence
   - action: utter_application_artificial_intelligence
-    
+
 - rule: Answer consider_using_ai_technology
   steps:
   - intent: consider_using_ai_technology
   - action: utter_consider_using_ai_technology
-    
+
 - rule: Answer text_analysis
   steps:
   - intent: text_analysis
   - action: utter_text_analysis
-    
+
 - rule: Answer terminology_used_text_analysis
   steps:
   - intent: terminology_used_text_analysis
   - action: utter_terminology_used_text_analysis
-    
+
 - rule: Answer get_started_text_analysis
   steps:
   - intent: get_started_text_analysis
   - action: utter_get_started_text_analysis
-    
+
 - rule: Answer common_text_analysis_method
   steps:
   - intent: common_text_analysis_method
   - action: utter_common_text_analysis_method
-    
+
 - rule: Answer store_create_machine_readable
   steps:
   - intent: store_create_machine_readable
   - action: utter_store_create_machine_readable
-    
+
 - rule: Answer machine_learning
   steps:
   - intent: machine_learning
   - action: utter_machine_learning
-    
+
 - rule: Answer different_type_machine_learning
   steps:
   - intent: different_type_machine_learning
   - action: utter_different_type_machine_learning
-    
+
 - rule: Answer key_term_related_machine
   steps:
   - intent: key_term_related_machine
   - action: utter_key_term_related_machine
-    
-- rule: Answer resource_available_academic_integrity
-  steps:
-  - intent: resource_available_academic_integrity
-  - action: utter_resource_available_academic_integrity
-    
+
 - rule: Answer news_event_related_ai
   steps:
   - intent: news_event_related_ai
   - action: utter_news_event_related_ai
-    
+
 - rule: Answer ai_degree_certificate_offered
   steps:
   - intent: ai_degree_certificate_offered
   - action: utter_ai_degree_certificate_offered
-    
-- rule: Answer undergraduate_program_offer_ai
-  steps:
-  - intent: undergraduate_program_offer_ai
-  - action: utter_undergraduate_program_offer_ai
-    
-- rule: Answer graduate_program_offer_ai
-  steps:
-  - intent: graduate_program_offer_ai
-  - action: utter_graduate_program_offer_ai
-    
+
 - rule: Answer ai_course_available
   steps:
   - intent: ai_course_available
   - action: utter_ai_course_available
-    
+
 - rule: Answer introductory_tool_text_analysis
   steps:
   - intent: introductory_tool_text_analysis
   - action: utter_introductory_tool_text_analysis
-    
-- rule: Answer What_is_Constellate
-  steps:
-  - intent: What_is_Constellate
-  - action: utter_What_is_Constellate
-    
-- rule: Answer access_constellate
-  steps:
-  - intent: access_constellate
-  - action: utter_access_constellate
-    
+
 - rule: Answer hathitrust_research_center
   steps:
   - intent: hathitrust_research_center
   - action: utter_hathitrust_research_center
-    
+
 - rule: Answer advanced_text_analysis_tool
   steps:
   - intent: advanced_text_analysis_tool
   - action: utter_advanced_text_analysis_tool
-    
-- rule: Answer data_cleaning_tool_available
-  steps:
-  - intent: data_cleaning_tool_available
-  - action: utter_data_cleaning_tool_available
-    
+
 - rule: Answer freely_available_corpus_text
   steps:
   - intent: freely_available_corpus_text
   - action: utter_freely_available_corpus_text
-    
+
 - rule: Answer learn_work_api
   steps:
   - intent: learn_work_api
   - action: utter_learn_work_api
-    
-- rule: Answer university_alabama_api_code
-  steps:
-  - intent: university_alabama_api_code
-  - action: utter_university_alabama_api_code
-    
+
 - rule: Answer policy_using_ai_developing
   steps:
   - intent: policy_using_ai_developing
   - action: utter_policy_using_ai_developing
-    
+
 - rule: Answer cite_ai_manuscript
   steps:
   - intent: cite_ai_manuscript
   - action: utter_cite_ai_manuscript
-    
+
 - rule: Answer resource_available_learning_ai
   steps:
   - intent: resource_available_learning_ai
   - action: utter_resource_available_learning_ai
-    
+
 - rule: Answer example_policy_guideline_ai
   steps:
   - intent: example_policy_guideline_ai
   - action: utter_example_policy_guideline_ai
-    
+
 - rule: Answer search_option_available
   steps:
   - intent: search_option_available
   - action: utter_search_option_available
-    
+
 - rule: Answer service_library_offer
   steps:
   - intent: service_library_offer
   - action: utter_service_library_offer
-    
+
 - rule: Answer get_research_help
   steps:
   - intent: get_research_help
   - action: utter_get_research_help
-    
+
 - rule: Answer special_collection_available
   steps:
   - intent: special_collection_available
   - action: utter_special_collection_available
-    
+
 - rule: Answer support_library
   steps:
   - intent: support_library
   - action: utter_support_library
-    
-- rule: Answer print_device
-  steps:
-  - intent: print_device
-  - action: utter_print_device
-    
+
 - rule: Answer event_upcoming
   steps:
   - intent: event_upcoming
   - action: utter_event_upcoming
-    
+
 - rule: Answer policy_text_analysis_licensed
   steps:
   - intent: policy_text_analysis_licensed
   - action: utter_policy_text_analysis_licensed
-    
+
 - rule: Answer vendor_allow_text_analysis
   steps:
   - intent: vendor_allow_text_analysis
   - action: utter_vendor_allow_text_analysis
-    
+
 - rule: Answer get_started_text_analysis1
   steps:
   - intent: get_started_text_analysis1
   - action: utter_get_started_text_analysis1
-    
+
 - rule: Answer federal_legal_response_ai
   steps:
   - intent: federal_legal_response_ai
   - action: utter_federal_legal_response_ai
-    
+
 - rule: Answer resource_copyright_ai
   steps:
   - intent: resource_copyright_ai
   - action: utter_resource_copyright_ai
-    
+
 - rule: Answer guidance_university_college_provide
   steps:
   - intent: guidance_university_college_provide
   - action: utter_guidance_university_college_provide
-    
+
 - rule: Answer citation_style_guide
   steps:
   - intent: citation_style_guide
   - action: utter_citation_style_guide
-    
+
 - rule: Answer need_cite_source
   steps:
   - intent: need_cite_source
   - action: utter_need_cite_source
-    
+
 - rule: Answer commonly_used_citation_style
   steps:
   - intent: commonly_used_citation_style
   - action: utter_commonly_used_citation_style
-    
-- rule: Answer know_citation_style_use
-  steps:
-  - intent: know_citation_style_use
-  - action: utter_know_citation_style_use
-    
-- rule: Answer check_policy_textbook
-  steps:
-  - intent: check_policy_textbook
-  - action: utter_check_policy_textbook
-    
-- rule: Answer happens_return_textbook_late
-  steps:
-  - intent: happens_return_textbook_late
-  - action: utter_happens_return_textbook_late
-    
-- rule: Answer access_course_material
-  steps:
-  - intent: access_course_material
-  - action: utter_access_course_material
-    
-- rule: Answer faculty_member_make_course
-  steps:
-  - intent: faculty_member_make_course
-  - action: utter_faculty_member_make_course
-    
+
 - rule: Answer contact_library_textbook_course
   steps:
   - intent: contact_library_textbook_course
   - action: utter_contact_library_textbook_course
-    
+
 - rule: Answer event_offered_constellate
   steps:
   - intent: event_offered_constellate
   - action: utter_event_offered_constellate
-    
+
 - rule: Answer tutorial_available_text_analysis
   steps:
   - intent: tutorial_available_text_analysis
   - action: utter_tutorial_available_text_analysis
-    
+
 - rule: Answer instruction_article_available_text
   steps:
   - intent: instruction_article_available_text
   - action: utter_instruction_article_available_text
-    
+
 - rule: Answer ama_citation_style
   steps:
   - intent: ama_citation_style
   - action: utter_ama_citation_style
-    
+
 - rule: Answer cite_government_report
   steps:
   - intent: cite_government_report
   - action: utter_cite_government_report
-    
-- rule: Answer cite_dissertation
-  steps:
-  - intent: cite_dissertation
-  - action: utter_cite_dissertation
-    
-- rule: Answer cite_data_statistical_software
-  steps:
-  - intent: cite_data_statistical_software
-  - action: utter_cite_data_statistical_software
-    
-- rule: Answer What_is_a_DOI
-  steps:
-  - intent: What_is_a_DOI
-  - action: utter_What_is_a_DOI
-    
+
 - rule: Answer apa_publication_manual
   steps:
   - intent: apa_publication_manual
   - action: utter_apa_publication_manual
-    
+
 - rule: Answer cite_periodical_apa_style
   steps:
   - intent: cite_periodical_apa_style
   - action: utter_cite_periodical_apa_style
-    
+
 - rule: Answer cite_book_reference_text
   steps:
   - intent: cite_book_reference_text
   - action: utter_cite_book_reference_text
-    
+
 - rule: Answer cite_webpage_website_apa
   steps:
   - intent: cite_webpage_website_apa
   - action: utter_cite_webpage_website_apa
-    
+
 - rule: Answer cite_government_business_technical
   steps:
   - intent: cite_government_business_technical
   - action: utter_cite_government_business_technical
-    
+
 - rule: Answer cite_dissertation_thesis_apa
   steps:
   - intent: cite_dissertation_thesis_apa
   - action: utter_cite_dissertation_thesis_apa
-    
+
 - rule: Answer cite_data_set_software
   steps:
   - intent: cite_data_set_software
   - action: utter_cite_data_set_software
-    
+
 - rule: Answer find_information_apa_citation
   steps:
   - intent: find_information_apa_citation
   - action: utter_find_information_apa_citation
-    
+
 - rule: Answer chicago_manual_style
   steps:
   - intent: chicago_manual_style
   - action: utter_chicago_manual_style
-    
-- rule: Answer cite_journal_article_chicago
-  steps:
-  - intent: cite_journal_article_chicago
-  - action: utter_cite_journal_article_chicago
-    
-- rule: Answer cite_book_book_chapter
-  steps:
-  - intent: cite_book_book_chapter
-  - action: utter_cite_book_book_chapter
-    
-- rule: Answer cite_newspaper_magazine_article
-  steps:
-  - intent: cite_newspaper_magazine_article
-  - action: utter_cite_newspaper_magazine_article
-    
-- rule: Answer cite_dissertation_thesis_chicago
-  steps:
-  - intent: cite_dissertation_thesis_chicago
-  - action: utter_cite_dissertation_thesis_chicago
-    
-- rule: Answer cite_website_blog_social
-  steps:
-  - intent: cite_website_blog_social
-  - action: utter_cite_website_blog_social
-    
+
 - rule: Answer cite_primary_source_chicago
   steps:
   - intent: cite_primary_source_chicago
   - action: utter_cite_primary_source_chicago
-    
+
 - rule: Answer find_example_chicago_citation
   steps:
   - intent: find_example_chicago_citation
   - action: utter_find_example_chicago_citation
-    
-- rule: Answer find_printable_style_sheet
-  steps:
-  - intent: find_printable_style_sheet
-  - action: utter_find_printable_style_sheet
-    
+
 - rule: Answer ongoing_event_happening_library
   steps:
   - intent: ongoing_event_happening_library
   - action: utter_ongoing_event_happening_library
-    
+
 - rule: Answer example_project_use_digital
   steps:
   - intent: example_project_use_digital
   - action: utter_example_project_use_digital
-    
-- rule: Answer usc_related_digital_scholarship
-  steps:
-  - intent: usc_related_digital_scholarship
-  - action: utter_usc_related_digital_scholarship
-    
+
 - rule: Answer concept_related_artificial_intelligence
   steps:
   - intent: concept_related_artificial_intelligence
   - action: utter_concept_related_artificial_intelligence
-    
+
 - rule: Answer concept_related_generative_ai
   steps:
   - intent: concept_related_generative_ai
   - action: utter_concept_related_generative_ai
-    
+
 - rule: Answer general_guideline_using_ai
   steps:
   - intent: general_guideline_using_ai
   - action: utter_general_guideline_using_ai
-    
+
 - rule: Answer tip_follow_using_ai
   steps:
   - intent: tip_follow_using_ai
   - action: utter_tip_follow_using_ai
-    
+
 - rule: Answer learn_using_ai_according
   steps:
   - intent: learn_using_ai_according
   - action: utter_learn_using_ai_according
-    
-- rule: Answer prompt_engineering
-  steps:
-  - intent: prompt_engineering
-  - action: utter_prompt_engineering
-    
-- rule: Answer framework_use_effective_ai
-  steps:
-  - intent: framework_use_effective_ai
-  - action: utter_framework_use_effective_ai
-    
+
 - rule: Answer learn_clear_framework
   steps:
   - intent: learn_clear_framework
   - action: utter_learn_clear_framework
-    
+
 - rule: Answer learn_prompt_engineering
   steps:
   - intent: learn_prompt_engineering
   - action: utter_learn_prompt_engineering
-    
+
 - rule: Answer format_intext_citation_mla
   steps:
   - intent: format_intext_citation_mla
   - action: utter_format_intext_citation_mla
-    
+
 - rule: Answer format_work_cited_entry
   steps:
   - intent: format_work_cited_entry
   - action: utter_format_work_cited_entry
-    
+
 - rule: Answer additional_resource_mla_citation
   steps:
   - intent: additional_resource_mla_citation
   - action: utter_additional_resource_mla_citation
-    
+
 - rule: Answer evaluating_resource_checklist
   steps:
   - intent: evaluating_resource_checklist
   - action: utter_evaluating_resource_checklist
-    
+
 - rule: Answer criterion_evaluating_online_resource
   steps:
   - intent: criterion_evaluating_online_resource
   - action: utter_criterion_evaluating_online_resource
-    
+
 - rule: Answer resource_available_understanding_medium
   steps:
   - intent: resource_available_understanding_medium
   - action: utter_resource_available_understanding_medium
-    
-- rule: Answer additional_resource_available_evaluating
-  steps:
-  - intent: additional_resource_available_evaluating
-  - action: utter_additional_resource_available_evaluating
-    
+
 - rule: Answer example_generative_ai_chatbots
   steps:
   - intent: example_generative_ai_chatbots
   - action: utter_example_generative_ai_chatbots
-    
+
 - rule: Answer ai_art_generator_work
   steps:
   - intent: ai_art_generator_work
   - action: utter_ai_art_generator_work
-    
-- rule: Answer example_ai_art_generator
-  steps:
-  - intent: example_ai_art_generator
-  - action: utter_example_ai_art_generator
-    
+
 - rule: Answer attribute_ai_research
   steps:
   - intent: attribute_ai_research
   - action: utter_attribute_ai_research
-    
-- rule: Answer chicago_17_authordate_citation
-  steps:
-  - intent: chicago_17_authordate_citation
-  - action: utter_chicago_17_authordate_citation
-    
+
 - rule: Answer format_footnote_citation_chicago
   steps:
   - intent: format_footnote_citation_chicago
   - action: utter_format_footnote_citation_chicago
-    
+
 - rule: Answer additional_resource_available_chicago
   steps:
   - intent: additional_resource_available_chicago
   - action: utter_additional_resource_available_chicago
-    
+
 - rule: Answer digital_scholarship_service_available
   steps:
   - intent: digital_scholarship_service_available
   - action: utter_digital_scholarship_service_available
-    
-- rule: Answer find_example_digital_project
-  steps:
-  - intent: find_example_digital_project
-  - action: utter_find_example_digital_project
-    
+
 - rule: Answer digital_scholarship
   steps:
   - intent: digital_scholarship
   - action: utter_digital_scholarship
-    
+
 - rule: Answer library_help_digital_scholarship
   steps:
   - intent: library_help_digital_scholarship
   - action: utter_library_help_digital_scholarship
-    
+
 - rule: Answer see_example_digital_scholarship
   steps:
   - intent: see_example_digital_scholarship
   - action: utter_see_example_digital_scholarship
-    
+
 - rule: Answer text_mining
   steps:
   - intent: text_mining
   - action: utter_text_mining
-    
+
 - rule: Answer term_related_text_mining
   steps:
   - intent: term_related_text_mining
   - action: utter_term_related_text_mining
-    
+
 - rule: Answer get_started_text_mining
   steps:
   - intent: get_started_text_mining
   - action: utter_get_started_text_mining
-    
+
 - rule: Answer create_open_access_journal
   steps:
   - intent: create_open_access_journal
   - action: utter_create_open_access_journal
-    
+
 - rule: Answer detail_consider_creating_open
   steps:
   - intent: detail_consider_creating_open
   - action: utter_detail_consider_creating_open
-    
+
 - rule: Answer role_needed_manage_open
   steps:
   - intent: role_needed_manage_open
   - action: utter_role_needed_manage_open
-    
+
 - rule: Answer policy_established_open_access
   steps:
   - intent: policy_established_open_access
   - action: utter_policy_established_open_access
-    
+
 - rule: Answer attribution_work
   steps:
   - intent: attribution_work
   - action: utter_attribution_work
-    
+
 - rule: Answer consider_planning_digital_scholarship
   steps:
   - intent: consider_planning_digital_scholarship
   - action: utter_consider_planning_digital_scholarship
-    
+
 - rule: Answer digital_project_showcase
   steps:
   - intent: digital_project_showcase
   - action: utter_digital_project_showcase
-    
+
 - rule: Answer see_example_digital_project
   steps:
   - intent: see_example_digital_project
   - action: utter_see_example_digital_project
-    
+
 - rule: Answer digital_project_explore
   steps:
   - intent: digital_project_explore
   - action: utter_digital_project_explore
-    
+
 - rule: Answer learn_digital_project_showcase
   steps:
   - intent: learn_digital_project_showcase
   - action: utter_learn_digital_project_showcase
-    
+
 - rule: Answer constellate_use_it
   steps:
   - intent: constellate_use_it
   - action: utter_constellate_use_it
-    
+
 - rule: Answer hathitrust_research_center_access
   steps:
   - intent: hathitrust_research_center_access
   - action: utter_hathitrust_research_center_access
-    
+
 - rule: Answer track_impact_research
   steps:
   - intent: track_impact_research
   - action: utter_track_impact_research
-    
+
 - rule: Answer uscs_create_digital
   steps:
   - intent: uscs_create_digital
   - action: utter_uscs_create_digital
-    
-- rule: Answer limitation_uscs_create_digital
-  steps:
-  - intent: limitation_uscs_create_digital
-  - action: utter_limitation_uscs_create_digital
-    
+
 - rule: Answer need_additional_storage
   steps:
   - intent: need_additional_storage
   - action: utter_need_additional_storage
-    
+
 - rule: Answer get_started_uscs_create
   steps:
   - intent: get_started_uscs_create
   - action: utter_get_started_uscs_create
-    
+
 - rule: Answer digital_tool_available_project
   steps:
   - intent: digital_tool_available_project
   - action: utter_digital_tool_available_project
-    
+
 - rule: Answer annotation_tool_available
   steps:
   - intent: annotation_tool_available
   - action: utter_annotation_tool_available
-    
+
 - rule: Answer timeline_tool_available
   steps:
   - intent: timeline_tool_available
   - action: utter_timeline_tool_available
-    
+
 - rule: Answer mapping_tool_available
   steps:
   - intent: mapping_tool_available
   - action: utter_mapping_tool_available
-    
+
 - rule: Answer web_scraper_available
   steps:
   - intent: web_scraper_available
   - action: utter_web_scraper_available
-    
+
 - rule: Answer collaboration_tool_available
   steps:
   - intent: collaboration_tool_available
   - action: utter_collaboration_tool_available
-    
+
 - rule: Answer animation_tool_available
   steps:
   - intent: animation_tool_available
   - action: utter_animation_tool_available
-    
+
 - rule: Answer audio_production_tool_available
   steps:
   - intent: audio_production_tool_available
   - action: utter_audio_production_tool_available
-    
+
 - rule: Answer learn_digital_scholarship_tool
   steps:
   - intent: learn_digital_scholarship_tool
   - action: utter_learn_digital_scholarship_tool
-    
+
 - rule: Answer copyright_exist
   steps:
   - intent: copyright_exist
   - action: utter_copyright_exist
-    
+
 - rule: Answer make_copyright_decision
   steps:
   - intent: make_copyright_decision
   - action: utter_make_copyright_decision
-    
+
 - rule: Answer type_repository_sharing_research
   steps:
   - intent: type_repository_sharing_research
   - action: utter_type_repository_sharing_research
-    
+
 - rule: Answer version_work_share
   steps:
   - intent: version_work_share
   - action: utter_version_work_share
-    
+
 - rule: Answer academic_social_networking_site
   steps:
   - intent: academic_social_networking_site
@@ -1914,349 +1694,313 @@ rules:
   steps:
   - intent: featured_repository
   - action: utter_featured_repository
-    
+
 - rule: Answer create_open_educational_resource
   steps:
   - intent: create_open_educational_resource
   - action: utter_create_open_educational_resource
-    
+
 - rule: Answer modify_existing_open_educational
   steps:
   - intent: modify_existing_open_educational
   - action: utter_modify_existing_open_educational
-    
-- rule: Answer attribution_information_open_educational
-  steps:
-  - intent: attribution_information_open_educational
-  - action: utter_attribution_information_open_educational
-    
+
 - rule: Answer create_account_scholar_common
   steps:
   - intent: create_account_scholar_common
   - action: utter_create_account_scholar_common
-    
+
 - rule: Answer content_management_system_available
   steps:
   - intent: content_management_system_available
   - action: utter_content_management_system_available
-    
+
 - rule: Answer select_suitable_content_management
   steps:
   - intent: select_suitable_content_management
   - action: utter_select_suitable_content_management
-    
+
 - rule: Answer web_archiving
   steps:
   - intent: web_archiving
   - action: utter_web_archiving
-    
+
 - rule: Answer type_work_copyrighted
   steps:
   - intent: type_work_copyrighted
   - action: utter_type_work_copyrighted
-    
+
 - rule: Answer public_domain
   steps:
   - intent: public_domain
   - action: utter_public_domain
-    
+
 - rule: Answer additional_resource_available_learning
   steps:
   - intent: additional_resource_available_learning
   - action: utter_additional_resource_available_learning
-    
+
 - rule: Answer statutory_exemption_copyright
   steps:
   - intent: statutory_exemption_copyright
   - action: utter_statutory_exemption_copyright
-    
+
 - rule: Answer licensing_apply_using_content
   steps:
   - intent: licensing_apply_using_content
   - action: utter_licensing_apply_using_content
-    
+
 - rule: Answer library_database_use_them
   steps:
   - intent: library_database_use_them
   - action: utter_library_database_use_them
-    
+
 - rule: Answer acceptable_us_librarylicensed_resource
   steps:
   - intent: acceptable_us_librarylicensed_resource
   - action: utter_acceptable_us_librarylicensed_resource
-    
+
 - rule: Answer fair_use
   steps:
   - intent: fair_use
   - action: utter_fair_use
-    
+
 - rule: Answer resource_help_determine_fair
   steps:
   - intent: resource_help_determine_fair
   - action: utter_resource_help_determine_fair
-    
-- rule: Answer fair_use_apply_student
-  steps:
-  - intent: fair_use_apply_student
-  - action: utter_fair_use_apply_student
-    
+
 - rule: Answer need_permission_use_copyrighted
   steps:
   - intent: need_permission_use_copyrighted
   - action: utter_need_permission_use_copyrighted
-    
+
 - rule: Answer seek_permission_use_copyrighted
   steps:
   - intent: seek_permission_use_copyrighted
   - action: utter_seek_permission_use_copyrighted
-    
+
 - rule: Answer library_help_copyright_permission
   steps:
   - intent: library_help_copyright_permission
   - action: utter_library_help_copyright_permission
-    
-- rule: Answer benefit_archiving_research
-  steps:
-  - intent: benefit_archiving_research
-  - action: utter_benefit_archiving_research
-    
+
 - rule: Answer different_version_article
   steps:
   - intent: different_version_article
   - action: utter_different_version_article
-    
+
 - rule: Answer find_article_version
   steps:
   - intent: find_article_version
   - action: utter_find_article_version
-    
+
 - rule: Answer share_article_version_online
   steps:
   - intent: share_article_version_online
   - action: utter_share_article_version_online
-    
+
 - rule: Answer vendor_allow_text_data
   steps:
   - intent: vendor_allow_text_data
   - action: utter_vendor_allow_text_data
-    
+
 - rule: Answer evaluation_method_digital_scholarship
   steps:
   - intent: evaluation_method_digital_scholarship
   - action: utter_evaluation_method_digital_scholarship
-    
+
 - rule: Answer peerreviewed_journal_available_digital
   steps:
   - intent: peerreviewed_journal_available_digital
   - action: utter_peerreviewed_journal_available_digital
-    
+
 - rule: Answer resource_help_understand_copyright
   steps:
   - intent: resource_help_understand_copyright
   - action: utter_resource_help_understand_copyright
-    
+
 - rule: Answer add_course_reading_blackboard
   steps:
   - intent: add_course_reading_blackboard
   - action: utter_add_course_reading_blackboard
-    
+
 - rule: Answer print_material_available_course
   steps:
   - intent: print_material_available_course
   - action: utter_print_material_available_course
-    
+
 - rule: Answer contact_course_material_support
   steps:
   - intent: contact_course_material_support
   - action: utter_contact_course_material_support
-    
+
 - rule: Answer impact_open_educational_resource
   steps:
   - intent: impact_open_educational_resource
   - action: utter_impact_open_educational_resource
-    
+
 - rule: Answer find_information_music_material
   steps:
   - intent: find_information_music_material
   - action: utter_find_information_music_material
-    
+
 - rule: Answer find_openly_available_research
   steps:
   - intent: find_openly_available_research
   - action: utter_find_openly_available_research
-    
+
 - rule: Answer statistic_textbook_cost
   steps:
   - intent: statistic_textbook_cost
   - action: utter_statistic_textbook_cost
-    
-- rule: Answer predatory_publisher
-  steps:
-  - intent: predatory_publisher
-  - action: utter_predatory_publisher
-    
+
 - rule: Answer determine_journal_predatory
   steps:
   - intent: determine_journal_predatory
   - action: utter_determine_journal_predatory
-    
+
 - rule: Answer industry_membership_indicate_journal
   steps:
   - intent: industry_membership_indicate_journal
   - action: utter_industry_membership_indicate_journal
-    
+
 - rule: Answer difference_backup_storage
   steps:
   - intent: difference_backup_storage
   - action: utter_difference_backup_storage
-    
+
 - rule: Answer make_class_affordable
   steps:
   - intent: make_class_affordable
   - action: utter_make_class_affordable
-    
+
 - rule: Answer support_library_offer_course
   steps:
   - intent: support_library_offer_course
   - action: utter_support_library_offer_course
-    
+
 - rule: Answer scoer_faculty_award
   steps:
   - intent: scoer_faculty_award
   - action: utter_scoer_faculty_award
-    
+
 - rule: Answer statewide_initiative_available_help
   steps:
   - intent: statewide_initiative_available_help
   - action: utter_statewide_initiative_available_help
-    
+
 - rule: Answer get_help_locating_affordable
   steps:
   - intent: get_help_locating_affordable
   - action: utter_get_help_locating_affordable
-    
-- rule: Answer problem_published_research_finding
-  steps:
-  - intent: problem_published_research_finding
-  - action: utter_problem_published_research_finding
-    
+
 - rule: Answer find_resource_registering_project
   steps:
   - intent: find_resource_registering_project
   - action: utter_find_resource_registering_project
-    
+
 - rule: Answer open_textbook_source_available
   steps:
   - intent: open_textbook_source_available
   - action: utter_open_textbook_source_available
-    
-- rule: Answer way_search_across_multiple
-  steps:
-  - intent: way_search_across_multiple
-  - action: utter_way_search_across_multiple
-    
+
 - rule: Answer scoer_award
   steps:
   - intent: scoer_award
   - action: utter_scoer_award
-    
+
 - rule: Answer winner_scoer_award
   steps:
   - intent: winner_scoer_award
   - action: utter_winner_scoer_award
-    
+
 - rule: Answer benefit_using_open_educational
   steps:
   - intent: benefit_using_open_educational
   - action: utter_benefit_using_open_educational
-    
+
 - rule: Answer quote_award_recipient_chose
   steps:
   - intent: quote_award_recipient_chose
   - action: utter_quote_award_recipient_chose
-    
+
 - rule: Answer factor_selection_committee_consider
   steps:
   - intent: factor_selection_committee_consider
   - action: utter_factor_selection_committee_consider
-    
+
 - rule: Answer winner_plan_achieve_award
   steps:
   - intent: winner_plan_achieve_award
   - action: utter_winner_plan_achieve_award
-    
+
 - rule: Answer scoer_faculty_award_2020
   steps:
   - intent: scoer_faculty_award_2020
   - action: utter_scoer_faculty_award_2020
-    
+
 - rule: Answer winner_scoer_faculty_award
   steps:
   - intent: winner_scoer_faculty_award
   - action: utter_winner_scoer_faculty_award
-    
+
 - rule: Answer required_participate_scoer_program
   steps:
   - intent: required_participate_scoer_program
   - action: utter_required_participate_scoer_program
-    
+
 - rule: Answer scoer_grant_recipient_selected
   steps:
   - intent: scoer_grant_recipient_selected
   - action: utter_scoer_grant_recipient_selected
-    
+
 - rule: Answer scoer_grant_recipient
   steps:
   - intent: scoer_grant_recipient
   - action: utter_scoer_grant_recipient
-    
+
 - rule: Answer scoer_faculty_grant
   steps:
   - intent: scoer_faculty_grant
   - action: utter_scoer_faculty_grant
-    
+
 - rule: Answer service_library_offer_faculty
   steps:
   - intent: service_library_offer_faculty
   - action: utter_service_library_offer_faculty
-    
+
 - rule: Answer osf_free
   steps:
   - intent: osf_free
   - action: utter_osf_free
-    
+
 - rule: Answer criterion_use_evaluate_oer
   steps:
   - intent: criterion_use_evaluate_oer
   - action: utter_criterion_use_evaluate_oer
-    
+
 - rule: Answer open_pedagogy
   steps:
   - intent: open_pedagogy
   - action: utter_open_pedagogy
-    
+
 - rule: Answer student_involved_creation_knowledge
   steps:
   - intent: student_involved_creation_knowledge
   - action: utter_student_involved_creation_knowledge
-    
+
 - rule: Answer resource_available_open_pedagogy
   steps:
   - intent: resource_available_open_pedagogy
   - action: utter_resource_available_open_pedagogy
-    
-- rule: Answer open_case_study_use
-  steps:
-  - intent: open_case_study_use
-  - action: utter_open_case_study_use
-    
+
 - rule: Answer find_open_freely_available
   steps:
   - intent: find_open_freely_available
   - action: utter_find_open_freely_available
-    
+
 - rule: Answer open_access_journal_featuring
   steps:
   - intent: open_access_journal_featuring
   - action: utter_open_access_journal_featuring
-    

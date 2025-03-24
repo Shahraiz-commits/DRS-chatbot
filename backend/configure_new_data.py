@@ -19,6 +19,7 @@ def configure_nlu(action: str, intent: str, questions: list = []):
         for index, item in enumerate(data["nlu"]):
             if(item["intent"] == intent):
                 del data["nlu"][index]
+                remove_rule(intent) # Remove the corresponding rule entry for this intent
                 break
     elif(action == "modify"):
         for index, item in enumerate(data["nlu"]):
@@ -35,6 +36,20 @@ def configure_nlu(action: str, intent: str, questions: list = []):
                 break
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
+        yaml.dump(data, file)
+
+def remove_rule(target_intent):
+    rules_file = "../Chatbot/data/rules.yml"
+    yaml = YAML()
+    with open(rules_file, "r", encoding="utf-8") as file:
+        data = yaml.load(file)
+    
+    for index, item in enumerate(data["rules"]):
+        current_intent = item["steps"][0]["intent"]
+        if(current_intent == target_intent):
+            del data["rules"][index]
+    
+    with open(rules_file, "w", encoding="utf-8") as file:
         yaml.dump(data, file)
 
 # Remove intents from domain file or change the response of an intent in the file

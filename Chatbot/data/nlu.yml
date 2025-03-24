@@ -52,38 +52,6 @@ nlu:
     - How do I reach out to library faculty
     - Contact info for acquisitions department
     - Who is Kate Boyd and how do I contact her?
-- intent: use_digital_tool_research
-  examples: |
-    - How can I use digital tools in my research?
-    - What kind of digital research support does the library offer?
-    - digital scholarship resources
-    - I need help with digital research methods
-    - Does the library have tools for digital research?
-    - digital processes in research - help!
-    - How do I present my research digitally?
-    - New forms of research methods?
-    - Can the library assist me with digital projects?
-    - What's available at USC for digital scholarship?
-    - I want to learn about digital tools for research
-    - digital research services
-    - library support for digital work
-    - How can I get help with my digital dissertation?
-- intent: data_organization
-  examples: |
-    - Data organization
-    - What research data services does the library offer?
-    - help with data management
-    - Where can I find open datasets?
-    - data sharing policy
-    - metadata help
-    - research data lifecycle support
-    - I need assistance with my data plan
-    - Does USC lib have data resources?
-    - library data services
-    - How do I manage research data?
-    - USC data management plans
-    - Can I get help with dataset discovery?
-    - data lifecycle help
 - intent: kind_workshop_library_offer
   examples: |
     - Are there any workshops or training available for Research Data Management?
@@ -2224,7 +2192,7 @@ nlu:
     - Is there a form to reserve data analysis assistance?
     - Data analysis and stats help at USC
 - intent: specialized_software_available_datalab
-  examples: |
+  examples: |-
     - What specialized software is available in the DataLab?
     - What software is available in the DataLab?
     - datalab sofwtare
@@ -2243,9 +2211,6 @@ nlu:
     - ArcGIS account request process
     - Gamecock Geospatial Portal information
     - Where can I find additional computers with specialized software?
-- intent: hardware_available_datalab
-  examples: |
-    - What hardware is available in the DataLab?
     - Which hardware is available in the DataLab?
     - do u have any hardware i can use
     - What hardware is available in the library?
@@ -2260,25 +2225,8 @@ nlu:
     - Library monitor specs
     - what hardware does the library have
     - can i use lib computers for gaming
-- intent: importance_quality_data_data
-  examples: |
-    - What is the importance of quality data in data visualization?
-    - What is importance of quality data in data visualization?
-    - Where can I find existing data for research?
-    - How do I get quality data for visualization?
-    - Data for my project?
-    - Do you have any existing datasets I can use?
-    - Need help finding research data
-    - where to find good data
-    - data collection resources
-    - Can I use pre-existing data for my research?
-    - Finding reliable data sources
-    - usc library data sources?
-    - existing data for research projects
-    - Where do I start looking for data?
-    - Need data for visualization project
 - intent: find_subjectspecific_data_statistic
-  examples: |
+  examples: |-
     - Where can I find subject-specific statistics?
     - subject-specific data
     - Where can I find statistics for my research?
@@ -2295,6 +2243,20 @@ nlu:
     - subject specific data at usc lib
     - finding data for my paper
     - usc statistics sources
+    - What is importance of quality data in data visualization?
+    - Where can I find existing data for research?
+    - How do I get quality data for visualization?
+    - Data for my project?
+    - Do you have any existing datasets I can use?
+    - Need help finding research data
+    - where to find good data
+    - data collection resources
+    - Can I use pre-existing data for my research?
+    - Finding reliable data sources
+    - usc library data sources?
+    - existing data for research projects
+    - Where do I start looking for data?
+    - Need data for visualization project
 - intent: kind_research_support_university
   examples: |
     - What kind of research support does the library have?
@@ -2456,25 +2418,8 @@ nlu:
     - open data restrictions
     - Why is open data important in research?
     - How does open data impact GDP?
-- intent: create_project_file_nvivo
-  examples: |
-    - How do I create a project file in NVivo?
-    - create new file nvivo
-    - creating project file nvivo
-    - How do I create a new project in NVivo?
-    - NVivo project setup
-    - nvivo new file how?
-    - Can you walk me through creating an NVivo project?
-    - Where does NVivo save my projects?
-    - Creating project file with NVivo
-    - NVivo tutorial for beginners
-    - start nvivo project
-    - How do I make a project in NVivo?
-    - Setting up new NVivo project
-    - new project in nvivo steps
-    - Can you guide me through NVivo project creation?
 - intent: different_part_nvivo_workspace
-  examples: |
+  examples: |-
     - What are the different parts of the NVivo workspace?
     - show the different parts of the NVivo workspace?
     - list the different parts of the NVivo workspace?
@@ -2492,6 +2437,20 @@ nlu:
     - what does navigation view do
     - can't find project items nvivo
     - How to access open files in NVivo
+    - create new file nvivo
+    - creating project file nvivo
+    - How do I create a new project in NVivo?
+    - NVivo project setup
+    - nvivo new file how?
+    - Can you walk me through creating an NVivo project?
+    - Where does NVivo save my projects?
+    - Creating project file with NVivo
+    - NVivo tutorial for beginners
+    - start nvivo project
+    - How do I make a project in NVivo?
+    - Setting up new NVivo project
+    - new project in nvivo steps
+    - Can you guide me through NVivo project creation?
 - intent: import_data_file_nvivo
   examples: |
     - How do I import data files into NVivo?
@@ -2548,7 +2507,7 @@ nlu:
     - How do I view speaker attributes in NVivo?
     - Double-clicking on an attribute does what?
 - intent: software_hardware_resource_available
-  examples: |
+  examples: |-
     - What software and hardware resources are available at the University Libraries?
     - list the software and hardware resources available at the University Libraries?
     - Which software and hardware resources are available at the University Libraries?
@@ -2567,9 +2526,6 @@ nlu:
     - What kind of hardware is available in the library?
     - Are there scanners available for Windows computers?
     - Where can I find more information on technology services at the library?
-- intent: borrow_technology_library
-  examples: |
-    - How can I borrow technology from the library?
     - Do you have iPads for checkout?
     - What technology can I borrow from the library?
     - Can I rent a computer from the library?
@@ -2583,9 +2539,6 @@ nlu:
     - Can students borrow tablets from the library?
     - Laptop loan program at USC?
     - What can I borrow from the lib?
-- intent: request_remote_access_software
-  examples: |
-    - How do I request remote access to software?
     - How do I request remote access to a software?
     - How can I request remote access to software?
     - How do I get remote access to software?
@@ -2679,7 +2632,7 @@ nlu:
     - What is the purpose of a codebook in research?
     - NVivo data organization tips
 - intent: add_coding_data
-  examples: |
+  examples: |-
     - How do I add coding to my data?
     - How do I add coding to data?
     - How can I add coding to my data?
@@ -2696,9 +2649,6 @@ nlu:
     - nvivo coding instructions
     - Right click options in NVivo?
     - How do I highlight and code in NVivo?
-- intent: uncode_data
-  examples: |
-    - How do I uncode data?
     - How can I uncode data?
     - How do you uncode data?
     - How do I uncode in NVivo?
@@ -2962,23 +2912,8 @@ nlu:
     - un crime statistics
     - sentencing commission datafiles
     - world bank data catalog
-- intent: important_cite_data
-  examples: |
-    - Why is it important to cite data?
-    - Why should I cite data?
-    - do i need to cite datasets?
-    - Citing data importance
-    - How do I give credit for dataset
-    - Can I reuse someone's dataset?
-    - dataset citation necessary?
-    - What if I use another researcher's data?
-    - Data citation benefits
-    - Why cite a dataset?
-    - reuse of data rules
-    - Should I acknowledge dataset source
-    - dataset credit how to
 - intent: information_needed_properly_cite
-  examples: |
+  examples: |-
     - What information is needed to properly cite a dataset?
     - Tell me the best way to cite a dataset?
     - How do I properly cite a dataset?
@@ -2995,6 +2930,18 @@ nlu:
     - What is the format for citing datasets?
     - citing data repository info
     - Can you provide an example of dataset citation?
+    - Why should I cite data?
+    - do i need to cite datasets?
+    - Citing data importance
+    - How do I give credit for dataset
+    - Can I reuse someone's dataset?
+    - dataset citation necessary?
+    - What if I use another researcher's data?
+    - Data citation benefits
+    - Why cite a dataset?
+    - reuse of data rules
+    - Should I acknowledge dataset source
+    - dataset credit how to
 - intent: tool_help_data_citation
   examples: |
     - Are there tools to help with data citation?
@@ -3564,7 +3511,7 @@ nlu:
     - what are the components of data management?
     - I need help managing my research data
 - intent: contact_help_research_data
-  examples: |
+  examples: |-
     - Who can I contact for help with research data management?
     - Who should I contact for help with research data management?
     - who should i contact if i need help with DMP
@@ -3585,6 +3532,19 @@ nlu:
     - research support contact
     - How do I get in touch with Stacy Winchester?
     - stacy
+    - What research data services does the library offer?
+    - help with data management
+    - Where can I find open datasets?
+    - data sharing policy
+    - metadata help
+    - research data lifecycle support
+    - I need assistance with my data plan
+    - Does USC lib have data resources?
+    - library data services
+    - How do I manage research data?
+    - USC data management plans
+    - Can I get help with dataset discovery?
+    - data lifecycle help
 - intent: whats_data_management_plan
   examples: |
     - Whats data management plan (DMP)?
@@ -4064,27 +4024,8 @@ nlu:
     - What is MANTRA training?
     - resources for managing research data
     - Where can I find data management guides?
-- intent: registered_report_osf
-  examples: |
-    - What are Registered Reports in OSF?
-    - What are registered reports in OSF?
-    - What is registered report in OSF?
-    - What is a registered report in OSF?
-    - What is OSF registration?
-    - osf registrations?
-    - What's the purpose of registering with OSF?
-    - How does OSF registration work?
-    - Can I edit my OSF registration?
-    - What's a read-only version in OSF?
-    - Why register research plan on OSF
-    - OSF and peer-review process
-    - Is OSF registration required for journals
-    - What is the benefit of registering with OSF?
-    - How does OSF affect data collection?
-    - Can I change my OSF registration after submission
-    - What's the point of registering research plan
 - intent: happens_article_resulting_accepted
-  examples: |
+  examples: |-
     - What happens to articles resulting from accepted Registered Reports?
     - What happens to articles resulting from accepted registered reports?
     - What will happen to articles resulting from accepted registered reports?
@@ -4102,6 +4043,22 @@ nlu:
     - Can I submit a Registered Report without preregistering on OSF?
     - How do I ensure my research is reproducible?
     - tips for successful registered reports
+    - What are registered reports in OSF?
+    - What is registered report in OSF?
+    - What is a registered report in OSF?
+    - What is OSF registration?
+    - osf registrations?
+    - What's the purpose of registering with OSF?
+    - How does OSF registration work?
+    - Can I edit my OSF registration?
+    - What's a read-only version in OSF?
+    - Why register research plan on OSF
+    - OSF and peer-review process
+    - Is OSF registration required for journals
+    - What is the benefit of registering with OSF?
+    - How does OSF affect data collection?
+    - Can I change my OSF registration after submission
+    - What's the point of registering research plan
 - intent: suggest_workshop
   examples: |
     - How can I schedule a workshop session or suggest additional workshop offerings?
@@ -4151,43 +4108,8 @@ nlu:
     - library services for instructors at USC
     - How does the library support my research?
     - usc faculty resources
-- intent: happens_make_osf_project
-  examples: |
-    - What happens if I make my OSF project public?
-    - What will happen if I make my OSF project public?
-    - What happens when I make my OSF project public?
-    - What happens if I make my OSF project public?
-    - OSF project preservation?
-    - How long will my data be preserved on OSF?
-    - Will my OSF data be accessible after 50 years?
-    - osf preservation fund
-    - What is the OSF Preservation Fund?
-    - Can I make my OSF project publicly accessible?
-    - how does osf preserve data
-    - OSF read access for how long?
-    - preservation of osf projects
-    - Is there a cost to preserve OSF data?
-    - osf data hosting costs
-    - What are the benefits of making my OSF project public?
-- intent: get_doi_project
-  examples: |
-    - Can I get a DOI for my project?
-    - How can I get a DOI for my project?
-    - How do I get a DOI for my project?
-    - How do I get a DOI?
-    - DOI for my dataset?
-    - Can I get a DOI from OSF?
-    - Does OSF assign DOIs to datasets?
-    - Need a doi for project
-    - Get doi for individual data set?
-    - Why doesn't OSF give DOIs to individual datasets?
-    - Assign doi to entire project
-    - How do I obtain a DOI?
-    - Can I request a DOI from OSF?
-    - DOI creation help
-    - OSF DOI policy?
 - intent: kind_ai_support_library
-  examples: |
+  examples: |-
     - Is there an Artificial Intelligence Institute at USC?
     - AI institute
     - What is the AI institute at USC?
@@ -4251,26 +4173,6 @@ nlu:
     - Can I get assistance with digital research at USC?
     - Library resources for data science
     - what can you tell me about AI
-- intent: workshop_available_ai_data
-  examples: |
-    - What workshops are available for AI and data science?
-    - list the best AI and data science workshops?
-    - Are there any AI workshops available?
-    - I want to learn about data science tools
-    - Does the library provide training on Python or R?
-    - workshops on machine learning?
-    - Can I attend a workshop on data ethics?
-    - Where can I learn about responsible AI?
-    - What is GenAI and how can I use it for research?
-    - Are there any upcoming workshops on AI literacy?
-    - Can I get training on TensorFlow?
-    - ai ml trainings
-    - data science help
-    - Does the library offer courses on data management?
-    - How do I learn more about AI ethics?
-- intent: collaborate_someone_ai_research
-  examples: |
-    - Can I collaborate with someone on my AI research project?
     - How can I collaborate with someone on my AI research project?
     - Can I collaborate with someone on an AI research project?
     - can i get a teammate for my projecct
@@ -4288,6 +4190,23 @@ nlu:
     - Need help with data science project
     - Who can I work with on my research project?
     - Data analysis support at USC library
+- intent: workshop_available_ai_data
+  examples: |
+    - What workshops are available for AI and data science?
+    - list the best AI and data science workshops?
+    - Are there any AI workshops available?
+    - I want to learn about data science tools
+    - Does the library provide training on Python or R?
+    - workshops on machine learning?
+    - Can I attend a workshop on data ethics?
+    - Where can I learn about responsible AI?
+    - What is GenAI and how can I use it for research?
+    - Are there any upcoming workshops on AI literacy?
+    - Can I get training on TensorFlow?
+    - ai ml trainings
+    - data science help
+    - Does the library offer courses on data management?
+    - How do I learn more about AI ethics?
 - intent: help_ai
   examples: |
     - Who can help me with AI?
@@ -4357,27 +4276,8 @@ nlu:
     - AI origins
     - brief history of AI
     - When did AI research begin?
-- intent: subfields_artificial_intelligence
-  examples: |
-    - What are the subfields of Artificial Intelligence?
-    - list the subfields of Artificial Intelligence?
-    - can you list the subfields of Artificial Intelligence?
-    - show the subfields of Artificial Intelligence?
-    - What are the categories of artificial intelligence?
-    - AI subfields?
-    - Types of AI?
-    - What does AI include?
-    - Artificial intelligence branches
-    - sub areas of ai
-    - Ai classification
-    - Fields under AI
-    - different types of artificial intelligence
-    - AI categories
-    - ai subsets
-    - what comes under AI
-    - domains of AI
 - intent: application_artificial_intelligence
-  examples: |
+  examples: |-
     - What are the applications of AI
     - can you list the applications of Artificial Intelligence?
     - list the applications of Artificial Intelligence?
@@ -4401,6 +4301,22 @@ nlu:
     - AI in advertising
     - What is deep learning used for?
     - tell me applications of artifical intelligence
+    - list the subfields of Artificial Intelligence?
+    - can you list the subfields of Artificial Intelligence?
+    - show the subfields of Artificial Intelligence?
+    - What are the categories of artificial intelligence?
+    - AI subfields?
+    - Types of AI?
+    - What does AI include?
+    - Artificial intelligence branches
+    - sub areas of ai
+    - Ai classification
+    - Fields under AI
+    - different types of artificial intelligence
+    - AI categories
+    - ai subsets
+    - what comes under AI
+    - domains of AI
 - intent: consider_using_ai_technology
   examples: |
     - Does the Library endorse any AI tools?
@@ -4583,21 +4499,6 @@ nlu:
     - validation subset
     - testing data different from validation
     - Model testing subset
-- intent: resource_available_academic_integrity
-  examples: |
-    - What resources are available for academic integrity and student conduct related to AI?
-    - What is USC's policy on academic integrity?
-    - academic integrity usc
-    - Where can I find info on student conduct?
-    - USC AI policy
-    - rules on using ai for homework
-    - what happens if i plagiarize
-    - usc student conduct office
-    - How to report academic dishonesty
-    - What is considered cheating at USC?
-    - academic integrity guidelines
-    - AI usage in academics
-    - Is it okay to use AI for research papers?
 - intent: news_event_related_ai
   examples: |
     - What news and events are related to AI at USC?
@@ -4634,43 +4535,8 @@ nlu:
     - USC computer science courses with AI focus
     - Grad programs for AI at USC
     - How many credits is the AI grad certificate?
-- intent: undergraduate_program_offer_ai
-  examples: |
-    - What undergraduate programs offer an AI concentration?
-    - list the undergraduate programs that offer an AI concentration?
-    - Which undergraduate programs offer an AI concentration?
-    - USC computer science degree requirements?
-    - What is the curriculum for Computer Engineering at USC?
-    - Can I major in AI at USC?
-    - USC CSE course list
-    - computer engineering classes usc
-    - Is there an AI concentration at USC?
-    - USC CIS program details?
-    - computer science courses offered by usc
-    - What are the requirements for B.S.E. in Computer Engineering?
-    - USC CS degree info
-    - Where can I find more info on USC engineering programs?
-    - USC computer programs offered
-- intent: graduate_program_offer_ai
-  examples: |
-    - What graduate programs offer AI courses?
-    - list the graduate programs that offer AI courses?
-    - Which graduate programs offer AI courses?
-    - What courses are required for the Information Technology MS program?
-    - Info Tech MS requirements
-    - ITEC courses in IT MS
-    - Artificial Intelligence courses at USC
-    - Informatics courses in Info Tech
-    - MS in IT course list
-    - USC IT graduate program details
-    - ITEC 781 and ITEC 782 info
-    - What's the curriculum for Information Technology MS?
-    - Can you tell me about AI courses in IT MS?
-    - Info on Informatics II course
-    - Learn more about USC Info Tech MS
-    - Course requirements for MSIT
 - intent: ai_course_available
-  examples: |
+  examples: |-
     - What AI courses are available?
     - list the best AI courses?
     - What AI courses are available in India?
@@ -4687,6 +4553,47 @@ nlu:
     - What are the AI informatics courses at USC?
     - LAWS 851 course info
     - USC artificial inteligence studies
+    - What is USC's policy on academic integrity?
+    - academic integrity usc
+    - Where can I find info on student conduct?
+    - USC AI policy
+    - rules on using ai for homework
+    - what happens if i plagiarize
+    - usc student conduct office
+    - How to report academic dishonesty
+    - What is considered cheating at USC?
+    - academic integrity guidelines
+    - AI usage in academics
+    - Is it okay to use AI for research papers?
+    - list the undergraduate programs that offer an AI concentration?
+    - Which undergraduate programs offer an AI concentration?
+    - USC computer science degree requirements?
+    - What is the curriculum for Computer Engineering at USC?
+    - Can I major in AI at USC?
+    - USC CSE course list
+    - computer engineering classes usc
+    - Is there an AI concentration at USC?
+    - USC CIS program details?
+    - computer science courses offered by usc
+    - What are the requirements for B.S.E. in Computer Engineering?
+    - USC CS degree info
+    - Where can I find more info on USC engineering programs?
+    - USC computer programs offered
+    - list the graduate programs that offer AI courses?
+    - Which graduate programs offer AI courses?
+    - What courses are required for the Information Technology MS program?
+    - Info Tech MS requirements
+    - ITEC courses in IT MS
+    - Artificial Intelligence courses at USC
+    - Informatics courses in Info Tech
+    - MS in IT course list
+    - USC IT graduate program details
+    - ITEC 781 and ITEC 782 info
+    - What's the curriculum for Information Technology MS?
+    - Can you tell me about AI courses in IT MS?
+    - Info on Informatics II course
+    - Learn more about USC Info Tech MS
+    - Course requirements for MSIT
 - intent: introductory_tool_text_analysis
   examples: |
     - What are some introductory tools for text analysis?
@@ -4704,43 +4611,6 @@ nlu:
     - introductory tools for text analysis?
     - Are there any free text analysis tools available?
     - What resources are available for learning text analysis?
-- intent: What_is_Constellate
-  examples: |
-    - What is Constellate?
-    - Tell me the Constellate?
-    - What is Constellation?
-    - constellate
-    - What is Constellate?
-    - Constellate USC login
-    - JSTOR text analysis tool
-    - Can I use Constellate for data analysis?
-    - Constellate file sharing
-    - USC Constellate service
-    - Is Constellate free to use?
-    - Do I need a USC login for Constellate?
-    - Text analysis software USC
-    - Building datasets with Constellate
-    - What can I do with Constellate?
-    - Constellate learning resources
-- intent: access_constellate
-  examples: |
-    - How do I access Constellate?
-    - How can I access Constellate?
-    - Tell me the best way to access Constellate?
-    - How do I access JSTOR tutorials?
-    - jstor notebook login
-    - Where can I find Constellate Guide?
-    - Can't access Jupyter lab notebooks
-    - Constellate tutorial videos
-    - How to use JSTOR after signing in
-    - JSTOR YouTube tutorials
-    - Detailed instructions for JSTOR sign in
-    - Constellate org guide
-    - What's next after signing into JSTOR?
-    - Jupyter lab notebook tutorials
-    - Need help with Constellate login
-    - Where are the video tutorials for JSTOR?
-    - How to log in to Constellate
 - intent: hathitrust_research_center
   examples: |
     - Tell me the HathiTrust Research Center?
@@ -4755,7 +4625,7 @@ nlu:
     - Can I use HathiTrust for non-profit research?
     -  Hathitrust requirements
 - intent: advanced_text_analysis_tool
-  examples: |
+  examples: |-
     - What advanced text analysis tools are available?
     - best text analysis software
     - tools for analyzing text
@@ -4774,9 +4644,6 @@ nlu:
     - Can I download R Studio on my computer?
     - What is TAPoR 3 used for?
     - Advanced text analysis resources?
-- intent: data_cleaning_tool_available
-  examples: |
-    - What data cleaning tools are available?
     - list the best data cleaning tools?
     - how to clean data
     - I want help cleaning my dataset
@@ -4813,7 +4680,7 @@ nlu:
     - Can you give me a list of free text APIs?
     - Corpora for natural language processing
 - intent: learn_work_api
-  examples: |
+  examples: |-
     - How do I learn to work with an API?
     - How do I learn API?
     - Tell me the best way to learn API?
@@ -4831,9 +4698,6 @@ nlu:
     - I want to learn about APIs
     - How do I access library API resources?
     - Where can I find API tutorials?
-- intent: university_alabama_api_code
-  examples: |
-    - What is the University of Alabama API Code Examples?
     - Where can I find University of Alabama API code examples?
     - UA API code examples?
     - I need help with U of A API coding
@@ -5016,26 +4880,8 @@ nlu:
     - Can I make a gift to USC library online?
     - Supporting library resources
     - Make a donation to USC libraries
-- intent: print_device
-  examples: |
-    - How can I print from my device?
-    - How do I print from my mobile device?
-    - How can I print from my mobile device?
-    - How do I print from my laptop?
-    - can i print from my phone
-    - printing in the library
-    - how to send docs to lib printer
-    - Can I print documents from my computer?
-    - lib printer login
-    - Where can I find mobile printing?
-    - Need help printing
-    - send files to library printer
-    - tcl sc edu printing
-    - can i print in the library from my device
-    - mobile print center
-    - printing services at usc lib
 - intent: event_upcoming
-  examples: |
+  examples: |-
     - What events are upcoming?
     - show the upcoming events?
     - can you list the upcoming events?
@@ -5053,6 +4899,21 @@ nlu:
     - Public scholarship events
     - API data extraction workshop
     - University Libraries events
+    - How do I print from my mobile device?
+    - How can I print from my mobile device?
+    - How do I print from my laptop?
+    - can i print from my phone
+    - printing in the library
+    - how to send docs to lib printer
+    - Can I print documents from my computer?
+    - lib printer login
+    - Where can I find mobile printing?
+    - Need help printing
+    - send files to library printer
+    - tcl sc edu printing
+    - can i print in the library from my device
+    - mobile print center
+    - printing services at usc lib
 - intent: policy_text_analysis_licensed
   examples: |
     - What are the policies for text analysis of licensed content?
@@ -5165,7 +5026,7 @@ nlu:
     - AI usage guidelines at other institutions
     - Do you have examples of university generative AI statements?
 - intent: citation_style_guide
-  examples: |
+  examples: |-
     - What is citation style guide?
     - How do I cite sources?
     - What format is required for citations?
@@ -5179,6 +5040,21 @@ nlu:
     - citation styles for research papers
     - Which citation style is used in medical fields?
     - Can you show me how to cite sources properly?
+    - How do I know which style of citation to use?
+    - How do you know which citation style to use?
+    - What citation style should I use?
+    - How do I know which citation style to use?
+    - Citation style for my paper?
+    - whats the prefreed citation style
+    - Can you tell me what citation style I need?
+    - citation styles?
+    - what citation format is required
+    - How do I determine the citation style?
+    - What if I don't know the citation style?
+    - professor didn't say citation style
+    - I'm confused about citation style
+    - citation style for assignments
+    - Who decides the citation style?
 - intent: need_cite_source
   examples: |
     - Why do I need to cite sources?
@@ -5215,92 +5091,6 @@ nlu:
     - citation styles supported by usc library
     - apa 7th edition guidelines
     - Where can I find info on Chicago Manual of Style?
-- intent: know_citation_style_use
-  examples: |
-    - How do I know which citation style to use?
-    - How do I know which style of citation to use?
-    - How do you know which citation style to use?
-    - What citation style should I use?
-    - How do I know which citation style to use?
-    - Citation style for my paper?
-    - whats the prefreed citation style
-    - Can you tell me what citation style I need?
-    - citation styles?
-    - what citation format is required
-    - How do I determine the citation style?
-    - What if I don't know the citation style?
-    - professor didn't say citation style
-    - I'm confused about citation style
-    - citation style for assignments
-    - Who decides the citation style?
-- intent: check_policy_textbook
-  examples: |
-    - Tell me the check out policy for textbooks?
-    - What is check out policy for textbooks?
-    - Tell me the check-out policy for textbooks?
-    - How long can I borrow a textbook from the library?
-    - Can I take textbooks out of the library?
-    - What is the checkout policy for textbooks?
-    - textbook borrowing rules
-    - library book checkout time
-    - Can I renew textbooks?
-    - how long are textbooks due for?
-    - textbook due date
-    - can i keep textbook all day?
-    - 2 hour rule for textbooks?
-    - why cant i take textbook home?
-    - textbook checkout exceptions
-- intent: happens_return_textbook_late
-  examples: |
-    - What happens if I return a textbook late?
-    - How much is the fine for late textbooks?
-    - Can I get blocked from checking out textbooks?
-    - What's the penalty for returning hourly loans late?
-    - Textbook fines?
-    - Will I be fined for keeping extended loan textbooks?
-    - Late fees for textbooks?
-    - how long do i have to return textbook
-    - Can I still checkout books if I owe a fine?
-    - What are the rules for borrowing textbooks?
-    - Is there a fee for returning 3-day loans late?
-    - Will my account be blocked if I don't return a book on time?
-- intent: access_course_material
-  examples: |
-    - How can I access other course materials?
-    - How do I access course materials?
-    - How do I access other course materials?
-    - How do I access course materials?
-    - Where can I find ebooks for my class?
-    - Are course materials available online?
-    - Can I get textbooks through Blackboard?
-    - course materials blackboard
-    - Do instructors post articles online?
-    - How do I stream films for class?
-    - Where are course readings located?
-    - check out books thru bb
-    - are etextbooks on blackboard
-    - Can I find class stuff on Blackboard?
-    - online texts blackboard
-    - how to access online materials
-- intent: faculty_member_make_course
-  examples: |
-    - I'm a faculty member, how can I make course materials available for my students?
-    - How do I make course materials available to my students?
-    - How do I make course materials available for my students?
-    - How can I make course materials available to my students?
-    - How can I make course materials available to my students?
-    - Can the library help with course materials?
-    - I'm a professor, how do I reserve books for my class?
-    - faculty services at usc lib
-    - what if i need textbooks for my course
-    - make texts availible to studnets through lib
-    - I want to put some course material on reserve, how do I do that?
-    - Can USC library help with class materials?
-    - Lib services for instructors
-    - course reserves at usc
-    - How can I get textbooks for my students?
-    - textbook options for faculty
-    - usc lib help for profs
 - intent: contact_library_textbook_course
   examples: |
     - How do I contact the library about textbooks and course materials?
@@ -5369,7 +5159,7 @@ nlu:
     - topic modeling tutorials?
     - What are some strategies for interpreting topic modeling results?
 - intent: ama_citation_style
-  examples: |
+  examples: |-
     - Tell me the AMA citation style?
     - What is AMA Citation Style?
     - What is the latest AMA citation style?
@@ -5386,54 +5176,6 @@ nlu:
     - AMA style blog citations
     - Are there specific rules for citing books in AMA style?
     - Where can I find more info on AMA citations?
-- intent: cite_government_report
-  examples: |
-    - How do I cite a government report?
-    - How do I cite NIH publications in AMA style?
-    - AMA citation for government reports
-    - NIH report citation format
-    - Citing National Institutes of Health sources
-    - How to cite a pdf from nih
-    - ama citation rules for reports
-    - Need help with AMA citations for gov docs
-    - AMA style citation for Center for Global Health
-    - Can you give an example of AMA citation for a research report?
-    - Citing a publication from National Heart, Lung and Blood Institute
-    - What's the format for citing NIH publications in AMA style?
-- intent: cite_dissertation
-  examples: |
-    - How do you cite a dissertation?
-    - How do I cite a dissertation in AMA style?
-    - AMA citation for USC dissertation
-    - What's the format for citing dissertations?
-    - citation for etd
-    - Can you show me an example of AMA citation?
-    - Dissertation citation rules
-    - how to cite a usc thesis in ama
-    - Need help with citing my dissertation
-    - AMA style citation for online dissertation
-    - USC scholarcommons citation
-    - What's the correct way to cite a dissertation in AMA?
-- intent: cite_data_statistical_software
-  examples: |
-    - How can I cite data or statistical software?
-    - How do I cite data in AMA style?
-    - AMA citation for datasets?
-    - Citing data from Dryad
-    - StataCorp citation help
-    - Need example of AMA citation
-    - where to find AMA citation guide
-    - how to reference a dataset
-    - citation for dataset with doi
-    - AMA style for online resources
-    - library help with citations
-    - How do I cite StataCorp?
-    - AMA formatting for datasets
-    - need help citing data
-    - Citing sources in AMA
-- intent: What_is_a_DOI
-  examples: |
-    - What is a DOI?
     - Tell me the DOI?
     - What is DOI?
     - What is a DOI?
@@ -5449,6 +5191,45 @@ nlu:
     - DOI lookup tool
     - what is doi used for
     - Doi number meaning
+- intent: cite_government_report
+  examples: |-
+    - How do I cite a government report?
+    - How do I cite NIH publications in AMA style?
+    - AMA citation for government reports
+    - NIH report citation format
+    - Citing National Institutes of Health sources
+    - How to cite a pdf from nih
+    - ama citation rules for reports
+    - Need help with AMA citations for gov docs
+    - AMA style citation for Center for Global Health
+    - Can you give an example of AMA citation for a research report?
+    - Citing a publication from National Heart, Lung and Blood Institute
+    - What's the format for citing NIH publications in AMA style?
+    - How do I cite a dissertation in AMA style?
+    - AMA citation for USC dissertation
+    - What's the format for citing dissertations?
+    - citation for etd
+    - Can you show me an example of AMA citation?
+    - Dissertation citation rules
+    - how to cite a usc thesis in ama
+    - Need help with citing my dissertation
+    - AMA style citation for online dissertation
+    - USC scholarcommons citation
+    - What's the correct way to cite a dissertation in AMA?
+    - How do I cite data in AMA style?
+    - AMA citation for datasets?
+    - Citing data from Dryad
+    - StataCorp citation help
+    - Need example of AMA citation
+    - where to find AMA citation guide
+    - how to reference a dataset
+    - citation for dataset with doi
+    - AMA style for online resources
+    - library help with citations
+    - How do I cite StataCorp?
+    - AMA formatting for datasets
+    - need help citing data
+    - Citing sources in AMA
 - intent: apa_publication_manual
   examples: |
     - What is the APA Publication Manual?
@@ -5609,84 +5390,6 @@ nlu:
     - CMOS 18 online handbook
     - Where can I find additional guidance on CMOS?
     - citation styles used by historians
-- intent: cite_journal_article_chicago
-  examples: |
-    - How do I cite journal articles in Chicago style?
-    - How do I cite a journal article?
-    - Citing journal articles help
-    - Journal article citation format
-    - What style guide does USC use for journals?
-    - Need help with chicago style citations
-    - How to reference a journal article
-    - chicago manual of style journal
-    - What's the citation style for journals?
-    - journal citation rules
-    - Citation guide for journal articles
-    - USC journal citation guidelines
-    - Chicago style journal article citation
-- intent: cite_book_book_chapter
-  examples: |
-    - How do I cite book chapters in Chicago style?
-    - How do I cite books in Chicago style?
-    - How do I cite a book?
-    - book citation help
-    - What style does USC use for book citations?
-    - Need help citing book chapter
-    - citation guide for books
-    - Chicago manual of style for dummies
-    - How to cite a textbook?
-    - Can you show me how to cite a book?
-    - Citing books and chapters
-    - USC library citation guide
-    - What's the format for citing a book chapter?
-- intent: cite_newspaper_magazine_article
-  examples: |
-    - How do I cite newspaper and magazine articles in Chicago style?
-    - How do I cite newspaper articles in Chicago style?
-    - How can I cite newspaper and magazine articles in Chicago style?
-    - How do I cite a newspaper article?
-    - Citing magazine articles help
-    - Newspaper citation style?
-    - What's the format for citing magazines?
-    - Chicago style for newspapers?
-    - How to reference news articles
-    - Magazine citation rules
-    - newspaper article referencing
-    - Citation guide for magazines
-    - citation styles for news
-    - Chicago manual magazine citations
-- intent: cite_dissertation_thesis_chicago
-  examples: |
-    - How can I cite dissertations and theses in Chicago style?
-    - thesis citation help
-    - What style should I use for thesis citations?
-    - dissertation citation rules
-    - chicago style for theses
-    - Can you guide me on citing dissertations?
-    - thesis referencing style
-    - citation style for phd thesis
-    - How to cite masters thesis?
-    - What's the format for citing a dissertation?
-    - Citing thesis chicago style
-    - Need help with thesis citations
-- intent: cite_website_blog_social
-  examples: |
-    - How do I cite websites, blogs, and social media in Chicago style?
-    - How do I cite websites and blogs in Chicago style?
-    - How do I cite websites in Chicago style?
-    - How do I cite websites blogs and social media in Chicago style?
-    - How do I cite a website?
-    - Citing blogs chicago style
-    - social media citation rules
-    - How to cite social media posts
-    - website citation guide
-    - What's the chicago manual of style for websites?
-    - how to reference a blog
-    - Citation for online sources
-    - Can you help me with citing a website?
-    - Chicago style for social media citations
-    - blog citation example
-    - Need help citing a webpage
 - intent: cite_primary_source_chicago
   examples: |
     - How do I cite primary sources in Chicago style?
@@ -5705,7 +5408,7 @@ nlu:
     - chicago style bibliography examples
     - Citing primary sources in research papers
 - intent: find_example_chicago_citation
-  examples: |
+  examples: |-
     - Where can I find examples of Chicago citations?
     - Where can I find Chicago citation examples?
     - chicago citation examples
@@ -5721,9 +5424,6 @@ nlu:
     - Chicago style citation rules
     - What's the latest Chicago Manual of Style edition?
     - Chicago citation tutorial
-- intent: find_printable_style_sheet
-  examples: |
-    - Where can I find printable style sheets for Chicago style?
     - Where can I find style sheets for Chicago style?
     - Where can I get style sheets for Chicago style?
     - Where can I find Chicago style sheets?
@@ -5756,7 +5456,7 @@ nlu:
     - library happenings
     - events at usc libraries
 - intent: example_project_use_digital
-  examples: |
+  examples: |-
     - show some examples of projects that use digital scholarship?
     - What are some examples of digital scholarship projects?
     - digital humanities projects examples
@@ -5772,9 +5472,6 @@ nlu:
     - Can you give me some ideas for DH projects?
     - Examples of data analysis in humanities
     - Can I see some library metadata projects?
-- intent: usc_related_digital_scholarship
-  examples: |
-    - What are some USC related digital scholarship projects?
     - list some USC related digital scholarship projects?
     - can you list the USC related digital scholarship projects?
     - can you list the best USC related digital scholarship projects?
@@ -5882,40 +5579,8 @@ nlu:
     - AI usage in assignments allowed?
     - Cheating with AI, what are the rules?
     - Honor code and artificial intelligence
-- intent: prompt_engineering
-  examples: |
-    - Tell me the prompt engineering?
-    - What is prompt engineering?
-    - prompt engineering definition
-    - Generative AI input design
-    - How do I optimize AI outputs?
-    - Whats the goal of prompt eng?
-    - Define Prompt Engineering
-    - Best practices for AI prompts
-    - Prompt eng meaning
-    - AI input optimization techniques
-    - What does prompt engineering entail?
-    - prompt engineering info
-    - Designing inputs for generative AI
-- intent: framework_use_effective_ai
-  examples: |
-    - What framework can I use for AI prompts?
-    - Tell me the best framework for AI prompts?
-    - What framework should I use for AI prompts?
-    - What is the CLEAR Framework?
-    - clear framework ai prompts
-    - effective ai prompt engineering
-    - Who developed the CLEAR framework?
-    - clear framework author
-    - what does clear stand for
-    - AI prompt characteristics
-    - clear framework traits
-    - effective AI prompting techniques
-    - CLEAR framework library resource
-    - How to write good AI prompts
-    - CLEAR framework learning guide
 - intent: learn_clear_framework
-  examples: |
+  examples: |-
     - Where can I learn more about the CLEAR framework?
     - What is the CLEAR path framework?
     - clear path info lit
@@ -5930,8 +5595,22 @@ nlu:
     - CLEAR path youtube video
     - CLEAR path resources USC
     - Can you provide more info on the CLEAR path framework?
+    - Tell me the best framework for AI prompts?
+    - What framework should I use for AI prompts?
+    - What is the CLEAR Framework?
+    - clear framework ai prompts
+    - effective ai prompt engineering
+    - Who developed the CLEAR framework?
+    - clear framework author
+    - what does clear stand for
+    - AI prompt characteristics
+    - clear framework traits
+    - effective AI prompting techniques
+    - CLEAR framework library resource
+    - How to write good AI prompts
+    - CLEAR framework learning guide
 - intent: learn_prompt_engineering
-  examples: |
+  examples: |-
     - How can I learn prompt engineering?
     - Tell me the best way to learn prompt engineering?
     - How do I learn prompt engineering?
@@ -5948,6 +5627,18 @@ nlu:
     - chatgpt tutorials
     - What is the best way to use chatgpt?
     - Any videos on prompt engineering?
+    - What is prompt engineering?
+    - prompt engineering definition
+    - Generative AI input design
+    - How do I optimize AI outputs?
+    - Whats the goal of prompt eng?
+    - Define Prompt Engineering
+    - Best practices for AI prompts
+    - Prompt eng meaning
+    - AI input optimization techniques
+    - What does prompt engineering entail?
+    - prompt engineering info
+    - Designing inputs for generative AI
 - intent: format_intext_citation_mla
   examples: |
     - How do I format an in-text citation in MLA 9?
@@ -6001,7 +5692,7 @@ nlu:
     - usc citation help
     - Where can I learn more about citations?
 - intent: evaluating_resource_checklist
-  examples: |
+  examples: |-
     - What is the Evaluating Resources Checklist?
     - How do I evaluate online resources?
     - evaluating websites checklist
@@ -6016,6 +5707,18 @@ nlu:
     - What are the different types of domains?
     - Credible sources tips
     - Purpose of advocacy websites
+    - How do I evaluate sources?
+    - What are some tips for fact checking?
+    - Credo Reference Videos?
+    - Source evaluation resources?
+    - Need help with evaluating sources
+    - fact checking vids
+    - usc library resource guides
+    - evaluating info credo
+    - how to fact check properly
+    - Any good videos on source evaluation?
+    - Evaluating sources for dummies
+    - What's the best way to evaluate information?
 - intent: criterion_evaluating_online_resource
   examples: |
     - What are the criteria for evaluating online resources?
@@ -6052,23 +5755,8 @@ nlu:
     - News evaluation resources
     - Where can I find unbiased news?
     - How to check if a news source is credible
-- intent: additional_resource_available_evaluating
-  examples: |
-    - What additional resources are available for evaluating sources?
-    - How do I evaluate sources?
-    - What are some tips for fact checking?
-    - Credo Reference Videos?
-    - Source evaluation resources?
-    - Need help with evaluating sources
-    - fact checking vids
-    - usc library resource guides
-    - evaluating info credo
-    - how to fact check properly
-    - Any good videos on source evaluation?
-    - Evaluating sources for dummies
-    - What's the best way to evaluate information?
 - intent: example_generative_ai_chatbots
-  examples: |
+  examples: |-
     - What are examples of generative AI chatbots?
     - What is a generative AI chatbot?
     - Examples of AI chatbots?
@@ -6083,6 +5771,19 @@ nlu:
     - Language models used in chatbots
     - Conversational AI uses
     - Which companies have developed generative AI?
+    - list some examples of AI art generators?
+    - What AI image generators does USC library recommend?
+    - dall-e 2 access
+    - How do I create images with AI?
+    - Bing Image Creator info
+    - AI image tools USC
+    - Are there any AI image resources available?
+    - Can you show me some AI image generators?
+    - usc ai image generation
+    - I need to generate an image using AI. Help!
+    - What's Dall-E 2 and how do I use it?
+    - Where can I learn more about Bing Image Creator?
+    - AI image creation tools recommended by USC library
 - intent: ai_art_generator_work
   examples: |
     - How do AI art generators work?
@@ -6100,22 +5801,6 @@ nlu:
     - AI art generator technology
     - Can anyone access AI art generators?
     - What models do AI art generators use?
-- intent: example_ai_art_generator
-  examples: |
-    - show some examples of AI art generators?
-    - list some examples of AI art generators?
-    - What AI image generators does USC library recommend?
-    - dall-e 2 access
-    - How do I create images with AI?
-    - Bing Image Creator info
-    - AI image tools USC
-    - Are there any AI image resources available?
-    - Can you show me some AI image generators?
-    - usc ai image generation
-    - I need to generate an image using AI. Help!
-    - What's Dall-E 2 and how do I use it?
-    - Where can I learn more about Bing Image Creator?
-    - AI image creation tools recommended by USC library
 - intent: attribute_ai_research
   examples: |
     - How can I attribute AI in my research?
@@ -6133,26 +5818,8 @@ nlu:
     - ai citation reference list apa
     - How do I quote from an AI tool in APA style?
     - apa 7 ai attribution rules
-- intent: chicago_17_authordate_citation
-  examples: |
-    - What is Chicago 17 author-date citation style?
-    - Tell me the Chicago 17 author-date citation style?
-    - What is Chicago 17 author date citation style?
-    - How do I cite in Chicago 17 author-date style?
-    - Chicago author date citation example
-    - What is the format for Chicago 17 citations?
-    - how to cite chicago style
-    - chicago 17 citation help
-    - Need example of author date citation
-    - Chicago citation style guide
-    - How do I cite sources in Chicago 17?
-    - Citation style for chicago 17 author date
-    - What's the correct way to cite in Chicago style?
-    - author date citation chicago
-    - chicago style citations examples
-    - Learn Chicago 17 author date citation
 - intent: format_footnote_citation_chicago
-  examples: |
+  examples: |-
     - How do I format a footnote citation in Chicago 17 style?
     - How do you format a footnote citation in Chicago 17 style?
     - How can I format a footnote citation in Chicago 17 style?
@@ -6168,6 +5835,21 @@ nlu:
     - Footnote citation example for chatbot-generated text
     - Citing chatbot sources in Chicago 17 style
     - How do I reference a chatbot response in a research paper?
+    - Tell me the Chicago 17 author-date citation style?
+    - What is Chicago 17 author date citation style?
+    - How do I cite in Chicago 17 author-date style?
+    - Chicago author date citation example
+    - What is the format for Chicago 17 citations?
+    - how to cite chicago style
+    - chicago 17 citation help
+    - Need example of author date citation
+    - Chicago citation style guide
+    - How do I cite sources in Chicago 17?
+    - Citation style for chicago 17 author date
+    - What's the correct way to cite in Chicago style?
+    - author date citation chicago
+    - chicago style citations examples
+    - Learn Chicago 17 author date citation
 - intent: additional_resource_available_chicago
   examples: |
     - What additional resources are available for Chicago citation style?
@@ -6201,21 +5883,6 @@ nlu:
     - What software is available for digital scholarship?
     - Create Digital resources?
     - USC digital project support
-- intent: find_example_digital_project
-  examples: |
-    - Where can I find examples of digital projects?
-    - show some examples of digital projects?
-    - How can I find examples of digital projects?
-    - Where can I find USC digital scholarship projects?
-    - Can I see examples of digital research at USC?
-    - usc digital projects?
-    - Is there a showcase for digital projects at USC?
-    - digital scholarship examples
-    - Show me some cool digital projects from USC
-    - Digital Projects Showcase link
-    - Where can I learn more about digital research at USC?
-    - What kind of digital projects are being done at USC?
-    - usc digital research showcase
 - intent: digital_scholarship
   examples: |
     - What is a digital scholarship?
@@ -6495,7 +6162,7 @@ nlu:
     - USC digital scholarship resources
     - Can I see some examples of digital projects done at USC?
 - intent: constellate_use_it
-  examples: |
+  examples: |-
     - What is Constellate and how do I use it?
     - What is Constellate? How do I use it?
     - What is Constellate? How do you use it?
@@ -6513,6 +6180,37 @@ nlu:
     - USC Constellate resources
     - Constellate beginner python lessons
     - Constellate intermediate text analysis
+    - Tell me the Constellate?
+    - What is Constellation?
+    - constellate
+    - What is Constellate?
+    - Constellate USC login
+    - JSTOR text analysis tool
+    - Can I use Constellate for data analysis?
+    - Constellate file sharing
+    - USC Constellate service
+    - Is Constellate free to use?
+    - Do I need a USC login for Constellate?
+    - Text analysis software USC
+    - Building datasets with Constellate
+    - What can I do with Constellate?
+    - Constellate learning resources
+    - How can I access Constellate?
+    - Tell me the best way to access Constellate?
+    - How do I access JSTOR tutorials?
+    - jstor notebook login
+    - Where can I find Constellate Guide?
+    - Can't access Jupyter lab notebooks
+    - Constellate tutorial videos
+    - How to use JSTOR after signing in
+    - JSTOR YouTube tutorials
+    - Detailed instructions for JSTOR sign in
+    - Constellate org guide
+    - What's next after signing into JSTOR?
+    - Jupyter lab notebook tutorials
+    - Need help with Constellate login
+    - Where are the video tutorials for JSTOR?
+    - How to log in to Constellate
 - intent: hathitrust_research_center_access
   examples: |
     - How do I access HathiTrust?
@@ -6543,7 +6241,7 @@ nlu:
     - Can I see views on Scholar Commons?
     - Stats on my research
 - intent: uscs_create_digital
-  examples: |
+  examples: |-
     - What is USC's Create Digital?
     - What is create digital at USC?
     - What is Create Digital at USC?
@@ -6561,9 +6259,6 @@ nlu:
     - Where can I manage my USC digital projects?
     - One click installations USC web hosting
     - USC supported digital scholarship tools
-- intent: limitation_uscs_create_digital
-  examples: |
-    - What are the limitations of USC's Create Digital?
     - list the limitations of USC's Create Digital program?
     - What are limitations of USC's Create Digital program?
     - list the limitations of USC's Create Digital?
@@ -6881,7 +6576,7 @@ nlu:
     - OA repository examples
     - What are some figshare alternatives?
 - intent: create_open_educational_resource
-  examples: |
+  examples: |-
     - How do I create an Open Educational Resource?
     - How can I create an open educational resource?
     - How do I create an open educational resource?
@@ -6898,6 +6593,20 @@ nlu:
     - What's the best way to get my OER seen by many people?
     - oer creation guidelines
     - Can you guide me through the OER creation process?
+    - Tell me the attribution for this information on Open Educational Resources?
+    - What is attribution for this information on Open Educational Resources?
+    - Where did the info on this page come from?
+    - Who created the content on this page?
+    - Attribution info
+    - whats the source of oer info
+    - Is this info original?
+    - How was this page modified?
+    - Page credits
+    - info sources used
+    - What license is the module under?
+    - CC BY 4.0 meaning
+    - Learn more about OER creation
+    - Attribution details for this page
 - intent: modify_existing_open_educational
   examples: |
     - How do I modify an existing Open Educational Resource?
@@ -6916,23 +6625,6 @@ nlu:
     - Do I need permission to modify OER?
     - Can I customize existing educational resources?
     - How do I revise an Open Educational Resource?
-- intent: attribution_information_open_educational
-  examples: |
-    - What is the attribution for this information on Open Educational Resources?
-    - Tell me the attribution for this information on Open Educational Resources?
-    - What is attribution for this information on Open Educational Resources?
-    - Where did the info on this page come from?
-    - Who created the content on this page?
-    - Attribution info
-    - whats the source of oer info
-    - Is this info original?
-    - How was this page modified?
-    - Page credits
-    - info sources used
-    - What license is the module under?
-    - CC BY 4.0 meaning
-    - Learn more about OER creation
-    - Attribution details for this page
 - intent: create_account_scholar_common
   examples: |
     - How do I create a Scholar Commons account?
@@ -7207,7 +6899,7 @@ nlu:
     - Fair use rules?
     - Can I use part of a copyrighted work without permission?
 - intent: resource_help_determine_fair
-  examples: |
+  examples: |-
     - Are there resources to help me determine Fair Use?
     - How do I determine fair use?
     - Tell me the best way to determine fair use?
@@ -7225,9 +6917,6 @@ nlu:
     - Need a template for fair use evaluation
     - Where can I learn more about fair use checklists?
     - fair use checklist universities
-- intent: fair_use_apply_student
-  examples: |
-    - How does fair use apply to students?
     - How is Fair Use applied to students?
     - What is fair use for students?
     - fair use rules?
@@ -7297,25 +6986,6 @@ nlu:
     - Who handles electronic reserves at USC?
     - Mark Volmer contact info
     - What is the copyright policy for course materials?
-- intent: benefit_archiving_research
-  examples: |
-    - What are the benefits of archiving my research?
-    - list the benefits of archiving research?
-    - What are benefits of archiving research?
-    - list the benefits of archiving your research?
-    - Why should I archive my research?
-    - Benefits of archiving research?
-    - How do I make my research accessible?
-    - Can I share my published work?
-    - what r the benfits of open acess
-    - Why is it important to archive my work?
-    - How can I increase my research impact?
-    - open access benefits
-    - What version of my paper should I share?
-    - research sharing rules
-    - Can I make my research public?
-    - archiving published works
-    - how do i choose the right version of my research to share
 - intent: different_version_article
   examples: |
     - What are the different versions of my article?
@@ -7335,7 +7005,7 @@ nlu:
     - Preprint definition academic
     - Post print journal branding
 - intent: find_article_version
-  examples: |
+  examples: |-
     - How do I find my article versions?
     - How do I find article versions?
     - How do I find my submitted article?
@@ -7350,6 +7020,22 @@ nlu:
     - Retrieve copy of published manuscript
     - How can I obtain accepted version of my article?
     - can't find aam where should i look
+    - list the benefits of archiving research?
+    - What are benefits of archiving research?
+    - list the benefits of archiving your research?
+    - Why should I archive my research?
+    - Benefits of archiving research?
+    - How do I make my research accessible?
+    - Can I share my published work?
+    - what r the benfits of open acess
+    - Why is it important to archive my work?
+    - How can I increase my research impact?
+    - open access benefits
+    - What version of my paper should I share?
+    - research sharing rules
+    - Can I make my research public?
+    - archiving published works
+    - how do i choose the right version of my research to share
 - intent: share_article_version_online
   examples: |
     - Can I share my article versions online?
@@ -7577,26 +7263,8 @@ nlu:
     - textbook costs since the 70s
     - College book budget per year
     - what percentage of students cant afford textbooks
-- intent: predatory_publisher
-  examples: |
-    - What are predatory publishers?
-    - What is a predatory publisher?
-    - What is predatory publisher?
-    - What are predatory publishers?
-    - How do I identify a predatory publisher?
-    - Predatory journals?
-    - Do legitimate journals charge authors?
-    - quality journal fees
-    - what is a publication fee?
-    - Why did the journal ask for money after submission?
-    - How to spot fake journals?
-    - Are there scams in academic publishing?
-    - Journal asked me for $$, is it legit?
-    - Predatory publishers USC
-    - What's the deal with author fees?
-    - Should I pay a publication fee?
 - intent: determine_journal_predatory
-  examples: |
+  examples: |-
     - How can I determine if a journal is predatory?
     - How do I identify a predatory journal?
     - What are the signs of a fake academic journal?
@@ -7612,6 +7280,21 @@ nlu:
     - evaluating journal quality
     - is my journal legit
     - How to identify fake impact factor journals
+    - What is a predatory publisher?
+    - What is predatory publisher?
+    - What are predatory publishers?
+    - How do I identify a predatory publisher?
+    - Predatory journals?
+    - Do legitimate journals charge authors?
+    - quality journal fees
+    - what is a publication fee?
+    - Why did the journal ask for money after submission?
+    - How to spot fake journals?
+    - Are there scams in academic publishing?
+    - Journal asked me for $$, is it legit?
+    - Predatory publishers USC
+    - What's the deal with author fees?
+    - Should I pay a publication fee?
 - intent: industry_membership_indicate_journal
   examples: |
     - What industry memberships indicate a journal is not predatory?
@@ -7729,34 +7412,6 @@ nlu:
     - need affordable class book help
     - Can the library help me find affordable course materials?
     - I need help with expensive textbooks, what's available?
-- intent: problem_published_research_finding
-  examples: |
-    - Is there any problem with research published in journals?
-    - What's the problem with research publications?
-    - Why are most published studies false?
-    - published vs unpublished research stats
-    - Is all research in journals reliable?
-    -  publication bias effect on stats
-    - Research findings not replicable?
-    - Are academic papers trustworthy?
-    - reproducibility issue in journals
-    - What's wrong with published studies?
-    - issue w/ scholarly articles
-    - Why can't others replicate study results?
-    - What's the problem with published research findings?
-    - What is wrong with published research findings?
-    - What is publication bias?
-    - Why are most research findings insignificant?
-    - Why can't I replicate some studies?
-    - Is all published research reliable?
-    - publication bias definition
-    - Why is there so much bad research out there?
-    - How common is irreproducible research?
-    - research findings false
-    - Can I trust journal articles?
-    - What's the problem with published research?
-    - Why do researchers only publish good results?
-    - Are most studies wrong?
 - intent: find_resource_registering_project
   examples: |
     - Where can I find resources for registering my project?
@@ -7776,7 +7431,7 @@ nlu:
     - How does preregistration work?
     - research preregistration process
 - intent: open_textbook_source_available
-  examples: |
+  examples: |-
     - What open textbook sources are available?
     - Tell me the best open textbook source?
     - Where can I find free textbooks?
@@ -7792,9 +7447,6 @@ nlu:
     - What is MERLOT?
     - Where can I find LibreTexts?
     - open textbooks available now
-- intent: way_search_across_multiple
-  examples: |
-    - Is there a way to search multiple OER sources?
     - search more than one OER source
     - How do I find open educational resources?
     - OER search?
@@ -8030,7 +7682,7 @@ nlu:
     - USC faculty resources
     - library services for instructors
 - intent: osf_free
-  examples: |
+  examples: |-
     - How is OSF free?
     - Is OSF free?
     - Why is OSF free?
@@ -8046,6 +7698,35 @@ nlu:
     - is osf funded by government
     - osf sponsors
     - How can a non-profit provide OSF for free?
+    - What will happen if I make my OSF project public?
+    - What happens when I make my OSF project public?
+    - What happens if I make my OSF project public?
+    - OSF project preservation?
+    - How long will my data be preserved on OSF?
+    - Will my OSF data be accessible after 50 years?
+    - osf preservation fund
+    - What is the OSF Preservation Fund?
+    - Can I make my OSF project publicly accessible?
+    - how does osf preserve data
+    - OSF read access for how long?
+    - preservation of osf projects
+    - Is there a cost to preserve OSF data?
+    - osf data hosting costs
+    - What are the benefits of making my OSF project public?
+    - How can I get a DOI for my project?
+    - How do I get a DOI for my project?
+    - How do I get a DOI?
+    - DOI for my dataset?
+    - Can I get a DOI from OSF?
+    - Does OSF assign DOIs to datasets?
+    - Need a doi for project
+    - Get doi for individual data set?
+    - Why doesn't OSF give DOIs to individual datasets?
+    - Assign doi to entire project
+    - How do I obtain a DOI?
+    - Can I request a DOI from OSF?
+    - DOI creation help
+    - OSF DOI policy?
 - intent: criterion_use_evaluate_oer
   examples: |
     - What criteria should I use to evaluate an OER?
@@ -8119,23 +7800,6 @@ nlu:
     - Can I use wordpress to create an OER?
     - hypothesis education tool
     - Sites for creating open educational resources
-- intent: open_case_study_use
-  examples: |
-    - What are Open Case Studies and how can I use them?
-    - What are open case studies?
-    - using open case study
-    - What are Open Case Studies?
-    - Where can I find open case studies?
-    - case studies for courses
-    - Can I use open case studies in my course?
-    - Are case studies free to use?
-    - Open case study resources?
-    - incorporating case studies into OER
-    - How do I access open case studies?
-    - What is the license for open case studies?
-    - case studies with creative commons license
-    - Can I modify open case studies?
-    - open educational resources case studies
 - intent: find_open_freely_available
   examples: |
     - Where can I find open and freely available case studies?
@@ -8154,7 +7818,7 @@ nlu:
     - case studies for research
     - Where can I find learning edge case studies?
 - intent: open_access_journal_featuring
-  examples: |
+  examples: |-
     - Are there open access journals featuring case studies?
     - Are there any open access journals featuring case studies?
     - Where can I find open access case studies?
@@ -8171,3 +7835,17 @@ nlu:
     - case studies in engineering
     - Where to find open access journal articles
     - How do I locate OA case studies
+    - What are open case studies?
+    - using open case study
+    - What are Open Case Studies?
+    - Where can I find open case studies?
+    - case studies for courses
+    - Can I use open case studies in my course?
+    - Are case studies free to use?
+    - Open case study resources?
+    - incorporating case studies into OER
+    - How do I access open case studies?
+    - What is the license for open case studies?
+    - case studies with creative commons license
+    - Can I modify open case studies?
+    - open educational resources case studies
