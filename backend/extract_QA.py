@@ -4,6 +4,7 @@ import os
 import csv
 import time
 from dotenv import load_dotenv
+from llm_paraphraser import makeNewChat, chatCompletion
 import re
 # File that holds the newly created auestion-answer pairs
 #RESPONSE_JSON = "QApairs.json"
@@ -44,86 +45,10 @@ EXAMPLE OUTPUT:
 
 """
 
-def makeNewChat():
-    url = "http://login-theia.rc.sc.edu:3000/api/v1/chats/new"
-    headers = {
-        "accept": "application/json",
-        "accept-language": "en-US,en;q=0.9",
-        "authorization": "Bearer " + API,
-        "content-type": "application/json",
-        "Referer": "http://login-theia.rc.sc.edu:3000/",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-    }
 
-    body = {
-        "chat": {
-            "id": "",
-            "title": "New Chat",
-            "models": ["llama3.1:405b"],
-            "messages": [
-                {
-                    "role": "system",
-                    "content": system_prompt,
-                    "models": ["llama3.1:405b"],
-                }
-            ],
-        }
-    }
-
-    response = requests.post(url, headers=headers, json=body)
-
-    if response.status_code == 200:
-        print("New Chat Created")
-        data = response.json()
-        return data
-    else:
-        print(f"Error: {response.status_code} - {response.text}")
-
-def chatCompletion():
-    url = "http://login-theia.rc.sc.edu:3000/api/chat/completions"
-    headers = {
-        "accept": "*/*",
-        "accept-language": "en-US,en;q=0.9",
-        "authorization": "Bearer " + API,
-        "content-type": "application/json",
-        "Referer": "http://login-theia.rc.sc.edu/c/" + chatId,
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-    }
-
-    # Append input message to history
-    #chat_history.append({"role": "user", "content": input_prompt})
-    
-    body = {
-        #"system prompt": system_prompt,
-        "num_ctx": 8000,
-        "stream": False,
-        "model": "llama3.1:405b",
-        "temperature": 0,
-        "messages":
-        [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": input_prompt}
-        ],
-        "params": {},
-        "features": {"image_generation": False, "web_search": False},
-        "session_id": "hIrdD0mQs4RLYUedAAEk",
-        "chat_id": chatId,
-        "background_tasks": {"title_generation": True, "tags_generation": True},
-    }
-    response = requests.post(url, headers=headers, json=body)
-
-    if response.status_code == 200:
-        data = response.json()
-        llm_response = data['choices'][0]['message']['content']
-
-        # Append model response to history
-        #chat_history.append({"role": "assistant", "content": llm_response})
-        return llm_response
-    else:
-        print(f"Error: {response.status_code} - {response.text}")
-
-data = makeNewChat()
+data = makeNewChat(API, system_prompt)
 chatId = data["id"]
+
 chat_history = [{"role": "system", "content": system_prompt}]
 page_count = 0
 questions_count = 0
@@ -138,7 +63,7 @@ for current_text in texts_to_process:
         continue
     input_prompt = current_text
     input_prompt = re.sub(r'\n', '\\n', input_prompt)
-    LLMresponse = chatCompletion()
+    LLMresponse = chatCompletion(API, chatId, system_prompt, input_prompt)
     print(f"RESPONSE --------------------------------------------------------------------------------------------------------------------------------------\
         {LLMresponse}\n")
 
@@ -159,4 +84,3 @@ for current_text in texts_to_process:
             questions_count += 1
         page_count += 1
     print(f"Completed {questions_count} QA pairs for page {page_count-1}\n\n")
-    

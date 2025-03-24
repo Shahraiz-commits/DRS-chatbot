@@ -36,7 +36,6 @@ intents:
 - artificial_intelligence
 - ask_help_searching_source
 - ask_library_open
-- assess_impact_research_scholar
 - assistance_available_data_analysis
 - attribute_ai_research
 - attribution_information_open_educational
@@ -114,7 +113,6 @@ intents:
 - create_project_file_nvivo
 - criterion_evaluating_online_resource
 - criterion_use_evaluate_oer
-- data_analysis_help
 - data_cleaning_tool_available
 - data_organization
 - data_resource_available
@@ -190,7 +188,6 @@ intents:
 - found_book_library_catalog
 - found_image_south_caroliniana
 - framework_use_effective_ai
-- free_tool_use_web
 - freely_available_corpus_text
 - friend_university_library_previously
 - general_data_set_available
@@ -257,7 +254,6 @@ intents:
 - learn_social_work_statistic
 - learn_using_ai_according
 - learn_work_api
-- learning_session_offered_usc
 - library_car_repair_manual
 - library_catalog_show_item
 - library_charger_laptop_phone
@@ -279,7 +275,6 @@ intents:
 - library_reader_advisory_database
 - library_textbook
 - licensing_apply_using_content
-- limitation_research_support_service
 - limitation_uscs_create_digital
 - login_use_library_access
 - lost_found
@@ -325,7 +320,6 @@ intents:
 - print_library
 - print_material_available_course
 - problem_published_research_finding
-- problem_research_published_journal
 - programming_language_use_data
 - prompt_engineering
 - public_domain
@@ -367,7 +361,6 @@ intents:
 - return_book
 - role_needed_manage_open
 - schedule_research_appointment
-- schedule_workshop_session_suggest
 - scoer_award
 - scoer_faculty_award
 - scoer_faculty_award_2020
@@ -411,7 +404,6 @@ intents:
 - student_involved_creation_knowledge
 - student_success_center_peer
 - subfields_artificial_intelligence
-- subscription_service_available_web
 - suggest_title_library_purchase
 - suggest_workshop
 - support_library
@@ -439,7 +431,6 @@ intents:
 - university_alabama_api_code
 - university_institutional_repository
 - university_policy_apply_research
-- upload_research_scholar_common
 - usc_columbia_user
 - usc_library
 - usc_related_digital_scholarship
@@ -459,7 +450,6 @@ intents:
 - winner_scoer_award
 - winner_scoer_faculty_award
 - workshop_available_ai_data
-- workshop_training_available_research
 responses:
   utter_greet:
   - text: Hi! How can I help you?
@@ -484,9 +474,6 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)  
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
-  utter_data_analysis_help:
-  - text: |
-      The library offers support for doing exploratory data analysis and helps with quantitative and qualitative statistical software products. [Learn more here](https://guides.library.sc.edu/c.php?g=1335227)
   utter_use_digital_tool_research:
   - text: |
       The library offers support for using digital processes, tools, and methods to enable and present new forms of research. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
@@ -1778,14 +1765,6 @@ responses:
 
       - [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
       Get help from the University of South Carolina's central IT department
-  utter_limitation_research_support_service:
-  - text: |2
-
-
-      This service does not offer tutoring or help with homework. For assistance with coursework, please contact the Student Success Center.
-      - [University of South Carolina Student Success Center](https://sc.edu/about/offices_and_divisions/student_success_center/index.php)
-      For help with software installation or troubleshooting, please visit the Division of IT's Get Help Page.
-      - [Get Help (DoIT)](https://sc.edu/about/offices_and_divisions/division_of_information_technology/contact/index.php)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1335227)
   utter_What_is_NVivo:
@@ -2627,11 +2606,6 @@ responses:
       Learn about tools and resources available to help with the components of data management.](http://guides.library.sc.edu/rdm)[
       #### Sharing Data
       Funders and publishers may require that a research project’s underlying data be made publicly available. Explore options and learn about citing datasets.](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
-  utter_workshop_training_available_research:
-  - text: |2
-
-      # Library Workshops
-      Register for free [library workshops](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/workshops/index.php) on a variety of Research Data Management topics.
   utter_contact_help_research_data:
   - text: |2
 
@@ -2870,11 +2844,6 @@ responses:
         DataONE is a platform for sharing environmental and ecological data. The DataONE Research Data Management Education Modules provide guidance on many concepts.
       - [MANTRA](https://mantra.ed.ac.uk/)\n\n[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4581796)  
         A free online data management course from the University of Edinburgh that provides modules geared toward Research Students, Career Researchers, Senior Academics, and Information Professionals.
-  utter_problem_research_published_journal:
-  - text: |
-      Statistically significant findings are more likely to be published. Because of bias and [](https://login.pallas2.tcl.sc.edu/login?url=https://journals.sagepub.com/doi/full/10.1177/2515245917747646), much of the research published in journals is irreproducible.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)
   utter_registered_report_osf:
   - text: |
       Registrations in OSF are time-stamped, read-only versions of a research plan that explain how data will be collected, manipulated, and analyzed in advance. Providing this [](https://cos.io/rr/) to a participating journal effectively creates two peer-review processes.
@@ -3487,13 +3456,6 @@ responses:
       Visit the Checkout Desk on the Main Level of Thomas Cooper Library or contact us. 803-777-3145 Email: [ereserve@mailbox.sc.edu](mailto:ereserve@mailbox.sc.edu) For questions about textbooks and materials for music courses, contact the [Music Library](https://sc.edu/about/offices_and_divisions/university_libraries/browse/music_library/index.php). 803-777-5139 [musiclib@mailbox.sc.edu](mailto:musiclib@mailbox.sc.edu)
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
-  utter_learning_session_offered_usc:
-  - text: |
-      ## Learning Sessions offered by USC Libraries
-      Each semester, the Libraries offers online, live learning sessions or workshops for different topics.  Please visit the link below for the latest offerings in text analysis.
-      - [Text Analysis workshops](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&ct=68189&inc=0)
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886483)
   utter_event_offered_constellate:
   - text: |
       ## Constellate Events
@@ -3793,8 +3755,8 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10065331)
   utter_learn_clear_framework:
   - text: |
-      - [The CLEAR path: A framework for enhancing information literacy through prompt engineering](https://doi.org/10.1016/j.acalib.2023.102720)Leo S. Lo, The CLEAR path: A framework for enhancing information literacy through prompt engineering,The Journal of Academic Librarianship, Volume 49, Issue 4,2023,[more...](javascript:void(0);)[less...](javascript:void(0);)
-      - [CLEARer Dialogues with AI: Unpacking Prompt Engineering for Librarians](https://www.youtube.com/watch?v=3pvmMEnJhCs)[more...](javascript:void(0);)[less...](javascript:void(0);)
+      - [The CLEAR path: A framework for enhancing information literacy through prompt engineering](https://doi.org/10.1016/j.acalib.2023.102720)Leo S. Lo, The CLEAR path: A framework for enhancing information literacy through prompt engineering,The Journal of Academic Librarianship, Volume 49, Issue 4,2023
+      - [CLEARer Dialogues with AI: Unpacking Prompt Engineering for Librarians](https://www.youtube.com/watch?v=3pvmMEnJhCs)
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10065331)
   utter_learn_prompt_engineering:
   - text: |
@@ -4359,20 +4321,16 @@ responses:
   - text: |
       ## Creating an Account in Scholar Commons
       This video will guide you through the steps of creating an account with Scholar Commons, the institutional repository of the University of South Carolina.
-      [Learn more here](https://guides.library.sc.edu/scholarcommons/tutorials)
-  utter_upload_research_scholar_common:
-  - text: |
-      ## Uploading your Works to Scholar Commons
-      In this video, learn how to archive and share your research and scholarship through Scholar Commons.
-      [Learn more here](https://guides.library.sc.edu/scholarcommons/tutorials)
-  utter_assess_impact_research_scholar:
-  - text: |
+
       ## Using Scholar Commons to Assess your Research Impact
       After adding your research to Scholar Commons, you’ll have access to useful insights into the ways that others are using your research. In this video, learn how to use the Author Dashboard to understand the reach and impact of your scholarly works.
+
+      ## Uploading your Works to Scholar Commons
+      In this video, learn how to archive and share your research and scholarship through Scholar Commons.
+
       [Learn more here](https://guides.library.sc.edu/scholarcommons/tutorials)
   utter_content_management_system_available:
   - text: |2
-
       ## Content Management Systems
       - [Drupal](https://www.drupal.org/)
       - [Omeka](https://omeka.org/)
@@ -4380,7 +4338,6 @@ responses:
       - [Wordpress](http://wordpress.org/)
   utter_select_suitable_content_management:
   - text: |2
-
       ## Selection Criteria
       Selecting a CMS may seem like a simple task, but picking a CMS that is suitable is critical for the success of the project. Viewing tutorials and reviewing documentation in advance of your selection will help you to understand both the technical expertise necessary to administer your project and to decide if the CMS offers the tools needed to showcase your work.
       Need help selecting a CMS?[ Reach out to us for assistance!](mailto:boydkf@mailbox.sc.edu?subject=CMS%20help)
@@ -4391,17 +4348,14 @@ responses:
       ## Web Archiving
       Web archiving allows researchers and others to capture and store collections of web content for preservation purposes. There are many tools and services that make web archiving possible. Some are available to individuals at no or low cost, while others are primarily used by organizations and institutions.
 
-      [Learn more here](https://guides.library.sc.edu/digitalscholarship/webarchiving)
-  utter_free_tool_use_web:
-  - text: |
       ## Free to Use
-      - [Webrecorder](https://webrecorder.io/)
-      - [Heritrix](https://github.com/internetarchive/heritrix3/wiki)
-      - [WebCite](https://www.webcitation.org/)
+      - [Webrecorder](https://webrecorder.io/)  
+      Creates an archival record of pages as they are browsed, including dynamic content triggered by interactions. Users can log in to save collections or download the recordings as WARC files.
+      - [Heritrix](https://github.com/internetarchive/heritrix3/wiki)  
+      Open source web crawler provided by Internet Archive.
+      - [WebCite](https://www.webcitation.org/)  
+      On-demand web archiving service available to authors, editors, and scholarly publishers.
 
-      [Learn more here](https://guides.library.sc.edu/digitalscholarship/webarchiving)
-  utter_subscription_service_available_web:
-  - text: |
       ## Subscription Services
       - [Archive-It](https://archive-it.org/)
 
@@ -4648,19 +4602,16 @@ responses:
       - [ARL's Fair Use For Academic and Research Libraries Document](http://www.arl.org/storage/documents/publications/code-of-best-practices-fair-use.pdf)
 
       [Learn more here](https://guides.library.sc.edu/copyright/moreresources)
-  utter_get_help_course_material:
-  - text: |
+  utter_add_course_reading_blackboard:
+  - text: |2
       ## Course Materials Support
       Send us your syllabus to request links in Blackboard for articles, streaming videos, book chapters, ebooks and Open Educational Resources. We can even consider purchasing new items to support your teaching.
       Use the [Course Materials Request form](https://sc.libwizard.com/f/eReserve) for help with articles, books and films in both online and physical formats.
-  utter_add_course_reading_blackboard:
-  - text: |2
 
       ### Online Materials in Blackboard
       Add scans or links to course readings in Blackboard. University Libraries will help address any copyright issues. Requests made at least 3 weeks before classes begin receive priority.
   utter_print_material_available_course:
   - text: |2
-
       ### Print Materials
       #### Textbooks
       The library has a large collection of print textbooks, especially for courses with over 100 students. To see if the library has the textbook for your course, search by book title or course number in [Find It @ USC Libraries](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC) under Course Reserves.
@@ -4671,11 +4622,10 @@ responses:
       - Request new purchases for the collection (ebook is default)
   utter_contact_course_material_support:
   - text: |2
-
       # Contact Us
-      Contact us with questions or to submit requests.
-      : 803-777-3145
-      : [ereserve@mailbox.sc.edu](mailto:ereserve@mailbox.sc.edu)
+      Contact course materials support with questions or to submit requests.
+      Phone : 803-777-3145
+      Email : [ereserve@mailbox.sc.edu](mailto:ereserve@mailbox.sc.edu)
   utter_impact_open_educational_resource:
   - text: |
       ## OER Impact
@@ -4687,9 +4637,8 @@ responses:
       [Learn more here](http://guides.library.sc.edu/OER)
   utter_find_information_music_material:
   - text: |2
-
-      # Related Information
       For streaming audio reserves and other music materials contact the [Music Library](https://sc.edu/about/offices_and_divisions/university_libraries/browse/music_library/index.php).
+      
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php)
   utter_find_openly_available_research:
   - text: |
@@ -4910,12 +4859,6 @@ responses:
       Now in its fourth year, the SCoer! Faculty Grant encourages the classroom use of Open Educational Resources (OER) – teaching, learning and research resources that are freely available to students. The grant is sponsored by the University of South Carolina Libraries.
       To participate in the program, the winning faculty members will attend a one-hour workshop hosted by the University Libraries that will help them identify OER materials for their courses. They then will commit to switching from using a traditional textbook to an OER or library-licensed resource in one of their classes. Each winner receives a certificate and a $500 grant.
       [Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2018/scoer_2018.php)
-  utter_schedule_workshop_session_suggest:
-  - text: |
-      # Contact Us
-      Do you have a group interested in scheduling a workshop session? Or have an idea for additional workshop offerings?
-      Email us at [tclrefbi@mailbox.sc.edu](mailto:tclrefbi@mailbox.sc.edu).
-      [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=5107061)
   utter_service_library_offer_faculty:
   - text: |
       # Faculty and Instructor Services

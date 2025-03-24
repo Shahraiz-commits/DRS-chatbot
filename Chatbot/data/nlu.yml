@@ -14,7 +14,6 @@ nlu:
     - [9](number)
 - intent: greet
   examples: |
-    - greet
     - hello
     - heyyy
 - intent: bot_challenge
@@ -53,24 +52,6 @@ nlu:
     - How do I reach out to library faculty
     - Contact info for acquisitions department
     - Who is Kate Boyd and how do I contact her?
-- intent: data_analysis_help
-  examples: |
-    - Data analysis help
-    - data analysis s oftware
-    - I want help analyzing a dataset in R
-    - I need help with data analysis, can the library assist me?
-    - statistical software support
-    - Does the library offer data analysis help?
-    - Can I get help with qualitative data at the library?
-    - quantitative data analysis assistance
-    - What kind of statistical support does the library provide?
-    - I need help with exploratory data analysis
-    - Does the library have resources for data analysis?
-    - stat help @ lib
-    - Data analysis software tutorials at USC library?
-    - I'm having trouble with stats, can the lib help?
-    - Can I get assistance with SPSS/R/SAS at the library?
-    - What statistical software does the library support?
 - intent: use_digital_tool_research
   examples: |
     - How can I use digital tools in my research?
@@ -105,6 +86,13 @@ nlu:
     - data lifecycle help
 - intent: kind_workshop_library_offer
   examples: |
+    - Are there any workshops or training available for Research Data Management?
+    - Library workshop schedule?
+    - Can I attend library workshops for free?
+    - Upcoming library workshops?
+    - What topics are covered in library workshops?
+    - data management workshop
+    - Where can I find info on USC library workshops?
     - What kind of workshops do libraries offer?
     - what workshops do u have
     - workshops
@@ -2328,8 +2316,6 @@ nlu:
     - Is SQL tutoring available at USC?
     - help with research data
     - What's not included in the library's data analysis service?
-- intent: limitation_research_support_service
-  examples: |
     - Are there any limitations to the research support service?
     - Is there any limit to the research support service?
     - Does the library offer homework help?
@@ -2345,6 +2331,22 @@ nlu:
     - Does the library have computer support?
     - I need help with my laptop, who can I contact?
     - USC academic support services
+    - Data analysis help
+    - data analysis s oftware
+    - I want help analyzing a dataset in R
+    - I need help with data analysis, can the library assist me?
+    - statistical software support
+    - Does the library offer data analysis help?
+    - Can I get help with qualitative data at the library?
+    - quantitative data analysis assistance
+    - What kind of statistical support does the library provide?
+    - I need help with exploratory data analysis
+    - Does the library have resources for data analysis?
+    - stat help @ lib
+    - Data analysis software tutorials at USC library?
+    - I'm having trouble with stats, can the lib help?
+    - Can I get assistance with SPSS/R/SAS at the library?
+    - What statistical software does the library support?
 - intent: What_is_NVivo
   examples: |
     - What is NVivo?
@@ -2385,7 +2387,6 @@ nlu:
     - Can I use NVivo from home?
 - intent: find_additional_help_nvivo
   examples: |
-    - Where can I find additional help with NVivo?
     - Where can I get help with NVivo?
     - Where can I find help with NVivo?
     - How can I get help with NVivo?
@@ -3384,7 +3385,6 @@ nlu:
   examples: |
     - What data sets are available for health research?
     - can you list the available data sets for health research?
-    - can you list the data sets available for health research?
     - Where can I find health data sets?
     - Health statistics resources?
     - HIV/AIDS data sources?
@@ -3563,19 +3563,6 @@ nlu:
     - Can you help me with a Data Management Plan?
     - what are the components of data management?
     - I need help managing my research data
-- intent: workshop_training_available_research
-  examples: |
-    - Are there any workshops or training available for Research Data Management?
-    - Library workshop schedule?
-    - usc library events
-    - research data management help
-    - Can I attend library workshops for free?
-    - Upcoming library workshops?
-    - library research training
-    - What topics are covered in library workshops?
-    - data management workshop
-    - Where can I find info on USC library workshops?
-    - Library event registration?
 - intent: contact_help_research_data
   examples: |
     - Who can I contact for help with research data management?
@@ -4077,20 +4064,6 @@ nlu:
     - What is MANTRA training?
     - resources for managing research data
     - Where can I find data management guides?
-- intent: problem_research_published_journal
-  examples: |
-    - Is there any problem with research published in journals?
-    - What's the problem with research publications?
-    - Why are most published studies false?
-    - published vs unpublished research stats
-    - Is all research in journals reliable?
-    -  publication bias effect on stats
-    - Research findings not replicable?
-    - Are academic papers trustworthy?
-    - reproducibility issue in journals
-    - What's wrong with published studies?
-    - issue w/ scholarly articles
-    - Why can't others replicate study results?
 - intent: registered_report_osf
   examples: |
     - What are Registered Reports in OSF?
@@ -4131,6 +4104,21 @@ nlu:
     - tips for successful registered reports
 - intent: suggest_workshop
   examples: |
+    - How can I schedule a workshop session or suggest additional workshop offerings?
+    - How do I schedule a workshop session?
+    - Tell me the best way to schedule a workshop session?
+    - How do I schedule a workshop at the library?
+    - Can I request a custom workshop for my group?
+    - Who do I contact for library workshops?
+    - I have an idea for a new workshop, who should I email?
+    - Workshop scheduling email
+    - Group training sessions available?
+    - Additional workshop ideas who to send to
+    - library workshops contact info
+    - How to schedule a group session at the lib?
+    - New workshop suggestion email address
+    - Can I book a library workshop for my team?
+    - Who handles library workshop requests?
     - How do I suggest workshops?
     - Tell me the best way to suggest workshops?
     - How can I suggest workshops?
@@ -5327,25 +5315,6 @@ nlu:
     - can i email library
     - what is the number for lib
     - who to contact about reserves
-- intent: learning_session_offered_usc
-  examples: |
-    - What learning sessions are offered by USC Libraries?
-    - What learning sessions are offered by the USC Libraries?
-    - list the learning sessions offered by USC Libraries?
-    - What workshops does USC library offer?
-    - USC library training sessions
-    - Any online learning sessions available?
-    - text analysis workshop?
-    - Does usc lib do trainings?
-    - Where can I find upcoming lib workshops?
-    - usc libraries events
-    - Can I learn text analysis at usc lib?
-    - library tutorial offerings
-    - What topics does usc library cover in workshops?
-    - Are there any online sessions for spring semester?
-    - Libraries workshop schedule
-    - How do I register for a usc lib workshop?
-    - usc lib event calendar
 - intent: event_offered_constellate
   examples: |
     - What events are offered by Constellate?
@@ -5385,8 +5354,6 @@ nlu:
     - Are there any beginner-friendly tutorials on python for humanities?
 - intent: instruction_article_available_text
   examples: |
-    - What instructions and articles are available for text analysis?
-    - Which instructions and articles are available for text analysis?
     - What articles and instructions are available for text analysis?
     - Topic modeling resources?
     - I need help with topic modeling
@@ -5403,8 +5370,6 @@ nlu:
     - What are some strategies for interpreting topic modeling results?
 - intent: ama_citation_style
   examples: |
-    - What is the AMA citation style?
-    - Tell me the AMA Citation Style?
     - Tell me the AMA citation style?
     - What is AMA Citation Style?
     - What is the latest AMA citation style?
@@ -6970,8 +6935,6 @@ nlu:
     - Attribution details for this page
 - intent: create_account_scholar_common
   examples: |
-    - How do I create an account in Scholar Commons?
-    - How do I create an account on Scholar Commons?
     - How do I create a Scholar Commons account?
     - How do I make a Scholar Commons account?
     - Create account in Scholar Commons
@@ -6986,8 +6949,6 @@ nlu:
     - New to Scholar Commons, how do I join?
     - What's the process for making an account on Scholar Commons?
     - Create profile in USC institutional repository
-- intent: upload_research_scholar_common
-  examples: |
     - How do I upload my research to Scholar Commons?
     - How do I upload research to Scholar Commons?
     - How can I upload my research to Scholar Commons?
@@ -7003,8 +6964,6 @@ nlu:
     - Scholar Commons upload guide
     - what is scholar commons used for
     - How can I access Scholar Commons tutorials?
-- intent: assess_impact_research_scholar
-  examples: |
     - How can I assess the impact of my research in Scholar Commons?
     - How do I track my research impact?
     - scholar commons tutorial
@@ -7014,7 +6973,6 @@ nlu:
     - I wanna know if ppl r reading my stuff on scholar commons
     - scholarly works impact
     - Reach of my research?
-    - What can I learn from Author Dashboard?
     - Scholar Commons insights?
     - How do I measure the success of my publications?
     - scholar commons views metrics
@@ -7072,8 +7030,18 @@ nlu:
     - best tools for web archiving
     - Can individuals archive websites?
     - Is web archiving free?
-- intent: free_tool_use_web
-  examples: |
+    - What subscription services are available for web archiving?
+    - What subscription services does the library offer?
+    - Does USC have Archive-It?
+    - web archiving services
+    - How do I access Archive-It?
+    - archive it link
+    - usc archive services
+    - Can I use Archive-It for free?
+    - Where can I find more info on Archive-It?
+    - web archiving guide
+    - How do I learn more about web archiving?
+    - archive it subscription
     - What free tools can I use for web archiving?
     - list some free tools for web archiving?
     - What tools can I use for web archiving?
@@ -7089,8 +7057,6 @@ nlu:
     - Are there any open-source web archiving tools?
     - Can you give me a list of free web archiving tools?
     - webcite alternatives free
-- intent: subscription_service_available_web
-  examples: |
     - What subscription services are available for web archiving?
     - What subscription services does the library offer?
     - Does USC have Archive-It?
@@ -7476,9 +7442,23 @@ nlu:
     - What is fair use in copyright law?
     - copyright toolkit for instructors
     - Where can I learn more about academic copyright?
-- intent: get_help_course_material
+- intent: add_course_reading_blackboard
   examples: |
-    - How can I get help with course materials?
+    - How do I add course readings to Blackboard?
+    - How do I add readings to Blackboard?
+    - Can I upload scanned materials to Blackboard?
+    - Who can help with copyright issues in Blackboard?
+    - adding course materials to blackboard
+    - bb copyright help
+    - Can I link to library resources in Blackboard?
+    - blackboard online readings
+    - How do I get permission to post copyrighted materials on Blackboard?
+    - library support for blackboard
+    - posting readings on bb
+    - What is the deadline for requesting copyright help for Blackboard?
+    - priority assistance with blackboard materials
+    - Can library staff assist with blackboard setup?
+    - - How can I get help with course materials?
     - How do I get help with course materials?
     - How can I get help with course material?
     - How do I get course materials on Blackboard?
@@ -7494,24 +7474,6 @@ nlu:
     - Can you buy new materials for my class?
     - How do I get online resources for teaching?
     - Can the library add ebooks to Blackboard?
-- intent: add_course_reading_blackboard
-  examples: |
-    - How do I add course readings to Blackboard?
-    - How do I add course readings to my Blackboard?
-    - How do I add course readings to a Blackboard?
-    - How do I add readings to Blackboard?
-    - Can I upload scanned materials to Blackboard?
-    - Who can help with copyright issues in Blackboard?
-    - adding course materials to blackboard
-    - bb copyright help
-    - Can I link to library resources in Blackboard?
-    - blackboard online readings
-    - How do I get permission to post copyrighted materials on Blackboard?
-    - library support for blackboard
-    - posting readings on bb
-    - What is the deadline for requesting copyright help for Blackboard?
-    - priority assistance with blackboard materials
-    - Can library staff assist with blackboard setup?
 - intent: print_material_available_course
   examples: |
     - What print materials are available for my course?
@@ -7769,8 +7731,18 @@ nlu:
     - I need help with expensive textbooks, what's available?
 - intent: problem_published_research_finding
   examples: |
-    - What is the problem with published research findings?
-    - Tell me the problem with published research findings?
+    - Is there any problem with research published in journals?
+    - What's the problem with research publications?
+    - Why are most published studies false?
+    - published vs unpublished research stats
+    - Is all research in journals reliable?
+    -  publication bias effect on stats
+    - Research findings not replicable?
+    - Are academic papers trustworthy?
+    - reproducibility issue in journals
+    - What's wrong with published studies?
+    - issue w/ scholarly articles
+    - Why can't others replicate study results?
     - What's the problem with published research findings?
     - What is wrong with published research findings?
     - What is publication bias?
@@ -8039,24 +8011,6 @@ nlu:
     - OER textbook grant program
     - What are the requirements for the SCoer Faculty Grant?
     - Faculty grant for free textbooks
-- intent: schedule_workshop_session_suggest
-  examples: |
-    - How can I schedule a workshop session or suggest additional workshop offerings?
-    - How do I schedule a workshop session?
-    - How can I schedule a workshop session?
-    - Tell me the best way to schedule a workshop session?
-    - How do I schedule a workshop at the library?
-    - Can I request a custom workshop for my group?
-    - Who do I contact for library workshops?
-    - I have an idea for a new workshop, who should I email?
-    - Workshop scheduling email
-    - Group training sessions available?
-    - Additional workshop ideas who to send to
-    - library workshops contact info
-    - How to schedule a group session at the lib?
-    - New workshop suggestion email address
-    - Can I book a library workshop for my team?
-    - Who handles library workshop requests?
 - intent: service_library_offer_faculty
   examples: |
     - What services does the library offer for faculty and instructors?

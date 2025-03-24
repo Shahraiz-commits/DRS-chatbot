@@ -52,7 +52,7 @@ Example output:
 
 """
 
-def makeNewChat():
+def makeNewChat(API, system_prompt):
     url = "http://login-theia.rc.sc.edu:3000/api/v1/chats/new"
     headers = {
         "accept": "application/json",
@@ -87,7 +87,7 @@ def makeNewChat():
     else:
         print(f"Error: {response.status_code} - {response.text}")
 
-def chatCompletion():
+def chatCompletion(API, chatId, system_prompt, input_prompt):
     url = "http://login-theia.rc.sc.edu:3000/api/chat/completions"
     headers = {
         "accept": "*/*",
@@ -97,16 +97,12 @@ def chatCompletion():
         "Referer": "http://login-theia.rc.sc.edu/c/" + chatId,
         "Referrer-Policy": "strict-origin-when-cross-origin",
     }
-
-    # Append input message to history
-    #chat_history.append({"role": "user", "content": input_prompt})
     
     body = {
-        #"system prompt": system_prompt,
-        "Context Length": 4000,
+        "num_ctx": 8000,
         "stream": False,
         "model": "llama3.1:405b",
-        "temperature": 0.8,
+        "temperature": 0,
         "messages":
         [
             {"role": "system", "content": system_prompt},
@@ -114,7 +110,7 @@ def chatCompletion():
         ],
         "params": {},
         "features": {"image_generation": False, "web_search": False},
-        "session_id": "hIrdD0mQs4RLYUedAAEk",
+        "session_id": "Ba4J-UGkZyL10GgMAAAX",
         "chat_id": chatId,
         "background_tasks": {"title_generation": True, "tags_generation": True},
     }
@@ -123,13 +119,11 @@ def chatCompletion():
     if response.status_code == 200:
         data = response.json()
         llm_response = data['choices'][0]['message']['content']
-
-        # Append model response to history
-        #chat_history.append({"role": "assistant", "content": llm_response})
         return llm_response
     else:
         print(f"Error: {response.status_code} - {response.text}")
-
+        
+"""
 data = makeNewChat()
 chatId = data["id"]
 chat_history = [{"role": "system", "content": system_prompt}]
@@ -157,3 +151,5 @@ for key, value in data["responses"].items():
 
     configure_nlu(intent, examples)
     print(f"\n-------------CONFIGURED QUESTIONS FOR INTENT # {questions_count} : {intent}---------------------\n{examples}")
+"""
+

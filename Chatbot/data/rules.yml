@@ -45,11 +45,6 @@ rules:
   - intent: help_digital_tool
   - action: utter_help_digital_tool
     
-- rule: Answer data_analysis_help
-  steps:
-  - intent: data_analysis_help
-  - action: utter_data_analysis_help
-    
 - rule: Answer use_digital_tool_research
   steps:
   - intent: use_digital_tool_research
@@ -675,11 +670,6 @@ rules:
   - intent: kind_research_support_university
   - action: utter_kind_research_support_university
     
-- rule: Answer limitation_research_support_service
-  steps:
-  - intent: limitation_research_support_service
-  - action: utter_limitation_research_support_service
-    
 - rule: Answer What_is_NVivo
   steps:
   - intent: What_is_NVivo
@@ -1015,11 +1005,6 @@ rules:
   - intent: tool_resource_available_research
   - action: utter_tool_resource_available_research
     
-- rule: Answer workshop_training_available_research
-  steps:
-  - intent: workshop_training_available_research
-  - action: utter_workshop_training_available_research
-    
 - rule: Answer contact_help_research_data
   steps:
   - intent: contact_help_research_data
@@ -1154,11 +1139,6 @@ rules:
   steps:
   - intent: resource_available_research_data
   - action: utter_resource_available_research_data
-    
-- rule: Answer problem_research_published_journal
-  steps:
-  - intent: problem_research_published_journal
-  - action: utter_problem_research_published_journal
     
 - rule: Answer registered_report_osf
   steps:
@@ -1479,11 +1459,6 @@ rules:
   steps:
   - intent: contact_library_textbook_course
   - action: utter_contact_library_textbook_course
-    
-- rule: Answer learning_session_offered_usc
-  steps:
-  - intent: learning_session_offered_usc
-  - action: utter_learning_session_offered_usc
     
 - rule: Answer event_offered_constellate
   steps:
@@ -1960,16 +1935,6 @@ rules:
   - intent: create_account_scholar_common
   - action: utter_create_account_scholar_common
     
-- rule: Answer upload_research_scholar_common
-  steps:
-  - intent: upload_research_scholar_common
-  - action: utter_upload_research_scholar_common
-    
-- rule: Answer assess_impact_research_scholar
-  steps:
-  - intent: assess_impact_research_scholar
-  - action: utter_assess_impact_research_scholar
-    
 - rule: Answer content_management_system_available
   steps:
   - intent: content_management_system_available
@@ -1984,16 +1949,6 @@ rules:
   steps:
   - intent: web_archiving
   - action: utter_web_archiving
-    
-- rule: Answer free_tool_use_web
-  steps:
-  - intent: free_tool_use_web
-  - action: utter_free_tool_use_web
-    
-- rule: Answer subscription_service_available_web
-  steps:
-  - intent: subscription_service_available_web
-  - action: utter_subscription_service_available_web
     
 - rule: Answer type_work_copyrighted
   steps:
@@ -2099,11 +2054,6 @@ rules:
   steps:
   - intent: resource_help_understand_copyright
   - action: utter_resource_help_understand_copyright
-    
-- rule: Answer get_help_course_material
-  steps:
-  - intent: get_help_course_material
-  - action: utter_get_help_course_material
     
 - rule: Answer add_course_reading_blackboard
   steps:
@@ -2264,11 +2214,6 @@ rules:
   steps:
   - intent: scoer_faculty_grant
   - action: utter_scoer_faculty_grant
-    
-- rule: Answer schedule_workshop_session_suggest
-  steps:
-  - intent: schedule_workshop_session_suggest
-  - action: utter_schedule_workshop_session_suggest
     
 - rule: Answer service_library_offer_faculty
   steps:
