@@ -13,14 +13,11 @@ from configure_new_data import configure_nlu
 # File that pairs are saved into as csv
 OUTPUT_CSV = "QAChat.csv"
 
-load_dotenv()
+load_dotenv(".env")
 API = os.getenv("LLM_API_KEY")
 
 system_prompt = """
-I am giving you a text that represents a response for an intent in a rasa chatbot being trained for the library. Please create anywhere from 10 - 15 diverse training examples for this intent, all of which can be answered by this text response. 
-If the input text is small, limit the questions instead of generalizing too much to create new questions or creating redundant questions for the sake of increasing training examples. However, if the examples can be diverse while still sticking to the text, create upto 15 training examples.
-The examples should include casual, formal, and slang language, etc. Make sure to include very short direct questions aswell insteaf of just gramatically sound ones. Try to mimic how users would ask questions. It may have some typos to better train the chatbot aswell. 
-List me these training examples in a valid JSON format inside "questions" in the JSON and DO NOT OUTPUT anything other than this.
+You will be given a text response along with existing training examples. Your task is to generate 10-15 diverse training examples for this intent that can be answered by the given text. Ensure the new examples are distinct from the provided ones. Include casual, formal, slang, and short direct questions. Use typos to make the chatbot more robust. Output only the new examples in valid JSON format inside "questions".
 
 Example input:
 ## Library Databases
@@ -52,55 +49,15 @@ Example output:
 
 """
 
-def makeNewChat(API, system_prompt):
-    url = "http://login-theia.rc.sc.edu:3000/api/v1/chats/new"
+def chat_with_model(token, system_prompt,input_prompt):
+    url = 'http://login-theia.rc.sc.edu:3000/api/chat/completions'
     headers = {
-        "accept": "application/json",
-        "accept-language": "en-US,en;q=0.9",
-        "authorization": "Bearer " + API,
-        "content-type": "application/json",
-        "Referer": "http://login-theia.rc.sc.edu:3000/",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
+        'Authorization': f'Bearer {token}',
+        'Content-Type': 'application/json'
     }
-
-    body = {
-        "chat": {
-            "id": "",
-            "title": "New Chat",
-            "models": ["llama3.1:405b"],
-            "messages": [
-                {
-                    "role": "system",
-                    "content": system_prompt,
-                    "models": ["llama3.1:405b"],
-                }
-            ],
-        }
-    }
-
-    response = requests.post(url, headers=headers, json=body)
-
-    if response.status_code == 200:
-        print("New Chat Created")
-        data = response.json()
-        return data
-    else:
-        print(f"Error: {response.status_code} - {response.text}")
-
-def chatCompletion(API, chatId, system_prompt, input_prompt):
-    url = "http://login-theia.rc.sc.edu:3000/api/chat/completions"
-    headers = {
-        "accept": "*/*",
-        "accept-language": "en-US,en;q=0.9",
-        "authorization": "Bearer " + API,
-        "content-type": "application/json",
-        "Referer": "http://login-theia.rc.sc.edu/c/" + chatId,
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-    }
-    
-    body = {
-        "num_ctx": 8000,
+    data = {
         "stream": False,
+        #"num_ctx": 8000,
         "model": "llama3.1:405b",
         "temperature": 0,
         "messages":
@@ -108,14 +65,8 @@ def chatCompletion(API, chatId, system_prompt, input_prompt):
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": input_prompt}
         ],
-        "params": {},
-        "features": {"image_generation": False, "web_search": False},
-        "session_id": "Ba4J-UGkZyL10GgMAAAX",
-        "chat_id": chatId,
-        "background_tasks": {"title_generation": True, "tags_generation": True},
     }
-    response = requests.post(url, headers=headers, json=body)
-
+    response = requests.post(url, headers=headers, json=data)
     if response.status_code == 200:
         data = response.json()
         llm_response = data['choices'][0]['message']['content']
@@ -123,10 +74,6 @@ def chatCompletion(API, chatId, system_prompt, input_prompt):
     else:
         print(f"Error: {response.status_code} - {response.text}")
         
-"""
-data = makeNewChat()
-chatId = data["id"]
-chat_history = [{"role": "system", "content": system_prompt}]
 page_count = 0
 questions_count = 0
 with open("../Chatbot/domain.yml", "r", encoding="utf-8") as file:
@@ -134,14 +81,14 @@ with open("../Chatbot/domain.yml", "r", encoding="utf-8") as file:
 
 for key, value in data["responses"].items():
     questions_count+=1
-    if(questions_count < 405):
-        continue
+    #if(questions_count < 405):
+    #    continue
     intent = key.replace("utter_", "")
     input_prompt = value[0]["text"]
     
     # Keep trying until valid json is recieved
     while True:
-        llm_response = chatCompletion()
+        llm_response = chat_with_model(API, system_prompt, input_prompt)
         try:
             examples = json.loads(llm_response)
             examples = examples["questions"]
@@ -151,5 +98,4 @@ for key, value in data["responses"].items():
 
     configure_nlu(intent, examples)
     print(f"\n-------------CONFIGURED QUESTIONS FOR INTENT # {questions_count} : {intent}---------------------\n{examples}")
-"""
 

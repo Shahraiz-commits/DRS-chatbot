@@ -4,7 +4,7 @@ import os
 import csv
 import time
 from dotenv import load_dotenv
-from llm_paraphraser import makeNewChat, chatCompletion
+from llm_paraphraser import chat_with_model
 import re
 # File that holds the newly created auestion-answer pairs
 #RESPONSE_JSON = "QApairs.json"
@@ -45,11 +45,6 @@ EXAMPLE OUTPUT:
 
 """
 
-
-data = makeNewChat(API, system_prompt)
-chatId = data["id"]
-
-chat_history = [{"role": "system", "content": system_prompt}]
 page_count = 0
 questions_count = 0
 
@@ -63,7 +58,7 @@ for current_text in texts_to_process:
         continue
     input_prompt = current_text
     input_prompt = re.sub(r'\n', '\\n', input_prompt)
-    LLMresponse = chatCompletion(API, chatId, system_prompt, input_prompt)
+    LLMresponse = chat_with_model(API, system_prompt, input_prompt)
     print(f"RESPONSE --------------------------------------------------------------------------------------------------------------------------------------\
         {LLMresponse}\n")
 

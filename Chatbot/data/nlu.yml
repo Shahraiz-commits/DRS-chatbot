@@ -2192,7 +2192,7 @@ nlu:
     - Is there a form to reserve data analysis assistance?
     - Data analysis and stats help at USC
 - intent: specialized_software_available_datalab
-  examples: |-
+  examples: |
     - What specialized software is available in the DataLab?
     - What software is available in the DataLab?
     - datalab sofwtare
@@ -2226,7 +2226,7 @@ nlu:
     - what hardware does the library have
     - can i use lib computers for gaming
 - intent: find_subjectspecific_data_statistic
-  examples: |-
+  examples: |
     - Where can I find subject-specific statistics?
     - subject-specific data
     - Where can I find statistics for my research?
@@ -2419,7 +2419,7 @@ nlu:
     - Why is open data important in research?
     - How does open data impact GDP?
 - intent: different_part_nvivo_workspace
-  examples: |-
+  examples: |
     - What are the different parts of the NVivo workspace?
     - show the different parts of the NVivo workspace?
     - list the different parts of the NVivo workspace?
@@ -2507,7 +2507,7 @@ nlu:
     - How do I view speaker attributes in NVivo?
     - Double-clicking on an attribute does what?
 - intent: software_hardware_resource_available
-  examples: |-
+  examples: |
     - What software and hardware resources are available at the University Libraries?
     - list the software and hardware resources available at the University Libraries?
     - Which software and hardware resources are available at the University Libraries?
@@ -2632,7 +2632,7 @@ nlu:
     - What is the purpose of a codebook in research?
     - NVivo data organization tips
 - intent: add_coding_data
-  examples: |-
+  examples: |
     - How do I add coding to my data?
     - How do I add coding to data?
     - How can I add coding to my data?
@@ -2913,7 +2913,7 @@ nlu:
     - sentencing commission datafiles
     - world bank data catalog
 - intent: information_needed_properly_cite
-  examples: |-
+  examples: |
     - What information is needed to properly cite a dataset?
     - Tell me the best way to cite a dataset?
     - How do I properly cite a dataset?
@@ -3511,7 +3511,7 @@ nlu:
     - what are the components of data management?
     - I need help managing my research data
 - intent: contact_help_research_data
-  examples: |-
+  examples: |
     - Who can I contact for help with research data management?
     - Who should I contact for help with research data management?
     - who should i contact if i need help with DMP
@@ -4025,7 +4025,7 @@ nlu:
     - resources for managing research data
     - Where can I find data management guides?
 - intent: happens_article_resulting_accepted
-  examples: |-
+  examples: |
     - What happens to articles resulting from accepted Registered Reports?
     - What happens to articles resulting from accepted registered reports?
     - What will happen to articles resulting from accepted registered reports?
@@ -4109,7 +4109,7 @@ nlu:
     - How does the library support my research?
     - usc faculty resources
 - intent: kind_ai_support_library
-  examples: |-
+  examples: |
     - Is there an Artificial Intelligence Institute at USC?
     - AI institute
     - What is the AI institute at USC?
@@ -4277,7 +4277,7 @@ nlu:
     - brief history of AI
     - When did AI research begin?
 - intent: application_artificial_intelligence
-  examples: |-
+  examples: |
     - What are the applications of AI
     - can you list the applications of Artificial Intelligence?
     - list the applications of Artificial Intelligence?
@@ -4536,7 +4536,7 @@ nlu:
     - Grad programs for AI at USC
     - How many credits is the AI grad certificate?
 - intent: ai_course_available
-  examples: |-
+  examples: |
     - What AI courses are available?
     - list the best AI courses?
     - What AI courses are available in India?
@@ -4625,7 +4625,7 @@ nlu:
     - Can I use HathiTrust for non-profit research?
     -  Hathitrust requirements
 - intent: advanced_text_analysis_tool
-  examples: |-
+  examples: |
     - What advanced text analysis tools are available?
     - best text analysis software
     - tools for analyzing text
@@ -4680,7 +4680,7 @@ nlu:
     - Can you give me a list of free text APIs?
     - Corpora for natural language processing
 - intent: learn_work_api
-  examples: |-
+  examples: |
     - How do I learn to work with an API?
     - How do I learn API?
     - Tell me the best way to learn API?
@@ -4881,7 +4881,7 @@ nlu:
     - Supporting library resources
     - Make a donation to USC libraries
 - intent: event_upcoming
-  examples: |-
+  examples: |
     - What events are upcoming?
     - show the upcoming events?
     - can you list the upcoming events?
@@ -5026,7 +5026,7 @@ nlu:
     - AI usage guidelines at other institutions
     - Do you have examples of university generative AI statements?
 - intent: citation_style_guide
-  examples: |-
+  examples: |
     - What is citation style guide?
     - How do I cite sources?
     - What format is required for citations?
@@ -5159,7 +5159,7 @@ nlu:
     - topic modeling tutorials?
     - What are some strategies for interpreting topic modeling results?
 - intent: ama_citation_style
-  examples: |-
+  examples: |
     - Tell me the AMA citation style?
     - What is AMA Citation Style?
     - What is the latest AMA citation style?
@@ -5192,7 +5192,7 @@ nlu:
     - what is doi used for
     - Doi number meaning
 - intent: cite_government_report
-  examples: |-
+  examples: |
     - How do I cite a government report?
     - How do I cite NIH publications in AMA style?
     - AMA citation for government reports
@@ -5408,7 +5408,7 @@ nlu:
     - chicago style bibliography examples
     - Citing primary sources in research papers
 - intent: find_example_chicago_citation
-  examples: |-
+  examples: |
     - Where can I find examples of Chicago citations?
     - Where can I find Chicago citation examples?
     - chicago citation examples
@@ -5456,7 +5456,7 @@ nlu:
     - library happenings
     - events at usc libraries
 - intent: example_project_use_digital
-  examples: |-
+  examples: |
     - show some examples of projects that use digital scholarship?
     - What are some examples of digital scholarship projects?
     - digital humanities projects examples
@@ -5580,7 +5580,7 @@ nlu:
     - Cheating with AI, what are the rules?
     - Honor code and artificial intelligence
 - intent: learn_clear_framework
-  examples: |-
+  examples: |
     - Where can I learn more about the CLEAR framework?
     - What is the CLEAR path framework?
     - clear path info lit
@@ -5610,7 +5610,7 @@ nlu:
     - How to write good AI prompts
     - CLEAR framework learning guide
 - intent: learn_prompt_engineering
-  examples: |-
+  examples: |
     - How can I learn prompt engineering?
     - Tell me the best way to learn prompt engineering?
     - How do I learn prompt engineering?
@@ -5692,7 +5692,7 @@ nlu:
     - usc citation help
     - Where can I learn more about citations?
 - intent: evaluating_resource_checklist
-  examples: |-
+  examples: |
     - What is the Evaluating Resources Checklist?
     - How do I evaluate online resources?
     - evaluating websites checklist
@@ -5756,7 +5756,7 @@ nlu:
     - Where can I find unbiased news?
     - How to check if a news source is credible
 - intent: example_generative_ai_chatbots
-  examples: |-
+  examples: |
     - What are examples of generative AI chatbots?
     - What is a generative AI chatbot?
     - Examples of AI chatbots?
@@ -5819,7 +5819,7 @@ nlu:
     - How do I quote from an AI tool in APA style?
     - apa 7 ai attribution rules
 - intent: format_footnote_citation_chicago
-  examples: |-
+  examples: |
     - How do I format a footnote citation in Chicago 17 style?
     - How do you format a footnote citation in Chicago 17 style?
     - How can I format a footnote citation in Chicago 17 style?
@@ -6162,7 +6162,7 @@ nlu:
     - USC digital scholarship resources
     - Can I see some examples of digital projects done at USC?
 - intent: constellate_use_it
-  examples: |-
+  examples: |
     - What is Constellate and how do I use it?
     - What is Constellate? How do I use it?
     - What is Constellate? How do you use it?
@@ -6241,7 +6241,7 @@ nlu:
     - Can I see views on Scholar Commons?
     - Stats on my research
 - intent: uscs_create_digital
-  examples: |-
+  examples: |
     - What is USC's Create Digital?
     - What is create digital at USC?
     - What is Create Digital at USC?
@@ -6576,7 +6576,7 @@ nlu:
     - OA repository examples
     - What are some figshare alternatives?
 - intent: create_open_educational_resource
-  examples: |-
+  examples: |
     - How do I create an Open Educational Resource?
     - How can I create an open educational resource?
     - How do I create an open educational resource?
@@ -6899,7 +6899,7 @@ nlu:
     - Fair use rules?
     - Can I use part of a copyrighted work without permission?
 - intent: resource_help_determine_fair
-  examples: |-
+  examples: |
     - Are there resources to help me determine Fair Use?
     - How do I determine fair use?
     - Tell me the best way to determine fair use?
@@ -7005,7 +7005,7 @@ nlu:
     - Preprint definition academic
     - Post print journal branding
 - intent: find_article_version
-  examples: |-
+  examples: |
     - How do I find my article versions?
     - How do I find article versions?
     - How do I find my submitted article?
@@ -7264,7 +7264,7 @@ nlu:
     - College book budget per year
     - what percentage of students cant afford textbooks
 - intent: determine_journal_predatory
-  examples: |-
+  examples: |
     - How can I determine if a journal is predatory?
     - How do I identify a predatory journal?
     - What are the signs of a fake academic journal?
@@ -7431,7 +7431,7 @@ nlu:
     - How does preregistration work?
     - research preregistration process
 - intent: open_textbook_source_available
-  examples: |-
+  examples: |
     - What open textbook sources are available?
     - Tell me the best open textbook source?
     - Where can I find free textbooks?
@@ -7682,7 +7682,7 @@ nlu:
     - USC faculty resources
     - library services for instructors
 - intent: osf_free
-  examples: |-
+  examples: |
     - How is OSF free?
     - Is OSF free?
     - Why is OSF free?
@@ -7804,7 +7804,6 @@ nlu:
   examples: |
     - Where can I find open and freely available case studies?
     - Where can I find free case studies?
-    - Where can I find free case studies?
     - open source case studies?
     - Are there any free business case studies available?
     - case studies for education
@@ -7818,7 +7817,7 @@ nlu:
     - case studies for research
     - Where can I find learning edge case studies?
 - intent: open_access_journal_featuring
-  examples: |-
+  examples: |
     - Are there open access journals featuring case studies?
     - Are there any open access journals featuring case studies?
     - Where can I find open access case studies?
