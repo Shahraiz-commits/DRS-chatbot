@@ -935,11 +935,6 @@ rules:
   - intent: resource_data_set
   - action: utter_resource_data_set
 
-- rule: Answer learn_social_work_statistic
-  steps:
-  - intent: learn_social_work_statistic
-  - action: utter_learn_social_work_statistic
-
 - rule: Answer resource_available_sociology_statistic
   steps:
   - intent: resource_available_sociology_statistic
@@ -1029,11 +1024,6 @@ rules:
   steps:
   - intent: find_information_metadata_standard
   - action: utter_find_information_metadata_standard
-
-- rule: Answer learn_metadata
-  steps:
-  - intent: learn_metadata
-  - action: utter_learn_metadata
 
 - rule: Answer consistent_file_naming_strategy
   steps:
@@ -1284,11 +1274,6 @@ rules:
   steps:
   - intent: vendor_allow_text_analysis
   - action: utter_vendor_allow_text_analysis
-
-- rule: Answer get_started_text_analysis1
-  steps:
-  - intent: get_started_text_analysis1
-  - action: utter_get_started_text_analysis1
 
 - rule: Answer federal_legal_response_ai
   steps:
@@ -1580,16 +1565,6 @@ rules:
   - intent: see_example_digital_project
   - action: utter_see_example_digital_project
 
-- rule: Answer digital_project_explore
-  steps:
-  - intent: digital_project_explore
-  - action: utter_digital_project_explore
-
-- rule: Answer learn_digital_project_showcase
-  steps:
-  - intent: learn_digital_project_showcase
-  - action: utter_learn_digital_project_showcase
-
 - rule: Answer constellate_use_it
   steps:
   - intent: constellate_use_it
@@ -1659,11 +1634,6 @@ rules:
   steps:
   - intent: audio_production_tool_available
   - action: utter_audio_production_tool_available
-
-- rule: Answer learn_digital_scholarship_tool
-  steps:
-  - intent: learn_digital_scholarship_tool
-  - action: utter_learn_digital_scholarship_tool
 
 - rule: Answer copyright_exist
   steps:

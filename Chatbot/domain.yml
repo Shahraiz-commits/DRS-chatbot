@@ -115,7 +115,6 @@ intents:
 - different_part_nvivo_workspace
 - different_type_machine_learning
 - different_version_article
-- digital_project_explore
 - digital_project_showcase
 - digital_scholarship
 - digital_scholarship_service_available
@@ -179,7 +178,6 @@ intents:
 - get_research_help
 - get_started_open_science
 - get_started_text_analysis
-- get_started_text_analysis1
 - get_started_text_mining
 - get_started_uscs_create
 - good_rule_thumb_backing
@@ -212,11 +210,7 @@ intents:
 - kind_workshop_library_offer
 - landuse_landcover_database_available
 - learn_clear_framework
-- learn_digital_project_showcase
-- learn_digital_scholarship_tool
-- learn_metadata
 - learn_prompt_engineering
-- learn_social_work_statistic
 - learn_using_ai_according
 - learn_work_api
 - library_car_repair_manual
@@ -2013,11 +2007,15 @@ responses:
       - Click on Codebook
       - Select the Nodes folder
       - Choose a location on your computer to save the document
+
+      [Learn more here](https://guides.library.sc.edu/nvivo/coding)
   utter_data_visualization:
   - text: |
       ## What is Data Visualization?
       Data visualization is an umbrella term referring to the representation of raw data content in a graphic or pictorial manner. Related concepts include information visualization and scientific visualization. Using visual features of encoded data such as position, size, shape, hue and saturation, motion, etc., data visualization applies tools and techniques to communicate the raw data in visual form.
       Common examples include charts, graphs, timelines, maps, and even tables.
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438972)
   utter_data_visualization_important:
   - text: |2
 
@@ -2027,14 +2025,17 @@ responses:
       - sometimes referred to as sense-making or data analysis. Using visualization techniques to examine and discover trends, associations, outliers, etc., that may not be obvious when viewing the raw data.
       - also referred to as storytelling or communication. Creating visualizations that make understanding what the data is saying clearer and more obvious.
       Successful data visualization relies on selecting the appropriate tool, technique, and visual expression that most effectively presents the story the data is telling. Data visualization should be considered a means to an end, not an end in itself.
+    
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438972)
   utter_data_science_lifecycle:
   - text: |2
 
       ## The Data Science Lifecycle
       Data visualization is one component of a much broader data analytics life cycle. While there is some variation in defining the full data analytics life cycle, the graphic below presents a general structure encompassing the basic components.
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438972)
   utter_common_term_used_data:
   - text: |2
-
       ## Terminology
       When discussing data visualization, various related terms may be used somewhat loosely. The following is a very brief glossary of commonly used data terminology:
       - A process of building, cleaning, and structuring datasets for the purpose of analysis and extraction of meaning.
@@ -2046,6 +2047,7 @@ responses:
 
       - Scientific Visualization...the visual display of spatial data associated with scientific processes.
       - [Information and Scientific Visualization: Separate but Equal or Happy Together at Last](https://dl.acm.org/doi/pdf/10.1109/VISUAL.2003.1250428)
+
       [Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=10439116)
   utter_business_statistic_resource_available:
   - text: |
@@ -2334,6 +2336,8 @@ responses:
       ## Geospatial Data
       - [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
       - [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
   utter_resource_available_fire_modeling:
   - text: |2
 
@@ -2341,18 +2345,24 @@ responses:
       - [LandFire](https://www.landfire.gov/)
       - [Fire Program Analysis Fire Occurrence Database (FPAFOD)](https://doi.org/10.2737/RDS-2013-0009.6)
       - [Monitoring Trends in Burn Severity (MTBS)](https://www.mtbs.gov/)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
   utter_hydrological_data_resource_available:
   - text: |2
 
       #### Hydrological Data
       - [USGS National Water Dashboard](https://waterdata.usgs.gov/nwis/rt)
       - [National Hydrography Dataset (NHD)](https://www.usgs.gov/core-science-systems/ngp/national-hydrography/access-national-hydrography-products)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
   utter_landuse_landcover_database_available:
   - text: |2
 
       #### Landuse and Landcover Databases
       - [Multi-Resolution Land Characteristics (MRLC) Consortium](https://www.mrlc.gov/)
       - [Gap Analysis Project](https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
   utter_modelled_data_resource_available:
   - text: |2
 
@@ -2362,6 +2372,8 @@ responses:
       - [MACA Climatology Lab](https://www.climatologylab.org/maca.html)
       - [NARCCAP - Climate Change Assessment Program](https://www.narccap.ucar.edu/data/index.html)
       - [North American CORDEX Program](https://na-cordex.org/)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
   utter_observed_data_resource_available:
   - text: |2
 
@@ -2369,17 +2381,22 @@ responses:
       - [NOAA - Full List of Data](https://www.ncdc.noaa.gov/data-access)
       - [NOAA - Weather & Climate Quick Links](https://www.ncdc.noaa.gov/data-access/quick-links)
       - [Applied Climate Information System - Query Data](http://builder.rcc-acis.org)To learn how to use this system, click here for[ more information](https://www.rcc-acis.org/docs_webservices.html).
+    
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
   utter_soil_data_resource_available:
   - text: |2
 
       #### Soil Data
       - [Natural Resources Conservation Service - Soil Databases](https://www.nrcs.usda.gov/resources?title=&resource_type=18)
       - [Natural Resources Conservation Service - Web Soil Survey (WSS)](https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
   utter_transportation_data_resource_available:
   - text: |2
 
       #### Transportation Data
       - [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
+
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
   utter_resource_available_finding_health:
   - text: |
@@ -2406,6 +2423,8 @@ responses:
       - [South Carolina eHealth Medicaid Statistics](http://www.schealthviz.sc.edu/)
       - [State Health Compare](http://statehealthcompare.shadac.org/)
       - [State Health Facts (Kaiser Family Foundation)](http://www.statehealthfacts.org/)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/health)
   utter_data_set_available_health:
   - text: |
       ## Data Sets
@@ -2469,10 +2488,6 @@ responses:
       - [Norwegian Agency for Shared Services in Education and Research (Sikt)](https://sikt.no/en/find-data)
       - [UNdata](http://data.un.org/)
       - [WHO Global Health Observatory](http://apps.who.int/gho/data/)
-  utter_learn_social_work_statistic:
-  - text: |2
-
-      [Learn more here](https://guides.library.sc.edu/data-and-statistics/social-work)
   utter_resource_available_sociology_statistic:
   - text: |
       ## Sociology Statistics and Data Set Resources
@@ -2482,6 +2497,8 @@ responses:
       - [Economic Indicators](https://www.govinfo.gov/app/collection/ECONI)
       - [InfoShare Online](http://www.infoshare.org/)Includes population statistics, immigration trends, socioeconomic indicators, birth and death data, hospitalizations, local trade data, and much more.You will need to create an individual account.
       - [UNdata](http://data.un.org/)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/social-work)
   utter_data_set_available_sociology:
   - text: |2
 
@@ -2571,6 +2588,8 @@ responses:
       - [Sample DMPs from UC San Diego](https://library.ucsd.edu/lpw-staging/research-and-collections/data-curation/data-management/dmp-samples.html)
       - [Data Management Planning Guidelines from NC State University](https://www.lib.ncsu.edu/do/data-management/funding-agency-guidelines)
       - [Sample NIH Data Management and Sharing Plans](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#sample-plans)
+  
+      [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095609)
   utter_include_data_management_plan:
   - text: |
       DMPs often include descriptions of:
@@ -2580,6 +2599,8 @@ responses:
       - Access, Sharing, and Privacy
       - Policies and Provisions for Re-use and Re-Distribution
       - Data Storage and Preservation
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095609)
   utter_need_data_management_plan:
   - text: |
       Creating a plan to manage and store your data throughout its lifecycle is a critical component of the research process. Not only does having a data management plan save you time and resources, but is a requirement for grant applications for many major funding agencies such as the National Science Foundation (NSF), the National Institutes of Health (NIH), and the National Endowment for the Humanities (NEH). In addition, having a plan to manage your data promotes increased data sharing, transparency, and reproducibility.
@@ -2634,17 +2655,25 @@ responses:
   utter_What_is_metadata:
   - text: |
       Metadata is information about the context, content, quality, provenance, and/or accessibility of a dataset. In order for your data to be accessible to you, your colleagues, and other researchers, it must be properly documented. Put simply, metadata is data about your data.
+  
+      [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095612)
   utter_metadata_important:
   - text: |
       Data often have a longer lifespan than the research project that creates them. Researchers may continue to work on data after funding has ceased, follow-up projects may analyse or add to the data, and data may be re-used by other researchers. Well organised, well documented, preserved and shared data are invaluable to advance scientific inquiry and to increase opportunities for learning and innovation.
-      --[Create and Manage Data, the UK Data Archive](http://www.data-archive.ac.uk/create-manage/life-cycle)
+      [Create and Manage Data, the UK Data Archive](http://www.data-archive.ac.uk/create-manage/life-cycle)
+  
+      [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095612)
   utter_include_metadata:
   - text: |
+      ### To Do While Collecting or Maintaining Data
       - Make a note of all file names and formats associated with the project, how the data are organized, how the data were generated (including any equipment or software used), and information about how the data have been altered or processed.
       - Include an explanation of codes, abbreviations, or variables used in the data or in the file naming structure.
       - Keep notes about where you got the data so that you and others can find it.
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095612)
   utter_element_metadata:
   - text: |
+      ### Metadata Elements - Things to Document
       - Name of the dataset or research project that produced it
       - Names and addresses of the organization or people who created the data
       - Number used to identify the data, even if it is just an internal project reference number
@@ -2661,15 +2690,17 @@ responses:
       - List of all data files associated with the project, with their names and file extensions (e.g. 'NWPalaceTR.WRL', 'stone.mov')
       - Format(s) of the data, e.g. FITS, SPSS, HTML, JPEG, and any software required to read the data
       - Organization of the data file(s) and the layout of the variables, when applicable
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095612)
   utter_find_information_metadata_standard:
   - text: |
+      ### Metadata Standards
       - A directory of [Disciplinary Metadata](http://www.dcc.ac.uk/resources/metadata-standards) standards is available from the UK's Digital Curation Centre. This site is browseable by discipline.
       - For a visualization of the wider metadata universe most often used in the humanities, see Jenn Riley's [Seeing Standards](http://jennriley.com/metadatamap/).
       - The [Metadata Standard Glossary](http://jennriley.com/metadatamap/seeingstandards_glossary_pamphlet.pdf) provides additional description for each of the standards listed.
       - The Digital Library Federation has a wiki for [best practices for shareable metadata](http://webservices.itcs.umich.edu/mediawiki/oaibp/index.php/ShareableMetadataPublic).
       - An NSF funded project, [DataONEpedia](https://www.dataone.org/data), is a database of best practices for data management.
-  utter_learn_metadata:
-  - text: |
+
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095612)
   utter_consistent_file_naming_strategy:
   - text: |
@@ -2710,7 +2741,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573562)
   utter_open_science_framework:
   - text: |
-      [](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. Created by the [Center for Open Science](https://cos.io/), OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
+      [OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. Created by the [Center for Open Science](https://cos.io/), OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
 
       Open Science Framework is not just for science! Researchers in any discipline can use this tool. Keep in mind that OSF is for sensitive data.
   utter_get_started_open_science:
@@ -3153,16 +3184,22 @@ responses:
   - text: |
       #### Get Research Help
       Take advantage of the expert research support our librarians provide.
-      [Learn about all the ways you can get help](https://sc.edu/about/offices_and_divisions/university_libraries/get_research_help/index.php).
+      Here are all the [ways you can get help](https://sc.edu/about/offices_and_divisions/university_libraries/get_research_help/index.php)!
+
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/)
   utter_special_collection_available:
   - text: |
       #### Browse Special Collections
       [Discover](https://sc.edu/about/offices_and_divisions/university_libraries/browse/index.php) an amazing variety of materials from books, films, art, maps, music and manuscripts to digitized collections accessible entirely online.
+    
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/)
   utter_support_library:
   - text: |
       #### Support the Libraries
       Your gift to the libraries funds learning and discovery by helping us acquire new resources, revitalize spaces, and preserve rare and historic materials.
       [Ways to Give](https://sc.edu/about/offices_and_divisions/university_libraries/support/index.php)
+
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/)
   utter_event_upcoming:
   - text: |
       # Print from your device
@@ -3214,9 +3251,6 @@ responses:
       - [Sage Journals](https://journals.sagepub.com/page/policies/text-and-data-mining)
       - [Springer Nature](https://www.springernature.com/gp/researchers/text-and-data-mining)
       - [Taylor and Francis](https://taylorandfrancis.com/our-policies/textanddatamining/)
-  utter_get_started_text_analysis1:
-  - text: |
-      Please [contact the Libraries ](mailto:digres@mailbox.sc.edu?subject=Vendor%20Content%20Mining%20Request)for help getting started with these or other databases.
   utter_federal_legal_response_ai:
   - text: |
       ## Federal and Legal AI Responses
@@ -3363,50 +3397,105 @@ responses:
       [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_cite_periodical_apa_style:
   - text: |
-      ## Periodicals - See Manual 10.1
-      : (Cho, 2018; Clay, 2008; Yong, 2018)
-      : Cho (2018), Clay (2008), and Yong (2018)
-      : (Basken, 2007; Ruhe, 2007)
-      : Basken (2007) and Ruhe (2007)
-      : (Fister, 2019)
-      : Fister (2019)
-  utter_cite_book_reference_text:
-  - text: |
-      ## Books and Reference Texts - See Manual 10.2 and 10.3
-      : (Monmonier, 2018; Hüfner, 2007)
-      : Monmonier (2018) and Hüfner (2007)
+      ## Periodicals
+      ### Magazine articles
+      Magazine articles:
 
-      : (Eggins & Slade, 1997; Robins et al., 2007)
-      : Eggins and Slade (1997) and Robins et al. (2007)
+      Cho, A. (2017, January 27). Can dark matter vanquish controversial rival theory? Science, 355(6323), 337. https://doi.org/10.1126/science.355.6323.337
+
+      Clay, R. A. (2008, June). Science v. ideology: Psychologists fight back against the misuse of research. Monitor on Psychology, 39(6), 41.
+
+      Yong, E. (2018, November 19). Psychology's replication crisis is running out of excuses. The Atlantic. https://www.theatlantic.com/science/archive/2018/11/psychologys-replication-crisis-real/576223
+
+      Parenthetical citation: (Cho, 2018; Clay, 2008; Yong, 2018)
+      Narrative citation: Cho (2018), Clay (2008), and Yong (2018)
+      ### Newspaper articles
+      Basken, P. (2007, August 10). Nonprofit lenders, while helping students, help themselves. The Chronicle of Higher Education. https://www.chronicle.com/article/Nonprofit-Lenders-While/25004
+
+      Ruhe, P. (2007, August 8). Pouring it on: Heat churns in vicious cycle. The Atlanta Journal-Constitution, 1A.
+
+      Parenthetical citation: (Basken, 2007; Ruhe, 2007)
+      Narrative citation: Basken (2007) and Ruhe (2007)
+
+      [Learn more here](https://guides.library.sc.edu/citation/apa)
+  - text: |
+      ## Books and Reference Texts
+      ### E-books
+      Monmonier, M. S. (2018). How to lie with maps (3rd ed.). University of Chicago Press. https://doi.org/10.7208/chicago/9780226436081.001.0001
+
+      Hüfner, S. (Ed.). (2007). Very high resolution photoelectron spectroscopy. Springer. https://doi.org/10.1007/3-540-68133-7
+
+      Parenthetical citation: (Monmonier, 2018; Hüfner, 2007)
+      Narrative citation: Monmonier (2018) and Hüfner (2007)
+
+      ### Physical books
+      Eggins, S., & Slade, D. (1997). Analyzing casual conversation. Cassell.
+
+      Robins, R. W., Fraley, R. C., & Krueger, R. F. (Eds.). (2007). Handbook of research methods in personality psychology. Guilford Press.
+
+      Parenthetical citation: (Eggins & Slade, 1997; Robins et al., 2007)
+      Narrative citation: Eggins and Slade (1997) and Robins et al. (2007)
+  
+      [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_cite_webpage_website_apa:
   - text: |
-      ## Webpages and Websites - See Manual 10.16
-      : (Tarlo, 2019)
-      : Tarlo (2019)
-      : (, 2019)
-      : (2019)
+      ## Webpages and Websites
+      Tarlo, S. (2019, December 9). Experts say kids still have way too much homework. Salon. https://www.salon.com/2019/12/08/experts-say-kids-still-have-way-too-much-homework
+
+      Parenthetical citation: (Tarlo, 2019)
+      Narrative citation: Tarlo (2019)
+
+      Trump impeachment: US House ready for historic vote. (2019, December 18). BBC News. https://www.bbc.com/news/world-us-canada-50834324
+
+      Parenthetical citation: (Trump Impeachment, 2019)
+      Narrative citation: Trump Impeachment (2019)
+  
+      [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_cite_government_business_technical:
   - text: |
-      ## Government, Business, and Technical Reports - See Manual 10.4
-      : (National Heart, Lung, and Blood Institute [NHLBI], 2003)
-      : National Heart, Lung, and Blood Institute (NHLBI, 2003)
+      ## Government, Business, and Technical Reports
+      National Heart, Lung, and Blood Institute. (2003). Managing asthma: A guide for schools (NIH Publication No. 02-2650). U.S. Department of Health and Human Services, National Institutes of Health. http://www.nhlbi.nih.gov/health/prof/lung/asthma/asth_sch.pdf
+
+      Parenthetical citation: (National Heart, Lung, and Blood Institute [NHLBI], 2003)
+      Narrative citation: National Heart, Lung, and Blood Institute (NHLBI, 2003)
+
+      [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_cite_dissertation_thesis_apa:
   - text: |
       ## Dissertations and Theses - See Manual 10.6
-      : (Bryce, 2013)
-      : Bryce (2013)
-      : (Davis, 2015)
-      : Davis (2015)
+      Bryce, M. S. (2013). The own-age bias in memory and memory monitoring for faces (Publication No. 3572775) [Doctoral dissertation, University of Virginia]. ProQuest Dissertations and Theses Global.
+
+      Parenthetical citation: (Bryce, 2013)
+      Narrative citation: Bryce (2013)
+
+      [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_cite_data_set_software:
   - text: |
       ## Data Sets and Software - See Manual 10.9
-      D'Souza, A., & Wiseheart, M. (2018). (ICPSR 37080; Version V1) [Data set]. ICPSR. https://doi.org/10.3886/ICPSR37080.v1
+      ### Data set
+      D'Souza, A., & Wiseheart, M. (2018). Cognitive effects of music and dance training in children (ICPSR 37080; Version V1) [Data set]. ICPSR. https://doi.org/10.3886/ICPSR37080.v1
+
+      National Center for Education Statistics. (2016). Fast Response Survey System (FRSS): Teacher's use of educational technology in U.S. public schools, 2009 (ICPSR 35531; Version V3) [Data set and code book]. National Archive of Data on Arts and Culture. https://doi.org/10.3886/ICPSR35531.v3
+
+      Parenthetical citation: (D'Souza & Wiseheart, 2018)
+
+      Narrative citation: D'Souza & Wiseheart (2018)
+      ### Software
+      Borenstein, M., Hedges, L., Higgins, J., & Rothstein, H. (2014). Comprehensive meta-analysis (Version 3.3070) [Computer software]. Biostat. https://www.meta-analysis.com/
+
+      Parenthetical citation: (Borenstein et al., 2014)
+
+      Narrative citation: Borenstein et al. (2014)
+
+      [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_find_information_apa_citation:
   - text: |
       ## Examples of APA Citations
       - [APA 7th Ed. Citation Examples](https://apastyle.apa.org/instructional-aids/reference-examples.pdf)
       - [APA Style Blog](https://apastyle.apa.org/blog)
       - [APA In-Text Citations Guidelines](https://apastyle.apa.org/style-grammar-guidelines/citations/)
+
+      [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_chicago_manual_style:
   - text: |
       ## The Chicago Manual of Style (CMOS) 18th ed.
@@ -3441,9 +3530,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/citation/chicago)
   utter_ongoing_event_happening_library:
   - text: |
-      ## Ongoing Events
-
-      [Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/calendar/ongoing_events_calendar.php?trumbaEmbed=view%3devent%26eventid%3d1238861865)
+      Learn about ongoing events [here](https://www.sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/calendar/ongoing_events_calendar.php?trumbaEmbed=view%3devent%26eventid%3d1238861865)
   utter_example_project_use_digital:
   - text: |
       ## USC Related Work
@@ -3509,6 +3596,8 @@ responses:
       ## AI FAQ's
       - Follow the original style you are following. But typically, yes.
       - Check with your professor. Each professor and department have different standards.
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=410193&p=10386858)
   utter_tip_follow_using_ai:
   - text: |
       ## Tips and Tricks
@@ -3520,6 +3609,8 @@ responses:
       - Continue[evaluating the sources](https://guides.library.sc.edu/evaluate)you find via AI since not all of the suggestions might be relevant for your assignment
 
       - Keep in mind that AI scrapes data from the internet up until a certain point in time, so the information you receive(aka hallucinations)
+
+      [Learn more here](https://guides.library.sc.edu/c.php?g=410193&p=10386858)
   utter_learn_using_ai_according:
   - text: |
       ## Student Conduct and Academic Integrity
@@ -3854,48 +3945,34 @@ responses:
   - text: |
       ## Digital Projects Showcase
       ### See what you can do with USC Create Digital
+
+      [Learn more here]([Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php))
   utter_see_example_digital_project:
   - text: |
-      [
-      #### Biological Anthropology 161
-       Dr. Kelly Goldberg designed a website to make her labs and course available virtually.
-      ](https://anth161.goldberg.uofsccreate.org/)[
-      #### The Criminal Justice System: Experience the Inside
-       Dr. Hayden Smith created virtual tours and exercises for his students to learn about the criminal justice system.
-      ](https://www.haydensmith.uofsccreate.org/)[
-      #### Digital Campaign Project
-       Dr.  Joshua Meyer-Gutbrod in Political Science with the help of Digital Humanities Working Group staff member, Sophia Riley, has created a landing page to present and discuss his research and methodology studying state campaign rhetoric by archiving campaign websites for state-level elections. The site includes the capability to search the archived data for topics and candidate information.
-      ](https://digitalcampaignsproject.uofsccreate.org/)[
-      #### Justicia
-      Justicia is a project created by Rebecca Janzen to provide insights into criminal justice processes in Mexico.
-      ](https://justicia.rebeccajanzen.uofsccreate.org/)[
-      #### McKissick Museum Exhibit
-      The museum is creating online exhibits showcasing their diverse collections.
-      ](http://mckissick.uofsccreate.org/exhibitions/)[
-      #### The Rainbow Connection
+      - [Biological Anthropology 161](https://anth161.goldberg.uofsccreate.org/)  
+      Dr. Kelly Goldberg designed a website to make her labs and course available virtually.  
+      - [The Criminal Justice System: Experience the Inside](https://www.haydensmith.uofsccreate.org/)  
+      Dr. Hayden Smith created virtual tours and exercises for his students to learn about the criminal justice system.  
+      - [Digital Campaign Project](https://digitalcampaignsproject.uofsccreate.org/)  
+      Dr.  Joshua Meyer-Gutbrod in Political Science with the help of Digital Humanities Working Group staff member, Sophia Riley, has created a landing page to present and discuss his research and methodology studying state campaign rhetoric by archiving campaign websites for state-level elections. The site includes the capability to search the archived data for topics and candidate information.  
+      - [Justicia](https://justicia.rebeccajanzen.uofsccreate.org/)  
+      Justicia is a project created by Rebecca Janzen to provide insights into criminal justice processes in Mexico.  
+      - [McKissick Museum Exhibit](http://mckissick.uofsccreate.org/exhibitions/)  
+      The museum is creating online exhibits showcasing their diverse collections.  
+      - [The Rainbow Connection](https://sccclrc.usccreate.org/)  
       The Rainbow Connection is a site that provides an annotated bibliography of children’s materials featuring LGBTQIA themes and characters, including tools and ideas for incorporating these picture books into classrooms, libraries, and homes.
-      ](https://sccclrc.usccreate.org/)[
-      #### Wind Energy Learning Module
+      - [Wind Energy Learning Module](https://mjm.uofsccreate.org/learn/)  
       Matt McGrievy and Stephanie Ruiz created a learning module to help students understand wind energy.
-      ](https://mjm.uofsccreate.org/learn/)
-  utter_digital_project_explore:
-  - text: |
-      [
-      #### The Digital Piranesi
-       Center for Digital Humanities, Irvin Department of Rare Books and Special Collections, and Digital Collections worked together to bring these large 18th century illustrations online using Scalar. Funded through an NEH grant.
-      ](https://scalar.usc.edu/works/piranesidigitalproject/index)[
-      #### Germanic Linguistics Consolidation Project
-       Middle-Aged Medievalist serves to share the language, history, mythology, and culture of the medieval peoples who spoke medieval languages.
-      ](https://www.middleagedmedievalist.org/projects.html)[
-      #### Historic Southern Naturalists
-       McKissick Museum, the South Caroliniana Library, Digital Collections, and the Center for Digital Humanities created this digital collection combining library and museum artifacts in one place. Funded through an Aspire II grant.
-      ](http://digitalussouth.org/historicsouthernnaturalists/)[
-      #### Scholar Commons Exhibits
-       Explore exhibits from Scholar Commons, the Institutional Repository of the University of South Carolina.
-      ](https://scholarcommons.sc.edu/exhibit/)
-  utter_learn_digital_project_showcase:
-  - text: |
-      [Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
+      - [The Digital Piranesi](https://scalar.usc.edu/works/piranesidigitalproject/index)  
+      Center for Digital Humanities, Irvin Department of Rare Books and Special Collections, and Digital Collections worked together to bring these large 18th century illustrations online using Scalar. Funded through an NEH grant.  
+      - [Germanic Linguistics Consolidation Project](https://www.middleagedmedievalist.org/projects.html)  
+      Middle-Aged Medievalist serves to share the language, history, mythology, and culture of the medieval peoples who spoke medieval languages.  
+      - [Historic Southern Naturalists](http://digitalussouth.org/historicsouthernnaturalists/)  
+      McKissick Museum, the South Caroliniana Library, Digital Collections, and the Center for Digital Humanities created this digital collection combining library and museum artifacts in one place. Funded through an Aspire II grant.  
+      - [Scholar Commons Exhibits](https://scholarcommons.sc.edu/exhibit/)  
+      Explore exhibits from Scholar Commons, the Institutional Repository of the University of South Carolina.   
+
+      [Learn more here]([Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php))
   utter_constellate_use_it:
   - text: |
       After you sign into JSTOR, you should be able to access the tutorials and Jupyter lab notebooks. [See the Contellate Guide for detailed instructions](https://constellate.org/docs/log-in) or visit their [YouTube site for video tutorials](https://www.youtube.com/@Constellate_org).
@@ -3919,16 +3996,16 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
   utter_track_impact_research:
   - text: |
-      ## Impact
-      After adding your research to Scholar Commons, you’ll have access to useful insights into the ways that others are using your research. In this video, learn how to use the Author Dashboard to understand the reach and impact of your scholarly works.
+      ### Using Scholar Commons to Assess Your Research Impact
+      After adding your research to Scholar Commons, you’ll have access to useful insights into the ways that others are using your research. In [this video](https://www.youtube.com/watch?v=D29l_Zvmovg&t=12s), learn how to use the Author Dashboard to understand the reach and impact of your scholarly works.
+      
       [Learn more here](https://guides.library.sc.edu/scholarcommons/impact)
   utter_uscs_create_digital:
   - text: |
       Users are limited to 1 GB of hosting space in most cases. Please read the [Terms of Service](https://uofsccreate.org/terms-of-service/) and [Documentation](https://docs.usccreate.org/#create-digital-and-storage) for more information.
 
       ## Web Hosting with USC's Create Digital
-      [](https://uofsccreate.org/)
-      USC Libraries is happy to offer [](https://uofsccreate.org/), a free web hosting service for digital research and scholarship projects, to USC Columbia faculty, staff, and graduate students. Simply log in with your network username and password to access one-click installations and hosting for popular platforms such as Omeka, Wordpress, Scalar, and more. USC Create Digital allows you to manage all of your digital scholarship projects from one location.
+      USC Libraries is happy to offer [USC Create Digital](https://uofsccreate.org/), a free web hosting service for digital research and scholarship projects, to USC Columbia faculty, staff, and graduate students. Simply log in with your network username and password to access one-click installations and hosting for popular platforms such as Omeka, Wordpress, Scalar, and more. USC Create Digital allows you to manage all of your digital scholarship projects from one location.
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/webhosting)
   utter_need_additional_storage:
@@ -3954,27 +4031,37 @@ responses:
       You've [picked your CMS](http://guides.library.sc.edu/digitalscholarship/cms). Now, it's time to create content for your site.
       You'll likely need a number of digital tools to build your vision. Here are some areas you might consider when developing your website and an explanation of some of the tools available to move your project from dream to reality. Most of the tools mentioned here are reasonably user-friendly and free to use or sample, but a few require payment for advanced options.
       Not sure where to start? Visit [TAPoR 3](http://tapor.ca/home), a fantastic project that connects you with a large, curated collection of trusted tools widely used by digital humanities scholars.
+  
+      [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_annotation_tool_available:
   - text: |
       ## Annotation Tools
       - [Hypothes.is](https://web.hypothes.is/)
+
+      [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_timeline_tool_available:
   - text: |
       ## Timeline Tools
       - [TimelineJS](https://timeline.knightlab.com/)A customizable open source tool to create visually appealing, interactive timelines. Users can build timelines using Google sheets or JSON files and can incorporate media from sources such as Twitter, Flickr, YouTube, Vimeo, Soundcloud, and more. Example:[Revolutionary User Interfaces](https://timeline.knightlab.com/examples/user-interface/index.html)
       - [TimeMapper](http://timemapper.okfnlabs.org/)An easy-to-use open source tool that uses Google sheets to create timelines and maps. Example:[Medieval Philosophers](http://timemapper.okfnlabs.org/okfn/medieval-philosophers)
+  
+      [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_mapping_tool_available:
   - text: |
       ## Mapping Tools
       - [Open Street Map](https://www.openstreetmap.org/#map=11/41.4499/-81.5199)
       - [QGIS](https://www.qgis.org/en/site/)An open source geographic information system (GIS). QGIS allows users to visualize, manage, edit, analyse data, and compose printable maps.[Examples](https://www.flickr.com/groups/qgis/pool/)
       - [StoryMapJS](https://storymap.knightlab.com/)A free, user-friendly tool that allows you to tell media-rich, location-based stories. Example:[Arya's Journey](https://storymap.knightlab.com/examples/aryas-journey/)
+  
+      [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_web_scraper_available:
   - text: |
       ## Web Scrapers
       - [Data Miner](https://dataminer.io/)
       - [Google News Scraper](https://wiki.digitalmethods.net/Dmi/ToolGoogleNewsScraper)
       - [WIScker](http://cloud.tapor.ca/wiscker/)Tool to scrape previous versions of Wikipedia articles. WIScker is free to use. The resulting corpus from any query can be analyzed through[Voyant](https://voyant-tools.org/)or on your own.
+  
+      [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_collaboration_tool_available:
   - text: |
       ## Collaboration Tools
@@ -3982,17 +4069,20 @@ responses:
       - [Microsoft Teams](https://www.office.com/)
       - [Slack](https://slack.com/)
       - [Trello](https://trello.com/en-US)
+  
+      [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_animation_tool_available:
   - text: |
       ## Animation Tools
       - [Explain Everything](https://explaineverything.com/)
       - [Bonsai](https://open-ephys.org/bonsai)Open source graphics library that allows users to edit code to create unique content. Bonsai makes creating graphic content easier for users.[Try it yourself.](http://orbit.bonsaijs.org/)
+  
+      [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_audio_production_tool_available:
   - text: |
       ## Audio Production Tools
       - [Audacity](https://www.audacityteam.org/)
-  utter_learn_digital_scholarship_tool:
-  - text: |
+  
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_copyright_exist:
   - text: |

@@ -8,7 +8,6 @@ from dotenv import load_dotenv
 from ruamel.yaml import YAML
 import os
 from configure_new_data import configure_domain, configure_nlu
-from llm_paraphraser import makeNewChat, chatCompletion
 warnings.filterwarnings("ignore")
 
 
@@ -93,7 +92,6 @@ def generalize_intents(domain_data, target_intents, ignore_intents):
             continue
 
         target_link = target_link_match.group(1)
-
         # Find intents with the same link
         matching_intents = []
         for key, value in responses.items():
@@ -108,6 +106,8 @@ def generalize_intents(domain_data, target_intents, ignore_intents):
                 if intent not in ignore_intents:
                     matching_intents.append((intent, response))
 
+        if "faq" in target_link:  # Ignore FAQs. They are meant to be short.
+            continue
         if not matching_intents:
             print(f"No matching intents with the same link as '{target_intent}'")
             continue
@@ -133,10 +133,10 @@ def generalize_intents(domain_data, target_intents, ignore_intents):
         merged_response = f"{target_response}{most_similar_response}"
         
         target_examples = get_intent_examples(target_intent)
-        configure_domain("modify", most_similar_intent, merged_response) # Overwrite the response of this intent to be the merged response
-        configure_domain("remove", target_intent) # Remove the short response from domain
-        configure_nlu("modify", most_similar_intent, target_examples) # Add to this intent's examples, the examples from short response
-        configure_nlu("remove", target_intent) # Remove the short response from nlu
+        #configure_domain("modify", most_similar_intent, merged_response) # Overwrite the response of this intent to be the merged response
+        #configure_domain("remove", target_intent) # Remove the short response from domain
+        #configure_nlu("modify", most_similar_intent, target_examples) # Add to this intent's examples, the examples from short response
+        #configure_nlu("remove", target_intent) # Remove the short response from nlu
         
         print(f"\nMerged {target_intent} into {most_similar_intent}:\n{merged_response}\n-------------------------------------------------------------------------------------------------------------------------------------------")
         
@@ -181,7 +181,6 @@ def main():
         intent = key.replace("utter_", "")
         if(len(response) <= 300 and intent not in IGNORE_INTENTS and "Contact Us" not in response):
             target_intents.append(intent)
-    
     generalize_intents(data, target_intents, IGNORE_INTENTS)
     
 if __name__ == "__main__":

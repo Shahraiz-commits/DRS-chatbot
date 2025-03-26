@@ -3330,6 +3330,19 @@ nlu:
     - State health facts website
 - intent: data_set_available_health
   examples: |
+    - Where can I learn about social work statistics?
+    - social work stats
+    - USC library resources for social work
+    - Can you help me with social work research?
+    - stats for social work project
+    - Need data on social work topics
+    - Social work research assistance
+    - Where do I find statistics for my social work paper?
+    - library guides for social work
+    - Data and stats for social work studies
+    - I need help finding social work data
+    - social work study resources
+    - Statistics for social workers
     - What data sets are available for health research?
     - can you list the available data sets for health research?
     - Where can I find health data sets?
@@ -3786,23 +3799,6 @@ nlu:
     - NSF funded data management project
     - metadata glossary pdf
     - where to find best practices for data management
-- intent: learn_metadata
-  examples: |
-    - Where can I learn more about metadata?
-    - How can I learn more about metadata?
-    - Citation guide
-    - what's the citation style?
-    - citation help
-    - how to cite a book
-    - Can you show me how to cite?
-    - What's the proper way to cite sources?
-    - Need help with citations
-    - cite this for me
-    - citing sources usc
-    - usc citation guide
-    - How do I format citations?
-    - citation styles explanation
-    - Can I get a citation tutorial?
 - intent: consistent_file_naming_strategy
   examples: |
     - Why is a consistent file naming strategy important?
@@ -4951,23 +4947,6 @@ nlu:
     - Sage Journals data mining policy
     - Springer Nature text and data mining
     - Taylor and Francis policies
-- intent: get_started_text_analysis1
-  examples: |
-    - How do I get started with text analysis of licensed content?
-    - How do I start text analysis of licensed content?
-    - How can I get started with text analysis of licensed content?
-    - How do I get started with USC library databases?
-    - help with usc databases
-    - I need assistance with library resources
-    - Who can I contact for database help?
-    - Getting started with research databases
-    - Can someone help me with vendor content mining?
-    - Need help accessing library stuff
-    - Library database support
-    - Stuck on using USC databases
-    - help!
-    - digres mailbox what is this
-    - vendor content request
 - intent: federal_legal_response_ai
   examples: |
     - What are some federal and legal responses to AI?
@@ -6128,11 +6107,6 @@ nlu:
     - Wind energy learning module
     - Justicia project Mexico
     - What kind of research do USC professors do online?
-- intent: digital_project_explore
-  examples: |
-    - Are there more digital projects I can explore?
-    - can you list the best digital projects to explore?
-    - list some of the best digital projects to explore?
     - can you list the best digital projects I can explore?
     - What digital projects is USC involved in?
     - USC digital humanities projects
@@ -6147,20 +6121,6 @@ nlu:
     - Scholar Commons Exhibits what is it
     - Digital collections at USC libraries
     - USC Aspire II grant projects
-- intent: learn_digital_project_showcase
-  examples: |
-    - Where can I learn more about the Digital Projects Showcase?
-    - Where can I find digital scholarship examples?
-    - USC digital projects showcase
-    - Show me some USC digital research projects
-    - Can I view past digital projects at USC?
-    - digital project showcase usc
-    - whats the link to digital scholarship stuff
-    - Examples of USC digital scholarship?
-    - Where can I learn more about USC digital projects?
-    - Digital research services at USC
-    - USC digital scholarship resources
-    - Can I see some examples of digital projects done at USC?
 - intent: constellate_use_it
   examples: |
     - What is Constellate and how do I use it?
@@ -6312,6 +6272,21 @@ nlu:
     - What is Scalar and how do I install it?
 - intent: digital_tool_available_project
   examples: |
+    - Where can I learn more about digital scholarship tools?
+    - How can I learn more about digital scholarship tools?
+    - What digital scholarship tools are available?
+    - digital scholarship tools?
+    - Where can I find info on USC digital scholarship?
+    - Does the library have digital tools for research?
+    - dig schol resources
+    - Tools for digital scholarship where?
+    - What software does the library provide?
+    - Are there any digital research tools?
+    - resources for dig scholarship
+    - Digital scholarship support
+    - tools and resources for researchers
+    - digital initiatives at USC
+    - Where can I learn more about digital scholarship tools?
     - What digital tools are available for my project?
     - I picked a CMS, now what?
     - How do I create content for my site?
@@ -6454,27 +6429,8 @@ nlu:
     - Audacity website
     - How do I get Audacity?
     - Free audio editing software?
-- intent: learn_digital_scholarship_tool
-  examples: |
-    - Where can I learn more about digital scholarship tools?
-    - How can I learn digital scholarship tools?
-    - How can I learn more about digital scholarship tools?
-    - What digital scholarship tools are available?
-    - digital scholarship tools?
-    - Where can I find info on USC digital scholarship?
-    - Does the library have digital tools for research?
-    - dig schol resources
-    - Tools for digital scholarship where?
-    - What software does the library provide?
-    - Are there any digital research tools?
-    - resources for dig scholarship
-    - Digital scholarship support
-    - tools and resources for researchers
-    - digital initiatives at USC
-    - Where can I learn more about digital scholarship tools?
 - intent: copyright_exist
   examples: |
-    - What is copyright and why does it exist?
     - What is copyright and how does it work?
     - What is copyright?
     - What is copyright law?
