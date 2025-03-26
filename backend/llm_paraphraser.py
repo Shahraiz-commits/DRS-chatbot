@@ -113,6 +113,6 @@ for intent_data in data["nlu"]:
         except (json.JSONDecodeError, KeyError) as e:
             print(f"Error parsing JSON for intent {intent}, retrying...")
 
-    #configure_nlu(intent, new_examples)
+    configure_nlu("modify", intent, new_examples)
     print(f"\n-------------CONFIGURED QUESTIONS FOR INTENT # {questions_count} : {intent}---------------------\n{new_examples}")
 
