@@ -107,7 +107,6 @@ intents:
 - determine_journal_predatory
 - difference_backup_storage
 - difference_data_statistic
-- difference_information_security_privacy
 - different_part_nvivo_workspace
 - different_type_machine_learning
 - different_version_article
@@ -162,7 +161,6 @@ intents:
 - get_free_subscription_new
 - get_full_text_access
 - get_help_citation
-- get_help_course_material
 - get_help_locating_affordable
 - get_help_writing
 - get_library_card
@@ -280,6 +278,11 @@ intents:
 - resource_available_open_pedagogy
 - resource_available_research_data
 - resource_available_sociology_statistic
+- use_digital_tool_research
+- get_research_help
+- resource_available_fire_modeling
+- access_course_material
+- cite_journal_article_chicago
 - resource_available_understanding_medium
 - resource_available_writing_data
 - resource_copyright_ai
@@ -906,6 +909,14 @@ responses:
       Check out textbooks on a first-come, first-served basis at the Checkout Desk on the Main Level of Thomas Cooper Library. You must have a valid CarolinaCard. 
       The library has a large collection of print textbooks, especially for courses with over 100 students. Additional materials are also provided by instructors or the library's collections, but the library does not have the assigned textbook for every course offered at the university.
       Search [Find It @ USC Libraries](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC) by book title or course number (ex. HIST112) to see if the library has your assigned text. Limit to Course Reserves for better results.
+      
+      #### Fines and Blocked Accounts  
+      Returning a textbook late can block you from future textbook check outs.  
+      - Hourly loans for building use only: $5 per hour
+      - Extended loans for 1 day, 3 days or 1 week: $15 per day
+
+      #### Check Out Policy  
+      Generally, you can borrow textbooks for 2 hours and they must stay in the building. There are exceptions, and exact due date and time is provided at check out. Renewals are not allowed so all students have the opportunity to use these in-demand items.  
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
   utter_library_reader_advisory_database:
@@ -2307,10 +2318,12 @@ responses:
   utter_modelled_data_resource_available:
   - text: |2
 
-      ## Geospatial Data
+      #### Geospatial Data
       - [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
       - [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)
 
+      #### Transportation Data
+      - [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
 
       #### Modelled Data
       - [Parameter-elevation Relationships on Independent Slopes Model (PRISM)](http://www.prism.oregonstate.edu/)
@@ -2409,6 +2422,8 @@ responses:
       - [South Carolina Community Profiles](https://dc.statelibrary.sc.gov/collections/d62303af-bfb7-4483-b4c5-3f271972cd65)
       - [South Carolina Higher Education Statistical Abstracts](https://www.che.sc.gov/che-data-and-reports)
       - [South Carolina Statistical Abstract](http://www.sciway.net/statistics)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/social-work)
   utter_resource_data_set:
   - text: |2
 
@@ -2419,6 +2434,8 @@ responses:
       - [Norwegian Agency for Shared Services in Education and Research (Sikt)](https://sikt.no/en/find-data)
       - [UNdata](http://data.un.org/)
       - [WHO Global Health Observatory](http://apps.who.int/gho/data/)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/social-work)
   utter_resource_available_sociology_statistic:
   - text: |
       ## Sociology Statistics and Data Set Resources
@@ -2722,7 +2739,8 @@ responses:
         A free online data management course from the University of Edinburgh that provides modules geared toward Research Students, Career Researchers, Senior Academics, and Information Professionals.
   utter_happens_article_resulting_accepted:
   - text: |
-      Registrations in OSF are time-stamped, read-only versions of a research plan that explain how data will be collected, manipulated, and analyzed in advance. Providing this [](https://cos.io/rr/) to a participating journal effectively creates two peer-review processes.
+      Statistically significant findings are more likely to be published. Because of bias and [manipulability in data analysis](https://login.pallas2.tcl.sc.edu/login?url=https://journals.sagepub.com/doi/full/10.1177/2515245917747646), much of the research published in journals is irreproducible.  
+      Registrations in OSF are time-stamped, read-only versions of a research plan that explain how data will be collected, manipulated, and analyzed in advance. Providing this [Registered Report](https://cos.io/rr/) to a participating journal effectively creates two peer-review processes.
 
       Articles resulting from accepted Registered Reports are accepted by the journal regardless of outcome after the peer reviewed quality checks are met.
 
@@ -3321,6 +3339,7 @@ responses:
       Narrative citation: Basken (2007) and Ruhe (2007)
 
       [Learn more here](https://guides.library.sc.edu/citation/apa)
+  utter_cite_book_reference_text:
   - text: |
       ## Books and Reference Texts
       ### E-books
@@ -4660,19 +4679,6 @@ responses:
       - [Mathematics-in-Industry Case Studies](https://micsjournal.springeropen.com/)
       - [Case Studies in Construction Materials](https://www.journals.elsevier.com/case-studies-in-construction-materials)
       [Learn more here](https://guides.library.sc.edu/OER/casestudies)
-  utter_check_policy_textbook:
-  - text: |2
-
-      #### Fines and Blocked Accounts
-      Returning a textbook late can block you from future textbook check outs.
-      - Hourly loans for building use only: $5 per hour
-      - Extended loans for 1 day, 3 days or 1 week: $15 per day
-
-
-      #### Check Out Policy
-      Generally, you can borrow textbooks for 2 hours and they must stay in the building. There are exceptions, and exact due date and time is provided at check out. Renewals are not allowed so all students have the opportunity to use these in-demand items.
-
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
   utter_access_course_material:
   - text: |2
 
@@ -4686,29 +4692,10 @@ responses:
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
   utter_use_digital_tool_research:
   - text: |
-      # Digital Projects Showcase
+      The library offers support for using digital processes, tools, and methods to enable and present new forms of research.
       [Digital Projects Showcase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
-
-      The library offers support for using digital processes, tools, and methods to enable and present new forms of research. [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
-  utter_registered_report_osf:
-  - text: |
-      Statistically significant findings are more likely to be published. Because of bias and [](https://login.pallas2.tcl.sc.edu/login?url=https://journals.sagepub.com/doi/full/10.1177/2515245917747646), much of the research published in journals is irreproducible.
-
-      Registrations in OSF are time-stamped, read-only versions of a research plan that explain how data will be collected, manipulated, and analyzed in advance. Providing this [](https://cos.io/rr/) to a participating journal effectively creates two peer-review processes.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)
-  utter_geospatial_data_resource_available:
-  - text: |2
-
-      #### Transportation Data
-      - [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
-
-
-      ## Geospatial Data
-      - [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
-      - [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)
-
-      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
+      
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
   utter_resource_available_fire_modeling:
   - text: |2
 

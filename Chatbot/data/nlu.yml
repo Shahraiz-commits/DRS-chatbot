@@ -277,6 +277,90 @@ nlu:
     - Whom should I contact about publishing a book related to SC?
     - How can I donate a copy of my book on SC history to the library?
     - Self-published author here, how do i get featured?
+- intent: use_digital_tool_research
+  examples: |
+    - How can I use digital tools in my research?
+    - What kind of digital research support does the library offer?
+    - digital scholarship resources
+    - I need help with digital research methods
+    - Does the library have tools for digital research?
+    - digital processes in research - help!
+    - How do I present my research digitally?
+    - New forms of research methods?
+    - Can the library assist me with digital projects?
+    - What's available at USC for digital scholarship?
+    - I want to learn about digital tools for research
+    - digital research services
+    - library support for digital work
+    - How can I get help with my digital dissertation?
+- intent: get_research_help
+  examples: |
+    - How can I get research help?
+    - Tell me the best way to get research help?
+    - How do I get research help?
+    - How do I get help with research?
+    - Need help researching
+    - Research assistance?
+    - Who can I ask for research help?
+    - Where do I go for research support?
+    - can i get help from librarians?
+    - research aid
+    - Can someone assist me with my research paper?
+    - help with research project
+    - I'm stuck on my research, what do I do?
+    - Librarian help available?
+    - What kind of research support is available?
+    - Need research guidance
+    - How can librarians help me?
+- intent: resource_available_fire_modeling
+  examples: |
+    - What resources are available for fire modeling?
+    - can you list the best resources for fire modeling?
+    - What fire modeling resources do you have?
+    - Fire modeling databases?
+    - Landfire info
+    - Where can I find fire occurrence data?
+    - FPA FOD database
+    - Burn severity trends?
+    - MTBS data access
+    - fire modeling tools
+    - wildfire analysis resources
+    - Do you have landfire data?
+    - Fire program analysis info
+    - Monitoring burn severity
+    - fire trend databases
+    - What is MTBS?
+- intent: access_course_material
+  examples: |
+    - How can I access other course materials?
+    - How do I access course materials?
+    - Where can I find ebooks for my class?
+    - Are course materials available online?
+    - Can I get textbooks through Blackboard?
+    - course materials blackboard
+    - Do instructors post articles online?
+    - How do I stream films for class?
+    - Where are course readings located?
+    - check out books thru bb
+    - are etextbooks on blackboard
+    - Can I find class stuff on Blackboard?
+    - online texts blackboard
+    - how to access online materials
+- intent: cite_journal_article_chicago
+  examples: |
+    - How do I cite journal articles in Chicago style?
+    - How do I cite a journal article?
+    - Citing journal articles help
+    - Journal article citation format
+    - What style guide does USC use for journals?
+    - Need help with chicago style citations
+    - How to reference a journal article
+    - chicago manual of style journal
+    - What's the citation style for journals?
+    - journal citation rules
+    - Citation guide for journal articles
+    - USC journal citation guidelines
+    - Chicago style journal article citation
 - intent: south_caroliniana_library_located
   examples: |-
     - Where is the South Caroliniana library located?
@@ -1277,8 +1361,20 @@ nlu:
     - where's the charger checkout desk?
 - intent: library_textbook
   examples: |-
-    - Does the library have my textbook?
-    - Does the library have a textbook?
+    - Tell me the check out policy for textbooks?
+    - What is check out policy for textbooks?
+    - How long can I borrow a textbook from the library?
+    - Can I take textbooks out of the library?
+    - What is the checkout policy for textbooks?
+    - textbook borrowing rules
+    - library book checkout time
+    - Can I renew textbooks?
+    - how long are textbooks due for?
+    - textbook due date
+    - can i keep textbook all day?
+    - 2 hour rule for textbooks?
+    - why cant i take textbook home?
+    - textbook checkout exceptions
     - Does the library have my textbooks?
     - Where can I find textbooks in the USC library?
     - usc textbook checkout
@@ -4907,39 +5003,8 @@ nlu:
     - any education data out there?
     - national archive of crime data?
     - resources for aging research?
-- intent: learn_social_work_statistic
-  examples: |-
-    - Where can I learn more about social work statistics and data sets?
-    - Where can I learn more about social work statistics?
-    - How can I learn more about social work statistics?
-    - Where can I find out more about social work statistics?
-    - Where can I find data and statistics for social work?
-    - social work stats
-    - USC library resources for social work
-    - Can you help me with social work research?
-    - stats for social work project
-    - Need data on social work topics
-    - Social work research assistance
-    - Where do I find statistics for my social work paper?
-    - library guides for social work
-    - Data and stats for social work studies
-    - I need help finding social work data
-    - social work study resources
-    - Statistics for social workers
-    - whats the best way to get info on stats 4 social work?
-    - Can u point me in the direction of social work stats and datasets?
-    - Need help findin resources on social work research methods
-    - I'm lookin for statistical data on social work, can you assist?
-    - social work project - where do I start lookin for stats?
-    - What lib guides r good 4 social work research?
-    - Can u provide me w/ info on accessin USC's social work databases?
-    - looking 4 data & statistics in the field of social work
-    - USC resources 4 finding stats on social topics
-    - Where do I get reliable stats for a social work thesis?
 - intent: resource_available_sociology_statistic
   examples: |-
-    - What resources are available for sociology statistics and data sets?
-    - list the resources available for sociology statistics and data sets?
     - show the resources available for sociology statistics and data sets?
     - Where can I find sociology statistics?
     - sociology data sets?
@@ -5676,7 +5741,6 @@ nlu:
     - tips for successful registered reports
     - What are registered reports in OSF?
     - What is registered report in OSF?
-    - What is a registered report in OSF?
     - What is OSF registration?
     - osf registrations?
     - What's the purpose of registering with OSF?
@@ -8023,7 +8087,6 @@ nlu:
     - What's the relationship between technology and research?
     - What does it mean to be a digital scholar?
     - I'm trying to understand this whole 'digital scholarship' thing...
-    - How can I get started with digital scholarship?
     - what's the difference between traditional and digital scholarship?
 - intent: library_help_digital_scholarship
   examples: |-
@@ -8804,7 +8867,6 @@ nlu:
     - what if the work is really old?
     - Do I have to pay to use copyrighted material?
     - using copyright materials in scholarship
-    - whats the deal with copyrights?
     - How do I figure out if somethin's copyrighted?
     - Is it ok to use someone else's work for educational purposes?
     - What r the rules 4 using public domain stuff?

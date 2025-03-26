@@ -845,6 +845,31 @@ rules:
   - intent: usc_columbia_user
   - action: utter_usc_columbia_user
 
+- rule: Answer use_digital_tool_research
+  steps:
+  - intent: use_digital_tool_research
+  - action: utter_use_digital_tool_research
+
+- rule: Answer get_research_help
+  steps:
+  - intent: get_research_help
+  - action: utter_get_research_help
+
+- rule: Answer resource_available_fire_modeling
+  steps:
+  - intent: resource_available_fire_modeling
+  - action: utter_resource_available_fire_modeling
+
+- rule: Answer access_course_material
+  steps:
+  - intent: access_course_material
+  - action: utter_access_course_material
+
+- rule: Answer cite_journal_article_chicago
+  steps:
+  - intent: cite_journal_article_chicago
+  - action: utter_cite_journal_article_chicago
+
 - rule: Answer resource_environmental_geospatial_statistic
   steps:
   - intent: resource_environmental_geospatial_statistic
