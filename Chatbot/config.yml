@@ -29,7 +29,6 @@ pipeline:
 - name: LanguageModelFeaturizer # Pretrained embeddings
   model_name: "bert"
   model_weights: "bert-base-uncased"
-- name: RegexFeaturizer # Useful for patterns like phone nums, emails etc
 - name: DIETClassifier
   epochs: 100
   constrain_similarities: true

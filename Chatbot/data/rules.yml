@@ -735,11 +735,6 @@ rules:
   - intent: coding_stripe_display_them
   - action: utter_coding_stripe_display_them
 
-- rule: Answer export_codebook
-  steps:
-  - intent: export_codebook
-  - action: utter_export_codebook
-
 - rule: Answer data_visualization
   steps:
   - intent: data_visualization
@@ -749,11 +744,6 @@ rules:
   steps:
   - intent: data_visualization_important
   - action: utter_data_visualization_important
-
-- rule: Answer data_science_lifecycle
-  steps:
-  - intent: data_science_lifecycle
-  - action: utter_data_science_lifecycle
 
 - rule: Answer common_term_used_data
   steps:
@@ -865,26 +855,6 @@ rules:
   - intent: find_environmental_geospatial_data
   - action: utter_find_environmental_geospatial_data
 
-- rule: Answer geospatial_data_resource_available
-  steps:
-  - intent: geospatial_data_resource_available
-  - action: utter_geospatial_data_resource_available
-
-- rule: Answer resource_available_fire_modeling
-  steps:
-  - intent: resource_available_fire_modeling
-  - action: utter_resource_available_fire_modeling
-
-- rule: Answer hydrological_data_resource_available
-  steps:
-  - intent: hydrological_data_resource_available
-  - action: utter_hydrological_data_resource_available
-
-- rule: Answer landuse_landcover_database_available
-  steps:
-  - intent: landuse_landcover_database_available
-  - action: utter_landuse_landcover_database_available
-
 - rule: Answer modelled_data_resource_available
   steps:
   - intent: modelled_data_resource_available
@@ -894,16 +864,6 @@ rules:
   steps:
   - intent: observed_data_resource_available
   - action: utter_observed_data_resource_available
-
-- rule: Answer soil_data_resource_available
-  steps:
-  - intent: soil_data_resource_available
-  - action: utter_soil_data_resource_available
-
-- rule: Answer transportation_data_resource_available
-  steps:
-  - intent: transportation_data_resource_available
-  - action: utter_transportation_data_resource_available
 
 - rule: Answer resource_available_finding_health
   steps:
@@ -970,11 +930,6 @@ rules:
   - intent: resource_available_writing_data
   - action: utter_resource_available_writing_data
 
-- rule: Answer include_data_management_plan
-  steps:
-  - intent: include_data_management_plan
-  - action: utter_include_data_management_plan
-
 - rule: Answer need_data_management_plan
   steps:
   - intent: need_data_management_plan
@@ -999,11 +954,6 @@ rules:
   steps:
   - intent: cite_dataset
   - action: utter_cite_dataset
-
-- rule: Answer What_is_metadata
-  steps:
-  - intent: What_is_metadata
-  - action: utter_What_is_metadata
 
 - rule: Answer metadata_important
   steps:
@@ -1040,30 +990,10 @@ rules:
   - intent: open_science_framework
   - action: utter_open_science_framework
 
-- rule: Answer get_started_open_science
-  steps:
-  - intent: get_started_open_science
-  - action: utter_get_started_open_science
-
-- rule: Answer type_data_stored_open
-  steps:
-  - intent: type_data_stored_open
-  - action: utter_type_data_stored_open
-
 - rule: Answer backing_data_important
   steps:
   - intent: backing_data_important
   - action: utter_backing_data_important
-
-- rule: Answer good_rule_thumb_backing
-  steps:
-  - intent: good_rule_thumb_backing
-  - action: utter_good_rule_thumb_backing
-
-- rule: Answer difference_information_security_privacy
-  steps:
-  - intent: difference_information_security_privacy
-  - action: utter_difference_information_security_privacy
 
 - rule: Answer resource_understanding_data_privacy
   steps:
@@ -1245,21 +1175,6 @@ rules:
   - intent: service_library_offer
   - action: utter_service_library_offer
 
-- rule: Answer get_research_help
-  steps:
-  - intent: get_research_help
-  - action: utter_get_research_help
-
-- rule: Answer special_collection_available
-  steps:
-  - intent: special_collection_available
-  - action: utter_special_collection_available
-
-- rule: Answer support_library
-  steps:
-  - intent: support_library
-  - action: utter_support_library
-
 - rule: Answer event_upcoming
   steps:
   - intent: event_upcoming
@@ -1410,11 +1325,6 @@ rules:
   - intent: concept_related_generative_ai
   - action: utter_concept_related_generative_ai
 
-- rule: Answer general_guideline_using_ai
-  steps:
-  - intent: general_guideline_using_ai
-  - action: utter_general_guideline_using_ai
-
 - rule: Answer tip_follow_using_ai
   steps:
   - intent: tip_follow_using_ai
@@ -1555,11 +1465,6 @@ rules:
   - intent: consider_planning_digital_scholarship
   - action: utter_consider_planning_digital_scholarship
 
-- rule: Answer digital_project_showcase
-  steps:
-  - intent: digital_project_showcase
-  - action: utter_digital_project_showcase
-
 - rule: Answer see_example_digital_project
   steps:
   - intent: see_example_digital_project
@@ -1600,11 +1505,6 @@ rules:
   - intent: digital_tool_available_project
   - action: utter_digital_tool_available_project
 
-- rule: Answer annotation_tool_available
-  steps:
-  - intent: annotation_tool_available
-  - action: utter_annotation_tool_available
-
 - rule: Answer timeline_tool_available
   steps:
   - intent: timeline_tool_available
@@ -1629,11 +1529,6 @@ rules:
   steps:
   - intent: animation_tool_available
   - action: utter_animation_tool_available
-
-- rule: Answer audio_production_tool_available
-  steps:
-  - intent: audio_production_tool_available
-  - action: utter_audio_production_tool_available
 
 - rule: Answer copyright_exist
   steps:

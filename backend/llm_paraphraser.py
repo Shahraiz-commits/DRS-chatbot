@@ -16,7 +16,7 @@ OUTPUT_CSV = "QAChat.csv"
 load_dotenv(".env")
 API = os.getenv("LLM_API_KEY")
 
-system_prompt = """
+sys_prompt1 = """
 You will be given a text response along with existing training examples. Your task is to generate 10-15 diverse training examples for this intent that can be answered by the given text. Ensure the new examples are distinct from the provided ones. Include casual, formal, slang, and short direct questions. Use typos to make the chatbot more robust. Output only the new examples in valid JSON format inside "questions".
 
 Example input:
@@ -76,26 +76,43 @@ def chat_with_model(token, system_prompt,input_prompt):
         
 page_count = 0
 questions_count = 0
-with open("../Chatbot/domain.yml", "r", encoding="utf-8") as file:
+sys_prompt2 ="""
+You will be given some training examples for training a chatbot. Your task is to generate 10 diverse and natural variations of these examples. Ensure the new examples are distinct from the provided ones. Include casual, formal, slang, and short direct questions. Use typos to make the chatbot more robust. Do not give me any notes in your response and output only the new examples in valid JSON format inside questions like so:
+
+{
+    "questions": [
+        "How do I access USC library databases?",
+        "usc library databases?",
+        "Where can I find USC research resources?",
+        "Does USC have online databases?"
+    ]
+}
+"""
+
+with open("../Chatbot/data/nlu.yml", "r", encoding="utf-8") as file:
     data = yaml.safe_load(file)
 
-for key, value in data["responses"].items():
+for intent_data in data["nlu"]:
     questions_count+=1
-    #if(questions_count < 405):
-    #    continue
-    intent = key.replace("utter_", "")
-    input_prompt = value[0]["text"]
+    if(questions_count < 6):
+        continue
+    intent = intent_data["intent"]
+    examples = [line.strip()[2:] for line in intent_data["examples"].splitlines() if line.strip().startswith("-")]
+    #print(examples)
+    
+    if len(examples) >= 20:
+      continue  # Skip intents with 20 or more examples
+    input_prompt = json.dumps({"intent": intent, "examples": examples}, ensure_ascii=False)
     
     # Keep trying until valid json is recieved
     while True:
-        llm_response = chat_with_model(API, system_prompt, input_prompt)
+        llm_response = chat_with_model(API, sys_prompt2, input_prompt)
         try:
-            examples = json.loads(llm_response)
-            examples = examples["questions"]
+            new_examples = json.loads(llm_response).get("questions", [])
             break
         except (json.JSONDecodeError, KeyError) as e:
             print(f"Error parsing JSON for intent {intent}, retrying...")
 
-    configure_nlu(intent, examples)
-    print(f"\n-------------CONFIGURED QUESTIONS FOR INTENT # {questions_count} : {intent}---------------------\n{examples}")
+    #configure_nlu(intent, new_examples)
+    print(f"\n-------------CONFIGURED QUESTIONS FOR INTENT # {questions_count} : {intent}---------------------\n{new_examples}")
 

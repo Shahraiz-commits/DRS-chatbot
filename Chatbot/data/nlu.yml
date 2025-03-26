@@ -2632,7 +2632,7 @@ nlu:
     - What is the purpose of a codebook in research?
     - NVivo data organization tips
 - intent: add_coding_data
-  examples: |
+  examples: |-
     - How do I add coding to my data?
     - How do I add coding to data?
     - How can I add coding to my data?
@@ -2665,6 +2665,20 @@ nlu:
     - nvivo tutorial decoding
     - where is the uncode option in nvivo
     - Nvivo coding help
+    - How do you export a codebook?
+    - How can I export a codebook?
+    - How do I export a codebook?
+    - Exporting codebook steps
+    - Where is the codebook export option?
+    - Can you tell me how to save my codebook?
+    - codebook download process
+    - i wanna export codebook
+    - How to extract codebook from program?
+    - saving nodes folder as document
+    - data tab usage
+    - exporting a project's codebook
+    - What's the procedure for exporting codebook?
+    - Can you walk me through exporting my codebook?
 - intent: coding_stripe_display_them
   examples: |
     - What are coding stripes and how do I display them?
@@ -2682,25 +2696,8 @@ nlu:
     - View coded data by theme
     - Coding stripes in List View
     - How do I enable coding stripes?
-- intent: export_codebook
-  examples: |
-    - How do I export a codebook?
-    - How do you export a codebook?
-    - How can I export a codebook?
-    - How do I export a codebook?
-    - Exporting codebook steps
-    - Where is the codebook export option?
-    - Can you tell me how to save my codebook?
-    - codebook download process
-    - i wanna export codebook
-    - How to extract codebook from program?
-    - saving nodes folder as document
-    - data tab usage
-    - exporting a project's codebook
-    - What's the procedure for exporting codebook?
-    - Can you walk me through exporting my codebook?
 - intent: data_visualization
-  examples: |
+  examples: |-
     - What is data visualization?
     - data visualization definition
     - define data visualization
@@ -2714,6 +2711,21 @@ nlu:
     - datavisualization concepts
     - Can you explain data visualization techniques?
     - whats involved in data visualization
+    - Tell me the data science lifecycle?
+    - What is a data science lifecycle?
+    - What's the bigger picture for data visualization?
+    - data analytics lifecycle
+    - Is data visualization the only step?
+    - what are the steps of data analysis
+    - Data science process components
+    - data viz life cycle
+    - I want to know the whole process of data analytics
+    - Where does data visualization fit in?
+    - Can you explain the full data science lifecycle?
+    - What comes before and after data visualization?
+    - general structure of data analysis
+    - Data analytics steps
+    - what's part of data lifecycle
 - intent: data_visualization_important
   examples: |
     - Why is data visualization important?
@@ -2733,24 +2745,6 @@ nlu:
     - What are the benefits of using visualizations in research?
     - Can data visualization help identify trends?
     - Why is selecting the right tool important in data viz?
-- intent: data_science_lifecycle
-  examples: |
-    - What is the data science lifecycle?
-    - Tell me the data science lifecycle?
-    - What is a data science lifecycle?
-    - What's the bigger picture for data visualization?
-    - data analytics lifecycle
-    - Is data visualization the only step?
-    - what are the steps of data analysis
-    - Data science process components
-    - data viz life cycle
-    - I want to know the whole process of data analytics
-    - Where does data visualization fit in?
-    - Can you explain the full data science lifecycle?
-    - What comes before and after data visualization?
-    - general structure of data analysis
-    - Data analytics steps
-    - what's part of data lifecycle
 - intent: common_term_used_data
   examples: |
     - What are some common terms used in data visualization?
@@ -3165,81 +3159,8 @@ nlu:
     - Free data sets online
     - Reliable climate data
     - Where to download CSV data?
-- intent: geospatial_data_resource_available
-  examples: |
-    - What geospatial data resources are available?
-    - can you list the available geospatial data resources?
-    - Which geospatial data resources are available?
-    - Where can I find geospatial data?
-    - geospatial data sources
-    - I need us census data
-    - What is the Geospatial Data Gateway?
-    - where to get usda data
-    - geo data tools
-    - us census tools and data
-    - Need list of geo data sources
-    - data gateway for geospatial
-    - census data access
-    - geospatial resources online
-    - I'm looking for U.S. Census data and tools
-    - Geospatial Data Gateway website
-- intent: resource_available_fire_modeling
-  examples: |
-    - What resources are available for fire modeling?
-    - can you list the resources available for fire modeling?
-    - can you list the best resources for fire modeling?
-    - What fire modeling resources do you have?
-    - Fire modeling databases?
-    - Landfire info
-    - Where can I find fire occurrence data?
-    - FPA FOD database
-    - Burn severity trends?
-    - MTBS data access
-    - fire modeling tools
-    - wildfire analysis resources
-    - Do you have landfire data?
-    - Fire program analysis info
-    - Monitoring burn severity
-    - fire trend databases
-    - What is MTBS?
-- intent: hydrological_data_resource_available
-  examples: |
-    - What hydrological data resources are available?
-    - show the hydrological data resources available?
-    - can you list the hydrological data resources available?
-    - Where can I find hydrological data?
-    - hydrology data sources
-    - USGS water data dashboard
-    - National Hydrography Dataset link
-    - Need hydrological data for research
-    - water data resources
-    - How do I access USGS hydro data?
-    - NHD dataset location
-    - Hydrological datasets online
-    - Where to find national hydrography data
-    - USGS water info
-    - hydro data tools
-    - National hydrology database
-- intent: landuse_landcover_database_available
-  examples: |
-    - What landuse and landcover databases are available?
-    - Which land use and landcover databases are available?
-    - What land use and landcover databases are available?
-    - land use databases?
-    - Where can I find landcover data?
-    - What is MRLC consortium?
-    - USGS gap analysis
-    - Land characteristics database
-    - I need land use data, where do I start?
-    - mrlc.gov alternative
-    - gap analysis project info
-    - land cover databases usa
-    - Multi-Resolution Land Characteristics Consortium?
-    - Where to find USGS land data?
-    - land usage datasets
-    - What is GAP project in USGS?
 - intent: modelled_data_resource_available
-  examples: |
+  examples: |-
     - What modelled data resources are available?
     - modelled data resources
     - how to model data
@@ -3256,6 +3177,21 @@ nlu:
     - modelled climate data sources
     - What is NetCDF format?
     - Are there any tools for working with modelled data?
+    - can you list the available geospatial data resources?
+    - Which geospatial data resources are available?
+    - Where can I find geospatial data?
+    - geospatial data sources
+    - I need us census data
+    - What is the Geospatial Data Gateway?
+    - where to get usda data
+    - geo data tools
+    - us census tools and data
+    - Need list of geo data sources
+    - data gateway for geospatial
+    - census data access
+    - geospatial resources online
+    - I'm looking for U.S. Census data and tools
+    - Geospatial Data Gateway website
 - intent: observed_data_resource_available
   examples: |
     - What observed data resources are available?
@@ -3274,42 +3210,6 @@ nlu:
     - Where can I learn about using climate information system?
     - observed data sources
     - How do I use ACIS query data?
-- intent: soil_data_resource_available
-  examples: |
-    - What soil data resources are available?
-    - Tell me the best soil data resource available?
-    - Where can I find soil data?
-    - Soil databases?
-    - NRCS soil data resources?
-    - How do I access Web Soil Survey?
-    - WSS database
-    - Natural Resources Conservation Service soil info
-    - soil survey data
-    - I need soil data for my research
-    - Where is the NRCS soil database?
-    - Can I find soil data online?
-    - Web Soil Survey link
-    - USDA soil databases
-    - Soil resources for research
-- intent: transportation_data_resource_available
-  examples: |
-    - What transportation data resources are available?
-    - Tell me the best transportation data resource?
-    - Which transportation data resources are available?
-    - Where can I find transportation data?
-    - Transportation stats where?
-    - tiger data link
-    - geographic data for project
-    - usc library transportation resources
-    - spatial data tiger
-    - data for mapping
-    - census geography data
-    - time series geo data
-    - TIGER line file location
-    - transportation statistics source
-    - geospatial data USC
-    - need map data
-    - tiger database
 - intent: resource_available_finding_health
   examples: |
     - What resources are available for finding health statistics and data sets?
@@ -3559,7 +3459,7 @@ nlu:
     - Can I get help with dataset discovery?
     - data lifecycle help
 - intent: whats_data_management_plan
-  examples: |
+  examples: |-
     - Whats data management plan (DMP)?
     - wahts dmp
     - dmp
@@ -3575,6 +3475,19 @@ nlu:
     - data management plan for research grant
     - what to include in data management plan
     - Data management plan template
+    - What to put in dmp
+    - What's in a data management plan?
+    - dmp contents?
+    - What does a DMP describe?
+    - Components of a data management plan
+    - Data management plan sections
+    - What should I include in my DMP?
+    - DMP elements
+    - data managment pla parts
+    - Information included in a dmp
+    - Whats covered in data management plans?
+    - Can you list the components of a DMP?
+    - parts of a datamanagement plan
 - intent: resource_available_writing_data
   examples: |
     - What resources are available for writing a Data Management Plan (DMP)?
@@ -3592,22 +3505,6 @@ nlu:
     - How do I create a data management and sharing plan?
     - What are the best practices for writing a DMP?
     - DMP planning and budgeting?
-- intent: include_data_management_plan
-  examples: |
-    - What should I include in a Data Management Plan (DMP)?
-    - What to put in dmp
-    - What's in a data management plan?
-    - dmp contents?
-    - What does a DMP describe?
-    - Components of a data management plan
-    - Data management plan sections
-    - What should I include in my DMP?
-    - DMP elements
-    - data managment pla parts
-    - Information included in a dmp
-    - Whats covered in data management plans?
-    - Can you list the components of a DMP?
-    - parts of a datamanagement plan
 - intent: need_data_management_plan
   examples: |
     - Why should I have a data management plan?
@@ -3708,24 +3605,6 @@ nlu:
     - Why should I cite data sources?
     - citation rules for data usage
     - Can you show me how to properly cite data?
-- intent: What_is_metadata
-  examples: |
-    - What is metadata?
-    - Tell me the metadata?
-    - What is metadata? What are some examples?
-    - What is metadata?
-    - metadata meaning
-    - Can you define metadata?
-    - data about data?
-    - what does metadata include
-    - Why do I need metadata?
-    - What's the purpose of metadata?
-    - How does metadata help with accessibility?
-    - Why document my dataset?
-    - whats meta data for
-    - metadata importance
-    - Is metadata required for research data?
-    - Can you explain what is meant by 'data about data'?
 - intent: metadata_important
   examples: |
     - Why is metadata important?
@@ -3744,7 +3623,7 @@ nlu:
     - importance of documenting research data
     - Can I build upon existing research data?
 - intent: include_metadata
-  examples: |
+  examples: |-
     - What should I include in my Metadata?
     - what to put in metadata
     - How should I document my research data?
@@ -3761,6 +3640,21 @@ nlu:
     - documenting data processing steps
     - best way to keep research notes
     - research data record keeping
+    - Tell me the metadata?
+    - What is metadata? What are some examples?
+    - What is metadata?
+    - metadata meaning
+    - Can you define metadata?
+    - data about data?
+    - what does metadata include
+    - Why do I need metadata?
+    - What's the purpose of metadata?
+    - How does metadata help with accessibility?
+    - Why document my dataset?
+    - whats meta data for
+    - metadata importance
+    - Is metadata required for research data?
+    - Can you explain what is meant by 'data about data'?
 - intent: element_metadata
   examples: |
     - What are the elements of metadata?
@@ -3836,7 +3730,7 @@ nlu:
     - Should I compress my research data?
     - Can you recommend a replacement for .gif and .jpg?
 - intent: open_science_framework
-  examples: |
+  examples: |-
     - Tell me aboug osf
     - osf.io what's that
     - Is OSF only for science research?
@@ -3850,9 +3744,6 @@ nlu:
     - Can I use OSF for documentation purposes?
     - research collaboration tools
     - What's the purpose of OSF.io?
-- intent: get_started_open_science
-  examples: |
-    - How do I get started with Open Science Framework?
     - How can I get started with Open Science Framework?
     - How do I get started with the Open Science Framework?
     - How do I sign up for OSF?
@@ -3868,9 +3759,6 @@ nlu:
     - USC Open Science Framework sign up
     - How to join USC OSF
     - Where do I find USC research projects on OSF?
-- intent: type_data_stored_open
-  examples: |
-    - What type of data should not be stored in Open Science Framework?
     - What type of data should not be stored in the Open Science Framework?
     - What types of data should not be stored in Open Science Framework?
     - Is OSF HIPAA compliant?
@@ -3902,8 +3790,6 @@ nlu:
     - What's the purpose of backing up data?
     - data backup importance
     - Can virus infection affect my research data?
-- intent: good_rule_thumb_backing
-  examples: |
     - What is a good rule of thumb for backing up data?
     - Tell me the best rule of thumb when backing up data?
     - What's the best way to backup my data?
@@ -3932,10 +3818,8 @@ nlu:
     - How often should I back up data?
     - Offsite storage options
     - What's a good rule for backing up files?
-- intent: difference_information_security_privacy
+- intent: resource_understanding_data_privacy
   examples: |
-    - What is the difference between information security and privacy?
-    - Tell me the difference between privacy and information security?
     - What is the difference between info security and privacy?
     - Privacy vs information security
     - What does privacy mean in terms of data?
@@ -3949,10 +3833,7 @@ nlu:
     - what is PPI and PII
     - Why is protected personal info important?
     - Can I share personal identifying information?
-- intent: resource_understanding_data_privacy
-  examples: |
     - What are some resources for understanding data privacy?
-    - can you list the best resources for understanding data privacy?
     - can you list the best resources to understand data privacy?
     - Tell me the best way to understand data privacy?
     - What's the difference between info security and privacy?
@@ -3972,7 +3853,6 @@ nlu:
   examples: |
     - What university policies apply to research data management?
     - Tell me the university policy on research data management?
-    - Which university policies apply to research data management?
     - Where can I find USC data policies?
     - usc it security policy
     - What are the rules for using USC archives?
@@ -4817,65 +4697,6 @@ nlu:
     - What else can I do at the library?
     - Services provided by university libraries
     - what services do u have
-- intent: get_research_help
-  examples: |
-    - How can I get research help?
-    - Tell me the best way to get research help?
-    - How do I get research help?
-    - How do I get help with research?
-    - Need help researching
-    - Research assistance?
-    - Who can I ask for research help?
-    - Where do I go for research support?
-    - can i get help from librarians?
-    - research aid
-    - Can someone assist me with my research paper?
-    - help with research project
-    - I'm stuck on my research, what do I do?
-    - Librarian help available?
-    - What kind of research support is available?
-    - Need research guidance
-    - How can librarians help me?
-- intent: special_collection_available
-  examples: |
-    - What special collections are available?
-    - Which special collections are available?
-    - can you list the special collections available?
-    - I wanna find a digital collection with movies in it
-    - What special collections does USC library have?
-    - usc library rare books?
-    - Can I view art in the USC library?
-    - special collections at usc
-    - Where can I find old maps in USC?
-    - Music archives at USC library?
-    - manuscripts at usc library
-    - Does USC have online special collections?
-    - digitized collections at usc
-    - Can I access USC special collections online?
-    - What kind of materials are in USC special collections?
-    - usc library art collection
-    - How do I browse USC special collections?
-    - movies
-    - do u guys have movies
-    - librry special collections
-- intent: support_library
-  examples: |
-    - How can I support the library?
-    - How do I support the library?
-    - How can I support a library?
-    - How can I support USC libraries?
-    - donate to usc library
-    - ways to give to the library
-    - Can I contribute to USC library?
-    - library donation link
-    - help usc libraries
-    - Where does my gift to USC library go?
-    - What does my donation fund in the library?
-    - How do I donate to the USC library?
-    - usc library funding
-    - Can I make a gift to USC library online?
-    - Supporting library resources
-    - Make a donation to USC libraries
 - intent: event_upcoming
   examples: |
     - What events are upcoming?
@@ -5509,22 +5330,6 @@ nlu:
     - AI video lectures
     - LLMs, GANs and VAEs resources
     - library resources for machine learning
-- intent: general_guideline_using_ai
-  examples: |
-    - What are the general guidelines for using AI in academic work?
-    - recommend some general guidelines for using AI in academic work?
-    - Can I use AI for assignments?
-    - Is AI allowed in USC courses?
-    - can i use ai to do homework
-    - Are AI tools accepted by professors?
-    - usc ai rules
-    - Should I check with my professor about AI use?
-    - Can I submit AI-generated work?
-    - AI usage in assignments
-    - Is AI permitted in university courses?
-    - Do professors allow AI-generated content?
-    - ai policy usc
-    - How do I know if AI is allowed in my course?
 - intent: tip_follow_using_ai
   examples: |
     - What tips can I follow when using AI for research?
@@ -5544,7 +5349,7 @@ nlu:
     - How do I know if an AI-suggested source is accessible?
     - What should I keep in mind when using AI for research?
 - intent: learn_using_ai_according
-  examples: |
+  examples: |-
     - Where can I learn more about AI according to the USC honor code?
     - USC honor code AI rules?
     - Can I use AI for assignments at USC?
@@ -5558,6 +5363,19 @@ nlu:
     - AI usage in assignments allowed?
     - Cheating with AI, what are the rules?
     - Honor code and artificial intelligence
+    - recommend some general guidelines for using AI in academic work?
+    - Can I use AI for assignments?
+    - Is AI allowed in USC courses?
+    - can i use ai to do homework
+    - Are AI tools accepted by professors?
+    - usc ai rules
+    - Should I check with my professor about AI use?
+    - Can I submit AI-generated work?
+    - AI usage in assignments
+    - Is AI permitted in university courses?
+    - Do professors allow AI-generated content?
+    - ai policy usc
+    - How do I know if AI is allowed in my course?
 - intent: learn_clear_framework
   examples: |
     - Where can I learn more about the CLEAR framework?
@@ -6080,20 +5898,8 @@ nlu:
     - Do I need to consider copyright laws when creating a digital project?
     - Can I reuse copyrighted works in my project?
     - What are the best practices for maintaining and updating a digital project?
-- intent: digital_project_showcase
-  examples: |
-    - What is the digital projects showcase?
-    - usc create digital projects?
-    - Show me USC digital creations
-    - What can I make with USC Create Digital?
-    - digital project ideas usc
-    - Examples of USC digital projects
-    - USC Create Digital examples?
-    - Can I see USC student projects online?
-    - usc digital showcase?
-    - How do students use USC Create Digital?
 - intent: see_example_digital_project
-  examples: |
+  examples: |-
     - Can I see examples of digital projects created at USC?
     - USC faculty digital projects
     - What kind of online resources do USC professors create?
@@ -6121,6 +5927,15 @@ nlu:
     - Scholar Commons Exhibits what is it
     - Digital collections at USC libraries
     - USC Aspire II grant projects
+    - usc create digital projects?
+    - Show me USC digital creations
+    - What can I make with USC Create Digital?
+    - digital project ideas usc
+    - Examples of USC digital projects
+    - USC Create Digital examples?
+    - Can I see USC student projects online?
+    - usc digital showcase?
+    - How do students use USC Create Digital?
 - intent: constellate_use_it
   examples: |
     - What is Constellate and how do I use it?
@@ -6301,23 +6116,6 @@ nlu:
     - What's next after choosing a CMS?
     - I'm lost, where do I start with digital tools?
     - Can you recommend any digital tool resources?
-- intent: annotation_tool_available
-  examples: |
-    - What annotation tools are available?
-    - Tell me the best annotation tool?
-    - can you list the best annotation tools?
-    - What annotation tools do you recommend?
-    - annotation tools?
-    - What is Hypothes.is?
-    - Do you have any note-taking tools?
-    - Can I annotate online articles?
-    - what's a good tool for annotating?
-    - How can I markup web pages?
-    - Any suggestions for digital annotation?
-    - hypothesis tool
-    - web annotation tools
-    - What tools do you have for highlighting and annotating text?
-    - do u have annotaion tools?
 - intent: timeline_tool_available
   examples: |
     - What timeline tools are available?
@@ -6394,7 +6192,7 @@ nlu:
     - How to keep my team on the same page
     - Collab tools for digital projects
 - intent: animation_tool_available
-  examples: |
+  examples: |-
     - What animation tools are available?
     - can you list the best animation tools?
     - Tell me the best animation tool?
@@ -6411,9 +6209,20 @@ nlu:
     - What's the best way to create graphic content?
     - Need animation help, what are my options?
     - Open source alternatives for graphics
-- intent: audio_production_tool_available
-  examples: |
-    - What audio production tools are available?
+    - Tell me the best annotation tool?
+    - can you list the best annotation tools?
+    - What annotation tools do you recommend?
+    - annotation tools?
+    - What is Hypothes.is?
+    - Do you have any note-taking tools?
+    - Can I annotate online articles?
+    - what's a good tool for annotating?
+    - How can I markup web pages?
+    - Any suggestions for digital annotation?
+    - hypothesis tool
+    - web annotation tools
+    - What tools do you have for highlighting and annotating text?
+    - do u have annotaion tools?
     - show the best audio production tools?
     - can you list the best audio production tools?
     - What audio production tools are available?

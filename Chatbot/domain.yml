@@ -3,7 +3,6 @@ intents:
 - Do not answer
 - What_is_DMPtool
 - What_is_NVivo
-- What_is_metadata
 - academic_social_networking_site
 - acceptable_us_librarylicensed_resource
 - access_harvard_business_case
@@ -25,7 +24,6 @@ intents:
 - alumnus_get_access_research
 - ama_citation_style
 - animation_tool_available
-- annotation_tool_available
 - apa_publication_manual
 - application_artificial_intelligence
 - artificial_intelligence
@@ -34,7 +32,6 @@ intents:
 - assistance_available_data_analysis
 - attribute_ai_research
 - attribution_work
-- audio_production_tool_available
 - autocode_data_file_nvivo
 - backing_data_important
 - benefit_using_open_educational
@@ -95,7 +92,6 @@ intents:
 - criterion_evaluating_online_resource
 - criterion_use_evaluate_oer
 - data_resource_available
-- data_science_lifecycle
 - data_set_available_criminal
 - data_set_available_economic
 - data_set_available_education
@@ -115,7 +111,6 @@ intents:
 - different_part_nvivo_workspace
 - different_type_machine_learning
 - different_version_article
-- digital_project_showcase
 - digital_scholarship
 - digital_scholarship_service_available
 - digital_tool_available_project
@@ -128,7 +123,6 @@ intents:
 - example_generative_ai_chatbots
 - example_policy_guideline_ai
 - example_project_use_digital
-- export_codebook
 - factor_consider_selecting_data
 - factor_selection_committee_consider
 - fair_use
@@ -163,9 +157,7 @@ intents:
 - freely_available_corpus_text
 - friend_university_library_previously
 - general_data_set_available
-- general_guideline_using_ai
 - general_statistic_resource_available
-- geospatial_data_resource_available
 - get_data_visualization_help
 - get_free_subscription_new
 - get_full_text_access
@@ -175,12 +167,9 @@ intents:
 - get_help_writing
 - get_library_card
 - get_online_access_library
-- get_research_help
-- get_started_open_science
 - get_started_text_analysis
 - get_started_text_mining
 - get_started_uscs_create
-- good_rule_thumb_backing
 - greet
 - guidance_university_college_provide
 - guideline_creating_effective_visualization
@@ -190,10 +179,8 @@ intents:
 - hathitrust_university_member
 - help_ai
 - help_digital_tool
-- hydrological_data_resource_available
 - impact_open_educational_resource
 - import_data_file_nvivo
-- include_data_management_plan
 - include_metadata
 - industry_membership_indicate_journal
 - information_needed_properly_cite
@@ -208,7 +195,6 @@ intents:
 - kind_guidance_expect_online
 - kind_research_support_university
 - kind_workshop_library_offer
-- landuse_landcover_database_available
 - learn_clear_framework
 - learn_prompt_engineering
 - learn_using_ai_according
@@ -289,7 +275,6 @@ intents:
 - resource_available_finding_criminal
 - resource_available_finding_economic
 - resource_available_finding_health
-- resource_available_fire_modeling
 - resource_available_learning_ai
 - resource_available_library_statistical
 - resource_available_open_pedagogy
@@ -335,7 +320,6 @@ intents:
 - sign_orcid_id
 - software_available_library_computer
 - software_hardware_resource_available
-- soil_data_resource_available
 - something_notarized
 - source_available_library_usc
 - source_open_data
@@ -343,7 +327,6 @@ intents:
 - south_caroliniana_library_building
 - south_caroliniana_library_located
 - south_caroliniana_library_open
-- special_collection_available
 - specialized_software_available_datalab
 - spreadsheet_software_use_data
 - starbucks_thomas_cooper
@@ -355,7 +338,6 @@ intents:
 - student_success_center_peer
 - suggest_title_library_purchase
 - suggest_workshop
-- support_library
 - support_library_offer_course
 - take_online_proctored_exam
 - term_related_text_mining
@@ -368,10 +350,8 @@ intents:
 - tool_help_data_citation
 - tool_resource_available_research
 - track_impact_research
-- transportation_data_resource_available
 - tutorial_available_text_analysis
 - type_assistance_library_offer
-- type_data_stored_open
 - type_repository_sharing_research
 - type_work_copyrighted
 - u_statistic_resource_available
@@ -1975,6 +1955,12 @@ responses:
       [Learn more here](https://guides.library.sc.edu/nvivo/coding)
   utter_add_coding_data:
   - text: |
+      ## Exporting a Codebook
+      - In the Menu Bar, click on the Data tab
+      - Click on Codebook
+      - Select the Nodes folder
+      - Choose a location on your computer to save the document
+
       ### Uncoding Data
       - Select the text you would like to uncode and highlight it with your cursor
       - Right-click and select Uncode Selection, then select At Existing Nodes or Cases
@@ -2000,17 +1986,12 @@ responses:
       - In the List View panel, select a data source that has been coded or that you'll be coding
       - In the Menu Bar, click on View, then select Coding Stripes
       - Select an option from the menu, such as all nodes coded or specific nodes
-  utter_export_codebook:
-  - text: |
-      ## Exporting a Codebook
-      - In the Menu Bar, click on the Data tab
-      - Click on Codebook
-      - Select the Nodes folder
-      - Choose a location on your computer to save the document
-
-      [Learn more here](https://guides.library.sc.edu/nvivo/coding)
   utter_data_visualization:
-  - text: |
+  - text: |2
+
+      ## The Data Science Lifecycle
+      Data visualization is one component of a much broader data analytics life cycle. While there is some variation in defining the full data analytics life cycle, the graphic below presents a general structure encompassing the basic components.
+
       ## What is Data Visualization?
       Data visualization is an umbrella term referring to the representation of raw data content in a graphic or pictorial manner. Related concepts include information visualization and scientific visualization. Using visual features of encoded data such as position, size, shape, hue and saturation, motion, etc., data visualization applies tools and techniques to communicate the raw data in visual form.
       Common examples include charts, graphs, timelines, maps, and even tables.
@@ -2025,17 +2006,10 @@ responses:
       - sometimes referred to as sense-making or data analysis. Using visualization techniques to examine and discover trends, associations, outliers, etc., that may not be obvious when viewing the raw data.
       - also referred to as storytelling or communication. Creating visualizations that make understanding what the data is saying clearer and more obvious.
       Successful data visualization relies on selecting the appropriate tool, technique, and visual expression that most effectively presents the story the data is telling. Data visualization should be considered a means to an end, not an end in itself.
-    
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438972)
-  utter_data_science_lifecycle:
-  - text: |2
-
-      ## The Data Science Lifecycle
-      Data visualization is one component of a much broader data analytics life cycle. While there is some variation in defining the full data analytics life cycle, the graphic below presents a general structure encompassing the basic components.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438972)
   utter_common_term_used_data:
-  - text: |2
+  - text: |
       ## Terminology
       When discussing data visualization, various related terms may be used somewhat loosely. The following is a very brief glossary of commonly used data terminology:
       - A process of building, cleaning, and structuring datasets for the purpose of analysis and extraction of meaning.
@@ -2330,41 +2304,13 @@ responses:
       - [Residential Energy Consumption Survey Results - EIA](https://www.eia.gov/consumption/residential/data/2020/index.php?view=characteristics)
       - [U.S. Wildfires - NOAA](https://www.ncei.noaa.gov/access/monitoring/wildfires/ytd/0)
       - [World Bank Open Data](http://data.worldbank.org/)
-  utter_geospatial_data_resource_available:
+  utter_modelled_data_resource_available:
   - text: |2
 
       ## Geospatial Data
       - [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
       - [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)
 
-      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
-  utter_resource_available_fire_modeling:
-  - text: |2
-
-      #### Fire Modeling
-      - [LandFire](https://www.landfire.gov/)
-      - [Fire Program Analysis Fire Occurrence Database (FPAFOD)](https://doi.org/10.2737/RDS-2013-0009.6)
-      - [Monitoring Trends in Burn Severity (MTBS)](https://www.mtbs.gov/)
-
-      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
-  utter_hydrological_data_resource_available:
-  - text: |2
-
-      #### Hydrological Data
-      - [USGS National Water Dashboard](https://waterdata.usgs.gov/nwis/rt)
-      - [National Hydrography Dataset (NHD)](https://www.usgs.gov/core-science-systems/ngp/national-hydrography/access-national-hydrography-products)
-
-      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
-  utter_landuse_landcover_database_available:
-  - text: |2
-
-      #### Landuse and Landcover Databases
-      - [Multi-Resolution Land Characteristics (MRLC) Consortium](https://www.mrlc.gov/)
-      - [Gap Analysis Project](https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap)
-
-      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
-  utter_modelled_data_resource_available:
-  - text: |2
 
       #### Modelled Data
       - [Parameter-elevation Relationships on Independent Slopes Model (PRISM)](http://www.prism.oregonstate.edu/)
@@ -2381,21 +2327,6 @@ responses:
       - [NOAA - Full List of Data](https://www.ncdc.noaa.gov/data-access)
       - [NOAA - Weather & Climate Quick Links](https://www.ncdc.noaa.gov/data-access/quick-links)
       - [Applied Climate Information System - Query Data](http://builder.rcc-acis.org)To learn how to use this system, click here for[ more information](https://www.rcc-acis.org/docs_webservices.html).
-    
-      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
-  utter_soil_data_resource_available:
-  - text: |2
-
-      #### Soil Data
-      - [Natural Resources Conservation Service - Soil Databases](https://www.nrcs.usda.gov/resources?title=&resource_type=18)
-      - [Natural Resources Conservation Service - Web Soil Survey (WSS)](https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm)
-
-      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
-  utter_transportation_data_resource_available:
-  - text: |2
-
-      #### Transportation Data
-      - [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
 
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
   utter_resource_available_finding_health:
@@ -2562,6 +2493,14 @@ responses:
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
   utter_whats_data_management_plan:
   - text: |
+      DMPs often include descriptions of:
+      - Roles and Responsibilities
+      - Types of Data
+      - Data Formats and Metadata
+      - Access, Sharing, and Privacy
+      - Policies and Provisions for Re-use and Re-Distribution
+      - Data Storage and Preservation
+
       ## What are Data Management Plans?
       Data Management Plans, or DMPs, are documents describing what will happen to data during and after research.  Before writing a DMP, review guidelines for the funding agency you are working with. DMPs often include descriptions of:
 
@@ -2588,17 +2527,6 @@ responses:
       - [Sample DMPs from UC San Diego](https://library.ucsd.edu/lpw-staging/research-and-collections/data-curation/data-management/dmp-samples.html)
       - [Data Management Planning Guidelines from NC State University](https://www.lib.ncsu.edu/do/data-management/funding-agency-guidelines)
       - [Sample NIH Data Management and Sharing Plans](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#sample-plans)
-  
-      [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095609)
-  utter_include_data_management_plan:
-  - text: |
-      DMPs often include descriptions of:
-      - Roles and Responsibilities
-      - Types of Data
-      - Data Formats and Metadata
-      - Access, Sharing, and Privacy
-      - Policies and Provisions for Re-use and Re-Distribution
-      - Data Storage and Preservation
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095609)
   utter_need_data_management_plan:
@@ -2652,19 +2580,16 @@ responses:
       - [Data Citation Index](https://login.pallas2.tcl.sc.edu/login?url=https://www.webofscience.com/wos/drci/basic-search)
 
       [Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
-  utter_What_is_metadata:
-  - text: |
-      Metadata is information about the context, content, quality, provenance, and/or accessibility of a dataset. In order for your data to be accessible to you, your colleagues, and other researchers, it must be properly documented. Put simply, metadata is data about your data.
-  
-      [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095612)
   utter_metadata_important:
   - text: |
       Data often have a longer lifespan than the research project that creates them. Researchers may continue to work on data after funding has ceased, follow-up projects may analyse or add to the data, and data may be re-used by other researchers. Well organised, well documented, preserved and shared data are invaluable to advance scientific inquiry and to increase opportunities for learning and innovation.
       [Create and Manage Data, the UK Data Archive](http://www.data-archive.ac.uk/create-manage/life-cycle)
-  
+
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095612)
   utter_include_metadata:
   - text: |
+      Metadata is information about the context, content, quality, provenance, and/or accessibility of a dataset. In order for your data to be accessible to you, your colleagues, and other researchers, it must be properly documented. Put simply, metadata is data about your data.
+
       ### To Do While Collecting or Maintaining Data
       - Make a note of all file names and formats associated with the project, how the data are organized, how the data were generated (including any equipment or software used), and information about how the data have been altered or processed.
       - Include an explanation of codes, abbreviations, or variables used in the data or in the file naming structure.
@@ -2744,28 +2669,26 @@ responses:
       [OSF](https://osf.io/institutions/sc/) is an online research collaboration tool and data repository. Created by the [Center for Open Science](https://cos.io/), OSF allows researchers to collaborate, document, archive, share, and register research projects, materials, and data.
 
       Open Science Framework is not just for science! Researchers in any discipline can use this tool. Keep in mind that OSF is for sensitive data.
-  utter_get_started_open_science:
-  - text: |
-      - [Create an Account](https://osf.io/register/)
 
+      - [Create an Account](https://osf.io/register/)
       - [USC OSF Dashboard](https://osf.io/institutions/sc)
-  utter_type_data_stored_open:
-  - text: |
+
       ## Not for PII, PHI
       Open Science Framework is not HIPAA-compliant. It is not a place to store data sets containing personally identifiable information.
 
       [Learn more here](http://guides.library.sc.edu/osf)
   utter_backing_data_important:
   - text: |
+      ## Regulation and Security
+      ### Data Back-Up
       Backing up data is an essential part of the data management process. Hardware failure, virus infection, hacking, and loss or theft of hardware are all common realities that can have a devastating effect on research if proper back-up hasn't taken place. See the [UK Data Archive's guidelines on Backing-up Data](https://www.ukdataservice.ac.uk/manage-data/store.aspx) for more information.
 
+      #### Backing Up vs Storage
       Back-up and storage are related concepts, but are not the same thing. While storage refers to ways of preserving files for the short- or long-term, back-up refers to preserving copies of your files in different physical locations and using different media to protect against data loss.
-  utter_good_rule_thumb_backing:
-  - text: |
+
+      #### 3-2-1 rule
       A good rule of thumb for backing up data is the 3-2-1 rule. It states that at least 3 total copies of data should exist, 2 of which are local but on different media (devices), and at least 1 copy should be stored offsite. The offsite storage is important in case of fires, floods, or theft.
-  utter_difference_information_security_privacy:
-  - text: |
-      While information security is concerned with protection, privacy is concerned with the sensitivity of data, the justification for collecting data, and decisions about notification and sharing. International, Federal, and State legislation and regulations may apply. Privacy issues vary greatly by location and subject matter of data, posing significant liabilities, especially with regard to protected personal information (PPI) and personal identifying information (PII).
+
   utter_resource_understanding_data_privacy:
   - text: |
       While information security is concerned with protection, privacy is concerned with the sensitivity of data, the justification for collecting data, and decisions about notification and sharing. International, Federal, and State legislation and regulations may apply. Privacy issues vary greatly by location and subject matter of data, posing significant liabilities, especially with regard to protected personal information (PPI) and personal identifying information (PII). A few resources of note include:
@@ -3180,26 +3103,6 @@ responses:
       ### Explore University Libraries
       #### Find Library Services
       We're more than just collections. Reserve study rooms, borrow and renew books, request Interlibrary Loan materials, use technology and [much more](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/index.php).
-  utter_get_research_help:
-  - text: |
-      #### Get Research Help
-      Take advantage of the expert research support our librarians provide.
-      Here are all the [ways you can get help](https://sc.edu/about/offices_and_divisions/university_libraries/get_research_help/index.php)!
-
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/)
-  utter_special_collection_available:
-  - text: |
-      #### Browse Special Collections
-      [Discover](https://sc.edu/about/offices_and_divisions/university_libraries/browse/index.php) an amazing variety of materials from books, films, art, maps, music and manuscripts to digitized collections accessible entirely online.
-    
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/)
-  utter_support_library:
-  - text: |
-      #### Support the Libraries
-      Your gift to the libraries funds learning and discovery by helping us acquire new resources, revitalize spaces, and preserve rare and historic materials.
-      [Ways to Give](https://sc.edu/about/offices_and_divisions/university_libraries/support/index.php)
-
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/)
   utter_event_upcoming:
   - text: |
       # Print from your device
@@ -3435,7 +3338,7 @@ responses:
 
       Parenthetical citation: (Eggins & Slade, 1997; Robins et al., 2007)
       Narrative citation: Eggins and Slade (1997) and Robins et al. (2007)
-  
+
       [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_cite_webpage_website_apa:
   - text: |
@@ -3449,7 +3352,7 @@ responses:
 
       Parenthetical citation: (Trump Impeachment, 2019)
       Narrative citation: Trump Impeachment (2019)
-  
+
       [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_cite_government_business_technical:
   - text: |
@@ -3590,14 +3493,6 @@ responses:
       - [Conditional Generation:](https://www.youtube.com/watch?v=QT5qlQRN_aM)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10019571)
-  utter_general_guideline_using_ai:
-  - text: |
-      ## General Disclaimer
-      ## AI FAQ's
-      - Follow the original style you are following. But typically, yes.
-      - Check with your professor. Each professor and department have different standards.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=410193&p=10386858)
   utter_tip_follow_using_ai:
   - text: |
       ## Tips and Tricks
@@ -3613,6 +3508,11 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=410193&p=10386858)
   utter_learn_using_ai_according:
   - text: |
+      ## General Disclaimer
+      ## AI FAQ's
+      - **Do I need to use a hanging indent for an AI citation?** Follow the original style you are following. But typically, yes.
+      - **Am I allowed to use AI on this assignment?** Check with your professor. Each professor and department have different standards.
+
       ## Student Conduct and Academic Integrity
       If you have more questions regarding how to use AI in accordance to the USC honor code, check out the following link
       - [Student Conduct and Academic Integrity - Artificial Intelligence](https://sc.edu/about/offices_and_divisions/student_conduct_and_academic_integrity/academic_integrity/artificial_intelligence/index.php)
@@ -3941,14 +3841,11 @@ responses:
       Portions of this page are derived from [Digital Scholarship Research Guide: Plan Your Project](https://guides.lib.uw.edu/bothell/digitalscholarship/plan), which was shared under a [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/) and was created by [Denise Hattwig](http://guides.lib.uw.edu/prf.php?account_id=92090). This page is licensed under a [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/).
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/projects)
-  utter_digital_project_showcase:
-  - text: |
-      ## Digital Projects Showcase
-      ### See what you can do with USC Create Digital
-
-      [Learn more here]([Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php))
   utter_see_example_digital_project:
   - text: |
+      ## Digital Projects Showcase
+      ### See what you can do with USC Create Digital!
+
       - [Biological Anthropology 161](https://anth161.goldberg.uofsccreate.org/)  
       Dr. Kelly Goldberg designed a website to make her labs and course available virtually.  
       - [The Criminal Justice System: Experience the Inside](https://www.haydensmith.uofsccreate.org/)  
@@ -3998,7 +3895,7 @@ responses:
   - text: |
       ### Using Scholar Commons to Assess Your Research Impact
       After adding your research to Scholar Commons, you’ll have access to useful insights into the ways that others are using your research. In [this video](https://www.youtube.com/watch?v=D29l_Zvmovg&t=12s), learn how to use the Author Dashboard to understand the reach and impact of your scholarly works.
-      
+
       [Learn more here](https://guides.library.sc.edu/scholarcommons/impact)
   utter_uscs_create_digital:
   - text: |
@@ -4031,12 +3928,6 @@ responses:
       You've [picked your CMS](http://guides.library.sc.edu/digitalscholarship/cms). Now, it's time to create content for your site.
       You'll likely need a number of digital tools to build your vision. Here are some areas you might consider when developing your website and an explanation of some of the tools available to move your project from dream to reality. Most of the tools mentioned here are reasonably user-friendly and free to use or sample, but a few require payment for advanced options.
       Not sure where to start? Visit [TAPoR 3](http://tapor.ca/home), a fantastic project that connects you with a large, curated collection of trusted tools widely used by digital humanities scholars.
-  
-      [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
-  utter_annotation_tool_available:
-  - text: |
-      ## Annotation Tools
-      - [Hypothes.is](https://web.hypothes.is/)
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_timeline_tool_available:
@@ -4044,7 +3935,7 @@ responses:
       ## Timeline Tools
       - [TimelineJS](https://timeline.knightlab.com/)A customizable open source tool to create visually appealing, interactive timelines. Users can build timelines using Google sheets or JSON files and can incorporate media from sources such as Twitter, Flickr, YouTube, Vimeo, Soundcloud, and more. Example:[Revolutionary User Interfaces](https://timeline.knightlab.com/examples/user-interface/index.html)
       - [TimeMapper](http://timemapper.okfnlabs.org/)An easy-to-use open source tool that uses Google sheets to create timelines and maps. Example:[Medieval Philosophers](http://timemapper.okfnlabs.org/okfn/medieval-philosophers)
-  
+
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_mapping_tool_available:
   - text: |
@@ -4052,7 +3943,7 @@ responses:
       - [Open Street Map](https://www.openstreetmap.org/#map=11/41.4499/-81.5199)
       - [QGIS](https://www.qgis.org/en/site/)An open source geographic information system (GIS). QGIS allows users to visualize, manage, edit, analyse data, and compose printable maps.[Examples](https://www.flickr.com/groups/qgis/pool/)
       - [StoryMapJS](https://storymap.knightlab.com/)A free, user-friendly tool that allows you to tell media-rich, location-based stories. Example:[Arya's Journey](https://storymap.knightlab.com/examples/aryas-journey/)
-  
+
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_web_scraper_available:
   - text: |
@@ -4060,7 +3951,7 @@ responses:
       - [Data Miner](https://dataminer.io/)
       - [Google News Scraper](https://wiki.digitalmethods.net/Dmi/ToolGoogleNewsScraper)
       - [WIScker](http://cloud.tapor.ca/wiscker/)Tool to scrape previous versions of Wikipedia articles. WIScker is free to use. The resulting corpus from any query can be analyzed through[Voyant](https://voyant-tools.org/)or on your own.
-  
+
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_collaboration_tool_available:
   - text: |
@@ -4069,20 +3960,17 @@ responses:
       - [Microsoft Teams](https://www.office.com/)
       - [Slack](https://slack.com/)
       - [Trello](https://trello.com/en-US)
-  
+
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_animation_tool_available:
   - text: |
+      ## Audio Production Tools
+      - [Audacity](https://www.audacityteam.org/)
+
       ## Animation Tools
       - [Explain Everything](https://explaineverything.com/)
       - [Bonsai](https://open-ephys.org/bonsai)Open source graphics library that allows users to edit code to create unique content. Bonsai makes creating graphic content easier for users.[Try it yourself.](http://orbit.bonsaijs.org/)
-  
-      [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
-  utter_audio_production_tool_available:
-  - text: |
-      ## Audio Production Tools
-      - [Audacity](https://www.audacityteam.org/)
-  
+
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
   utter_copyright_exist:
   - text: |
@@ -4796,27 +4684,6 @@ responses:
       We are working with instructors to make course materials, such as ebooks, online articles and streaming films, available in Blackboard whenever possible. Please check [Blackboard](https://blackboard.sc.edu/) or contact your instructor.
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/borrow/textbooks/index.php)
-  utter_cite_journal_article_chicago:
-  - text: |
-      ## Dissertations and Theses
-
-      For guidance on citing dissertations and theses, refer to the Chicago Manual of Style.
-
-      ## Journal Articles
-
-      For guidance on citing journal articles, refer to the Chicago Manual of Style.
-
-      [Learn more here](https://guides.library.sc.edu/citation/chicago)
-  utter_cite_newspaper_magazine_article:
-  - text: |
-      ## Websites, Blogs, and Social Media
-      - For guidance on citing websites, blogs, and social media, refer to the Chicago Manual of Style.
-
-      ## Newspaper and Magazine Articles
-
-      For guidance on citing newspaper and magazine articles, refer to the Chicago Manual of Style.
-
-      [Learn more here](https://guides.library.sc.edu/citation/chicago)
   utter_use_digital_tool_research:
   - text: |
       # Digital Projects Showcase
@@ -4830,6 +4697,61 @@ responses:
       Registrations in OSF are time-stamped, read-only versions of a research plan that explain how data will be collected, manipulated, and analyzed in advance. Providing this [](https://cos.io/rr/) to a participating journal effectively creates two peer-review processes.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)
+  utter_geospatial_data_resource_available:
+  - text: |2
+
+      #### Transportation Data
+      - [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
+
+
+      ## Geospatial Data
+      - [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
+      - [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
+  utter_resource_available_fire_modeling:
+  - text: |2
+
+      #### Landuse and Landcover Databases
+      - [Multi-Resolution Land Characteristics (MRLC) Consortium](https://www.mrlc.gov/)
+      - [Gap Analysis Project](https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap)
+
+
+      #### Fire Modeling
+      - [LandFire](https://www.landfire.gov/)
+      - [Fire Program Analysis Fire Occurrence Database (FPAFOD)](https://doi.org/10.2737/RDS-2013-0009.6)
+      - [Monitoring Trends in Burn Severity (MTBS)](https://www.mtbs.gov/)
+
+      [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
+  utter_get_research_help:
+  - text: |
+      #### Support the Libraries
+      Your gift to the libraries funds learning and discovery by helping us acquire new resources, revitalize spaces, and preserve rare and historic materials.
+      [Ways to Give](https://sc.edu/about/offices_and_divisions/university_libraries/support/index.php)
+
+      #### Get Research Help
+      Take advantage of the expert research support our librarians provide.
+      Here are all the [ways you can get help](https://sc.edu/about/offices_and_divisions/university_libraries/get_research_help/index.php)!
+
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/)
+  utter_cite_journal_article_chicago:
+  - text: |
+      ## Websites, Blogs, and Social Media
+      - For guidance on citing websites, blogs, and social media, refer to the Chicago Manual of Style.
+
+      ## Newspaper and Magazine Articles
+
+      For guidance on citing newspaper and magazine articles, refer to the Chicago Manual of Style.
+
+      ## Dissertations and Theses
+
+      For guidance on citing dissertations and theses, refer to the Chicago Manual of Style.
+
+      ## Journal Articles
+
+      For guidance on citing journal articles, refer to the Chicago Manual of Style.
+
+      [Learn more here](https://guides.library.sc.edu/citation/chicago)
 actions:
 - action_library_open
 - action_save_conversation
