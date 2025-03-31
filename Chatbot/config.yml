@@ -26,18 +26,30 @@ language: en
 
 pipeline:
 - name: WhitespaceTokenizer
-- name: LanguageModelFeaturizer # Pretrained embeddings
-  model_name: "bert"
-  model_weights: "bert-base-uncased"
+- name: LanguageModelFeaturizer  # Pretrained embeddings
+  model_name: "bert"    #Note: Bert has 512 token limit on responses. Some responses like workshop one is ~800 tokens
+#- name: "custom_components.longformer_featurizer.CustomLongformerFeaturizer"
+#  model_name: "allenai/longformer-base-4096"
+  #max_length: 1024
+  #model_weights: "xlnet-small"
+  #max_length: 512
+  #batch_size: 1
+- name: CountVectorsFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: RegexFeaturizer # Useful for patterns like phone nums, emails etc.
 - name: DIETClassifier
-  epochs: 150
+  epochs: 100
   constrain_similarities: true
   batch_size: [64, 128] # Lower this range if low on memory
   learning_rate: 0.001
   embedding_dimension: 150
 - name: FallbackClassifier
-  threshold: 0.15
+  threshold: 0.2
   ambiguity_threshold: 0.005
+#- name: ResponseSelector
+#  epochs: 100
+#  retrieval_intent: faq
+#  constrain_similarities: true
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

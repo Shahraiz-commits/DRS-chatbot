@@ -31,13 +31,13 @@
         "types of ML"
     ],
     "kind_ai_support_library": [
-        "what can you tell me about AI"
+        "What king of AI support is in the library"
     ],
     "library_film_video": [
         "can i borrow films here"
     ],
     "option_available_longterm_archiving": [
-        "does the university have a data repo"
+        "do u guys have a data repo i can use"
     ],
     "service_library_offer": [
         "what services do u have"
@@ -55,5 +55,36 @@
     ],
     "application_artificial_intelligence": [
         "tell me applications of artifical intelligence"
+    ],
+    "advanced_text_analysis_tool": [
+        "Google Colab"
+    ],
+    "autocode_data_file_nvivo": [
+        "n vivo coding tips"
+    ],
+    "data_visualization_learning_session": [
+        "Are there workshops on data viz in the Libraries?"
+    ],
+    "data_visualization_software_available": [
+        "do you guys have software for visualizing something"
+    ],
+    "find_subjectspecific_data_statistic": [
+        "how do i get new data"
+    ],
+    "help_ai": [
+        "I need help in AI"
+    ],
+    "mapping_tool_available": [
+        "QGIS"
+    ],
+    "research_data_management": [
+        "I need help organizing my data"
+    ],
+    "resource_available_research_data": [
+        "Who do I talk to for data management help?"
+    ],
+    "whats_data_management_plan": [
+        "dmp stuff",
+        "dmp"
     ]
 }

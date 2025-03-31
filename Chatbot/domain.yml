@@ -2767,11 +2767,6 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=5107061)
   utter_kind_ai_support_library:
   - text: |
-      #### Research Project Collaboration
-      - Collaborating on interdisciplinary research projects that require AI or data science expertise.
-      - Assist in using other library digital services such as data management and visualization.
-
-
       ## AI/Data Science Support
       The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
 
@@ -2787,6 +2782,10 @@ responses:
       - Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
       - TIme-Series data analysis and forecasting.
       - Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+      #### Research Project Collaboration
+      - Collaborating on interdisciplinary research projects that require AI or data science expertise.
+      - Assist in using other library digital services such as data management and visualization.
 
       ##### Disclaimer
       The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
@@ -3775,10 +3774,10 @@ responses:
   utter_get_started_text_mining:
   - text: |
       ## Getting Started
-      - What is your?
-      - Pull together aof support: librarians, computer programmers, statisticians are on campus and here to help.
-      - These projects taketo pull together and perform.  Make sure you have this, especially for preparing the data.
-      - Pull together a. This could be through:Scanning and OCRing contentScraping the webRequesting licensed data from a company or vendor.
+      - What is your **research question**?
+      - Pull together a **team** of support: librarians, computer programmers, statisticians are on campus and here to help.
+      - These projects take **time** to pull together and perform.  Make sure you have this, especially for preparing the data.
+      - Pull together a **machine-readable data set**. This could be through:Scanning and OCRing contentScraping the webRequesting licensed data from a company or vendor.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033)
   utter_create_open_access_journal:
@@ -4480,11 +4479,12 @@ responses:
       [Learn more here](https://guides.library.sc.edu/OER/affordableclass)
   utter_find_resource_registering_project:
   - text: |
-      - [](https://help.osf.io/hc/en-us/articles/360019930893-Register-Your-Project)
-      - [](https://cos.io/blog/10-preregistration-tips/)
-      - [](https://osf.io/93znh/?_ga=2.14338366.884352988.1557167302-1022953819.1557167302)
-      - [](https://osf.io/458u9/)
-      - [](https://osf.io/e6auq/wiki/Example%20Preregistrations/?_ga=2.77487644.801033972.1522869063-47245329.1522869063)
+      ### Registration Resources
+      - [Register your Project with OSF](https://help.osf.io/hc/en-us/articles/360019930893-Register-Your-Project)
+      - [Tips from COS](https://cos.io/blog/10-preregistration-tips/)
+      - [Submission Checklist](https://osf.io/93znh/?_ga=2.14338366.884352988.1557167302-1022953819.1557167302)
+      - [Reproducible Research and the Open Science Framework](https://osf.io/458u9/)
+      - [Registration Examples](https://osf.io/e6auq/wiki/Example%20Preregistrations/?_ga=2.77487644.801033972.1522869063-47245329.1522869063)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)
   utter_open_textbook_source_available:

@@ -1839,3 +1839,1589 @@ NVivo is a qualitative data analysis software that allows users to organize, ana
 
 2025-03-11 01:35:05.163588|b9e1cbdd976747dfb9c38c75064fe347|U2|nlu_fallback|can u help with analyzing|
 2025-03-11 01:35:05.163806|b9e1cbdd976747dfb9c38c75064fe347|U3|nlu_fallback|can u help w analyzing stuff|
+2025-03-26 00:52:03.261943|user_24309|U0|greet|/greet|
+2025-03-26 00:52:03.261987|user_24309|B0|||||utter_greet|Hi! How can I help you?
+2025-03-26 00:52:03.262018|user_24309|U1|help_ai|ai help|
+2025-03-26 00:52:03.262045|user_24309|B1|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:52:03.262078|user_24309|U2|help_ai|i need help with ai|
+2025-03-26 00:52:03.262105|user_24309|B2|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:52:03.262135|user_24309|U3|help_ai|i need help with artificial intelligence|
+2025-03-26 00:52:03.262163|user_24309|B3|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:52:03.262186|user_24309|U4|find_additional_help_nvivo|who can help me with nvivo|
+2025-03-26 00:52:03.262212|user_24309|B4|||||utter_find_additional_help_nvivo|## Where Can I Find Additional Help with NVivo?
+Find additional help with NVivo with user guides and online tutorials from University Libraries QSR International.
+
+- [NVivo Playlist from University Libraries](https://www.youtube.com/watch?v=JBRFa4bCri0&list=PLdDPdq-AmS7Sp8flZhzZ1xOKPVhkY78KL)
+- [NVivo Tutorials](https://lumivero.com/resources/support/getting-started-with-nvivo/nvivo-tutorials/?v=7516fd43adaa)
+- [NVivo User Help (Mac)](https://community.lumivero.com/s/article/TRC-About-NVivo-NVivo-14-Mac?language=en_US)
+- [NVivo User Help (PC)](https://community.lumivero.com/s/nvivo-knowledge-base?language=en_US)
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-26 00:52:03.262243|user_24309|U5|nlu_fallback|can i collaborate with someone?|
+2025-03-26 00:57:53.551521|user_24309|U0|greet|/greet|
+2025-03-26 00:57:53.551567|user_24309|B0|||||utter_greet|Hi! How can I help you?
+2025-03-26 00:57:53.551591|user_24309|U1|help_ai|ai help|
+2025-03-26 00:57:53.551618|user_24309|B1|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:57:53.551653|user_24309|U2|help_ai|i need help with ai|
+2025-03-26 00:57:53.551680|user_24309|B2|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:57:53.551712|user_24309|U3|help_ai|i need help with artificial intelligence|
+2025-03-26 00:57:53.551739|user_24309|B3|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:57:53.551763|user_24309|U4|find_additional_help_nvivo|who can help me with nvivo|
+2025-03-26 00:57:53.551791|user_24309|B4|||||utter_find_additional_help_nvivo|## Where Can I Find Additional Help with NVivo?
+Find additional help with NVivo with user guides and online tutorials from University Libraries QSR International.
+
+- [NVivo Playlist from University Libraries](https://www.youtube.com/watch?v=JBRFa4bCri0&list=PLdDPdq-AmS7Sp8flZhzZ1xOKPVhkY78KL)
+- [NVivo Tutorials](https://lumivero.com/resources/support/getting-started-with-nvivo/nvivo-tutorials/?v=7516fd43adaa)
+- [NVivo User Help (Mac)](https://community.lumivero.com/s/article/TRC-About-NVivo-NVivo-14-Mac?language=en_US)
+- [NVivo User Help (PC)](https://community.lumivero.com/s/nvivo-knowledge-base?language=en_US)
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-26 00:57:53.551823|user_24309|U5|nlu_fallback|can i collaborate with someone?|
+2025-03-26 00:57:53.551912|user_24309|U6|kind_ai_support_library|ai support|
+2025-03-26 00:57:53.551938|user_24309|B5|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:57:53.551976|user_24309|U7|kind_ai_support_library|Collaboration on research projects available?|
+2025-03-26 00:57:53.552003|user_24309|B6|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:57:53.552039|user_24309|U8|contact_help_research_data|who can help with dmp|
+2025-03-26 00:57:53.552066|user_24309|B7|||||utter_contact_help_research_data|The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more. 
+
+# Contact Us
+Contact us with questions or to schedule an appointment.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
+Research Data Librarian  
+803-777-1968  
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+### Make an Appointment
+[Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.  
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-26 00:57:53.552100|user_24309|U9|instructor_schedule_class_library|Who is the chair of the Libraries Tenure Committee?"|
+2025-03-26 00:57:53.552126|user_24309|B8|||||utter_instructor_schedule_class_library|Librarians are available to teach your students information literacy and library research skills tailored to your course and assignments, both in person and online. You can use the library's online request form or email your subject librarian directly to discuss your needs and schedule sessions.
+The librarians have priority in scheduling, the library has two computer classrooms that faculty and staff can request for occasional use other than librarian-led instruction. Submit requests online.
+[Schedule Library Instruction](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/schedule_library_instruction/index.php)
+[Find My Subject Librarian](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/subject_librarian/index.php)
+[Request a Library Classroom (no librarian instruction)](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/request_classroom/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23792)
+
+2025-03-26 00:57:53.552160|user_24309|U10|research_data_management|How do I start with research data management?"|
+2025-03-26 00:57:53.552186|user_24309|B9|||||utter_research_data_management|Managing your data is an essential part of the research process. In this guide, you'll find an overview of the different types and formats of data produced during a scholarly investigation, guidance for creating data management plans and complying with the requirements of funding agencies, information about metadata, and help with sharing and archiving data securely for long-term use.
+
+Materials constituting research data vary by discipline. The following are common examples:
+- Text or Word documents, spreadsheets
+- Laboratory notebooks, field notebooks, diaries
+- Questionnaires, transcripts, codebooks
+- Audiotapes, videotapes
+- Photographs, films
+- Test responses
+- Slides, artifacts, specimens, samples
+- Collection of digital objects acquired and generated during the process of research
+- Data files
+- Database contents including video, audio, text, images
+- Models, algorithms, scripts
+- Contents of an application such as input, output, log files for analysis software, simulation software, schemas
+- Methodologies and workflows
+- Standard operating procedures and protocols
+
+Image [CC BY-NC](https://creativecommons.org/licenses/by-nc/2.0/) from University of Southern California Santa Cruz ([http://guides.library.ucsc.edu/datamanagement/](http://guides.library.ucsc.edu/datamanagement/)). 
+- [Managing and Sharing Data](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf)
+- [DataONE Primer on Data Management: What you always wanted to know (but were afraid to ask)](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)
+
+[Learn more here](http://guides.library.sc.edu/rdm)
+
+2025-03-26 00:57:53.552221|user_24309|U11|help_ai|who do i contact for help with nlp|
+2025-03-26 00:57:53.552247|user_24309|B10|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:57:53.552279|user_24309|U12|kind_ai_support_library|who can help with nlp|
+2025-03-26 00:57:53.552307|user_24309|B11|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:57:53.552343|user_24309|U13|digital_scholarship_service_available|am interested in creating a web site. Does the Library have support for this|
+2025-03-26 00:57:53.552369|user_24309|B12|||||utter_digital_scholarship_service_available|## Digital Scholarship
+### Available Services
+Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
+
+#### Digital Scholarship
+Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
+
+[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
+
+#### Content Mining
+Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
+
+[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
+
+#### Web Hosting for Digital Projects
+Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
+
+[Web Hosting for Digital Projects](https://uofsccreate.org)
+
+#### Electronic Journal Hosting
+Create and manage an open access journal with software and support from University Libraries.
+
+[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
+
+#### Digital Collections
+Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
+
+[Digital Collections](https://sc.edu/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-26 00:57:53.552404|user_24309|U14|nlu_fallback|Who do I talked to about help with Tableau?|
+2025-03-26 00:58:43.163736|user_24309|U0|greet|/greet|
+2025-03-26 00:58:43.163776|user_24309|B0|||||utter_greet|Hi! How can I help you?
+2025-03-26 00:58:43.163798|user_24309|U1|help_ai|ai help|
+2025-03-26 00:58:43.163825|user_24309|B1|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:58:43.163851|user_24309|U2|help_ai|i need help with ai|
+2025-03-26 00:58:43.163878|user_24309|B2|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:58:43.163902|user_24309|U3|help_ai|i need help with artificial intelligence|
+2025-03-26 00:58:43.163930|user_24309|B3|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:58:43.163953|user_24309|U4|find_additional_help_nvivo|who can help me with nvivo|
+2025-03-26 00:58:43.163981|user_24309|B4|||||utter_find_additional_help_nvivo|## Where Can I Find Additional Help with NVivo?
+Find additional help with NVivo with user guides and online tutorials from University Libraries QSR International.
+
+- [NVivo Playlist from University Libraries](https://www.youtube.com/watch?v=JBRFa4bCri0&list=PLdDPdq-AmS7Sp8flZhzZ1xOKPVhkY78KL)
+- [NVivo Tutorials](https://lumivero.com/resources/support/getting-started-with-nvivo/nvivo-tutorials/?v=7516fd43adaa)
+- [NVivo User Help (Mac)](https://community.lumivero.com/s/article/TRC-About-NVivo-NVivo-14-Mac?language=en_US)
+- [NVivo User Help (PC)](https://community.lumivero.com/s/nvivo-knowledge-base?language=en_US)
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-26 00:58:43.164005|user_24309|U5|nlu_fallback|can i collaborate with someone?|
+2025-03-26 00:58:43.164109|user_24309|U6|kind_ai_support_library|ai support|
+2025-03-26 00:58:43.164134|user_24309|B5|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:58:43.164172|user_24309|U7|kind_ai_support_library|Collaboration on research projects available?|
+2025-03-26 00:58:43.164199|user_24309|B6|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:58:43.164244|user_24309|U8|contact_help_research_data|who can help with dmp|
+2025-03-26 00:58:43.164271|user_24309|B7|||||utter_contact_help_research_data|The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more. 
+
+# Contact Us
+Contact us with questions or to schedule an appointment.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
+Research Data Librarian  
+803-777-1968  
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+### Make an Appointment
+[Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.  
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-26 00:58:43.164304|user_24309|U9|instructor_schedule_class_library|Who is the chair of the Libraries Tenure Committee?"|
+2025-03-26 00:58:43.164331|user_24309|B8|||||utter_instructor_schedule_class_library|Librarians are available to teach your students information literacy and library research skills tailored to your course and assignments, both in person and online. You can use the library's online request form or email your subject librarian directly to discuss your needs and schedule sessions.
+The librarians have priority in scheduling, the library has two computer classrooms that faculty and staff can request for occasional use other than librarian-led instruction. Submit requests online.
+[Schedule Library Instruction](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/schedule_library_instruction/index.php)
+[Find My Subject Librarian](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/subject_librarian/index.php)
+[Request a Library Classroom (no librarian instruction)](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/request_classroom/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23792)
+
+2025-03-26 00:58:43.164380|user_24309|U10|research_data_management|How do I start with research data management?"|
+2025-03-26 00:58:43.164408|user_24309|B9|||||utter_research_data_management|Managing your data is an essential part of the research process. In this guide, you'll find an overview of the different types and formats of data produced during a scholarly investigation, guidance for creating data management plans and complying with the requirements of funding agencies, information about metadata, and help with sharing and archiving data securely for long-term use.
+
+Materials constituting research data vary by discipline. The following are common examples:
+- Text or Word documents, spreadsheets
+- Laboratory notebooks, field notebooks, diaries
+- Questionnaires, transcripts, codebooks
+- Audiotapes, videotapes
+- Photographs, films
+- Test responses
+- Slides, artifacts, specimens, samples
+- Collection of digital objects acquired and generated during the process of research
+- Data files
+- Database contents including video, audio, text, images
+- Models, algorithms, scripts
+- Contents of an application such as input, output, log files for analysis software, simulation software, schemas
+- Methodologies and workflows
+- Standard operating procedures and protocols
+
+Image [CC BY-NC](https://creativecommons.org/licenses/by-nc/2.0/) from University of Southern California Santa Cruz ([http://guides.library.ucsc.edu/datamanagement/](http://guides.library.ucsc.edu/datamanagement/)). 
+- [Managing and Sharing Data](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf)
+- [DataONE Primer on Data Management: What you always wanted to know (but were afraid to ask)](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)
+
+[Learn more here](http://guides.library.sc.edu/rdm)
+
+2025-03-26 00:58:43.164423|user_24309|U11|help_ai|who do i contact for help with nlp|
+2025-03-26 00:58:43.164450|user_24309|B10|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:58:43.164476|user_24309|U12|kind_ai_support_library|who can help with nlp|
+2025-03-26 00:58:43.164503|user_24309|B11|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 00:58:43.164519|user_24309|U13|digital_scholarship_service_available|am interested in creating a web site. Does the Library have support for this|
+2025-03-26 00:58:43.164547|user_24309|B12|||||utter_digital_scholarship_service_available|## Digital Scholarship
+### Available Services
+Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
+
+#### Digital Scholarship
+Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
+
+[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
+
+#### Content Mining
+Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
+
+[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
+
+#### Web Hosting for Digital Projects
+Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
+
+[Web Hosting for Digital Projects](https://uofsccreate.org)
+
+#### Electronic Journal Hosting
+Create and manage an open access journal with software and support from University Libraries.
+
+[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
+
+#### Digital Collections
+Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
+
+[Digital Collections](https://sc.edu/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-26 00:58:43.164598|user_24309|U14|nlu_fallback|Who do I talked to about help with Tableau?|
+2025-03-26 00:58:43.164738|user_24309|U15|nlu_fallback|do u ghuyts have workshops|
+2025-03-26 01:01:16.427468|user_24309|U0|greet|/greet|
+2025-03-26 01:01:16.427512|user_24309|B0|||||utter_greet|Hi! How can I help you?
+2025-03-26 01:01:16.427524|user_24309|U1|help_ai|ai help|
+2025-03-26 01:01:16.427549|user_24309|B1|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:16.427563|user_24309|U2|help_ai|i need help with ai|
+2025-03-26 01:01:16.427574|user_24309|B2|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:16.427585|user_24309|U3|help_ai|i need help with artificial intelligence|
+2025-03-26 01:01:16.427595|user_24309|B3|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:16.427605|user_24309|U4|find_additional_help_nvivo|who can help me with nvivo|
+2025-03-26 01:01:16.427615|user_24309|B4|||||utter_find_additional_help_nvivo|## Where Can I Find Additional Help with NVivo?
+Find additional help with NVivo with user guides and online tutorials from University Libraries QSR International.
+
+- [NVivo Playlist from University Libraries](https://www.youtube.com/watch?v=JBRFa4bCri0&list=PLdDPdq-AmS7Sp8flZhzZ1xOKPVhkY78KL)
+- [NVivo Tutorials](https://lumivero.com/resources/support/getting-started-with-nvivo/nvivo-tutorials/?v=7516fd43adaa)
+- [NVivo User Help (Mac)](https://community.lumivero.com/s/article/TRC-About-NVivo-NVivo-14-Mac?language=en_US)
+- [NVivo User Help (PC)](https://community.lumivero.com/s/nvivo-knowledge-base?language=en_US)
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-26 01:01:16.427625|user_24309|U5|nlu_fallback|can i collaborate with someone?|
+2025-03-26 01:01:16.427677|user_24309|U6|kind_ai_support_library|ai support|
+2025-03-26 01:01:16.427689|user_24309|B5|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:16.427703|user_24309|U7|kind_ai_support_library|Collaboration on research projects available?|
+2025-03-26 01:01:16.427728|user_24309|B6|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:16.427758|user_24309|U8|contact_help_research_data|who can help with dmp|
+2025-03-26 01:01:16.427785|user_24309|B7|||||utter_contact_help_research_data|The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more. 
+
+# Contact Us
+Contact us with questions or to schedule an appointment.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
+Research Data Librarian  
+803-777-1968  
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+### Make an Appointment
+[Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.  
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-26 01:01:16.427817|user_24309|U9|instructor_schedule_class_library|Who is the chair of the Libraries Tenure Committee?"|
+2025-03-26 01:01:16.427843|user_24309|B8|||||utter_instructor_schedule_class_library|Librarians are available to teach your students information literacy and library research skills tailored to your course and assignments, both in person and online. You can use the library's online request form or email your subject librarian directly to discuss your needs and schedule sessions.
+The librarians have priority in scheduling, the library has two computer classrooms that faculty and staff can request for occasional use other than librarian-led instruction. Submit requests online.
+[Schedule Library Instruction](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/schedule_library_instruction/index.php)
+[Find My Subject Librarian](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/subject_librarian/index.php)
+[Request a Library Classroom (no librarian instruction)](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/request_classroom/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23792)
+
+2025-03-26 01:01:16.427882|user_24309|U10|research_data_management|How do I start with research data management?"|
+2025-03-26 01:01:16.427908|user_24309|B9|||||utter_research_data_management|Managing your data is an essential part of the research process. In this guide, you'll find an overview of the different types and formats of data produced during a scholarly investigation, guidance for creating data management plans and complying with the requirements of funding agencies, information about metadata, and help with sharing and archiving data securely for long-term use.
+
+Materials constituting research data vary by discipline. The following are common examples:
+- Text or Word documents, spreadsheets
+- Laboratory notebooks, field notebooks, diaries
+- Questionnaires, transcripts, codebooks
+- Audiotapes, videotapes
+- Photographs, films
+- Test responses
+- Slides, artifacts, specimens, samples
+- Collection of digital objects acquired and generated during the process of research
+- Data files
+- Database contents including video, audio, text, images
+- Models, algorithms, scripts
+- Contents of an application such as input, output, log files for analysis software, simulation software, schemas
+- Methodologies and workflows
+- Standard operating procedures and protocols
+
+Image [CC BY-NC](https://creativecommons.org/licenses/by-nc/2.0/) from University of Southern California Santa Cruz ([http://guides.library.ucsc.edu/datamanagement/](http://guides.library.ucsc.edu/datamanagement/)). 
+- [Managing and Sharing Data](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf)
+- [DataONE Primer on Data Management: What you always wanted to know (but were afraid to ask)](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)
+
+[Learn more here](http://guides.library.sc.edu/rdm)
+
+2025-03-26 01:01:16.427940|user_24309|U11|help_ai|who do i contact for help with nlp|
+2025-03-26 01:01:16.427967|user_24309|B10|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:16.427992|user_24309|U12|kind_ai_support_library|who can help with nlp|
+2025-03-26 01:01:16.428019|user_24309|B11|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:16.428053|user_24309|U13|digital_scholarship_service_available|am interested in creating a web site. Does the Library have support for this|
+2025-03-26 01:01:16.428080|user_24309|B12|||||utter_digital_scholarship_service_available|## Digital Scholarship
+### Available Services
+Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
+
+#### Digital Scholarship
+Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
+
+[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
+
+#### Content Mining
+Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
+
+[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
+
+#### Web Hosting for Digital Projects
+Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
+
+[Web Hosting for Digital Projects](https://uofsccreate.org)
+
+#### Electronic Journal Hosting
+Create and manage an open access journal with software and support from University Libraries.
+
+[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
+
+#### Digital Collections
+Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
+
+[Digital Collections](https://sc.edu/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-26 01:01:16.428096|user_24309|U14|nlu_fallback|Who do I talked to about help with Tableau?|
+2025-03-26 01:01:16.428172|user_24309|U15|nlu_fallback|do u ghuyts have workshops|
+2025-03-26 01:01:16.428286|user_24309|U16|ask_library_open|1|
+number|1|2025-03-26 01:01:16.428332|user_24309|U17|ask_library_open|1|
+number|1|2025-03-26 01:01:16.428382|user_24309|U18|ask_library_open|0|
+number|0|2025-03-26 01:01:16.428442|user_24309|U19|data_visualization_support_service|can you tell me about a tool for visualizing data|
+2025-03-26 01:01:16.428468|user_24309|B13|||||utter_data_visualization_support_service|## Data Visualization Support
+Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization.
+### Available Services
+#### Guide
+This guide provides information about the foundations of data visualization, finding data, selecting appropriate visualization types, choosing visualization tools, and additional data visualization learning resources.
+
+[https://guides.library.sc.edu/c.php?g=1316892](https://guides.library.sc.edu/c.php?g=1316892)
+
+#### Consultations
+We can help you online or in-person. Discover information and tutorials about data visualization and data vis tools. Decide on appropriate and effective visualization techniques. Consider, compare, and determine which tool(s) to use. Clean data for visualization.
+
+#### Workshops
+Learn about the foundations of data visualization, the principles that lead to effective and ineffective visualizations, and factors useful in choosing the best data visualization type and tool. Discover visualization capabilities of software tools such as Microsoft Excel, Tableau, and the R programming language.
+
+[https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0)
+
+#### Resources
+The University Libraries DataLab space is located on the 5th floor of Thomas Cooper Library near the front staircase. Available for use by registered students, faculty, and staff of the University of South Carolina, the space is designed to support data analysis and visualization activities related to University research projects.
+
+[https://guides.library.sc.edu/c.php?g=1321483](https://guides.library.sc.edu/c.php?g=1321483)
+
+# Library Workshops
+Register for free [library workshops](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/workshops/index.php) on a variety of topics.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
+
+2025-03-26 01:01:16.428508|user_24309|U20|factor_consider_selecting_data|visualization tools|
+2025-03-26 01:01:16.428535|user_24309|B14|||||utter_factor_consider_selecting_data|## Data Visualization Tools
+Selecting the appropriate data visualization tool can be challenging, given the many available options. You will want to consider: 
+- Your data : the type and amount will affect the success of the tool you use. Numerical, geospatial, or textual data may benefit from use of different tools.
+- Ease of use : based on your level of knowledge, desire to learn, and availability of time, you may find one tool more appropriate than another.
+- Tool features : each visualization tool will vary in what features they provide, how easy those features are to use, and how effective they are. Choose the tool that offers the best outcome for your particular project.
+- Cost : Some tools are free while others have associated costs. Some free versions have limitations that might impact your project.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
+
+2025-03-26 01:01:16.428560|user_24309|U21|data_visualization_software_available|visualization software tools|
+2025-03-26 01:01:16.428587|user_24309|B15|||||utter_data_visualization_software_available|## Visualization Software
+- [Tableau Public](https://public.tableau.com/app/discover) - Widely used by the business and research communities, Tableau allows users to connect, visualize, and share data powerfully and interactively, providing a wide range of tools and features for creating dynamic, interactive dashboards, charts, maps, and other visualizations. Tableau Public is free (with certain limitations) while Tableau Creator can be purchased from DoIT.
+- [Microsoft Power BI](https://powerbi.microsoft.com/en-us/) - As a member of the University, you have access to Power BI through Office 365. You can connect to various data sources, analyze data, and create interactive visualizations and reports. 
+- [Datawrapper](https://www.datawrapper.de/) - Datawrapper is an online data visualization platform. It allows users to create data visualization by simply copying and pasting data into the site. After analyzing the data, it will help you pick the visualizations.
+- [Google Data Studio/Looker Studio](https://lookerstudio.google.com/overview) - Looker Studio (formerly Google Data Studio) is an online platform allowing connection to a wide variety of data, creation of visualizations and dashboards, and sharing reports and dashboards with individuals, teams, or the world.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
+
+2025-03-26 01:01:16.428611|user_24309|U22|software_hardware_resource_available|hardware|
+2025-03-26 01:01:16.428638|user_24309|B16|||||utter_software_hardware_resource_available|# Course Support
+## Remote Access Software Request
+Complete this form to request remote access to software. 
+Required fields
+## Software and Hardware
+University Libraries provides a variety of computing resources to support the needs of students, faculty and staff for research and coursework.
+### Software Available Remotely
+The Technology Lounge can provide temporary remote access to specialized software. Fill out the Software Request form on this page to get permission and instructions.
+- Adobe Creative Cloud (including Acrobat Pro)
+- NVivo 14
+- SAS
+- SPSS Statistics 29
+- Stata 18 SE
+Due to high demand, resources are very limited and sessions are limited to 2 hours. We cannot guarantee when or if access will be available. Remote access is not a free download or software purchase. Remote access is reset at the beginning of each semester. If you no longer have access, please submit a new request. Visit the [Software section of my.sc.edu](https://my.sc.edu/software) for a list of software available for purchase through the university.
+### Software Available in the Building
+- Adobe Reader
+- Audacity
+- CDBurner XP
+- Chrome
+- Firefox
+- Internet Explorer
+- Microsoft Edge
+- GIMP
+- Google Earth
+- Microsoft Office 365
+- MBF Bioscience - Biolucida
+- Notepad++
+- Open Office
+- QuickTime
+- R
+- RStudio
+- Respondus Lockdown Browser (webcams are ONLY available in the Data Lab  – RM L516D Thomas Cooper Library )
+- VLC Media Player
+- Visual Studio Code
+- Windows DVD Maker
+- Windows Movie Maker
+- Windows Live Photo Gallery
+- Windows Media Player
+- 7-Zip
+- Adobe Creative Cloud – Computers 33-39
+- Adobe Acrobat Pro – Computers 48-63
+#### Specialized software in the DataLab on Level 5 RM L516D Thomas Cooper Library
+The University Libraries offers support for exploratory data analysis and statistics using SAS, SPSS, and NVivo software. Visit the [service webpage](https://guides.library.sc.edu/c.php?g=1335227&_gl=1*125ouzd*_ga*Njg4MTY1OTg2LjE2OTEwNzMwMjQ.*_ga_ZGG9QXHNZF*MTY5NDc5NzE1Ni43MC4xLjE2OTQ3OTcxNjkuMC4wLjA) to learn more and make an appointment
+- SPSS Statistics 29
+- SAS 9.4
+- NVivo 14
+- Tableau Public 2023
+- Power BI
+- RStudio
+- Visual Studio 2022
+- R 4.3.1
+- Python 3.10
+- ArcGIS
+- QGIS
+- Gelphi
+- Anaconda 3
+- Respondus 2 Lockdown Browser with webcam access
+- Stata 18 SE
+### Hardware Available
+Desktop workstations and printers are located in Thomas Cooper Library on the Main Level and in the Technology Lounge on Level 5.
+- Windows computers
+- Scanners for Windows
+- B&W and color printers
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
+
+2025-03-26 01:01:16.428673|user_24309|U23|nlu_fallback|swoftware avaialble|
+2025-03-26 01:01:31.861781|user_24309|U0|greet|/greet|
+2025-03-26 01:01:31.861821|user_24309|B0|||||utter_greet|Hi! How can I help you?
+2025-03-26 01:01:31.861843|user_24309|U1|help_ai|ai help|
+2025-03-26 01:01:31.861870|user_24309|B1|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:31.861904|user_24309|U2|help_ai|i need help with ai|
+2025-03-26 01:01:31.861932|user_24309|B2|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:31.861957|user_24309|U3|help_ai|i need help with artificial intelligence|
+2025-03-26 01:01:31.861984|user_24309|B3|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:31.862016|user_24309|U4|find_additional_help_nvivo|who can help me with nvivo|
+2025-03-26 01:01:31.862044|user_24309|B4|||||utter_find_additional_help_nvivo|## Where Can I Find Additional Help with NVivo?
+Find additional help with NVivo with user guides and online tutorials from University Libraries QSR International.
+
+- [NVivo Playlist from University Libraries](https://www.youtube.com/watch?v=JBRFa4bCri0&list=PLdDPdq-AmS7Sp8flZhzZ1xOKPVhkY78KL)
+- [NVivo Tutorials](https://lumivero.com/resources/support/getting-started-with-nvivo/nvivo-tutorials/?v=7516fd43adaa)
+- [NVivo User Help (Mac)](https://community.lumivero.com/s/article/TRC-About-NVivo-NVivo-14-Mac?language=en_US)
+- [NVivo User Help (PC)](https://community.lumivero.com/s/nvivo-knowledge-base?language=en_US)
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-26 01:01:31.862069|user_24309|U5|nlu_fallback|can i collaborate with someone?|
+2025-03-26 01:01:31.862185|user_24309|U6|kind_ai_support_library|ai support|
+2025-03-26 01:01:31.862213|user_24309|B5|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:31.862252|user_24309|U7|kind_ai_support_library|Collaboration on research projects available?|
+2025-03-26 01:01:31.862279|user_24309|B6|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:31.862314|user_24309|U8|contact_help_research_data|who can help with dmp|
+2025-03-26 01:01:31.862341|user_24309|B7|||||utter_contact_help_research_data|The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more. 
+
+# Contact Us
+Contact us with questions or to schedule an appointment.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
+Research Data Librarian  
+803-777-1968  
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+### Make an Appointment
+[Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.  
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-26 01:01:31.862374|user_24309|U9|instructor_schedule_class_library|Who is the chair of the Libraries Tenure Committee?"|
+2025-03-26 01:01:31.862402|user_24309|B8|||||utter_instructor_schedule_class_library|Librarians are available to teach your students information literacy and library research skills tailored to your course and assignments, both in person and online. You can use the library's online request form or email your subject librarian directly to discuss your needs and schedule sessions.
+The librarians have priority in scheduling, the library has two computer classrooms that faculty and staff can request for occasional use other than librarian-led instruction. Submit requests online.
+[Schedule Library Instruction](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/schedule_library_instruction/index.php)
+[Find My Subject Librarian](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/subject_librarian/index.php)
+[Request a Library Classroom (no librarian instruction)](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/request_classroom/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23792)
+
+2025-03-26 01:01:31.862435|user_24309|U10|research_data_management|How do I start with research data management?"|
+2025-03-26 01:01:31.862462|user_24309|B9|||||utter_research_data_management|Managing your data is an essential part of the research process. In this guide, you'll find an overview of the different types and formats of data produced during a scholarly investigation, guidance for creating data management plans and complying with the requirements of funding agencies, information about metadata, and help with sharing and archiving data securely for long-term use.
+
+Materials constituting research data vary by discipline. The following are common examples:
+- Text or Word documents, spreadsheets
+- Laboratory notebooks, field notebooks, diaries
+- Questionnaires, transcripts, codebooks
+- Audiotapes, videotapes
+- Photographs, films
+- Test responses
+- Slides, artifacts, specimens, samples
+- Collection of digital objects acquired and generated during the process of research
+- Data files
+- Database contents including video, audio, text, images
+- Models, algorithms, scripts
+- Contents of an application such as input, output, log files for analysis software, simulation software, schemas
+- Methodologies and workflows
+- Standard operating procedures and protocols
+
+Image [CC BY-NC](https://creativecommons.org/licenses/by-nc/2.0/) from University of Southern California Santa Cruz ([http://guides.library.ucsc.edu/datamanagement/](http://guides.library.ucsc.edu/datamanagement/)). 
+- [Managing and Sharing Data](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf)
+- [DataONE Primer on Data Management: What you always wanted to know (but were afraid to ask)](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)
+
+[Learn more here](http://guides.library.sc.edu/rdm)
+
+2025-03-26 01:01:31.862497|user_24309|U11|help_ai|who do i contact for help with nlp|
+2025-03-26 01:01:31.862524|user_24309|B10|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:31.862549|user_24309|U12|kind_ai_support_library|who can help with nlp|
+2025-03-26 01:01:31.862576|user_24309|B11|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:01:31.862618|user_24309|U13|digital_scholarship_service_available|am interested in creating a web site. Does the Library have support for this|
+2025-03-26 01:01:31.862645|user_24309|B12|||||utter_digital_scholarship_service_available|## Digital Scholarship
+### Available Services
+Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
+
+#### Digital Scholarship
+Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
+
+[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
+
+#### Content Mining
+Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
+
+[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
+
+#### Web Hosting for Digital Projects
+Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
+
+[Web Hosting for Digital Projects](https://uofsccreate.org)
+
+#### Electronic Journal Hosting
+Create and manage an open access journal with software and support from University Libraries.
+
+[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
+
+#### Digital Collections
+Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
+
+[Digital Collections](https://sc.edu/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-26 01:01:31.862684|user_24309|U14|nlu_fallback|Who do I talked to about help with Tableau?|
+2025-03-26 01:01:31.862807|user_24309|U15|nlu_fallback|do u ghuyts have workshops|
+2025-03-26 01:01:31.862928|user_24309|U16|ask_library_open|1|
+number|1|2025-03-26 01:01:31.862992|user_24309|U17|ask_library_open|1|
+number|1|2025-03-26 01:01:31.863051|user_24309|U18|ask_library_open|0|
+number|0|2025-03-26 01:01:31.863111|user_24309|U19|data_visualization_support_service|can you tell me about a tool for visualizing data|
+2025-03-26 01:01:31.863137|user_24309|B13|||||utter_data_visualization_support_service|## Data Visualization Support
+Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization.
+### Available Services
+#### Guide
+This guide provides information about the foundations of data visualization, finding data, selecting appropriate visualization types, choosing visualization tools, and additional data visualization learning resources.
+
+[https://guides.library.sc.edu/c.php?g=1316892](https://guides.library.sc.edu/c.php?g=1316892)
+
+#### Consultations
+We can help you online or in-person. Discover information and tutorials about data visualization and data vis tools. Decide on appropriate and effective visualization techniques. Consider, compare, and determine which tool(s) to use. Clean data for visualization.
+
+#### Workshops
+Learn about the foundations of data visualization, the principles that lead to effective and ineffective visualizations, and factors useful in choosing the best data visualization type and tool. Discover visualization capabilities of software tools such as Microsoft Excel, Tableau, and the R programming language.
+
+[https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0)
+
+#### Resources
+The University Libraries DataLab space is located on the 5th floor of Thomas Cooper Library near the front staircase. Available for use by registered students, faculty, and staff of the University of South Carolina, the space is designed to support data analysis and visualization activities related to University research projects.
+
+[https://guides.library.sc.edu/c.php?g=1321483](https://guides.library.sc.edu/c.php?g=1321483)
+
+# Library Workshops
+Register for free [library workshops](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/workshops/index.php) on a variety of topics.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
+
+2025-03-26 01:01:31.863173|user_24309|U20|factor_consider_selecting_data|visualization tools|
+2025-03-26 01:01:31.863200|user_24309|B14|||||utter_factor_consider_selecting_data|## Data Visualization Tools
+Selecting the appropriate data visualization tool can be challenging, given the many available options. You will want to consider: 
+- Your data : the type and amount will affect the success of the tool you use. Numerical, geospatial, or textual data may benefit from use of different tools.
+- Ease of use : based on your level of knowledge, desire to learn, and availability of time, you may find one tool more appropriate than another.
+- Tool features : each visualization tool will vary in what features they provide, how easy those features are to use, and how effective they are. Choose the tool that offers the best outcome for your particular project.
+- Cost : Some tools are free while others have associated costs. Some free versions have limitations that might impact your project.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
+
+2025-03-26 01:01:31.863231|user_24309|U21|data_visualization_software_available|visualization software tools|
+2025-03-26 01:01:31.863258|user_24309|B15|||||utter_data_visualization_software_available|## Visualization Software
+- [Tableau Public](https://public.tableau.com/app/discover) - Widely used by the business and research communities, Tableau allows users to connect, visualize, and share data powerfully and interactively, providing a wide range of tools and features for creating dynamic, interactive dashboards, charts, maps, and other visualizations. Tableau Public is free (with certain limitations) while Tableau Creator can be purchased from DoIT.
+- [Microsoft Power BI](https://powerbi.microsoft.com/en-us/) - As a member of the University, you have access to Power BI through Office 365. You can connect to various data sources, analyze data, and create interactive visualizations and reports. 
+- [Datawrapper](https://www.datawrapper.de/) - Datawrapper is an online data visualization platform. It allows users to create data visualization by simply copying and pasting data into the site. After analyzing the data, it will help you pick the visualizations.
+- [Google Data Studio/Looker Studio](https://lookerstudio.google.com/overview) - Looker Studio (formerly Google Data Studio) is an online platform allowing connection to a wide variety of data, creation of visualizations and dashboards, and sharing reports and dashboards with individuals, teams, or the world.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
+
+2025-03-26 01:01:31.863290|user_24309|U22|software_hardware_resource_available|hardware|
+2025-03-26 01:01:31.863318|user_24309|B16|||||utter_software_hardware_resource_available|# Course Support
+## Remote Access Software Request
+Complete this form to request remote access to software. 
+Required fields
+## Software and Hardware
+University Libraries provides a variety of computing resources to support the needs of students, faculty and staff for research and coursework.
+### Software Available Remotely
+The Technology Lounge can provide temporary remote access to specialized software. Fill out the Software Request form on this page to get permission and instructions.
+- Adobe Creative Cloud (including Acrobat Pro)
+- NVivo 14
+- SAS
+- SPSS Statistics 29
+- Stata 18 SE
+Due to high demand, resources are very limited and sessions are limited to 2 hours. We cannot guarantee when or if access will be available. Remote access is not a free download or software purchase. Remote access is reset at the beginning of each semester. If you no longer have access, please submit a new request. Visit the [Software section of my.sc.edu](https://my.sc.edu/software) for a list of software available for purchase through the university.
+### Software Available in the Building
+- Adobe Reader
+- Audacity
+- CDBurner XP
+- Chrome
+- Firefox
+- Internet Explorer
+- Microsoft Edge
+- GIMP
+- Google Earth
+- Microsoft Office 365
+- MBF Bioscience - Biolucida
+- Notepad++
+- Open Office
+- QuickTime
+- R
+- RStudio
+- Respondus Lockdown Browser (webcams are ONLY available in the Data Lab  – RM L516D Thomas Cooper Library )
+- VLC Media Player
+- Visual Studio Code
+- Windows DVD Maker
+- Windows Movie Maker
+- Windows Live Photo Gallery
+- Windows Media Player
+- 7-Zip
+- Adobe Creative Cloud – Computers 33-39
+- Adobe Acrobat Pro – Computers 48-63
+#### Specialized software in the DataLab on Level 5 RM L516D Thomas Cooper Library
+The University Libraries offers support for exploratory data analysis and statistics using SAS, SPSS, and NVivo software. Visit the [service webpage](https://guides.library.sc.edu/c.php?g=1335227&_gl=1*125ouzd*_ga*Njg4MTY1OTg2LjE2OTEwNzMwMjQ.*_ga_ZGG9QXHNZF*MTY5NDc5NzE1Ni43MC4xLjE2OTQ3OTcxNjkuMC4wLjA) to learn more and make an appointment
+- SPSS Statistics 29
+- SAS 9.4
+- NVivo 14
+- Tableau Public 2023
+- Power BI
+- RStudio
+- Visual Studio 2022
+- R 4.3.1
+- Python 3.10
+- ArcGIS
+- QGIS
+- Gelphi
+- Anaconda 3
+- Respondus 2 Lockdown Browser with webcam access
+- Stata 18 SE
+### Hardware Available
+Desktop workstations and printers are located in Thomas Cooper Library on the Main Level and in the Technology Lounge on Level 5.
+- Windows computers
+- Scanners for Windows
+- B&W and color printers
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
+
+2025-03-26 01:01:31.863397|user_24309|U23|nlu_fallback|swoftware avaialble|
+2025-03-26 01:01:31.863483|user_24309|U24|student_success_center_peer|student success center|
+2025-03-26 01:01:31.863507|user_24309|B17|||||utter_student_success_center_peer|The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library). Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+2025-03-26 01:01:31.863531|user_24309|U25|nlu_fallback|SSc|
+2025-03-26 01:02:06.963304|user_24309|U0|greet|/greet|
+2025-03-26 01:02:06.963345|user_24309|B0|||||utter_greet|Hi! How can I help you?
+2025-03-26 01:02:06.963367|user_24309|U1|help_ai|ai help|
+2025-03-26 01:02:06.963380|user_24309|B1|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:02:06.963393|user_24309|U2|help_ai|i need help with ai|
+2025-03-26 01:02:06.963404|user_24309|B2|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:02:06.963414|user_24309|U3|help_ai|i need help with artificial intelligence|
+2025-03-26 01:02:06.963425|user_24309|B3|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:02:06.963434|user_24309|U4|find_additional_help_nvivo|who can help me with nvivo|
+2025-03-26 01:02:06.963445|user_24309|B4|||||utter_find_additional_help_nvivo|## Where Can I Find Additional Help with NVivo?
+Find additional help with NVivo with user guides and online tutorials from University Libraries QSR International.
+
+- [NVivo Playlist from University Libraries](https://www.youtube.com/watch?v=JBRFa4bCri0&list=PLdDPdq-AmS7Sp8flZhzZ1xOKPVhkY78KL)
+- [NVivo Tutorials](https://lumivero.com/resources/support/getting-started-with-nvivo/nvivo-tutorials/?v=7516fd43adaa)
+- [NVivo User Help (Mac)](https://community.lumivero.com/s/article/TRC-About-NVivo-NVivo-14-Mac?language=en_US)
+- [NVivo User Help (PC)](https://community.lumivero.com/s/nvivo-knowledge-base?language=en_US)
+
+[Learn more here](https://guides.library.sc.edu/nvivo)
+
+2025-03-26 01:02:06.963465|user_24309|U5|nlu_fallback|can i collaborate with someone?|
+2025-03-26 01:02:06.963536|user_24309|U6|kind_ai_support_library|ai support|
+2025-03-26 01:02:06.963548|user_24309|B5|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:02:06.963615|user_24309|U7|kind_ai_support_library|Collaboration on research projects available?|
+2025-03-26 01:02:06.963642|user_24309|B6|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:02:06.963676|user_24309|U8|contact_help_research_data|who can help with dmp|
+2025-03-26 01:02:06.963703|user_24309|B7|||||utter_contact_help_research_data|The University Libraries provide support throughout the research data lifecycle, including assistance with data management plans, finding open datasets, data sharing, metadata, and more. 
+
+# Contact Us
+Contact us with questions or to schedule an appointment.
+
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
+Research Data Librarian  
+803-777-1968  
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+
+### Make an Appointment
+[Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.  
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
+
+2025-03-26 01:02:06.963715|user_24309|U9|instructor_schedule_class_library|Who is the chair of the Libraries Tenure Committee?"|
+2025-03-26 01:02:06.963727|user_24309|B8|||||utter_instructor_schedule_class_library|Librarians are available to teach your students information literacy and library research skills tailored to your course and assignments, both in person and online. You can use the library's online request form or email your subject librarian directly to discuss your needs and schedule sessions.
+The librarians have priority in scheduling, the library has two computer classrooms that faculty and staff can request for occasional use other than librarian-led instruction. Submit requests online.
+[Schedule Library Instruction](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/schedule_library_instruction/index.php)
+[Find My Subject Librarian](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/subject_librarian/index.php)
+[Request a Library Classroom (no librarian instruction)](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/request_classroom/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23792)
+
+2025-03-26 01:02:06.963751|user_24309|U10|research_data_management|How do I start with research data management?"|
+2025-03-26 01:02:06.963777|user_24309|B9|||||utter_research_data_management|Managing your data is an essential part of the research process. In this guide, you'll find an overview of the different types and formats of data produced during a scholarly investigation, guidance for creating data management plans and complying with the requirements of funding agencies, information about metadata, and help with sharing and archiving data securely for long-term use.
+
+Materials constituting research data vary by discipline. The following are common examples:
+- Text or Word documents, spreadsheets
+- Laboratory notebooks, field notebooks, diaries
+- Questionnaires, transcripts, codebooks
+- Audiotapes, videotapes
+- Photographs, films
+- Test responses
+- Slides, artifacts, specimens, samples
+- Collection of digital objects acquired and generated during the process of research
+- Data files
+- Database contents including video, audio, text, images
+- Models, algorithms, scripts
+- Contents of an application such as input, output, log files for analysis software, simulation software, schemas
+- Methodologies and workflows
+- Standard operating procedures and protocols
+
+Image [CC BY-NC](https://creativecommons.org/licenses/by-nc/2.0/) from University of Southern California Santa Cruz ([http://guides.library.ucsc.edu/datamanagement/](http://guides.library.ucsc.edu/datamanagement/)). 
+- [Managing and Sharing Data](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf)
+- [DataONE Primer on Data Management: What you always wanted to know (but were afraid to ask)](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf)
+
+[Learn more here](http://guides.library.sc.edu/rdm)
+
+2025-03-26 01:02:06.963807|user_24309|U11|help_ai|who do i contact for help with nlp|
+2025-03-26 01:02:06.963834|user_24309|B10|||||utter_help_ai|### Contact
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)
+
+### Make an Appointment
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:02:06.963858|user_24309|U12|kind_ai_support_library|who can help with nlp|
+2025-03-26 01:02:06.963885|user_24309|B11|||||utter_kind_ai_support_library|#### Research Project Collaboration
+- Collaborating on interdisciplinary research projects that require AI or data science expertise.
+- Assist in using other library digital services such as data management and visualization.
+
+
+## AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects. You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+
+#### Guides
+- [Welcome to the world of Artificial Intelligence (AI):](https://guides.library.sc.edu/welcome-to-the-world-of-ai)This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources:](https://guides.library.sc.edu/c.php?g=1353979)A starting point for information about AI, Generative AI, and more.
+- [Text Analysis:](https://guides.library.sc.edu/text-analysis)Find tools and information about TDM or text mining and analysis.
+
+#### Artificial Intelligence Institute at USC
+- [The Artificial Intelligence Institute](https://aiisc.ai/)
+
+#### Consultations (online / in-person) Assisting in the development, training, and validation of machine learning models for research projects such as:
+- Natural Language Processing (NLP): Supporting text analysis and NLP projects, including sentiment analysis, topic modeling, and classification.
+- TIme-Series data analysis and forecasting.
+- Software and tools: Provide guidance on the different AI softwares and tools and their applications.
+
+##### Disclaimer
+The University Libraries recognizes the areas of AI and Generative AI are currently in a state of rapid development and change. While we attempt to maintain currency with information provided, please appreciate there will likely be instances where our published information in this guide is out of date. Contact us and we'll do our best to update.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+
+2025-03-26 01:02:06.963918|user_24309|U13|digital_scholarship_service_available|am interested in creating a web site. Does the Library have support for this|
+2025-03-26 01:02:06.963945|user_24309|B12|||||utter_digital_scholarship_service_available|## Digital Scholarship
+### Available Services
+Thinking about creating a digital project? Wondering how to start text mining? See our resources below and schedule an appointment to get started.
+
+#### Digital Scholarship
+Use our guide to discover techniques and practical tools for participating in digital scholarship and to learn how the library can help.
+
+[Digital Scholarship](https://guides.library.sc.edu/digitalscholarship)
+
+#### Content Mining
+Contact Kate Boyd for assistance with tools to enable text or image mining or to locate content that is available for mining.
+
+[Content Mining](https://guides.library.sc.edu/c.php?g=1341033)
+
+#### Web Hosting for Digital Projects
+Create Digital offers free web hosting and personalized subdomains for digital projects to faculty and graduate students. Install web platforms such as Wordpress, Omeka, or Scalar with one click.
+
+[Web Hosting for Digital Projects](https://uofsccreate.org)
+
+#### Electronic Journal Hosting
+Create and manage an open access journal with software and support from University Libraries.
+
+[Electronic Journal Hosting](https://guides.library.sc.edu/scholarcommons/new)
+
+#### Digital Collections
+Digital Collections department scans rare, unique, and fragile items held by University Libraries and publishes them online for researchers on campus and around the world.
+
+[Digital Collections](https://sc.edu/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-03-26 01:02:06.963960|user_24309|U14|nlu_fallback|Who do I talked to about help with Tableau?|
+2025-03-26 01:02:06.964047|user_24309|U15|nlu_fallback|do u ghuyts have workshops|
+2025-03-26 01:02:06.964122|user_24309|U16|ask_library_open|1|
+number|1|2025-03-26 01:02:06.964145|user_24309|U17|ask_library_open|1|
+number|1|2025-03-26 01:02:06.964180|user_24309|U18|ask_library_open|0|
+number|0|2025-03-26 01:02:06.964229|user_24309|U19|data_visualization_support_service|can you tell me about a tool for visualizing data|
+2025-03-26 01:02:06.964255|user_24309|B13|||||utter_data_visualization_support_service|## Data Visualization Support
+Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization.
+### Available Services
+#### Guide
+This guide provides information about the foundations of data visualization, finding data, selecting appropriate visualization types, choosing visualization tools, and additional data visualization learning resources.
+
+[https://guides.library.sc.edu/c.php?g=1316892](https://guides.library.sc.edu/c.php?g=1316892)
+
+#### Consultations
+We can help you online or in-person. Discover information and tutorials about data visualization and data vis tools. Decide on appropriate and effective visualization techniques. Consider, compare, and determine which tool(s) to use. Clean data for visualization.
+
+#### Workshops
+Learn about the foundations of data visualization, the principles that lead to effective and ineffective visualizations, and factors useful in choosing the best data visualization type and tool. Discover visualization capabilities of software tools such as Microsoft Excel, Tableau, and the R programming language.
+
+[https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0](https://libcal.library.sc.edu/calendar/workshops?cid=16861&t=g&d=0000-00-00&cal=16861&inc=0)
+
+#### Resources
+The University Libraries DataLab space is located on the 5th floor of Thomas Cooper Library near the front staircase. Available for use by registered students, faculty, and staff of the University of South Carolina, the space is designed to support data analysis and visualization activities related to University research projects.
+
+[https://guides.library.sc.edu/c.php?g=1321483](https://guides.library.sc.edu/c.php?g=1321483)
+
+# Library Workshops
+Register for free [library workshops](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/workshops/index.php) on a variety of topics.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
+
+2025-03-26 01:02:06.964292|user_24309|U20|factor_consider_selecting_data|visualization tools|
+2025-03-26 01:02:06.964305|user_24309|B14|||||utter_factor_consider_selecting_data|## Data Visualization Tools
+Selecting the appropriate data visualization tool can be challenging, given the many available options. You will want to consider: 
+- Your data : the type and amount will affect the success of the tool you use. Numerical, geospatial, or textual data may benefit from use of different tools.
+- Ease of use : based on your level of knowledge, desire to learn, and availability of time, you may find one tool more appropriate than another.
+- Tool features : each visualization tool will vary in what features they provide, how easy those features are to use, and how effective they are. Choose the tool that offers the best outcome for your particular project.
+- Cost : Some tools are free while others have associated costs. Some free versions have limitations that might impact your project.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
+
+2025-03-26 01:02:06.964329|user_24309|U21|data_visualization_software_available|visualization software tools|
+2025-03-26 01:02:06.964355|user_24309|B15|||||utter_data_visualization_software_available|## Visualization Software
+- [Tableau Public](https://public.tableau.com/app/discover) - Widely used by the business and research communities, Tableau allows users to connect, visualize, and share data powerfully and interactively, providing a wide range of tools and features for creating dynamic, interactive dashboards, charts, maps, and other visualizations. Tableau Public is free (with certain limitations) while Tableau Creator can be purchased from DoIT.
+- [Microsoft Power BI](https://powerbi.microsoft.com/en-us/) - As a member of the University, you have access to Power BI through Office 365. You can connect to various data sources, analyze data, and create interactive visualizations and reports. 
+- [Datawrapper](https://www.datawrapper.de/) - Datawrapper is an online data visualization platform. It allows users to create data visualization by simply copying and pasting data into the site. After analyzing the data, it will help you pick the visualizations.
+- [Google Data Studio/Looker Studio](https://lookerstudio.google.com/overview) - Looker Studio (formerly Google Data Studio) is an online platform allowing connection to a wide variety of data, creation of visualizations and dashboards, and sharing reports and dashboards with individuals, teams, or the world.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
+
+2025-03-26 01:02:06.964387|user_24309|U22|software_hardware_resource_available|hardware|
+2025-03-26 01:02:06.964415|user_24309|B16|||||utter_software_hardware_resource_available|# Course Support
+## Remote Access Software Request
+Complete this form to request remote access to software. 
+Required fields
+## Software and Hardware
+University Libraries provides a variety of computing resources to support the needs of students, faculty and staff for research and coursework.
+### Software Available Remotely
+The Technology Lounge can provide temporary remote access to specialized software. Fill out the Software Request form on this page to get permission and instructions.
+- Adobe Creative Cloud (including Acrobat Pro)
+- NVivo 14
+- SAS
+- SPSS Statistics 29
+- Stata 18 SE
+Due to high demand, resources are very limited and sessions are limited to 2 hours. We cannot guarantee when or if access will be available. Remote access is not a free download or software purchase. Remote access is reset at the beginning of each semester. If you no longer have access, please submit a new request. Visit the [Software section of my.sc.edu](https://my.sc.edu/software) for a list of software available for purchase through the university.
+### Software Available in the Building
+- Adobe Reader
+- Audacity
+- CDBurner XP
+- Chrome
+- Firefox
+- Internet Explorer
+- Microsoft Edge
+- GIMP
+- Google Earth
+- Microsoft Office 365
+- MBF Bioscience - Biolucida
+- Notepad++
+- Open Office
+- QuickTime
+- R
+- RStudio
+- Respondus Lockdown Browser (webcams are ONLY available in the Data Lab  – RM L516D Thomas Cooper Library )
+- VLC Media Player
+- Visual Studio Code
+- Windows DVD Maker
+- Windows Movie Maker
+- Windows Live Photo Gallery
+- Windows Media Player
+- 7-Zip
+- Adobe Creative Cloud – Computers 33-39
+- Adobe Acrobat Pro – Computers 48-63
+#### Specialized software in the DataLab on Level 5 RM L516D Thomas Cooper Library
+The University Libraries offers support for exploratory data analysis and statistics using SAS, SPSS, and NVivo software. Visit the [service webpage](https://guides.library.sc.edu/c.php?g=1335227&_gl=1*125ouzd*_ga*Njg4MTY1OTg2LjE2OTEwNzMwMjQ.*_ga_ZGG9QXHNZF*MTY5NDc5NzE1Ni43MC4xLjE2OTQ3OTcxNjkuMC4wLjA) to learn more and make an appointment
+- SPSS Statistics 29
+- SAS 9.4
+- NVivo 14
+- Tableau Public 2023
+- Power BI
+- RStudio
+- Visual Studio 2022
+- R 4.3.1
+- Python 3.10
+- ArcGIS
+- QGIS
+- Gelphi
+- Anaconda 3
+- Respondus 2 Lockdown Browser with webcam access
+- Stata 18 SE
+### Hardware Available
+Desktop workstations and printers are located in Thomas Cooper Library on the Main Level and in the Technology Lounge on Level 5.
+- Windows computers
+- Scanners for Windows
+- B&W and color printers
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
+
+2025-03-26 01:02:06.964458|user_24309|U23|nlu_fallback|swoftware avaialble|
+2025-03-26 01:02:06.964528|user_24309|U24|student_success_center_peer|student success center|
+2025-03-26 01:02:06.964539|user_24309|B17|||||utter_student_success_center_peer|The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library). Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+2025-03-26 01:02:06.964564|user_24309|U25|nlu_fallback|SSc|
+2025-03-26 01:02:06.964637|user_24309|U26|attribute_ai_research|how do i cite chatgpt|
+2025-03-26 01:02:06.964662|user_24309|B18|||||utter_attribute_ai_research|## AI Attribution
+According to the [APA official blog](https://apastyle.apa.org/blog/how-to-cite-chatgpt), if using AI for editing, data visualization, or other uses, the user should attribute it in the following ways:
+- Reference the use and the scenario in the Introduction or Methods section of your paper
+- If you are quoting from an AI tool directly, provide the prompt and any text quotedSee[Parenthetical Citation](https://sc.libapps.com/libguides/admin_c.php?g=1370928&p=10133636#s-lg-box-31978749)or[Narrative Citation](https://sc.libapps.com/libguides/admin_c.php?g=1370928&p=10133636#s-lg-box-31978750)for examples
+- Include a citation in the Reference section or Sources Cited section of the paperSee the[Reference List](https://sc.libapps.com/libguides/admin_c.php?g=1370928&p=10133636#s-lg-box-31978756)section for an example
+
+## APA 7: Parenthetical citation
+(Company, Year). 
+## APA 7: Narrative citation
+Company (Year)
+, the most recurring ideas were the following: librarians are teachers of information and literacy skills, internal and external collaborators, and scholars within their field. 
+## APA 7: Reference List
+Company. (Year accessed). Program (Month Day version) [Large language model]. https://chat.openai.com/chat.
+ OpenAI. (2023). ChatGPT (May 18 version) [Large language model]. https://chat.openai.com/chat.
+
+## Additional Resources
+- [](https://pascal-usc.primo.exlibrisgroup.com/permalink/01PASCAL_USCCOL/ena7hp/alma991010453089705618)
+- [American Psychological Association (APA) 7th ed.](https://guides.library.sc.edu/citation/apa)
+- [How to cite ChatGPT by the APA Style Blog](https://apastyle.apa.org/blog/how-to-cite-chatgpt)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1370928&p=10133636)
+
+2025-03-26 01:02:06.964696|user_24309|U27|cite_ai_manuscript|how do i cite an ai|
+2025-03-26 01:02:06.964722|user_24309|B19|||||utter_cite_ai_manuscript|## Citing AI
+If you are permitted to use AI in the development of your manuscript, you will need to cite the use of the tool. Citation standards are are still developing and evolving, so be sure to check the appropriate citation guide for guidance. You can visit the Libraries' guide to citation basics for general information, or explore the resources below for statements from MLA, APA, and Chicago.
+- [Citation Basics](https://guides.library.sc.edu/citation)
+- [How Do I Cite Generative AI in MLA Style?](https://style.mla.org/citing-generative-ai/)
+- [APA Style - How to Cite ChatGPT](https://apastyle.apa.org/blog/how-to-cite-chatgpt)
+- [Chicago Manual of Style - Citation, Documentation of Sources](https://www.chicagomanualofstyle.org/qanda/data/faq/topics/Documentation/faq0422.html)
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10052763)
+
+2025-03-26 01:02:06.964746|user_24309|U28|nlu_fallback|whats going on w ccopyright|

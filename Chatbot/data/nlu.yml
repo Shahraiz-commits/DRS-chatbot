@@ -35,6 +35,7 @@ nlu:
     - Tell me how to steal a book
 - intent: help_digital_tool
   examples: |-
+    - I need help in text mining
     - who can help me with digital tools?
     - How can I learn digital tools?
     - How can I get started with digital tools?
@@ -3077,6 +3078,7 @@ nlu:
     - Can I borrow a laptop from the library?
     - Laptop checkout?
     - Where can I find laptops to borrow?
+    - do you guys have a laptop i can use for a bit
     - How long can I keep a borrowed laptop?
     - What happens if I don't return a library laptop on time?
     - Library laptop late fee?
@@ -3101,8 +3103,6 @@ nlu:
 - intent: library_provide_access_covidence
   examples: |-
     - Does the library provide access to Covidence for managing systematic reviews?
-    - Does the library have access to Covidence for managing systematic reviews?
-    - Does the library offer access to Covidence for managing systematic reviews?
     - How do I access Covidence at USC?
     - What is Covidence and how can I use it?
     - USC covidence login
@@ -3473,7 +3473,7 @@ nlu:
     - what hardware does the library have
     - can i use lib computers for gaming
 - intent: find_subjectspecific_data_statistic
-  examples: |
+  examples: |-
     - Where can I find subject-specific statistics?
     - subject-specific data
     - Where can I find statistics for my research?
@@ -3504,6 +3504,7 @@ nlu:
     - existing data for research projects
     - Where do I start looking for data?
     - Need data for visualization project
+    - how do i get new data
 - intent: kind_research_support_university
   examples: |
     - What kind of research support does the library have?
@@ -3671,6 +3672,7 @@ nlu:
     - data visualization tutorial usc
     - Can attending data vis sessions count towards my course credits?
     - How can instructors use data visualization in their classes?
+    - Are there workshops on data viz in the Libraries?
 - intent: difference_data_statistic
   examples: |-
     - What is the difference between data and statistics?
@@ -3814,6 +3816,7 @@ nlu:
     - How does NVivo auto-code feature work?
     - is there a way to classify speakers automatically in nvivo?
     - autocoding data files with nvivo, what are the steps?
+    - n vivo coding tips
 - intent: use_case_nvivo
   examples: |-
     - How do I use cases in NVivo?
@@ -4542,6 +4545,7 @@ nlu:
     - can you tell me about google data studio?
     - what data viz software is free for students?
     - does office 365 include power bi?
+    - do you guys have software for visualizing something
 - intent: programming_language_use_data
   examples: |-
     - What programming languages can I use for data visualization?
@@ -5085,6 +5089,7 @@ nlu:
     - whats metadata in research and why do i need it?
     - Got any tips on creating a solid data management plan?
     - Can you explain research data formats to me?
+    - I need help organizing my data
 - intent: tool_resource_available_research
   examples: |-
     - What tools and resources are available for Research Data Management?
@@ -5122,6 +5127,9 @@ nlu:
     - who can help me with DMPtool
     - who do i contact for help with data management plan
     - who is stacy
+    - Who do I talk to for data management help?
+    - dmp help
+    - data management help
     - library contact info
     - Need help with research, who do I call?
     - Who is the Research Data Librarian?
@@ -5178,6 +5186,8 @@ nlu:
     - Whats covered in data management plans?
     - Can you list the components of a DMP?
     - parts of a datamanagement plan
+    - dmp stuff
+    - dmp
 - intent: resource_available_writing_data
   examples: |-
     - What resources are available for writing a Data Management Plan (DMP)?
@@ -5284,7 +5294,7 @@ nlu:
     - I'm looking for options to store my data
     - Do I need to register my research project?
 - intent: option_available_longterm_archiving
-  examples: |
+  examples: |-
     - How can I share my research data with others?
     - How do I share my research data?
     - How do I share research data at USC?
@@ -5322,6 +5332,7 @@ nlu:
     - usc library research data storage
     - Is there a disciplinary repository for my field of study?
     - does the university have a data repo
+    - do u guys have a data repo i can use
 - intent: cite_dataset
   examples: |-
     - How do I cite a dataset?
@@ -5814,7 +5825,7 @@ nlu:
     - Faculty training sessions - where do i sign up?
     - whats da deal w/ CTE workshops?
 - intent: kind_ai_support_library
-  examples: |
+  examples: |-
     - Is there an Artificial Intelligence Institute at USC?
     - AI institute
     - What is the AI institute at USC?
@@ -5895,6 +5906,7 @@ nlu:
     - Need help with data science project
     - Who can I work with on my research project?
     - Data analysis support at USC library
+    - What king of AI support is in the library
 - intent: workshop_available_ai_data
   examples: |-
     - What workshops are available for AI and data science?
@@ -5923,7 +5935,7 @@ nlu:
     - ai literacy course available?
     - got any info on machine learning tutorials?
 - intent: help_ai
-  examples: |
+  examples: |-
     - Who can help me with AI?
     - How can I learn AI?
     - Who can help me to learn AI?
@@ -5956,6 +5968,7 @@ nlu:
     - Can I contact Vandana for data help?
     - usc ai specialist phone number
     - Where do I go for data science support?
+    - I need help in AI
 - intent: artificial_intelligence
   examples: |-
     - What is Artificial Intelligence?
@@ -6483,7 +6496,7 @@ nlu:
     - USC subscription to hathitrust?
     - Can anyone use HathiTrust Research Center?
 - intent: advanced_text_analysis_tool
-  examples: |
+  examples: |-
     - What advanced text analysis tools are available?
     - best text analysis software
     - tools for analyzing text
@@ -6518,6 +6531,7 @@ nlu:
     - Data cleaning tutorials usc
     - Where can I learn about regular expressions?
     - usc library regex guide
+    - Google Colab
 - intent: freely_available_corpus_text
   examples: |-
     - What are some freely available corpora for text mining and analysis?
@@ -8665,6 +8679,7 @@ nlu:
     - What timeline tools are available?
     - Tell me the best timeline tool?
     - Tell me the best timeline tool available?
+    - I need help with creating a timeline for my web site
     - What tools can I use to create a timeline?
     - Timeline creation software?
     - Are there any free timeline tools?
@@ -8719,6 +8734,7 @@ nlu:
     - Best mapping tool 4 beginners?
     - whats a good tool fer location based data analysis?
     - Are there any mapping tools avail w/ mobile apps?
+    - QGIS
 - intent: web_scraper_available
   examples: |-
     - What web scrapers are available?
