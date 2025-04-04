@@ -73,7 +73,7 @@ def chat_with_model(token, system_prompt,input_prompt):
         return llm_response
     else:
         print(f"Error: {response.status_code} - {response.text}")
-        
+
 page_count = 0
 questions_count = 0
 sys_prompt2 ="""
@@ -88,7 +88,7 @@ You will be given some training examples for training a chatbot. Your task is to
     ]
 }
 """
-
+"""
 with open("../Chatbot/data/nlu.yml", "r", encoding="utf-8") as file:
     data = yaml.safe_load(file)
 
@@ -116,3 +116,4 @@ for intent_data in data["nlu"]:
     configure_nlu("modify", intent, new_examples)
     print(f"\n-------------CONFIGURED QUESTIONS FOR INTENT # {questions_count} : {intent}---------------------\n{new_examples}")
 
+"""

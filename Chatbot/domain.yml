@@ -187,7 +187,6 @@ intents:
 - interlibrary_loan_access_it
 - introductory_tool_text_analysis
 - i’m_outside_united_state
-- key_term_related_machine
 - kind_ai_support_library
 - kind_data_analysis_statistic
 - kind_guidance_expect_online
@@ -2735,8 +2734,10 @@ responses:
       ## Online Data Management Educational Resources
       - [DataOne Research Data Management Education Modules](https://www.dataone.org/training/)  
         DataONE is a platform for sharing environmental and ecological data. The DataONE Research Data Management Education Modules provide guidance on many concepts.
-      - [MANTRA](https://mantra.ed.ac.uk/)\n\n[Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4581796)  
+      - [MANTRA](https://mantra.ed.ac.uk/)
         A free online data management course from the University of Edinburgh that provides modules geared toward Research Students, Career Researchers, Senior Academics, and Information Professionals.
+  
+        [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4581796)  
   utter_happens_article_resulting_accepted:
   - text: |
       Statistically significant findings are more likely to be published. Because of bias and [manipulability in data analysis](https://login.pallas2.tcl.sc.edu/login?url=https://journals.sagepub.com/doi/full/10.1177/2515245917747646), much of the research published in journals is irreproducible.  
@@ -2943,37 +2944,24 @@ responses:
       AI system: Recommend songs to EVERYONE based on number of copies sold, top 10 in Billboard list, Grammy award winners, etc.
       ML system: Recommend songs to each INDIVIDUAL based on previous songs played, other people with similar playlist, choice of singer, genre, etc.
       When using Machine Learning, Neural Networks, or Deep Learning, it is important to know the meaning of the following terms:
-      - Refers to a specific problem or objective that the algorithm is designed to solve.
-      - Set of rules that a machine follows to achieve a particular goal or the steps needed to get from the inputs to the output.
-      - Observed/measured properties or characteristics of the data that are used as input to create a model.
-      - : Variable whose value isorby the features; used in supervised learning.
-      - It is theorof the target variable. If only 2 labels (such as 0 or 1, yes/no, hot/warm/cold).
-      - Subset of data on which the model is initially trained.
-      - Subset of data (distinct from training) that is used by the model to predict output and validate the model.
-      - Subset of data (different from training and validation) on which model is tested.
+      - **Task**: Refers to a specific problem or objective that the algorithm is designed to solve.
+      - **Algorithm**: Set of rules that a machine follows to achieve a particular goal or the steps needed to get from the inputs to the output.
+      - **Features (attributes or variables)**: Observed/measured properties or characteristics of the data that are used as input to create a model.
+      - **Target**: Variable whose value isorby the features; used in supervised learning.
+      - **Label**: It is the category of the target variable. If only 2 labels (such as 0 or 1, yes/no, hot/warm/cold).
+      - **Training set**: Subset of data on which the model is initially trained.
+      - **Validation set**: Subset of data (distinct from training) that is used by the model to predict output and validate the model.
+      - **Test set**: Subset of data (different from training and validation) on which model is tested.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1430013&p=10626775)
   utter_different_type_machine_learning:
   - text: |
       ## What are the different types of Machine Learning?
       There are 4 major types of ML problems:
-      - Used for tasks where the target variable has defined labels or values.The target variable has 2 labels (binary class classification) or more (multiclass classification). For example:Whether USA will win or lose a match (binary).Gmail classifying email in classes like social, promotion, updates, or spam (multiclass).The output is numeric and has a continuous value and the task is to predict a value as closer to the actual output value. For example predict stock price of a stock.
-      - Used for tasks where the target variable or output has no defined labels and hidden patterns in the data are discovered without human intervention.Discovering the inherent groupings in the data such as grouping customers by their purchasing behavior.Discover rules that describe large portions of the data, such as people that buy X also tend to buy Y
-      - This is a hybrid technique between supervised and unsupervised learning, utilizing both labeled and unlabeled data.
-      - Learning happens by taking suitable action to maximize reward in a particular situation. It is employed by various software and machines to find the best possible behavior or path to take in a specific situation. If there is no training data, it is bound to learn from its experience. Reward is defined by the experts.
-      Figure (2) gives the example of  supervised and unsupervised Learning.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1430013&p=10626775)
-  utter_key_term_related_machine:
-  - text: |
-      - Refers to a specific problem or objective that the algorithm is designed to solve.
-      - Set of rules that a machine follows to achieve a particular goal or the steps needed to get from the inputs to the output.
-      - Observed/measured properties or characteristics of the data that are used as input to create a model.
-      - : Variable whose value isorby the features; used in supervised learning.
-      - It is theorof the target variable. If only 2 labels (such as 0 or 1, yes/no, hot/warm/cold).
-      - Subset of data on which the model is initially trained.
-      - Subset of data (distinct from training) that is used by the model to predict output and validate the model.
-      - Subset of data (different from training and validation) on which model is tested.
+      - **Supervised learning** is used for tasks where the target variable has defined labels or values.The target variable has 2 labels (binary class classification) or more (multiclass classification). For example: Whether USA will win or lose a match (binary).Gmail classifying email in classes like social, promotion, updates, or spam (multiclass).The output is numeric and has a continuous value and the task is to predict a value as closer to the actual output value. For example predict stock price of a stock.
+      - **Unsupervised learning** is used for tasks where the target variable or output has no defined labels and hidden patterns in the data are discovered without human intervention.Discovering the inherent groupings in the data such as grouping customers by their purchasing behavior.Discover rules that describe large portions of the data, such as people that buy X also tend to buy Y
+      - **Semi-supervised learning** is is a hybrid technique between supervised and unsupervised learning, utilizing both labeled and unlabeled data.
+      - **Reinforcement learning** happens by taking suitable action to maximize reward in a particular situation. It is employed by various software and machines to find the best possible behavior or path to take in a specific situation. If there is no training data, it is bound to learn from its experience. Reward is defined by the experts.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1430013&p=10626775)
   utter_news_event_related_ai:

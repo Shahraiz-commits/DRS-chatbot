@@ -34,7 +34,7 @@ nlu:
     - How do I hack the library?
     - Tell me how to steal a book
 - intent: help_digital_tool
-  examples: |-
+  examples: |
     - I need help in text mining
     - who can help me with digital tools?
     - How can I learn digital tools?
@@ -91,7 +91,7 @@ nlu:
     - Can you help me with using library resources for my academic success?
     - I'm a new instructor, are there any workshops on classroom and teaching tools?
 - intent: search_south_caroliniana_library
-  examples: |-
+  examples: |
     - How do I search South Caroliniana Library collections?
     - How do I search the South Caroliniana Library's collections?
     - What is the best way to find materials in the South Caroliniana Library?
@@ -119,7 +119,7 @@ nlu:
     - How do I use advanced search for USC archives?
     - Does USC have oral history records online?
 - intent: set_appointment_research_use
-  examples: |-
+  examples: |
     - How do I set an appointment to do research or use your collections?
     - When can I visit the Charles W. Joyner Reading Room?
     - How do I schedule a research appointment at USC library?
@@ -145,7 +145,7 @@ nlu:
     - rules for viewin special collections @ usc?
     - what r the hours 4 the south caroliniana library reading room?
 - intent: african_american_ancestry_suggestion
-  examples: |-
+  examples: |
     - I have African American ancestry. Do you have suggestions for researching my genealogy?
     - Do you have any suggestions for researching my African American ancestry?
     - Tell me the best way to research my African American ancestry?
@@ -174,7 +174,7 @@ nlu:
     - How much does it cost 2 hire a genealogist 4 black family research?
     - Is there an online database of post-civil war labor contracts?
 - intent: order_highresolution_scan
-  examples: |-
+  examples: |
     - How do I order a high-resolution scan?
     - How much does it cost to get a high-resolution scan from the library?
     - What is the reproduction fee for library materials?
@@ -201,7 +201,7 @@ nlu:
     - what if i wanna use the scans for commercial purposes?
     - do u offer other file formats than tif?
 - intent: south_caroliniana_library_building
-  examples: |-
+  examples: |
     - Is the South Caroliniana Library building accessible to people with disabilities?
     - Is the South Caroliniana Library wheelchair accessible?
     - South Caroliniana Library accessibility
@@ -226,7 +226,7 @@ nlu:
     - does south carolina lib have elevators?
     - I need assistance, is SC library accessible?
 - intent: found_image_south_caroliniana
-  examples: |-
+  examples: |
     - I found an image from the South Caroliniana Library in your Digital Collections. May I use it?
     - Can I use images from the USC Digital Collections?
     - How do I credit USC library for an image?
@@ -253,7 +253,7 @@ nlu:
     - what are the steps for citing USC lib images?
     - Can I get high-quality pics from USC for free?
 - intent: publishing_book_related_south
-  examples: |-
+  examples: |
     - I'm publishing a book about South Carolina that you might be interested in for your collection. May I tell you about it?
     - I'm publishing a book about South Carolina, what do I need to do?
     - Tell you about what?
@@ -294,6 +294,15 @@ nlu:
     - digital research services
     - library support for digital work
     - How can I get help with my digital dissertation?
+    - whats the best way to incorporate digital tools in my research?
+    - I'm lookin for resources on digital research methods
+    - Does USC have any tools or services for digital projects?
+    - How can I leverage digital processes to enhance my research?
+    - What are some new forms of digital research methods?
+    - can u guys help with presenting research digitally?
+    - I need assistance with digital tools in research - who do I contact?
+    - What kind of support does the library offer for digital dissertations?
+    - Whats available at USC to learn more about digital scholarship?
 - intent: get_research_help
   examples: |
     - How can I get research help?
@@ -363,7 +372,7 @@ nlu:
     - USC journal citation guidelines
     - Chicago style journal article citation
 - intent: south_caroliniana_library_located
-  examples: |-
+  examples: |
     - Where is the South Caroliniana library located?
     - Where is the South Caroliniana Library?
     - South Caroliniana Library location?
@@ -389,7 +398,7 @@ nlu:
     - south caroliniana lib location relative to student union?
     - Library location - south caroliniana on campus map
 - intent: publishing_work_us_resource
-  examples: |-
+  examples: |
     - I'm publishing a work that uses resources from the South Caroliniana Library's collections. How do I credit the Library?
     - How do I credit the South Caroliniana Library?
     - How can I credit the South Caroliniana Library?
@@ -418,7 +427,7 @@ nlu:
     - citation for images from sc library?
     - how do i properly acknowledge usc library in my work?
 - intent: resource_use_research_family
-  examples: |-
+  examples: |
     - Do you have resources I can use to research my family's genealogy?
     - Are there any resources I can use to research my family's genealogy?
     - What resources can I use to research my family's genealogy?
@@ -447,7 +456,7 @@ nlu:
     - What kind of records does the South Caroliniana Library have online?
     - Can you show me how to use the USC library catalog for genealogical research?
 - intent: park_visit_south_caroliniana
-  examples: |-
+  examples: |
     - Where can I park to visit the South Caroliniana Library?
     - Where can I park for the South Caroliniana Library?
     - Where can I park on USC campus?
@@ -475,7 +484,7 @@ nlu:
     - Can I use city meters if I got a USC permit?
     - Where do I pay for parkin' on USC campus?
 - intent: south_caroliniana_library_open
-  examples: |-
+  examples: |
     - When is South Caroliniana Library open?
     - What are the hours of operation for the South Caroliniana Library?
     - When is the library open?
@@ -500,7 +509,7 @@ nlu:
     - Does South Caroliniana Library have online resources?
     - What time does the South Caroliniana Lib close today?
 - intent: south_caroliniana_library
-  examples: |-
+  examples: |
     - What do you have at South Caroliniana Library?
     - What is the South Caroliniana Library?
     - south carolina history library
@@ -527,7 +536,7 @@ nlu:
     - Oral histories of south carolina where do I find them?
     - Rare book room @ south caroliniana lib
 - intent: library_columbia_campus
-  examples: |-
+  examples: |
     - What libraries are on the Columbia Campus?
     - list the libraries on the Columbia campus?
     - What libraries are part of USC?
@@ -555,7 +564,7 @@ nlu:
     - where do i find music resources at usc?
     - info about film archives at usc?
 - intent: floor_plan_finding_location
-  examples: |-
+  examples: |
     - Where are floor plans for finding locations within the Thomas Cooper Library?
     - Where can I find floor plans for Thomas Cooper Library?
     - Where can I find floor plans for the Thomas Cooper Library?
@@ -583,7 +592,7 @@ nlu:
     - Can you provide a TCL floor plan?
     - How do I get around Thomas Cooper Library?
 - intent: hathitrust_university_member
-  examples: |-
+  examples: |
     - Tell me the HathiTrust and is the university a member?
     - What is HathiTrust?
     - How does HathiTrust work?
@@ -609,7 +618,7 @@ nlu:
     - What happened to a book that used to be available on HathiTrust?
     - can i download hathitrust books for free?
 - intent: get_free_subscription_new
-  examples: |-
+  examples: |
     - How can I get a free subscription to New York Times online through the library?
     - How can I get a free subscription to the New York Times online?
     - How do I get a free subscription to the New York Times online?
@@ -638,7 +647,7 @@ nlu:
     - can u help me get a free new york times sub?
     - usc nyt subscription thingy how does it work?
 - intent: library_catalog_show_item
-  examples: |-
+  examples: |
     - The library catalog shows that an item is located at the Annex. How can I get it?
     - How do I find an item in the library catalog?
     - How do I get an item in the library catalog?
@@ -668,7 +677,7 @@ nlu:
     - getting books from south caroliniana lib through findit @ usc
     - How 2 request book from annex if im not a student?
 - intent: suggest_title_library_purchase
-  examples: |-
+  examples: |
     - How can I suggest a title for the library to purchase?
     - How do I suggest a title for the library to purchase?
     - How can I suggest a title for the library to buy?
@@ -695,7 +704,7 @@ nlu:
     - Where do I find the USC library book suggestion page?
     - can faculty req multiple purchases @ once?
 - intent: retired_faculty_staff_retain
-  examples: |-
+  examples: |
     - Do retired faculty and staff retain their library privileges?
     - Do retired faculty retain library privileges?
     - Do retired faculty and staff retain library privileges?
@@ -723,7 +732,7 @@ nlu:
     - Can i borrow books from the lib as a retiree?
     - lib access options for retired faculty
 - intent: library_provide_access_wall
-  examples: |-
+  examples: |
     - Does the library provide access to the Wall Street Journal online?
     - Does the library have access to the Wall Street Journal online?
     - Does the library offer access to the Wall Street Journal online?
@@ -752,7 +761,7 @@ nlu:
     - Can I use my existing WSJ credentials with USC email?
     - Where can I find info on USC's WSJ membership?
 - intent: print_library
-  examples: |-
+  examples: |
     - How do I print in library?
     - Can I upload files to print in advance?
     - Where can I email files to print?
@@ -777,7 +786,7 @@ nlu:
     - what types of files can i print at T Cooper lib?
     - library printer jammed, who do i contact?
 - intent: common_issue_printing
-  examples: |-
+  examples: |
     - What are common issues with printing?
     - list the common issues with printing?
     - can you list the common issues with printing?
@@ -805,7 +814,7 @@ nlu:
     - Printer giving me grief... any known issues?
     - Paying for printing is a prob... can u help?
 - intent: access_harvard_business_case
-  examples: |-
+  examples: |
     - How can I access Harvard Business Cases?
     - How do I access Harvard Business Cases?
     - How do I get access to Harvard Business Cases?
@@ -834,7 +843,7 @@ nlu:
     - What are the rules on posting Harvard Biz Cases online?
     - Can you help me with getting discounts for students to buy harvard business review cases?
 - intent: library_hire_student
-  examples: |-
+  examples: |
     - Does the library hire students?
     - Do libraries hire students?
     - Does a library hire students?
@@ -865,7 +874,7 @@ nlu:
     - I wanna be a librarian, can I start here?
     - whats the hiring process 4 students @ the usc library
 - intent: library_college_entrance_career
-  examples: |-
+  examples: |
     - Does the library have college entrance and career practice tests and study guides?
     - Do libraries have college entrance and career practice tests and study guides?
     - Where can I find test prep materials?
@@ -892,7 +901,7 @@ nlu:
     - where can i find teaching certification study guides?
     - can k-12 students access test prep at usc?
 - intent: resource_help_learn_language
-  examples: |-
+  examples: |
     - Are there resources to help me learn a language?
     - How can I learn a new language?
     - Tell me the best way to learn a language?
@@ -921,7 +930,7 @@ nlu:
     - Does USC offer languge tutor sessions?
     - how to acces free languge online resources?
 - intent: login_use_library_access
-  examples: |-
+  examples: |
     - What login do I use for library access if I'm a Palmetto College student?
     - How do I get library access if I'm a student at Palmetto College?
     - What login do I use for library access if I am a Palmetto College student?
@@ -949,7 +958,7 @@ nlu:
     - cant access online library stuff with my student account
     - how does multi campus enrollment affect library access?
 - intent: sign_orcid_id
-  examples: |-
+  examples: |
     - How do I get an ORCID ID?
     - How do I apply for ORCID ID?
     - How do I sign up for an ORCID iD?
@@ -976,7 +985,7 @@ nlu:
     - How do I attach my USC acct w/ my ORCID?
     - is orcid free or paid?
 - intent: username_password_working_do
-  examples: |-
+  examples: |
     - My username and password are not working. What should I do?
     - What should I do if my username and password are not working?
     - My username and password is not working. What should I do?
@@ -1004,7 +1013,7 @@ nlu:
     - university email pass not workin 4 libary login whaaat?
     - library resource login aint goin thru
 - intent: get_help_citation
-  examples: |-
+  examples: |
     - Where can I get help with my citations?
     - How can I get help with citations?
     - Where can I get help with citations?
@@ -1033,7 +1042,7 @@ nlu:
     - wht's the best way to format citations for art projects?
     - Can u help me with citing government reports?
 - intent: interlibrary_loan_access_it
-  examples: |-
+  examples: |
     - What is Interlibrary Loan and how do I access it?
     - How do I access an interlibrary loan?
     - What is Interlibrary Loan? How do I access it?
@@ -1062,7 +1071,7 @@ nlu:
     - whats the process for requestin out of catalog books?
     - can a usc alum get books thru ill?
 - intent: pascal_delivers
-  examples: |-
+  examples: |
     - What is PASCAL Delivers?
     - What are PASCAL Delivers?
     - What is PASCAL Delivers?
@@ -1089,7 +1098,7 @@ nlu:
     - How long does PASCAL delivery take?
     - PASCAL Delivers sign in troubles
 - intent: library_main_find_usc
-  examples: |-
+  examples: |
     - The library's main Find It at USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
     - The Library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
     - Can't access library resources from home
@@ -1117,7 +1126,7 @@ nlu:
     - USC Library site not working from my internet
     - How do I get around the spam filter blocking USC library?
 - intent: photocopy_scan_library
-  examples: |-
+  examples: |
     - Can I photocopy or scan at the library?
     - Can I scan or photocopy at the library?
     - Can I copy or scan at the library?
@@ -1145,7 +1154,7 @@ nlu:
     - I need to scan a document, is that possible at USC lib?
     - copy machine locations on campus
 - intent: request_copy_manuscript
-  examples: |-
+  examples: |
     - How can I request a copy of a manuscript?
     - How do I request a copy of my manuscript?
     - How do I request a copy of a manuscript?
@@ -1173,7 +1182,7 @@ nlu:
     - whom should i contact for rare book reproductions?
     - i need some scans from Moving Image Research Collections
 - intent: ask_help_searching_source
-  examples: |-
+  examples: |
     - How can I ask for help with searching for sources on my topic?
     - How can I ask for help with my topic?
     - Need help searching library resources
@@ -1200,7 +1209,7 @@ nlu:
     - Can't find relevant sources, pls help!
     - Who can assist me with my thesis reseach?
 - intent: cant_access_database_workplace
-  examples: |-
+  examples: |
     - Why can't I access the databases from my workplace?
     - Why can't I access a database from my workplace?
     - Why can't I access databases from my workplace?
@@ -1228,7 +1237,7 @@ nlu:
     - configured browser but still cant acess usc db
     - Why aint I able to access library databases at wrk?
 - intent: library_microwave
-  examples: |-
+  examples: |
     - Does the library has a microwave?
     - Is there a microwave in the library?
     - microwave available in thomas cooper library?
@@ -1253,7 +1262,7 @@ nlu:
     - Any microwaves in study areas?
     - Food warming options near me
 - intent: visitor_come_library
-  examples: |-
+  examples: |
     - Can visitors come to the library?
     - Can people come to the library?
     - Can visitors come to the Library?
@@ -1280,7 +1289,7 @@ nlu:
     - Can non-students access the library's materials?
     - What are the public hours for the Thomas Cooper Library?
 - intent: find_published_example_action
-  examples: |-
+  examples: |
     - How do I find published examples of action research for my education research question?
     - How do I search education databases?
     - Where can I find action research articles?
@@ -1307,7 +1316,7 @@ nlu:
     - Where can I locate participatory action research articles?
     - What keywords should I use to find research on learning disabilities?
 - intent: register_access_ad_age
-  examples: |-
+  examples: |
     - How do I register for access to Ad Age?
     - How do I register for Ad Age?
     - How do I access Ad Age online?
@@ -1334,7 +1343,7 @@ nlu:
     - ad age regisration instructions plz
     - Having trouble loggin in to Ad Age
 - intent: library_charger_laptop_phone
-  examples: |-
+  examples: |
     - Does the library have a charger for my laptop or phone?
     - Where can I charge my phone in the library?
     - Are there free chargers available in the library?
@@ -1361,7 +1370,7 @@ nlu:
     - can i reserve a charging bank online?
     - where's the charger checkout desk?
 - intent: library_textbook
-  examples: |-
+  examples: |
     - Tell me the check out policy for textbooks?
     - What is check out policy for textbooks?
     - How long can I borrow a textbook from the library?
@@ -1402,7 +1411,7 @@ nlu:
     - Do u need student id to checkout texts?
     - usc textbook rental options
 - intent: library_reader_advisory_database
-  examples: |-
+  examples: |
     - Does the library have readers advisory databases?
     - Do libraries have readers advisory databases?
     - Does the library have a reader advisory database?
@@ -1430,7 +1439,7 @@ nlu:
     - readers advisory resources??
     - Are there any libraries that offer reader's advisory databases?
 - intent: see_hostname_error_try
-  examples: |-
+  examples: |
     - I see a "Hostname Error" when I try to access a database. What can I do?
     - Hostname Error
     - hostname error in library database
@@ -1457,7 +1466,7 @@ nlu:
     - hostname error solution pls
     - Can u help me out w/ dis library access issue?
 - intent: software_available_library_computer
-  examples: |-
+  examples: |
     - What software is available on the library computers?
     - What software is available on library computers?
     - is there software i can use
@@ -1484,7 +1493,7 @@ nlu:
     - whr can i find info on remote access to lib software?
     - can i use adobe creative cloud on lib comps?
 - intent: library_color_copier
-  examples: |-
+  examples: |
     - Does the library have a color copier?
     - Do libraries have a color copier?
     - Does a library have a color copier?
@@ -1511,7 +1520,7 @@ nlu:
     - Colour printing in lib possible?
     - color copying facilities near me
 - intent: starbucks_thomas_cooper
-  examples: |-
+  examples: |
     - Where is the Starbucks in Thomas Cooper?
     - Where is Starbucks in Thomas Cooper?
     - Where's Starbucks in Thomas Cooper?
@@ -1540,7 +1549,7 @@ nlu:
     - Thomas Cooper food court?
     - whats on the menu at starbucks in thomas cooper?
 - intent: library_childrens_book
-  examples: |-
+  examples: |
     - Does the library have children's books?
     - Do the libraries have children's books?
     - Do libraries have children's books?
@@ -1569,7 +1578,7 @@ nlu:
     - Can you show me where the kids book are?
     - I'm looking for old children's books, are they available?
 - intent: take_online_proctored_exam
-  examples: |-
+  examples: |
     - Where can I take an online or proctored exam?
     - Where can I take online or proctored exams?
     - Where can I take online or proctored exam?
@@ -1598,7 +1607,7 @@ nlu:
     - What are my options for taking a proctored exam as a non-USC student?
     - Does the tech lounge have webcams for online exams?
 - intent: request_book_delivered_campus
-  examples: |-
+  examples: |
     - How do I request to have a book delivered to my campus office?
     - Can I get books delivered to my work address?
     - Book delivery for faculty?
@@ -1623,7 +1632,7 @@ nlu:
     - Is interlibrary loan delivery available for staff?
     - What's the process for campus delivery of library materials?
 - intent: get_library_card
-  examples: |-
+  examples: |
     - How do I get a library card?
     - How can I get a library card?
     - How do you get a library card?
@@ -1651,7 +1660,7 @@ nlu:
     - do u need to be a student for library access?
     - I'm an alum, can I still borrow books from usc lib?
 - intent: cant_connect_eduroam_wireless
-  examples: |-
+  examples: |
     - Why can't I connect to the eduroam wireless network?
     - wifi not working on campus
     - How do I connect to eduroam?
@@ -1679,7 +1688,7 @@ nlu:
     - Can't get online at USC can someone help?
     - How to troubleshoot wifi probs @ usc?
 - intent: renew_book
-  examples: |-
+  examples: |
     - How do I renew books?
     - How do I renew USC library books?
     - Can I renew books online?
@@ -1707,7 +1716,7 @@ nlu:
     - Where do I go in My Account to renew books borrowed?
     - renewing past due books at usc libraries
 - intent: cant_login_interlibrary_loan
-  examples: |-
+  examples: |
     - Why can't I login to my Interlibrary Loan account?
     - I'm getting an error message that my account needs to be updated, what do I do?
     - Why can't I log in to ILL?
@@ -1734,7 +1743,7 @@ nlu:
     - Library login authentication failed
     - Can't logon to ILL, account problem?
 - intent: call_number_use_it
-  examples: |-
+  examples: |
     - What is a call number and how do I use it?
     - What is call number and how do I use it?
     - How do I use a call number?
@@ -1763,7 +1772,7 @@ nlu:
     - bookshelf organisation by call number?
     - cant figure out this whole call number thing
 - intent: access_specific_library_database
-  examples: |-
+  examples: |
     - How do I access a specific library database?
     - How can I access a library database?
     - How do I access a library database?
@@ -1792,7 +1801,7 @@ nlu:
     - whats the link to search for specific magazin titles in the lib?
     - can you tell me where i can find info on accessing USC research papers?
 - intent: many_book_check_out
-  examples: |-
+  examples: |
     - How many books can I check out?
     - How many books should I read?
     - How many books can I check out at USC?
@@ -1820,7 +1829,7 @@ nlu:
     - What's the checkout limit for journals and books?
     - Can friends of USC library take out as many materials as they want?
 - intent: book_mailed_home_address
-  examples: |-
+  examples: |
     - Can I have books mailed to my home address?
     - Can I have books sent to my home address if I am a student at distance?
     - How do I request books from USC library?
@@ -1847,7 +1856,7 @@ nlu:
     - can i get usc to send me library materials thru mail?
     - what's the deal with requesting usc books online?
 - intent: much_fee_late_return
-  examples: |-
+  examples: |
     - How much are the fees for late returns and/or lost items?
     - Does USC library charge late fees?
     - How much is the late fee for reserve textbooks?
@@ -1872,7 +1881,7 @@ nlu:
     - can u pls tell me how much is the late return fee at usc lib
     - do i get charged 4 returning tech stuff late 2 usc lib
 - intent: library_provide_support_endnote
-  examples: |-
+  examples: |
     - Does the library provide support for EndNote?
     - Does the library support EndNote?
     - Is the library compatible with EndNote?
@@ -1901,7 +1910,7 @@ nlu:
     - Does USC provide free EndNote subscription?
     - can someone help me with endnote desktop purchase?
 - intent: find_empirical_study
-  examples: |-
+  examples: |
     - How do I find empirical studies?
     - Tell me the best way to find empirical studies?
     - How can I find empirical studies?
@@ -1929,7 +1938,7 @@ nlu:
     - Can you give me some keywords for searching case studies?
     - Where can I find info on empirical study design?
 - intent: library_car_repair_manual
-  examples: |-
+  examples: |
     - Does the library have any car repair manuals?
     - Does the library have any auto repair manuals?
     - Where can I find car repair information?
@@ -1956,7 +1965,7 @@ nlu:
     - can u tell me wher 2 find new car repair manuals?
     - wht r some gud online resources for fixin cars?
 - intent: alumnus_get_access_research
-  examples: |-
+  examples: |
     - How can alumni get access to research resources?
     - How do alumni get access to research resources?
     - How can I get alumni access to research resources?
@@ -2007,7 +2016,7 @@ nlu:
     - How to get one-on-one help from a librarian
     - Can librarians help with research?
 - intent: busy_thomas_cooper_library
-  examples: |-
+  examples: |
     - How busy is Thomas Cooper Library right now?
     - is it busy rn
     - is library busy
@@ -2035,7 +2044,7 @@ nlu:
     - can i find a table at thomas cooper library?
     - tcooper study area available?
 - intent: reserve_study_room
-  examples: |-
+  examples: |
     - How do I reserve a study room?
     - How do I book a study room?
     - book room
@@ -2064,7 +2073,7 @@ nlu:
     - Reserve collab tech room
     - Booking study room for group proj
 - intent: food_drink_allowed_library
-  examples: |-
+  examples: |
     - Are food and drinks allowed in the library?
     - Is food and drink allowed in the library?
     - Is food and drinks allowed in the library?
@@ -2092,7 +2101,7 @@ nlu:
     - can you eat at the USC library cafe tables?
     - Where can't I snack in da USC library?
 - intent: find_dissertation_thesis
-  examples: |-
+  examples: |
     - How do I find dissertations and theses?
     - How do I find dissertations?
     - give me thesis samples
@@ -2121,7 +2130,7 @@ nlu:
     - thesis and dissertation ressources
     - Where to start searching 4 academic papers at USC?
 - intent: find_historical_newspaper_article
-  examples: |-
+  examples: |
     - How can I find historical newspaper articles?
     - How do I find historical newspaper articles?
     - How can I find historical newspapers?
@@ -2150,7 +2159,7 @@ nlu:
     - can i access chronicling america at usc library?
     - Historic SC Newspapers?
 - intent: cant_access_thomson_one
-  examples: |-
+  examples: |
     - Why can't I access Thomson One?
     - Why can't I access Thomson Reuters?
     - What happened to Thomson One database?
@@ -2178,7 +2187,7 @@ nlu:
     - Need assistance with company data
     - Can't find thomson one on chrome
 - intent: thomas_cooper_library_located
-  examples: |-
+  examples: |
     - Where is the Thomas Cooper Library located?
     - location
     - google maps library
@@ -2207,7 +2216,7 @@ nlu:
     - Cooper lib parking info
     - Where can I find a map of USC libraries?
 - intent: center_teaching_excellence_cte
-  examples: |-
+  examples: |
     - Where is the Center for Teaching Excellence (CTE)?
     - CTE location
     - How do I find CTE in Thomas Cooper Library?
@@ -2232,7 +2241,7 @@ nlu:
     - Where's the best place to park if I'm going to the Center for Teaching Excellence?
     - What's the room # of the teaching excellence center?
 - intent: get_help_writing
-  examples: |-
+  examples: |
     - Where can I get help with writing?
     - How can I get help with my writing?
     - Where can I get help with my writing?
@@ -2261,7 +2270,7 @@ nlu:
     - UofSC writing lab appointment process
     - Whas the hours of operation for writin center?
 - intent: something_notarized
-  examples: |-
+  examples: |
     - Where can I have something notarized?
     - Where can I have my documents notarized?
     - How can I have something notarized?
@@ -2289,7 +2298,7 @@ nlu:
     - usc notary public locations?
     - Do you guys have a notery?
 - intent: contact_library
-  examples: |-
+  examples: |
     - How can I contact the library?
     - How do I contact the library?
     - contact info library
@@ -2318,7 +2327,7 @@ nlu:
     - what's the best way to contact USC library staff?
     - library noise complaint number
 - intent: computer_internet_access_technology
-  examples: |-
+  examples: |
     - If I don't have a computer or internet access how can the library help me?
     - need internet
     - How can the library help me if I don't have a computer?
@@ -2345,7 +2354,7 @@ nlu:
     - whats the borrowing policy for lib equipment?
     - Got a list of DoIT internet plans?
 - intent: instructor_schedule_class_library
-  examples: |-
+  examples: |
     - How can an instructor schedule a class in the library?
     - How can I schedule a class in the library?
     - How do I schedule a class in the library?
@@ -2374,7 +2383,7 @@ nlu:
     - is there a way to schedule library orientations for new students?
     - do u guys offer libary classes for faculty?
 - intent: check_locker
-  examples: |-
+  examples: |
     - Where can I check out a locker?
     - How do I check out a locker?
     - How can I check out a locker?
@@ -2402,7 +2411,7 @@ nlu:
     - How do I go about getting a locker at the main library?
     - usc locker rental info?
 - intent: find_example_dissertation_online
-  examples: |-
+  examples: |
     - How can I find examples of dissertations from the online EdD Curriculum and Instruction program?
     - Dissertation samples
     - Disertatiosn examples
@@ -2430,7 +2439,7 @@ nlu:
     - How do I access the USC Scholar Commons repository?
     - Is there a way to search only for doctor of education dissertations?
 - intent: carolinasouthern_california_trademark_dispute
-  examples: |-
+  examples: |
     - What was the Carolina/Southern California trademark dispute about, and does it affect the UofSC/USC branding?
     - trademark disput?
     - USC vs University of Southern California case
@@ -2456,7 +2465,7 @@ nlu:
     - trademark disput between Carolina & Southern Cal
     - Can UofSC still use its original logo after tradmark disputes?
 - intent: access_journal_marketing_specific
-  examples: |-
+  examples: |
     - How can I access the Journal of Marketing or other specific marketing journals?
     - How can I access the Journal of Marketing?
     - How do I access the Journal of Marketing?
@@ -2485,7 +2494,7 @@ nlu:
     - Is there an app for accessing marketing journals?
     - How do I find Journal of Marketing on the online database?
 - intent: check_ipad
-  examples: |-
+  examples: |
     - How do I check out an iPad?
     - How can I check out an iPad?
     - How do you check out an iPad?
@@ -2513,7 +2522,7 @@ nlu:
     - whats required to checkout an ipad?
     - library got ipads?
 - intent: computer_available_library
-  examples: |-
+  examples: |
     - Are there computers available in the library?
     - Is there a computer in the library?
     - Where can I find computers in Thomas Cooper Library?
@@ -2539,7 +2548,7 @@ nlu:
     - What kinda computers y'all got at USC library?
     - Level 4 computer area - are there any available?
 - intent: usc_library
-  examples: |-
+  examples: |
     - Where are the other USC libraries?
     - Where are the other libraries at USC?
     - USC library locations?
@@ -2565,7 +2574,7 @@ nlu:
     - usc lib locs in columbia?
     - Can you show me a map of USC library locations?
 - intent: library_film_video
-  examples: |-
+  examples: |
     - Does the library have films and videos?
     - Does the library have any films and videos?
     - Can I check out videos from Thomas Cooper Library?
@@ -2594,7 +2603,7 @@ nlu:
     - are there videos on reserve at usc lib?
     - how to access streaming vids w/ my carolinacard?
 - intent: get_full_text_access
-  examples: |-
+  examples: |
     - How do I get full text access to a specific article?
     - How do I get full text access to an article?
     - How do I find full text articles in library databases?
@@ -2621,7 +2630,7 @@ nlu:
     - PDF not available online? What r my options?
     - How can I get a copy of an article thats only in print at USC?
 - intent: access_harvard_business_review
-  examples: |-
+  examples: |
     - How do I access Harvard Business Review articles through the library?
     - How do I access Harvard Business Review articles from the library?
     - How do I access Harvard Business Review?
@@ -2649,7 +2658,7 @@ nlu:
     - What are the steps for accessing harvard business review?
     - hbr article wont print, help
 - intent: i’m_outside_united_state
-  examples: |-
+  examples: |
     - I’m outside the United States and can’t access library resources. What do I do?
     - I’m outside the United States and I can’t access library resources. What should I do?
     - I am outside the United States and I can’t access library resources. What should I do?
@@ -2677,7 +2686,7 @@ nlu:
     - free vpn for usc students?
     - trouble acessing usc library from my country
 - intent: see_zotero_notification_automatically
-  examples: |-
+  examples: |
     - I see a Zotero notification that it "automatically redirected" my request through a proxy. What should I do?
     - I see a Zotero notification that it redirected my request through a proxy. What should I do?
     - Zotero proxy redirection issues
@@ -2705,7 +2714,7 @@ nlu:
     - usc zotero access issues
     - Zotero notification wont disappear
 - intent: floor_thomas_cooper_library
-  examples: |-
+  examples: |
     - Which floors in the Thomas Cooper Library are designated quiet floors?
     - What floors in the Thomas Cooper Library are designated quiet floors?
     - quiet floors
@@ -2735,7 +2744,7 @@ nlu:
     - What floor has the least distractions?
     - I wanna reserve a quiet spot, how?
 - intent: student_success_center_peer
-  examples: |-
+  examples: |
     - Where is the Student Success Center / Peer Tutoring?
     - Where is the Student Success Center located?
     - student success center location
@@ -2761,7 +2770,7 @@ nlu:
     - Where'd Academic Coaching go?
     - ACE relocated?
 - intent: mailing_address_thomas_cooper
-  examples: |-
+  examples: |
     - What is the mailing address for the Thomas Cooper Library?
     - What is the Thomas Cooper Library mailing address?
     - Where do I send mail to USC library?
@@ -2787,7 +2796,7 @@ nlu:
     - Where is the Bull Street garage located?
     - USC library location & mailing info
 - intent: return_book
-  examples: |-
+  examples: |
     - Where can I return books?
     - return book
     - I need to start a return
@@ -2816,7 +2825,7 @@ nlu:
     - how do i send back a usc book by post?
     - library return spots near campus
 - intent: make_suggestion_library
-  examples: |-
+  examples: |
     - How can I make suggestions to the library?
     - How do I make suggestions to the library?
     - How can I provide feedback to the library?
@@ -2844,7 +2853,7 @@ nlu:
     - USC library comments & suggestions?
     - how do i get in touch with ppl who run usc lib?
 - intent: make_noise_complaint_staff
-  examples: |-
+  examples: |
     - How can I make a noise complaint to the staff at Thomas Cooper Library?
     - How do I complain to the staff at Thomas Cooper Library?
     - How do I report noise in the library?
@@ -2871,7 +2880,7 @@ nlu:
     - lib noise = productivity fail. how do i complain?
     - Need quiet ASAP! Who do I report to?
 - intent: find_journal_impact_factor
-  examples: |-
+  examples: |
     - How do I find a journal's impact factor or other rankings?
     - How do I find the impact factor of a journal?
     - How do I find a journal's impact factor?
@@ -2899,7 +2908,7 @@ nlu:
     - Impact factor list for medicine journals?
     - Can all journals have impact factors or is it just some?
 - intent: get_online_access_library
-  examples: |-
+  examples: |
     - When can I get online access to library resources as a newly enrolled student?
     - how to get library access
     - When do I get access to online resources?
@@ -2927,7 +2936,7 @@ nlu:
     - Having trouble accessing online resources at the library, any assistance would be great
     - When do fall semester students usually receive access to the library?
 - intent: pay_library_fine
-  examples: |-
+  examples: |
     - Where / How can I pay a library fine?
     - How do I pay a library fine?
     - How can I pay a library fine?
@@ -2956,7 +2965,7 @@ nlu:
     - can someone else pay my lib fine 4 me?
     - whats ur policy on overdue lib fine payment?
 - intent: friend_university_library_previously
-  examples: |-
+  examples: |
     - What is Friends of University Libraries (previously Thomas Cooper Society) and how can I join?
     - How do I join Friends of University Libraries?
     - How can I join Friends of University Libraries?
@@ -2985,7 +2994,7 @@ nlu:
     - Can I join Friends of University Libraries online or do I need to go in person?
     - Whats the difference between the different levels of Friends of University Libraries membership?
 - intent: university_institutional_repository
-  examples: |-
+  examples: |
     - Does the university have an institutional repository?
     - Does a university have an institutional repository?
     - Does the university have an institution repository?
@@ -3014,7 +3023,7 @@ nlu:
     - USC Institutional Repository - how do I contribute?
     - where do i find scholarly articles by usc authors?
 - intent: set_link_usc_content
-  examples: |-
+  examples: |
     - How do I set up links to USC content in Google Scholar?
     - How can I set up links to USC content in Google Scholar?
     - How do I set up links to USC content on Google Scholar?
@@ -3043,7 +3052,7 @@ nlu:
     - Why can't I see USC library resources on Google Scholar?
     - Hey how do I enable UofSC University Libraries in Google Scholar?
 - intent: download_check_ebook
-  examples: |-
+  examples: |
     - How do I download and check out an ebook?
     - How do I download ebooks?
     - How do I download an ebook?
@@ -3073,7 +3082,7 @@ nlu:
     - how many ebooks can i check out @ once?
     - what happens if i dont return an ebook?
 - intent: check_laptop
-  examples: |-
+  examples: |
     - How can I check out a laptop?
     - Can I borrow a laptop from the library?
     - Laptop checkout?
@@ -3101,7 +3110,7 @@ nlu:
     - lib laptop borrowing policy?
     - whr do i go to borrow a laptop in the library?
 - intent: library_provide_access_covidence
-  examples: |-
+  examples: |
     - Does the library provide access to Covidence for managing systematic reviews?
     - How do I access Covidence at USC?
     - What is Covidence and how can I use it?
@@ -3128,7 +3137,7 @@ nlu:
     - Where do I find the link to USC's Covidence portal?
     - Does USC have a guide on using Covidence?
 - intent: lost_found
-  examples: |-
+  examples: |
     - Where is the lost and found?
     - Where is lost and found?
     - Where is the Lost and Found?
@@ -3155,7 +3164,7 @@ nlu:
     - where can i report missing laptop in tcoop
     - lost something at library, who do i talk to?
 - intent: charge_card_cost_print
-  examples: |-
+  examples: |
     - Why is there a charge on my card for more than the cost of my print job?
     - Why is my credit card charged more than the cost of my print job?
     - Why is my credit card charged more than the cost of the print job?
@@ -3184,7 +3193,7 @@ nlu:
     - student printing machine took my money, what now?
     - I have 2 charges for one print job, how do i fix this?
 - intent: found_book_library_catalog
-  examples: |-
+  examples: |
     - I found a book in the library catalog.  How do I find it in the library?
     - How do I find a book in the library catalog?
     - How can I find a book in the library catalog?
@@ -3213,7 +3222,7 @@ nlu:
     - Tc coop has like a million levels, can u help me figure out where my book is?
     - How do i go about requesting a book from thomas cooper library?
 - intent: library_fun_book_read
-  examples: |-
+  examples: |
     - Does the library have fun books to read?
     - Do the libraries have fun books to read?
     - Do libraries have fun books to read?
@@ -3300,7 +3309,7 @@ nlu:
     - can someone help me with gis
     - can i schedule meeting for datavisualisation help
 - intent: type_assistance_library_offer
-  examples: |-
+  examples: |
     - What types of assistance does the library offer for data visualization?
     - what kind of data visualization help can i get
     - data visualization guides
@@ -3329,7 +3338,7 @@ nlu:
     - Can I get a walk-in data viz consultation @ USC lib?
     - Does USC library offer any data science bootcamps?
 - intent: kind_guidance_expect_online
-  examples: |-
+  examples: |
     - What kind of guidance can I expect from an online consultation?
     - I need help with data visualization
     - data visualization tutorials?
@@ -3354,7 +3363,7 @@ nlu:
     - what kinda support i can expect from a data viz consult?
     - Are there any good tutorials for learning data visualization?
 - intent: assistance_available_data_analysis
-  examples: |-
+  examples: |
     - Is there any support available for data analysis and statistics?
     - I need help with data analysis, where can I go?
     - Does the library offer statistics assistance?
@@ -3381,7 +3390,7 @@ nlu:
     - Data lab @ usc: when and where?
     - Quantitative or qualitative, does usc support both?
 - intent: datalab_located
-  examples: |-
+  examples: |
     - What is the DataLab and where is it located?
     - What is DataLab and where is it located?
     - Tell me the DataLab and where is it located?
@@ -3411,7 +3420,7 @@ nlu:
     - Can i access data lab if im staff?
     - Are visitors allowed in datalab
 - intent: kind_data_analysis_statistic
-  examples: |-
+  examples: |
     - What kind of data analysis and statistics assistance is available?
     - statistics help
     - Where can I get help with data analysis?
@@ -3473,7 +3482,7 @@ nlu:
     - what hardware does the library have
     - can i use lib computers for gaming
 - intent: find_subjectspecific_data_statistic
-  examples: |-
+  examples: |
     - Where can I find subject-specific statistics?
     - subject-specific data
     - Where can I find statistics for my research?
@@ -3558,7 +3567,7 @@ nlu:
     - Can I get assistance with SPSS/R/SAS at the library?
     - What statistical software does the library support?
 - intent: What_is_NVivo
-  examples: |-
+  examples: |
     - What is NVivo?
     - Whats Nvivo
     - How does nvivo work?
@@ -3587,7 +3596,7 @@ nlu:
     - Can I access NVivo on campus?
     - How does NVivo handle large datasets?
 - intent: access_nvivo
-  examples: |-
+  examples: |
     - How can I access NVivo?
     - How do I get access to NVivo?
     - How do I get NVivo?
@@ -3616,7 +3625,7 @@ nlu:
     - nvivo purchase for student
     - Can I get NVivo thru my phone?
 - intent: find_additional_help_nvivo
-  examples: |-
+  examples: |
     - Where can I get help with NVivo?
     - Where can I find help with NVivo?
     - How can I get help with NVivo?
@@ -3645,7 +3654,7 @@ nlu:
     - help! cant figure out NVivo
     - what r some good resources 4 learning NVivo?
 - intent: data_visualization_learning_session
-  examples: |-
+  examples: |
     - What data visualization learning sessions are available?
     - list the best data visualization learning sessions?
     - can you list the best data visualization learning sessions?
@@ -3674,7 +3683,7 @@ nlu:
     - How can instructors use data visualization in their classes?
     - Are there workshops on data viz in the Libraries?
 - intent: difference_data_statistic
-  examples: |-
+  examples: |
     - What is the difference between data and statistics?
     - Data vs stats what's the diff
     - Can you explain raw data?
@@ -3699,7 +3708,7 @@ nlu:
     - Where can I find stats for my research paper?
     - Data or stats, which one is more accurate?
 - intent: open_data
-  examples: |-
+  examples: |
     - What is open data?
     - Whats open data
     - can you tell me about open data
@@ -3761,7 +3770,7 @@ nlu:
     - new project in nvivo steps
     - Can you guide me through NVivo project creation?
 - intent: import_data_file_nvivo
-  examples: |-
+  examples: |
     - How do I import data files into NVivo?
     - How do I import data files to NVivo?
     - How can I import data files into NVivo?
@@ -3789,7 +3798,7 @@ nlu:
     - how to upload dataset into NVivo 12?
     - Is there a limit on the number of files I can import to NVivo?
 - intent: autocode_data_file_nvivo
-  examples: |-
+  examples: |
     - How do I auto-code my data files in NVivo?
     - How can I auto-code data files in NVivo?
     - How do I auto-code data files in NVivo?
@@ -3818,7 +3827,7 @@ nlu:
     - autocoding data files with nvivo, what are the steps?
     - n vivo coding tips
 - intent: use_case_nvivo
-  examples: |-
+  examples: |
     - How do I use cases in NVivo?
     - using cases in nvivo
     - How do I create use cases nvivo
@@ -3895,7 +3904,7 @@ nlu:
     - Can I get university software on my laptop?
     - software access form
 - intent: general_statistic_resource_available
-  examples: |-
+  examples: |
     - What general statistics resources are available?
     - Tell me the best general statistics resource?
     - What statistics resources are available?
@@ -3925,7 +3934,7 @@ nlu:
     - what r some good statistical databases?
     - icpsr archive login info?
 - intent: general_data_set_available
-  examples: |-
+  examples: |
     - What general data sets are available?
     - What data sets are available?
     - can you list the general data sets available?
@@ -3955,7 +3964,7 @@ nlu:
     - Where can I find public datasets online?
     - Can you provide some general data sources?
 - intent: source_open_data
-  examples: |-
+  examples: |
     - What are some sources for open data?
     - can you list the sources of open data?
     - can you list the sources for open data?
@@ -3984,7 +3993,7 @@ nlu:
     - eu open data portal, where is it?
     - What's this re3data thingy?
 - intent: create_codebook_nvivo
-  examples: |-
+  examples: |
     - How do I create a codebook in NVivo?
     - How do I create codebooks in NVivo?
     - How can I create a codebook in NVivo?
@@ -4013,7 +4022,7 @@ nlu:
     - How do I color-code my data in NVivo?
     - Creating hierarchical codes - is it possible?
 - intent: add_coding_data
-  examples: |-
+  examples: |
     - How do I add coding to my data?
     - How do I add coding to data?
     - How can I add coding to my data?
@@ -4061,7 +4070,7 @@ nlu:
     - What's the procedure for exporting codebook?
     - Can you walk me through exporting my codebook?
 - intent: coding_stripe_display_them
-  examples: |-
+  examples: |
     - What are coding stripes and how do I display them?
     - How do I display coding stripes?
     - What are coding stripes? How do I display them?
@@ -4088,7 +4097,7 @@ nlu:
     - can i filter data based on whos coded it?
     - show me where to find List View coding stripes
 - intent: data_visualization
-  examples: |-
+  examples: |
     - What is data visualization?
     - data visualization definition
     - define data visualization
@@ -4118,7 +4127,7 @@ nlu:
     - Data analytics steps
     - what's part of data lifecycle
 - intent: data_visualization_important
-  examples: |-
+  examples: |
     - Why is data visualization important?
     - Why is data visualization so important?
     - Why data visualization is important?
@@ -4147,7 +4156,7 @@ nlu:
     - How does data visualization contribute to decision making?
     - whats the role of data visualization in research papers?
 - intent: common_term_used_data
-  examples: |-
+  examples: |
     - What are some common terms used in data visualization?
     - can you list the common terms used in data visualization?
     - list some common terms used in data visualization?
@@ -4175,7 +4184,7 @@ nlu:
     - How to gain insights from large datasets?
     - what's involved in transforming data?
 - intent: business_statistic_resource_available
-  examples: |-
+  examples: |
     - What business statistics resources are available?
     - Which business statistics resources are available?
     - can you list the best business statistics resources?
@@ -4204,7 +4213,7 @@ nlu:
     - stats on us cities gdp?
     - biz environment analysis tools free?
 - intent: data_resource_available
-  examples: |-
+  examples: |
     - What data resources are available?
     - can you list the data resources available?
     - can you list the available data resources?
@@ -4233,7 +4242,7 @@ nlu:
     - WRDS web interface - how to access?
     - Business stats & data resources pls
 - intent: source_available_library_usc
-  examples: |-
+  examples: |
     - What sources are available from the Libraries for USC students, faculty, and staff?
     - What resources are available from the USC Libraries for USC students faculty and staff?
     - What resources are available from the Libraries for USC students faculty and staff?
@@ -4263,7 +4272,7 @@ nlu:
     - can usc students use ucla-lopucki bankruptcy database?
     - What's available on USC library metrics and trends?
 - intent: choose_right_visualization_data
-  examples: |-
+  examples: |
     - How do I choose the right data visualization?
     - What's the best way to visualize my data?
     - data visualization techniques?
@@ -4288,7 +4297,7 @@ nlu:
     - How can I effectively communicate insights thru data visualization?
     - Can u suggest some interactive tools 4 choosing a visualization?
 - intent: guideline_creating_effective_visualization
-  examples: |-
+  examples: |
     - What are the guidelines for creating effective visualizations?
     - can you list the guidelines for creating effective visualizations?
     - Tell me the best way to create effective visualizations?
@@ -4317,7 +4326,7 @@ nlu:
     - I want to improve my data viz skills, where should I start?
     - What are some expert-approved guidelines for effective data visualization?
 - intent: resource_available_finding_criminal
-  examples: |-
+  examples: |
     - What resources are available to find criminal justice statistics?
     - How can I find criminal justice statistics?
     - Where can I find international crime statistics?
@@ -4344,7 +4353,7 @@ nlu:
     - What are some good resources for finding stats on prisons globally?
     - Can you help me locate UN crime commission information?
 - intent: u_statistic_resource_available
-  examples: |-
+  examples: |
     - What US statistics resources are available for criminal justice?
     - Which US statistics resources are available for criminal justice?
     - What US statistics are available for criminal justice?
@@ -4373,7 +4382,7 @@ nlu:
     - Where's the best place for Bureau of Justice Statistics info?
     - Any reliable sources for ATF data?
 - intent: data_set_available_criminal
-  examples: |-
+  examples: |
     - What data sets are available for criminal justice research?
     - can you list the available data sets for criminal justice research?
     - data sets for justice statistics
@@ -4430,7 +4439,7 @@ nlu:
     - Should I acknowledge dataset source
     - dataset credit how to
 - intent: tool_help_data_citation
-  examples: |-
+  examples: |
     - Are there tools to help with data citation?
     - can you list the best tools for data citation?
     - Are there any tools to help with data citation?
@@ -4458,7 +4467,7 @@ nlu:
     - Can u give me an example of a DOI citation?
     - How do I get my dataset cited by others?
 - intent: factor_consider_selecting_data
-  examples: |-
+  examples: |
     - What factors should I consider when selecting a data visualization tool?
     - What factors should I consider when selecting a visualization tool?
     - What factors should I consider when choosing a data visualization tool?
@@ -4487,7 +4496,7 @@ nlu:
     - How do I choose the best data visualization tool for my needs?
     - what's top free data viz tools?
 - intent: spreadsheet_software_use_data
-  examples: |-
+  examples: |
     - What spreadsheet software can I use for data visualization?
     - Tell me the best spreadsheet software to use for data visualization?
     - Tell me the best spreadsheet software for data visualization?
@@ -4515,7 +4524,7 @@ nlu:
     - I wanna make some fancy charts, what software should I use?
     - Is Microsoft Excel the only game in town for data visualization?
 - intent: data_visualization_software_available
-  examples: |-
+  examples: |
     - What data visualization software is available?
     - Tell me the best data visualization software available?
     - Tell me the best data visualization software?
@@ -4547,7 +4556,7 @@ nlu:
     - does office 365 include power bi?
     - do you guys have software for visualizing something
 - intent: programming_language_use_data
-  examples: |-
+  examples: |
     - What programming languages can I use for data visualization?
     - Tell me the best programming language to use for data visualization?
     - Tell me the best programming language for data visualization?
@@ -4578,7 +4587,7 @@ nlu:
     - How do I get started with D3.js?
     - Which programming language has the best built-in data visualization capabilities?
 - intent: resource_available_finding_economic
-  examples: |-
+  examples: |
     - What resources are available for finding economic statistics?
     - can you list the best resources for finding economic statistics?
     - What resources are available to find economic statistics?
@@ -4607,7 +4616,7 @@ nlu:
     - Where can i get data on GDP and inflation rate?
     - resources for global economic trends?
 - intent: data_set_available_economic
-  examples: |-
+  examples: |
     - What data sets are available for economic research?
     - can you list the available data sets for economic research?
     - list the available data sets for economic research?
@@ -4635,7 +4644,7 @@ nlu:
     - What's up with FRED St. Louis Fed?
     - I need some UN economic data - where do I go?
 - intent: data_set_available_education
-  examples: |-
+  examples: |
     - What data sets are available for education?
     - Which data sets are available for education?
     - can you list the available data sets for education?
@@ -4664,7 +4673,7 @@ nlu:
     - UNESCO got any educational datasets available?
     - Any way to get NCES data directly?
 - intent: contact_interlibrary_loan_staff
-  examples: |-
+  examples: |
     - How do I contact Interlibrary Loan staff?
     - How can I contact Interlibrary Loan staff?
     - How do I contact the Interlibrary Loan staff?
@@ -4691,7 +4700,7 @@ nlu:
     - what is the contact info for USC interlibrary loan
     - Who can I talk to about my ILL request?
 - intent: usc_columbia_user
-  examples: |-
+  examples: |
     - What if I'm not a USC Columbia user?
     - What if I'm not a USC Columbia student?
     - I'm not a USC student, can I still borrow books?
@@ -4718,7 +4727,7 @@ nlu:
     - What are the library options in Columbia for non students?
     - Can you use USC libraries without being affiliated?
 - intent: resource_environmental_geospatial_statistic
-  examples: |-
+  examples: |
     - What are some resources for environmental and geospatial statistics?
     - list some resources for environmental and geospatial statistics?
     - What are resources for environmental and geospatial statistics?
@@ -4747,7 +4756,7 @@ nlu:
     - enviromental statistic ressources?
     - Can you provide me with enviro data websites?
 - intent: find_environmental_geospatial_data
-  examples: |-
+  examples: |
     - Where can I find environmental and geospatial data sets?
     - geospacial data
     - environment data
@@ -4774,7 +4783,7 @@ nlu:
     - Sources of free geospatial data
     - enviro policy data in csv format?
 - intent: modelled_data_resource_available
-  examples: |-
+  examples: |
     - What modelled data resources are available?
     - modelled data resources
     - how to model data
@@ -4807,7 +4816,7 @@ nlu:
     - I'm looking for U.S. Census data and tools
     - Geospatial Data Gateway website
 - intent: observed_data_resource_available
-  examples: |-
+  examples: |
     - What observed data resources are available?
     - can you list the available observed data resources?
     - What observational data resources are available?
@@ -4835,7 +4844,7 @@ nlu:
     - I need help with observed data, where do I look?
     - What are some reliable sources for research data?
 - intent: resource_available_finding_health
-  examples: |-
+  examples: |
     - What resources are available for finding health statistics and data sets?
     - What resources are available to find health statistics and data sets?
     - list the best resources for finding health statistics and data sets?
@@ -4894,7 +4903,7 @@ nlu:
     - health stats us
     - unaids database
 - intent: resource_available_library_statistical
-  examples: |-
+  examples: |
     - What resources are available for library statistical resources?
     - library stats resources
     - statistics service
@@ -4923,7 +4932,7 @@ nlu:
     - What kinda data does USC have on public libraries?
     - USC policy map access?
 - intent: resource_social_work_statistic
-  examples: |-
+  examples: |
     - What are some resources for social work statistics?
     - can you list the best resources for social work statistics?
     - can you list the resources for social work statistics?
@@ -4952,7 +4961,7 @@ nlu:
     - whats a good resource 4 social work research?
     - need info on worldwide education statistics?
 - intent: resource_u_statistic
-  examples: |-
+  examples: |
     - list some good resources for U.S. statistics?
     - show some resources for U.S. statistics?
     - Where can I find U.S. statistics?
@@ -4979,7 +4988,7 @@ nlu:
     - where can i find south carolina education stats?
     - child health stats in united states - where to look?
 - intent: resource_data_set
-  examples: |-
+  examples: |
     - What are some resources for data sets?
     - can you list the resources for data sets?
     - recommend some resources for data sets?
@@ -5008,7 +5017,7 @@ nlu:
     - national archive of crime data?
     - resources for aging research?
 - intent: resource_available_sociology_statistic
-  examples: |-
+  examples: |
     - show the resources available for sociology statistics and data sets?
     - Where can I find sociology statistics?
     - sociology data sets?
@@ -5034,7 +5043,7 @@ nlu:
     - sociology research databases?
     - population statistics login?
 - intent: data_set_available_sociology
-  examples: |-
+  examples: |
     - What data sets are available for sociology?
     - list the available data sets for sociology?
     - can you list the available data sets for sociology?
@@ -5062,7 +5071,7 @@ nlu:
     - What r the best datasets 4 sociolgy study?
     - how do i obtain asa data on sociology profession?
 - intent: research_data_management
-  examples: |-
+  examples: |
     - What is research data management?
     - What is resarch data
     - Tell me about rdm
@@ -5091,7 +5100,7 @@ nlu:
     - Can you explain research data formats to me?
     - I need help organizing my data
 - intent: tool_resource_available_research
-  examples: |-
+  examples: |
     - What tools and resources are available for Research Data Management?
     - research data management tools
     - RDM tools
@@ -5128,6 +5137,7 @@ nlu:
     - who do i contact for help with data management plan
     - who is stacy
     - Who do I talk to for data management help?
+    - person for understanding data management
     - dmp help
     - data management help
     - library contact info
@@ -5157,7 +5167,7 @@ nlu:
     - Can I get help with dataset discovery?
     - data lifecycle help
 - intent: whats_data_management_plan
-  examples: |-
+  examples: |
     - Whats data management plan (DMP)?
     - wahts dmp
     - dmp
@@ -5189,7 +5199,7 @@ nlu:
     - dmp stuff
     - dmp
 - intent: resource_available_writing_data
-  examples: |-
+  examples: |
     - What resources are available for writing a Data Management Plan (DMP)?
     - data management plan assistance
     - Where can I find sample data management plans?
@@ -5216,7 +5226,7 @@ nlu:
     - I'm looking for data curation resources - can you help?
     - What are the most important things to include in a data management and sharing plan?
 - intent: need_data_management_plan
-  examples: |-
+  examples: |
     - Why should I have a data management plan?
     - how do i manage my data
     - need something to store my data
@@ -5242,7 +5252,7 @@ nlu:
     - Need best practices 4 data storage
     - Why funders want me to have a DMP
 - intent: What_is_DMPtool
-  examples: |-
+  examples: |
     - What is DMPtool?
     - Tell me the DMPtool?
     - What is a DMPtool?
@@ -5271,7 +5281,7 @@ nlu:
     - How do I create a DMP for my grant?
     - DMP template?
 - intent: osf_use_it
-  examples: |-
+  examples: |
     - how to use OSF
     - Collaboration tools for research
     - How do I share research projects?
@@ -5294,7 +5304,7 @@ nlu:
     - I'm looking for options to store my data
     - Do I need to register my research project?
 - intent: option_available_longterm_archiving
-  examples: |-
+  examples: |
     - How can I share my research data with others?
     - How do I share my research data?
     - How do I share research data at USC?
@@ -5334,7 +5344,7 @@ nlu:
     - does the university have a data repo
     - do u guys have a data repo i can use
 - intent: cite_dataset
-  examples: |-
+  examples: |
     - How do I cite a dataset?
     - How do I cite someone else's dataset?
     - how to give credit for datasets
@@ -5357,7 +5367,7 @@ nlu:
     - How do I cite data from a government website?
     - Do I need to cite data if its not copyrighted?
 - intent: metadata_important
-  examples: |-
+  examples: |
     - Why is metadata important?
     - Why metadata is important?
     - Why metadata is so important?
@@ -5384,7 +5394,7 @@ nlu:
     - what are some good practices for managing data
     - Why is it beneficial to share research findings?
 - intent: include_metadata
-  examples: |-
+  examples: |
     - What should I include in my Metadata?
     - what to put in metadata
     - How should I document my research data?
@@ -5417,7 +5427,7 @@ nlu:
     - Is metadata required for research data?
     - Can you explain what is meant by 'data about data'?
 - intent: element_metadata
-  examples: |-
+  examples: |
     - What are the elements of metadata?
     - can you list the elements of metadata?
     - What are metadata elements?
@@ -5447,10 +5457,8 @@ nlu:
     - whats best practice for documenting research data?
     - In what language shld I write my metadata?
 - intent: find_information_metadata_standard
-  examples: |-
+  examples: |
     - Where can I find more information about metadata standards?
-    - Where can I find information about metadata standards?
-    - Where can I get more information about metadata standards?
     - Where can I find metadata standards?
     - metadata directory
     - What are the metadata standards for humanities?
@@ -5475,7 +5483,7 @@ nlu:
     - Can you show me where to find best practices for data management?
     - whr cn i get a copy of the metadata glossary?
 - intent: consistent_file_naming_strategy
-  examples: |-
+  examples: |
     - Why is a consistent file naming strategy important?
     - Why is consistent file naming important?
     - Why is file naming important?
@@ -5503,10 +5511,8 @@ nlu:
     - I have a million files, how do I keep track?
     - file naming 101: what's the convention?
 - intent: file_format_use_ensure
-  examples: |-
+  examples: |
     - What file formats should I use to ensure long-term accessibility of research data?
-    - What file formats should I use to ensure long-term access of research data?
-    - What file formats should I use for long-term data accessibility?
     - How can I ensure my research data is accessible in the future?
     - Why are proprietary file formats a problem?
     - What's the best way to save research data?
@@ -5531,7 +5537,7 @@ nlu:
     - What if tech advancements make my data unreadable?
     - Should i use open source file formats for research?
 - intent: open_science_framework
-  examples: |-
+  examples: |
     - Tell me aboug osf
     - osf.io what's that
     - Is OSF only for science research?
@@ -5651,7 +5657,7 @@ nlu:
     - Where can I learn more about GDPR?
     - SC-DIS 200 standards explained
 - intent: university_policy_apply_research
-  examples: |-
+  examples: |
     - What university policies apply to research data management?
     - Tell me the university policy on research data management?
     - Where can I find USC data policies?
@@ -5678,7 +5684,7 @@ nlu:
     - USC university policies on tech use?
     - Data policies for USC researchers?
 - intent: service_osf_integrate_with
-  examples: |-
+  examples: |
     - What services does OSF integrate with?
     - What services do OSF integrate with?
     - list the services that OSF integrates with?
@@ -5705,18 +5711,11 @@ nlu:
     - How do i get osf to work with other stuff?
     - osf and 3rd party apps?
 - intent: resource_available_research_data
-  examples: |-
-    - What resources are available for research data management education?
-    - RDM resources
-    - resource/data management services
+  examples: |
     - Data management education resources?
-    - Where can I learn about research data management?
     - dataone modules link
     - MANTRA training program
     - Research data management tutorials?
-    - learn to manage research data
-    - usc library data management help
-    - How do I manage my research data?
     - data management education modules
     - What is MANTRA training?
     - resources for managing research data
@@ -5734,7 +5733,6 @@ nlu:
 - intent: happens_article_resulting_accepted
   examples: |
     - What happens to articles resulting from accepted Registered Reports?
-    - What happens to articles resulting from accepted registered reports?
     - What will happen to articles resulting from accepted registered reports?
     - What happens to accepted Registered Reports?
     - registered reports acceptance criteria
@@ -5798,7 +5796,7 @@ nlu:
     - group study room reservation
     - Who handles library event scheduling?
 - intent: service_available_faculty_instructor
-  examples: |-
+  examples: |
     - What other services are available for faculty and instructors?
     - What services are available for faculty and instructors?
     - What other services are available to faculty and instructors?
@@ -5825,7 +5823,7 @@ nlu:
     - Faculty training sessions - where do i sign up?
     - whats da deal w/ CTE workshops?
 - intent: kind_ai_support_library
-  examples: |-
+  examples: |
     - Is there an Artificial Intelligence Institute at USC?
     - AI institute
     - What is the AI institute at USC?
@@ -5908,7 +5906,7 @@ nlu:
     - Data analysis support at USC library
     - What king of AI support is in the library
 - intent: workshop_available_ai_data
-  examples: |-
+  examples: |
     - What workshops are available for AI and data science?
     - list the best AI and data science workshops?
     - Are there any AI workshops available?
@@ -5935,7 +5933,7 @@ nlu:
     - ai literacy course available?
     - got any info on machine learning tutorials?
 - intent: help_ai
-  examples: |-
+  examples: |
     - Who can help me with AI?
     - How can I learn AI?
     - Who can help me to learn AI?
@@ -5970,7 +5968,7 @@ nlu:
     - Where do I go for data science support?
     - I need help in AI
 - intent: artificial_intelligence
-  examples: |-
+  examples: |
     - What is Artificial Intelligence?
     - Tell me the Artificial Intelligence?
     - What's AI?
@@ -5997,7 +5995,7 @@ nlu:
     - What's artificial intelligence used for?
     - Give me a brief definition of AI
 - intent: ai_evolved_time
-  examples: |-
+  examples: |
     - How has AI evolved over time?
     - How has AI changed over time?
     - How has AI evolved over the years?
@@ -6092,7 +6090,7 @@ nlu:
     - Can I get in trouble for using AI?
     - Student conduct and AI policy
 - intent: text_analysis
-  examples: |-
+  examples: |
     - Tell me text analysis?
     - What is text analysis?
     - text analysis meaning
@@ -6117,7 +6115,7 @@ nlu:
     - Can u tell me about text analysis applications?
     - Is distant reading better than close reading?
 - intent: terminology_used_text_analysis
-  examples: |-
+  examples: |
     - Tell me the terms used in text analysis
     - What terminology is used in text analysis?
     - Tell me the terminology used for text analysis
@@ -6145,7 +6143,7 @@ nlu:
     - whats content mining used for in research?
     - can u tell me about machine learnin?
 - intent: get_started_text_analysis
-  examples: |-
+  examples: |
     - How do I get started with text analysis?
     - How can I get started with text analysis?
     - How do I start text analysis?
@@ -6175,7 +6173,7 @@ nlu:
     - machine readable data sources?
     - webscraping for text analysis - yay or nay?
 - intent: common_text_analysis_method
-  examples: |-
+  examples: |
     - What are common text analysis methods?
     - What are text analysis methods?
     - Tell me the most common text analysis method?
@@ -6206,7 +6204,7 @@ nlu:
     - Significant terms, how do I find them?
     - can u explain text analysis methods in simple terms?
 - intent: store_create_machine_readable
-  examples: |-
+  examples: |
     - How do I store and create machine readable text?
     - How do I store machine readable text?
     - How do I create machine readable text?
@@ -6236,7 +6234,7 @@ nlu:
     - Can I use a PNG as input for analysis?
     - How do I compress my dataset?
 - intent: machine_learning
-  examples: |-
+  examples: |
     - What is Machine Learning?
     - ML
     - How does machine lreanign work
@@ -6266,39 +6264,6 @@ nlu:
     - what's the diff btwn machine learnin & traditional methods
     - ml model trainin process
     - is ml a type of ai?
-- intent: different_type_machine_learning
-  examples: |-
-    - What are the different types of Machine Learning?
-    - can you list the different types of machine learning?
-    - Tell me the different types of machine learning?
-    - machine learning types
-    - What types of machine learning exist?
-    - machine learning categories
-    - How many types of ML are there?
-    - ML types?
-    - Can you list all the machine learning types?
-    - what is supervised vs unsupervised ml?
-    - Classification of machine learning?
-    - different kinds of ml problems
-    - What is semi-supervised machine learning?
-    - reinforcement learning definition
-    - Explain the types of ML
-    - machine learning methods
-    - types of machine learning algorithms
-    - How many categories are there in machine learning?
-    - types of ML
-    - whats the diff btw supervised & unsupervised ml?
-    - List all the ml categories
-    - Can u tell me about reinforcement learnin?
-    - What r the types of machine learnin algorithms?
-    - semi-supervisd learning meaning?
-    - How many kind of machine learnin r there?
-    - Classification of ML problems?
-    - Explain diff types of ML models
-    - Wat r the main categories in ML?
-    - Can u list all type of machine learnin?
-- intent: key_term_related_machine
-  examples: |-
     - What are some key terms related to Machine Learning?
     - can you list the key terms related to Machine Learning?
     - list some key terms related to Machine Learning?
@@ -6330,8 +6295,39 @@ nlu:
     - Can u give examples of binary labels?
     - Whaat is the training subset used for?
     - How is validation data diff from test data?
+- intent: different_type_machine_learning
+  examples: |
+    - What are the different types of Machine Learning?
+    - can you list the different types of machine learning?
+    - Tell me the different types of machine learning?
+    - machine learning types
+    - What types of machine learning exist?
+    - machine learning categories
+    - How many types of ML are there?
+    - ML types?
+    - Can you list all the machine learning types?
+    - what is supervised vs unsupervised ml?
+    - Classification of machine learning?
+    - different kinds of ml problems
+    - What is semi-supervised machine learning?
+    - reinforcement learning definition
+    - Explain the types of ML
+    - machine learning methods
+    - types of machine learning algorithms
+    - How many categories are there in machine learning?
+    - types of ML
+    - whats the diff btw supervised & unsupervised ml?
+    - List all the ml categories
+    - Can u tell me about reinforcement learnin?
+    - What r the types of machine learnin algorithms?
+    - semi-supervisd learning meaning?
+    - How many kind of machine learnin r there?
+    - Classification of ML problems?
+    - Explain diff types of ML models
+    - Wat r the main categories in ML?
+    - Can u list all type of machine learnin?
 - intent: news_event_related_ai
-  examples: |-
+  examples: |
     - What news and events are related to AI at USC?
     - list the latest news and events related to AI at USC?
     - What are news and events related to AI at USC?
@@ -6360,7 +6356,7 @@ nlu:
     - News & events on machine learning at USC?
     - Get me the latest on AI innovations from University of Southern California
 - intent: ai_degree_certificate_offered
-  examples: |-
+  examples: |
     - What AI degrees and certificates are offered?
     - What are AI degrees and certificates offered in India?
     - AI degree options at USC
@@ -6446,7 +6442,7 @@ nlu:
     - Learn more about USC Info Tech MS
     - Course requirements for MSIT
 - intent: introductory_tool_text_analysis
-  examples: |-
+  examples: |
     - What are some introductory tools for text analysis?
     - Tell me the best introductory tool for text analysis?
     - recommend some introductory tools for text analysis?
@@ -6473,7 +6469,7 @@ nlu:
     - newb here, need introductory resources fer text analysis
     - How can I get started w/ text analysis on a budget?
 - intent: hathitrust_research_center
-  examples: |-
+  examples: |
     - Tell me the HathiTrust Research Center?
     - USC login for hathitrust
     - Can I use HathiTrust for research?
@@ -6496,7 +6492,7 @@ nlu:
     - USC subscription to hathitrust?
     - Can anyone use HathiTrust Research Center?
 - intent: advanced_text_analysis_tool
-  examples: |-
+  examples: |
     - What advanced text analysis tools are available?
     - best text analysis software
     - tools for analyzing text
@@ -6533,7 +6529,7 @@ nlu:
     - usc library regex guide
     - Google Colab
 - intent: freely_available_corpus_text
-  examples: |-
+  examples: |
     - What are some freely available corpora for text mining and analysis?
     - list some free corpora for text mining and analysis?
     - list some freely available corpora for text mining and analysis?
@@ -6592,7 +6588,7 @@ nlu:
     - Scholarly API Cookbook
     - U of A coding help
 - intent: policy_using_ai_developing
-  examples: |-
+  examples: |
     - What are the policies on using AI in developing manuscripts?
     - Tell me the policy on using AI in manuscript development?
     - can you list the policies on using AI in manuscript development?
@@ -6621,7 +6617,7 @@ nlu:
     - What r the guidelines 4 ai-generated content in journals
     - Will journals reject my paper if I used AI?
 - intent: cite_ai_manuscript
-  examples: |-
+  examples: |
     - How do I cite AI in my manuscript?
     - How can I cite AI in my manuscript?
     - How do I cite AI in a manuscript?
@@ -6652,7 +6648,7 @@ nlu:
     - Are there any rules for citin language generators?
     - Can you pls show me how to cite ChatGPT in my research?
 - intent: resource_available_learning_ai
-  examples: |-
+  examples: |
     - What resources are available for learning about AI in scholarly publications?
     - Resources on AI in scholarly publications?
     - Using AI for writing research papers
@@ -6678,7 +6674,7 @@ nlu:
     - can i use ai to write my research paper or is that cheating?
     - How do I know if a journal allows AI-generated content?
 - intent: example_policy_guideline_ai
-  examples: |-
+  examples: |
     - What are some examples of policies and guidelines for AI in scholarly publications?
     - list some examples of policies and guidelines for AI in scholarly publications?
     - show some examples of policies and guidelines for AI in scholarly publications?
@@ -6708,7 +6704,7 @@ nlu:
     - What are the dos and don'ts of using AI in research papers?
     - Is there a policy on using generative AI for publishing in JAMA?
 - intent: search_option_available
-  examples: |-
+  examples: |
     - What search options are available?
     - Which search options are available?
     - can you list the search options available?
@@ -6737,7 +6733,7 @@ nlu:
     - where do i find primo on usc website?
     - usc textbook borrowing rules
 - intent: service_library_offer
-  examples: |-
+  examples: |
     - What services does the library offer?
     - list the services the library offers?
     - What services does the library offer?
@@ -6798,7 +6794,7 @@ nlu:
     - mobile print center
     - printing services at usc lib
 - intent: policy_text_analysis_licensed
-  examples: |-
+  examples: |
     - What are the policies for text analysis of licensed content?
     - list the policies for text analysis of licensed content?
     - Tell me the policy for text analysis of licensed content?
@@ -6827,7 +6823,7 @@ nlu:
     - Commercial use of licensed texts - is it allowed?
     - How do I request access 4 text analysis @ USC?
 - intent: vendor_allow_text_analysis
-  examples: |-
+  examples: |
     - What vendors allow text analysis of licensed content?
     - list the vendors that allow text analysis of licensed content?
     - Which vendors allow text analysis of licensed content?
@@ -6855,7 +6851,7 @@ nlu:
     - What's the data usage policy for Nexis?
     - Can I access Oxford Uni Press journals for text analysis?
 - intent: federal_legal_response_ai
-  examples: |-
+  examples: |
     - What are some federal and legal responses to AI?
     - list some federal and legal responses to AI?
     - What are federal and state legal responses to AI?
@@ -6885,7 +6881,7 @@ nlu:
     - wut r the state laws regarding ai as of 2023?
     - library resources for researching ai laws?
 - intent: resource_copyright_ai
-  examples: |-
+  examples: |
     - What are some resources on copyright and AI?
     - list some resources on copyright and AI?
     - can you list the resources on copyright and AI?
@@ -6914,7 +6910,7 @@ nlu:
     - hey, what's up with AI and copyrights?
     - does AI-generated work have any copyright protection?
 - intent: guidance_university_college_provide
-  examples: |-
+  examples: |
     - What guidance do universities and colleges provide on AI usage?
     - What guidance do universities and colleges provide on AI?
     - What advice do universities and colleges provide on AI usage?
@@ -6972,7 +6968,7 @@ nlu:
     - citation style for assignments
     - Who decides the citation style?
 - intent: need_cite_source
-  examples: |-
+  examples: |
     - Why do I need to cite sources?
     - Why do I have to cite sources?
     - Why do you need to cite sources?
@@ -7000,7 +6996,7 @@ nlu:
     - Why is it importint to site sources?
     - Do I need to cite if its common knowlege?
 - intent: commonly_used_citation_style
-  examples: |-
+  examples: |
     - What are the most commonly used citation styles?
     - can you list the most commonly used citation styles?
     - list the most commonly used citation styles?
@@ -7028,7 +7024,7 @@ nlu:
     - USC recomended citation styles?
     - can u link me to MLA 9th edition guide?
 - intent: contact_library_textbook_course
-  examples: |-
+  examples: |
     - How do I contact the library about textbooks and course materials?
     - what is library email
     - Where is the checkout desk?
@@ -7052,7 +7048,7 @@ nlu:
     - textbook issues, who do i talk to?
     - can u email the lib?
 - intent: event_offered_constellate
-  examples: |-
+  examples: |
     - What events are offered by Constellate?
     - can you list the events offered by Constellate?
     - list the events offered by Constellate?
@@ -7081,7 +7077,7 @@ nlu:
     - can faculaty from other univs join constlate vents?
     - Where can I find more info about Constellate webinars?
 - intent: tutorial_available_text_analysis
-  examples: |-
+  examples: |
     - What tutorials are available for text analysis?
     - can you list the best tutorials for text analysis?
     - list the best tutorials for text analysis?
@@ -7109,7 +7105,7 @@ nlu:
     - How do I access video lectures on text mining?
     - Need help finding beginner-friendly tutorials on python
 - intent: instruction_article_available_text
-  examples: |-
+  examples: |
     - What articles and instructions are available for text analysis?
     - Topic modeling resources?
     - I need help with topic modeling
@@ -7207,7 +7203,7 @@ nlu:
     - need help citing data
     - Citing sources in AMA
 - intent: apa_publication_manual
-  examples: |-
+  examples: |
     - What is the APA Publication Manual?
     - What is an APA Publication Manual?
     - What is APA Publication Manual?
@@ -7236,7 +7232,7 @@ nlu:
     - Where can I find APA formatting rules?
     - I'm lost with APA citations, help!
 - intent: cite_periodical_apa_style
-  examples: |-
+  examples: |
     - How do I cite periodicals in APA style?
     - How can I cite periodicals in APA style?
     - How do I quote periodicals in APA style?
@@ -7265,7 +7261,7 @@ nlu:
     - Can you provide an example of citing a news article with no author?
     - how to cite online magazines in apa
 - intent: cite_book_reference_text
-  examples: |-
+  examples: |
     - How do I cite books and reference texts in APA style?
     - How do I cite books in APA style?
     - How do I cite books and references in APA style?
@@ -7294,7 +7290,7 @@ nlu:
     - book referencing apa guide needed
     - apa style for citing multiple authors same last name
 - intent: cite_webpage_website_apa
-  examples: |-
+  examples: |
     - How do I cite webpages and websites in APA style?
     - How do I cite a website in APA style?
     - How do I cite a webpage in APA style?
@@ -7321,7 +7317,7 @@ nlu:
     - citation for web page with unknown author apa
     - need help citing a webpage apa style
 - intent: cite_government_business_technical
-  examples: |-
+  examples: |
     - How do I cite government, business, and technical reports in APA style?
     - How do I cite government, business and technical reports in APA style?
     - How do I cite government business and technical reports in APA style?
@@ -7348,7 +7344,7 @@ nlu:
     - whats manual 10.4 in apa citations?
     - can you provide an example of apa style for citing technical reports?
 - intent: cite_dissertation_thesis_apa
-  examples: |-
+  examples: |
     - How do I cite dissertations and theses in APA style?
     - How do I cite a dissertation in APA style?
     - How do I cite a dissertation?
@@ -7373,7 +7369,7 @@ nlu:
     - Dissertation citations apa style guide
     - Cite a thesis in apa for me
 - intent: cite_data_set_software
-  examples: |-
+  examples: |
     - How do I cite data sets and software in APA style?
     - How can I cite data sets and software in APA style?
     - How do I cite data sets in APA style?
@@ -7401,7 +7397,7 @@ nlu:
     - icpsr data sets download process
     - wiseheart dataset version 1 manual
 - intent: find_information_apa_citation
-  examples: |-
+  examples: |
     - Where can I find more information on APA citations?
     - Where can I find more information about APA Citations?
     - Where can I find information on APA citations?
@@ -7430,7 +7426,7 @@ nlu:
     - Cant figure out APA referencing, plz hlp
     - apa citation formats?
 - intent: chicago_manual_style
-  examples: |-
+  examples: |
     - What is the Chicago Manual of Style?
     - What citation style is used in history?
     - Chicago manual of style guide
@@ -7457,7 +7453,7 @@ nlu:
     - Hey, can you help me with CMOS citation examples?
     - Where can I find the latest Chicago Manual of Style edition?
 - intent: cite_primary_source_chicago
-  examples: |-
+  examples: |
     - How do I cite primary sources in Chicago style?
     - How can I cite primary sources in Chicago style?
     - How do you cite primary sources in Chicago style?
@@ -7517,7 +7513,7 @@ nlu:
     - How do I format Chicago citations?
     - USC chicago citation resources
 - intent: ongoing_event_happening_library
-  examples: |-
+  examples: |
     - What ongoing events are happening at the library?
     - library events?
     - Anything going on at USC libraries?
@@ -7597,7 +7593,7 @@ nlu:
     - speech recognition videos?
     - Planning and optimization tutorials?
 - intent: concept_related_generative_ai
-  examples: |-
+  examples: |
     - What are the concepts related to generative AI?
     - can you list the concepts related to generative AI?
     - Tell me the concept of generative AI?
@@ -7627,7 +7623,7 @@ nlu:
     - I'm looking 4 info on Data Augmentation, help!
     - Got any good books on generative ai at usc library?
 - intent: tip_follow_using_ai
-  examples: |-
+  examples: |
     - What tips can I follow when using AI for research?
     - Tell me the best way to use AI for research?
     - How can I use AI for research?
@@ -7655,7 +7651,7 @@ nlu:
     - What's the importance of evaluating AI-generated data?
     - Is it a good idea to use AI for researching topics?
 - intent: learn_using_ai_according
-  examples: |-
+  examples: |
     - Where can I learn more about AI according to the USC honor code?
     - USC honor code AI rules?
     - Can I use AI for assignments at USC?
@@ -7743,7 +7739,7 @@ nlu:
     - prompt engineering info
     - Designing inputs for generative AI
 - intent: format_intext_citation_mla
-  examples: |-
+  examples: |
     - How do I format an in-text citation in MLA 9?
     - MLA in text citation?
     - How do I cite in MLA 9?
@@ -7769,7 +7765,7 @@ nlu:
     - Do you have any tips on formatting MLA citations?
     - MLA citin made easy?
 - intent: format_work_cited_entry
-  examples: |-
+  examples: |
     - How do I format a Works Cited entry in MLA 9?
     - How do I cite a source in MLA 9?
     - MLA works cited format?
@@ -7796,7 +7792,7 @@ nlu:
     - Whats the proper way to cite online articles in MLA 9?
     - Can you give me an example of a cited source in MLA style?
 - intent: additional_resource_mla_citation
-  examples: |-
+  examples: |
     - Are there additional resources for MLA citation?
     - Are there any resources for MLA citation?
     - can you list the resources for MLA citation?
@@ -7853,7 +7849,7 @@ nlu:
     - Evaluating sources for dummies
     - What's the best way to evaluate information?
 - intent: criterion_evaluating_online_resource
-  examples: |-
+  examples: |
     - What are the criteria for evaluating online resources?
     - list the criteria for evaluating online resources?
     - can you list the criteria for evaluating online resources?
@@ -7883,7 +7879,7 @@ nlu:
     - I want to evaluate this online resource - what should I look for?
     - How can I identify bias in an article?
 - intent: resource_available_understanding_medium
-  examples: |-
+  examples: |
     - What resources are available for understanding media bias?
     - How can I evaluate media bias?
     - Is there a chart to check media bias?
@@ -7938,7 +7934,7 @@ nlu:
     - Where can I learn more about Bing Image Creator?
     - AI image creation tools recommended by USC library
 - intent: ai_art_generator_work
-  examples: |-
+  examples: |
     - How do AI art generators work?
     - How do AI art generators work?
     - AI image generator process
@@ -7965,7 +7961,7 @@ nlu:
     - can anyone tell me about the process of ai image generation?
     - what kinda models do ai art generators typically use?
 - intent: attribute_ai_research
-  examples: |-
+  examples: |
     - How can I attribute AI in my research?
     - How do I cite AI in APA style?
     - apa citation for ai generated text
@@ -8024,7 +8020,7 @@ nlu:
     - chicago style citations examples
     - Learn Chicago 17 author date citation
 - intent: additional_resource_available_chicago
-  examples: |-
+  examples: |
     - What additional resources are available for Chicago citation style?
     - chicago style guide usc
     - How do I cite sources in Chicago style?
@@ -8048,7 +8044,7 @@ nlu:
     - Can u give me link to chicago manual of style?
     - Chicago citation styles avail @ usc library?
 - intent: digital_scholarship_service_available
-  examples: |-
+  examples: |
     - What digital scholarship services are available?
     - What are digital scholarship services?
     - Tell me the best digital scholarship service?
@@ -8077,7 +8073,7 @@ nlu:
     - I'm a prof, can I get web hosting thru the lib?
     - what software does usc have for digital scholarship stuff?
 - intent: digital_scholarship
-  examples: |-
+  examples: |
     - What is a digital scholarship?
     - Tell me the meaning of digital scholarship?
     - What is digital scholarship?
@@ -8103,7 +8099,7 @@ nlu:
     - I'm trying to understand this whole 'digital scholarship' thing...
     - what's the difference between traditional and digital scholarship?
 - intent: library_help_digital_scholarship
-  examples: |-
+  examples: |
     - How can the library help with my digital scholarship project?
     - How can the library help me with my digital scholarship project?
     - How can the library help with a digital scholarship project?
@@ -8132,7 +8128,7 @@ nlu:
     - Can USC lib help me plan my digi project?
     - How do I get started with hosting a website through USC?
 - intent: see_example_digital_scholarship
-  examples: |-
+  examples: |
     - Can I see examples of digital scholarship projects?
     - How can I see examples of digital scholarship projects?
     - can you list the examples of digital scholarship projects?
@@ -8158,7 +8154,7 @@ nlu:
     - Hey, show me some examples of digital research at USC
     - Dig scholarship project ideas wanted
 - intent: text_mining
-  examples: |-
+  examples: |
     - What is text mining?
     - what does text mining mean?
     - Tell me about text mining
@@ -8188,7 +8184,7 @@ nlu:
     - Can text mining handle large datasets?
     - txt mining vs data mining, whats the diff?
 - intent: term_related_text_mining
-  examples: |-
+  examples: |
     - What terms are related to text mining?
     - Text mining definition
     - data mining meaning
@@ -8214,7 +8210,7 @@ nlu:
     - whats the definition of natural language processing?
     - Can you break down text mining concepts 4 me?
 - intent: get_started_text_mining
-  examples: |-
+  examples: |
     - How do I get started with text mining?
     - How do I start text mining?
     - How can I get started with text mining?
@@ -8241,7 +8237,7 @@ nlu:
     - how long does it take to process a data request?
     - does the library offer scanning services?
 - intent: create_open_access_journal
-  examples: |-
+  examples: |
     - Can I create an open access journal through the University of South Carolina Libraries?
     - How do I create an open access journal through the University of South Carolina Libraries?
     - How can I create an open access journal through the University of South Carolina Libraries?
@@ -8269,7 +8265,7 @@ nlu:
     - Can I use USC library resources for my OA journal?
     - Who do I contact about creating a new journal at USC?
 - intent: detail_consider_creating_open
-  examples: |-
+  examples: |
     - What details should I consider when creating an open access journal?
     - What should I consider when creating an open access journal?
     - How do I create an open access journal?
@@ -8302,7 +8298,7 @@ nlu:
     - Do I really need DOIs 4 my journal's content?
     - Who's responsible 4 payin' DOI registration fees?
 - intent: role_needed_manage_open
-  examples: |-
+  examples: |
     - What roles are needed to manage an open access journal?
     - How do I manage an open access journal?
     - What roles are required to manage an open access journal?
@@ -8330,7 +8326,7 @@ nlu:
     - What r the main roles involved in running an online open access journal?
     - Can I start an OA journal on my own or do I need help?
 - intent: policy_established_open_access
-  examples: |-
+  examples: |
     - What policies should be established for an open access journal?
     - What policies should be established for open access journals?
     - What policies should be set for open access journals?
@@ -8360,7 +8356,7 @@ nlu:
     - What's the submission process like for OA journals?
     - Can you give me an overview of OA policy details?
 - intent: attribution_work
-  examples: |-
+  examples: |
     - What is the attribution for this work?
     - Tell me the attribution for this work?
     - Tell me the attribution of this work?
@@ -8387,7 +8383,7 @@ nlu:
     - how do i give proper credit for dis source?
     - wut r the rules for usin' dis work?
 - intent: consider_planning_digital_scholarship
-  examples: |-
+  examples: |
     - What should I consider when planning a digital scholarship project?
     - What should you consider when planning a digital scholarship project?
     - How do I plan a digital scholarship project?
@@ -8417,7 +8413,7 @@ nlu:
     - Are ther costs assoc with usin a content mngmnt systm?
     - Where shud i store master files n data 4 my project?
 - intent: see_example_digital_project
-  examples: |-
+  examples: |
     - Can I see examples of digital projects created at USC?
     - USC faculty digital projects
     - What kind of online resources do USC professors create?
@@ -8505,7 +8501,7 @@ nlu:
     - Where are the video tutorials for JSTOR?
     - How to log in to Constellate
 - intent: hathitrust_research_center_access
-  examples: |-
+  examples: |
     - How do I access HathiTrust?
     - HathiTrust login not working
     - USC HathiTrust portal
@@ -8529,7 +8525,7 @@ nlu:
     - usc library hathitrust portal link
     - HTRC login says account not found
 - intent: track_impact_research
-  examples: |-
+  examples: |
     - How can I track the impact of my research?
     - scholar commons metrics
     - Can I see who's using my research?
@@ -8589,7 +8585,7 @@ nlu:
     - Can I host more than 1GB on USC Create?
     - USC digital scholarship storage limits
 - intent: need_additional_storage
-  examples: |-
+  examples: |
     - What if I need additional storage?
     - What if I need more storage?
     - What should I do if I need additional storage?
@@ -8617,7 +8613,7 @@ nlu:
     - are there external storage options 4 usc projects?
     - whats the policy on storage 4 non-grant funded projects?
 - intent: get_started_uscs_create
-  examples: |-
+  examples: |
     - How do I get started with USC's Create Digital?
     - How do I access my cPanel?
     - cpanel guide
@@ -8675,7 +8671,7 @@ nlu:
     - I'm lost, where do I start with digital tools?
     - Can you recommend any digital tool resources?
 - intent: timeline_tool_available
-  examples: |-
+  examples: |
     - What timeline tools are available?
     - Tell me the best timeline tool?
     - Tell me the best timeline tool available?
@@ -8705,7 +8701,7 @@ nlu:
     - Best way to make a historical timeline?
     - smthng like timeline js but easyer to use?
 - intent: mapping_tool_available
-  examples: |-
+  examples: |
     - What mapping tools are available?
     - list the best mapping tools?
     - Tell me the best mapping tool?
@@ -8736,7 +8732,7 @@ nlu:
     - Are there any mapping tools avail w/ mobile apps?
     - QGIS
 - intent: web_scraper_available
-  examples: |-
+  examples: |
     - What web scrapers are available?
     - Tell me the best web scraper?
     - list the best web scrapers?
@@ -8764,7 +8760,7 @@ nlu:
     - I need to scrape some data from a news site
     - What are some web scraping tools for Python?
 - intent: collaboration_tool_available
-  examples: |-
+  examples: |
     - What collaboration tools are available?
     - list the best collaboration tools?
     - can you list the best collaboration tools?
@@ -8792,7 +8788,7 @@ nlu:
     - Need a tool to manage team assignments and deadlines
     - How do I get my team on the same page with projects?
 - intent: animation_tool_available
-  examples: |-
+  examples: |
     - What animation tools are available?
     - can you list the best animation tools?
     - Tell me the best animation tool?
@@ -8839,7 +8835,7 @@ nlu:
     - How do I get Audacity?
     - Free audio editing software?
 - intent: copyright_exist
-  examples: |-
+  examples: |
     - What is copyright and how does it work?
     - What is copyright?
     - What is copyright law?
@@ -8868,7 +8864,7 @@ nlu:
     - Can u copyright an idea?
     - Whats not protected under US copyright law?
 - intent: make_copyright_decision
-  examples: |-
+  examples: |
     - How do I make copyright decisions?
     - How do I know if a work is covered by copyright?
     - Is this work in the public domain?
@@ -8893,7 +8889,7 @@ nlu:
     - R there any exceptions 2 copyright law 4 research purposes?
     - Can I use copyrighted material in my thesis?
 - intent: type_repository_sharing_research
-  examples: |-
+  examples: |
     - What are the types of repositories for sharing research?
     - Tell me the type of repositories for sharing research?
     - What are the types of repositories?
@@ -8920,7 +8916,7 @@ nlu:
     - Can u give me a list of general repos for sharing research?
     - How do I pick the rite repository for my published work?
 - intent: version_work_share
-  examples: |-
+  examples: |
     - What version of my work can I share with others?
     - What versions of my work can I share?
     - Can I share published articles?
@@ -8946,7 +8942,7 @@ nlu:
     - How do I know what version of my work is safe to share?
     - can u tell me about sharing post-prints?
 - intent: academic_social_networking_site
-  examples: |-
+  examples: |
     - What are academic social networking sites?
     - What is an academic social networking site?
     - What are social networking sites?
@@ -8974,7 +8970,7 @@ nlu:
     - Are there any social networking sites specifically for researchers?
     - Can I use social media to promote my research?
 - intent: featured_repository
-  examples: |-
+  examples: |
     - What are some featured repositories?
     - can you list the featured repositories?
     - What are some open access repositories?
@@ -9033,7 +9029,7 @@ nlu:
     - Learn more about OER creation
     - Attribution details for this page
 - intent: modify_existing_open_educational
-  examples: |-
+  examples: |
     - How do I modify an existing Open Educational Resource?
     - How do I modify an open educational resource?
     - How do I modify an existing open educational resource?
@@ -9104,7 +9100,7 @@ nlu:
     - How do I measure the success of my publications?
     - scholar commons views metrics
 - intent: content_management_system_available
-  examples: |-
+  examples: |
     - What content management systems are available?
     - Tell me the best content management system?
     - can you list the best content management systems?
@@ -9133,7 +9129,7 @@ nlu:
     - What's a good book-length digital scholarship platform?
     - wordpress or drupal which 1 is better?
 - intent: select_suitable_content_management
-  examples: |-
+  examples: |
     - How do I select a suitable content management system?
     - How do I choose the best content management system?
     - How do I choose a good content management system?
@@ -9218,7 +9214,7 @@ nlu:
     - How do I learn more about web archiving?
     - archive it subscription
 - intent: type_work_copyrighted
-  examples: |-
+  examples: |
     - What kinds of works can be copyrighted?
     - list the types of works that can be copyrighted?
     - What can't be copyrighted?
@@ -9245,7 +9241,7 @@ nlu:
     - Can i own rights to an idea?
     - whats the diff btwn trademark n copyright?
 - intent: public_domain
-  examples: |-
+  examples: |
     - What is the public domain?
     - What is public domain?
     - public domain meaning
@@ -9272,7 +9268,7 @@ nlu:
     - us gov docs - copyrighted or not?
     - copyright expiration dates?
 - intent: additional_resource_available_learning
-  examples: |-
+  examples: |
     - Are there additional resources available for learning about copyright?
     - can you list the best resources for learning copyright?
     - How can I learn copyright?
@@ -9300,7 +9296,7 @@ nlu:
     - Where can I get help with copyright questions?
     - whats a good website for learning copyright?
 - intent: statutory_exemption_copyright
-  examples: |-
+  examples: |
     - list some statutory exemptions for copyright?
     - What are statutory exemptions in copyright law?
     - library copying rules
@@ -9331,7 +9327,7 @@ nlu:
     - how do copyrights work 4 buildings?
     - Do libraries have special copyright rules?
 - intent: licensing_apply_using_content
-  examples: |-
+  examples: |
     - What is licensing and how does it apply to use content?
     - What is creative commons license?
     - Can I use copyrighted material in class?
@@ -9356,7 +9352,7 @@ nlu:
     - Whats the point of Creative Commons organization?
     - Can I modify and reuse CC licensed content?
 - intent: library_database_use_them
-  examples: |-
+  examples: |
     - What are library databases? How can I use them?
     - What databases does USC library offer?
     - usc library database access
@@ -9383,7 +9379,7 @@ nlu:
     - whats covered in usc library databases?
     - usc library db restrictions & rules
 - intent: acceptable_us_librarylicensed_resource
-  examples: |-
+  examples: |
     - list the acceptable uses of library-licensed resources?
     - What can I do with library resources?
     - Can I download articles from USC databases?
@@ -9409,7 +9405,7 @@ nlu:
     - Can I email a USC library article to someone not from USC?
     - Is it okay to use USC library resources for my internship?
 - intent: fair_use
-  examples: |-
+  examples: |
     - What is fair use?
     - Fair use doctrine?
     - Can I use copyrighted material for educational purposes?
@@ -9467,7 +9463,7 @@ nlu:
     - How do I know if it's fair use?
     - college student copyright
 - intent: need_permission_use_copyrighted
-  examples: |-
+  examples: |
     - When do I not need permission to use copyrighted material?
     - When do I need permission to use copyrighted material?
     - Why do I not need permission to use copyrighted material?
@@ -9494,7 +9490,7 @@ nlu:
     - Do i need permision if the libary alredy payd 4 it?
     - How duz creative commens work?
 - intent: seek_permission_use_copyrighted
-  examples: |-
+  examples: |
     - How do I seek permission to use copyrighted material?
     - How do I get permission to use copyrighted material?
     - How do I obtain permission to use copyrighted material?
@@ -9523,7 +9519,7 @@ nlu:
     - Do I need permision to use a copyrighted image on social media?
     - Can u walk me thru the steps for seeking copyright perm?
 - intent: library_help_copyright_permission
-  examples: |-
+  examples: |
     - Can the library help me with copyright permissions for teaching materials?
     - How can the library help me with copyright permissions for teaching materials?
     - Can the Library help me with copyright permissions for teaching materials?
@@ -9552,7 +9548,7 @@ nlu:
     - what r the rules for using copyrighted materials in my course?
     - how do i request e reserves thru usc library?
 - intent: different_version_article
-  examples: |-
+  examples: |
     - What are the different versions of my article?
     - can you list the different versions of my article?
     - What is a pre-print?
@@ -9612,7 +9608,7 @@ nlu:
     - archiving published works
     - how do i choose the right version of my research to share
 - intent: share_article_version_online
-  examples: |-
+  examples: |
     - Can I share my article versions online?
     - How can I share my article versions online?
     - Can I share my article version online?
@@ -9640,7 +9636,7 @@ nlu:
     - wat r the rules 4 sharin published articles on linkedin?
     - can i legally share my research article on a blog?
 - intent: vendor_allow_text_data
-  examples: |-
+  examples: |
     - Which vendors allow text and data mining of their licensed content?
     - What are the text and data mining policies for USC library databases?
     - Can I do text and data mining with USC libraries?
@@ -9667,7 +9663,7 @@ nlu:
     - Are there any USC library databases that don't allow text mining?
     - usc libraries tdm access costs
 - intent: evaluation_method_digital_scholarship
-  examples: |-
+  examples: |
     - What are the evaluation methods for digital scholarship?
     - can you list the evaluation methods for digital scholarship?
     - list the evaluation methods for digital scholarship?
@@ -9697,7 +9693,7 @@ nlu:
     - Do you have any recs for evaluating digital scholarly tools?
     - How to judge the effectiveness of a digital scholarship initiative?
 - intent: peerreviewed_journal_available_digital
-  examples: |-
+  examples: |
     - What peer-reviewed journals are available for digital scholarship?
     - list the peer-reviewed journals available for digital scholarship?
     - Which peer-reviewed journals are available for digital scholarship?
@@ -9725,7 +9721,7 @@ nlu:
     - where to publish in digital humanities?
     - what r some top digi humanities journals?
 - intent: resource_help_understand_copyright
-  examples: |-
+  examples: |
     - What resources can help me understand copyright for course materials?
     - How do I understand copyright for course materials?
     - How can I understand copyright for course materials?
@@ -9786,7 +9782,7 @@ nlu:
     - How do I get online resources for teaching?
     - Can the library add ebooks to Blackboard?
 - intent: print_material_available_course
-  examples: |-
+  examples: |
     - What print materials are available for my course?
     - list the print materials available for my course?
     - Which print materials are available for my course?
@@ -9814,7 +9810,7 @@ nlu:
     - What if the library doesn't have my course textbook?
     - Can faculty put their own books on reserve at USC lib?
 - intent: contact_course_material_support
-  examples: |-
+  examples: |
     - How can I contact the course materials support team?
     - what's the email for library help?
     - I need to submit a request to the library
@@ -9836,7 +9832,7 @@ nlu:
     - support team for course materials contact info?
     - plz provide phone no. of lib support
 - intent: impact_open_educational_resource
-  examples: |-
+  examples: |
     - What is the impact of Open Educational Resources?
     - educational resources effects
     - What are the benefits of using Open Educational Resources?
@@ -9863,7 +9859,7 @@ nlu:
     - Can Open Educational Resources reeeeally improve learning outcomes?
     - OERs effect on drop out rates
 - intent: find_information_music_material
-  examples: |-
+  examples: |
     - Where can I find more information about music materials?
     - music materials
     - Where can I find music materials for my course?
@@ -9890,7 +9886,7 @@ nlu:
     - What kinda music services does the library offer?
     - can I reserve music materials online or do i have to go to the lib?
 - intent: find_openly_available_research
-  examples: |-
+  examples: |
     - How can I find openly available research works?
     - How do I find openly available research works?
     - Where can I find openly available research works?
@@ -9919,7 +9915,7 @@ nlu:
     - Free research databases?
     - How does the Open Access Button work?
 - intent: statistic_textbook_cost
-  examples: |-
+  examples: |
     - What are some statistics about textbook costs?
     - list some statistics about textbook costs?
     - show some statistics about textbook costs?
@@ -9981,7 +9977,7 @@ nlu:
     - What's the deal with author fees?
     - Should I pay a publication fee?
 - intent: industry_membership_indicate_journal
-  examples: |-
+  examples: |
     - What industry memberships indicate a journal is not predatory?
     - How do I know if a journal is predatory?
     - What makes a journal legit?
@@ -10008,7 +10004,7 @@ nlu:
     - Legit open access publishers?
     - Predatory or not? How to tell?
 - intent: difference_backup_storage
-  examples: |-
+  examples: |
     - What is the difference between back-up and storage?
     - What's the difference between backup and storage?
     - backup vs storage?
@@ -10034,7 +10030,7 @@ nlu:
     - What's the point of backup if I got storage?
     - Do I need both storage AND backup?
 - intent: make_class_affordable
-  examples: |-
+  examples: |
     - How can I make my class affordable?
     - Zero cost courses at USC?
     - What is OER?
@@ -10060,7 +10056,7 @@ nlu:
     - How can I make my course materials affordable 4 students?
     - OER quality vs traditional textbooks
 - intent: support_library_offer_course
-  examples: |-
+  examples: |
     - What support does the library offer for course materials?
     - Can I get help with course materials from the library?
     - How do I request library materials for my class?
@@ -10085,7 +10081,7 @@ nlu:
     - Are there any fees 4 using copyrighted materials in courses?
     - What's the best way 2 get lib resources 4 online courses?
 - intent: scoer_faculty_award
-  examples: |-
+  examples: |
     - What are the SCoer Faculty Awards?
     - What are SCoer Faculty Awards?
     - Tell me the SCoer Faculty Award?
@@ -10113,7 +10109,7 @@ nlu:
     - What are the diff types of USC faculty awards?
     - who won the scoer award last year?
 - intent: statewide_initiative_available_help
-  examples: |-
+  examples: |
     - What statewide initiatives are available to help adopt affordable resources?
     - Which statewide initiatives are available to help adopt affordable resources?
     - can you list the statewide initiatives available to help adopt affordable resources?
@@ -10141,7 +10137,7 @@ nlu:
     - i need info on SC academic library initiatives
     - whats the Professors 4 Affordable Learning Award all about?
 - intent: get_help_locating_affordable
-  examples: |-
+  examples: |
     - How can I get help locating affordable resources?
     - How can I get help finding affordable resources?
     - How can I get help with finding affordable resources?
@@ -10168,7 +10164,7 @@ nlu:
     - What's the process for getting help finding affordable course materials?
     - Is thr a servce tht helps studnts wth affordable txtbooks?
 - intent: find_resource_registering_project
-  examples: |-
+  examples: |
     - Where can I find resources for registering my project?
     - How do I register a project?
     - How do I register my project?
@@ -10226,7 +10222,7 @@ nlu:
     - Where can I find open source books?
     - OER library resources
 - intent: scoer_award
-  examples: |-
+  examples: |
     - What are SCoer Awards?
     - Whats score
     - Tell me the SCoer Awards
@@ -10254,7 +10250,7 @@ nlu:
     - Is there a program that rewards USC faculty for using library materials?
     - Can students recommend professors for the SCoer Award?
 - intent: winner_scoer_award
-  examples: |-
+  examples: |
     - Who are the winners of SCoer Awards?
     - Who are the winners of SCoer Awards 2017?
     - Who won the SCOER award in 2024?
@@ -10280,7 +10276,7 @@ nlu:
     - Hey! Do you have any idea about previous scoer awardees at usc?
     - USC SCOER Award Winner in 2020?
 - intent: benefit_using_open_educational
-  examples: |-
+  examples: |
     - What are the benefits of using Open Educational Resources (OER) according to the award recipients?
     - list the benefits of using Open Educational Resources (OER) according to award recipients?
     - What are the benefits of OER?
@@ -10307,7 +10303,7 @@ nlu:
     - benefits of open educational material?
     - How does using OER impact campus equity?
 - intent: quote_award_recipient_chose
-  examples: |-
+  examples: |
     - What are some quotes from the award recipients on why they chose to use OER?
     - list some quotes from award recipients
     - Why did you start using open educational resources?
@@ -10334,7 +10330,7 @@ nlu:
     - Award winners' thoughts on textbook affordability, pls
     - Can u give me sum reasons y ppl use open educational resources?
 - intent: factor_selection_committee_consider
-  examples: |-
+  examples: |
     - What factors did the selection committee consider?
     - What criteria did the selection committee consider?
     - What factors were considered by the selection committee?
@@ -10361,7 +10357,7 @@ nlu:
     - Are there any specific requiremnts 4 an OER application?
     - how does the selection process work for oer?
 - intent: winner_plan_achieve_award
-  examples: |-
+  examples: |
     - What do the winners plan to achieve with their awards?
     - What do winners want to achieve with their awards?
     - What do the winners want to achieve with their awards?
@@ -10389,7 +10385,7 @@ nlu:
     - Whats driving the push for affordable course materials?
     - Can using OER really help low-income students?
 - intent: scoer_faculty_award_2020
-  examples: |-
+  examples: |
     - Who won the SCoer Faculty Awards for 2020?
     - Who won the 2020 SCoer Faculty Awards?
     - Who won the SCoer Faculty Awards 2020?
@@ -10416,7 +10412,7 @@ nlu:
     - What do all the SCoer Faculty Award winners have in common?
     - Importance of affordable materials acc to Ashley Williard?
 - intent: winner_scoer_faculty_award
-  examples: |-
+  examples: |
     - What do winners of the SCoer Faculty Award receive?
     - What do winners of the SCoer Faculty Award get?
     - What do SCoer Faculty Award winners receive?
@@ -10442,7 +10438,7 @@ nlu:
     - When will they announce the next SCoer Faculty Award winner?
     - What are the requirements to apply for the SCoer Faculty Award?
 - intent: required_participate_scoer_program
-  examples: |-
+  examples: |
     - What is required to participate in the SCoer program?
     - What is required to participate in SCoer?
     - What is required to participate in SCoer program?
@@ -10469,7 +10465,7 @@ nlu:
     - Scoer reqs for faculty members?
     - Open Educational Resources expectations from faculty?
 - intent: scoer_grant_recipient_selected
-  examples: |-
+  examples: |
     - How are SCoer Grant recipients selected?
     - How are SCoer Grants selected?
     - How are SCoer Grant recipients chosen?
@@ -10494,7 +10490,7 @@ nlu:
     - What do I need to do to get selected for a SCoer Grant?
     - Can you share the requirements for the SCoer Grant program?
 - intent: scoer_grant_recipient
-  examples: |-
+  examples: |
     - SCoer Grant recipients
     - scoer recipients
     - What is the goal of Professor Meredith DeBoom's career?
@@ -10521,7 +10517,7 @@ nlu:
     - how r usc profs makin education inclusive?
     - prof deboom motivation 4 prioritizin inclusivity?
 - intent: scoer_faculty_grant
-  examples: |-
+  examples: |
     - What is the SCoer Faculty Grant?
     - What is a SCoer Faculty Grant?
     - What is SCoer Faculty Grant?
@@ -10549,7 +10545,7 @@ nlu:
     - How do I get a grant for using open ed resources?
     - whats teh requirements 4 scoer faculity grant?
 - intent: service_library_offer_faculty
-  examples: |-
+  examples: |
     - What services does the library offer for faculty and instructors?
     - faculty services
     - What services does the library offer for faculty?
@@ -10623,7 +10619,7 @@ nlu:
     - DOI creation help
     - OSF DOI policy?
 - intent: criterion_use_evaluate_oer
-  examples: |-
+  examples: |
     - What criteria should I use to evaluate an OER?
     - Which criteria should I use to evaluate an OER?
     - What criteria should be used to evaluate an OER?
@@ -10651,7 +10647,7 @@ nlu:
     - Open textbook evaluation criteria pls
     - what makes an OER trustworthy?
 - intent: open_pedagogy
-  examples: |-
+  examples: |
     - What is open pedagogy?
     - Tell me the open pedagogy?
     - What does open pedagogy mean?
@@ -10679,7 +10675,7 @@ nlu:
     - Can open pedagogy be used in any subject?
     - How does open pedagogy help students develop skills?
 - intent: student_involved_creation_knowledge
-  examples: |-
+  examples: |
     - How can students be involved in the creation of knowledge?
     - Creating knowledge
     - How can students contribute to knowledge creation?
@@ -10707,7 +10703,7 @@ nlu:
     - Pupils annotating readings together - how to?
     - Twitter classroom applications
 - intent: resource_available_open_pedagogy
-  examples: |-
+  examples: |
     - What resources are available for open pedagogy?
     - list the resources available for open pedagogy?
     - can you list the resources for open pedagogy?
@@ -10736,7 +10732,7 @@ nlu:
     - Are there any resources for student-made OERs?
     - What r some good oer platforms 4 teachers?
 - intent: find_open_freely_available
-  examples: |-
+  examples: |
     - Where can I find open and freely available case studies?
     - Where can I find free case studies?
     - open source case studies?
