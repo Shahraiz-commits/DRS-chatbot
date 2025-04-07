@@ -1,4 +1,4 @@
-import { saveMessageFeedback, saveSurveyFeedback, getDocData } from "./firebase.js";
+import { saveMessageFeedback, saveSurveyFeedback } from "./firebase.js";
 
 const chatLog = document.getElementById("chatLog");
 const userInput = document.getElementById("userInput");
@@ -45,36 +45,6 @@ function getTextContentFromHtml(htmlString) {
   const tempDiv = document.createElement('div');
   tempDiv.innerHTML = htmlString;
   return tempDiv.textContent || tempDiv.innerText || "";
-}
-
-// --- Helper to determine the appropriate icon based on content ---
-function determineResponseIcon(text) {
-  // Default icon for DRS
-  let iconText = "DRS";
-  let iconClass = "drs-icon";
-
-  // Check for specific staff members
-  if (text.includes("Vandana") || text.includes("vandana")) {
-    iconText = "V";
-    iconClass = "staff-icon";
-  } else if (text.includes("Library") || text.includes("library")) {
-    iconText = "L";
-    iconClass = "library-icon";
-  } else if (text.includes("Hours") || text.includes("hours")) {
-    iconText = "H";
-    iconClass = "hours-icon";
-  } else if (text.includes("Contact") || text.includes("contact")) {
-    iconText = "C";
-    iconClass = "contact-icon";
-  } else if (text.includes("Research") || text.includes("research")) {
-    iconText = "R";
-    iconClass = "research-icon";
-  } else if (text.includes("Digital") || text.includes("digital")) {
-    iconText = "D";
-    iconClass = "digital-icon";
-  }
-
-  return { iconText, iconClass };
 }
 
 // --- Typing Effect Function (Modified) ---
@@ -162,11 +132,16 @@ function addMessageToChat(text, ...classNames) {
 
   // Add icon for bot messages
   if (isBotMsg && !isErrorMsg) {
-    const { iconText, iconClass } = determineResponseIcon(text);
+    const iconContainer = document.createElement("div");
+    iconContainer.classList.add("bot-icon-container");
+
+    let iconText = "DRS";
+    let iconClass = "drs-icon";
     const iconDiv = document.createElement("div");
     iconDiv.classList.add("response-icon", iconClass);
     iconDiv.textContent = iconText;
-    messageDiv.appendChild(iconDiv);
+    iconContainer.appendChild(iconDiv);
+    container.appendChild(iconContainer);
   }
 
   const shouldApplyTypewriter = isBotMsg &&
@@ -407,7 +382,7 @@ document.querySelectorAll(".actionBtn").forEach((button) => {
 });
 
 function displayAlternativeButtons(data) {
-  addMessageToChat("Sorry, I am a bit unsure. Please choose one of the options below:", "botMsg");
+  addMessageToChat("Sorry, I am a bit unsure. Please <strong>select</strong> one of the options below:", "botMsg");
 
   const optionsContainer = document.createElement("div");
   optionsContainer.classList.add("alternative-options-container");
@@ -629,7 +604,6 @@ document.getElementById("endChatBtn").addEventListener("click", () => {
 // Expose handleFeedbackClick to the global scope for inline event handlers
 window.handleFeedbackClick = handleFeedbackClick;
 
-getDocData("trainingQuestions");
 
 // Update theme toggle functionality
 function toggleTheme() {
