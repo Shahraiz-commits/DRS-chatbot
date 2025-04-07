@@ -4,36 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Research Rooster</title>
-  <link rel="icon" href="./gamecock_head_and_neck_icon_rgb_azalea.png" type="image/x-icon" />
+  <link rel="icon" href="./rooster-icon.png" />
   <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
-  <div class="container">
-    <div id="chatContainer">
-      <div id="chatHeader">
-        <h1>
-          Research Rooster
-        </h1>
-      </div>
-      <div id="endChatContainer">
-        <button id="endChatBtn">Rate this Conversation</button>
-      </div>
-      <!-- <div id="quickActions">
-        <button class="actionBtn" data-query="What are the library hours?">Library Hours</button>
-        <button class="actionBtn" data-query="Who is the director?">Director Info</button>
-        <button class="actionBtn" data-query="What services do you offer?">Services</button>
-        <button class="actionBtn" data-query="How can I contact the library?">Contact</button>
-      </div> -->
-      <div id="chatLog"></div>
-      <div id="inputArea">
-        <input type="text" id="userInput" placeholder="Type your message..." />
-        <button id="sendBtn">Send</button>
-      </div>
-    </div>
-
-    <div id="infoPanel">
-      <h2>About This Chatbot</h2>
+<body class="preload">
+  <div id="sidebar">
+    <button id="sidebarToggleBtn" class="sidebar-toggle-btn">&lt;</button>
+    <div class="sidebar-content">
+      <h2>About Us</h2>
       <p>Welcome to the Digital Research Services Chatbot! I'm here to help you with:</p>
       <ul>
         <li>Library hours and access</li>
@@ -42,14 +21,38 @@
         <li>Contact information</li>
         <li>And much more!</li>
       </ul>
-      <p>Feel free to ask any questions about our services or click one of the quick action buttons above to get
-        started.</p>
+      <p>Feel free to ask any questions about our services at:
+        <a href="mailto:digitalresearchservices@sc.edu">researchrooster@email.sc.edu</a><br>
+      </p>
+      <button id="viewPolicyBtn">View Policy</button>
     </div>
   </div>
 
-  <!-- Survey Form -->
-  <div id="survey" class="survey-modal">
-    <div class="survey-content">
+  <div id="chatContainer">
+    <div id="chatHeader">
+      <h1>Research Rooster</h1>
+      <div class="header-controls">
+        <button id="themeToggleBtn" class="theme-toggle-btn" onclick="toggleTheme()">☀️</button>
+        <button id="endChatBtn">Rate this Conversation</button>
+      </div>
+    </div>
+    <!-- <div id="quickActions">
+        <button class="actionBtn" data-query="What are the library hours?">Library Hours</button>
+        <button class="actionBtn" data-query="Who is the director?">Director Info</button>
+        <button class="actionBtn" data-query="What services do you offer?">Services</button>
+        <button class="actionBtn" data-query="How can I contact the library?">Contact</button>
+      </div> -->
+    <div id="chatLog"></div>
+    <div id="inputArea">
+      <input type="text" id="userInput" placeholder="Type your message..." />
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+
+  <!-- Survey Form Modal -->
+  <div id="survey" class="survey-modal modal">
+    <div class="modal-content survey-content">
+      <button class="close-modal-btn" id="closeSurveyBtn">X</button>
       <h3>Feedback Survey</h3>
       <label for="rating">Rating (1-5):</label>
       <input type="number" id="rating" min="1" max="5">
@@ -59,8 +62,26 @@
     </div>
   </div>
 
+  <!-- Privacy Policy Modal -->
+  <div id="policyDialog" class="modal">
+    <div class="modal-content policy-content">
+      <button class="close-modal-btn" id="closePolicyBtn">X</button>
+      <h3>Privacy Policy</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.</p>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+        enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+        qui ratione voluptatem sequi nesciunt.</p>
+    </div>
+  </div>
+
+
   <!-- Footer -->
-  <div id="footer">Created by Shahraiz and Kiran</div>
+  <!-- <div id="footer">Created by Shahraiz and Kiran</div> -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
   <script src="./script.js" type="module"></script>
