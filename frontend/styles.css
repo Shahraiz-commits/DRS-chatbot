@@ -72,6 +72,10 @@ body {
   overflow-x: hidden; /* Prevent horizontal scroll when sidebar collapses */
 }
 
+body a {
+  color: var(--text-link);
+}
+
 /* Remove transitions during load */
 body.preload * {
   transition: none !important;
@@ -116,7 +120,7 @@ body.preload * {
   flex-shrink: 0;
 }
 
-#sidebar button#viewPolicyBtn {
+#sidebar button#viewPolicyBtn, #sidebar button#learnMoreBtn {
   background: var(--button-bg);
   color: var(--button-text);
   border: none;
@@ -128,7 +132,7 @@ body.preload * {
   flex-shrink: 0;
 }
 
-#sidebar button#viewPolicyBtn:hover {
+#sidebar button#viewPolicyBtn:hover, #sidebar button#learnMoreBtn:hover {
   background: var(--button-hover-bg);
 }
 
@@ -255,9 +259,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   width: auto;
   max-width: 80%;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-wrap;
+  display: block;
   float: left;
 }
 
@@ -265,23 +267,27 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   float: right;
 }
 
+.bot-icon-container {
+  float: left;
+  margin-right: 12px;
+  margin-top: 50px;
+}
+
 .message {
   margin: 6px 0;
   padding: 12px 16px;
   border-radius: 10px;
   width: auto;
-  clear: both;
+  clear: none;
   line-height: 1.4;
   position: relative;
   color: var(--text-primary);
   transition: background 0.3s, color 0.3s;
+  float: left;
 }
 
 /* Response icon styles */
 .response-icon {
-  position: absolute;
-  bottom: -15px;
-  left: -10px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -293,7 +299,6 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   font-weight: bold;
   font-size: 14px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  z-index: 1;
 }
 
 /* Different icon styles */
@@ -428,10 +433,14 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   text-decoration: none;
 }
 
+.policy-content {
+  font-size: 14px;
+}
+
 .survey-content h3,
 .policy-content h3 {
   margin: 0 0 20px 0;
-  color: var(--text-link);
+  color: var(--bg-header);
   font-size: 24px;
   text-align: center;
 }
@@ -665,7 +674,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
         overflow: visible;
     }
 
-    #sidebar button#viewPolicyBtn {
+    #sidebar button#viewPolicyBtn, #sidebar button#learnMoreBtn {
         width: auto;
         align-self: flex-start;
         margin-top: 15px;
@@ -752,7 +761,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   .option-card {
     width: calc(30.333% - 20px);
     min-width: 300px;
-    max-width: none;
+    max-width: 500px;
   }
 }
 
@@ -770,7 +779,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
 .option-card h3 {
   margin-top: 0;
   margin-bottom: 10px;
-  color: var(--text-link);
+  color: var(--bg-header);
   font-size: 1.1em;
   flex-shrink: 0;
 }
@@ -790,7 +799,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
     left: 0;
     right: 0;
     height: 30px;
-    background: linear-gradient(to bottom, transparent, var(--bg-option-card));
+    /* background: linear-gradient(to bottom, transparent, var(--bg-option-card)); */
     pointer-events: none;
     transition: background 0.3s;
 }
