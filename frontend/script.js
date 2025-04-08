@@ -311,7 +311,10 @@ function submitMessageFeedback(messageId, feedback, feedbackText) {
 function submitFeedback() {
   const rating = ratingInput.value;
   const comments = commentsInput.value;
-  if (comments === "") return;
+  if (comments === "") {
+    alert("Please enter some comments to provide feedback.")
+    return;
+  }
   if (!rating || rating < 1 || rating > 5) {
     alert("Please provide a valid rating between 1 and 5.");
     return;
@@ -557,6 +560,7 @@ function sendMessageToRasa(message) {
           .join("\n\n");
 
         if (combinedText) {
+          console.log("text after: " + combinedText);
           addMessageToChat(combinedText, "botMsg");
         } else if (!isFeedbackNumber) {
           console.log("Received data but combinedText is empty or invalid.");

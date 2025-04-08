@@ -23,13 +23,15 @@
   --shadow-primary: rgba(0, 0, 0, 0.1);
   --button-bg: #73000a;
   --button-text: #ffffff;
-  --button-hover-bg: #500008;
+  --button-hover-bg: #a30010;
   --scrollbar-thumb: rgba(115, 0, 10, 0.3);
   --sidebar-width: 300px;
   --sidebar-collapsed-width: 15px;
   --sidebar-transition: width 0.3s ease, transform 0.3s ease;
   --positive-feedback-border: #28a745;
   --negative-feedback-border: #dc3545;
+  --option-card-header-color: #73000a;
+  --feedback-survey-title: #73000a;
 }
 
 body.dark-mode {
@@ -58,6 +60,8 @@ body.dark-mode {
   --button-text: #e0e0e0;
   --button-hover-bg: #a52a2a; /* Lighter Dark Red */
   --scrollbar-thumb: rgba(139, 0, 0, 0.5); /* Darker scrollbar thumb */
+  --option-card-header-color: #ff7b7b;
+  --feedback-survey-title: #a52a2a;
 }
 
 body {
@@ -120,7 +124,7 @@ body.preload * {
   flex-shrink: 0;
 }
 
-#sidebar button#viewPolicyBtn, #sidebar button#learnMoreBtn {
+#sidebar button#viewPolicyBtn, #sidebar button#learnMoreBtn, #submitFeedbackBtn {
   background: var(--button-bg);
   color: var(--button-text);
   border: none;
@@ -440,7 +444,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
 .survey-content h3,
 .policy-content h3 {
   margin: 0 0 20px 0;
-  color: var(--bg-header);
+  color: var(--feedback-survey-title);
   font-size: 24px;
   text-align: center;
 }
@@ -461,6 +465,8 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   font-size: 16px;
   transition: border-color 0.3s, background-color 0.3s, color 0.3s;
   box-sizing: border-box;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 .survey-content input[type="number"]:focus,
@@ -779,7 +785,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
 .option-card h3 {
   margin-top: 0;
   margin-bottom: 10px;
-  color: var(--bg-header);
+  color: var(--option-card-header-color);
   font-size: 1.1em;
   flex-shrink: 0;
 }
