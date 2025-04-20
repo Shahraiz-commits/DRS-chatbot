@@ -615,11 +615,6 @@ rules:
   - intent: type_assistance_library_offer
   - action: utter_type_assistance_library_offer
 
-- rule: Answer kind_guidance_expect_online
-  steps:
-  - intent: kind_guidance_expect_online
-  - action: utter_kind_guidance_expect_online
-
 - rule: Answer assistance_available_data_analysis
   steps:
   - intent: assistance_available_data_analysis
@@ -669,11 +664,6 @@ rules:
   steps:
   - intent: data_visualization_learning_session
   - action: utter_data_visualization_learning_session
-
-- rule: Answer difference_data_statistic
-  steps:
-  - intent: difference_data_statistic
-  - action: utter_difference_data_statistic
 
 - rule: Answer open_data
   steps:
@@ -934,12 +924,7 @@ rules:
   steps:
   - intent: research_data_management
   - action: utter_research_data_management
-
-- rule: Answer tool_resource_available_research
-  steps:
-  - intent: tool_resource_available_research
-  - action: utter_tool_resource_available_research
-
+  
 - rule: Answer contact_help_research_data
   steps:
   - intent: contact_help_research_data
@@ -1124,11 +1109,6 @@ rules:
   steps:
   - intent: different_type_machine_learning
   - action: utter_different_type_machine_learning
-
-- rule: Answer key_term_related_machine
-  steps:
-  - intent: key_term_related_machine
-  - action: utter_key_term_related_machine
 
 - rule: Answer news_event_related_ai
   steps:
@@ -1429,16 +1409,6 @@ rules:
   steps:
   - intent: digital_scholarship_service_available
   - action: utter_digital_scholarship_service_available
-
-- rule: Answer digital_scholarship
-  steps:
-  - intent: digital_scholarship
-  - action: utter_digital_scholarship
-
-- rule: Answer library_help_digital_scholarship
-  steps:
-  - intent: library_help_digital_scholarship
-  - action: utter_library_help_digital_scholarship
 
 - rule: Answer see_example_digital_scholarship
   steps:

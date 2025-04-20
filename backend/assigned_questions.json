@@ -9,23 +9,24 @@
         "do u have any hardware i can use"
     ],
     "programming_language_use_data": [
-        "coding languages",
-        "programming langs"
+        "how to code in R"
     ],
     "schedule_research_appointment": [
-        "Can I set up a consultation appointment with the Research Data Librarian?"
+        "How long does it take to get a consultation?"
     ],
     "software_available_library_computer": [
         "is there software i can use"
     ],
     "specialized_software_available_datalab": [
-        "datalab sofwtare"
+        "Is there university-licensed software for qualitative research?",
+        "do u guys have SPSS"
     ],
     "What_is_DMPtool": [
-        "how does dmptool work"
+        "data management tools",
+        "tools for dmp"
     ],
     "contact_help_research_data": [
-        "stacy"
+        "Who can help me with cleaning my data?"
     ],
     "different_type_machine_learning": [
         "types of ML"
@@ -37,7 +38,7 @@
         "can i borrow films here"
     ],
     "option_available_longterm_archiving": [
-        "do u guys have a data repo i can use"
+        "how do i archive data"
     ],
     "service_library_offer": [
         "what services do u have"
@@ -66,19 +67,20 @@
         "Are there workshops on data viz in the Libraries?"
     ],
     "data_visualization_software_available": [
-        "do you guys have software for visualizing something"
+        "power BI"
     ],
     "find_subjectspecific_data_statistic": [
         "how do i get new data"
     ],
     "help_ai": [
-        "I need help in AI"
+        "Who can assist with machine learning projects?"
     ],
     "mapping_tool_available": [
-        "QGIS"
+        "how do i create a map for my data",
+        "need help with mapping"
     ],
     "research_data_management": [
-        "I need help organizing my data"
+        "organize my data"
     ],
     "resource_available_research_data": [
         "Who do I talk to for data management help?"
@@ -86,5 +88,39 @@
     "whats_data_management_plan": [
         "dmp stuff",
         "dmp"
+    ],
+    "get_data_visualization_help": [
+        "Who do I talked to about help with Tableau?"
+    ],
+    "access_nvivo": [
+        "How do I get access to SPSS or NVivo?"
+    ],
+    "collaboration_tool_available": [
+        "What digital tools do you recommend for collaborative research?"
+    ],
+    "kind_research_support_university": [
+        "Is there a cost for your services?"
+    ],
+    "library_help_digital_scholarship": [
+        "how can I create a web site for my research?",
+        "Can I get help even if my project is still in the idea stage?"
+    ],
+    "use_digital_tool_research": [
+        "digital creation"
+    ],
+    "concept_related_generative_ai": [
+        "LLMs"
+    ],
+    "student_success_center_peer": [
+        "tutoring help"
+    ],
+    "contact_library": [
+        "contact number?"
+    ],
+    "store_create_machine_readable": [
+        "how do i normalize data"
+    ],
+    "web_scraper_available": [
+        "tool for scraping"
     ]
 }

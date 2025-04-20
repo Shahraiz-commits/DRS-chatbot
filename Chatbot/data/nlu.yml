@@ -347,6 +347,7 @@ nlu:
     - How can USC help me in research?
     - Help needed for using resources!
     - does libary help me with digital stuff for research.
+    - digital creation
 - intent: get_research_help
   examples: |-
     - How can I get research help?
@@ -2119,7 +2120,6 @@ nlu:
 - intent: library_car_repair_manual
   examples: |
     - Does the library have any car repair manuals?
-    - Does the library have any auto repair manuals?
     - Where can I find car repair information?
     - auto repair database
     - I need to fix my old car where do i start
@@ -2131,15 +2131,6 @@ nlu:
     - accessing car repair databases in SC
     - south carolina virtual library auto repair
     - can i get car repair info at my local library
-    - car troubleshooting database
-    - does discus have car manuals
-    - hey, got any car fixin manuals?
-    - whr can I find diy car repair info?
-    - I need help with car maintinance, wht rsrcs u got?
-    - is thr a database 4 car repairs?
-    - do you have acces to chilton total car care?
-    - library accss for c ar reapir manuls??
-    - How do I get free acses auto rep manualls online?
     - car servising manual availble in librairy?
     - can u tell me wher 2 find new car repair manuals?
     - wht r some gud online resources for fixin cars?
@@ -2201,6 +2192,7 @@ nlu:
     - Can I book a consultation with a subject expert?
     - Where can I get help with my research project?
     - Can I get assistance with finding articles?
+    - How long does it take to get a consultation?
 - intent: busy_thomas_cooper_library
   examples: |
     - How busy is Thomas Cooper Library right now?
@@ -2536,6 +2528,7 @@ nlu:
     - how to reach out to usc lib?
     - What's the library's phone number?
     - How can I get research assistance?
+    - contact number?
 - intent: computer_internet_access_technology
   examples: |-
     - If I don't have a computer or internet access how can the library help me?
@@ -2566,12 +2559,10 @@ nlu:
     - What are the loan periods for laptops and other technology?
     - Can I print from the library computers?
     - Are there any assistive technology resources available in the library?
-    - Can I borrow a laptop from the library?
 - intent: instructor_schedule_class_library
   examples: |
     - How can an instructor schedule a class in the library?
     - How can I schedule a class in the library?
-    - How do I schedule a class in the library?
     - Can librarians teach my students research skills?
     - How do I schedule a library instruction session?
     - library instruction for my course
@@ -2987,7 +2978,7 @@ nlu:
     - I wanna reserve a quiet spot, how?
     - Where to study quietly?
 - intent: student_success_center_peer
-  examples: |
+  examples: |-
     - Where is the Student Success Center / Peer Tutoring?
     - Where is the Student Success Center located?
     - student success center location
@@ -3013,6 +3004,7 @@ nlu:
     - Where'd Academic Coaching go?
     - ACE relocated?
     - What subjects are covered by peer tutoring?
+    - tutoring help
 - intent: mailing_address_thomas_cooper
   examples: |
     - What is the mailing address for the Thomas Cooper Library?
@@ -3457,8 +3449,6 @@ nlu:
   examples: |-
     - Why is there a charge on my card for more than the cost of my print job?
     - Why is my credit card charged more than the cost of my print job?
-    - Why is my credit card charged more than the cost of the print job?
-    - Why is my credit card charged more than the cost of a print job?
     - How do I use a credit card on Student Printing Kiosks?
     - Why is there a pending charge on my account from the printing kiosk?
     - student printing kiosk not refunding
@@ -3547,6 +3537,31 @@ nlu:
     - How do I search 4 recent fiction publications by author?
 - intent: data_visualization_support_service
   examples: |-
+    - What kind of guidance can I expect from an online consultation?
+    - I need help with data visualization
+    - data visualization tutorials?
+    - Can you help me find info on data viz?
+    - Need help picking a data viz tool
+    - Data visualization guidance please
+    - Where can I learn about data visualization?
+    - I want to compare data visualization tools
+    - How do I decide on a data visualization technique?
+    - data viz resources?
+    - Can I get help with data visualization online?
+    - What's the best data visualization tool for my project?
+    - Data visualization consultation?
+    - whats kinda guidance i can expect from online consult?
+    - I need some guidance on choosing a data viz method
+    - where do I find info on data visualization techniques?
+    - Can you provide resources for learning data visualization?
+    - data viz consultation avail?
+    - What's the process for getting help with data visualization online?
+    - how to pick best data viz tool?
+    - I'm looking for some guidance on creating effective data visualizations
+    - what kinda support i can expect from a data viz consult?
+    - Are there any good tutorials for learning data visualization?
+    - Can I get help with data visualization online?
+    - How do I choose the best data visualization tool?
     - What data visualization support services are available?
     - can you list the best data visualization support services?
     - list the best data visualization support services?
@@ -3572,8 +3587,6 @@ nlu:
     - Is the DataLab open to all students?
     - What kind of data visualization support is offered?
     - Are there data visualization workshops?
-    - Where is the DataLab located?
-    - What kind of support?
     - Where is DataLab?
 - intent: get_data_visualization_help
   examples: |-
@@ -3612,10 +3625,15 @@ nlu:
     - can i schedule meeting for datavisualisation help
     - How to get help?
     - Who to contact?
+    - who do i contact for data viz help
+    - help with visualizing
+    - Who do I talked to about help with Tableau?
 - intent: type_assistance_library_offer
   examples: |-
     - What types of assistance does the library offer for data visualization?
     - what kind of data visualization help can i get
+    - I want help doing data visualization in R
+    - need help visualizing data
     - data visualization guides
     - What kind of data visualization help does USC library offer?
     - usc data visualization workshops
@@ -3648,35 +3666,6 @@ nlu:
     - What kind of data visualization training is available?
     - What tools do you teach?
     - How to get training?
-- intent: kind_guidance_expect_online
-  examples: |-
-    - What kind of guidance can I expect from an online consultation?
-    - I need help with data visualization
-    - data visualization tutorials?
-    - Can you help me find info on data viz?
-    - Need help picking a data viz tool
-    - Data visualization guidance please
-    - Where can I learn about data visualization?
-    - I want to compare data visualization tools
-    - How do I decide on a data visualization technique?
-    - data viz resources?
-    - Can I get help with data visualization online?
-    - What's the best data visualization tool for my project?
-    - Data visualization consultation?
-    - whats kinda guidance i can expect from online consult?
-    - I need some guidance on choosing a data viz method
-    - where do I find info on data visualization techniques?
-    - Can you provide resources for learning data visualization?
-    - data viz consultation avail?
-    - What's the process for getting help with data visualization online?
-    - how to pick best data viz tool?
-    - I'm looking for some guidance on creating effective data visualizations
-    - what kinda support i can expect from a data viz consult?
-    - Are there any good tutorials for learning data visualization?
-    - Can I get help with data visualization online?
-    - How do I choose the best data visualization tool?
-    - How to get guidance?
-    - What to expect?
 - intent: assistance_available_data_analysis
   examples: |-
     - Is there any support available for data analysis and statistics?
@@ -3775,8 +3764,6 @@ nlu:
     - Can I walk-in for data analysis help?
     - What kind of statistical support does USC offer?
     - Where can I get help with data analysis and statistics?
-    - What kind of support?
-    - How to get help?
 - intent: specialized_software_available_datalab
   examples: |-
     - What specialized software is available in the DataLab?
@@ -3813,6 +3800,8 @@ nlu:
     - can i use lib computers for gaming
     - What software is there?
     - What tutorials are there?
+    - Is there university-licensed software for qualitative research?
+    - do u guys have SPSS
 - intent: find_subjectspecific_data_statistic
   examples: |-
     - Where can I find subject-specific statistics?
@@ -3901,6 +3890,7 @@ nlu:
     - What statistical software does the library support?
     - I need help with statistics for my research
     - How to get help?
+    - Is there a cost for your services?
 - intent: What_is_NVivo
   examples: |-
     - What is NVivo?
@@ -3963,6 +3953,7 @@ nlu:
     - nvivo purchase for student
     - Can I get NVivo thru my phone?
     - Where to find NVivo?
+    - How do I get access to SPSS or NVivo?
 - intent: find_additional_help_nvivo
   examples: |-
     - Where can I get help with NVivo?
@@ -4026,35 +4017,6 @@ nlu:
     - Are there workshops on data viz in the Libraries?
     - How to register?
     - What sessions are there?
-- intent: difference_data_statistic
-  examples: |-
-    - What is the difference between data and statistics?
-    - Data vs stats what's the diff
-    - Can you explain raw data?
-    - What are statistics used for?
-    - Stats or data which one should I use
-    - Can you give an example of a statistic?
-    - How is data analyzed?
-    - What software can I use to analyze data?
-    - Data set vs statistical table what's the difference
-    - Where can I find statistics for my paper?
-    - I'm looking for a quick number, should I use data or stats?
-    - Can you explain primary source in research
-    - How are statistics created?
-    - whats the diff btw data & stats?
-    - Raw data vs stats, which one do I need?
-    - What's the purpose of statistical analysis?
-    - Data or statistic, whats the correct term?
-    - Can you give me an exemple of raw data?
-    - How to analyse a dataset?
-    - I'm looking for statistics software, any suggestions?
-    - Statistical table vs dataset, what do I use?
-    - Where can I find stats for my research paper?
-    - Data or stats, which one is more accurate?
-    - Can you explain raw data?
-    - Can you explain raw data?
-    - What is the difference?
-    - What are they used for?
 - intent: open_data
   examples: |
     - What is open data?
@@ -4259,8 +4221,6 @@ nlu:
     - Can I get university software on my laptop?
     - software access form
     - What tech is at the library?
-    - Can I borrow a laptop from the library?
-    - Can I borrow a laptop from the library?
 - intent: general_statistic_resource_available
   examples: |-
     - What general statistics resources are available?
@@ -4348,7 +4308,6 @@ nlu:
     - icpsr account help
     - public datasets online
     - gov data sources
-    - Where can I find economic data?
     - Hey, where can I get free data from?
     - open data sources? plz list
     - I'm lookin for some gov datasets, help!
@@ -4407,7 +4366,6 @@ nlu:
     - nvivo keyboard shortcuts
     - I need help coding my research
     - How to add codes to text in NVivo?
-    - n vivo coding tips
     - Coding data with NVivo tutorial
     - nvivo coding instructions
     - Right click options in NVivo?
@@ -4674,7 +4632,6 @@ nlu:
     - Where's the usc libraries' data citation index at?
     - can usc students use ucla-lopucki bankruptcy database?
     - What's available on USC library metrics and trends?
-    - What does the library offer?
     - What resources are available for students?
     - What resources are available for faculty?
     - What databases does USC have?
@@ -4987,8 +4944,9 @@ nlu:
     - do you guys have software for visualizing something
     - Does the library provide access to paid tableau
     - data viz software help
+    - power BI
 - intent: programming_language_use_data
-  examples: |
+  examples: |-
     - What programming languages can I use for data visualization?
     - Tell me the best programming language to use for data visualization?
     - Tell me the best programming language for data visualization?
@@ -5020,6 +4978,7 @@ nlu:
     - Which programming language has the best built-in data visualization capabilities?
     - What is R?
     - What is Python?
+    - how to code in R
 - intent: resource_available_finding_economic
   examples: |
     - What resources are available for finding economic statistics?
@@ -5518,7 +5477,6 @@ nlu:
     - whats the best source for economic indicators?
     - sociology research databases?
     - population statistics login?
-    - Where do I find international stats?
     - What databases have sociology data?
     - Can you recommend a sociology resource?
 - intent: data_set_available_sociology
@@ -5552,10 +5510,10 @@ nlu:
     - Where do I find ICPSR data?
 - intent: research_data_management
   examples: |-
+    - How do I create a data management plan?
     - What is research data management?
     - What is resarch data
     - Tell me about rdm
-    - What is research data management?
     - how do i manage my research data
     - data types in research
     - I need help with data management plans
@@ -5580,13 +5538,10 @@ nlu:
     - Can you explain research data formats to me?
     - I need help organizing my data
     - What is RDM?
-    - What are metadata in research?
     - What are data management plans?
     - how do i manage my research data
     - I need help with data management plans
     - research data help
-- intent: tool_resource_available_research
-  examples: |-
     - What tools and resources are available for Research Data Management?
     - research data management tools
     - RDM tools
@@ -5599,7 +5554,6 @@ nlu:
     - Do I have to make my data publicly available?
     - Why do I need to cite datasets?
     - data sharing options
-    - What is RDM?
     - Can you help me with a Data Management Plan?
     - what are the components of data management?
     - I need help managing my research data
@@ -5617,6 +5571,8 @@ nlu:
     - What tools and resources are available for Research Data Management?
     - How do I create a DMP?
     - research data tools help
+    - can you help with organizing dat
+    - organize my data
 - intent: contact_help_research_data
   examples: |-
     - Who can I contact for help with research data management?
@@ -5659,6 +5615,7 @@ nlu:
     - Who can help with research data?
     - How do I get help with data?
     - research data contact help
+    - Who can help me with cleaning my data?
 - intent: whats_data_management_plan
   examples: |
     - Whats data management plan (DMP)?
@@ -5747,7 +5704,7 @@ nlu:
     - Why is data management important?
     - data management plan need help
 - intent: What_is_DMPtool
-  examples: |
+  examples: |-
     - What is DMPtool?
     - Tell me the DMPtool?
     - What is a DMPtool?
@@ -5775,6 +5732,9 @@ nlu:
     - Is dmptool free to use?
     - How do I create a DMP for my grant?
     - DMP template?
+    - how to create a data management plan
+    - data management tools
+    - tools for dmp
 - intent: osf_use_it
   examples: |-
     - how to use OSF
@@ -5806,6 +5766,8 @@ nlu:
     - osf help
 - intent: option_available_longterm_archiving
   examples: |-
+    - I have data - how do I archive it?
+    - how do i archive qualitative data
     - How can I share my research data with others?
     - How do I share my research data?
     - How do I share research data at USC?
@@ -5846,6 +5808,7 @@ nlu:
     - do u guys have a data repo i can use
     - How can I make my data public?
     - data archiving help
+    - how do i archive data
 - intent: cite_dataset
   examples: |-
     - How do I cite a dataset?
@@ -5910,28 +5873,20 @@ nlu:
     - How should I document my research data?
     - What info should I keep track of for data management?
     - data organization best practices?
-    - How do I note data alterations?
     - what to include in data documentation
     - data documentation guidelines
     - how to label research files
     - Info on data file formats
     - keeping track of data sources
-    - data variable explanations
-    - research data codes and abbreviations
     - documenting data processing steps
     - best way to keep research notes
-    - research data record keeping
-    - Tell me the metadata?
-    - What is metadata? What are some examples?
     - What is metadata?
     - metadata meaning
     - Can you define metadata?
-    - data about data?
     - what does metadata include
     - Why do I need metadata?
     - What's the purpose of metadata?
     - How does metadata help with accessibility?
-    - Why document my dataset?
     - whats meta data for
     - metadata importance
     - Is metadata required for research data?
@@ -5945,11 +5900,6 @@ nlu:
   examples: |-
     - What are the elements of metadata?
     - can you list the elements of metadata?
-    - What are metadata elements?
-    - show the elements of metadata?
-    - What metadata should I provide for my research project?
-    - data management plan requirements
-    - what info do i need to document about my dataset
     - How do I describe my research data?
     - metadata for datasets what to include
     - Can you list the necessary details for data documentation?
@@ -5975,27 +5925,19 @@ nlu:
     - What information is needed for a data citation?
 - intent: find_information_metadata_standard
   examples: |
-    - Where can I find more information about metadata standards?
     - Where can I find metadata standards?
     - metadata directory
     - What are the metadata standards for humanities?
     - Can you show me a visualization of metadata standards?
-    -  Seeing Standards website
     - What is metadata universe?
-    - standards for disciplinary metadata
-    - Digital Curation Centre resources
-    - best practices for shareable metadata
     - DataONEpedia database
     - NSF funded data management project
     - metadata glossary pdf
     - where to find best practices for data management
-    - Whats the best place 2 learn about metadata standards?
-    - Can u point me 2 info on metadata stds?
     - I need help finding metadata standards, where do I look?
     - metadata standard guide?
     - best practices for creating shareable metadata?
     - Where can I find a list of metadata stds by discipline?
-    - wut r sum good resources 4 learnin bout metadata?
     - Do u have any info on the Seeing Standards website?
     - Can you show me where to find best practices for data management?
     - whr cn i get a copy of the metadata glossary?
@@ -6103,6 +6045,7 @@ nlu:
     - open science framework help
 - intent: backing_data_important
   examples: |-
+    - Do you offer encryption tools for research data?
     - Why is backing up data important?
     - Do i need to back up data
     - Why is backing up data important?
@@ -6469,7 +6412,7 @@ nlu:
     - data science tools?
     - training on Python or R?
 - intent: help_ai
-  examples: |
+  examples: |-
     - Who can help me with AI?
     - How can I learn AI?
     - Who can help me to learn AI?
@@ -6506,6 +6449,7 @@ nlu:
     - How can I learn AI?
     - help with ai
     - Data science support?
+    - Who can assist with machine learning projects?
 - intent: artificial_intelligence
   examples: |
     - What is Artificial Intelligence?
@@ -6670,7 +6614,6 @@ nlu:
     - What is content mining?
     - Define text mining
     - What is web scraping used for?
-    - Explain machine learning
     - topic modeling definition
     - nlp meaning
     - whats the diff btw data and text mining
@@ -6756,7 +6699,7 @@ nlu:
     - can u explain text analysis methods in simple terms?
     - How do I analyze text data?
 - intent: store_create_machine_readable
-  examples: |
+  examples: |-
     - How do I store and create machine readable text?
     - How do I store machine readable text?
     - How do I create machine readable text?
@@ -6785,6 +6728,7 @@ nlu:
     - txt vs csv, which one is better?
     - Can I use a PNG as input for analysis?
     - How do I compress my dataset?
+    - how do i normalize data
 - intent: machine_learning
   examples: |-
     - What is Machine Learning?
@@ -7013,7 +6957,6 @@ nlu:
     - I want to learn more about text analysis, what should I do?
     - introductory tools for text analysis?
     - Are there any free text analysis tools available?
-    - What resources are available for learning text analysis?
     - whats a good starting point fer text analysis?
     - I'm lost in text analysis, help!
     - need some beginner friendly tools fer text analysis
@@ -8233,7 +8176,7 @@ nlu:
     - where can i find resources on ai?
     - usc library resources for ai?
 - intent: concept_related_generative_ai
-  examples: |
+  examples: |-
     - What are the concepts related to generative AI?
     - can you list the concepts related to generative AI?
     - Tell me the concept of generative AI?
@@ -8263,6 +8206,7 @@ nlu:
     - I'm looking 4 info on Data Augmentation, help!
     - Got any good books on generative ai at usc library?
     - what are some ai resources at the usc library?
+    - LLMs
 - intent: tip_follow_using_ai
   examples: |-
     - What tips can I follow when using AI for research?
@@ -8708,11 +8652,16 @@ nlu:
   examples: |-
     - What digital scholarship services are available?
     - What are digital scholarship services?
-    - Tell me the best digital scholarship service?
+    - Tell me the best digital scholarship services?
     - What digital scholarship services does the library offer?
     - I want to create a digital project, where do I start?
     - text mining help
-    - How can I get started with digital scholarship?
+    - how do i host a journal
+    - are there workshops on creating web pages?
+    - can the library help me create web pages?
+    - helping creating web page
+    - how do i make a web page
+    - How can I get started with web hosting
     - What resources are available for digital projects?
     - Can I mine content from the library?
     - web hosting for student projects?
@@ -8725,51 +8674,14 @@ nlu:
     - USC digital project support
     - whats the deal with digital scholarship services?
     - I need help with a digital project, wheres the best place to start?
-    - What kinda digital scholarship resources does USC offer?
+    - What kinda digital resources does USC offer?
     - Can you guys help me create an online journal?
     - are there any digital collection resources available at USC?
     - how do i go about text mining?
-    - whats the process for scanning rare books in the library?
+    - Can I host a website through USC?
     - does usc provide web hosting services for student projects?
-    - I'm a prof, can I get web hosting thru the lib?
-    - what software does usc have for digital scholarship stuff?
-    - what digital scholarship services are available at usc?
-    - what are digital scholarship services offered by the library?
-    - tell me the best digital scholarship service for my project?
-    - What digital scholarship services are available?
-    - what digital scholarship services does the library offer?
-    - I want to create a digital project, where do I start?
-- intent: digital_scholarship
-  examples: |
-    - What is a digital scholarship?
-    - Tell me the meaning of digital scholarship?
-    - What is digital scholarship?
-    - digital scholarship definition
-    - What does digital scholarship mean?
-    - how is technology used in scholarship
-    - Can you explain digital scholarship?
-    - scholarly research and tech
-    - whats the point of digital scholarship
-    - Is digital scholarship a thing?
-    - digital tools for research
-    - How do scholars use digital methods?
-    - What is involved in digital scholarship?
-    - digitl scholrship info
-    - I need to learn about digital scholarship
-    - whats digi scholarship all abt?
-    - Can u tell me about digital scholarship?
-    - How do researchers use tech nowadays?
-    - what r the benefits of digital scholarship?
-    - Is there a course on digital scholarship?
-    - What's the relationship between technology and research?
-    - What does it mean to be a digital scholar?
-    - I'm trying to understand this whole 'digital scholarship' thing...
-    - what's the difference between traditional and digital scholarship?
-- intent: library_help_digital_scholarship
-  examples: |
-    - How can the library help with my digital scholarship project?
-    - How can the library help me with my digital scholarship project?
-    - How can the library help with a digital scholarship project?
+    - can I get web hosting thru the lib?
+    - How can the library help with a digital project?
     - What digital resources does the library offer?
     - How can the library assist with my project?
     - Can I get help with web hosting from the library?
@@ -8780,20 +8692,22 @@ nlu:
     - How can I partner with the library on a project?
     - Can graduate students get web hosting from USC?
     - USC Create Digital info
-    - What's available for faculty in terms of digital scholarship?
     - I need help planning my digital project, who do I talk to?
     - Is there a Digital Humanities group at USC?
     - Where can I find resources on digital humanities?
-    - whats the process for gettin library assistance with my digi scholarship?
     - Can I get help from USC libraries for digital projets?
-    - What kinda support does USC lib offer for digital scholars?
-    - USC libraries have any resources for digital humanities research?
     - where do i go to get my website hosted thru usc?
     - I'm working on a digital scholarship project. Who can I reach out to at the library for help?
     - Does the library provide any tools or services for digital projects?
-    - what's available for grad students in terms of digi scholarship support
-    - Can USC lib help me plan my digi project?
+    - Can USC lib help me plan my project?
     - How do I get started with hosting a website through USC?
+    - how can I create a web site for my research?
+    - Can I get help even if my project is still in the idea stage?
+    - Tell me the meaning of digital scholarship?
+    - What is digital scholarship?
+    - digital scholarship definition
+    - digital tools for research
+    - digitl scholrship info
 - intent: see_example_digital_scholarship
   examples: |-
     - Can I see examples of digital scholarship projects?
@@ -9380,6 +9294,7 @@ nlu:
     - What timeline tools are available?
     - Tell me the best timeline tool?
     - Tell me the best timeline tool available?
+    - who can help me with timelines
     - I need help with creating a timeline for my web site
     - What tools can I use to create a timeline?
     - Timeline creation software?
@@ -9406,7 +9321,7 @@ nlu:
     - Best way to make a historical timeline?
     - smthng like timeline js but easyer to use?
 - intent: mapping_tool_available
-  examples: |
+  examples: |-
     - What mapping tools are available?
     - list the best mapping tools?
     - Tell me the best mapping tool?
@@ -9436,8 +9351,10 @@ nlu:
     - whats a good tool fer location based data analysis?
     - Are there any mapping tools avail w/ mobile apps?
     - QGIS
+    - how do i create a map for my data
+    - need help with mapping
 - intent: web_scraper_available
-  examples: |
+  examples: |-
     - What web scrapers are available?
     - Tell me the best web scraper?
     - list the best web scrapers?
@@ -9465,8 +9382,9 @@ nlu:
     - I need to scrape some data from a news site
     - What are some web scraping tools for Python?
     - what web scraping tools are available for researchers at usc?
+    - tool for scraping
 - intent: collaboration_tool_available
-  examples: |
+  examples: |-
     - What collaboration tools are available?
     - list the best collaboration tools?
     - can you list the best collaboration tools?
@@ -9494,6 +9412,7 @@ nlu:
     - Need a tool to manage team assignments and deadlines
     - How do I get my team on the same page with projects?
     - can you list the best collaboration tools for digital scholarship?
+    - What digital tools do you recommend for collaborative research?
 - intent: animation_tool_available
   examples: |
     - What animation tools are available?

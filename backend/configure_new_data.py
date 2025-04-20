@@ -56,8 +56,8 @@ def remove_rule(target_intent):
 def configure_domain(action: str, intent: str, new_response: str = ""):
     """
     action: remove or modify
-    intent: The intent to be removed, OR The intent that will hold the merged response
-    new_response: The merged response to store
+    intent: The intent to be removed, OR The intent that will hold the new response
+    new_response: The new response to store
     """
     yaml = YAML()
     domain_file = "../Chatbot/domain.yml"

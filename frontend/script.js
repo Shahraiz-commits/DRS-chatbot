@@ -554,13 +554,14 @@ function sendMessageToRasa(message) {
         console.log("Alternative Response detected, displaying interactive options.");
         displayAlternativeButtons(data);
       } else {
-        const combinedText = data
+        let combinedText = data
           .filter((msgObj) => msgObj && msgObj.text)
           .map((msgObj) => msgObj.text)
           .join("\n\n");
 
         if (combinedText) {
           console.log("text after: " + combinedText);
+          if(!combinedText.startsWith("Hi!")) combinedText+="\n\n" + getContinuationText();
           addMessageToChat(combinedText, "botMsg");
         } else if (!isFeedbackNumber) {
           console.log("Received data but combinedText is empty or invalid.");
@@ -572,6 +573,24 @@ function sendMessageToRasa(message) {
       console.error("Error during fetch or JSON parsing:", err);
       addMessageToChat("Sorry, I couldn't reach the server or process its response. Please try again later.", "botMsg", "errorMsg");
     });
+}
+
+// Returns a random string to continue the conversation
+function getContinuationText() {
+  // Possible continuations
+  const texts = {
+    0 : "Feel free to ask me about something else!",
+    1 : "How else may I assist you?",
+    2 : "Anything else I can help you with?",
+    3 : "Is there anything else you need? I'm happy to help!",
+    4 : "Let me know if you need help with anything else!",
+    5 : "Would you like to learn about anything else?",
+    6 : "Can I do something else for you?",
+    7 : "That was a great question! Need anything else?"
+  }
+
+  let chosen = Math.floor((Math.random() * 8)); // Scale to 8 max
+  return texts[chosen]
 }
 
 // brooooooooooooo css is booty
