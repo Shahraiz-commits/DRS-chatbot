@@ -192,6 +192,8 @@ function addMessageToChat(text, ...classNames) {
   const isUserMsg = classNames.includes("userMsg");
   const isGreeting = text.startsWith("Hi! How can I help you?");
   const isAlternativeIntro = text.includes("Sorry, I am a bit unsure");
+  const isFollowUp = (text.includes("Okay, I understand. How") || text.includes("Thank you for your feedback!"));
+  // console.log(isFollowUp);
 
   const container = document.createElement("div");
   container.classList.add("message-container");
@@ -267,7 +269,7 @@ function addMessageToChat(text, ...classNames) {
 
     container.appendChild(messageDiv);
 
-    if (!isGreeting && !isAlternativeIntro) {
+    if (!isGreeting && !isAlternativeIntro && !isFollowUp) {
       const feedbackDiv = document.createElement("div");
       feedbackDiv.classList.add("feedback-buttons");
       feedbackDiv.style.display = "none";
@@ -576,7 +578,6 @@ document.querySelectorAll(".actionBtn").forEach((button) => {
 });
 
 function displayAlternativeButtons(data) {
-
   addMessageToChat("Sorry, I am a bit unsure with my response. Is this what you were looking for?", "botMsg");
 
   const optionsContainer = document.createElement("div");
@@ -700,12 +701,9 @@ function displayAlternativeButtons(data) {
       }
       card.classList.add('selected-option');
       sendMessageToRasa(String(option.number)); // Send selected option number
-      if (option.number !== 0) {
-        addMessageToChat("Thank you for your feedback! Can I help you with anything else?", "botMsg");
-      } else {
-        addMessageToChat("Okay, I understand. How else can I assist you?", "botMsg");
-      }
-      console.log(`Selected Option: ${option.number}`);
+      // console.log(option.number);
+      addMessageToChat("Thank you for your feedback! Can I help you with anything else?", "botMsg");
+      // console.log(`Selected Option: ${option.number}`);
 
     };
 
@@ -741,7 +739,8 @@ function displayAlternativeButtons(data) {
       optionsContainer.querySelectorAll('.select-option-btn, .none-btn-alt').forEach(btn => btn.disabled = true); // Fallback
     }
     sendMessageToRasa("0");
-    console.log("Selected: None were helpful");
+    addMessageToChat("Okay, I understand. How else can I assist you?", "botMsg");
+    // console.log("Selected: None were helpful");
   };
 
   const wrapperContainer = document.createElement("div");
@@ -772,10 +771,10 @@ function sendMessageToRasa(message) {
     addMessageToChat(message, "userMsg");
     if (userInput) userInput.value = "";
   } else if (isFeedbackNumber) {
-    console.log(`Feedback number ${message} selected, sending to Rasa.`);
+    // console.log(`Feedback number ${message} selected, sending to Rasa.`);
   }
 
-  console.log("Sending to Rasa:", payload);
+  // console.log("Sending to Rasa:", payload);
 
   fetch(PROD_LINK, {
     method: "POST",
@@ -790,12 +789,12 @@ function sendMessageToRasa(message) {
       if (contentType && contentType.indexOf("application/json") !== -1) {
         return response.json();
       } else {
-        console.log("Received non-JSON or empty response from Rasa.");
+        // console.log("Received non-JSON or empty response from Rasa.");
         return null;
       }
     })
     .then((data) => {
-      console.log("Received from Rasa:", data);
+      // console.log("Received from Rasa:", data);
 
       if (data === null) {
         if (!isFeedbackNumber) {
@@ -815,7 +814,7 @@ function sendMessageToRasa(message) {
       );
 
       if (isAlternative) {
-        // console.log("Alternative Response pattern detected. Processing with displayAlternativeButtons.");
+        // // console.log("Alternative Response pattern detected. Processing with displayAlternativeButtons.");
         displayAlternativeButtons(data);
       } else {
         let combinedText = data
