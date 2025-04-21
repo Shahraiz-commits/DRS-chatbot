@@ -135,6 +135,10 @@ function typeWriterEffect(element, finalHtml, speed = 10) {
       typingInProgress = false;
       scrollChatToBottom();
 
+      const msgContainer = element.closest(".message-container");
+      const fb = msgContainer?.querySelector(".feedback-buttons");
+      if (fb) fb.style.display = "block";
+
 
       if (element?.closest) {
         const messageDiv = element.closest('.message');
@@ -201,7 +205,15 @@ function addMessageToChat(text, ...classNames) {
   let formattedText = text;
   if ((isBotMsg || isErrorMsg) && !isUserMsg && !isAlternativeIntro) {
     try {
+      // let parsedHtml = marked.parse(text, { breaks: true });
+      // formattedText = parsedHtml.replace(
+      //   /<a href="([^"]+)"/g,
+      //   (match, url) => `<a href="${url}" target="_blank" rel="noopener noreferrer"`
+      // );
       let parsedHtml = marked.parse(text, { breaks: true });
+      parsedHtml = parsedHtml
+        .replace(/<ul>/g, '<ul style="list-style:none; margin-left:1.5em;">')
+        .replace(/<li>/g, '<li>• ');
       formattedText = parsedHtml.replace(
         /<a href="([^"]+)"/g,
         (match, url) => `<a href="${url}" target="_blank" rel="noopener noreferrer"`
@@ -258,6 +270,7 @@ function addMessageToChat(text, ...classNames) {
     if (!isGreeting && !isAlternativeIntro) {
       const feedbackDiv = document.createElement("div");
       feedbackDiv.classList.add("feedback-buttons");
+      feedbackDiv.style.display = "none";
       feedbackDiv.innerHTML = `
           <div class="feedback-buttons-wrapper">
             <button class="feedback-btn thumbs-up" title="Good response" aria-label="Good response" onclick="handleFeedbackClick('${messageId}', 'positive')">👍</button>
