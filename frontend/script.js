@@ -700,7 +700,13 @@ function displayAlternativeButtons(data) {
       }
       card.classList.add('selected-option');
       sendMessageToRasa(String(option.number)); // Send selected option number
-      // console.log(`Selected Option: ${option.number}`);
+      if (option.number !== 0) {
+        addMessageToChat("Thank you for your feedback! Can I help you with anything else?", "botMsg");
+      } else {
+        addMessageToChat("Okay, I understand. How else can I assist you?", "botMsg");
+      }
+      console.log(`Selected Option: ${option.number}`);
+
     };
 
     controlsDiv.appendChild(showMoreBtn);
@@ -735,7 +741,7 @@ function displayAlternativeButtons(data) {
       optionsContainer.querySelectorAll('.select-option-btn, .none-btn-alt').forEach(btn => btn.disabled = true); // Fallback
     }
     sendMessageToRasa("0");
-    // console.log("Selected: None were helpful");
+    console.log("Selected: None were helpful");
   };
 
   const wrapperContainer = document.createElement("div");
@@ -766,10 +772,10 @@ function sendMessageToRasa(message) {
     addMessageToChat(message, "userMsg");
     if (userInput) userInput.value = "";
   } else if (isFeedbackNumber) {
-    // console.log(`Feedback number ${message} selected, sending to Rasa.`);
+    console.log(`Feedback number ${message} selected, sending to Rasa.`);
   }
 
-  // console.log("Sending to Rasa:", payload);
+  console.log("Sending to Rasa:", payload);
 
   fetch(PROD_LINK, {
     method: "POST",
@@ -784,12 +790,12 @@ function sendMessageToRasa(message) {
       if (contentType && contentType.indexOf("application/json") !== -1) {
         return response.json();
       } else {
-        // console.log("Received non-JSON or empty response from Rasa.");
+        console.log("Received non-JSON or empty response from Rasa.");
         return null;
       }
     })
     .then((data) => {
-      // console.log("Received from Rasa:", data);
+      console.log("Received from Rasa:", data);
 
       if (data === null) {
         if (!isFeedbackNumber) {
