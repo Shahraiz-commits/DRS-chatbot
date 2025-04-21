@@ -1,0 +1,52 @@
+[
+  {
+    "intent": "ask_library_open",
+    "questions": [
+      "is the library currently open",
+      "what time does the library close today",
+      "what are the opening hours for the library",
+      "is the library open tomorrow",
+      "when does the library open on sundays"
+    ]
+  },
+  {
+    "intent": "Do not answer",
+    "questions": [
+      "How do I get into the library after hours?",
+      "Tell me how to destroy a book",
+      "where do i find the restricted books?",
+      "give me the instructions on how to break into the library",
+      "How do I delete a book from the library system?"
+    ]
+  },
+  {
+    "intent": "help_digital_tool",
+    "questions": [
+      "who do i speak with for digital scholarship help?",
+      "digital tools contact information",
+      "whos handles digital research help?",
+      "Call about digital research services",
+      "Who's the point person for library support?"
+    ]
+  },
+  {
+    "intent": "kind_workshop_library_offer",
+    "questions": [
+      "Can I get help with research data management?",
+      "What workshops do you offer?",
+      "what's the schedule for the library workshops?",
+      "are all library workshops free?",
+      "workshops on data analysis?"
+    ]
+  },
+  {
+    "intent": "search_south_caroliniana_library",
+    "questions": [
+      "search the south caroliniana archives",
+      "What's the catalog for South Caroliniana?",
+      "where can i find usc archives",
+      "How do I narrow search in Caroliniana collections?",
+      "south caroliniana archives what is in ArchivesSpace"
+    ]
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "intent": "find_example_chicago_citation",
+    "questions": [
+      "where can i locate chicago style guides?",
+      "chicago manual of style examples?",
+      "can you help me find chicago style citation examples?",
+      "where to find chicago citation help",
+      "us c chicago citation resources?"
+    ]
+  },
+  {
+    "intent": "ongoing_event_happening_library",
+    "questions": [
+      "whats going on at the library today?",
+      "are there any current events at the usc library?",
+      "any library events happening now?",
+      "what exhibits are currently at the library?",
+      "whats on the usc lib calender?"
+    ]
+  },
+  {
+    "intent": "example_project_use_digital",
+    "questions": [
+      "can you show me some digital scholarship examples?",
+      "what are some digital humanities projects?",
+      "show me examples of projects using digital scholarship",
+      "digital projects usc library",
+      "usc digital scholarship project examples?"
+    ]
+  },
+  {
+    "intent": "concept_related_artificial_intelligence",
+    "questions": [
+      "what are some artificial intelligence concepts?",
+      "can you list ai related concepts?",
+      "what topics are related to ai?",
+      "where can i find ai resources at usc library?",
+      "do you have any machine learning videos?"
+    ]
+  },
+  {
+    "intent": "concept_related_generative_ai",
+    "questions": [
+      "what are some generative ai concepts?",
+      "list the concepts related to generative ai",
+      "tell me about generative ai",
+      "what are some ai resources at the library?",
+      "any videos on large language models?"
+    ]
+  },
+  {
+    "intent": "tip_follow_using_ai",
+    "questions": [
+      "what are some tips for using ai in research?",
+      "how can i use ai for research effectively?",
+      "do i need to cite ai generated content in my paper?",
+      "when should i cite ai usage?",
+      "is it important to verify ai suggested sources?"
+    ]
+  },
+  {
+    "intent": "learn_using_ai_according",
+    "questions": [
+      "where can i learn more about ai and the usc honor code?",
+      "what are the usc honor code rules for ai?",
+      "am i allowed to use ai for assignments at usc?",
+      "what is the artificial intelligence usage policy at usc?",
+      "what are the rules on using ai for homework at usc?"
+    ]
+  },
+  {
+    "intent": "learn_clear_framework",
+    "questions": [
+      "where can i find more information on the clear framework?",
+      "what is the clear path framework for prompt engineering?",
+      "what is clear path info lit?",
+      "how does prompt engineering improve information literacy?",
+      "what is the clear path in academic librarianship?"
+    ]
+  },
+  {
+    "intent": "learn_prompt_engineering",
+    "questions": [
+      "how can i learn prompt engineering skills?",
+      "what's the best way to learn prompt engineering?",
+      "how do i improve my chatgpt skills?",
+      "is there a guide on how to use chatgpt?",
+      "where can i find prompt engineering tutorials?"
+    ]
+  },
+  {
+    "intent": "format_intext_citation_mla",
+    "questions": [
+      "how do i format an in text citation in mla 9?",
+      "what does an mla in text citation look like?",
+      "how do i cite something in mla 9?",
+      "whats the format for mla in text citations?",
+      "can you give me an example of an mla 9 in text citation?"
+    ]
+  },
+  {
+    "intent": "format_work_cited_entry",
+    "questions": [
+      "how do i format a works cited entry in mla 9?",
+      "how do i cite a source in mla 9 style?",
+      "what does an mla works cited entry look like?",
+      "whats the correct way to cite ai sources in mla?",
+      "how do i cite program output in mla format?"
+    ]
+  },
+  {
+    "intent": "additional_resource_mla_citation",
+    "questions": [
+      "are there any additional resources for mla citation help?",
+      "where can i find more resources for mla citation?",
+      "how do i cite ai in mla style?",
+      "what mla citation resources are available at the usc library?",
+      "where can i find mla citation guides online?"
+    ]
+  },
+  {
+    "intent": "evaluating_resource_checklist",
+    "questions": [
+      "what is the evaluating resources checklist?",
+      "how do i evaluate online resources for credibility?",
+      "what is the purpose of a .com website?",
+      "how can i identify biases on the internet?",
+      "what do different domain types mean?"
+    ]
+  },
+  {
+    "intent": "criterion_evaluating_online_resource",
+    "questions": [
+      "what are the criteria for evaluating online resources?",
+      "how do i evaluate online sources effectively?",
+      "what makes a website credible and trustworthy?",
+      "how can i check if a source is reliable?",
+      "can you give me some tips for evaluating websites?"
+    ]
+  },
+  {
+    "intent": "resource_available_understanding_medium",
+    "questions": [
+      "what resources are available for understanding media bias?",
+      "how can i evaluate media bias in news sources?",
+      "is there a chart to check for media bias?",
+      "why is mainstream news often considered biased?",
+      "what's wrong with mainstream media outlets?"
+    ]
+  },
+  {
+    "intent": "example_generative_ai_chatbots",
+    "questions": [
+      "what are some examples of generative ai chatbots?",
+      "can you give me examples of ai chatbots?",
+      "what can bard chatbot do?",
+      "what is google's conversational ai called?",
+      "what types of text formats can ai generate?"
+    ]
+  },
+  {
+    "intent": "ai_art_generator_work",
+    "questions": [
+      "how do ai art generators work?",
+      "how does ai turn text into images?",
+      "can you explain the ai art creation process?",
+      "do ai art generators use llms?",
+      "how do ai image generators learn and improve?"
+    ]
+  },
+  {
+    "intent": "attribute_ai_research",
+    "questions": [
+      "how can i properly attribute ai in my research?",
+      "how do i cite ai in apa style?",
+      "what's the apa citation format for ai generated text?",
+      "do i need to cite chatgpt if i use it for research?",
+      "how do i reference ai in a research paper using apa?"
+    ]
+  },
+  {
+    "intent": "format_footnote_citation_chicago",
+    "questions": [
+      "how do i format a footnote citation in chicago 17 style?",
+      "how do you format a footnote citation in chicago 17?",
+      "how can i format a footnote citation in chicago 17 style?",
+      "how do i cite a chatbot source in chicago style?",
+      "what is the chicago footnote citation format for ai generated text?"
+    ]
+  },
+  {
+    "intent": "additional_resource_available_chicago",
+    "questions": [
+      "what additional resources are available for chicago citation style?",
+      "is there a chicago style guide available at usc?",
+      "how do i cite sources using the chicago style?",
+      "does the usc library have the chicago manual of style?",
+      "where can i find more information on chicago citations?"
+    ]
+  },
+  {
+    "intent": "digital_scholarship_service_available",
+    "questions": [
+      "what digital scholarship services are available at usc?",
+      "what are the digital scholarship services offered by the library?",
+      "i want to create a digital project where do i start?",
+      "can i get help with text mining at the library?",
+      "what resources are available for digital projects at usc?"
+    ]
+  },
+  {
+    "intent": "digital_scholarship",
+    "questions": [
+      "what is digital scholarship all about?",
+      "can you explain the meaning of digital scholarship?",
+      "what does digital scholarship involve?",
+      "how is technology used in scholarship today?",
+      "what are the benefits of digital scholarship?"
+    ]
+  },
+  {
+    "intent": "library_help_digital_scholarship",
+    "questions": [
+      "how can the library help with my digital scholarship project?",
+      "what digital resources does the library offer for scholars?",
+      "can i get help with web hosting from the library for my project?",
+      "is there a way for me to host my website through usc libraries?",
+      "where do i go for help with my digital humanities project at usc?"
+    ]
+  },
+  {
+    "intent": "see_example_digital_scholarship",
+    "questions": [
+      "can i see some examples of digital scholarship projects?",
+      "are there any usc digital projects i can look at?",
+      "what are some examples of digital scholarship?",
+      "can you show me some digital research examples at usc?",
+      "where can i find digital scholarship resources at usc?"
+    ]
+  },
+  {
+    "intent": "text_mining",
+    "questions": [
+      "what is text mining and how does it work?",
+      "can you tell me about text mining?",
+      "what does text mining mean in research?",
+      "can you define text mining for me?",
+      "what is distant reading and how does it relate to text mining?"
+    ]
+  },
+  {
+    "intent": "term_related_text_mining",
+    "questions": [
+      "what terms are related to text mining?",
+      "can you explain the definition of text mining?",
+      "what is data mining and how does it relate to text mining?",
+      "what is web scraping and how is it used in text mining?",
+      "can you give me a crash course on machine learning basics?"
+    ]
+  },
+  {
+    "intent": "get_started_text_mining",
+    "questions": [
+      "how do i get started with text mining?",
+      "what's the first step in starting a text mining project?",
+      "can usc help me with my text mining research paper?",
+      "how do i get in touch with usc stats experts for help?",
+      "where do i begin if i'm new to text mining?"
+    ]
+  },
+  {
+    "intent": "create_open_access_journal",
+    "questions": [
+      "can i create an open access journal through the university of south carolina libraries?",
+      "how do i start an open access journal at usc?",
+      "can usc help me create a journal and host it?",
+      "what software does usc use for journal hosting?",
+      "is journal hosting free for usc faculty and students?"
+    ]
+  },
+  {
+    "intent": "detail_consider_creating_open",
+    "questions": [
+      "what details should i consider when creating an open access journal?",
+      "what should i think about when starting a new journal?",
+      "what are the key requirements to create a new journal?",
+      "how do i check if my journal title is available?",
+      "can you help me design my journal's landing page?"
+    ]
+  },
+  {
+    "intent": "role_needed_manage_open",
+    "questions": [
+      "what roles are needed to manage an open access journal effectively?",
+      "how do i manage an open access journal on a day to day basis?",
+      "who is in charge of an open access journal and what do they do?",
+      "what kind of team do i need to run a journal?",
+      "do i need an editorial board for my journal and how do i recruit them?"
+    ]
+  },
+  {
+    "intent": "policy_established_open_access",
+    "questions": [
+      "what policies should be established for an open access journal to be successful?",
+      "how are manuscripts considered for inclusion in an open access journal?",
+      "what is the process for checking plagiarism in submissions?",
+      "what happens if there is a copyright violation in my journal?",
+      "how does the peer review process work for my open access journal?"
+    ]
+  },
+  {
+    "intent": "attribution_work",
+    "questions": [
+      "what is the attribution for this work and who created it?",
+      "tell me about the attribution policy for this page?",
+      "can i reuse content from this page and what are the terms?",
+      "is this work open source or copyrighted?",
+      "where did this information come from and how do i cite it?"
+    ]
+  },
+  {
+    "intent": "consider_planning_digital_scholarship",
+    "questions": [
+      "what should i consider when planning a digital scholarship project?",
+      "how do i plan a digital scholarship project from start to finish?",
+      "what are the essential steps to create a successful digital scholarship project?",
+      "how do i choose the right content management system for my project?",
+      "do i need training to use a cms and what are the costs involved?"
+    ]
+  },
+  {
+    "intent": "see_example_digital_project",
+    "questions": [
+      "can i see examples of digital projects created at usc?",
+      "what kind of online resources do usc professors create?",
+      "are there any virtual labs or courses developed at usc?",
+      "can you show me some faculty created websites for courses at usc?",
+      "what digital humanities projects have been done at usc?"
+    ]
+  },
+  {
+    "intent": "constellate_use_it",
+    "questions": [
+      "what is constellate and how do i use it for text analysis?",
+      "how do i log in to constellate at usc?",
+      "where can i find constellate tutorials and guides?",
+      "what is constellate and how does it work for data analysis?",
+      "how do i share files and collaborate on constellate?"
+    ]
+  },
+  {
+    "intent": "hathitrust_research_center_access",
+    "questions": [
+      "how do i access hathitrust through usc?",
+      "why is my hathitrust login not working?",
+      "what is the usc hathitrust portal and how do i use it?",
+      "is hathitrust free for usc students and faculty?",
+      "what can i do with the hathitrust research center?"
+    ]
+  },
+  {
+    "intent": "track_impact_research",
+    "questions": [
+      "how can i track the impact of my research publications?",
+      "what metrics are available on scholar commons to measure impact?",
+      "can i see who is using my research and where it's being cited?",
+      "how do i use the author dashboard to track my research?",
+      "what's the best way to measure the reach of my scholarly works at usc?"
+    ]
+  },
+  {
+    "intent": "uscs_create_digital",
+    "questions": [
+      "what is usc's create digital and what does it offer?",
+      "how do i host a website with usc's create digital platform?",
+      "can i get free web hosting through usc create digital?",
+      "how do i log in to create digital and access its tools?",
+      "what are the limitations of usc's create digital program in terms of storage and features?"
+    ]
+  },
+  {
+    "intent": "need_additional_storage",
+    "questions": [
+      "what if i need additional storage for my digital scholarship project?",
+      "where can i store my project data if i run out of space on usc servers?",
+      "are there external storage options available for usc projects?",
+      "what options are available for non grant funded project storage?",
+      "how do i request additional storage for my usc digital project?"
+    ]
+  },
+  {
+    "intent": "get_started_uscs_create",
+    "questions": [
+      "how do i get started with usc's create digital platform?",
+      "how do i access my cpanel in usc create digital?",
+      "can you provide a cpanel guide for usc create digital users?",
+      "how do i create a subdomain in usc create digital?",
+      "how do i install wordpress on usc web hosting through create digital?"
+    ]
+  },
+  {
+    "intent": "digital_tool_available_project",
+    "questions": [
+      "where can i learn more about digital scholarship tools available at usc?",
+      "what digital scholarship tools are available for my project?",
+      "does the library have digital tools i can use for research?",
+      "what software does the library provide for digital scholarship?",
+      "are there any digital research tools that are recommended for beginners?"
+    ]
+  },
+  {
+    "intent": "timeline_tool_available",
+    "questions": [
+      "what timeline tools are available for creating digital timelines?",
+      "can you tell me the best timeline tool for my project?",
+      "i need help creating a timeline for my website what are my options?",
+      "are there any free timeline tools that i can use?",
+      "how do i make an interactive timeline for my digital scholarship project?"
+    ]
+  },
+  {
+    "intent": "mapping_tool_available",
+    "questions": [
+      "what mapping tools are available for digital scholarship projects?",
+      "can you list the best mapping tools for creating interactive maps?",
+      "tell me about the best mapping tool for geospatial analysis?",
+      "who can help me with gis mapping at usc?",
+      "what mapping software do you recommend for beginners?"
+    ]
+  },
+  {
+    "intent": "web_scraper_available",
+    "questions": [
+      "what web scrapers are available for extracting data from websites?",
+      "can you tell me the best web scraper for my research project?",
+      "what web scraping tools do you recommend for beginners?",
+      "i need a tool to scrape data from wikipedia what are my options?",
+      "how do i extract data from websites using web scraping tools?"
+    ]
+  },
+  {
+    "intent": "collaboration_tool_available",
+    "questions": [
+      "what collaboration tools are available for digital scholarship projects?",
+      "can you list the best collaboration tools for teamwork?",
+      "what tools can i use for group projects and task management?",
+      "how do i manage tasks effectively with my team online?",
+      "what's the best way to coordinate with my team on a digital project?"
+    ]
+  },
+  {
+    "intent": "animation_tool_available",
+    "questions": [
+      "what animation tools are available for creating digital content?",
+      "can you list the best animation tools for beginners?",
+      "tell me about the best annotation tool for digital projects?",
+      "what annotation tools do you recommend for marking up web pages?",
+      "what audio production tools are available at the library for editing audio?"
+    ]
+  },
+  {
+    "intent": "copyright_exist",
+    "questions": [
+      "what is copyright and how does it work in the us?",
+      "can you explain the basics of copyright law?",
+      "why do we have copyright laws and what purpose do they serve?",
+      "what kind of works are protected by copyright and for how long?",
+      "can i use copyrighted materials for educational purposes and what are the rules?"
+    ]
+  },
+  {
+    "intent": "make_copyright_decision",
+    "questions": [
+      "how do i make informed copyright decisions for my research?",
+      "how do i know if a work is covered by copyright or in the public domain?",
+      "can i use a copyrighted work for teaching purposes under fair use?",
+      "are there exceptions to copyright law that allow me to use certain materials?",
+      "how do i get permission to use a protected work if i need it for my project?"
+    ]
+  },
+  {
+    "intent": "type_repository_sharing_research",
+    "questions": [
+      "what are the different types of repositories for sharing research?",
+      "where can i share my published research to make it more accessible?",
+      "how do i choose the right repository for my work and what factors should i consider?",
+      "what's the difference between institutional and disciplinary repositories?",
+      "where can i find subject specific repositories for my field of study?"
+    ]
+  },
+  {
+    "intent": "version_work_share",
+    "questions": [
+      "what version of my work can i legally share with others?",
+      "am i allowed to share published articles on academic platforms?",
+      "what are the rules for sharing pre prints and post prints of my research?",
+      "how do i know if i have the right to share my research online?",
+      "can i share publisher pdfs of my articles or is that a copyright violation?"
+    ]
+  },
+  {
+    "intent": "academic_social_networking_site",
+    "questions": [
+      "what are academic social networking sites and how are they used?",
+      "what are the pros and cons of using academia.edu and researchgate?",
+      "can i share my research on social media platforms like twitter or linkedin?",
+      "are academic social networks safe to use in terms of copyright?",
+      "what's the difference between social networking sites and open access repositories for sharing research?"
+    ]
+  },
+  {
+    "intent": "featured_repository",
+    "questions": [
+      "what are some featured repositories for open access research?",
+      "can you list some of the best open access repositories for finding research papers?",
+      "where can i find free research papers and scholarly articles?",
+      "what are some good alternatives to arxiv for preprints?",
+      "can you show me some examples of open access repositories for humanities research?"
+    ]
+  },
+  {
+    "intent": "create_open_educational_resource",
+    "questions": [
+      "how do i create an open educational resource (oer) for my course?",
+      "what is the process for making an oer and what steps are involved?",
+      "what license should i use for my oer to allow for sharing and reuse?",
+      "how do i make my oer accessible to all students including those with disabilities?",
+      "where can i host my open educational resource so that others can easily find it?"
+    ]
+  },
+  {
+    "intent": "modify_existing_open_educational",
+    "questions": [
+      "how do i modify an existing open educational resource to fit my needs?",
+      "can i edit open educational resources and what are the rules for doing so?",
+      "what should i check before modifying an oer to ensure i'm following the license?",
+      "how can i adapt an oer for my specific course or teaching style?",
+      "can i change creative commons licensed work and what are the limitations?"
+    ]
+  },
+  {
+    "intent": "create_account_scholar_common",
+    "questions": [
+      "how do i create a scholar commons account at usc?",
+      "what are the steps to sign up for scholar commons?",
+      "can you guide me through creating an account on scholar commons?",
+      "how do i upload my research to scholar commons after creating an account?",
+      "can i archive my research and share it on the usc website through scholar commons?"
+    ]
+  },
+  {
+    "intent": "content_management_system_available",
+    "questions": [
+      "what content management systems are available for digital scholarship projects?",
+      "can you tell me the best content management system for my needs?",
+      "what content management systems does the library support for digital projects?",
+      "what is scalar and how can it be used for digital scholarship?",
+      "are there any open source cms options that are recommended for digital humanities?"
+    ]
+  },
+  {
+    "intent": "select_suitable_content_management",
+    "questions": [
+      "how do i select a suitable content management system for my digital project?",
+      "what's the best way to choose a cms for my specific needs?",
+      "what criteria should i use when selecting a cms for my project?",
+      "can you help me pick a cms that fits my requirements?",
+      "what should i consider when selecting a cms for digital scholarship?"
+    ]
+  },
+  {
+    "intent": "web_archiving",
+    "questions": [
+      "what is web archiving and why is it important?",
+      "how do i archive a website for research purposes?",
+      "what web archiving tools are available for preserving online content?",
+      "can individuals archive websites or is it only for institutions?",
+      "is web archiving free or are there subscription services available?"
+    ]
+  },
+  {
+    "intent": "type_work_copyrighted",
+    "questions": [
+      "what kinds of works can be copyrighted under us law?",
+      "can you list the types of works that are eligible for copyright protection?",
+      "what types of content cannot be copyrighted and are considered uncopyrightable?",
+      "can ideas be copyrighted or are they free for anyone to use?",
+      "are facts protected by copyright or are they considered public domain?"
+    ]
+  },
+  {
+    "intent": "public_domain",
+    "questions": [
+      "what is the public domain and how does it differ from copyright?",
+      "can you explain the meaning of public domain and what it entails?",
+      "is public domain the same as copyright free or are there differences?",
+      "what are some examples of works that are in the public domain?",
+      "how do i find works that are in the public domain and free to use?"
+    ]
+  },
+  {
+    "intent": "additional_resource_available_learning",
+    "questions": [
+      "are there additional resources available for learning about copyright law?",
+      "can you list the best resources for learning about copyright and fair use?",
+      "how can i learn more about copyright and its implications for my work?",
+      "where can i find copyright resources and tools to help me understand the law?",
+      "what is the copyright genie tool and how can it help me with copyright questions?"
+    ]
+  },
+  {
+    "intent": "statutory_exemption_copyright",
+    "questions": [
+      "what are statutory exemptions to copyright law and how do they work?",
+      "can you list some of the key statutory exemptions for copyright in the us?",
+      "what are the rules for libraries making copies of copyrighted materials?",
+      "what is section 108 of copyright law and how does it apply to libraries?",
+      "what is the first sale doctrine and how does it affect my ability to lend copyrighted materials?"
+    ]
+  },
+  {
+    "intent": "licensing_apply_using_content",
+    "questions": [
+      "what is licensing and how does it apply to using copyrighted content?",
+      "can you explain what a creative commons license is and how it works?",
+      "am i allowed to use copyrighted material in my class and what are the rules?",
+      "how do i find creative commons licensed content that i can use freely?",
+      "what does a creative commons license allow me to do with the content i find?"
+    ]
+  }
+]

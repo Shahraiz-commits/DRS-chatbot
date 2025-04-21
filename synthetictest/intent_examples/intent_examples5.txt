@@ -1,0 +1,1737 @@
+need_additional_storage,What if I need additional storage?
+need_additional_storage,What if I need more storage?
+need_additional_storage,What should I do if I need additional storage?
+need_additional_storage,Where can I store my project data?
+need_additional_storage,External storage options for USC projects
+need_additional_storage,Need more storage space for research
+need_additional_storage,What if I run out of storage on USC servers?
+need_additional_storage,Options for non-grant funded project storage
+need_additional_storage,Can I get extra storage for multiple projects?
+need_additional_storage,How do I request additional storage?
+need_additional_storage,Best way to store large data sets USC
+need_additional_storage,USC digital scholarship storage options
+need_additional_storage,Web hosting and storage limits
+need_additional_storage,Need help with storing research data
+need_additional_storage,Where can I host my project files?
+need_additional_storage,Additional storage for non-funded projects
+need_additional_storage,"hey, i need more space 4 my proj"
+need_additional_storage,How do I get extra storage 4 multiple projects?
+need_additional_storage,whats the deal with storage limits on USC servers?
+need_additional_storage,Best options for storing large datasets at USC?
+need_additional_storage,can i has more storage?
+need_additional_storage,What's the process for requesting additional storage?
+need_additional_storage,Need help finding a place to store my research data
+need_additional_storage,where can i host my project files?usc servers r full
+need_additional_storage,are there external storage options 4 usc projects?
+need_additional_storage,whats the policy on storage 4 non-grant funded projects?
+need_additional_storage,what if i need additional storage for my digital scholarship project?
+need_additional_storage,where can i store my project data if i run out of space on create digital?
+need_additional_storage,how do i request additional storage for my digital scholarship work?
+get_started_uscs_create,How do I get started with USC's Create Digital?
+get_started_uscs_create,How do I access my cPanel?
+get_started_uscs_create,cpanel guide
+get_started_uscs_create,Create subdomain USC library
+get_started_uscs_create,USC web hosting wordpress install
+get_started_uscs_create,Install Omeka on USC server
+get_started_uscs_create,Scalar installation help
+get_started_uscs_create,Access installed apps on cPanel
+get_started_uscs_create,FTP usage for USC webhosting
+get_started_uscs_create,Manage users in cPanel
+get_started_uscs_create,Share access to my cPanel
+get_started_uscs_create,USC digital scholarship guides
+get_started_uscs_create,How do I host a website at USC?
+get_started_uscs_create,USC library web hosting tutorials
+get_started_uscs_create,What is Scalar and how do I install it?
+get_started_uscs_create,usc create digital setup
+get_started_uscs_create,cpanel usc login?
+get_started_uscs_create,I need help with setting up wordpress on usc server!!
+get_started_uscs_create,How 2 make subdomain on USC Create Digital?
+get_started_uscs_create,omkea installation usc guide
+get_started_uscs_create,scalar install thru cpanel
+get_started_uscs_create,Can u share ur cpanel access wit me?
+get_started_uscs_create,USC webhosting manual
+get_started_uscs_create,how do i get a usc website up and running?
+get_started_uscs_create,create digital usc tutorials?
+get_started_uscs_create,how do i get started with usc's create digital platform?
+get_started_uscs_create,How do I get started with USC's Create Digital?
+digital_tool_available_project,Where can I learn more about digital scholarship tools?
+digital_tool_available_project,How can I learn more about digital scholarship tools?
+digital_tool_available_project,What digital scholarship tools are available?
+digital_tool_available_project,digital scholarship tools?
+digital_tool_available_project,Where can I find info on USC digital scholarship?
+digital_tool_available_project,Does the library have digital tools for research?
+digital_tool_available_project,dig schol resources
+digital_tool_available_project,Tools for digital scholarship where?
+digital_tool_available_project,What software does the library provide?
+digital_tool_available_project,Are there any digital research tools?
+digital_tool_available_project,resources for dig scholarship
+digital_tool_available_project,Digital scholarship support
+digital_tool_available_project,tools and resources for researchers
+digital_tool_available_project,digital initiatives at USC
+digital_tool_available_project,Where can I learn more about digital scholarship tools?
+digital_tool_available_project,What digital tools are available for my project?
+digital_tool_available_project,"I picked a CMS, now what?"
+digital_tool_available_project,How do I create content for my site?
+digital_tool_available_project,What tools are available for digital scholarship?
+digital_tool_available_project,Need help building my website
+digital_tool_available_project,digital humanities tools?
+digital_tool_available_project,Where can I find trusted digital tools?
+digital_tool_available_project,Tools for developing my website?
+digital_tool_available_project,How to move my project forward with digital tools?
+digital_tool_available_project,user-friendly digital tools?
+digital_tool_available_project,free digital tools for website?
+digital_tool_available_project,What's next after choosing a CMS?
+digital_tool_available_project,"I'm lost, where do I start with digital tools?"
+digital_tool_available_project,Can you recommend any digital tool resources?
+digital_tool_available_project,how can i find information on usc digital scholarship resources?
+digital_tool_available_project,what software does the library provide for digital scholarship?
+digital_tool_available_project,are there any digital research tools recommended by the usc library?
+timeline_tool_available,What timeline tools are available?
+timeline_tool_available,Tell me the best timeline tool?
+timeline_tool_available,Tell me the best timeline tool available?
+timeline_tool_available,I need help with creating a timeline for my web site
+timeline_tool_available,What tools can I use to create a timeline?
+timeline_tool_available,Timeline creation software?
+timeline_tool_available,Are there any free timeline tools?
+timeline_tool_available,How do I make an interactive timeline?
+timeline_tool_available,Can you recommend a good timeline tool?
+timeline_tool_available,timeline js info
+timeline_tool_available,Is TimeMapper easy to use?
+timeline_tool_available,Tools for creating historical timelines?
+timeline_tool_available,Can I create a timeline with Google sheets?
+timeline_tool_available,What's the best way to visualize a timeline?
+timeline_tool_available,Are there any open source timeline tools?
+timeline_tool_available,Timeline software recommendations?
+timeline_tool_available,How can I make a timeline with multimedia elements?
+timeline_tool_available,Is TimelineJS customizable?
+timeline_tool_available,whats good timeline tool?
+timeline_tool_available,timeline softwares available??
+timeline_tool_available,Can u suggest me best timeline creator?
+timeline_tool_available,Are ther any free online timeline makers?
+timeline_tool_available,How do i create a timeline with videos and images?
+timeline_tool_available,Timeline generator recomendations pls
+timeline_tool_available,What are some opensource tools for creating timelines?
+timeline_tool_available,can I make interactive timelines using google sheets?
+timeline_tool_available,Best way to make a historical timeline?
+timeline_tool_available,smthng like timeline js but easyer to use?
+mapping_tool_available,What mapping tools are available?
+mapping_tool_available,list the best mapping tools?
+mapping_tool_available,Tell me the best mapping tool?
+mapping_tool_available,who can help with GIS?
+mapping_tool_available,What mapping tools are available?
+mapping_tool_available,mapping software recommendations
+mapping_tool_available,Can I use open source GIS?
+mapping_tool_available,How do I create printable maps?
+mapping_tool_available,Is there a free tool for location-based storytelling?
+mapping_tool_available,gis tool recomendations
+mapping_tool_available,Where can I find media-rich map tools?
+mapping_tool_available,open street map alternatives
+mapping_tool_available,What is QGIS used for?
+mapping_tool_available,"I want to make interactive story maps, what should I use?"
+mapping_tool_available,best mapping tools for research
+mapping_tool_available,Can you suggest some geospatial analysis tools?
+mapping_tool_available,Is StoryMapJS free to use?
+mapping_tool_available,gis software options
+mapping_tool_available,whats the best tool fer mapping?
+mapping_tool_available,GIS mapping tools - whats out there?
+mapping_tool_available,"I need to make a map, what r my options?"
+mapping_tool_available,Are there any good alternatives 2 ArcGIS?
+mapping_tool_available,Can I get a list of free gis software?
+mapping_tool_available,What's the diff between QGIS and GRASS?
+mapping_tool_available,How do I make a interactive map 4 my project?
+mapping_tool_available,Best mapping tool 4 beginners?
+mapping_tool_available,whats a good tool fer location based data analysis?
+mapping_tool_available,Are there any mapping tools avail w/ mobile apps?
+mapping_tool_available,QGIS
+web_scraper_available,What web scrapers are available?
+web_scraper_available,Tell me the best web scraper?
+web_scraper_available,list the best web scrapers?
+web_scraper_available,What web scraping tools are available?
+web_scraper_available,web scraper recommendations
+web_scraper_available,I need a tool to scrape wikipedia
+web_scraper_available,How do I extract data from websites?
+web_scraper_available,Can you suggest some data scraping tools?
+web_scraper_available,Best way to scrape news articles?
+web_scraper_available,Tools for web data extraction?
+web_scraper_available,Scrape google news
+web_scraper_available,What is WIScker used for?
+web_scraper_available,Is there a free tool to analyze Wikipedia revisions?
+web_scraper_available,data miner tool info
+web_scraper_available,How do I use Voyant with scraped data?
+web_scraper_available,Previous versions of wikipedia scraper
+web_scraper_available,whats the best web scraping tool?
+web_scraper_available,Can u list some good web scrapers?
+web_scraper_available,I need help extractin data from a website
+web_scraper_available,What's the most popular web scraping software?
+web_scraper_available,Are there any free web scraper tools?
+web_scraper_available,How do I scrape data from Twitter?
+web_scraper_available,Is Octoparse a good web scraper?
+web_scraper_available,Can you reccomend a web scraper for beginners?
+web_scraper_available,I need to scrape some data from a news site
+web_scraper_available,What are some web scraping tools for Python?
+web_scraper_available,what web scraping tools are available for researchers at usc?
+collaboration_tool_available,What collaboration tools are available?
+collaboration_tool_available,list the best collaboration tools?
+collaboration_tool_available,can you list the best collaboration tools?
+collaboration_tool_available,What tools can I use for group projects?
+collaboration_tool_available,collaboration tools?
+collaboration_tool_available,How do I manage tasks with my team?
+collaboration_tool_available,Best way to coordinate with team online
+collaboration_tool_available,project management tools?
+collaboration_tool_available,teamwork software recommendations
+collaboration_tool_available,I need help keeping track of deadlines and assignments
+collaboration_tool_available,Slack or Teams for group work?
+collaboration_tool_available,Any good collaboration platforms?
+collaboration_tool_available,Trello vs Microsoft Teams
+collaboration_tool_available,online collaboration options
+collaboration_tool_available,How to keep my team on the same page
+collaboration_tool_available,Collab tools for digital projects
+collaboration_tool_available,whats the best collab tool out there?
+collaboration_tool_available,Can u list some good group project management tools?
+collaboration_tool_available,team coordination software - whats the best option?
+collaboration_tool_available,I need somethin to help me keep track of team tasks
+collaboration_tool_available,group work slack or teams?
+collaboration_tool_available,Collaboration platform recommendations pls
+collaboration_tool_available,trello vs teams for digital projects
+collaboration_tool_available,What r some good online collaboration tools?
+collaboration_tool_available,Need a tool to manage team assignments and deadlines
+collaboration_tool_available,How do I get my team on the same page with projects?
+collaboration_tool_available,can you list the best collaboration tools for digital scholarship?
+animation_tool_available,What animation tools are available?
+animation_tool_available,can you list the best animation tools?
+animation_tool_available,Tell me the best animation tool?
+animation_tool_available,What animation tools are available?
+animation_tool_available,animation software recommendations
+animation_tool_available,Can you suggest any graphics libraries?
+animation_tool_available,Explain Everything tool info
+animation_tool_available,bonsai graphics library
+animation_tool_available,How do I create animations?
+animation_tool_available,Any open source graphic tools?
+animation_tool_available,Tools for creating unique content
+animation_tool_available,Where can I try Bonsai?
+animation_tool_available,How to make editing code easier?
+animation_tool_available,What's the best way to create graphic content?
+animation_tool_available,"Need animation help, what are my options?"
+animation_tool_available,Open source alternatives for graphics
+animation_tool_available,Tell me the best annotation tool?
+animation_tool_available,can you list the best annotation tools?
+animation_tool_available,What annotation tools do you recommend?
+animation_tool_available,annotation tools?
+animation_tool_available,What is Hypothes.is?
+animation_tool_available,Do you have any note-taking tools?
+animation_tool_available,Can I annotate online articles?
+animation_tool_available,what's a good tool for annotating?
+animation_tool_available,How can I markup web pages?
+animation_tool_available,Any suggestions for digital annotation?
+animation_tool_available,hypothesis tool
+animation_tool_available,web annotation tools
+animation_tool_available,What tools do you have for highlighting and annotating text?
+animation_tool_available,do u have annotaion tools?
+animation_tool_available,show the best audio production tools?
+animation_tool_available,can you list the best audio production tools?
+animation_tool_available,What audio production tools are available?
+animation_tool_available,Audio editing software recommendations?
+animation_tool_available,Does the library offer audio production resources?
+animation_tool_available,Where can I find Audacity?
+animation_tool_available,audio production software
+animation_tool_available,Can I access audio editing tools for free?
+animation_tool_available,audacity download link
+animation_tool_available,Is Audacity available on library computers?
+animation_tool_available,What is a good audio editing program?
+animation_tool_available,Audio production tool options?
+animation_tool_available,Audacity website
+animation_tool_available,How do I get Audacity?
+animation_tool_available,Free audio editing software?
+copyright_exist,What is copyright and how does it work?
+copyright_exist,What is copyright?
+copyright_exist,What is copyright law?
+copyright_exist,copyright basics
+copyright_exist,Why do we have copyright laws?
+copyright_exist,what does title 17 of the us code do?
+copyright_exist,copyright rules for educators
+copyright_exist,Can I use copyrighted materials for education?
+copyright_exist,Do I own my work if I create it?
+copyright_exist,What kind of works are protected by copyright?
+copyright_exist,Does copyright cover digital works?
+copyright_exist,Is a photograph copyrighted?
+copyright_exist,Are ideas copyrighted?
+copyright_exist,what is not covered under copyright
+copyright_exist,Can I use public domain works freely?
+copyright_exist,usc copyright policy
+copyright_exist,whats the deal with copyrights?
+copyright_exist,How does copy right work?
+copyright_exist,Whats protected by US copyright law?
+copyright_exist,What r the basics of copyright?
+copyright_exist,whats the point of having copyrights?
+copyright_exist,Can educators use copyrighted stuff?
+copyright_exist,Do I own the rights to my creative work?
+copyright_exist,Is everything online copyrighted?
+copyright_exist,R photos automatically copyrighted?
+copyright_exist,Can u copyright an idea?
+copyright_exist,Whats not protected under US copyright law?
+make_copyright_decision,How do I make copyright decisions?
+make_copyright_decision,How do I know if a work is covered by copyright?
+make_copyright_decision,Is this work in the public domain?
+make_copyright_decision,Can I use a copyrighted work for teaching?
+make_copyright_decision,Are there exceptions to copyright law?
+make_copyright_decision,Do I need permission to use a copyrighted work?
+make_copyright_decision,What's fair use?
+make_copyright_decision,How do I get permission to use a protected work?
+make_copyright_decision,Is this work licensed for me to use?
+make_copyright_decision,Copyright rules for research
+make_copyright_decision,Can I use creative commons works?
+make_copyright_decision,what if the work is really old?
+make_copyright_decision,Do I have to pay to use copyrighted material?
+make_copyright_decision,using copyright materials in scholarship
+make_copyright_decision,How do I figure out if somethin's copyrighted?
+make_copyright_decision,Is it ok to use someone else's work for educational purposes?
+make_copyright_decision,What r the rules 4 using public domain stuff?
+make_copyright_decision,Can I just pay a fee to use copyrighted material?
+make_copyright_decision,Do I need permission 2 use a creative commons licensed work?
+make_copyright_decision,How do I know if somethin is fair use?
+make_copyright_decision,Whats the process 4 gettin permission 2 use copyrighted material?
+make_copyright_decision,R there any exceptions 2 copyright law 4 research purposes?
+make_copyright_decision,Can I use copyrighted material in my thesis?
+make_copyright_decision,can i use a copyrighted work for teaching purposes under fair use?
+make_copyright_decision,are there exceptions to copyright law that allow me to use protected works?
+type_repository_sharing_research,What are the types of repositories for sharing research?
+type_repository_sharing_research,Tell me the type of repositories for sharing research?
+type_repository_sharing_research,What are the types of repositories?
+type_repository_sharing_research,Repository types for research
+type_repository_sharing_research,Where can I share my published research?
+type_repository_sharing_research,How do I choose a repository for my work?
+type_repository_sharing_research,Institutional vs disciplinary repositories
+type_repository_sharing_research,USC institutional repository?
+type_repository_sharing_research,Where to find subject-specific repositories?
+type_repository_sharing_research,Multidisciplinary repositories explained
+type_repository_sharing_research,Sharing research in repositories benefits
+type_repository_sharing_research,Repository options for scholars
+type_repository_sharing_research,Can I share my work in multiple repositories?
+type_repository_sharing_research,How do disciplinary repositories work?
+type_repository_sharing_research,List of disciplinary repositories
+type_repository_sharing_research,whats kinda repos can i share my reserch in?
+type_repository_sharing_research,Types of repositories available for research sharing?
+type_repository_sharing_research,I need a list of subject specific repositories
+type_repository_sharing_research,Can I use multiple repos to share my work?
+type_repository_sharing_research,How do USC's institutional repository work?
+type_repository_sharing_research,What r some benifits of sharin reserch in repos?
+type_repository_sharing_research,respository optoins for interdisciplinary research
+type_repository_sharing_research,whats the diff between instutional and disciplinary repos?
+type_repository_sharing_research,Can u give me a list of general repos for sharing research?
+type_repository_sharing_research,How do I pick the rite repository for my published work?
+version_work_share,What version of my work can I share with others?
+version_work_share,What versions of my work can I share?
+version_work_share,Can I share published articles?
+version_work_share,Sharing pre-prints allowed?
+version_work_share,post-print sharing rules
+version_work_share,Which version of paper to share?
+version_work_share,How do I know if I can share my research?
+version_work_share,Can I share publisher PDFs?
+version_work_share,how to locate publication agreements
+version_work_share,sharing research online
+version_work_share,Can I upload published papers to a repository?
+version_work_share,rules for sharing academic work
+version_work_share,legally sharing my research
+version_work_share,Why was my shared paper taken down?
+version_work_share,whats the deal with sharing my research papers?
+version_work_share,How do I share my work without getting in trouble?
+version_work_share,Can I post my published articles on social media?
+version_work_share,What's the rule on sharing pre-prints?
+version_work_share,Is it okay to upload the final version of my paper online?
+version_work_share,can i shar pubished researh articals?
+version_work_share,What's the best way to share my research with others?
+version_work_share,Can I share a link to my published article?
+version_work_share,How do I know what version of my work is safe to share?
+version_work_share,can u tell me about sharing post-prints?
+version_work_share,am i allowed to share published articles on my personal website?
+version_work_share,what are the rules for sharing academic work on social media?
+academic_social_networking_site,What are academic social networking sites?
+academic_social_networking_site,What is an academic social networking site?
+academic_social_networking_site,What are social networking sites?
+academic_social_networking_site,What social networking sites are used by academics?
+academic_social_networking_site,Academia.edu vs ResearchGate
+academic_social_networking_site,Can I share my research on social media?
+academic_social_networking_site,Are academic social networks safe to use?
+academic_social_networking_site,Copyright rules for academic social networks
+academic_social_networking_site,Is it okay to upload papers to Academia.edu?
+academic_social_networking_site,Social networking for researchers
+academic_social_networking_site,What's the difference between social networking sites and open access repositories?
+academic_social_networking_site,Should I be worried about copyright infringement on ResearchGate?
+academic_social_networking_site,Academic social media platforms
+academic_social_networking_site,Terms of service for academic social networks
+academic_social_networking_site,Can I share my research online?
+academic_social_networking_site,Is Academia.edu an open access repository?
+academic_social_networking_site,wut r sum good academic social networking sites?
+academic_social_networking_site,How do academics use social media?
+academic_social_networking_site,Whats the diff btwn academia.edu & researchgate?
+academic_social_networking_site,Can I upload my research paper to social networks?
+academic_social_networking_site,Is sharing research on social media a copyright infringement?
+academic_social_networking_site,What are the rules for sharing research online?
+academic_social_networking_site,Should I be worried about uploading papers to Academia.edu?
+academic_social_networking_site,whats the best way to share research with other academics?
+academic_social_networking_site,Are there any social networking sites specifically for researchers?
+academic_social_networking_site,Can I use social media to promote my research?
+featured_repository,What are some featured repositories?
+featured_repository,can you list the featured repositories?
+featured_repository,What are some open access repositories?
+featured_repository,featured repositories?
+featured_repository,Where can I find free research papers?
+featured_repository,List of open access databases
+featured_repository,arxiv alternatives
+featured_repository,Open access journal websites
+featured_repository,Can you show me some OA repos?
+featured_repository,Repositories for humanities
+featured_repository,Science open access databases
+featured_repository,Is there a list of peer reviewed repositories?
+featured_repository,Where can I find biology preprints?
+featured_repository,OA repository examples
+featured_repository,What are some figshare alternatives?
+featured_repository,Got any good repos for research?
+featured_repository,whats the best way to get free academic papers?
+featured_repository,How do I access open access journals?
+featured_repository,What r some good alternatives 2 arxiv?
+featured_repository,I need help findin peer reviewed articles
+featured_repository,Can u list out sum featured OA databases?
+featured_repository,Where can I find preprint servers for physics?
+featured_repository,Whats a good repository 4 humanities research?
+featured_repository,any good websites 4 open access science papers?
+featured_repository,figshare alternatives?
+create_open_educational_resource,How do I create an Open Educational Resource?
+create_open_educational_resource,How can I create an open educational resource?
+create_open_educational_resource,How do I create an open educational resource?
+create_open_educational_resource,How do I create an OER?
+create_open_educational_resource,What is the process for making an open educational resource?
+create_open_educational_resource,"I want to author an OER, where do I start?"
+create_open_educational_resource,OER creation steps
+create_open_educational_resource,What license should I use for my OER?
+create_open_educational_resource,How do I make my OER accessible?
+create_open_educational_resource,Where can I host my open educational resource?
+create_open_educational_resource,Best sites for creating and sharing OER
+create_open_educational_resource,How do I share my OER with others?
+create_open_educational_resource,"I've created an OER, now what?"
+create_open_educational_resource,What's the best way to get my OER seen by many people?
+create_open_educational_resource,oer creation guidelines
+create_open_educational_resource,Can you guide me through the OER creation process?
+create_open_educational_resource,Tell me the attribution for this information on Open Educational Resources?
+create_open_educational_resource,What is attribution for this information on Open Educational Resources?
+create_open_educational_resource,Where did the info on this page come from?
+create_open_educational_resource,Who created the content on this page?
+create_open_educational_resource,Attribution info
+create_open_educational_resource,whats the source of oer info
+create_open_educational_resource,Is this info original?
+create_open_educational_resource,How was this page modified?
+create_open_educational_resource,Page credits
+create_open_educational_resource,info sources used
+create_open_educational_resource,What license is the module under?
+create_open_educational_resource,CC BY 4.0 meaning
+create_open_educational_resource,Learn more about OER creation
+create_open_educational_resource,Attribution details for this page
+create_open_educational_resource,how do i create an open educational resource for my course?
+modify_existing_open_educational,How do I modify an existing Open Educational Resource?
+modify_existing_open_educational,How do I modify an open educational resource?
+modify_existing_open_educational,How do I modify an existing open educational resource?
+modify_existing_open_educational,How do I modify an existing OER?
+modify_existing_open_educational,Can I edit Open Educational Resources?
+modify_existing_open_educational,What to check before modifying OER?
+modify_existing_open_educational,OER modification rules
+modify_existing_open_educational,How to adapt OER for my needs?
+modify_existing_open_educational,Can I change Creative Commons licensed work?
+modify_existing_open_educational,What file formats are best for modifying OER?
+modify_existing_open_educational,"Uploading modified OER, where?"
+modify_existing_open_educational,Sites for hosting modified OER?
+modify_existing_open_educational,Is it okay to edit someone else's OER?
+modify_existing_open_educational,Do I need permission to modify OER?
+modify_existing_open_educational,Can I customize existing educational resources?
+modify_existing_open_educational,How do I revise an Open Educational Resource?
+modify_existing_open_educational,What's the process for editing an open ed resource?
+modify_existing_open_educational,can i alter a CC licensed work?
+modify_existing_open_educational,modifying oer - what do i need to know?
+modify_existing_open_educational,Do I need permission to customize OERs?
+modify_existing_open_educational,whats best file format 4 modifying edu resources?
+modify_existing_open_educational,Can I revamp existing educational stuff?
+modify_existing_open_educational,where do i host modified open ed res?
+modify_existing_open_educational,Can I change someone else's Open Ed Resource?
+modify_existing_open_educational,How to modify an OER for my class?
+modify_existing_open_educational,Editing an existing OER - any restrictions?
+create_account_scholar_common,How do I create a Scholar Commons account?
+create_account_scholar_common,How do I make a Scholar Commons account?
+create_account_scholar_common,Create account in Scholar Commons
+create_account_scholar_common,Scholar Commons sign up
+create_account_scholar_common,usc scholar commons account creation
+create_account_scholar_common,I need an account on Scholar Commons. Help.
+create_account_scholar_common,how to get started with scholar commons
+create_account_scholar_common,Account setup for USC repository
+create_account_scholar_common,Can you guide me through creating a Scholar Commons account?
+create_account_scholar_common,Setting up Scholar Commons
+create_account_scholar_common,Scholar Commons registration steps
+create_account_scholar_common,"New to Scholar Commons, how do I join?"
+create_account_scholar_common,What's the process for making an account on Scholar Commons?
+create_account_scholar_common,Create profile in USC institutional repository
+create_account_scholar_common,How do I upload my research to Scholar Commons?
+create_account_scholar_common,How do I upload research to Scholar Commons?
+create_account_scholar_common,How can I upload my research to Scholar Commons?
+create_account_scholar_common,How do I upload my work to Scholar Commons?
+create_account_scholar_common,Scholar Commons tutorial
+create_account_scholar_common,Can I archive my research on USC website?
+create_account_scholar_common,Sharing my scholarship online
+create_account_scholar_common,scholar commons help
+create_account_scholar_common,How to share my thesis on scholar commons
+create_account_scholar_common,Can I post articles on scholarcommons?
+create_account_scholar_common,usc research sharing platform
+create_account_scholar_common,How do I submit to Scholar Commons?
+create_account_scholar_common,Scholar Commons upload guide
+create_account_scholar_common,what is scholar commons used for
+create_account_scholar_common,How can I access Scholar Commons tutorials?
+create_account_scholar_common,How can I assess the impact of my research in Scholar Commons?
+create_account_scholar_common,How do I track my research impact?
+create_account_scholar_common,scholar commons tutorial
+create_account_scholar_common,Can I see who's viewing my research?
+create_account_scholar_common,research metrics scholar commons
+create_account_scholar_common,how to use author dashboard
+create_account_scholar_common,I wanna know if ppl r reading my stuff on scholar commons
+create_account_scholar_common,scholarly works impact
+create_account_scholar_common,Reach of my research?
+create_account_scholar_common,Scholar Commons insights?
+create_account_scholar_common,How do I measure the success of my publications?
+create_account_scholar_common,scholar commons views metrics
+create_account_scholar_common,what are the steps to sign up for scholar commons?
+create_account_scholar_common,How do I create a Scholar Commons account?
+create_account_scholar_common,how do i make a scholar commons account?
+content_management_system_available,What content management systems are available?
+content_management_system_available,Tell me the best content management system?
+content_management_system_available,can you list the best content management systems?
+content_management_system_available,What content management systems does the library support?
+content_management_system_available,CMS options at USC
+content_management_system_available,what is scalar?
+content_management_system_available,Content management system recommendations
+content_management_system_available,I need a CMS for my project
+content_management_system_available,Drupal or Omeka?
+content_management_system_available,Can I use Wordpress for my digital scholarship?
+content_management_system_available,Book-length digital scholarship platform
+content_management_system_available,Non-linear writing formats tool
+content_management_system_available,How do I register for Scalar?
+content_management_system_available,USC Create Digital resources
+content_management_system_available,Digital scholarship platforms at USC
+content_management_system_available,Open source CMS options
+content_management_system_available,CMS suggestions
+content_management_system_available,whats the best cms to use?
+content_management_system_available,List all content management systems available @ usc
+content_management_system_available,I need help choosing a content mgmt system
+content_management_system_available,Which CMS is good for digital scholarship projects?
+content_management_system_available,How do I get started with Scalar at USC?
+content_management_system_available,what r some open source content mgt systems?
+content_management_system_available,usc supported cms options?
+content_management_system_available,Can u tell me about the non-linear writing tool?
+content_management_system_available,What's a good book-length digital scholarship platform?
+content_management_system_available,wordpress or drupal which 1 is better?
+content_management_system_available,what content management systems does the library support for digital scholarship?
+select_suitable_content_management,How do I select a suitable content management system?
+select_suitable_content_management,How do I choose the best content management system?
+select_suitable_content_management,How do I choose a good content management system?
+select_suitable_content_management,How do I choose the right content management system?
+select_suitable_content_management,How do I choose a CMS?
+select_suitable_content_management,What's the best way to select a CMS?
+select_suitable_content_management,CMS selection criteria?
+select_suitable_content_management,Help me pick a CMS
+select_suitable_content_management,I need help choosing a CMS
+select_suitable_content_management,What should I consider when selecting a CMS?
+select_suitable_content_management,CMS options for my project
+select_suitable_content_management,How do I know which CMS is right for me?
+select_suitable_content_management,Can you assist with CMS selection?
+select_suitable_content_management,Need guidance on selecting a CMS
+select_suitable_content_management,Choosing the best CMS for my needs
+select_suitable_content_management,I'm stuck choosing a CMS
+select_suitable_content_management,Tips for selecting a good CMS
+select_suitable_content_management,CMS help and support
+select_suitable_content_management,whats the deal with choosing a cms?
+select_suitable_content_management,"I need a content management system, which one do I pick?"
+select_suitable_content_management,How to decide on the best CMS for my site?
+select_suitable_content_management,Content management system options?
+select_suitable_content_management,Can you give me some advice on picking a good CMS?
+select_suitable_content_management,CMS recomendations?
+select_suitable_content_management,Which CMS is right 4 me?
+select_suitable_content_management,I'm having trouble selecting a content management system
+select_suitable_content_management,What should I think about when choosing a cms?
+select_suitable_content_management,How to choose the perfect cms?
+select_suitable_content_management,what should i consider when selecting a cms for my digital scholarship?
+web_archiving,What is web archiving?
+web_archiving,How do I archive a website?
+web_archiving,Web archiving tools?
+web_archiving,Can I save websites for research?
+web_archiving,Is there a way to preserve online content?
+web_archiving,how to store web pages
+web_archiving,web page saver
+web_archiving,low cost web archiving options
+web_archiving,What is the purpose of web archiving?
+web_archiving,How do researchers archive websites?
+web_archiving,best tools for web archiving
+web_archiving,Can individuals archive websites?
+web_archiving,Is web archiving free?
+web_archiving,What subscription services are available for web archiving?
+web_archiving,What subscription services does the library offer?
+web_archiving,Does USC have Archive-It?
+web_archiving,web archiving services
+web_archiving,How do I access Archive-It?
+web_archiving,archive it link
+web_archiving,usc archive services
+web_archiving,Can I use Archive-It for free?
+web_archiving,Where can I find more info on Archive-It?
+web_archiving,web archiving guide
+web_archiving,How do I learn more about web archiving?
+web_archiving,archive it subscription
+web_archiving,What free tools can I use for web archiving?
+web_archiving,list some free tools for web archiving?
+web_archiving,What tools can I use for web archiving?
+web_archiving,What web archiving tools are free?
+web_archiving,Free web scraping tools?
+web_archiving,webrecorder alternatives
+web_archiving,Is Heritrix free to use?
+web_archiving,Can I use WebCite for free?
+web_archiving,free digital scholarship tools
+web_archiving,Web archiving resources available for free
+web_archiving,Tools for web archiving that don't cost money
+web_archiving,Where can I find free web archiving software?
+web_archiving,Are there any open-source web archiving tools?
+web_archiving,Can you give me a list of free web archiving tools?
+web_archiving,webcite alternatives free
+web_archiving,What subscription services are available for web archiving?
+web_archiving,What subscription services does the library offer?
+web_archiving,Does USC have Archive-It?
+web_archiving,web archiving services
+web_archiving,How do I access Archive-It?
+web_archiving,archive it link
+web_archiving,usc archive services
+web_archiving,Can I use Archive-It for free?
+web_archiving,Where can I find more info on Archive-It?
+web_archiving,Does USC library have digital scholarship resources?
+web_archiving,web archiving guide
+web_archiving,How do I learn more about web archiving?
+web_archiving,archive it subscription
+web_archiving,how to store web pages and ensure they are accessible in the future?
+type_work_copyrighted,What kinds of works can be copyrighted?
+type_work_copyrighted,list the types of works that can be copyrighted?
+type_work_copyrighted,What can't be copyrighted?
+type_work_copyrighted,Can ideas be copyrighted?
+type_work_copyrighted,Are facts protected by copyright?
+type_work_copyrighted,What is the minimum standard for copyright protection?
+type_work_copyrighted,Can I copyright a picture of a famous painting?
+type_work_copyrighted,Is it possible to copyright a list of names and numbers?
+type_work_copyrighted,Can recipes be copyrighted?
+type_work_copyrighted,What makes something eligible for copyright?
+type_work_copyrighted,Can I own an idea?
+type_work_copyrighted,Are processes protected by copyright law?
+type_work_copyrighted,How do I know if my work is original enough for copyright?
+type_work_copyrighted,Can I copyright a photo of a public domain image?
+type_work_copyrighted,Is there a limit to what can be copyrighted?
+type_work_copyrighted,whats the criteria for copyrighting somethin?
+type_work_copyrighted,What type of content cant b copyrighted?
+type_work_copyrighted,Can i patent an idea?
+type_work_copyrighted,wht r the standards 4 copyright protection?
+type_work_copyrighted,Are recipies eligble 4 copyrights?
+type_work_copyrighted,what kinda stuff can be copyrighted?
+type_work_copyrighted,Is there a limit to wht u can copyright?
+type_work_copyrighted,How origional does my work need 2 b for copyright?
+type_work_copyrighted,Can i own rights to an idea?
+type_work_copyrighted,whats the diff btwn trademark n copyright?
+type_work_copyrighted,what kinds of works can be copyrighted under us law?
+type_work_copyrighted,What kinds of works can be copyrighted?
+type_work_copyrighted,what can't be copyrighted?
+type_work_copyrighted,can ideas be copyrighted?
+type_work_copyrighted,are facts protected by copyright?
+public_domain,What is the public domain?
+public_domain,What is public domain?
+public_domain,public domain meaning
+public_domain,Is public domain same as copyright free?
+public_domain,works in public domain examples
+public_domain,How to find public domain works?
+public_domain,what year are books public domain?
+public_domain,Are all old books public domain?
+public_domain,can i use public domain work freely?
+public_domain,Can I copy from public domain?
+public_domain,public domain rules
+public_domain,Is US government documents copyrighted?
+public_domain,What happens when copyright expires?
+public_domain,How do I know if a book is in the public domain?
+public_domain,What can be used without copyright permission?
+public_domain,whats considered public domain?
+public_domain,Public Domain def?
+public_domain,can you explain public domain?
+public_domain,public domain vs open source
+public_domain,how do i know if somethin is public domain?
+public_domain,is all classic lit public domain?
+public_domain,what r the rules for using public domain stuff?
+public_domain,can i use any image from the internet if its old?
+public_domain,us gov docs - copyrighted or not?
+public_domain,copyright expiration dates?
+additional_resource_available_learning,Are there additional resources available for learning about copyright?
+additional_resource_available_learning,can you list the best resources for learning copyright?
+additional_resource_available_learning,How can I learn copyright?
+additional_resource_available_learning,Where can I find copyright resources?
+additional_resource_available_learning,copyright genie tool
+additional_resource_available_learning,How do I check copyright renewal?
+additional_resource_available_learning,What is the copyright renewal database?
+additional_resource_available_learning,Additional resources for copyright?
+additional_resource_available_learning,got any copyright links?
+additional_resource_available_learning,Can you give me a list of copyright resources?
+additional_resource_available_learning,how to renew copyright
+additional_resource_available_learning,What's the copyright slider?
+additional_resource_available_learning,Search copyright records how
+additional_resource_available_learning,copyright tools online
+additional_resource_available_learning,How do I find public domain info?
+additional_resource_available_learning,Need help with copyright search
+additional_resource_available_learning,whats good for learning about copyrights?
+additional_resource_available_learning,can u pls share some copyright resources?
+additional_resource_available_learning,Where do I go to learn about copyright law?
+additional_resource_available_learning,r there online resources 4 copyright info?
+additional_resource_available_learning,What's the best way to check copyright status?
+additional_resource_available_learning,Can you hook me up with some copyright links?
+additional_resource_available_learning,How do I find out if something is public domain?
+additional_resource_available_learning,can u list all copyright tools available?
+additional_resource_available_learning,Where can I get help with copyright questions?
+additional_resource_available_learning,whats a good website for learning copyright?
+additional_resource_available_learning,can you list the best resources for learning about copyright and fair use?
+additional_resource_available_learning,how can i learn more about copyright and its implications for my work?
+statutory_exemption_copyright,list some statutory exemptions for copyright?
+statutory_exemption_copyright,What are statutory exemptions in copyright law?
+statutory_exemption_copyright,library copying rules
+statutory_exemption_copyright,Can libraries make copies of materials?
+statutory_exemption_copyright,What is section 108 of copyright law?
+statutory_exemption_copyright,first sale doctrine?
+statutory_exemption_copyright,Can I lend copyrighted materials?
+statutory_exemption_copyright,public display rights for libraries
+statutory_exemption_copyright,Can museums display copyrighted artwork?
+statutory_exemption_copyright,teaching exceptions for copyright
+statutory_exemption_copyright,Can teachers show videos in class?
+statutory_exemption_copyright,fair use in the classroom
+statutory_exemption_copyright,Can students perform copyrighted works?
+statutory_exemption_copyright,computer software copyright exemptions
+statutory_exemption_copyright,Can I make a backup copy of software?
+statutory_exemption_copyright,architectural work copyrights
+statutory_exemption_copyright,Can I take pictures of buildings?
+statutory_exemption_copyright,copyright exceptions for disabilities
+statutory_exemption_copyright,large print copyright rules
+statutory_exemption_copyright,whats the deal with statutory exemptions in copyright?
+statutory_exemption_copyright,List all copyright exemptions plz
+statutory_exemption_copyright,Rules for libraries makin copies of stuff?
+statutory_exemption_copyright,How does section 108 work in copyright law?
+statutory_exemption_copyright,"1st sale doctrine, how does it apply to me?"
+statutory_exemption_copyright,Can I show a copyrighted movie in my class?
+statutory_exemption_copyright,Fair use in schools - what r the rules?
+statutory_exemption_copyright,Are there exemptions for ppl with disabilities?
+statutory_exemption_copyright,how do copyrights work 4 buildings?
+statutory_exemption_copyright,Do libraries have special copyright rules?
+statutory_exemption_copyright,can libraries make copies of materials for preservation or research?
+licensing_apply_using_content,What is licensing and how does it apply to use content?
+licensing_apply_using_content,What is creative commons license?
+licensing_apply_using_content,Can I use copyrighted material in class?
+licensing_apply_using_content,How do I find Creative Commons licensed content?
+licensing_apply_using_content,creative commons search?
+licensing_apply_using_content,cc licence usage
+licensing_apply_using_content,What does a Creative Commons license allow?
+licensing_apply_using_content,Are there any free licenses for educational use?
+licensing_apply_using_content,licensing rules for classroom teaching
+licensing_apply_using_content,Can I freely use creative common materials?
+licensing_apply_using_content,What is the purpose of creative commons organization?
+licensing_apply_using_content,How to find CC licensed content for my class
+licensing_apply_using_content,CC licence permissions
+licensing_apply_using_content,Whats the deal with licensing and using stuff in class?
+licensing_apply_using_content,how do i get permission to use copyrighted material?
+licensing_apply_using_content,whats creative common license all about?
+licensing_apply_using_content,is it ok to use cc licensed content for free?
+licensing_apply_using_content,where can i find materials under creative commons license?
+licensing_apply_using_content,can i use any CC licensed stuff without paying?
+licensing_apply_using_content,licensing rules for educational purposes?
+licensing_apply_using_content,How do I know what I'm allowed to do with a CC licence?
+licensing_apply_using_content,Whats the point of Creative Commons organization?
+licensing_apply_using_content,Can I modify and reuse CC licensed content?
+licensing_apply_using_content,what does a creative commons license allow me to do with a copyrighted work?
+licensing_apply_using_content,can i use copyrighted material in class?
+library_database_use_them,What are library databases? How can I use them?
+library_database_use_them,What databases does USC library offer?
+library_database_use_them,usc library database access
+library_database_use_them,How many databases does USC subscribe to?
+library_database_use_them,Can I use USC library databases for research?
+library_database_use_them,rules for using usc databases
+library_database_use_them,Are USC library resources free to use?
+library_database_use_them,can i share usc library articles
+library_database_use_them,What subjects do USC library databases cover?
+library_database_use_them,USC database usage policy
+library_database_use_them,Can I download content from USC library databases?
+library_database_use_them,usc library database restrictions
+library_database_use_them,Non-commercial use of USC library databases
+library_database_use_them,Who can access USC library databases?
+library_database_use_them,Terms of use for USC library resources
+library_database_use_them,how do usc library databases work?
+library_database_use_them,whats in the usc libary databases?
+library_database_use_them,can anyone use usc library databases?
+library_database_use_them,usc database rules and regulations
+library_database_use_them,what r the terms of use 4 usc lib resources?
+library_database_use_them,is it free to access USC library stuff?
+library_database_use_them,Can I share articles from USC library w/ friends?
+library_database_use_them,USC library resource usage policy details?
+library_database_use_them,whats covered in usc library databases?
+library_database_use_them,usc library db restrictions & rules
+library_database_use_them,How do I find a specific database the library subscribes to?
+library_database_use_them,Are there tutorials on how to use the library databases?
+library_database_use_them,can i use the usc library databases after i graduate?
+library_database_use_them,How do I find the best database for my research topic?
+acceptable_us_librarylicensed_resource,list the acceptable uses of library-licensed resources?
+acceptable_us_librarylicensed_resource,What can I do with library resources?
+acceptable_us_librarylicensed_resource,Can I download articles from USC databases?
+acceptable_us_librarylicensed_resource,How much of an article can I quote?
+acceptable_us_librarylicensed_resource,can i share articles with classmates
+acceptable_us_librarylicensed_resource,Can I post library articles on Blackboard?
+acceptable_us_librarylicensed_resource,What's the rule for sharing articles with non-USC people?
+acceptable_us_librarylicensed_resource,can i save library articles to my computer
+acceptable_us_librarylicensed_resource,Is it okay to email articles to my professor?
+acceptable_us_librarylicensed_resource,Can I link to a library article on my website?
+acceptable_us_librarylicensed_resource,Systematic downloading rules
+acceptable_us_librarylicensed_resource,acceptable uses of library resources
+acceptable_us_librarylicensed_resource,USC library usage policy
+acceptable_us_librarylicensed_resource,Can I use library articles for commercial purposes?
+acceptable_us_librarylicensed_resource,Whats the deal with usin USC library stuff?
+acceptable_us_librarylicensed_resource,How much of a library article can I use in my project?
+acceptable_us_librarylicensed_resource,can i make copies of usc library materials?
+acceptable_us_librarylicensed_resource,Is it cool to share USC articles on social media?
+acceptable_us_librarylicensed_resource,What's the policy on savin USC library articles to my laptop?
+acceptable_us_librarylicensed_resource,Can I post USC library stuff online for a school assignment?
+acceptable_us_librarylicensed_resource,How do I know if I'm allowed to use a certain USC library resource?
+acceptable_us_librarylicensed_resource,what r the rules for using usc library materials in a group project
+acceptable_us_librarylicensed_resource,Can I email a USC library article to someone not from USC?
+acceptable_us_librarylicensed_resource,Is it okay to use USC library resources for my internship?
+acceptable_us_librarylicensed_resource,what are the rules about printing articles from the library databases?
+acceptable_us_librarylicensed_resource,how much of a book can i copy for research?
+acceptable_us_librarylicensed_resource,What are the guidelines for using images from USC databases?
+fair_use,What is fair use?
+fair_use,Fair use doctrine?
+fair_use,Can I use copyrighted material for educational purposes?
+fair_use,How do I determine if my use is fair?
+fair_use,fair use basics
+fair_use,Copyright limitations?
+fair_use,What are the factors for determining fair use?
+fair_use,Is using copyrighted material for nonprofit purposes always fair?
+fair_use,what is transformative use
+fair_use,Can I use copyrighted work for commercial purposes?
+fair_use,How does fair use affect market value of a work?
+fair_use,Fair use rules?
+fair_use,Can I use part of a copyrighted work without permission?
+fair_use,whats considered fair use?
+fair_use,Copyrighted material - can I use it for teaching?
+fair_use,Can I sample copyrighted stuff without getting sued?
+fair_use,Whats the deal with fair use and commercial purposes?
+fair_use,Transformative use 101?
+fair_use,fair use explained
+fair_use,What r the rules 4 using copyrighted material?
+fair_use,How much of a copyrighted work can I use b4 its not fair use?
+fair_use,Non profit + copyrighted material = fair use?
+fair_use,Can I get in trouble for using copyrighted material even if its for education?
+fair_use,What are the four factors of fair use?
+fair_use,Can I use copyrighted images in my presentation?
+fair_use,is it fair use if i give credit to the author?
+fair_use,Does fair use apply to music?
+fair_use,how much of a song can i use without permission?
+fair_use,What are some examples of fair use in academic research?
+fair_use,Is it fair use to make copies of a chapter for my study group?
+resource_help_determine_fair,Are there resources to help me determine Fair Use?
+resource_help_determine_fair,How do I determine fair use?
+resource_help_determine_fair,Tell me the best way to determine fair use?
+resource_help_determine_fair,What is a fair use checklist?
+resource_help_determine_fair,Where can I find examples of fair use checklists?
+resource_help_determine_fair,Fair use resources?
+resource_help_determine_fair,Need help determining fair use
+resource_help_determine_fair,How do I know if my use is fair?
+resource_help_determine_fair,fair use tools
+resource_help_determine_fair,Can you provide a fair use checklist?
+resource_help_determine_fair,Examples of university fair use policies?
+resource_help_determine_fair,What's the fair use evaluator tool?
+resource_help_determine_fair,USC library fair use info?
+resource_help_determine_fair,Copyright and fair use guidelines
+resource_help_determine_fair,Need a template for fair use evaluation
+resource_help_determine_fair,Where can I learn more about fair use checklists?
+resource_help_determine_fair,fair use checklist universities
+resource_help_determine_fair,How is Fair Use applied to students?
+resource_help_determine_fair,What is fair use for students?
+resource_help_determine_fair,fair use rules?
+resource_help_determine_fair,Can I use copyrighted material for school projects?
+resource_help_determine_fair,How does fair use work for college students?
+resource_help_determine_fair,student copyright laws
+resource_help_determine_fair,Fair use in college?
+resource_help_determine_fair,Can I use someone else's work for a project?
+resource_help_determine_fair,what counts as fair use
+resource_help_determine_fair,Copyright rules for students
+resource_help_determine_fair,fair use guide
+resource_help_determine_fair,Student fair use policy
+resource_help_determine_fair,How do I know if it's fair use?
+resource_help_determine_fair,college student copyright
+resource_help_determine_fair,Where can I get help understanding copyright for students?
+resource_help_determine_fair,Can the library help me with copyright questions?
+resource_help_determine_fair,Can the library provide a consultation on copyright and fair use?
+need_permission_use_copyrighted,When do I not need permission to use copyrighted material?
+need_permission_use_copyrighted,When do I need permission to use copyrighted material?
+need_permission_use_copyrighted,Why do I not need permission to use copyrighted material?
+need_permission_use_copyrighted,Do I need permission to use copyrighted material?
+need_permission_use_copyrighted,When don't I need copyright permission?
+need_permission_use_copyrighted,Can I use copyrighted work for free?
+need_permission_use_copyrighted,What is considered fair use of copyrighted material?
+need_permission_use_copyrighted,Is all creative work protected by copyright?
+need_permission_use_copyrighted,Do I need permission if the library has a license?
+need_permission_use_copyrighted,Can I link to copyrighted information?
+need_permission_use_copyrighted,How do I know if I can use someone's work without permission?
+need_permission_use_copyrighted,What are exceptions to copyright rules?
+need_permission_use_copyrighted,Does Creative Commons license allow free use?
+need_permission_use_copyrighted,When is it okay to use copyrighted material without asking?
+need_permission_use_copyrighted,Do I need permission for educational purposes?
+need_permission_use_copyrighted,Whats the deal with using copyrighted stuff?
+need_permission_use_copyrighted,Can i use copyrighted material 4 free?
+need_permission_use_copyrighted,Do i need permishun to use copyrighted things?
+need_permission_use_copyrighted,Wen can i ignore copyright rules?
+need_permission_use_copyrighted,Is it kewl to link to copyrighted info?
+need_permission_use_copyrighted,Whats considdered fair ussage of copyrighted matirial?
+need_permission_use_copyrighted,Are ther exceptions to copyright la.ws?
+need_permission_use_copyrighted,Can educaitional purpuses override copyright?
+need_permission_use_copyrighted,Do i need permision if the libary alredy payd 4 it?
+need_permission_use_copyrighted,How duz creative commens work?
+need_permission_use_copyrighted,Do I need permission to use a figure from a journal article?
+need_permission_use_copyrighted,does copyright apply to government documents?
+need_permission_use_copyrighted,What if the copyright owner is unknown?
+need_permission_use_copyrighted,do i need permission to use something if its old?
+need_permission_use_copyrighted,Do I need permission to use material if it has a Creative Commons license?
+need_permission_use_copyrighted,What are the limitations on using copyrighted material for teaching?
+need_permission_use_copyrighted,"Are there any resources that are always free to use, regardless of copyright?"
+need_permission_use_copyrighted,copyrighted stuff - when can i just use it?
+seek_permission_use_copyrighted,How do I seek permission to use copyrighted material?
+seek_permission_use_copyrighted,How do I get permission to use copyrighted material?
+seek_permission_use_copyrighted,How do I obtain permission to use copyrighted material?
+seek_permission_use_copyrighted,How do I get permission to use copyrighted material?
+seek_permission_use_copyrighted,What if I need to use something that's copyrighted?
+seek_permission_use_copyrighted,Can I use someone else's work without permission?
+seek_permission_use_copyrighted,copyright permission process
+seek_permission_use_copyrighted,how to seek copyright permission
+seek_permission_use_copyrighted,I want to use a copyrighted image what do I do
+seek_permission_use_copyrighted,Do I need permission to use copyrighted stuff?
+seek_permission_use_copyrighted,Who do I contact for copyright permission?
+seek_permission_use_copyrighted,How do I find the copyright owner?
+seek_permission_use_copyrighted,What are the steps to get copyright permission?
+seek_permission_use_copyrighted,Can you guide me on seeking permission?
+seek_permission_use_copyrighted,what if no fair use
+seek_permission_use_copyrighted,Need permission to use a copyrighted work
+seek_permission_use_copyrighted,How to obtain copyright permission
+seek_permission_use_copyrighted,whats the deal with using copyrighted stuff?
+seek_permission_use_copyrighted,"I wanna use someones elses pic, whats the process?"
+seek_permission_use_copyrighted,Do I gotta get permission for fair use too?
+seek_permission_use_copyrighted,Can u help me find the owner of a copyrighted thingy?
+seek_permission_use_copyrighted,Whats the proper way to ask for copyright permish?
+seek_permission_use_copyrighted,Copyright permision reqired or can i just use it?
+seek_permission_use_copyrighted,How do i contact the person who owns the copyright?
+seek_permission_use_copyrighted,can I get in trouble if I dont get permission?
+seek_permission_use_copyrighted,Do I need permision to use a copyrighted image on social media?
+seek_permission_use_copyrighted,Can u walk me thru the steps for seeking copyright perm?
+seek_permission_use_copyrighted,What if I can't find the copyright holder?
+seek_permission_use_copyrighted,What should I include in a copyright permission request?
+library_help_copyright_permission,Can the library help me with copyright permissions for teaching materials?
+library_help_copyright_permission,How can the library help me with copyright permissions for teaching materials?
+library_help_copyright_permission,Can the Library help me with copyright permissions for teaching materials?
+library_help_copyright_permission,How do I get help with electronic reserves?
+library_help_copyright_permission,Can USC libraries pay for copyright permissions?
+library_help_copyright_permission,Who can I contact for Blackboard course materials?
+library_help_copyright_permission,Do USC libraries handle permissions fees?
+library_help_copyright_permission,What's the process for getting course materials online?
+library_help_copyright_permission,e-reserves at usc
+library_help_copyright_permission,course material copyright rules
+library_help_copyright_permission,Need help with syllabus reading list
+library_help_copyright_permission,How to request e-reserves at USC
+library_help_copyright_permission,Can I get help with online course materials?
+library_help_copyright_permission,USC library services for faculty
+library_help_copyright_permission,Who handles electronic reserves at USC?
+library_help_copyright_permission,Mark Volmer contact info
+library_help_copyright_permission,What is the copyright policy for course materials?
+library_help_copyright_permission,whats the deal with copyright permissions for my syllabus?
+library_help_copyright_permission,How do I get permission to use copyrighted stuff in class?
+library_help_copyright_permission,can i get help with putting course materials online?
+library_help_copyright_permission,Who pays for copyright fees at USC?
+library_help_copyright_permission,What's the process for getting e-reserves setup?
+library_help_copyright_permission,Can someone help me with Blackboard course materials?
+library_help_copyright_permission,USC library got any info on copyright permissions?
+library_help_copyright_permission,i need help with my reading list can usc libraries assist?
+library_help_copyright_permission,what r the rules for using copyrighted materials in my course?
+library_help_copyright_permission,how do i request e reserves thru usc library?
+library_help_copyright_permission,Can the library clear copyright for my course readings?
+library_help_copyright_permission,Can the library help me find public domain materials?
+library_help_copyright_permission,how do i put articles on ereserves?
+library_help_copyright_permission,Can the library help me clear copyright for a film I want to show in class?
+library_help_copyright_permission,Who should I contact about using copyrighted music in my course?
+library_help_copyright_permission,Can the library help me find alternative resources that don't require copyright permission?
+different_version_article,What are the different versions of my article?
+different_version_article,can you list the different versions of my article?
+different_version_article,What is a pre-print?
+different_version_article,Define post-print
+different_version_article,preprint vs postprint
+different_version_article,What is an author accepted manuscript?
+different_version_article,What's the difference between pre and post print?
+different_version_article,draft before peer review called
+different_version_article,what is AAM in publishing
+different_version_article,version of record meaning
+different_version_article,Published version vs pre print
+different_version_article,whats a published pdf
+different_version_article,Types of manuscripts in journal
+different_version_article,Explain types of drafts in research paper
+different_version_article,Preprint definition academic
+different_version_article,Post print journal branding
+different_version_article,What's the diff btw preprint & postprint?
+different_version_article,Can u explain author accepted manuscript?
+different_version_article,I need a list of all my article versions
+different_version_article,Wut is a pre-print vs post-print?
+different_version_article,Define version of record pls
+different_version_article,"Pre & post print, whats the difference?"
+different_version_article,What do u call a draft b4 peer review?
+different_version_article,"AAM in publishing, anyone?"
+different_version_article,Can u tell me about published pdfs?
+different_version_article,What r the types of manuscripts?
+different_version_article,What is a corrected proof?
+different_version_article,Is the author accepted manuscript the same as the final published version?
+different_version_article,Where can I find definitions of different article versions?
+different_version_article,article versions - whats the difference?
+find_article_version,How do I find my article versions?
+find_article_version,How do I find article versions?
+find_article_version,How do I find my submitted article?
+find_article_version,I lost my research paper what do I do
+find_article_version,Can't find my manuscript where should I look
+find_article_version,Where can I retrieve a copy of my accepted article?
+find_article_version,get published version of my paper
+find_article_version,how to get aam of my article
+find_article_version,Can journal provide me with submitted version of article?
+find_article_version,what if i lost the file of my research paper
+find_article_version,how do i access submitted articles in journal
+find_article_version,Retrieve copy of published manuscript
+find_article_version,How can I obtain accepted version of my article?
+find_article_version,can't find aam where should i look
+find_article_version,list the benefits of archiving research?
+find_article_version,What are benefits of archiving research?
+find_article_version,list the benefits of archiving your research?
+find_article_version,Why should I archive my research?
+find_article_version,Benefits of archiving research?
+find_article_version,How do I make my research accessible?
+find_article_version,Can I share my published work?
+find_article_version,what r the benfits of open acess
+find_article_version,Why is it important to archive my work?
+find_article_version,How can I increase my research impact?
+find_article_version,open access benefits
+find_article_version,What version of my paper should I share?
+find_article_version,research sharing rules
+find_article_version,Can I make my research public?
+find_article_version,archiving published works
+find_article_version,how do i choose the right version of my research to share
+find_article_version,How do I find the final published version of my article?
+find_article_version,can i put my article on my personal website?
+find_article_version,How do i find my post-print version?
+find_article_version,Is there a database where I can archive my research papers?
+find_article_version,article version - where can i find mine?
+share_article_version_online,Can I share my article versions online?
+share_article_version_online,How can I share my article versions online?
+share_article_version_online,Can I share my article version online?
+share_article_version_online,Can I share my published article online?
+share_article_version_online,How do I know if I can share my research article?
+share_article_version_online,What journals allow authors to share their articles?
+share_article_version_online,Can I post my article on a repository?
+share_article_version_online,Are there exceptions for sharing published articles?
+share_article_version_online,Where can I find information about journal self-archiving policies?
+share_article_version_online,Can I legally share my published article?
+share_article_version_online,"Published in a journal, can I share it online?"
+share_article_version_online,How do I check if my journal allows article sharing?
+share_article_version_online,What are the rules for sharing research articles online?
+share_article_version_online,Is there a list of journals that allow authors to share their work?
+share_article_version_online,Sharing published articles online allowed?
+share_article_version_online,Can I put my published article in a repository?
+share_article_version_online,can i post my research paper online?
+share_article_version_online,whats the deal with sharing article versions on social media?
+share_article_version_online,"i wanna share my published article on academia.edu, is that cool?"
+share_article_version_online,sharing articles online - whats allowed and whats not?
+share_article_version_online,how do i figure out if i can share my article on researchgate?
+share_article_version_online,can u post ur own published article on a personal website?
+share_article_version_online,article sharing policies for journals - wheres the info at?
+share_article_version_online,do all journals allow authors to share their work online?
+share_article_version_online,wat r the rules 4 sharin published articles on linkedin?
+share_article_version_online,can i legally share my research article on a blog?
+share_article_version_online,Can I share my article on my university's institutional repository?
+vendor_allow_text_data,Which vendors allow text and data mining of their licensed content?
+vendor_allow_text_data,What are the text and data mining policies for USC library databases?
+vendor_allow_text_data,Can I do text and data mining with USC libraries?
+vendor_allow_text_data,How do I get started with text and data mining at USC?
+vendor_allow_text_data,Are there any restrictions on text and data mining in USC libraries?
+vendor_allow_text_data,usc text analysis rules
+vendor_allow_text_data,What vendors allow text and data mining at USC?
+vendor_allow_text_data,Is text and data mining free for USC researchers?
+vendor_allow_text_data,Can I use USC library databases for commercial text and data mining?
+vendor_allow_text_data,How do I request access to text and data mining for USC libraries?
+vendor_allow_text_data,Text and data mining policies for Adam Matthew
+vendor_allow_text_data,Can I download articles from USC libraries for text and data mining?
+vendor_allow_text_data,usc api key for text analysis
+vendor_allow_text_data,What are the costs associated with text and data mining at USC?
+vendor_allow_text_data,Contact info for USC library text and data mining help
+vendor_allow_text_data,Which vendors let me do text & data mining?
+vendor_allow_text_data,text/data mining rules @ usc libraries
+vendor_allow_text_data,Can I mine texts from all USC databases?
+vendor_allow_text_data,usc vendor permissions for text analysis
+vendor_allow_text_data,Whr can i find info on usc's tdm policies?
+vendor_allow_text_data,Is there a fee for text data mining at USC?
+vendor_allow_text_data,Text and Data Mining Rules for USC Vendors
+vendor_allow_text_data,How do I get permission for TDM from USC vendors?
+vendor_allow_text_data,Are there any USC library databases that don't allow text mining?
+vendor_allow_text_data,usc libraries tdm access costs
+vendor_allow_text_data,Which databases are best for text mining?
+vendor_allow_text_data,can i use python for text mining with library resources?
+vendor_allow_text_data,How do I cite text mined data?
+vendor_allow_text_data,what are the rules about downloading large amounts of data?
+vendor_allow_text_data,Are there any workshops on text and data mining offered by the library?
+vendor_allow_text_data,What are the ethical considerations for text and data mining?
+vendor_allow_text_data,text data mining - is it allowed?
+evaluation_method_digital_scholarship,What are the evaluation methods for digital scholarship?
+evaluation_method_digital_scholarship,can you list the evaluation methods for digital scholarship?
+evaluation_method_digital_scholarship,list the evaluation methods for digital scholarship?
+evaluation_method_digital_scholarship,Tell me the evaluation method for digital scholarship?
+evaluation_method_digital_scholarship,How to evaluate digital scholarship?
+evaluation_method_digital_scholarship,digital humanities evaluation methods
+evaluation_method_digital_scholarship,What are the criteria for evaluating online scholarly projects?
+evaluation_method_digital_scholarship, Peer review process for non-traditional scholarly output
+evaluation_method_digital_scholarship,how do i know if a digital project is academically sound?
+evaluation_method_digital_scholarship,evaluating digital tools and technologies
+evaluation_method_digital_scholarship,What makes a digital scholarship project effective?
+evaluation_method_digital_scholarship,How to assess editorial quality of online academic content?
+evaluation_method_digital_scholarship,digital preservation best practices
+evaluation_method_digital_scholarship,Is there a standard for evaluating digital humanities projects?
+evaluation_method_digital_scholarship,How do I evaluate the technical design of a digital scholarship project?
+evaluation_method_digital_scholarship,what is interoperability in digital scholarship
+evaluation_method_digital_scholarship,Can you provide resources on evaluating digital scholarship?
+evaluation_method_digital_scholarship,Closing the evaluation gap in digital humanities
+evaluation_method_digital_scholarship,whats the best way to eval digi scholarship?
+evaluation_method_digital_scholarship,How do I know if an online academic project is legit?
+evaluation_method_digital_scholarship,What are the standards for peer reviewing digital scholarly work?
+evaluation_method_digital_scholarship,Can you walk me thru the process of evaluating a digital humanities project?
+evaluation_method_digital_scholarship,what r some best practices for preserving digital scholarship?
+evaluation_method_digital_scholarship,"I need help assessing the quality of this online journal, can u assist?"
+evaluation_method_digital_scholarship,How do I eval the impact of a digital scholarship project?
+evaluation_method_digital_scholarship,whats interoperability mean in terms of digi scholarship?
+evaluation_method_digital_scholarship,Do you have any recs for evaluating digital scholarly tools?
+evaluation_method_digital_scholarship,How to judge the effectiveness of a digital scholarship initiative?
+evaluation_method_digital_scholarship,How is digital scholarship peer-reviewed?
+peerreviewed_journal_available_digital,What peer-reviewed journals are available for digital scholarship?
+peerreviewed_journal_available_digital,list the peer-reviewed journals available for digital scholarship?
+peerreviewed_journal_available_digital,Which peer-reviewed journals are available for digital scholarship?
+peerreviewed_journal_available_digital,Where can I find peer reviewed journals for digital scholarship?
+peerreviewed_journal_available_digital,digital humanities journals?
+peerreviewed_journal_available_digital,What are some reputable digital scholarship publications?
+peerreviewed_journal_available_digital,journals to publish in digital humanities
+peerreviewed_journal_available_digital,Need a list of DH journals
+peerreviewed_journal_available_digital,Peer reviewed journals for digital studies?
+peerreviewed_journal_available_digital,Where can I evaluate digital scholarship journals?
+peerreviewed_journal_available_digital,digital medievalist journal?
+peerreviewed_journal_available_digital,dh+lib publication info
+peerreviewed_journal_available_digital,Journal recommendations for cultural analytics
+peerreviewed_journal_available_digital,Can you suggest some digital pedagogy journals?
+peerreviewed_journal_available_digital,Where to publish digital humanities research?
+peerreviewed_journal_available_digital,reputable DH pubs?
+peerreviewed_journal_available_digital,got a list of peer reviewed digi scholarship journals?
+peerreviewed_journal_available_digital,What r some good digital humanities publications?
+peerreviewed_journal_available_digital,where can i find online peer-reviewed journals for digital studies?
+peerreviewed_journal_available_digital,DH journal recommendations pls
+peerreviewed_journal_available_digital,digischoolarship journals?
+peerreviewed_journal_available_digital,whats the best digital pedagogy publication?
+peerreviewed_journal_available_digital,can u give me a list of reputable digital scholarship journals?
+peerreviewed_journal_available_digital,How do I access digital humanities research journals?
+peerreviewed_journal_available_digital,where to publish in digital humanities?
+peerreviewed_journal_available_digital,what r some top digi humanities journals?
+resource_help_understand_copyright,What resources can help me understand copyright for course materials?
+resource_help_understand_copyright,How do I understand copyright for course materials?
+resource_help_understand_copyright,How can I understand copyright for course materials?
+resource_help_understand_copyright,How do I know if I'm violating copyright in my course materials?
+resource_help_understand_copyright,What are the rules for using copyrighted materials in class?
+resource_help_understand_copyright,copyright and course materials help
+resource_help_understand_copyright,Can you give me an overview of copyright laws?
+resource_help_understand_copyright,resources on copyright for educators
+resource_help_understand_copyright,Where can I find info on academic copyright policies?
+resource_help_understand_copyright,Need help understanding copyright for coursework
+resource_help_understand_copyright,How to determine if something is under copyright?
+resource_help_understand_copyright,Copyright 101 for teachers
+resource_help_understand_copyright,TEACH Act explained
+resource_help_understand_copyright,Fair use guidelines for academics
+resource_help_understand_copyright,What is fair use in copyright law?
+resource_help_understand_copyright,copyright toolkit for instructors
+resource_help_understand_copyright,Where can I learn more about academic copyright?
+resource_help_understand_copyright,whats the deal with copyrights in course materials?
+resource_help_understand_copyright,How do I make sure I'm not breaking copyright laws in class?
+resource_help_understand_copyright,Copyright info for teachers pls
+resource_help_understand_copyright,What r the rules 4 using copyrighted stuff in school?
+resource_help_understand_copyright,I need help understanding fair use policies
+resource_help_understand_copyright,Can u explain TEACH Act to me?
+resource_help_understand_copyright,where can i find resources on academic copyright law?
+resource_help_understand_copyright,Whats considered fair use in academia?
+resource_help_understand_copyright,How do I check if a material is under copyright?
+resource_help_understand_copyright,Copyright basics for educators?
+resource_help_understand_copyright,What is the TEACH Act?
+resource_help_understand_copyright,how do i know if something is in the public domain?
+resource_help_understand_copyright,what is the difference between copyright and fair use?
+resource_help_understand_copyright,What are the key principles of fair use in an academic setting?
+add_course_reading_blackboard,How do I add course readings to Blackboard?
+add_course_reading_blackboard,How do I add readings to Blackboard?
+add_course_reading_blackboard,Can I upload scanned materials to Blackboard?
+add_course_reading_blackboard,Who can help with copyright issues in Blackboard?
+add_course_reading_blackboard,adding course materials to blackboard
+add_course_reading_blackboard,bb copyright help
+add_course_reading_blackboard,Can I link to library resources in Blackboard?
+add_course_reading_blackboard,blackboard online readings
+add_course_reading_blackboard,How do I get permission to post copyrighted materials on Blackboard?
+add_course_reading_blackboard,library support for blackboard
+add_course_reading_blackboard,posting readings on bb
+add_course_reading_blackboard,What is the deadline for requesting copyright help for Blackboard?
+add_course_reading_blackboard,priority assistance with blackboard materials
+add_course_reading_blackboard,Can library staff assist with blackboard setup?
+add_course_reading_blackboard,- How can I get help with course materials?
+add_course_reading_blackboard,How do I get help with course materials?
+add_course_reading_blackboard,How can I get help with course material?
+add_course_reading_blackboard,How do I get course materials on Blackboard?
+add_course_reading_blackboard,Can you add links to my syllabus?
+add_course_reading_blackboard,I need help with streaming videos for class
+add_course_reading_blackboard,Where can I request book chapters for teaching?
+add_course_reading_blackboard,ebook access for students?
+add_course_reading_blackboard,open educational resources for my course
+add_course_reading_blackboard,How do I get articles added to Blackboard?
+add_course_reading_blackboard,course material purchasing
+add_course_reading_blackboard,syllabus link request
+add_course_reading_blackboard,ereserve help
+add_course_reading_blackboard,Can you buy new materials for my class?
+add_course_reading_blackboard,How do I get online resources for teaching?
+add_course_reading_blackboard,Can the library add ebooks to Blackboard?
+add_course_reading_blackboard,How do I create a link to a library database in Blackboard?
+add_course_reading_blackboard,Can the library help me find open educational resources for my course?
+add_course_reading_blackboard,can i upload pdfs of articles to blackboard?
+add_course_reading_blackboard,What's the best way to organize course readings in Blackboard?
+add_course_reading_blackboard,Can the library help me find open educational resources for my course?
+add_course_reading_blackboard,What is the process for requesting e-reserves for my students?
+add_course_reading_blackboard,Can I get assistance with streaming videos for my online course?
+add_course_reading_blackboard,blackboard readings - how do i add them?
+print_material_available_course,What print materials are available for my course?
+print_material_available_course,list the print materials available for my course?
+print_material_available_course,Which print materials are available for my course?
+print_material_available_course,Does the library have textbooks?
+print_material_available_course,Can I find my course textbook in the library?
+print_material_available_course,How do I search for textbooks in the library?
+print_material_available_course,Textbooks for large classes
+print_material_available_course,usc library textbook reserve
+print_material_available_course,Where can I find course reserves?
+print_material_available_course,Find It @ USC Libraries help
+print_material_available_course,can i put books on reserve at circulation
+print_material_available_course,Can instructors add personal copies to course reserves?
+print_material_available_course,Requesting new textbooks for the library
+print_material_available_course,Does the library buy ebooks or print books?
+print_material_available_course,How do I request a textbook purchase for my class
+print_material_available_course,Can I ask the library to buy a book for my course
+print_material_available_course,wut kinda print materials r available 4 my course?
+print_material_available_course,Can u show me list of textbooks 4 my class?
+print_material_available_course,Course textbook reserve @ USC lib?
+print_material_available_course,Does USC lib have books on reserve 4 my prof's class?
+print_material_available_course,Where do I find e-books 4 my course at USC lib?
+print_material_available_course,usc library got my course book?
+print_material_available_course,Textbook availability in the USC library
+print_material_available_course,How to access course materials @ USC Libraries?
+print_material_available_course,What if the library doesn't have my course textbook?
+print_material_available_course,Can faculty put their own books on reserve at USC lib?
+print_material_available_course,How do I find out if a book is available as an ebook?
+print_material_available_course,Does the library have a copy of my textbook on reserve?
+print_material_available_course,course materials - does the library have them?
+contact_course_material_support,How can I contact the course materials support team?
+contact_course_material_support,what's the email for library help?
+contact_course_material_support,I need to submit a request to the library
+contact_course_material_support,who do I call for library questions?
+contact_course_material_support,can I email the library?
+contact_course_material_support,how can I reach the library?
+contact_course_material_support,what's the library's phone number?
+contact_course_material_support,need help with something in the library
+contact_course_material_support,ereserve email
+contact_course_material_support,library customer service number
+contact_course_material_support,whats the contact info for course materials?
+contact_course_material_support,can u pls tell me how to get in touch w/ lib support?
+contact_course_material_support,"I need some help from library ppl, who do I talk to?"
+contact_course_material_support,What's the email address 4 getting help with courses?
+contact_course_material_support,How can I reach out to the folks at the library?
+contact_course_material_support,"Library customer care number, please"
+contact_course_material_support,hey whats the best way to contact someone abt eReserves?
+contact_course_material_support,How do I get in touch w/ a librarian?
+contact_course_material_support,support team for course materials contact info?
+contact_course_material_support,plz provide phone no. of lib support
+contact_course_material_support,Is there a specific email for e-reserves questions?
+contact_course_material_support,How can I schedule a consultation about course materials?
+contact_course_material_support,What's the best way to get in touch with a librarian for course material support?
+contact_course_material_support,Who should I contact if I have questions about copyright for course materials?
+impact_open_educational_resource,What is the impact of Open Educational Resources?
+impact_open_educational_resource,educational resources effects
+impact_open_educational_resource,What are the benefits of using Open Educational Resources?
+impact_open_educational_resource,How does OER impact student learning outcomes?
+impact_open_educational_resource,Does OER really save students money?
+impact_open_educational_resource,Are there any studies on OER effectiveness?
+impact_open_educational_resource,what's oer benefits for instructors
+impact_open_educational_resource,Can OER improve my grades?
+impact_open_educational_resource,OER effect on course withdrawals
+impact_open_educational_resource,What's the impact of OER on DFW grades?
+impact_open_educational_resource,Has USC saved money using OER?
+impact_open_educational_resource,How much have USC students saved with OER?
+impact_open_educational_resource,oer pros and cons
+impact_open_educational_resource,Why should I use open educational resources?
+impact_open_educational_resource,Do OERs affect learning quality?
+impact_open_educational_resource,whats the deal with Open Educational Resources?
+impact_open_educational_resource,OER effectivness on student performance
+impact_open_educational_resource,How can OER benefit instructors like me?
+impact_open_educational_resource,Can u tell me about oer impact on fail rates?
+impact_open_educational_resource,Wat r some studies showin OER pros & cons?
+impact_open_educational_resource,What's the diffrence in grades wen using OER vs trad books?
+impact_open_educational_resource,Have other unis saved $$$ by adopting OER?
+impact_open_educational_resource,How much do USC students actually save with open edu resources?
+impact_open_educational_resource,Can Open Educational Resources reeeeally improve learning outcomes?
+impact_open_educational_resource,OERs effect on drop out rates
+impact_open_educational_resource,Do OER improve student retention rates?
+impact_open_educational_resource,how does oer affect student engagement?
+impact_open_educational_resource,Are there any studies comparing OER to traditional textbooks?
+impact_open_educational_resource,what are the disadvantages of using oer?
+find_information_music_material,Where can I find more information about music materials?
+find_information_music_material,music materials
+find_information_music_material,Where can I find music materials for my course?
+find_information_music_material,How do I reserve streaming audio?
+find_information_music_material,music library contact
+find_information_music_material,I need help with music reserves
+find_information_music_material,course materials for music class
+find_information_music_material,Who do I talk to about music resources?
+find_information_music_material,streaming audio for classes
+find_information_music_material,Can I get help with music materials from the library?
+find_information_music_material,Music materials for faculty
+find_information_music_material,library music services
+find_information_music_material,Need assistance with streaming audio reserves
+find_information_music_material,Where is the Music Library?
+find_information_music_material,music course reserves
+find_information_music_material,whats the deal with music materials at this school?
+find_information_music_material,I need some info on music resources ASAP
+find_information_music_material,Can someone pls help me find music stuff for my class?
+find_information_music_material,Music library? where can I find that?
+find_information_music_material,how do i get access to streaming audio for my course?
+find_information_music_material,who's in charge of music reserves around here?
+find_information_music_material,Need help finding some tunes for my music project
+find_information_music_material,"I'm a prof and I need music materials for my course, stat"
+find_information_music_material,What kinda music services does the library offer?
+find_information_music_material,can I reserve music materials online or do i have to go to the lib?
+find_information_music_material,Where is the music library located?
+find_openly_available_research,How can I find openly available research works?
+find_openly_available_research,How do I find openly available research works?
+find_openly_available_research,Where can I find openly available research works?
+find_openly_available_research,How can I access research without institutional access?
+find_openly_available_research,Find open access versions of articles?
+find_openly_available_research,What tools can I use to locate OA copies?
+find_openly_available_research,openly available works?
+find_openly_available_research,Accessing free research papers?
+find_openly_available_research,"Can't access article, what now?"
+find_openly_available_research,Open access button how does it work
+find_openly_available_research,Where to find browser plug-ins for OA research?
+find_openly_available_research,Unpaywall extension what is it
+find_openly_available_research,Repositories with open access content?
+find_openly_available_research,Free academic articles where to search
+find_openly_available_research,OA versions of works how do I find them
+find_openly_available_research,arXiv and bioRxiv alternatives
+find_openly_available_research,"Can't afford article, how can I get it for free"
+find_openly_available_research,What's the best way 2 find open acces research papers?
+find_openly_available_research,How do I get to those free academic articles?
+find_openly_available_research,Need help finding open access journals!
+find_openly_available_research,whats a good search engine for scholarly open acess articles?
+find_openly_available_research,Can you sugest some browser extensions for accesing free reseach?
+find_openly_available_research,Any alternatives to Unpaywall for OA content?
+find_openly_available_research,Where can I find open acces versions of research papers?
+find_openly_available_research,"I dont have institutional acces, help!"
+find_openly_available_research,Free research databases?
+find_openly_available_research,How does the Open Access Button work?
+find_openly_available_research,can i find preprints of research papers?
+find_openly_available_research,What are some good open access repositories?
+find_openly_available_research,What are some reputable open access repositories?
+statistic_textbook_cost,What are some statistics about textbook costs?
+statistic_textbook_cost,list some statistics about textbook costs?
+statistic_textbook_cost,show some statistics about textbook costs?
+statistic_textbook_cost,What are statistics about textbook costs?
+statistic_textbook_cost,How much should I budget for books and supplies?
+statistic_textbook_cost,avg cost of textbooks per year
+statistic_textbook_cost,Why do students not buy textbooks?
+statistic_textbook_cost,Textbook costs are too high what can i do?
+statistic_textbook_cost,how much have textbook prices increased
+statistic_textbook_cost,I cant afford textbooks what are my options
+statistic_textbook_cost,Did textbook prices really increase 1000 percent?
+statistic_textbook_cost,stats on students buying textbooks
+statistic_textbook_cost,average yearly cost of college books
+statistic_textbook_cost,Why are textbooks so expensive?
+statistic_textbook_cost,percent of students who dont buy textbooks
+statistic_textbook_cost,textbook costs since the 70s
+statistic_textbook_cost,College book budget per year
+statistic_textbook_cost,what percentage of students cant afford textbooks
+statistic_textbook_cost,whats the avg price of college textbooks?
+statistic_textbook_cost,Stats on textbook prices over the years?
+statistic_textbook_cost,How much r textbooks gonna set me back?
+statistic_textbook_cost,Can't afford books...any alternatives?
+statistic_textbook_cost,Textbook costs: then vs now
+statistic_textbook_cost,Why r textbooks so pricey??
+statistic_textbook_cost,Avg yearly cost of textbooks per student
+statistic_textbook_cost,Textbook inflation rate since 2000
+statistic_textbook_cost,What % of students can't buy textbooks?
+statistic_textbook_cost,typical college book budget annually
+statistic_textbook_cost,How much do students spend on books over four years?
+statistic_textbook_cost,why are digital textbooks so expensive?
+statistic_textbook_cost,What are some ways to reduce textbook costs?
+determine_journal_predatory,How can I determine if a journal is predatory?
+determine_journal_predatory,How do I identify a predatory journal?
+determine_journal_predatory,What are the signs of a fake academic journal?
+determine_journal_predatory,Predatory journals criteria
+determine_journal_predatory,Is this journal legit?
+determine_journal_predatory,how to check if journal is real
+determine_journal_predatory,Journal authenticity
+determine_journal_predatory,Can you help me verify a journal's credibility?
+determine_journal_predatory,Predatory publisher characteristics
+determine_journal_predatory,How do I know if a journal is trustworthy?
+determine_journal_predatory,red flags for academic journals
+determine_journal_predatory,What makes a journal predatory?
+determine_journal_predatory,evaluating journal quality
+determine_journal_predatory,is my journal legit
+determine_journal_predatory,How to identify fake impact factor journals
+determine_journal_predatory,What is a predatory publisher?
+determine_journal_predatory,What is predatory publisher?
+determine_journal_predatory,What are predatory publishers?
+determine_journal_predatory,How do I identify a predatory publisher?
+determine_journal_predatory,Predatory journals?
+determine_journal_predatory,Do legitimate journals charge authors?
+determine_journal_predatory,quality journal fees
+determine_journal_predatory,what is a publication fee?
+determine_journal_predatory,Why did the journal ask for money after submission?
+determine_journal_predatory,How to spot fake journals?
+determine_journal_predatory,Are there scams in academic publishing?
+determine_journal_predatory,"Journal asked me for $$, is it legit?"
+determine_journal_predatory,Predatory publishers USC
+determine_journal_predatory,What's the deal with author fees?
+determine_journal_predatory,Should I pay a publication fee?
+determine_journal_predatory,Is the journal indexed in reputable databases?
+determine_journal_predatory,how do i check the editorial board of a journal?
+determine_journal_predatory,Does the journal have a physical address?
+determine_journal_predatory,is the journal's website professional looking?
+industry_membership_indicate_journal,What industry memberships indicate a journal is not predatory?
+industry_membership_indicate_journal,How do I know if a journal is predatory?
+industry_membership_indicate_journal,What makes a journal legit?
+industry_membership_indicate_journal,Predatory journals check
+industry_membership_indicate_journal,Is this journal predatory?
+industry_membership_indicate_journal,Legitimate journals list
+industry_membership_indicate_journal,Directory of Open Access Journals good?
+industry_membership_indicate_journal,How to verify journal authenticity
+industry_membership_indicate_journal,Open access journal verification
+industry_membership_indicate_journal,Good indicators for non-predatory journals
+industry_membership_indicate_journal,Checking if a journal is reputable
+industry_membership_indicate_journal,What are some legit open access publishers?
+industry_membership_indicate_journal,Avoiding predatory journals tips
+industry_membership_indicate_journal,Journal credibility check
+industry_membership_indicate_journal,Is DOAJ reliable?
+industry_membership_indicate_journal,wut r sum good signs dat a journal isnt predatory?
+industry_membership_indicate_journal,How can I verify if a journal is legit or not?
+industry_membership_indicate_journal,Whatcha got on predatory journal checks?
+industry_membership_indicate_journal,Can you give me a list of reputable open access journals?
+industry_membership_indicate_journal,DOAJ reliable???
+industry_membership_indicate_journal,Any tips for avoiding those sketchy predatory journals?
+industry_membership_indicate_journal,What makes an academic journal credible?
+industry_membership_indicate_journal,How do I check if a journal is authentic?
+industry_membership_indicate_journal,Legit open access publishers?
+industry_membership_indicate_journal,Predatory or not? How to tell?
+industry_membership_indicate_journal,Is the journal a member of COPE?
+industry_membership_indicate_journal,Is the journal listed in the Directory of Open Access Journals (DOAJ)?
+industry_membership_indicate_journal,What are some signs of a legitimate open access publisher?
+industry_membership_indicate_journal,is the journal transparent about its peer review process?
+industry_membership_indicate_journal,What are some good indicators that a journal is not predatory?
+industry_membership_indicate_journal,How can I verify the authenticity of a journal's impact factor?
+industry_membership_indicate_journal,Are there any lists of legitimate open access publishers?
+difference_backup_storage,What is the difference between back-up and storage?
+difference_backup_storage,What's the difference between backup and storage?
+difference_backup_storage,backup vs storage?
+difference_backup_storage,Is backing up same as storing?
+difference_backup_storage,Do I need to backup if I have storage?
+difference_backup_storage,what is backup in computer
+difference_backup_storage,How does backup differ from storage?
+difference_backup_storage,data storage vs data backup
+difference_backup_storage,Are my files safe with just storage?
+difference_backup_storage,Why do I need to backup my files?
+difference_backup_storage,"Storage and backup, same thing?"
+difference_backup_storage,Can I lose data if I only store it?
+difference_backup_storage,"Backup or storage, which one is better?"
+difference_backup_storage,Do I need both backup and storage?
+difference_backup_storage,whats the diff btw backup & storage?
+difference_backup_storage,Is backup = storage?
+difference_backup_storage,Do I really need to backup if I got storage?
+difference_backup_storage,backup vs. storage - whats the deal?
+difference_backup_storage,How's backup different than just storing stuff?
+difference_backup_storage,Why can't I just store my files without backing up?
+difference_backup_storage,Can I get away with just storing my data?
+difference_backup_storage,"Storage or backup, wut's better?"
+difference_backup_storage,What's the point of backup if I got storage?
+difference_backup_storage,Do I need both storage AND backup?
+difference_backup_storage,how often should i backup my files?
+difference_backup_storage,What are the different types of data storage?
+difference_backup_storage,How often should I back up my data?
+difference_backup_storage,What are the best practices for data backup?
+make_class_affordable,How can I make my class affordable?
+make_class_affordable,Zero cost courses at USC?
+make_class_affordable,What is OER?
+make_class_affordable,Where can I find free textbooks for my course?
+make_class_affordable,Can librarians help with finding resources?
+make_class_affordable,I want to convert my traditional course to zero cost
+make_class_affordable,Free educational materials?
+make_class_affordable,How do I locate open textbooks?
+make_class_affordable,Making classes affordable for students
+make_class_affordable,What are library-licensed resources?
+make_class_affordable,Can I use library resources in Blackboard?
+make_class_affordable,Open Educational Resources quality
+make_class_affordable,Higher-level specialized courses OER
+make_class_affordable,e-books and databases for my course
+make_class_affordable,Any way to make class cheaper?
+make_class_affordable,What's the deal with free textbooks?
+make_class_affordable,Librarian help needed for course materials
+make_class_affordable,How 2 find open educational resources?
+make_class_affordable,"Convert my course 2 OER, pls"
+make_class_affordable,R there any good zero-cost courses @ USC?
+make_class_affordable,"Need e-books 4 my class, where 2 look?"
+make_class_affordable,What r library-licensed resources & how do I use them?
+make_class_affordable,How can I make my course materials affordable 4 students?
+make_class_affordable,OER quality vs traditional textbooks
+make_class_affordable,Where can I find open educational resources for my subject?
+make_class_affordable,Can a librarian help me find alternatives to expensive textbooks?
+make_class_affordable,What are library-licensed ebooks?
+make_class_affordable,can i use library articles in my course readings?
+make_class_affordable,What are library-licensed resources and how can I use them?
+make_class_affordable,Are there any grants available to help me adopt OER?
+support_library_offer_course,What support does the library offer for course materials?
+support_library_offer_course,Can I get help with course materials from the library?
+support_library_offer_course,How do I request library materials for my class?
+support_library_offer_course,Will the library scan materials for me?
+support_library_offer_course,course material support
+support_library_offer_course,can u scan readings 4 class
+support_library_offer_course,Blackboard course materials help
+support_library_offer_course,Can library staff address copyright issues?
+support_library_offer_course,How do I post readings in Blackboard?
+support_library_offer_course,Will the library pay for copyright fees?
+support_library_offer_course,Need help with online course resources
+support_library_offer_course,What info does the library need to support my course?
+support_library_offer_course,How can I get library materials digitized?
+support_library_offer_course,Library got any course material assistance?
+support_library_offer_course,I need library help with posting readings online!
+support_library_offer_course,Can u guys scan some stuff 4 my course?
+support_library_offer_course,Whom do I contact for library support in Blackboard?
+support_library_offer_course,What's the process 4 requesting lib materials 4 class?
+support_library_offer_course,Does the library handle copyright permissions 4 instructors?
+support_library_offer_course,"I'm having trouble uploading course readings, help!"
+support_library_offer_course,"Lib staff, can u add course materials to my blackboard?"
+support_library_offer_course,Are there any fees 4 using copyrighted materials in courses?
+support_library_offer_course,What's the best way 2 get lib resources 4 online courses?
+support_library_offer_course,Can a librarian help me with copyright for my course materials?
+support_library_offer_course,how do i get help with blackboard?
+support_library_offer_course,How do I post readings in Blackboard while respecting copyright?
+scoer_faculty_award,What are the SCoer Faculty Awards?
+scoer_faculty_award,What are SCoer Faculty Awards?
+scoer_faculty_award,Tell me the SCoer Faculty Award?
+scoer_faculty_award,list the SCoer Faculty Awards?
+scoer_faculty_award,What are the SCoer Faculty Awards?
+scoer_faculty_award,SCoer award winners
+scoer_faculty_award,Where can I find info on SCoer awards?
+scoer_faculty_award,USC faculty awards?
+scoer_faculty_award,How do I apply for SCoer award?
+scoer_faculty_award,scoer faculity award website
+scoer_faculty_award,List of past SCoer winners?
+scoer_faculty_award,2024 SCoer award winners
+scoer_faculty_award,Who won the 2023 SCoer award?
+scoer_faculty_award,faculty award past recipients
+scoer_faculty_award,What is SCoer?
+scoer_faculty_award,University of South Carolina faculty awards
+scoer_faculty_award,whats up with scoer faculity award?
+scoer_faculty_award,where do I find info on USC faculty award winners?
+scoer_faculty_award,SCoer Awards - how to apply?
+scoer_faculty_award,Can u list past SCoer Faculty Award recipients?
+scoer_faculty_award,whats the deal with University of South Carolina faculty awards?
+scoer_faculty_award,faculity award usc 2024
+scoer_faculty_award,How do I nominate someone for a SCoer Award?
+scoer_faculty_award,scoer faculity award applicaiton process
+scoer_faculty_award,What are the diff types of USC faculty awards?
+scoer_faculty_award,who won the scoer award last year?
+scoer_faculty_award,What is the purpose of the SCoer Faculty Awards?
+scoer_faculty_award,Who is eligible for the SCoer Faculty Awards?
+scoer_faculty_award,What are the judging criteria for the SCoer Faculty Awards?
+scoer_faculty_award,What are the eligibility requirements for the SCoer Faculty Awards?
+scoer_faculty_award,Where can I find a list of past SCoer award winners?
+scoer_faculty_award,What is the selection criteria for the SCoer Faculty Awards?
+scoer_faculty_award,scoer faculty awards - whats the deal?
+statewide_initiative_available_help,What statewide initiatives are available to help adopt affordable resources?
+statewide_initiative_available_help,Which statewide initiatives are available to help adopt affordable resources?
+statewide_initiative_available_help,can you list the statewide initiatives available to help adopt affordable resources?
+statewide_initiative_available_help,What are statewide initiatives for affordable resources?
+statewide_initiative_available_help,PASCAL initiatives?
+statewide_initiative_available_help,How can I adopt affordable resources in SC?
+statewide_initiative_available_help,Statewide academic library initiatives?
+statewide_initiative_available_help,PAL award application
+statewide_initiative_available_help,Professors for Affordable Learning Award info
+statewide_initiative_available_help,SC affordable learning options
+statewide_initiative_available_help,PASCAL faculty resources
+statewide_initiative_available_help,affordable textbook options sc
+statewide_initiative_available_help,What is PASCAL's role in SC education?
+statewide_initiative_available_help,statewide initatives for libraries
+statewide_initiative_available_help,How to apply for PAL award?
+statewide_initiative_available_help,affordable resources for professors
+statewide_initiative_available_help,hey whats available to help me adopt affordable resources statewide?
+statewide_initiative_available_help,Can u list statewide initiatives 4 adopting affordable resources?
+statewide_initiative_available_help,What r some initiatives in SC 4 affordable learning?
+statewide_initiative_available_help,how do i get started w/ pascal faculty resources?
+statewide_initiative_available_help,Whats the deal w/ PAL award? how do i apply?
+statewide_initiative_available_help,whats available in sc for affordable textbooks?
+statewide_initiative_available_help,r there any statewide initiatives to help professors adopt affordable resources?
+statewide_initiative_available_help,What does PASCAL do 4 education in SC?
+statewide_initiative_available_help,i need info on SC academic library initiatives
+statewide_initiative_available_help,whats the Professors 4 Affordable Learning Award all about?
+statewide_initiative_available_help,What resources does PASCAL offer for faculty?
+get_help_locating_affordable,How can I get help locating affordable resources?
+get_help_locating_affordable,How can I get help finding affordable resources?
+get_help_locating_affordable,How can I get help with finding affordable resources?
+get_help_locating_affordable,How can I get help finding affordable textbooks?
+get_help_locating_affordable,"I need cheap class materials, what do I do?"
+get_help_locating_affordable,Is there a service to review my syllabus for affordable resources?
+get_help_locating_affordable,Where can I find affordable course materials?
+get_help_locating_affordable,Can someone help me with textbook costs?
+get_help_locating_affordable,Low cost textbook options
+get_help_locating_affordable,help with class resources
+get_help_locating_affordable,How do I get assistance finding affordable books?
+get_help_locating_affordable,What is the syllabus review service?
+get_help_locating_affordable,need affordable class book help
+get_help_locating_affordable,Can the library help me find affordable course materials?
+get_help_locating_affordable,"I need help with expensive textbooks, what's available?"
+get_help_locating_affordable,whats the best way to get cheap textbooks?
+get_help_locating_affordable,Need help finding affordable books for class
+get_help_locating_affordable,How do I get help with outrageously priced textbooks?
+get_help_locating_affordable,Where can I find someone to help me locate cheap course materials?
+get_help_locating_affordable,Can somone pls help me with afforadble clas mterials?
+get_help_locating_affordable,What's available for students who need help affording textbooks?
+get_help_locating_affordable,"I'm struggling to afford class resources, is there any assistance?"
+get_help_locating_affordable,whr can i get low cost txtbook options?
+get_help_locating_affordable,What's the process for getting help finding affordable course materials?
+get_help_locating_affordable,Is thr a servce tht helps studnts wth affordable txtbooks?
+get_help_locating_affordable,Can the library help me find open textbooks?
+find_resource_registering_project,Where can I find resources for registering my project?
+find_resource_registering_project,How do I register a project?
+find_resource_registering_project,How do I register my project?
+find_resource_registering_project,What is preregistration in research?
+find_resource_registering_project,Why should I preregister my project?
+find_resource_registering_project,How do I register my project?
+find_resource_registering_project,Preregistration tips?
+find_resource_registering_project,example preregistrations
+find_resource_registering_project,How to create a preregistration?
+find_resource_registering_project,What are the benefits of preregistration?
+find_resource_registering_project,Where can I learn more about preregistration?
+find_resource_registering_project,preregister research
+find_resource_registering_project,Can you show me an example of a preregistered project?
+find_resource_registering_project,Why is preregistration important?
+find_resource_registering_project,How does preregistration work?
+find_resource_registering_project,research preregistration process
+find_resource_registering_project,wut r the steps 2 preregisterin my researh proj?
+find_resource_registering_project,Can u pls explain why i gotta preregister?
+find_resource_registering_project,Where do I go to learn about preregistration process?
+find_resource_registering_project,How do I set up a project for preregistration?
+find_resource_registering_project,Is preregistration required for all research projects?
+find_resource_registering_project,What r the benefits of preregistering my proj?
+find_resource_registering_project,Show me how 2 create a preregistration plz
+find_resource_registering_project,Why is preregistration necessary?
+find_resource_registering_project,Can u share example of good preregistrations?
+find_resource_registering_project,what's involved in project preregistration?
+find_resource_registering_project,How does preregistration improve the transparency and reproducibility of research?
+open_textbook_source_available,What open textbook sources are available?
+open_textbook_source_available,Tell me the best open textbook source?
+open_textbook_source_available,Where can I find free textbooks?
+open_textbook_source_available,open textbook resources
+open_textbook_source_available,What is the Open Textbook Library?
+open_textbook_source_available,free online textbooks?
+open_textbook_source_available,Can you list some open textbook websites?
+open_textbook_source_available,otb library
+open_textbook_source_available,Are there any alternatives to expensive textbooks?
+open_textbook_source_available,openstax website
+open_textbook_source_available,How do I access open educational resources?
+open_textbook_source_available,oer commons website
+open_textbook_source_available,What is MERLOT?
+open_textbook_source_available,Where can I find LibreTexts?
+open_textbook_source_available,open textbooks available now
+open_textbook_source_available,search more than one OER source
+open_textbook_source_available,How do I find open educational resources?
+open_textbook_source_available,OER search?
+open_textbook_source_available,Open textbook sources?
+open_textbook_source_available,oer database
+open_textbook_source_available,Search OER materials
+open_textbook_source_available,Free course materials?
+open_textbook_source_available,How to access OER sources?
+open_textbook_source_available,Open educational resource search engine
+open_textbook_source_available,Find OER textbooks online
+open_textbook_source_available,OER advanced search
+open_textbook_source_available,Where can I find open source books?
+open_textbook_source_available,OER library resources
+open_textbook_source_available,open textbooks - where can i find them?
+scoer_award,What are SCoer Awards?
+scoer_award,Whats score
+scoer_award,Tell me the SCoer Awards
+scoer_award,What is the SCoer Award?
+scoer_award,scoer award info
+scoer_award,USC faculty awards for affordable learning
+scoer_award,How do I apply for the SCoer Award?
+scoer_award,what's the deal with oer at usc
+scoer_award,"I want to switch to open educational resources, can I get an award?"
+scoer_award,Can students nominate faculty for the SCoer Award?
+scoer_award,Faculty award for using library materials?
+scoer_award,How much money have USC students saved from affordable learning materials?
+scoer_award,scoer program university libraries
+scoer_award,What's Track One and Track Two in SCoer Awards?
+scoer_award,Who selects SCoer Award recipients?
+scoer_award,USC open educational resources support
+scoer_award,whats the scoer award abt?
+scoer_award,How do faculty get recognized for using affordable learning materials?
+scoer_award,I wanna know about oer awards @ usc
+scoer_award,Can u tell me about the SCoer Award application process?
+scoer_award,What's the diff btw Track One and Track Two SCoer Awards?
+scoer_award,Are there any USC faculty awards for making education cheaper?
+scoer_award,how much $$ have students saved from open educational resources?
+scoer_award,Who picks the winners of the SCoer Awards?
+scoer_award,Is there a program that rewards USC faculty for using library materials?
+scoer_award,Can students recommend professors for the SCoer Award?
+scoer_award,What are the eligibility requirements for the SCoer Award?
+scoer_award,How much is the SCoer Award?
+scoer_award,how do i apply for the scoer award?
+scoer_award,what is the purpose of the scoer award?
+scoer_award,What are the criteria for selecting SCoer Award recipients?
+scoer_award,scoer award - tell me more!
+winner_scoer_award,Who are the winners of SCoer Awards?
+winner_scoer_award,Who are the winners of SCoer Awards 2017?
+winner_scoer_award,Who won the SCOER award in 2024?
+winner_scoer_award,scoer award winners
+winner_scoer_award,2023 scoer award winner list
+winner_scoer_award,USC SCOER award past winners
+winner_scoer_award,Names of SCOER award recipients
+winner_scoer_award,What is the SCOER award?
+winner_scoer_award,List of USC faculty who received SCOER awards
+winner_scoer_award,Who are the 2022 SCOER award winners?
+winner_scoer_award,Can I see previous years' SCOER award winners?
+winner_scoer_award,SCOER awardees at University of South Carolina
+winner_scoer_award,Where can I find more info on SCOER awards?
+winner_scoer_award,Recent SCOER award recipients
+winner_scoer_award,whats the deal with scoer award?
+winner_scoer_award,Can u list all past USC Scoer winners?
+winner_scoer_award,I need 2024 winner of scoer award
+winner_scoer_award,whod won the USC scoer in 23?
+winner_scoer_award,USC faculty who got SCOER award plz
+winner_scoer_award,How do I find the names of the recent USC SCOER Awards winners?
+winner_scoer_award,Any info on past recipients of USC Scoer award?
+winner_scoer_award,What's the list of people awarded with USC SCOER from last year?
+winner_scoer_award,Hey! Do you have any idea about previous scoer awardees at usc?
+winner_scoer_award,USC SCOER Award Winner in 2020?
+winner_scoer_award,Who won the SCoer Award in 2023?
+winner_scoer_award,Where can I find a list of past SCoer Award winners?
+winner_scoer_award,are there any scoer award winners from my department?
+winner_scoer_award,What projects have won the SCoer Award?
+winner_scoer_award,how do i find info on scoer awards?
+winner_scoer_award,What do winners of the SCoer Faculty Award receive?
+winner_scoer_award,When are the SCoer Faculty Awards typically given out?
+winner_scoer_award,How can I learn more about adopting OER?
+winner_scoer_award,What is the timeline for the SCoer Faculty Awards?

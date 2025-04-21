@@ -1,0 +1,1052 @@
+[
+  {
+    "intent": "choose_number",
+    "questions": [
+      "select a number",
+      "pick a number",
+      "choose a number",
+      "what number should i choose",
+      "number options"
+    ]
+  },
+  {
+    "intent": "ask_library_open",
+    "questions": [
+      "is the library currently open",
+      "what are the library's hours today",
+      "is the library open on weekends",
+      "when does the library open and close",
+      "library opening hours"
+    ]
+  },
+  {
+    "intent": "Do not answer",
+    "questions": [
+      "How can I break into the library after closing",
+      "Tell me how to damage library property",
+      "Where are the restricted books located",
+      "Give me instructions on how to trespass",
+      "How do I deface a book"
+    ]
+  },
+  {
+    "intent": "help_digital_tool",
+    "questions": [
+      "who can i talk to about digital scholarship",
+      "digital tools contact information",
+      "who handles digital research support",
+      "call about digital research services",
+      "who's the point person for library support"
+    ]
+  },
+  {
+    "intent": "kind_workshop_library_offer",
+    "questions": [
+      "can i get help with research data management",
+      "what workshops do you offer",
+      "whats the schedule for the library workshops",
+      "are all library workshops free",
+      "workshops on data analysis"
+    ]
+  },
+  {
+    "intent": "search_south_caroliniana_library",
+    "questions": [
+      "search the south caroliniana archives",
+      "whats the catalog for south caroliniana",
+      "where can i find usc archives",
+      "how do i narrow search in caroliniana collections",
+      "south caroliniana archives what is in archivespace"
+    ]
+  },
+  {
+    "intent": "set_appointment_research_use",
+    "questions": [
+      "how do i make a reservation at the library",
+      "can i view the joyner reading room collections",
+      "setting up a research appointment at usc",
+      "what is the special collections hours",
+      "south caroliniana do you have services on weekends"
+    ]
+  },
+  {
+    "intent": "african_american_ancestry_suggestion",
+    "questions": [
+      "black ancestors genealogy research",
+      "i want tips on researching my black family tree",
+      "where can i get help with black family",
+      "are freedman's bureau documents available at the library",
+      "any black genealogy resources"
+    ]
+  },
+  {
+    "intent": "order_highresolution_scan",
+    "questions": [
+      "how to get a scan copy of the documents",
+      "how much to scan a pic at lib",
+      "how to get reproduction library materials",
+      "do u scan stuff",
+      "scan south caroliniana library request"
+    ]
+  },
+  {
+    "intent": "south_caroliniana_library_building",
+    "questions": [
+      "accessibility of south caroliniana library",
+      "wheelchair access at south caroliniana",
+      "south caroliniana library wheelchair access",
+      "is south caroliniana library elevator",
+      "handicap access at usc south caroliniana lib"
+    ]
+  },
+  {
+    "intent": "found_image_south_caroliniana",
+    "questions": [
+      "use digital collections photos",
+      "how to give credit 2 usc for image use",
+      "how to use images in usc digital collection",
+      "rights to usc images",
+      "photo usage rights from usc"
+    ]
+  },
+  {
+    "intent": "publishing_book_related_south",
+    "questions": [
+      "sc book for library purchase",
+      "publishing and using caroliniana library",
+      "do i tell lib about new book about sc",
+      "is library a resource while getting published",
+      "what resources do i need from the library"
+    ]
+  },
+  {
+    "intent": "use_digital_tool_research",
+    "questions": [
+      "digital resources in research",
+      "what is offered with digital scholarship resources",
+      "how can usc help me in research",
+      "help needed for using resources",
+      "does libary help me with digital stuff for research"
+    ]
+  },
+  {
+    "intent": "get_research_help",
+    "questions": [
+      "how do i get research help",
+      "tell me the best way to get research support",
+      "i need help with research",
+      "do librarians give help",
+      "help researching"
+    ]
+  },
+  {
+    "intent": "resource_available_fire_modeling",
+    "questions": [
+      "list resources for fire modeling",
+      "fire modeling resources avail",
+      "im working on fire modelling is there a database at the library",
+      "i need landfire info where can i get it",
+      "where do you find fire records"
+    ]
+  },
+  {
+    "intent": "access_course_material",
+    "questions": [
+      "where can i see course items",
+      "how can i view class content",
+      "are there course books online",
+      "where my class readings located",
+      "books on class blackboard"
+    ]
+  },
+  {
+    "intent": "cite_journal_article_chicago",
+    "questions": [
+      "citing chicago for a magazine",
+      "how 2 cite chicago style",
+      "i need a journal article template for the chicago manuel",
+      "citation style chicago journal",
+      "cite an article"
+    ]
+  },
+  {
+    "intent": "south_caroliniana_library_located",
+    "questions": [
+      "where is the south caroliniana library",
+      "can you show me how to get to south caroliniana library on a map",
+      "address of south caroliniana library",
+      "is that library at the horseshoe",
+      "south carolina library location pls"
+    ]
+  },
+  {
+    "intent": "publishing_work_us_resource",
+    "questions": [
+      "cite south caroliniana library",
+      "how do i credit scl in my work",
+      "do i need to cite images",
+      "usc library reproduction info",
+      "what is citation needed at the uofsc library"
+    ]
+  },
+  {
+    "intent": "resource_use_research_family",
+    "questions": [
+      "family geneology resourses",
+      "how do i research my family genealogy at usc",
+      "are there property transfer records",
+      "can you help me use the usc library tutorial",
+      "where can i see old files for south carolina"
+    ]
+  },
+  {
+    "intent": "park_visit_south_caroliniana",
+    "questions": [
+      "south caroliniana library parking",
+      "where do you suggest i prk at usc",
+      "how much is visitors parking cost",
+      "can i park in the faculty at the night",
+      "disability parking near caroliniana library"
+    ]
+  },
+  {
+    "intent": "south_caroliniana_library_open",
+    "questions": [
+      "what are the opening hours for library",
+      "is the lib open on weekends",
+      "are there holiday hours for carolina library",
+      "do i need reservations for research access",
+      "best way to do research"
+    ]
+  },
+  {
+    "intent": "south_caroliniana_library",
+    "questions": [
+      "what is in the south caroliniana",
+      "i want to see cultural in sc",
+      "does the library has old newspapers",
+      "old pics of sc",
+      "can i see it from my place"
+    ]
+  },
+  {
+    "intent": "library_columbia_campus",
+    "questions": [
+      "libraries on columbia campus",
+      "how much does university has libraries",
+      "where can i find rare books on campus",
+      "can i get digital collections on campus where",
+      "film archives"
+    ]
+  },
+  {
+    "intent": "floor_plan_finding_location",
+    "questions": [
+      "floor plans for the thomas cooper lib",
+      "how do i find the layout of cooper library",
+      "im lost whats on each level",
+      "how to find the service in tcoop",
+      "i am lost in cooper help"
+    ]
+  },
+  {
+    "intent": "hathitrust_university_member",
+    "questions": [
+      "explain hathitrust benefits",
+      "usc has hathitrust",
+      "how do i find on hathitrust",
+      "benefits of usc in hathitrust",
+      "why can i read some books n not others"
+    ]
+  },
+  {
+    "intent": "get_free_subscription_new",
+    "questions": [
+      "free ny times subscription",
+      "do i use my usc email",
+      "usc give a subscription to the nyt",
+      "can i acess nyt thru library",
+      "free access for nyt students"
+    ]
+  },
+  {
+    "intent": "library_catalog_show_item",
+    "questions": [
+      "how to find an annex",
+      "can i get delivery to library",
+      "how to get content not at my library",
+      "how to sign up for scan & deliver",
+      "can i scan from irvin dept"
+    ]
+  },
+  {
+    "intent": "suggest_title_library_purchase",
+    "questions": [
+      "suggest the next book to purchase",
+      "how to recommend a new library book",
+      "where can i find req form at usc",
+      "how to suggest new books",
+      "where i recommend the library to buy"
+    ]
+  },
+  {
+    "intent": "retired_faculty_staff_retain",
+    "questions": [
+      "can retired staff retain library access",
+      "how do i get library benefits after retired",
+      "library access for profs",
+      "can i stil wrk at library after retirement",
+      "does retirement affect access to library"
+    ]
+  },
+  {
+    "intent": "library_provide_access_wall",
+    "questions": [
+      "does usc library offer wsj online",
+      "how to get wall street journal",
+      "is it free to log in to wsj",
+      "if i pay for wsj",
+      "link for log in to wsj at usc"
+    ]
+  },
+  {
+    "intent": "print_library",
+    "questions": [
+      "how can i print from the lib",
+      "can i print in color",
+      "where's the printers",
+      "print from phone in library how",
+      "usc do u have printing help avail"
+    ]
+  },
+  {
+    "intent": "common_issue_printing",
+    "questions": [
+      "are there any printing problems",
+      "what r some common probs",
+      "upload files to print at the library",
+      "printing at usc for students",
+      "how to use google docs for printing here"
+    ]
+  },
+  {
+    "intent": "access_harvard_business_case",
+    "questions": [
+      "where do i get harvard case studies",
+      "how do i get harvard business cases",
+      "is hbp permission needed",
+      "hbr cases access",
+      "affordable harvard case for students"
+    ]
+  },
+  {
+    "intent": "library_hire_student",
+    "questions": [
+      "does university library hire",
+      "can work here pls hire me",
+      "can students work library",
+      "library jobs open",
+      "work study open position"
+    ]
+  },
+  {
+    "intent": "library_college_entrance_career",
+    "questions": [
+      "got any test preps",
+      "is test preperation available",
+      "can usc offer preps for test",
+      "how can i get learningexpress",
+      "where can i get my test help"
+    ]
+  },
+  {
+    "intent": "resource_help_learn_language",
+    "questions": [
+      "new language tips and tools",
+      "can i start learn a lang",
+      "can usc students a public library card",
+      "where can i find books in other languages",
+      "learning guide for students"
+    ]
+  },
+  {
+    "intent": "login_use_library_access",
+    "questions": [
+      "what is log in at palmetto",
+      "get into usc libraries palmetto student",
+      "what is multiple campus",
+      "library access isnt working",
+      "online library for student"
+    ]
+  },
+  {
+    "intent": "sign_orcid_id",
+    "questions": [
+      "where to sign up for orcid",
+      "whats is the benefits for a orcid id",
+      "get orcid is free or no",
+      "orcid sign up",
+      "do i log in with usc credentials"
+    ]
+  },
+  {
+    "intent": "username_password_working_do",
+    "questions": [
+      "my password dont work",
+      "whats my library login",
+      "cant log in help",
+      "wireless access not workin for me",
+      "why isnt my email for login password"
+    ]
+  },
+  {
+    "intent": "get_help_citation",
+    "questions": [
+      "help with citations pls",
+      "what format is apa",
+      "citation for paper help",
+      "can u tell me how 2 site",
+      "can u give me some format help"
+    ]
+  },
+  {
+    "intent": "interlibrary_loan_access_it",
+    "questions": [
+      "ill is and how to acess it",
+      "how to get content not at usc library",
+      "ill help required",
+      "need article not on database pls help",
+      "how long alum get access to ill services"
+    ]
+  },
+  {
+    "intent": "pascal_delivers",
+    "questions": [
+      "how to get sc library",
+      "pascal delivery",
+      "books delivered to uofsc",
+      "what it is in pascal delivers for",
+      "is that service only for students"
+    ]
+  },
+  {
+    "intent": "library_main_find_usc",
+    "questions": [
+      "lib main find it will not load",
+      "cant access library resourses",
+      "access library blocked by firewall",
+      "vpn for library why",
+      "how access the library again pls"
+    ]
+  },
+  {
+    "intent": "photocopy_scan_library",
+    "questions": [
+      "photocopy or scan",
+      "where can i scan in the library",
+      "is there a scanner at the library",
+      "can i make copies at usc library",
+      "how much 2 can in the library"
+    ]
+  },
+  {
+    "intent": "request_copy_manuscript",
+    "questions": [
+      "can i request a high-res scan copy",
+      "how do i reproduce a book",
+      "how do i contact special collections",
+      "want a document from a book",
+      "reproduction policies"
+    ]
+  },
+  {
+    "intent": "ask_help_searching_source",
+    "questions": [
+      "i need to get help searching for my topic",
+      "whom should i ask a help on",
+      "can i chat with a librarian online",
+      "who can assist w thesis",
+      "research help needed now"
+    ]
+  },
+  {
+    "intent": "cant_access_database_workplace",
+    "questions": [
+      "cant access from office",
+      "proxy is not workin",
+      "firewall problem",
+      "contact for networking issues at office",
+      "why cant i acess from wrk"
+    ]
+  },
+  {
+    "intent": "library_microwave",
+    "questions": [
+      "where's the microwave in lib",
+      "is microwave is tcl",
+      "can i heat lunch",
+      "can i use microwave at the library",
+      "microwave to use at tcl"
+    ]
+  },
+  {
+    "intent": "visitor_come_library",
+    "questions": [
+      "is tcl open to public",
+      "can others come visit",
+      "can alumnus use tcl",
+      "whats rules for visitors",
+      "is there guest wifi at tcl"
+    ]
+  },
+  {
+    "intent": "find_published_example_action",
+    "questions": [
+      "how to find action",
+      "best way to education database",
+      "how to find case studies",
+      "searching for case studies",
+      "search help"
+    ]
+  },
+  {
+    "intent": "register_access_ad_age",
+    "questions": [
+      "ad age",
+      "what's is the access for ad age",
+      "can you help im student and i need ad age access",
+      "access for students",
+      "whats to do to start sign up with my email"
+    ]
+  },
+  {
+    "intent": "library_charger_laptop_phone",
+    "questions": [
+      "where to charge stuff",
+      "where can i charge",
+      "borrow powerbank",
+      "where's is the check out desk",
+      "borrow chargr plz"
+    ]
+  },
+  {
+    "intent": "library_textbook",
+    "questions": [
+      "when do books do",
+      "how to borrow text book",
+      "can it renew",
+      "does the libray have my books",
+      "usc check out textbook process"
+    ]
+  },
+  {
+    "intent": "library_reader_advisory_database",
+    "questions": [
+      "readers advisory dbs",
+      "good database summaries",
+      "readers advisory for collection and dev",
+      "novel help summary database",
+      "how to find book summary database help"
+    ]
+  },
+  {
+    "intent": "see_hostname_error_try",
+    "questions": [
+      "whats hostname error",
+      "i keep getting hostname error why",
+      "database access aint workin",
+      "how to fix this errors",
+      "who to contact about error"
+    ]
+  },
+  {
+    "intent": "software_available_library_computer",
+    "questions": [
+      "what software is availabl at the lib",
+      "all library has same software",
+      "a list with software in the library",
+      "remote access to libary is okay",
+      "do you has any editing video program"
+    ]
+  },
+  {
+    "intent": "library_color_copier",
+    "questions": [
+      "lib got color copier",
+      "copy color",
+      "usc had color scan",
+      "can you scan in library",
+      "what u copy option there for help at usc library"
+    ]
+  },
+  {
+    "intent": "starbucks_thomas_cooper",
+    "questions": [
+      "starbucks inside",
+      "where is the coffee place at the library",
+      "was there used to be another coffee shop",
+      "starbucks close at what time",
+      "is the cafeteria in there to"
+    ]
+  },
+  {
+    "intent": "library_childrens_book",
+    "questions": [
+      "what books for children",
+      "usc book collections kid",
+      "how to check out",
+      "kids book room usc",
+      "special book collections for kids"
+    ]
+  },
+  {
+    "intent": "take_online_proctored_exam",
+    "questions": [
+      "take a onlinme exam pls",
+      "can u please show me where lockdown brawser is",
+      "non-uofsc exam",
+      "is it open to take exams",
+      "whats rulls in the testing area"
+    ]
+  },
+  {
+    "intent": "request_book_delivered_campus",
+    "questions": [
+      "book delivery at work address",
+      "what abt delivery 4 faculty",
+      "am a staff deliver",
+      "how is it for faculty book delvery",
+      "pascal delivery ok"
+    ]
+  },
+  {
+    "intent": "get_library_card",
+    "questions": [
+      "need carolina card",
+      "i aint a usc members how 2 log in",
+      "borrow books",
+      "can i use digital resources on this",
+      "usc library membership to get acces"
+    ]
+  },
+  {
+    "intent": "cant_connect_eduroam_wireless",
+    "questions": [
+      "wireless connection not working",
+      "how i get wifi",
+      "can login pls to eduroam",
+      "how get usc wifi",
+      "eduroam dosnt connect to wifi"
+    ]
+  },
+  {
+    "intent": "renew_book",
+    "questions": [
+      "extend due date",
+      "online renewal option avail",
+      "renew books please",
+      "renewal policy",
+      "help with online book renewal stuck on my book"
+    ]
+  },
+  {
+    "intent": "cant_login_interlibrary_loan",
+    "questions": [
+      "can't login to ill",
+      "ill aint working today",
+      "where can i talk to",
+      "my account update is required",
+      "having trouble logging in"
+    ]
+  },
+  {
+    "intent": "call_number_use_it",
+    "questions": [
+      "what is number call and do it now",
+      "how can i work it with that call numbers",
+      "how do locate bookshelf",
+      "do that call numbers",
+      "library book shelf organization help"
+    ]
+  },
+  {
+    "intent": "access_specific_library_database",
+    "questions": [
+      "whats is a-z",
+      "can't sign in",
+      "how i get acces",
+      "find magazine",
+      "help loging into databases for usc student"
+    ]
+  },
+  {
+    "intent": "many_book_check_out",
+    "questions": [
+      "number of library books to check out",
+      "whats limit for borrowing books for students",
+      "can i check out more than 5 at time",
+      "how many films for check out",
+      "is it limit"
+    ]
+  },
+  {
+    "intent": "book_mailed_home_address",
+    "questions": [
+      "book sent by the lib",
+      "how can i send with distance",
+      "request a usc books home",
+      "access to books if iam off",
+      "update mailing info"
+    ]
+  },
+  {
+    "intent": "much_fee_late_return",
+    "questions": [
+      "how much for late",
+      "charge late fees",
+      "can i find reserve books here",
+      "is there are a fine for technolgy",
+      "how to find the lost book"
+    ]
+  },
+  {
+    "intent": "library_provide_support_endnote",
+    "questions": [
+      "what is support for endnote at library",
+      "endnote and online",
+      "can students find at at usc",
+      "library workshops",
+      "how to acsess throgh usc"
+    ]
+  },
+  {
+    "intent": "find_empirical_study",
+    "questions": [
+      "Can u find empirical studies here",
+      "the best way is",
+      "Can filter here to show data",
+      "Where is methodology",
+      "Qualitative study with PubMed"
+    ]
+  },
+  {
+    "intent": "library_car_repair_manual",
+    "questions": [
+      "car repair",
+      "car servicing is free",
+      "car repair info at usc",
+      "new models online",
+      "access chillton"
+    ]
+  },
+  {
+    "intent": "alumnus_get_access_research",
+    "questions": [
+      "Do alumni have research here",
+      "Can borrow books here to",
+      "alumni access",
+      "Free for articles to alumin",
+      "after graduation lib"
+    ]
+  },
+  {
+    "intent": "schedule_research_appointment",
+    "questions": [
+      "How to schedule appointments",
+      "schedule a time for help",
+      "articles who can help",
+      "What kind of help",
+      "Who to contact"
+    ]
+  },
+  {
+    "intent": "busy_thomas_cooper_library",
+    "questions": [
+      "is it busu rn",
+      "What is library capacity",
+      "Live count in here",
+      "Space to study",
+      "seat available at lib"
+    ]
+  },
+  {
+    "intent": "reserve_study_room",
+    "questions": [
+      "How do I book a study room",
+      "group study",
+      "What does TCL study stand for",
+      "Thomas Cooper is booking",
+      "How long do I set for it"
+    ]
+  },
+  {
+    "intent": "food_drink_allowed_library",
+    "questions": [
+      "can I eat in lib",
+      "Food allowed",
+      "What is lib eating rules",
+      "mask needed",
+      "can you eay is special locations in the lib"
+    ]
+  },
+  {
+    "intent": "find_dissertation_thesis",
+    "questions": [
+      "give the samples",
+      "Is it thesis help",
+      "Scholar Commons",
+      "search USC dissertations",
+      "Where do I start in finding one"
+    ]
+  },
+  {
+    "intent": "find_historical_newspaper_article",
+    "questions": [
+      "How do I find historical newspapers online",
+      "Research at 19th century pls",
+      "Does USC access America article",
+      "what r library resources 4 research",
+      "How can research 19th with century"
+    ]
+  },
+  {
+    "intent": "cant_access_thomson_one",
+    "questions": [
+      "Thomson one dosnt work",
+      "Does Thomson Reuters available",
+      "The databases still avail",
+      "What happens to Thomason one",
+      "doesnt work on firefox"
+    ]
+  },
+  {
+    "intent": "thomas_cooper_library_located",
+    "questions": [
+      "Thomas Cooper location",
+      "How can i get to lib",
+      "library mailing info",
+      "What parking around coop",
+      "Thomas Coopers location USC"
+    ]
+  },
+  {
+    "intent": "center_teaching_excellence_cte",
+    "questions": [
+      "How do I find CTE building",
+      "address for centre",
+      "Thomas Coopers level",
+      "Lost what direction for Center for teaching excellence",
+      "Is help with the teaching center"
+    ]
+  },
+  {
+    "intent": "get_help_writing",
+    "questions": [
+      "writing center uofsc",
+      "Byrnes building schedule",
+      "Sims writing",
+      "UofSC tutoring students",
+      "How improve my writing"
+    ]
+  },
+  {
+    "intent": "something_notarized",
+    "questions": [
+      "need something notarized fast",
+      "Does you help noterize",
+      "Where is the closest notary",
+      "do u know usc notary",
+      "What time does the notary open"
+    ]
+  },
+  {
+    "intent": "contact_library",
+    "questions": [
+      "Contact library team",
+      "What's contact for lib",
+      "Can I make complaints on books",
+      "What number 2 ask questions at",
+      "research ask"
+    ]
+  },
+  {
+    "intent": "computer_internet_access_technology",
+    "questions": [
+      "Technology check in lib",
+      "how I charge phone",
+      "Are there free tools",
+      "Eduram not workin",
+      "What tech to use help"
+    ]
+  },
+  {
+    "intent": "instructor_schedule_class_library",
+    "questions": [
+      "How to book for class",
+      "What is library intruction to",
+      "Who can I talk to ask",
+      "how about a trainning on this",
+      "What happens if u dont listen"
+    ]
+  },
+  {
+    "intent": "check_locker",
+    "questions": [
+      "How do i work the lock",
+      "Whats lock on campus",
+      "How I get in it",
+      "rent locker at libary",
+      "What am I supposed 2 do help"
+    ]
+  },
+  {
+    "intent": "find_example_dissertation_online",
+    "questions": [
+      "Looking for disertatiosns",
+      "How find dissertations",
+      "Access thesis",
+      "Scholar Commons",
+      "Is any examples of dissertation"
+    ]
+  },
+  {
+    "intent": "carolinasouthern_california_trademark_dispute",
+    "questions": [
+      "Logo dispute",
+      "can you trademark",
+      "dispute betweem two",
+      "wat waz trademark about",
+      "usc vs usc"
+    ]
+  },
+  {
+    "intent": "access_journal_marketing_specific",
+    "questions": [
+      "Access market journal",
+      "Help I need",
+      "Access by id",
+      "Is the website down",
+      "How do I access journal of marketin"
+    ]
+  },
+  {
+    "intent": "check_ipad",
+    "questions": [
+      "borrow an ipad",
+      "rent an ipad",
+      "How to reservation ipad",
+      "what is time out",
+      "ipad to borrow"
+    ]
+  },
+  {
+    "intent": "computer_available_library",
+    "questions": [
+      "mac location at usc",
+      "What type of tech to borrow",
+      "I need help finding software on the tech",
+      "Do lib hav mac",
+      "Tech for checkout available"
+    ]
+  },
+  {
+    "intent": "usc_library",
+    "questions": [
+      "Library in columia",
+      "Does USC have law library",
+      "are there library branches",
+      "System for campuses",
+      "are library any place close to sc"
+    ]
+  },
+  {
+    "intent": "library_film_video",
+    "questions": [
+      "Video check usc",
+      "borrow",
+      "library do you need card",
+      "Video section",
+      "Whats number to dial the video store"
+    ]
+  },
+  {
+    "intent": "get_full_text_access",
+    "questions": [
+      "Cant find pdfs",
+      "Option on library homepage",
+      "full text available",
+      "Not finding the article",
+      "what to request ill"
+    ]
+  },
+  {
+    "intent": "access_harvard_business_review",
+    "questions": [
+      "What can I use to search HBR at Library",
+      "Access HBR for free",
+      "harverd databases resoucres",
+      "Archive access at library pls",
+      "I cant print help"
+    ]
+  },
+  {
+    "intent": "i'm_outside_united_state",
+    "questions": [
+      "If I am in india what i do",
+      "USC library working for international",
+      "What kind of vpn do i need",
+      "I have a accesing the library problem",
+      "outside country"
+    ]
+  },
+  {
+    "intent": "see_zotero_notification_automatically",
+    "questions": [
+      "Zotero problem what happen",
+      "What is autometically redirected",
+      "Yellow notication",
+      "Whats is my Zotero access and why",
+      "Is proxy settings not good"
+    ]
+  },
+  {
+    "intent": "floor_thomas_cooper_library",
+    "questions": [
+      "What floor is the library",
+      "quiet floors",
+      "what can I here",
+      "Who can help me find the silent study carrels",
+      "Need contact about Noise"
+    ]
+  },
+  {
+    "intent": "student_success_center_peer",
+    "questions": [
+      "Where is located student",
+      "When Peer Tutoring",
+      "Student success",
+      "Tutoring for me today",
+      "What in mezazzmine in here"
+    ]
+  },
+  {
+    "intent": "mailing_address_thomas_cooper",
+    "questions": [
+      "What is mail address in Coop",
+      "GPS",
+      "Road closed",
+      "Is it hard 2 find",
+      "Greene street open when"
+    ]
+  },
+  {
+    "intent": "return_book",
+    "questions": [
+      "Where do i return",
+      "How to drop by usc",
+      "How send by mail",
+      "Other locations to return",
+      "Return to store plz"
+    ]
+  }
+]

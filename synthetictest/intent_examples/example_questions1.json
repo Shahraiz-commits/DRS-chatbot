@@ -1,0 +1,652 @@
+[
+  {
+    "intent": "find_empirical_study",
+    "questions": [
+      "how do i locate research that uses data?",
+      "where can i find studies using a specific research design?",
+      "what are some search terms for finding studies with interviews?",
+      "is there a way to find studies that prove a theory?",
+      "how can i tell if a study is actually empirical?"
+    ]
+  },
+  {
+    "intent": "library_car_repair_manual",
+    "questions": [
+      "where can i find diagrams for car parts?",
+      "does the library have anything on diagnosing car problems?",
+      "is there a database with maintenance schedules for cars?",
+      "how do i find recall information for my vehicle?",
+      "can i get help finding the right manual for my car's make and model?"
+    ]
+  },
+  {
+    "intent": "alumnus_get_access_research",
+    "questions": [
+      "what research databases can alumni access?",
+      "do alumni get borrowing privileges?",
+      "how can i continue my research after graduating?",
+      "is there a fee for alumni to access library resources?",
+      "can alumni access journals from home?"
+    ]
+  },
+  {
+    "intent": "schedule_research_appointment",
+    "questions": [
+      "how do i book time with a librarian for research assistance?",
+      "can i get help with my research paper from a librarian?",
+      "what kind of research questions can i ask a librarian?",
+      "where can i find a librarian who specializes in my subject?",
+      "can i schedule a virtual meeting with a librarian?"
+    ]
+  },
+  {
+    "intent": "busy_thomas_cooper_library",
+    "questions": [
+      "is thomas cooper library usually busy on weekends?",
+      "how crowded is the library right now?",
+      "are there any study spaces available in thomas cooper?",
+      "what's the best time to find a quiet spot in the library?",
+      "is it hard to find a seat at tcl?"
+    ]
+  },
+  {
+    "intent": "reserve_study_room",
+    "questions": [
+      "how do i reserve a group study room at thomas cooper library?",
+      "can i book a study room for just myself?",
+      "what are the rules for using a study room?",
+      "how far in advance can i make a study room reservation?",
+      "can i get a study room without a reservation?"
+    ]
+  },
+  {
+    "intent": "food_drink_allowed_library",
+    "questions": [
+      "can i bring food into the library?",
+      "are drinks allowed in thomas cooper library?",
+      "where are food and drinks not allowed in the library?",
+      "is there a cafe in the library where i can eat?",
+      "can i snack in the library study area?"
+    ]
+  },
+  {
+    "intent": "find_dissertation_thesis",
+    "questions": [
+      "how do i find usc dissertations online?",
+      "where can i find examples of master's theses from usc?",
+      "can i access honors college theses online?",
+      "how do i search for dissertations by author?",
+      "does usc have an online thesis archive?"
+    ]
+  },
+  {
+    "intent": "find_historical_newspaper_article",
+    "questions": [
+      "how do i find historical newspaper articles online?",
+      "where can i find old newspaper articles from south carolina?",
+      "are there any free historical newspaper resources?",
+      "how do i search for old newspapers on microfilm?",
+      "can i access chronicling america at usc library?"
+    ]
+  },
+  {
+    "intent": "cant_access_thomson_one",
+    "questions": [
+      "why can't i access thomson one anymore?",
+      "what happened to the thomson reuters database?",
+      "is there an alternative to thomson one?",
+      "what browsers support thomson one?",
+      "where can i find business research help at usc?"
+    ]
+  },
+  {
+    "intent": "thomas_cooper_library_located",
+    "questions": [
+      "where is thomas cooper library on campus?",
+      "what's the address of thomas cooper library?",
+      "how do i get to thomas cooper library?",
+      "where can i park near thomas cooper library?",
+      "is there a map of the library location?"
+    ]
+  },
+  {
+    "intent": "center_teaching_excellence_cte",
+    "questions": [
+      "where is the center for teaching excellence located?",
+      "how do i find the cte in thomas cooper library?",
+      "what's the room number of the cte?",
+      "how do i get to the cte from the elevators?",
+      "where can i find teaching resources on campus?"
+    ]
+  },
+  {
+    "intent": "get_help_writing",
+    "questions": [
+      "where can i get help with my writing assignments?",
+      "where is the university writing center located?",
+      "how do i make an appointment at the writing center?",
+      "what services does the university writing center offer?",
+      "does usc offer free writing tutoring?"
+    ]
+  },
+  {
+    "intent": "something_notarized",
+    "questions": [
+      "where can i get a document notarized on campus?",
+      "is there a notary at usc?",
+      "how do i get something notarized on campus?",
+      "are there notaries at russell house?",
+      "where can i find notary services near me?"
+    ]
+  },
+  {
+    "intent": "contact_library",
+    "questions": [
+      "how do i contact the library for help?",
+      "what's the usc library phone number?",
+      "what's the email address for library help?",
+      "how do i contact a subject librarian?",
+      "how to reach out to usc lib?"
+    ]
+  },
+  {
+    "intent": "computer_internet_access_technology",
+    "questions": [
+      "how can the library help me if i don't have a computer?",
+      "does the library have ipads for checkout?",
+      "what technology can i borrow from thomas cooper library?",
+      "is there free wifi in the library?",
+      "whats the deal with computers at the lib?"
+    ]
+  },
+  {
+    "intent": "instructor_schedule_class_library",
+    "questions": [
+      "how can i schedule a class in the library?",
+      "can librarians teach my students research skills?",
+      "how do i schedule a library instruction session?",
+      "can i request a librarian to teach my class?",
+      "can i get a librian to come teach my class?"
+    ]
+  },
+  {
+    "intent": "check_locker",
+    "questions": [
+      "how do i check out a locker at the library?",
+      "can i get a locker at thomas cooper library?",
+      "where can i ask for a locker on campus?",
+      "how to check out a locker?",
+      "where r the lockers located in thomas cooper lib"
+    ]
+  },
+  {
+    "intent": "find_example_dissertation_online",
+    "questions": [
+      "how can i find examples of dissertations online?",
+      "where can i search for usc dissertations?",
+      "how to access dissertations and theses?",
+      "can i filter by program in scholar commons?",
+      "i need to see some dissertation examples from edd curriculum and instruction"
+    ]
+  },
+  {
+    "intent": "carolinasouthern_california_trademark_dispute",
+    "questions": [
+      "what was the usc trademark case about?",
+      "why cant we trademark our logo?",
+      "can we still use the interlocking sc logo?",
+      "what happened in 2010 usc case?",
+      "wut happnd wit usc n south carolina trademrk?"
+    ]
+  },
+  {
+    "intent": "access_journal_marketing_specific",
+    "questions": [
+      "how can i access the journal of marketing?",
+      "where can i find marketing journals?",
+      "is journal of marketing available online?",
+      "how do i use business source complete?",
+      "whats the best database for marketin journals?"
+    ]
+  },
+  {
+    "intent": "check_ipad",
+    "questions": [
+      "how do i check out an ipad from the library?",
+      "can i borrow an ipad from the library?",
+      "how do i rent an ipad from thomas cooper library?",
+      "do i need a carolinacard to checkout an ipad?",
+      "whats the deal with ipad checkout?"
+    ]
+  },
+  {
+    "intent": "computer_available_library",
+    "questions": [
+      "are there computers available in the library?",
+      "are there macs available in the library?",
+      "what technology is available for checkout at usc library?",
+      "where are the desktops in tcoop?",
+      "got any pcs available in tcoop?"
+    ]
+  },
+  {
+    "intent": "usc_library",
+    "questions": [
+      "where are the other usc libraries located?",
+      "does usc have a law library?",
+      "are there libraries on other usc campuses?",
+      "how many libraries does usc have?",
+      "usc lib locs in columbia?"
+    ]
+  },
+  {
+    "intent": "library_film_video",
+    "questions": [
+      "does the library have films and videos available?",
+      "can i check out videos from thomas cooper library?",
+      "how do i rent movies from usc library?",
+      "do i need a carolinacard to borrow videos?",
+      "can students stream vids 4 free?"
+    ]
+  },
+  {
+    "intent": "get_full_text_access",
+    "questions": [
+      "how do i get full text access to a specific article?",
+      "how do i find full text articles in library databases?",
+      "can't find pdf of article what to do?",
+      "how to access full text from google scholar?",
+      "pdf not available online? what r my options?"
+    ]
+  },
+  {
+    "intent": "access_harvard_business_review",
+    "questions": [
+      "how do i access harvard business review articles through the library?",
+      "where can i find hbr articles?",
+      "can i read hbr online for free?",
+      "how to search hbr articles?",
+      "usc hbr access off campus"
+    ]
+  },
+  {
+    "intent": "i’m_outside_united_state",
+    "questions": [
+      "how do i access usc library resources from abroad?",
+      "do i need a vpn to access usc library?",
+      "how to download usc vpn?",
+      "can i use usc library if i'm not in the us?",
+      "im outside usa cant acess usc lib, help!"
+    ]
+  },
+  {
+    "intent": "see_zotero_notification_automatically",
+    "questions": [
+      "what does the zotero notification about proxy redirection mean?",
+      "how do i fix zotero redirecting me?",
+      "what's wrong with my zotero access?",
+      "how do i get rid of the yellow bar in zotero?",
+      "can't access library resources thru zotero"
+    ]
+  },
+  {
+    "intent": "floor_thomas_cooper_library",
+    "questions": [
+      "where are the quiet floors in thomas cooper library?",
+      "where can i study quietly in the library?",
+      "are there silent study rooms available?",
+      "how to reserve a study carrel?",
+      "whats the quietest floor in thomas cooper?"
+    ]
+  },
+  {
+    "intent": "student_success_center_peer",
+    "questions": [
+      "where is the student success center located?",
+      "what floor is student success on in thomas cooper library?",
+      "how do i make an appointment at the student success center?",
+      "can i get tutoring at the library?",
+      "whr is student sucess?"
+    ]
+  },
+  {
+    "intent": "mailing_address_thomas_cooper",
+    "questions": [
+      "what is the mailing address for the thomas cooper library?",
+      "how do i get to thomas cooper library by gps?",
+      "what's the address of the main library?",
+      "where can i park near thomas cooper library?",
+      "whats the adress of thomas cooper library?"
+    ]
+  },
+  {
+    "intent": "return_book",
+    "questions": [
+      "where can i return library books?",
+      "how do i return usc library items?",
+      "can i mail back usc library books?",
+      "can i return books to any library location?",
+      "where do i take back usc books?"
+    ]
+  },
+  {
+    "intent": "make_suggestion_library",
+    "questions": [
+      "how do i make suggestions to the library?",
+      "how can i provide feedback to the library?",
+      "where can i send my library concerns?",
+      "who do i contact about library issues?",
+      "usc lib got a comment box or somethin?"
+    ]
+  },
+  {
+    "intent": "make_noise_complaint_staff",
+    "questions": [
+      "how do i report noise in the library?",
+      "who do i contact about noise in the library?",
+      "what do i do if the library is too loud?",
+      "how to complain about noise?",
+      "disturbance in library, pls hlp!"
+    ]
+  },
+  {
+    "intent": "find_journal_impact_factor",
+    "questions": [
+      "how do i find a journal's impact factor?",
+      "what is journal impact factor?",
+      "where can i find journal citation reports?",
+      "how to check journal impact factor?",
+      "Can you help me check impact factor of a journal?"
+    ]
+  },
+  {
+    "intent": "get_online_access_library",
+    "questions": [
+      "when can i get online access to library resources as a new student?",
+      "how to get library access?",
+      "why can't i access library stuff yet?",
+      "when do fall students get library access?",
+      "Can't access online resources, help!"
+    ]
+  },
+  {
+    "intent": "pay_library_fine",
+    "questions": [
+      "how do i pay a library fine?",
+      "where do i pay library fines?",
+      "can i use a credit card to pay a library fine?",
+      "how 2 pay lib fine?",
+      "can i pay lib fine w/ credit card?"
+    ]
+  },
+  {
+    "intent": "friend_university_library_previously",
+    "questions": [
+      "how do i join friends of university libraries?",
+      "what are the benefits of joining friends of university libraries?",
+      "can non-students borrow books from thomas cooper library?",
+      "how to get borrowing privileges at usc library?",
+      "whats the deal with Friends of University Libraries? how do i get in on that?"
+    ]
+  },
+  {
+    "intent": "university_institutional_repository",
+    "questions": [
+      "does the university have an institutional repository?",
+      "what is scholar commons?",
+      "how do i access scholar commons?",
+      "can i contribute to scholar commons?",
+      "i wanna check out usc's institutional repository, where can i find it?"
+    ]
+  },
+  {
+    "intent": "set_link_usc_content",
+    "questions": [
+      "how do i set up links to usc content in google scholar?",
+      "how do i link google scholar to usc library?",
+      "can i get usc articles on google scholar?",
+      "how do i see usc library content on google scholar?",
+      "Yo how to set up ViewIt@UofSC on Google Scholar"
+    ]
+  },
+  {
+    "intent": "download_check_ebook",
+    "questions": [
+      "how do i download and check out an ebook?",
+      "how do i read an ebook from the library?",
+      "can i download ebooks for offline reading?",
+      "what do i need to download an ebook?",
+      "whats the process 4 downloading an e book?"
+    ]
+  },
+  {
+    "intent": "check_laptop",
+    "questions": [
+      "can i borrow a laptop from the library?",
+      "where can i find laptops to borrow?",
+      "how long can i keep a borrowed laptop?",
+      "what happens if i don't return a library laptop on time?",
+      "hey can i get a laptop from lib?"
+    ]
+  },
+  {
+    "intent": "library_provide_access_covidence",
+    "questions": [
+      "does the library provide access to covidence?",
+      "how do i access covidence at usc?",
+      "what is covidence and how can i use it?",
+      "how to sign up for covidence?",
+      "can i get covidence thru usc library?"
+    ]
+  },
+  {
+    "intent": "lost_found",
+    "questions": [
+      "where is the lost and found located?",
+      "what do i do if i lost my phone in the library?",
+      "is there a place to turn in a wallet i found?",
+      "where is the info desk in tcoop?",
+      "lost something at library, who do i talk to?"
+    ]
+  },
+  {
+    "intent": "charge_card_cost_print",
+    "questions": [
+      "why is there a charge on my card for more than the cost of my print job?",
+      "how do i use a credit card on student printing kiosks?",
+      "what happens to the authorization amount on my card?",
+      "can i get a refund for incorrect print charges?",
+      "whats up with the extra charge on my card from printing?"
+    ]
+  },
+  {
+    "intent": "found_book_library_catalog",
+    "questions": [
+      "how do i find a book in the library catalog?",
+      "where is my book located in the library?",
+      "how to use call numbers to find books?",
+      "can i request a book for pickup?",
+      "I found this awesome book in the catalog, but idk where it is in the library?"
+    ]
+  },
+  {
+    "intent": "library_fun_book_read",
+    "questions": [
+      "does the library have fun books to read?",
+      "where can i find popular fiction books in the library?",
+      "does usc library have new releases?",
+      "where should i look if i want to read for fun?",
+      "got any fun books at thomas cooper?"
+    ]
+  },
+  {
+    "intent": "data_visualization_support_service",
+    "questions": [
+      "what data visualization support services are available?",
+      "can you list the best data visualization support services?",
+      "what data visualizqation services do u provide?",
+      "what services does the library offer for data visualization?",
+      "Are there any workshops on data visualization?"
+    ]
+  },
+  {
+    "intent": "get_data_visualization_help",
+    "questions": [
+      "how can i visualize my research data?",
+      "where can i get help with data viz?",
+      "do you guys offer data visualization services?",
+      "what kind of data visualization resources does usc offer?",
+      "who can helo me with ccvisualizing data"
+    ]
+  },
+  {
+    "intent": "type_assistance_library_offer",
+    "questions": [
+      "what types of assistance does the library offer for data visualization?",
+      "what kind of data visualization help can i get?",
+      "how can i learn data visualization at usc?",
+      "can i schedule a custom data visualization session for my class?",
+      "usc data lab help"
+    ]
+  },
+  {
+    "intent": "kind_guidance_expect_online",
+    "questions": [
+      "what kind of guidance can i expect from an online consultation?",
+      "can you help me find info on data viz?",
+      "need help picking a data viz tool?",
+      "where can i learn about data visualization?",
+      "data viz resources?"
+    ]
+  },
+  {
+    "intent": "assistance_available_data_analysis",
+    "questions": [
+      "is there any support available for data analysis and statistics?",
+      "where can i go if i need help with data analysis?",
+      "does the library offer statistics assistance?",
+      "can i get one-on-one help with research data?",
+      "data lab hours and location"
+    ]
+  },
+  {
+    "intent": "datalab_located",
+    "questions": [
+      "what is the datalab and where is it located?",
+      "where is the datalab located?",
+      "what floor is datalab on?",
+      "can anyone use the datalab?",
+      "Is DataLab @ lib or not?"
+    ]
+  },
+  {
+    "intent": "kind_data_analysis_statistic",
+    "questions": [
+      "what kind of data analysis and statistics assistance is available?",
+      "where can i get help with data analysis?",
+      "does usc offer statistics assistance?",
+      "can i walk-in for data analysis help?",
+      "How do I schedule a data analysis appointment?"
+    ]
+  },
+  {
+    "intent": "specialized_software_available_datalab",
+    "questions": [
+      "what specialized software is available in the datalab?",
+      "where can i find spss statistics 29 tutorials?",
+      "does usc have sas software?",
+      "how to access jupyter notebook in usc library?",
+      "Which hardware is available in the DataLab?"
+    ]
+  },
+  {
+    "intent": "find_subjectspecific_data_statistic",
+    "questions": [
+      "where can i find subject-specific statistics?",
+      "where can i find statistics for my research?",
+      "i need data for economics course?",
+      "what kind of data does the usc library have?",
+      "finding data for my paper"
+    ]
+  },
+  {
+    "intent": "kind_research_support_university",
+    "questions": [
+      "what kind of research support does the library have?",
+      "what services are available for research support?",
+      "i need help with statistics for my research?",
+      "can i get help with exploratory data analysis?",
+      "What's not included in the library's data analysis service?"
+    ]
+  },
+  {
+    "intent": "What_is_NVivo",
+    "questions": [
+      "what is nvivo?",
+      "how does nvivo work?",
+      "what can i do with nvivo?",
+      "is nvivo available at usc library?",
+      "whats the deal with NVivo?"
+    ]
+  },
+  {
+    "intent": "access_nvivo",
+    "questions": [
+      "how can i access nvivo?",
+      "where can i find nvivo on campus?",
+      "can i use nvivo remotely?",
+      "do you have nvivo in the library?",
+      "Whats the deal with gettin NVivo on my laptop?"
+    ]
+  },
+  {
+    "intent": "find_additional_help_nvivo",
+    "questions": [
+      "where can i get help with nvivo?",
+      "where can i find nvivo user guides?",
+      "how do i learn nvivo?",
+      "where can i find nvivo tutorials for mac?",
+      "whats the best way to learn NVivo?"
+    ]
+  },
+  {
+    "intent": "data_visualization_learning_session",
+    "questions": [
+      "what data visualization learning sessions are available?",
+      "when are data vis sessions offered?",
+      "are data visualization sessions open to everyone?",
+      "where can i register for data visualization workshops?",
+      "wut r sum good data viz learnin sessions?"
+    ]
+  },
+  {
+    "intent": "difference_data_statistic",
+    "questions": [
+      "what is the difference between data and statistics?",
+      "can you explain raw data?",
+      "what are statistics used for?",
+      "how is data analyzed?",
+      "whats the diff btw data & stats?"
+    ]
+  },
+  {
+    "intent": "open_data",
+    "questions": [
+      "what is open data?",
+      "define open data?",
+      "why use open data?",
+      "how can i use open data?",
+      "whats the deal with open data?"
+    ]
+  },
+  {
+    "intent": "different_part_nvivo_workspace",
+    "questions": [
+      "what are the different parts of the nvivo workspace?",
+      "what's the menu bar in nvivo for?",
+      "where do i find project items in nvivo?",
+      "what does navigation view do?",
+      "how do i create a new project in nvivo?"
+    ]
+  }
+]

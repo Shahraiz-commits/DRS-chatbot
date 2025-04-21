@@ -1,0 +1,512 @@
+[
+  {
+    "intent": "library_database_use_them",
+    "questions": [
+      "What are the benefits of using library databases for research?",
+      "How do I find the best database for my research topic?",
+      "Are there any tutorials on using the USC library databases?",
+      "can i access the databases from home?",
+      "What kind of info is in the usc databases?"
+    ]
+  },
+  {
+    "intent": "acceptable_us_librarylicensed_resource",
+    "questions": [
+      "Am I allowed to use library resources for my thesis?",
+      "Can I share a link to a database article with a colleague at another university?",
+      "What are the rules about using images from library databases?",
+      "can i use articles for a class presentation?",
+      "How do I cite library resources properly?"
+    ]
+  },
+  {
+    "intent": "fair_use",
+    "questions": [
+      "What are some examples of fair use in academic research?",
+      "How does fair use apply to using images in my dissertation?",
+      "Can I use a copyrighted song in my student film under fair use?",
+      "is it fair use to make copies for my students?",
+      "Does fair use protect me if I'm making a parody?"
+    ]
+  },
+  {
+    "intent": "resource_help_determine_fair",
+    "questions": [
+      "Where can I find a quiz to test my understanding of fair use?",
+      "Does the library offer consultations on copyright and fair use?",
+      "Can you recommend a good online guide to fair use?",
+      "where can i find a fair use flowchart?",
+      "Is there a fair use calculator I can use?"
+    ]
+  },
+  {
+    "intent": "need_permission_use_copyrighted",
+    "questions": [
+      "When is it necessary to get permission to use a figure from a journal article?",
+      "Do I need permission to use a quote from a book in my blog?",
+      "What happens if I use copyrighted material without permission?",
+      "do i need permission to use public domain stuff?",
+      "Is it okay to use a copyrighted image if I give credit?"
+    ]
+  },
+  {
+    "intent": "seek_permission_use_copyrighted",
+    "questions": [
+      "What should I include in my request for copyright permission?",
+      "Is there a standard form for requesting copyright permission?",
+      "How long does it usually take to get copyright permission?",
+      "what if i cant find the copyright holder?",
+      "Do I need to pay for copyright permission?"
+    ]
+  },
+  {
+    "intent": "library_help_copyright_permission",
+    "questions": [
+      "Can the library help me find open access alternatives to copyrighted materials?",
+      "Does the library offer workshops on copyright for instructors?",
+      "Who at the library can help me clear copyright for my online course?",
+      "can the library help me find public domain images?",
+      "How do I get help with copyright for my dissertation?"
+    ]
+  },
+  {
+    "intent": "different_version_article",
+    "questions": [
+      "What does \"version of record\" actually mean in publishing?",
+      "Is the author accepted manuscript the same as the final published version?",
+      "Where can I find definitions of different article versions?",
+      "whats the difference between a galley proof and a preprint?",
+      "What rights do I have with each version of my article?"
+    ]
+  },
+  {
+    "intent": "find_article_version",
+    "questions": [
+      "Is there a database where I can archive my research papers?",
+      "How do I ensure my published work is discoverable?",
+      "What are the benefits of using a repository for my articles?",
+      "can i share my paper on my personal website?",
+      "How do I find the DOI for my published article?"
+    ]
+  },
+  {
+    "intent": "share_article_version_online",
+    "questions": [
+      "What is the SHERPA/RoMEO database and how can it help me?",
+      "Can I share my article on LinkedIn if it's already published?",
+      "What are the copyright implications of posting my article on ResearchGate?",
+      "can i share my article on a non-profit website?",
+      "How do I find the copyright policy for a specific journal?"
+    ]
+  },
+  {
+    "intent": "vendor_allow_text_data",
+    "questions": [
+      "Are there any tutorials on text and data mining with library resources?",
+      "Who can I talk to about setting up a text mining project?",
+      "What are the ethical considerations for text and data mining?",
+      "can i use python for text analysis with library databases?",
+      "How do I cite my use of text and data mining tools?"
+    ]
+  },
+  {
+    "intent": "evaluation_method_digital_scholarship",
+    "questions": [
+      "What are the best practices for preserving digital projects?",
+      "How do I assess the impact of a digital humanities project?",
+      "What are the key indicators of quality in digital scholarship?",
+      "how do i evaluate the accessibility of a digital project?",
+      "What are the challenges in evaluating digital scholarship?"
+    ]
+  },
+  {
+    "intent": "peerreviewed_journal_available_digital",
+    "questions": [
+      "What are some emerging journals in digital humanities?",
+      "Where can I find impact factors for digital scholarship journals?",
+      "Are there any open access journals for digital pedagogy?",
+      "can you recommend a journal for publishing digital art history research?",
+      "How do I know if a digital scholarship journal is reputable?"
+    ]
+  },
+  {
+    "intent": "resource_help_understand_copyright",
+    "questions": [
+      "What is the difference between copyright and fair use?",
+      "How do I determine if something is in the public domain?",
+      "What are the penalties for copyright infringement in education?",
+      "can i get a copyright checklist for course materials?",
+      "What is the TEACH Act and how does it apply to online teaching?"
+    ]
+  },
+  {
+    "intent": "add_course_reading_blackboard",
+    "questions": [
+      "How do I create persistent links to library resources in Blackboard?",
+      "Can the library help me digitize articles for my Blackboard course?",
+      "What are the best practices for organizing course readings in Blackboard?",
+      "can i embed videos from youtube in blackboard?",
+      "How do I ensure my Blackboard course is accessible to all students?"
+    ]
+  },
+  {
+    "intent": "print_material_available_course",
+    "questions": [
+      "Does the library have a list of required textbooks for each course?",
+      "How do I find out if the library has a copy of my textbook on reserve?",
+      "Can I suggest that the library purchase a textbook for my course?",
+      "are there any open textbooks available for my subject?",
+      "How do I access electronic reserves for my class?"
+    ]
+  },
+  {
+    "intent": "contact_course_material_support",
+    "questions": [
+      "What is the best way to reach the library for help with e-reserves?",
+      "Who should I contact for questions about course materials?",
+      "Is there a specific librarian I can contact for assistance with my subject?",
+      "can i schedule a consultation about course materials?",
+      "What is the library's general information email address?"
+    ]
+  },
+  {
+    "intent": "impact_open_educational_resource",
+    "questions": [
+      "What are the long-term effects of using OER on student success?",
+      "How does OER affect student engagement in the classroom?",
+      "Are there any studies comparing OER to traditional textbooks in terms of learning outcomes?",
+      "does oer improve access for low-income students?",
+      "What are the challenges of implementing OER in higher education?"
+    ]
+  },
+  {
+    "intent": "find_information_music_material",
+    "questions": [
+      "Who is the music librarian at USC?",
+      "How do I find scores and sheet music for my course?",
+      "Can I get assistance with finding streaming audio for my music class?",
+      "are there any online music databases available through the library?",
+      "How do I reserve a listening room in the music library?"
+    ]
+  },
+  {
+    "intent": "find_openly_available_research",
+    "questions": [
+      "What are some reliable sources for open access journal articles?",
+      "How do I use Google Scholar to find free versions of research papers?",
+      "Are there any browser extensions that automatically find open access articles?",
+      "can i use the library to request an article through interlibrary loan?",
+      "What are some alternatives to Sci-Hub for accessing research?"
+    ]
+  },
+  {
+    "intent": "statistic_textbook_cost",
+    "questions": [
+      "What is the average cost of textbooks per course?",
+      "How have textbook prices changed over the past decade?",
+      "What percentage of students skip buying textbooks due to cost?",
+      "are there any grants to help students with textbook costs?",
+      "What are some strategies for reducing textbook expenses?"
+    ]
+  },
+  {
+    "intent": "determine_journal_predatory",
+    "questions": [
+      "What are some common email scams targeting academic authors?",
+      "How do I check the editorial board of a journal?",
+      "What are the signs of a hijacked journal?",
+      "does the journal have a clear retraction policy?",
+      "How do I report a predatory journal?"
+    ]
+  },
+  {
+    "intent": "industry_membership_indicate_journal",
+    "questions": [
+      "What are some reputable organizations for academic publishers?",
+      "How do I check if a journal is indexed in Web of Science or Scopus?",
+      "What is the Committee on Publication Ethics (COPE) and why is it important?",
+      "is the journal listed in the directory of open access journals?",
+      "How do I find out if a journal has a legitimate peer review process?"
+    ]
+  },
+  {
+    "intent": "difference_backup_storage",
+    "questions": [
+      "What type of storage is best for archival purposes?",
+      "How often should I back up my data?",
+      "What are the different types of backup methods?",
+      "is cloud storage a good option for backups?",
+      "How do I choose the right backup solution for my needs?"
+    ]
+  },
+  {
+    "intent": "make_class_affordable",
+    "questions": [
+      "How can I incorporate library-licensed resources into my course?",
+      "What are some strategies for finding high-quality OER?",
+      "Can the library help me evaluate the quality of OER materials?",
+      "are there any workshops on creating zero-cost courses?",
+      "How do I get started with using open textbooks?"
+    ]
+  },
+  {
+    "intent": "support_library_offer_course",
+    "questions": [
+      "Can the library help me create accessible course materials?",
+      "What kind of training does the library offer for instructors?",
+      "How do I get help with copyright for my online course?",
+      "can the library help me find multimedia for my course?",
+      "What are the library's policies on fair use and course materials?"
+    ]
+  },
+  {
+    "intent": "scoer_faculty_award",
+    "questions": [
+      "What are the eligibility requirements for the SCoer Faculty Awards?",
+      "How are the SCoer Faculty Awards judged?",
+      "What is the purpose of the SCoer Faculty Awards?",
+      "can i see some examples of successful scoer award applications?",
+      "What is the deadline for applying for the SCoer Faculty Awards?"
+    ]
+  },
+  {
+    "intent": "statewide_initiative_available_help",
+    "questions": [
+      "What are the benefits of participating in statewide affordable learning initiatives?",
+      "How do I find out about upcoming PASCAL events and workshops?",
+      "What resources does PASCAL offer for faculty using OER?",
+      "are there any grants available through pascal for oer adoption?",
+      "How does PASCAL support affordable learning in South Carolina?"
+    ]
+  },
+  {
+    "intent": "get_help_locating_affordable",
+    "questions": [
+      "Who can I talk to at the library about finding affordable textbooks?",
+      "Does the library offer a syllabus review service for affordable resources?",
+      "What are some strategies for finding low-cost course materials?",
+      "can i get help finding open educational resources for my course?",
+      "How do I request a consultation with a librarian about affordable learning?"
+    ]
+  },
+  {
+    "intent": "find_resource_registering_project",
+    "questions": [
+      "What are the benefits of preregistering my research study?",
+      "How do I use the Open Science Framework (OSF) for preregistration?",
+      "What are some examples of well-preregistered research projects?",
+      "is preregistration required for publishing in certain journals?",
+      "How does preregistration improve the transparency of research?"
+    ]
+  },
+  {
+    "intent": "open_textbook_source_available",
+    "questions": [
+      "What are the best websites for finding open textbooks?",
+      "How do I evaluate the quality of open textbooks?",
+      "Are there any directories of open educational resources (OER)?",
+      "can i find open textbooks for advanced courses?",
+      "How do I contribute to the Open Textbook Library?"
+    ]
+  },
+  {
+    "intent": "scoer_award",
+    "questions": [
+      "What are the different tracks within the SCoer Awards program?",
+      "How do I nominate a faculty member for a SCoer Award?",
+      "What are the criteria for selecting SCoer Award recipients?",
+      "are there any workshops on using oer at usc?",
+      "How does the SCoer Award program support affordable learning at USC?"
+    ]
+  },
+  {
+    "intent": "winner_scoer_award",
+    "questions": [
+      "What projects have previous SCoer Award winners implemented?",
+      "How have SCoer Award winners impacted student learning?",
+      "What are the benefits of winning a SCoer Award?",
+      "can i see a list of past scoer award recipients?",
+      "How do I learn more about the SCoer Award program?"
+    ]
+  },
+  {
+    "intent": "benefit_using_open_educational",
+    "questions": [
+      "How does using OER promote student equity and inclusion?",
+      "What are the pedagogical benefits of using OER in the classroom?",
+      "How does OER affect student access to course materials?",
+      "does oer improve student grades?",
+      "What are the cost savings associated with using OER?"
+    ]
+  },
+  {
+    "intent": "quote_award_recipient_chose",
+    "questions": [
+      "What motivated SCoer Award recipients to adopt OER?",
+      "How did SCoer Award recipients overcome challenges in using OER?",
+      "What advice do SCoer Award recipients have for other faculty considering OER?",
+      "what do faculty say about the impact of oer on their teaching?",
+      "How have SCoer Award recipients used OER to enhance student learning?"
+    ]
+  },
+  {
+    "intent": "factor_selection_committee_consider",
+    "questions": [
+      "What are the key criteria for evaluating SCoer grant applications?",
+      "How does the selection committee assess the potential impact of OER projects?",
+      "What are the priorities of the selection committee for SCoer grants?",
+      "are there any specific types of oer projects that are favored?",
+      "How does the selection committee ensure that OER projects are sustainable?"
+    ]
+  },
+  {
+    "intent": "winner_plan_achieve_award",
+    "questions": [
+      "How do SCoer Award winners plan to use their awards to improve student outcomes?",
+      "What are the long-term goals of SCoer Award winners?",
+      "How do SCoer Award winners plan to share their OER projects with others?",
+      "what are the innovative approaches to teaching that scoer award winners are using?",
+      "How do SCoer Award winners plan to assess the effectiveness of their OER projects?"
+    ]
+  },
+  {
+    "intent": "scoer_faculty_award_2020",
+    "questions": [
+      "What were the specific OER projects implemented by the 2020 SCoer Faculty Award winners?",
+      "How did the 2020 SCoer Faculty Award winners address affordability in their courses?",
+      "What impact did the 2020 SCoer Faculty Award winners have on student learning?",
+      "what were the motivations of the 2020 scoer faculty award winners?",
+      "How did the 2020 SCoer Faculty Award winners collaborate with the library?"
+    ]
+  },
+  {
+    "intent": "winner_scoer_faculty_award",
+    "questions": [
+      "What are the benefits of applying for the SCoer Faculty Award?",
+      "How does the SCoer Faculty Award support faculty innovation in teaching?",
+      "What resources are available to help faculty prepare SCoer Faculty Award applications?",
+      "are there any workshops on applying for the scoer faculty award?",
+      "How does the SCoer Faculty Award contribute to the university's mission?"
+    ]
+  },
+  {
+    "intent": "required_participate_scoer_program",
+    "questions": [
+      "What are the expectations for faculty members participating in the SCoer program?",
+      "How does the SCoer program support faculty in creating and implementing OER?",
+      "What are the long-term commitments for faculty members participating in the SCoer program?",
+      "are there any workshops on creating oer?",
+      "How does the SCoer program ensure the quality and sustainability of OER projects?"
+    ]
+  },
+  {
+    "intent": "scoer_grant_recipient_selected",
+    "questions": [
+      "What are the criteria for selecting SCoer Grant recipients?",
+      "How does the selection committee assess the potential impact of SCoer Grant projects?",
+      "What are the priorities of the selection committee for SCoer Grants?",
+      "are there any specific types of oer projects that are favored for scoer grants?",
+      "How does the selection committee ensure that SCoer Grant projects are aligned with the university's mission?"
+    ]
+  },
+  {
+    "intent": "scoer_grant_recipient",
+    "questions": [
+      "What were the specific OER projects implemented by SCoer Grant recipients?",
+      "How did SCoer Grant recipients address affordability in their courses?",
+      "What impact did SCoer Grant recipients have on student learning?",
+      "what were the motivations of the scoer grant recipients?",
+      "How did SCoer Grant recipients collaborate with the library?"
+    ]
+  },
+  {
+    "intent": "scoer_faculty_grant",
+    "questions": [
+      "What are the eligibility requirements for the SCoer Faculty Grant?",
+      "How are the SCoer Faculty Grants judged?",
+      "What is the purpose of the SCoer Faculty Grant?",
+      "can i see some examples of successful scoer faculty grant applications?",
+      "What is the deadline for applying for the SCoer Faculty Grant?"
+    ]
+  },
+  {
+    "intent": "service_library_offer_faculty",
+    "questions": [
+      "What research support services does the library offer to faculty?",
+      "How can the library help me design engaging and effective courses?",
+      "What training programs are available for faculty to improve their teaching skills?",
+      "are there any workshops on using technology in the classroom?",
+      "How does the library support faculty in their scholarly activities?"
+    ]
+  },
+  {
+    "intent": "osf_free",
+    "questions": [
+      "How does the OSF ensure the long-term preservation of data?",
+      "What are the benefits of making my research project public on OSF?",
+      "How do I get a digital object identifier (DOI) for my project on OSF?",
+      "is osf really free to use for everyone?",
+      "How does the OSF generate revenue to support its operations?"
+    ]
+  },
+  {
+    "intent": "criterion_use_evaluate_oer",
+    "questions": [
+      "What are the key criteria for evaluating the quality of OER materials?",
+      "How do I assess the pedagogical effectiveness of an OER?",
+      "What are the accessibility considerations for OER materials?",
+      "are there any rubrics for evaluating oer?",
+      "How do I ensure that an OER is aligned with my course learning objectives?"
+    ]
+  },
+  {
+    "intent": "open_pedagogy",
+    "questions": [
+      "What are some examples of open pedagogy in practice?",
+      "How does open pedagogy empower students in the learning process?",
+      "What are the benefits of using open pedagogy in higher education?",
+      "is open pedagogy the same as project-based learning?",
+      "How does open pedagogy promote collaboration and knowledge sharing?"
+    ]
+  },
+  {
+    "intent": "student_involved_creation_knowledge",
+    "questions": [
+      "What are some ways to involve students in creating course content?",
+      "How can students contribute to open educational resources (OER)?",
+      "What are the benefits of student-generated content in the classroom?",
+      "can students create and edit wikipedia pages for course credit?",
+      "How do I facilitate student discussions and knowledge sharing online?"
+    ]
+  },
+  {
+    "intent": "resource_available_open_pedagogy",
+    "questions": [
+      "What platforms can I use to create and share open textbooks?",
+      "How do I find resources for implementing open pedagogy in my course?",
+      "What are some tools for collaborative annotation and knowledge sharing?",
+      "is there a guide to creating student-made open textbooks?",
+      "How do I use Google Sites or WordPress for open educational resources?"
+    ]
+  },
+  {
+    "intent": "find_open_freely_available",
+    "questions": [
+      "What are some reliable sources for open and freely available case studies?",
+      "How do I find case studies for specific industries or topics?",
+      "Are there any open access collections of business ethics case studies?",
+      "can i access mit case studies for free?",
+      "How do I use the Learning Edge case study database?"
+    ]
+  },
+  {
+    "intent": "open_access_journal_featuring",
+    "questions": [
+      "What are some open access journals that publish case studies?",
+      "How do I find open access case studies in my field of study?",
+      "Are there any open access resources for business case studies?",
+      "can i use open case studies in my teaching?",
+      "What are the licensing terms for open case studies?"
+    ]
+  }
+]

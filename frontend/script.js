@@ -10,8 +10,8 @@ const submitFeedbackBtn = document.getElementById("submitFeedbackBtn");
 const senderID = "user_" + Math.floor(Math.random() * 100000);
 let lastUserQuestion = "";
 let messageCounter = 0;
+let typingInProgress = false;
 
-// Modal elements
 const policyDialog = document.getElementById("policyDialog");
 const viewPolicyBtn = document.getElementById("viewPolicyBtn");
 const closeSurveyBtn = document.getElementById("closeSurveyBtn");
@@ -24,13 +24,22 @@ const PROD_LINK =
   "https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook";
 
 function scrollChatToBottom() {
-  chatLog.scrollTop = chatLog.scrollHeight;
+  if (chatLog && typeof chatLog.scrollHeight !== 'undefined') {
+    if (chatLog.scrollHeight - chatLog.scrollTop <= chatLog.clientHeight + 200) {
+      chatLog.scrollTop = chatLog.scrollHeight;
+    }
+  } else {
+    console.warn("Chatlog not available or ready for scrolling.");
+  }
 }
 
-// --- Modal Control Functions ---
 function openModal(modal) {
   if (modal) {
     modal.style.display = "flex";
+    const focusable = modal.querySelector('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+    if (focusable) {
+      focusable.focus();
+    }
   }
 }
 
@@ -40,101 +49,175 @@ function closeModal(modal) {
   }
 }
 
-// --- Helper to extract text content from HTML ---
+function wrapTextNodes(node, charSpans) {
+  if (node.nodeType === Node.TEXT_NODE) {
+    const text = node.nodeValue;
+    const fragment = document.createDocumentFragment();
+    for (let i = 0; i < text.length; i++) {
+      const span = document.createElement('span');
+      span.className = 'typewriter-char';
+      span.textContent = text[i];
+
+      if (text[i] === ' ' && (i > 0 && text[i - 1] === ' ' || i < text.length - 1 && text[i + 1] === ' ')) {
+        span.innerHTML = ' ';
+      } else if (text[i] === '\n') {
+        span.textContent = '\n';
+      }
+      fragment.appendChild(span);
+      charSpans.push(span);
+    }
+    try {
+      if (node.parentNode) {
+        node.parentNode.replaceChild(fragment, node);
+      }
+    } catch (e) {
+      console.error("Error replacing text node:", e, node);
+    }
+  } else if (node.nodeType === Node.ELEMENT_NODE && node.childNodes.length > 0) {
+    const children = Array.from(node.childNodes);
+    children.forEach(child => wrapTextNodes(child, charSpans));
+  }
+}
+
+
+function typeWriterEffect(element, finalHtml, speed = 10) {
+  if (!element) {
+    console.error("Typewriter effect called on a null or undefined element.");
+    return;
+  }
+  if (typingInProgress) {
+    console.warn("Typing effect already running. Overlapping effects might occur.");
+  }
+  typingInProgress = true;
+  element.innerHTML = finalHtml;
+  element.classList.add("typing");
+
+  const charSpans = [];
+  wrapTextNodes(element, charSpans);
+
+  let i = 0;
+  let initialScrollHeight = 0;
+  try {
+    initialScrollHeight = element.scrollHeight;
+  } catch (e) {
+    console.warn("Could not read scrollHeight during typewriter init", e);
+  }
+
+
+  function type() {
+    if (i < charSpans.length) {
+      const span = charSpans[i];
+      if (span) {
+        span.style.opacity = '1';
+      } else {
+        console.warn("Missing span at index", i, "during typing.");
+      }
+      i++;
+
+      if (element.closest) {
+        const isLastMessageContainer = element.closest('.message-container') === chatLog?.lastElementChild;
+        const isNearBottom = chatLog && (chatLog.scrollHeight - chatLog.scrollTop <= chatLog.clientHeight + 100); // Threshold
+
+        if (isLastMessageContainer || isNearBottom) {
+          try {
+            if (element.scrollHeight > initialScrollHeight + 10) {
+              scrollChatToBottom();
+            }
+          } catch (e) { }
+        }
+      }
+
+      setTimeout(type, speed);
+    } else {
+      if (element) {
+        element.classList.remove("typing");
+      }
+      typingInProgress = false;
+      scrollChatToBottom();
+
+
+      if (element?.closest) {
+        const messageDiv = element.closest('.message');
+        const controlsDivMsg = messageDiv?.querySelector('.message-controls');
+        const showMoreBtnMsg = controlsDivMsg?.querySelector('.show-more-btn');
+
+        if (messageDiv && controlsDivMsg && showMoreBtnMsg && element.classList.contains('message-content-preview')) {
+          try {
+            if (element.scrollHeight > element.clientHeight + 10) {
+              showMoreBtnMsg.style.display = 'inline-block';
+              controlsDivMsg.style.display = 'block';
+            } else {
+              showMoreBtnMsg.style.display = 'none';
+              controlsDivMsg.style.display = 'none';
+            }
+          } catch (e) { }
+        }
+
+        const optionCard = element.closest('.option-card');
+        const optionControls = optionCard?.querySelector('.option-controls');
+        const showMoreBtnOption = optionControls?.querySelector('.show-more-btn');
+
+        if (optionCard && optionControls && showMoreBtnOption && element.classList.contains('option-content-preview')) {
+          try {
+            if (element.scrollHeight > element.clientHeight + 10) {
+              showMoreBtnOption.style.display = 'inline-block';
+              optionControls.style.display = 'flex';
+            } else {
+              showMoreBtnOption.style.display = 'none';
+            }
+          } catch (e) { }
+        }
+      }
+
+      setTimeout(scrollChatToBottom, 50);
+    }
+  }
+  type();
+}
+
 function getTextContentFromHtml(htmlString) {
   const tempDiv = document.createElement('div');
   tempDiv.innerHTML = htmlString;
   return tempDiv.textContent || tempDiv.innerText || "";
 }
 
-// --- Typing Effect Function (Modified) ---
-function typeWriterEffect(element, textToType, finalHtml, speed = 0.01) {
-  let i = 0;
-  element.innerHTML = ""; // Clear existing content
-  element.classList.add("typing"); // Add typing class for cursor
-
-  function type() {
-    if (i < textToType.length) {
-      const char = textToType.charAt(i);
-      // Append character (use textContent to avoid potential HTML injection)
-      element.textContent += char;
-      i++;
-      // Scroll to bottom during typing
-      if (element.closest('.message-container') === chatLog.lastElementChild || element.closest('.option-card')) {
-        scrollChatToBottom();
-      }
-      setTimeout(type, speed);
-    } else {
-      element.classList.remove("typing"); // Remove typing class when done
-      // Replace typed text with the final formatted HTML
-      element.innerHTML = finalHtml;
-      scrollChatToBottom(); // Ensure scrolled to bottom after typing
-
-      // Check for 'Show more' button visibility AFTER final HTML is set
-      const messageDiv = element.closest('.message');
-      const controlsDiv = messageDiv?.querySelector('.message-controls');
-      if (messageDiv && controlsDiv && element.scrollHeight > element.clientHeight + 5) {
-        controlsDiv.style.display = 'block';
-      }
-      // Check for option card show more
-      const optionCard = element.closest('.option-card');
-      const optionControls = optionCard?.querySelector('.option-controls .show-more-btn');
-      if (optionCard && optionControls && element.scrollHeight > element.clientHeight + 5) {
-        optionControls.style.display = 'inline-block'; // or 'block'
-      } else if (optionControls) {
-        optionControls.style.display = 'none';
-      }
-    }
-  }
-  type();
-}
 
 function addMessageToChat(text, ...classNames) {
   const isBotMsg = classNames.includes("botMsg");
   const isErrorMsg = classNames.includes("errorMsg");
   const isUserMsg = classNames.includes("userMsg");
+  const isGreeting = text.startsWith("Hi! How can I help you?");
+  const isAlternativeIntro = text.includes("Sorry, I am a bit unsure");
 
   const container = document.createElement("div");
   container.classList.add("message-container");
 
-  if (isBotMsg) {
+  if (isBotMsg && !isAlternativeIntro) {
     container.setAttribute("data-user-question", lastUserQuestion);
   }
 
   text = text.replace(/\n{3,}/g, "\n\n").trim();
 
-  // --- PARSE MARKDOWN EARLY --- 
-  let parsedHtml = '';
-  let textContent = text; // Default to original text for non-markdown cases
-  let formattedText = text; // Default
-
-  if (isBotMsg || !isUserMsg) { // Parse for bot messages or system messages (like errors)
+  let formattedText = text;
+  if ((isBotMsg || isErrorMsg) && !isUserMsg && !isAlternativeIntro) {
     try {
-      parsedHtml = marked.parse(text);
-      // Enhance links to open in new tab
+      let parsedHtml = marked.parse(text, { breaks: true });
       formattedText = parsedHtml.replace(
-        /<a href='([^']+)'>([^<]+)<\/a>/g, // Simpler regex, assumes no extra attributes in markdown links
-        (match, url, linkText) =>
-          `<a href='${url}' target='_blank' rel='noopener noreferrer'>${linkText} <img src='link-icon.png' class='link-icon' alt='Link'/></a>`
+        /<a href="([^"]+)"/g,
+        (match, url) => `<a href="${url}" target="_blank" rel="noopener noreferrer"`
       );
-      // Get text content for typewriter
-      textContent = getTextContentFromHtml(parsedHtml); // Use the non-link-enhanced version for typing
     } catch (e) {
       console.error("Markdown parsing error:", e);
-      formattedText = text; // Fallback to original text on error
-      textContent = text;
+      formattedText = `<p>${text.replace(/\n/g, '<br>')}</p>`;
     }
   }
-  // --- END PARSE --- 
 
   const messageDiv = document.createElement("div");
   messageDiv.classList.add("message", ...classNames);
 
-  // Add icon for bot messages
   if (isBotMsg && !isErrorMsg) {
     const iconContainer = document.createElement("div");
     iconContainer.classList.add("bot-icon-container");
-
     let iconText = "DRS";
     let iconClass = "drs-icon";
     const iconDiv = document.createElement("div");
@@ -144,10 +227,7 @@ function addMessageToChat(text, ...classNames) {
     container.appendChild(iconContainer);
   }
 
-  const shouldApplyTypewriter = isBotMsg &&
-    !text.startsWith("Sorry, I am a bit unsure") &&
-    !text.startsWith("Thank you for your feedback!") &&
-    !isErrorMsg;
+  const shouldApplyTypewriter = isBotMsg;
 
   if (shouldApplyTypewriter) {
     const contentDiv = document.createElement('div');
@@ -156,7 +236,7 @@ function addMessageToChat(text, ...classNames) {
 
     const controlsDiv = document.createElement('div');
     controlsDiv.classList.add('message-controls');
-    controlsDiv.style.display = 'none'; // Hide initially
+    controlsDiv.style.display = 'none';
 
     const showMoreBtn = document.createElement('button');
     showMoreBtn.classList.add('show-more-btn');
@@ -164,9 +244,8 @@ function addMessageToChat(text, ...classNames) {
     showMoreBtn.onclick = () => {
       messageDiv.classList.toggle('expanded');
       showMoreBtn.textContent = messageDiv.classList.contains('expanded') ? 'Show less' : 'Show more';
-      if (chatLog && container === chatLog.lastElementChild) {
-        setTimeout(scrollChatToBottom, 50);
-      }
+      contentDiv.style.maxHeight = messageDiv.classList.contains('expanded') ? contentDiv.scrollHeight + 'px' : '';
+      setTimeout(scrollChatToBottom, 50);
     };
     controlsDiv.appendChild(showMoreBtn);
     messageDiv.appendChild(controlsDiv);
@@ -176,275 +255,401 @@ function addMessageToChat(text, ...classNames) {
 
     container.appendChild(messageDiv);
 
-    const feedbackDiv = document.createElement("div");
-    feedbackDiv.classList.add("feedback-buttons");
-    feedbackDiv.innerHTML = `
-      <div class="feedback-buttons-wrapper">
-        <button class="feedback-btn thumbs-up" onclick="handleFeedbackClick('${messageId}', 'positive')">👍</button>
-        <button class="feedback-btn thumbs-down" onclick="handleFeedbackClick('${messageId}', 'negative')">👎</button>
-      </div>
-      <div class="feedback-input-wrapper" style="display: none;">
-        <input type="text" class="feedback-text-input" placeholder="">
-        <button class="submit-feedback-btn">Submit</button>
-      </div>
-    `;
-    container.appendChild(feedbackDiv);
+    if (!isGreeting && !isAlternativeIntro) {
+      const feedbackDiv = document.createElement("div");
+      feedbackDiv.classList.add("feedback-buttons");
+      feedbackDiv.innerHTML = `
+          <div class="feedback-buttons-wrapper">
+            <button class="feedback-btn thumbs-up" title="Good response" aria-label="Good response" onclick="handleFeedbackClick('${messageId}', 'positive')">👍</button>
+            <button class="feedback-btn thumbs-down" title="Bad response" aria-label="Bad response" onclick="handleFeedbackClick('${messageId}', 'negative')">👎</button>
+          </div>
+          <div class="feedback-input-wrapper">
+            <input type="text" class="feedback-text-input" placeholder="">
+            <button class="submit-feedback-btn">Submit</button>
+          </div>
+          <div class="feedback-thank-you" style="display: none;">Thank you for your feedback!</div>
+        `;
+      container.appendChild(feedbackDiv);
+    }
 
     chatLog.appendChild(container);
     scrollChatToBottom();
 
-    // Start typing effect with textContent and final formatted HTML
-    typeWriterEffect(contentDiv, textContent, formattedText);
+    typeWriterEffect(contentDiv, formattedText);
 
   } else if (isUserMsg) {
-    messageDiv.textContent = text; // User messages are plain text
+    messageDiv.textContent = text;
     container.appendChild(messageDiv);
     chatLog.appendChild(container);
     scrollChatToBottom();
   } else {
-    // For simple bot messages (feedback, errors) or non-markdown messages
-    // Set the final formatted HTML directly without typing
-    messageDiv.innerHTML = formattedText;
-    container.appendChild(messageDiv);
-    chatLog.appendChild(container);
-    scrollChatToBottom();
+    if (!isAlternativeIntro) {
+      messageDiv.innerHTML = formattedText;
+      container.appendChild(messageDiv);
+      chatLog.appendChild(container);
+      scrollChatToBottom();
+    } else {
+      // console.log("Detected raw alternative block, will be processed by displayAlternativeButtons.");
+    }
   }
 }
 
-// --- Event Listeners for Modals ---
 viewPolicyBtn.addEventListener('click', () => openModal(policyDialog));
 closeSurveyBtn.addEventListener('click', () => closeModal(survey));
 closePolicyBtn.addEventListener('click', () => closeModal(policyDialog));
 
-// Close modal if clicking outside the content
 window.addEventListener('click', (event) => {
   if (event.target.classList.contains('modal')) {
     closeModal(event.target);
   }
 });
 
-function handleFeedbackClick(messageId, feedbackType) {
-  const messageContainer = document.querySelector(
-    `[data-message-id="${messageId}"]`
-  ).parentElement;
-  const feedbackWrapper = messageContainer.querySelector(
-    ".feedback-input-wrapper"
-  );
-  const textInput = messageContainer.querySelector(".feedback-text-input");
-  const targetBtn = messageContainer.querySelector(
-    feedbackType === "positive" ? ".thumbs-up" : ".thumbs-down"
-  );
+window.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') {
+    const openModalElement = document.querySelector('.modal[style*="display: flex"]');
+    if (openModalElement) {
+      closeModal(openModalElement);
+    }
+  }
+});
 
-  // Toggle off if already selected
+function handleFeedbackClick(messageId, feedbackType) {
+  const messageContainer = document.querySelector(`[data-message-id="${messageId}"]`)?.closest('.message-container');
+  if (!messageContainer) return;
+
+  const feedbackWrapper = messageContainer.querySelector(".feedback-input-wrapper");
+  const textInput = messageContainer.querySelector(".feedback-text-input");
+  const targetBtn = messageContainer.querySelector(feedbackType === "positive" ? ".thumbs-up" : ".thumbs-down");
+  const thankYouMsg = messageContainer.querySelector(".feedback-thank-you");
+  const submitBtn = messageContainer.querySelector(".submit-feedback-btn");
+
+  if (!feedbackWrapper || !textInput || !targetBtn || !thankYouMsg || !submitBtn) {
+    console.error("Feedback elements not found for message:", messageId);
+    return;
+  }
+
+
+  thankYouMsg.style.display = 'none';
+
   if (targetBtn.classList.contains("selected")) {
     targetBtn.classList.remove("selected");
-    feedbackWrapper.style.display = "none";
+    feedbackWrapper.style.opacity = "0";
+    feedbackWrapper.style.height = "0";
+    feedbackWrapper.style.overflow = "hidden";
+    submitBtn.onclick = null;
     return;
   }
 
   const buttons = messageContainer.querySelectorAll(".feedback-btn");
   buttons.forEach((btn) => btn.classList.remove("selected"));
-
   targetBtn.classList.add("selected");
-  feedbackWrapper.style.display = "flex";
 
-  // Scroll the chat down to ensure feedback input is visible
-  scrollChatToBottom();
+  feedbackWrapper.style.opacity = "1";
+  feedbackWrapper.style.height = "auto";
+  feedbackWrapper.style.overflow = "visible";
+  textInput.value = '';
 
-  if (feedbackType === "positive") {
-    textInput.classList.remove("negative");
-    textInput.classList.add("positive");
-    textInput.placeholder = "Enter your positive feedback...";
-  } else {
-    textInput.classList.remove("positive");
-    textInput.classList.add("negative");
-    textInput.placeholder = "Enter your negative feedback...";
-  }
+  textInput.className = 'feedback-text-input'; // Reset classes
+  textInput.classList.add(feedbackType === "positive" ? "positive" : "negative");
+  textInput.placeholder = feedbackType === "positive" ? "What did you like? (Optional)" : "What went wrong? (Optional)";
 
-  const submitBtn = messageContainer.querySelector(".submit-feedback-btn");
-  submitBtn.onclick = () =>
-    submitMessageFeedback(messageId, feedbackType, textInput.value);
+  textInput.focus();
+  setTimeout(scrollChatToBottom, 50);
+
+  submitBtn.onclick = () => submitMessageFeedback(messageId, feedbackType, textInput.value);
 }
 
+
 function submitMessageFeedback(messageId, feedback, feedbackText) {
-  if (feedbackText === "") return;
-  const messageElement = document.querySelector(
-    `[data-message-id="${messageId}"]`
-  );
-  const messageText = messageElement.textContent;
-  const messageContainer = messageElement.parentElement;
-  const userQuestion =
-    messageContainer.getAttribute("data-user-question") || "";
+  if (!feedback) return;
+
+  const messageElement = document.querySelector(`[data-message-id="${messageId}"]`);
+  if (!messageElement) {
+    console.error("Could not find message element for feedback:", messageId);
+    return;
+  }
+  const messageContentElement = messageElement.querySelector('.message-content-preview');
+  const messageHtml = messageContentElement ? messageContentElement.innerHTML : messageElement.innerHTML;
+  const messageText = getTextContentFromHtml(messageHtml);
+
+  const messageContainer = messageElement.closest('.message-container');
+  const userQuestion = messageContainer ? messageContainer.getAttribute("data-user-question") || "" : "";
+
   const feedbackData = {
     feedback: feedback,
-    feedbackText: feedbackText,
+    feedbackText: feedbackText.trim() || "",
     question: userQuestion,
-    response: messageText,
+    response: messageText.trim(),
+    timestamp: new Date().toISOString(),
+    sender: senderID
   };
 
-  // Save feedback to Firebase
+  // console.log("Submitting message feedback:", feedbackData);
+
   saveMessageFeedback(feedbackData)
     .then(() => {
-      // Hide input wrapper after submission
-      const container = messageElement.parentElement;
-      const feedbackWrapper = container.querySelector(
-        ".feedback-input-wrapper"
-      );
-      feedbackWrapper.style.display = "none";
+      // console.log("Feedback saved successfully");
+      const container = messageElement.closest('.message-container');
+      if (container) {
+        const feedbackWrapper = container.querySelector(".feedback-input-wrapper");
+        const thankYouMsg = container.querySelector(".feedback-thank-you");
+        const buttonsWrapper = container.querySelector(".feedback-buttons-wrapper");
 
-      // Show thank you message
-      const thankYouMsg = document.createElement("div");
-      thankYouMsg.classList.add("feedback-thank-you");
-      thankYouMsg.textContent = "Thank you for your feedback!";
-      feedbackWrapper.parentElement.appendChild(thankYouMsg);
+        if (feedbackWrapper) {
+          feedbackWrapper.style.opacity = "0";
+          feedbackWrapper.style.height = "0";
+          feedbackWrapper.style.overflow = "hidden";
+        }
+        if (thankYouMsg) {
+          thankYouMsg.style.display = 'block';
+          thankYouMsg.textContent = "Thank you for your feedback!";
+          thankYouMsg.style.color = "#28a745";
+        }
+        buttonsWrapper?.querySelectorAll('.feedback-btn').forEach(btn => btn.classList.remove('selected'));
 
-      // Remove thank you message after 3 seconds
-      setTimeout(() => {
-        thankYouMsg.remove();
-      }, 3000);
+        setTimeout(() => {
+          if (thankYouMsg) thankYouMsg.style.display = 'none';
+        }, 4000);
+      }
     })
     .catch((error) => {
       console.error("Error saving message feedback:", error);
+      const container = messageElement.closest('.message-container');
+      if (container) {
+        const thankYouMsg = container.querySelector(".feedback-thank-you");
+        if (thankYouMsg) {
+          thankYouMsg.textContent = "Error saving feedback.";
+          thankYouMsg.style.color = "red";
+          thankYouMsg.style.display = 'block';
+          setTimeout(() => {
+            if (thankYouMsg) {
+              thankYouMsg.style.display = 'none';
+              thankYouMsg.textContent = "Thank you for your feedback!";
+              thankYouMsg.style.color = "#28a745";
+            }
+          }, 4000);
+        }
+      }
     });
 }
 
+
 function submitFeedback() {
   const rating = ratingInput.value;
-  const comments = commentsInput.value;
-  if (comments === "") {
-    alert("Please enter some comments to provide feedback.")
-    return;
-  }
-  if (!rating || rating < 1 || rating > 5) {
-    alert("Please provide a valid rating between 1 and 5.");
+  const comments = commentsInput.value.trim();
+
+  if (!ratingInput.reportValidity()) {
     return;
   }
 
   const feedbackData = {
-    rating: rating,
+    rating: parseInt(rating, 10),
     feedback: comments,
     sender: senderID,
+    timestamp: new Date().toISOString()
   };
+
+  // console.log("Submitting survey feedback:", feedbackData);
+
+  submitFeedbackBtn.disabled = true;
+  submitFeedbackBtn.textContent = 'Submitting...';
 
   saveSurveyFeedback(feedbackData)
     .then(() => {
-      console.log("Survey feedback submitted to Firebase");
+      // console.log("Survey feedback submitted to Firebase");
       closeModal(survey);
       ratingInput.value = "";
       commentsInput.value = "";
-      addMessageToChat("Thank you for your feedback!", "botMsg");
+      addMessageToChat("Thank you for your feedback! Your input helps improve this service.", "botMsg");
     })
     .catch((error) => {
       console.error("Error saving survey feedback:", error);
+      alert("Sorry, there was an error submitting your feedback. Please try again later.");
+    })
+    .finally(() => {
+      submitFeedbackBtn.disabled = false;
+      submitFeedbackBtn.textContent = 'Submit';
     });
 }
 
-// --- Initial Setup --- 
+function toggleSidebar() {
+  const body = document.body;
+  if (!body || !sidebarToggleBtn) return;
+
+  body.classList.toggle('sidebar-collapsed');
+  const isCollapsed = body.classList.contains('sidebar-collapsed');
+  localStorage.setItem('sidebarCollapsed', isCollapsed);
+
+  if (window.innerWidth > 768) {
+    sidebarToggleBtn.textContent = isCollapsed ? '>' : '<';
+    sidebarToggleBtn.setAttribute('aria-label', isCollapsed ? 'Expand Sidebar' : 'Collapse Sidebar');
+  } else {
+    sidebarToggleBtn.textContent = '';
+    sidebarToggleBtn.setAttribute('aria-label', isCollapsed ? 'Show Info' : 'Hide Info');
+  }
+  sidebarToggleBtn.setAttribute('aria-expanded', !isCollapsed);
+
+}
+
+
 document.addEventListener("DOMContentLoaded", () => {
-  // Remove preload class after initial setup to enable transitions
+  if (!document.body || !localStorage || !themeToggleBtn || !sidebarToggleBtn || !chatLog || !userInput || !sendBtn || !policyDialog || !viewPolicyBtn || !survey) {
+    console.error("Initialization failed: One or more critical DOM elements are missing.");
+    return;
+  }
+
   document.body.classList.remove('preload');
 
   sendMessageToRasa("/greet");
 
-  // --- Theme Setup --- 
   const currentTheme = localStorage.getItem('theme') || 'light-mode'; // Default to light
-  document.body.classList.add(currentTheme);
+  // document.body.classList.add(currentTheme);
   themeToggleBtn.textContent = currentTheme === 'dark-mode' ? '🌙' : '☀️';
 
   // Add event listener for theme toggle button
-  themeToggleBtn.addEventListener('click', toggleTheme);
+  // themeToggleBtn.addEventListener('click', toggleTheme);
 
-  // --- Sidebar Toggle Setup --- 
+
   const sidebarCollapsed = localStorage.getItem('sidebarCollapsed') === 'true';
-  if (sidebarCollapsed) {
-    document.body.classList.add('sidebar-collapsed');
-  }
+  // if (window.innerWidth <= 768) {
+  //   if (sidebarCollapsed !== false) {
+  //     document.body.classList.add('sidebar-collapsed');
+  //   }
+  // } else {
+  //   if (sidebarCollapsed) {
+  //     document.body.classList.add('sidebar-collapsed');
+  //   }
+  // }
 
-  sidebarToggleBtn.addEventListener('click', () => {
-    document.body.classList.toggle('sidebar-collapsed');
-    localStorage.setItem('sidebarCollapsed', document.body.classList.contains('sidebar-collapsed'));
-  });
 
-  // Ensure all links in the chat open in new tabs
+  sidebarToggleBtn.addEventListener('click', toggleSidebar);
+
   chatLog.addEventListener('click', (event) => {
     const link = event.target.closest('a');
-    if (link && !link.hasAttribute('target')) {
-      link.setAttribute('target', '_blank');
-      link.setAttribute('rel', 'noopener noreferrer');
+    if (link && link.href) {
+      if (link.hostname !== window.location.hostname || link.pathname !== window.location.pathname || !link.target) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      }
     }
+  });
+
+
+  window.addEventListener('resize', () => {
+    // Only update button appearance on resize, not layout
+    const isCollapsed = document.body.classList.contains('sidebar-collapsed');
+    if (window.innerWidth <= 768) {
+      sidebarToggleBtn.textContent = '';
+      sidebarToggleBtn.setAttribute('aria-label', isCollapsed ? 'Show Info' : 'Hide Info');
+    } else {
+      sidebarToggleBtn.textContent = isCollapsed ? '>' : '<';
+      sidebarToggleBtn.setAttribute('aria-label', isCollapsed ? 'Expand Sidebar' : 'Collapse Sidebar');
+    }
+    // DO NOT call updateChatContainerMargin - CSS handles resize adjustments
+    // updateChatContainerMargin(); // REMOVED
   });
 });
 
-// quick action btns
+// Quick action buttons
 document.querySelectorAll(".actionBtn").forEach((button) => {
   button.addEventListener("click", () => {
     const query = button.dataset.query;
-    userInput.value = query;
-    sendMessageToRasa(query);
+    if (userInput) { // Check if userInput exists
+      userInput.value = query;
+      sendMessageToRasa(query);
+      userInput.value = ''; // Clear after sending
+    }
   });
 });
 
 function displayAlternativeButtons(data) {
-  addMessageToChat("Sorry, I am a bit unsure. Please <strong>select</strong> one of the options below:", "botMsg");
+
+  addMessageToChat("Sorry, I am a bit unsure with my response. Is this what you were looking for?", "botMsg");
 
   const optionsContainer = document.createElement("div");
   optionsContainer.classList.add("alternative-options-container");
 
-  const startIndex1 = data.findIndex(msg => msg.text?.includes("[1]"));
-  const startIndex2 = data.findIndex(msg => msg.text?.includes("[2]"));
-  const startIndex3 = data.findIndex(msg => msg.text?.includes("[3]"));
-  const endIndex = data.findIndex(msg => msg.text?.startsWith("Did any of these"));
+  const findMarkerIndex = (marker) => data.findIndex(msg => msg.text?.includes(marker));
+
+  const startIndex1 = findMarkerIndex("[1]");
+  const startIndex2 = findMarkerIndex("[2]");
+  const startIndex3 = findMarkerIndex("[3]");
+
+  const endMarkerText = "Did any of these";
+  const endIndex = data.findIndex(msg => msg.text?.startsWith(endMarkerText));
   const effectiveEndIndex = endIndex === -1 ? data.length : endIndex;
 
   const optionsData = [];
+  let optionCount = 1;
+
   if (startIndex1 !== -1) {
     const endSlice1 = startIndex2 !== -1 ? startIndex2 : (startIndex3 !== -1 ? startIndex3 : effectiveEndIndex);
-    optionsData.push({ number: 1, messages: data.slice(startIndex1 + 1, endSlice1) });
-  }
-  if (startIndex2 !== -1) {
-    const endSlice2 = startIndex3 !== -1 ? startIndex3 : effectiveEndIndex;
-    optionsData.push({ number: 2, messages: data.slice(startIndex2 + 1, endSlice2) });
-  }
-  if (startIndex3 !== -1) {
-    optionsData.push({ number: 3, messages: data.slice(startIndex3 + 1, effectiveEndIndex) });
+    optionsData.push({ number: 1, title: `Option ${optionCount++}`, messages: data.slice(startIndex1 + 1, endSlice1) });
+  } else {
+    optionCount++;
   }
 
+  if (startIndex2 !== -1) {
+    const endSlice2 = startIndex3 !== -1 ? startIndex3 : effectiveEndIndex;
+    optionsData.push({ number: 2, title: `Option ${optionCount++}`, messages: data.slice(startIndex2 + 1, endSlice2) });
+  } else {
+    optionCount++;
+  }
+
+  if (startIndex3 !== -1) {
+    optionsData.push({ number: 3, title: `Option ${optionCount++}`, messages: data.slice(startIndex3 + 1, effectiveEndIndex) });
+  }
+
+  // console.log('Parsed alternative options data:', optionsData);
+
+  if (optionsData.length === 0) {
+    console.warn("No valid options parsed from the alternative response data. Displaying raw data as fallback.");
+    let combinedRawText = data
+      .map(msg => msg.text)
+      .filter(text => text && text.trim() !== '')
+      .join('\n\n');
+    if (combinedRawText) {
+      addMessageToChat(combinedRawText, "botMsg", "errorMsg");
+    }
+    return;
+  }
+
+  // --- Create and Append Cards ---
   optionsData.forEach(option => {
     const card = document.createElement("div");
     card.classList.add("option-card");
+    card.setAttribute('role', 'article');
+    card.setAttribute('aria-labelledby', `option-title-${option.number}`);
 
-    const combinedText = option.messages
+    const combinedBodyText = option.messages
       .map(msg => msg.text)
       .filter(text => text && text.trim() !== '---' && text.trim() !== '')
-      .join('\n\n');
+      .join('\n\n')
+      .trim();
 
-    if (!combinedText) return;
-
-    // --- Parse and Format Option Content --- 
-    let parsedHtml = '';
-    let textContent = combinedText;
-    let formattedText = combinedText;
+    let formattedBodyText = '';
     try {
-      parsedHtml = marked.parse(combinedText.trim());
-      formattedText = parsedHtml.replace(
-        /<a href='([^']+)'>([^<]+)<\/a>/g, // Simpler regex
-        (match, url, linkText) =>
-          `<a href='${url}' target='_blank' rel='noopener noreferrer'>${linkText} <img src='link-icon.png' class='link-icon' alt='Link'/></a>`
-      );
-      textContent = getTextContentFromHtml(parsedHtml);
+      if (combinedBodyText) {
+        let parsedHtml = marked.parse(combinedBodyText, { breaks: true });
+        formattedBodyText = parsedHtml.replace(
+          /<a href="([^"]+)"/g,
+          (match, url) => `<a href="${url}" target="_blank" rel="noopener noreferrer"`
+        );
+      } else {
+        formattedBodyText = "<p><i>No further details provided.</i></p>";
+      }
     } catch (markdownError) {
-      console.error(`Error parsing Markdown for Option ${option.number}:`, markdownError, combinedText);
-      formattedText = `<p>Error displaying content.</p>`;
-      textContent = "Error displaying content.";
+      console.error(`Error parsing Markdown for Option ${option.number} body:`, markdownError, combinedBodyText);
+      formattedBodyText = `<p>Error displaying content.</p>`;
     }
-    // --- End Parse --- 
 
     const header = document.createElement("h3");
-    header.textContent = `Option ${option.number}`;
+    header.id = `option-title-${option.number}`;
+    // Use innerHTML to allow potential formatting in title if needed
+    header.innerHTML = `<strong>${option.title || `Option ${option.number}`}</strong>`;
 
     const contentDiv = document.createElement("div");
     contentDiv.classList.add("option-content-preview");
-    // Content div will be populated by typeWriterEffect
 
     const controlsDiv = document.createElement("div");
     controlsDiv.classList.add("option-controls");
@@ -452,71 +657,89 @@ function displayAlternativeButtons(data) {
     const showMoreBtn = document.createElement("button");
     showMoreBtn.classList.add("show-more-btn");
     showMoreBtn.textContent = "Show more";
-    showMoreBtn.style.display = 'none'; // Hide initially, typing effect will show if needed
-    showMoreBtn.onclick = () => {
-      card.classList.toggle("expanded");
-      showMoreBtn.textContent = card.classList.contains("expanded") ? "Show less" : "Show more";
+    showMoreBtn.style.display = 'none';
+    showMoreBtn.onclick = (e) => {
+      e.stopPropagation();
+      const cardElement = e.target.closest('.option-card');
+      if (!cardElement) return;
+      cardElement.classList.toggle("expanded");
+      showMoreBtn.textContent = cardElement.classList.contains("expanded") ? "Show less" : "Show more";
+      const contentPreview = cardElement.querySelector('.option-content-preview');
+      if (contentPreview) { // Check if contentPreview exists
+        contentPreview.style.maxHeight = cardElement.classList.contains("expanded") ? contentPreview.scrollHeight + 'px' : '';
+      }
       setTimeout(scrollChatToBottom, 100);
     };
 
     const selectBtn = document.createElement("button");
     selectBtn.classList.add("select-option-btn");
     selectBtn.textContent = `Select Option ${option.number}`;
-    selectBtn.onclick = () => {
-      // Disable buttons logic
-      const wrapper = optionsContainer.closest('.message-container');
+    selectBtn.onclick = (e) => {
+      e.stopPropagation();
+      // Target the specific wrapper holding this set of options/buttons
+      const wrapper = optionsContainer.closest('.alternative-options-wrapper');
       if (wrapper) {
         wrapper.querySelectorAll('.select-option-btn, .none-btn-alt').forEach(btn => btn.disabled = true);
       } else {
-        optionsContainer.querySelectorAll('.select-option-btn').forEach(btn => btn.disabled = true);
-        const noneBtn = chatLog.querySelector('.none-btn-alt:not(:disabled)');
-        if (noneBtn) noneBtn.disabled = true;
+        console.warn("Could not find wrapper for alternative options to disable buttons.");
+        // Fallback if wrapper isn't found (should not happen ideally)
+        optionsContainer.querySelectorAll('.select-option-btn, .none-btn-alt').forEach(btn => btn.disabled = true);
       }
       card.classList.add('selected-option');
-      sendMessageToRasa(String(option.number));
-      console.log(option.number);
+      sendMessageToRasa(String(option.number)); // Send selected option number
+      // console.log(`Selected Option: ${option.number}`);
     };
 
     controlsDiv.appendChild(showMoreBtn);
     controlsDiv.appendChild(selectBtn);
 
     card.appendChild(header);
-    card.appendChild(contentDiv); // Add empty content div
+    card.appendChild(contentDiv);
     card.appendChild(controlsDiv);
 
     optionsContainer.appendChild(card);
 
-    // Start typing effect for the option content
-    typeWriterEffect(contentDiv, textContent, formattedText);
+    // Start typing effect ONLY if there is body text
+    if (combinedBodyText) {
+      typeWriterEffect(contentDiv, formattedBodyText, 30); // Slower speed for options?
+    } else {
+      showMoreBtn.style.display = 'none'; // Ensure hidden if no content
+    }
 
   });
 
+  // --- "None of these" Button ---
   const noneButton = document.createElement("button");
   noneButton.classList.add("none-btn-alt");
-  noneButton.textContent = "None of these were helpful 👎";
-  noneButton.onclick = () => {
-    const wrapper = noneButton.closest('.message-container');
+  noneButton.innerHTML = "None of these were helpful 👎";
+  noneButton.onclick = (e) => {
+    e.stopPropagation();
+    const wrapper = noneButton.closest('.alternative-options-wrapper');
     if (wrapper) {
       wrapper.querySelectorAll('.select-option-btn, .none-btn-alt').forEach(btn => btn.disabled = true);
     } else {
-      optionsContainer.querySelectorAll('.select-option-btn').forEach(btn => btn.disabled = true);
-      noneButton.disabled = true;
+      console.warn("Could not find wrapper for none button to disable options.");
+      optionsContainer.querySelectorAll('.select-option-btn, .none-btn-alt').forEach(btn => btn.disabled = true); // Fallback
     }
     sendMessageToRasa("0");
-    console.log("0");
+    // console.log("Selected: None were helpful");
   };
 
-  // Append the container and button in a new message container
-  const wrapper = document.createElement("div");
-  wrapper.classList.add("message-container"); // Don't add botMsg here, it's just a container
-  wrapper.appendChild(optionsContainer);
-  wrapper.appendChild(noneButton);
+  const wrapperContainer = document.createElement("div");
+  wrapperContainer.classList.add("message-container", "alternative-options-wrapper");
 
-  chatLog.appendChild(wrapper);
+  wrapperContainer.appendChild(optionsContainer);
+  wrapperContainer.appendChild(noneButton);
+
+  chatLog.appendChild(wrapperContainer);
   scrollChatToBottom();
 }
 
+// --- sendMessageToRasa ---
 function sendMessageToRasa(message) {
+  message = message?.trim();
+  if (!message) return;
+
   const isIntent = message.startsWith("/");
   const isFeedbackNumber = /^[0-3]$/.test(message);
 
@@ -528,30 +751,52 @@ function sendMessageToRasa(message) {
   if (!isIntent && !isFeedbackNumber) {
     lastUserQuestion = message;
     addMessageToChat(message, "userMsg");
-  } else if (isFeedbackNumber && message !== "0") { // Only add thanks if not "None of these"
-    addMessageToChat("Thank you for your feedback! Can I help you with anything else?", "botMsg");
-  } else if (isFeedbackNumber && message === "0") {
-    addMessageToChat("Okay, I understand. How else can I assist you?", "botMsg");
+    if (userInput) userInput.value = "";
+  } else if (isFeedbackNumber) {
+    // console.log(`Feedback number ${message} selected, sending to Rasa.`);
   }
 
-  if (!isIntent && !isFeedbackNumber && userInput) {
-    userInput.value = "";
-  }
+  // console.log("Sending to Rasa:", payload);
 
   fetch(PROD_LINK, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: { "Content-Type": "application/json", "Accept": "application/json" },
     body: JSON.stringify(payload),
   })
-    .then((response) => response.json())
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
+      }
+      const contentType = response.headers.get("content-type");
+      if (contentType && contentType.indexOf("application/json") !== -1) {
+        return response.json();
+      } else {
+        // console.log("Received non-JSON or empty response from Rasa.");
+        return null;
+      }
+    })
     .then((data) => {
-      const isAlternative =
-        Array.isArray(data) &&
-        data.length > 1 &&
-        data[0]?.text?.startsWith("Sorry,");
+      // console.log("Received from Rasa:", data);
+
+      if (data === null) {
+        if (!isFeedbackNumber) {
+          addMessageToChat("Received an empty response from the server.", "botMsg", "errorMsg");
+        }
+        return;
+      }
+
+      if (!Array.isArray(data)) {
+        console.error("Received non-array response from Rasa:", data);
+        addMessageToChat("Sorry, I received an unexpected response from the server.", "botMsg", "errorMsg");
+        return;
+      }
+
+      const isAlternative = data.some(msg =>
+        msg.text?.includes("[1]") || msg.text?.includes("[2]") || msg.text?.includes("[3]")
+      );
 
       if (isAlternative) {
-        console.log("Alternative Response detected, displaying interactive options.");
+        // console.log("Alternative Response pattern detected. Processing with displayAlternativeButtons.");
         displayAlternativeButtons(data);
       } else {
         let combinedText = data
@@ -560,18 +805,25 @@ function sendMessageToRasa(message) {
           .join("\n\n");
 
         if (combinedText) {
-          console.log("text after: " + combinedText);
-          if(!combinedText.startsWith("Hi!")) combinedText+="\n\n" + getContinuationText();
+          // console.log("text after: " + combinedText);
+          if (!combinedText.startsWith("Hi!")) combinedText += "\n\n" + getContinuationText();
           addMessageToChat(combinedText, "botMsg");
-        } else if (!isFeedbackNumber) {
-          console.log("Received data but combinedText is empty or invalid.");
-          addMessageToChat("Received an empty response from the bot.", "botMsg", "errorMsg");
+        } else if (data.length > 0 && !isFeedbackNumber) {
+          // console.log("Received non-empty response from Rasa, but no text content found.");
+          if (!message.startsWith('/greet')) {
+            addMessageToChat("I received a response, but it was empty. Please try again.", "botMsg", "errorMsg");
+          }
+        } else if (data.length === 0 && !isFeedbackNumber) {
+          // console.log("Received empty array response from Rasa.");
+          if (!message.startsWith('/greet')) {
+            addMessageToChat("I didn't get a response for that. Could you please try rephrasing?", "botMsg", "errorMsg");
+          }
         }
       }
     })
     .catch((err) => {
-      console.error("Error during fetch or JSON parsing:", err);
-      addMessageToChat("Sorry, I couldn't reach the server or process its response. Please try again later.", "botMsg", "errorMsg");
+      console.error("Error during fetch or processing Rasa response:", err);
+      addMessageToChat(`Sorry, there was an issue connecting to the chatbot service (${err.message}). Please try again later.`, "botMsg", "errorMsg");
     });
 }
 
@@ -579,56 +831,42 @@ function sendMessageToRasa(message) {
 function getContinuationText() {
   // Possible continuations
   const texts = {
-    0 : "Feel free to ask me about something else!",
-    1 : "How else may I assist you?",
-    2 : "Anything else I can help you with?",
-    3 : "Is there anything else you need? I'm happy to help!",
-    4 : "Let me know if you need help with anything else!",
-    5 : "Would you like to learn about anything else?",
-    6 : "Can I do something else for you?",
-    7 : "That was a great question! Need anything else?"
+    0: "Feel free to ask me about something else!",
+    1: "How else may I assist you?",
+    2: "Anything else I can help you with?",
+    3: "Is there anything else you need? I'm happy to help!",
+    4: "Let me know if you need help with anything else!",
+    5: "Would you like to learn about anything else?",
+    6: "Can I do something else for you?",
+    7: "That was a great question! Need anything else?"
   }
 
   let chosen = Math.floor((Math.random() * 8)); // Scale to 8 max
   return texts[chosen]
 }
 
-// brooooooooooooo css is booty
 function showSurvey() {
   openModal(survey);
 }
 
-// Event Listeners
 sendBtn.addEventListener("click", () => {
-  const message = userInput.value.trim();
-  if (message) {
-    sendMessageToRasa(message);
-    setTimeout(scrollChatToBottom(), 50);
-  }
+  sendMessageToRasa(userInput.value);
 });
 
 userInput.addEventListener("keypress", (e) => {
-  if (e.key === "Enter") {
-    const message = userInput.value.trim();
-    if (message) {
-      sendMessageToRasa(message);
-      setTimeout(scrollChatToBottom(), 50);
-    }
+  if (e.key === "Enter" && !e.shiftKey) { // Send on Enter only
+    e.preventDefault(); // Prevent default newline on Enter
+    sendMessageToRasa(userInput.value);
   }
 });
 
 submitFeedbackBtn.addEventListener("click", submitFeedback);
 
-// End chat button functionality
-document.getElementById("endChatBtn").addEventListener("click", () => {
-  showSurvey();
-});
+document.getElementById("endChatBtn").addEventListener("click", showSurvey);
 
-// Expose handleFeedbackClick to the global scope for inline event handlers
 window.handleFeedbackClick = handleFeedbackClick;
+window.toggleTheme = toggleTheme;
 
-
-// Update theme toggle functionality
 function toggleTheme() {
   const themeToggleBtn = document.getElementById('themeToggleBtn');
   const body = document.body;

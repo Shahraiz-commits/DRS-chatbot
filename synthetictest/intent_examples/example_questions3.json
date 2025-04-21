@@ -1,0 +1,612 @@
+[
+  {
+    "intent": "resource_understanding_data_privacy",
+    "questions": [
+      "tell me more about data privacy",
+      "what is data security",
+      "how to protect data",
+      "what is data privacy",
+      "what are the data privacy laws"
+    ]
+  },
+  {
+    "intent": "university_policy_apply_research",
+    "questions": [
+      "what are the usc policies on data",
+      "where to find usc research policies",
+      "usc data policy",
+      "research data policy usc",
+      "what are the university data policies"
+    ]
+  },
+  {
+    "intent": "service_osf_integrate_with",
+    "questions": [
+      "what does osf work with",
+      "osf integrations list",
+      "what tools work with osf",
+      "osf integration options",
+      "what can osf connect to"
+    ]
+  },
+  {
+    "intent": "resource_available_research_data",
+    "questions": [
+      "where to learn about research data management",
+      "rdm resources",
+      "data management services",
+      "data management education",
+      "how to manage research data"
+    ]
+  },
+  {
+    "intent": "happens_article_resulting_accepted",
+    "questions": [
+      "what happens to registered reports",
+      "registered reports acceptance",
+      "can registered reports be rejected",
+      "registered report process",
+      "what is osf registration"
+    ]
+  },
+  {
+    "intent": "suggest_workshop",
+    "questions": [
+      "how to schedule a workshop",
+      "who to contact for workshops",
+      "suggest new workshop",
+      "schedule group session",
+      "how to book a workshop"
+    ]
+  },
+  {
+    "intent": "service_available_faculty_instructor",
+    "questions": [
+      "what services for faculty",
+      "library support for instructors",
+      "research resources for professors",
+      "workshops for teachers",
+      "faculty training"
+    ]
+  },
+  {
+    "intent": "kind_ai_support_library",
+    "questions": [
+      "is there an ai institute",
+      "ai institute",
+      "what is ai at usc",
+      "usc ai research",
+      "is there an ai program"
+    ]
+  },
+  {
+    "intent": "workshop_available_ai_data",
+    "questions": [
+      "what ai workshops are available",
+      "best ai workshops",
+      "are there ai workshops",
+      "learn data science tools",
+      "training on python or r"
+    ]
+  },
+  {
+    "intent": "help_ai",
+    "questions": [
+      "who can help me with ai",
+      "how to learn ai",
+      "i need ai help",
+      "appointment for ai",
+      "data science support"
+    ]
+  },
+  {
+    "intent": "artificial_intelligence",
+    "questions": [
+      "what is ai",
+      "tell me about ai",
+      "whats ai",
+      "define ai",
+      "what does ai mean"
+    ]
+  },
+  {
+    "intent": "ai_evolved_time",
+    "questions": [
+      "how has ai evolved",
+      "how has ai changed",
+      "how did ai start",
+      "evolution of ai",
+      "history of ai"
+    ]
+  },
+  {
+    "intent": "application_artificial_intelligence",
+    "questions": [
+      "what are ai applications",
+      "list ai applications",
+      "show ai applications",
+      "tell me about ai applications",
+      "what is ai used for"
+    ]
+  },
+  {
+    "intent": "consider_using_ai_technology",
+    "questions": [
+      "does the library endorse ai",
+      "does usc recommend ai",
+      "what ai tech does usc use",
+      "usc ai policy",
+      "do you endorse ai"
+    ]
+  },
+  {
+    "intent": "text_analysis",
+    "questions": [
+      "tell me about text analysis",
+      "what is text analysis",
+      "text analysis meaning",
+      "how does text analysis work",
+      "is text analysis data mining"
+    ]
+  },
+  {
+    "intent": "terminology_used_text_analysis",
+    "questions": [
+      "tell me the terms used in text analysis",
+      "what terminology is used",
+      "what is content mining",
+      "define text mining",
+      "what is web scraping"
+    ]
+  },
+  {
+    "intent": "get_started_text_analysis",
+    "questions": [
+      "how to get started",
+      "how can i get started",
+      "how do i start",
+      "how to start analyzing",
+      "whats the first step"
+    ]
+  },
+  {
+    "intent": "common_text_analysis_method",
+    "questions": [
+      "what are common methods",
+      "what are text analysis methods",
+      "tell me the most common method",
+      "can you list the methods",
+      "sentiment analysis"
+    ]
+  },
+  {
+    "intent": "store_create_machine_readable",
+    "questions": [
+      "how to store and create",
+      "how to store",
+      "how to create",
+      "machine readable text",
+      "how to make data readable"
+    ]
+  },
+  {
+    "intent": "machine_learning",
+    "questions": [
+      "what is machine learning",
+      "ml",
+      "how does machine learning work",
+      "ml help",
+      "ai model training"
+    ]
+  },
+  {
+    "intent": "different_type_machine_learning",
+    "questions": [
+      "what are the different types",
+      "can you list the types",
+      "tell me the types",
+      "machine learning types",
+      "what types exist"
+    ]
+  },
+  {
+    "intent": "key_term_related_machine",
+    "questions": [
+      "what are some key terms",
+      "can you list the key terms",
+      "list some key terms",
+      "machine learning terms",
+      "can you list the key terms"
+    ]
+  },
+  {
+    "intent": "news_event_related_ai",
+    "questions": [
+      "what news and events",
+      "list the latest news",
+      "what are news and events",
+      "ai news",
+      "whats new at usc"
+    ]
+  },
+  {
+    "intent": "ai_degree_certificate_offered",
+    "questions": [
+      "what ai degrees offered",
+      "what ai degrees in india",
+      "ai degree options",
+      "does usc have ai program",
+      "ai certificate usc"
+    ]
+  },
+  {
+    "intent": "ai_course_available",
+    "questions": [
+      "what ai courses",
+      "list the best ai courses",
+      "what ai courses in india",
+      "what ai courses does usc offer",
+      "usc ai classes"
+    ]
+  },
+  {
+    "intent": "introductory_tool_text_analysis",
+    "questions": [
+      "what are some introductory tools",
+      "tell me the best introductory tool",
+      "recommend introductory tools",
+      "what tools are available",
+      "im new to text analysis"
+    ]
+  },
+  {
+    "intent": "hathitrust_research_center",
+    "questions": [
+      "tell me about hathitrust",
+      "usc login for hathitrust",
+      "can i use hathitrust",
+      "hathitrust digital library",
+      "htrc usc"
+    ]
+  },
+  {
+    "intent": "advanced_text_analysis_tool",
+    "questions": [
+      "what advanced tools are available",
+      "best text analysis software",
+      "tools for analyzing text",
+      "text cleaning resources",
+      "what advanced tools"
+    ]
+  },
+  {
+    "intent": "freely_available_corpus_text",
+    "questions": [
+      "what are some free corpora",
+      "list some free corpora",
+      "tell me the best corpora",
+      "where to find free data",
+      "free corpora"
+    ]
+  },
+  {
+    "intent": "learn_work_api",
+    "questions": [
+      "how to learn api",
+      "tell me the best way",
+      "how can i learn",
+      "how to use library api",
+      "what is api in library"
+    ]
+  },
+  {
+    "intent": "policy_using_ai_developing",
+    "questions": [
+      "what are the policies on ai",
+      "tell me the policy on ai",
+      "can you list policies",
+      "list the policies",
+      "can i use ai"
+    ]
+  },
+  {
+    "intent": "cite_ai_manuscript",
+    "questions": [
+      "how to cite ai",
+      "how can i cite ai",
+      "how do i cite ai",
+      "learn how to cite chatgpt",
+      "how do i cite ai"
+    ]
+  },
+  {
+    "intent": "resource_available_learning_ai",
+    "questions": [
+      "what resources for learning ai",
+      "resources on ai",
+      "using ai for papers",
+      "where to find info on ai",
+      "ai usage guidelines"
+    ]
+  },
+  {
+    "intent": "example_policy_guideline_ai",
+    "questions": [
+      "what are some examples of policies",
+      "list some examples",
+      "show some examples",
+      "what are examples of policies",
+      "what are the guidelines"
+    ]
+  },
+  {
+    "intent": "search_option_available",
+    "questions": [
+      "what search options",
+      "which search options",
+      "can you list search options",
+      "how to search for textbooks",
+      "usc library search"
+    ]
+  },
+  {
+    "intent": "service_library_offer",
+    "questions": [
+      "what services",
+      "list services",
+      "what services",
+      "library services",
+      "can i reserve a room"
+    ]
+  },
+  {
+    "intent": "event_upcoming",
+    "questions": [
+      "what events",
+      "show events",
+      "can you list events",
+      "whats happening",
+      "upcoming events"
+    ]
+  },
+  {
+    "intent": "policy_text_analysis_licensed",
+    "questions": [
+      "what are the policies",
+      "list the policies",
+      "tell me the policy",
+      "can you list the policies",
+      "can i do text analysis"
+    ]
+  },
+  {
+    "intent": "vendor_allow_text_analysis",
+    "questions": [
+      "what vendors allow",
+      "list the vendors",
+      "which vendors allow",
+      "what publishers does usc have",
+      "list of database providers"
+    ]
+  },
+  {
+    "intent": "federal_legal_response_ai",
+    "questions": [
+      "what are some federal responses",
+      "list some federal responses",
+      "what are federal and state",
+      "can you list legal",
+      "what are the federal laws"
+    ]
+  },
+  {
+    "intent": "resource_copyright_ai",
+    "questions": [
+      "what are some resources",
+      "list some resources",
+      "can you list the resources",
+      "can you list the resources",
+      "can ai work be copyrighted"
+    ]
+  },
+  {
+    "intent": "guidance_university_college_provide",
+    "questions": [
+      "what guidance do universities provide",
+      "what guidance do colleges provide",
+      "what advice do universities provide",
+      "other university ai policies",
+      "examples of college guidance"
+    ]
+  },
+  {
+    "intent": "citation_style_guide",
+    "questions": [
+      "what is citation style guide",
+      "how do i cite",
+      "what format is required",
+      "citation guide",
+      "help with citing"
+    ]
+  },
+  {
+    "intent": "need_cite_source",
+    "questions": [
+      "why do i need to cite",
+      "why do i have to cite",
+      "why do you need to cite",
+      "why do i need to cite",
+      "when to cite"
+    ]
+  },
+  {
+    "intent": "commonly_used_citation_style",
+    "questions": [
+      "what are the most common",
+      "can you list the most common",
+      "list the most common",
+      "show the most common",
+      "what citation styles does the library support"
+    ]
+  },
+  {
+    "intent": "contact_library_textbook_course",
+    "questions": [
+      "how to contact the library",
+      "what is library email",
+      "where is the checkout",
+      "need help with music",
+      "music library contact"
+    ]
+  },
+  {
+    "intent": "event_offered_constellate",
+    "questions": [
+      "what events offered by constellate",
+      "can you list events",
+      "list events",
+      "what events offered by jstor",
+      "constellate upcoming events"
+    ]
+  },
+  {
+    "intent": "tutorial_available_text_analysis",
+    "questions": [
+      "what tutorials are available",
+      "can you list the best tutorials",
+      "list the best tutorials",
+      "where to find topic modeling tutorials",
+      "are there python tutorials"
+    ]
+  },
+  {
+    "intent": "instruction_article_available_text",
+    "questions": [
+      "what articles and instructions",
+      "topic modeling resources",
+      "i need help with topic modeling",
+      "where to find articles on mathematics",
+      "distant reading techniques"
+    ]
+  },
+  {
+    "intent": "ama_citation_style",
+    "questions": [
+      "tell me ama style",
+      "what is ama style",
+      "what is the latest ama",
+      "ama 11th edition",
+      "where can i find ama manual"
+    ]
+  },
+  {
+    "intent": "cite_government_report",
+    "questions": [
+      "how to cite a government report",
+      "how to cite nih in ama",
+      "ama citation for government",
+      "nih report citation",
+      "citing national institutes"
+    ]
+  },
+  {
+    "intent": "apa_publication_manual",
+    "questions": [
+      "what is the apa manual",
+      "what is an apa manual",
+      "what is apa manual",
+      "tell me the apa manual",
+      "what is apa style"
+    ]
+  },
+  {
+    "intent": "cite_periodical_apa_style",
+    "questions": [
+      "how to cite periodicals in apa",
+      "how can i cite periodicals",
+      "how to quote periodicals",
+      "how to cite multiple authors",
+      "citation for 3 authors"
+    ]
+  },
+  {
+    "intent": "cite_book_reference_text",
+    "questions": [
+      "how to cite books and references",
+      "how to cite books",
+      "how to cite books and references",
+      "how can i cite books",
+      "how to cite books in research"
+    ]
+  },
+  {
+    "intent": "cite_webpage_website_apa",
+    "questions": [
+      "how to cite webpages",
+      "how to cite a website",
+      "how to cite a webpage",
+      "how to cite a webpage",
+      "citation for website"
+    ]
+  },
+  {
+    "intent": "cite_government_business_technical",
+    "questions": [
+      "how to cite government reports",
+      "how to cite government",
+      "how to cite government",
+      "how can i cite government",
+      "how do i cite government"
+    ]
+  },
+  {
+    "intent": "cite_dissertation_thesis_apa",
+    "questions": [
+      "how to cite dissertations",
+      "how to cite a dissertation",
+      "how to cite a dissertation",
+      "thesis citation",
+      "dissertation referencing"
+    ]
+  },
+  {
+    "intent": "cite_data_set_software",
+    "questions": [
+      "how to cite datasets",
+      "how can i cite datasets",
+      "how do i cite datasets",
+      "what datasets are available",
+      "how to access software"
+    ]
+  },
+  {
+    "intent": "find_information_apa_citation",
+    "questions": [
+      "where to find apa citations",
+      "where to find apa",
+      "where to find apa",
+      "where to find apa",
+      "how to cite in apa"
+    ]
+  },
+  {
+    "intent": "chicago_manual_style",
+    "questions": [
+      "what is chicago manual",
+      "what citation style in history",
+      "chicago manual guide",
+      "how to cite in literature",
+      "what style for arts"
+    ]
+  },
+  {
+    "intent": "cite_primary_source_chicago",
+    "questions": [
+      "how to cite primary sources",
+      "how can i cite primary",
+      "how to cite primary",
+      "how do i cite primary",
+      "citation for historical documents"
+    ]
+  }
+]

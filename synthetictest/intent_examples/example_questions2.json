@@ -1,0 +1,632 @@
+[
+  {
+    "intent": "import_data_file_nvivo",
+    "questions": [
+      "What's the procedure for getting files into NVivo?",
+      "Can NVivo handle different document formats?",
+      "How do I get my research data into NVivo?",
+      "Is there a file size limit for NVivo imports?",
+      "how do i import data to nvivo?"
+    ]
+  },
+  {
+    "intent": "autocode_data_file_nvivo",
+    "questions": [
+      "How can NVivo automatically code my data?",
+      "What are the steps for automatic coding in NVivo?",
+      "Can NVivo identify themes in my data automatically?",
+      "How to use NVivo to compare coding between speakers?",
+      "nvivo auto coding by speaker?"
+    ]
+  },
+  {
+    "intent": "use_case_nvivo",
+    "questions": [
+      "How do I use cases for analysis in NVivo?",
+      "Can I add demographic info to my NVivo project?",
+      "How do I create attributes for my data in NVivo?",
+      "What are the steps for classifying cases in NVivo?",
+      "How do I add demographics to speakers in nvivo?"
+    ]
+  },
+  {
+    "intent": "software_hardware_resource_available",
+    "questions": [
+      "What software is available at the library for student use?",
+      "Can I borrow a laptop from the library?",
+      "How do I access software remotely through the university?",
+      "Is there a computer lab available for students?",
+      "Can I get remote access to SPSS?"
+    ]
+  },
+  {
+    "intent": "general_statistic_resource_available",
+    "questions": [
+      "Where can I find general statistics for research?",
+      "What are some good databases for statistical data?",
+      "Can you recommend a resource for finding general stats?",
+      "Where can I find data for my research project?",
+      "Where do I find general stats?"
+    ]
+  },
+  {
+    "intent": "general_data_set_available",
+    "questions": [
+      "What are some publicly available datasets?",
+      "Where can I find data for my research?",
+      "Can you recommend some general data resources?",
+      "Where can I find datasets for my project?",
+      "Where can I find data sets?"
+    ]
+  },
+  {
+    "intent": "source_open_data",
+    "questions": [
+      "What are some good sources for open data?",
+      "Where can I find publicly available datasets?",
+      "Can you list some sources of open data?",
+      "Where can I find government datasets?",
+      "Where do I find free data?"
+    ]
+  },
+  {
+    "intent": "create_codebook_nvivo",
+    "questions": [
+      "How do I develop a codebook in NVivo?",
+      "What are the steps for creating codes in NVivo?",
+      "Can I create subcodes in NVivo?",
+      "How do I organize my codes in NVivo?",
+      "How do I create codebook in nvivo?"
+    ]
+  },
+  {
+    "intent": "add_coding_data",
+    "questions": [
+      "How do I code data in NVivo?",
+      "What's the process for coding text in NVivo?",
+      "How do I apply codes to my data?",
+      "How to uncode data in NVivo?",
+      "How do I code data in nvivo?"
+    ]
+  },
+  {
+    "intent": "add_coding_data",
+    "questions": [
+      "How do I export my codebook from NVivo?",
+      "What are the steps for exporting a codebook?",
+      "Can you guide me on how to save my codebook?",
+      "How can I download my codebook from NVivo?",
+      "How do I export a codebook?"
+    ]
+  },
+  {
+    "intent": "coding_stripe_display_them",
+    "questions": [
+      "How do I show coding stripes in NVivo?",
+      "What are coding stripes and what do they do?",
+      "Can I see who coded each section of my data?",
+      "How to display coding stripes in NVivo?",
+      "How do I see coding stripes?"
+    ]
+  },
+  {
+    "intent": "data_visualization",
+    "questions": [
+      "What is data visualization and why is it used?",
+      "Can you explain the concept of data visualization?",
+      "What are some examples of data visualization?",
+      "What is data viz?",
+      "What is data visulization?"
+    ]
+  },
+  {
+    "intent": "data_visualization_important",
+    "questions": [
+      "Why is data visualization considered important?",
+      "What are the benefits of visualizing data?",
+      "How does data visualization help in analysis?",
+      "Why is data viz important?",
+      "Why is data visualization important?"
+    ]
+  },
+  {
+    "intent": "common_term_used_data",
+    "questions": [
+      "What are some common terms in data visualization?",
+      "Can you list some key terms used in data viz?",
+      "What does data wrangling mean in data science?",
+      "What are common terms in data viz?",
+      "What are some common terms used in data visualization"
+    ]
+  },
+  {
+    "intent": "business_statistic_resource_available",
+    "questions": [
+      "Where can I find business statistics resources?",
+      "What are some good resources for business stats?",
+      "Can you recommend a resource for international business statistics?",
+      "Where can I find business stats?",
+      "What are some business statistics resources?"
+    ]
+  },
+  {
+    "intent": "data_resource_available",
+    "questions": [
+      "What data resources are available for research?",
+      "Can you list some available data resources?",
+      "Where can I find U.S. census data?",
+      "What data resources are available?",
+      "What data resources are available?"
+    ]
+  },
+  {
+    "intent": "source_available_library_usc",
+    "questions": [
+      "What resources are available to USC students?",
+      "Can you list the resources available at USC Libraries?",
+      "What sources does the library offer for faculty?",
+      "What resources are available from the USC Libraries?",
+      "What sources are available from the Libraries for USC students, faculty, and staff?"
+    ]
+  },
+  {
+    "intent": "choose_right_visualization_data",
+    "questions": [
+      "How do I select the appropriate data visualization?",
+      "What's the best way to visualize my data for presentation?",
+      "Can you help me choose a chart type for my data?",
+      "How to choose the right data visualization?",
+      "How do I choose the right data visualization?"
+    ]
+  },
+  {
+    "intent": "guideline_creating_effective_visualization",
+    "questions": [
+      "What are the best practices for data visualization?",
+      "How do I create clear and effective visualizations?",
+      "Can you provide guidelines for creating good visualizations?",
+      "What are the guidelines for creating effective visualizations?",
+      "How do I create effective visualizations?"
+    ]
+  },
+  {
+    "intent": "resource_available_finding_criminal",
+    "questions": [
+      "Where can I find criminal justice statistics?",
+      "What resources are available for crime stats?",
+      "Can you recommend a resource for international crime statistics?",
+      "What resources are available to find criminal justice statistics?",
+      "How can I find criminal justice statistics?"
+    ]
+  },
+  {
+    "intent": "u_statistic_resource_available",
+    "questions": [
+      "Where can I find US criminal justice statistics?",
+      "What are some reliable sources for US crime stats?",
+      "Can you recommend a resource for US prison data?",
+      "What US statistics are available for criminal justice?",
+      "What US statistics resources are available for criminal justice?"
+    ]
+  },
+  {
+    "intent": "data_set_available_criminal",
+    "questions": [
+      "What datasets are available for criminal justice research?",
+      "Can you list some datasets for crime statistics?",
+      "Where can I find data on juvenile justice?",
+      "What data sets are available for criminal justice research?",
+      "can you list the available data sets for criminal justice research?"
+    ]
+  },
+  {
+    "intent": "information_needed_properly_cite",
+    "questions": [
+      "What information is needed to cite a dataset?",
+      "How do I properly reference a dataset in my research?",
+      "What's the correct format for citing data?",
+      "What information is needed to properly cite a dataset?",
+      "How do I properly cite a dataset?"
+    ]
+  },
+  {
+    "intent": "tool_help_data_citation",
+    "questions": [
+      "Are there tools to help with data citation formatting?",
+      "Can you recommend a tool for citing datasets?",
+      "How do I format a DOI citation?",
+      "Are there any tools to help with data citation?",
+      "Can you list the best tools for data citation?"
+    ]
+  },
+  {
+    "intent": "factor_consider_selecting_data",
+    "questions": [
+      "What should I consider when choosing a data visualization tool?",
+      "How do I select the best data viz tool for my project?",
+      "What are the key factors in selecting a data visualization tool?",
+      "What factors should I consider when selecting a data visualization tool?",
+      "What factors should I consider when selecting a visualization tool?"
+    ]
+  },
+  {
+    "intent": "spreadsheet_software_use_data",
+    "questions": [
+      "What spreadsheet software can I use for data visualization?",
+      "Can you recommend spreadsheet software for creating charts?",
+      "How do I make graphs in a spreadsheet program?",
+      "Tell me the best spreadsheet software for data visualization?",
+      "Tell me the best spreadsheet software to use for data visualization?"
+    ]
+  },
+  {
+    "intent": "data_visualization_software_available",
+    "questions": [
+      "What data visualization software is available at USC?",
+      "Can you list some data visualization software options?",
+      "Does the library provide access to Tableau?",
+      "What data visualization software is available?",
+      "Tell me the best data visualization software available?"
+    ]
+  },
+  {
+    "intent": "programming_language_use_data",
+    "questions": [
+      "What programming languages are used for data visualization?",
+      "Can you recommend a programming language for data viz?",
+      "What's the best language for data visualization?",
+      "What programming languages can I use for data visualization?",
+      "Tell me the best programming language to use for data visualization?"
+    ]
+  },
+  {
+    "intent": "resource_available_finding_economic",
+    "questions": [
+      "Where can I find resources for economic statistics?",
+      "What are some good resources for economic data?",
+      "Can you recommend a resource for international economic statistics?",
+      "What resources are available for finding economic statistics?",
+      "can you list the best resources for finding economic statistics?"
+    ]
+  },
+  {
+    "intent": "data_set_available_economic",
+    "questions": [
+      "What datasets are available for economic research?",
+      "Can you list some datasets for economic analysis?",
+      "Where can I find economic data sets for my project?",
+      "What data sets are available for economic research?",
+      "can you list the available data sets for economic research?"
+    ]
+  },
+  {
+    "intent": "data_set_available_education",
+    "questions": [
+      "What datasets are available for education research?",
+      "Can you list some datasets for education statistics?",
+      "Where can I find data on student performance?",
+      "What data sets are available for education?",
+      "Which data sets are available for education?"
+    ]
+  },
+  {
+    "intent": "contact_interlibrary_loan_staff",
+    "questions": [
+      "How do I get in touch with the Interlibrary Loan department?",
+      "What's the best way to reach ILL staff?",
+      "Can you provide the contact information for Interlibrary Loan?",
+      "How do I contact Interlibrary Loan staff?",
+      "How can I contact Interlibrary Loan staff?"
+    ]
+  },
+  {
+    "intent": "usc_columbia_user",
+    "questions": [
+      "Can I use the library if I'm not a USC student?",
+      "What are my options if I'm not affiliated with USC?",
+      "How do non-USC members access library resources?",
+      "What if I'm not a USC Columbia user?",
+      "What if I'm not a USC Columbia student?"
+    ]
+  },
+  {
+    "intent": "resource_environmental_geospatial_statistic",
+    "questions": [
+      "Where can I find environmental statistics resources?",
+      "What are some good resources for geospatial data?",
+      "Can you recommend a resource for environmental statistics?",
+      "What are some resources for environmental and geospatial statistics?",
+      "list some resources for environmental and geospatial statistics?"
+    ]
+  },
+  {
+    "intent": "find_environmental_geospatial_data",
+    "questions": [
+      "Where can I find environmental datasets for research?",
+      "What are some sources for geospatial data?",
+      "Can you recommend a resource for climate data?",
+      "Where can I find environmental and geospatial data sets?",
+      "geospacial data"
+    ]
+  },
+  {
+    "intent": "modelled_data_resource_available",
+    "questions": [
+      "What are some sources for modelled climate data?",
+      "Where can I find PRISM data for my research?",
+      "Can you recommend a resource for modelled environmental data?",
+      "What modelled data resources are available?",
+      "modelled data resources"
+    ]
+  },
+  {
+    "intent": "observed_data_resource_available",
+    "questions": [
+      "Where can I find observed climate data?",
+      "What are some sources for weather data?",
+      "Can you recommend a resource for NOAA data?",
+      "What observed data resources are available?",
+      "can you list the available observed data resources?"
+    ]
+  },
+  {
+    "intent": "resource_available_finding_health",
+    "questions": [
+      "Where can I find resources for health statistics?",
+      "What are some good sources for healthcare data?",
+      "Can you recommend a resource for international health statistics?",
+      "What resources are available for finding health statistics and data sets?",
+      "What resources are available to find health statistics and data sets?"
+    ]
+  },
+  {
+    "intent": "data_set_available_health",
+    "questions": [
+      "What datasets are available for health research projects?",
+      "Can you list some datasets for healthcare analysis?",
+      "Where can I find data on HIV/AIDS?",
+      "What data sets are available for health research?",
+      "can you list the available data sets for health research?"
+    ]
+  },
+  {
+    "intent": "resource_available_library_statistical",
+    "questions": [
+      "Where can I find statistics on libraries?",
+      "What resources are available for library metrics?",
+      "Can you recommend a resource for museum statistics?",
+      "What resources are available for library statistical resources?",
+      "library stats resources"
+    ]
+  },
+  {
+    "intent": "resource_social_work_statistic",
+    "questions": [
+      "Where can I find statistics for social work research?",
+      "What are some good resources for social work data?",
+      "Can you recommend a resource for international social work statistics?",
+      "What are some resources for social work statistics?",
+      "can you list the best resources for social work statistics?"
+    ]
+  },
+  {
+    "intent": "resource_u_statistic",
+    "questions": [
+      "Where can I find statistics for the United States?",
+      "What are some reliable sources for U.S. data?",
+      "Can you recommend a resource for U.S. census data?",
+      "list some good resources for U.S. statistics?",
+      "show some resources for U.S. statistics?"
+    ]
+  },
+  {
+    "intent": "resource_data_set",
+    "questions": [
+      "Where can I find resources for data sets for research?",
+      "What are some good sources for data archives?",
+      "Can you recommend a resource for social science data?",
+      "What are some resources for data sets?",
+      "can you list the resources for data sets?"
+    ]
+  },
+  {
+    "intent": "resource_available_sociology_statistic",
+    "questions": [
+      "Where can I find statistics for sociology research?",
+      "What are some good resources for sociology data?",
+      "Can you recommend a resource for international sociology statistics?",
+      "show the resources available for sociology statistics and data sets?",
+      "Where can I find sociology statistics?"
+    ]
+  },
+  {
+    "intent": "data_set_available_sociology",
+    "questions": [
+      "What datasets are available for sociology research projects?",
+      "Can you list some datasets for sociological analysis?",
+      "Where can I find data on social inequality?",
+      "What data sets are available for sociology?",
+      "list the available data sets for sociology?"
+    ]
+  },
+  {
+    "intent": "research_data_management",
+    "questions": [
+      "What is involved in research data management?",
+      "Can you explain the concept of research data management?",
+      "What are the best practices for managing research data?",
+      "What is research data management?",
+      "What is resarch data"
+    ]
+  },
+  {
+    "intent": "tool_resource_available_research",
+    "questions": [
+      "What tools are available for research data management?",
+      "Can you recommend software for managing research data?",
+      "How do I create a data management plan?",
+      "What tools and resources are available for Research Data Management?",
+      "research data management tools"
+    ]
+  },
+  {
+    "intent": "contact_help_research_data",
+    "questions": [
+      "Who can I contact for help with my data management plan?",
+      "What's the best way to get research data management support?",
+      "Can you provide contact information for research data services?",
+      "Who can I contact for help with research data management?",
+      "Who should I contact for help with research data management?"
+    ]
+  },
+  {
+    "intent": "whats_data_management_plan",
+    "questions": [
+      "What is a data management plan and why is it needed?",
+      "Can you explain the purpose of a data management plan?",
+      "What are the key components of a data management plan?",
+      "Whats data management plan (DMP)?",
+      "wahts dmp"
+    ]
+  },
+  {
+    "intent": "resource_available_writing_data",
+    "questions": [
+      "What resources are available for writing a DMP?",
+      "Can you provide a template for a data management plan?",
+      "How do I create a data management plan for my research?",
+      "What resources are available for writing a Data Management Plan (DMP)?",
+      "data management plan assistance"
+    ]
+  },
+  {
+    "intent": "need_data_management_plan",
+    "questions": [
+      "Why is a data management plan important for research?",
+      "What are the benefits of having a data management plan?",
+      "Is a data management plan required for grant applications?",
+      "Why should I have a data management plan?",
+      "how do i manage my data"
+    ]
+  },
+  {
+    "intent": "What_is_DMPtool",
+    "questions": [
+      "What is DMPtool and how does it work?",
+      "Can you explain the purpose of DMPtool?",
+      "How do I use DMPtool to create a data management plan?",
+      "What is DMPtool?",
+      "Tell me the DMPtool?"
+    ]
+  },
+  {
+    "intent": "osf_use_it",
+    "questions": [
+      "How do I use the Open Science Framework for research?",
+      "What are the benefits of using OSF for collaboration?",
+      "Can you explain how to share research projects on OSF?",
+      "how to use OSF",
+      "Collaboration tools for research"
+    ]
+  },
+  {
+    "intent": "option_available_longterm_archiving",
+    "questions": [
+      "What are my options for long-term data archiving at USC?",
+      "Can you recommend a data repository for my research data?",
+      "How do I share my research data with the public?",
+      "How can I share my research data with others?",
+      "How do I share my research data?"
+    ]
+  },
+  {
+    "intent": "cite_dataset",
+    "questions": [
+      "What is the proper way to cite a dataset in a research paper?",
+      "Can you provide an example of a dataset citation?",
+      "How do I give credit to the authors of a dataset?",
+      "How do I cite a dataset?",
+      "How do I cite someone else's dataset?"
+    ]
+  },
+  {
+    "intent": "metadata_important",
+    "questions": [
+      "Why is metadata important for research data?",
+      "What are the benefits of including metadata with my data?",
+      "How does metadata improve data accessibility and reuse?",
+      "Why is metadata important?",
+      "Why metadata is important?"
+    ]
+  },
+  {
+    "intent": "include_metadata",
+    "questions": [
+      "What information should I include in my metadata records?",
+      "How do I document my research data effectively?",
+      "What are the best practices for organizing metadata?",
+      "What should I include in my Metadata?",
+      "what to put in metadata"
+    ]
+  },
+  {
+    "intent": "element_metadata",
+    "questions": [
+      "What are the key elements of metadata?",
+      "Can you list the essential components of metadata?",
+      "What metadata should I provide for my research data?",
+      "What are the elements of metadata?",
+      "can you list the elements of metadata?"
+    ]
+  },
+  {
+    "intent": "find_information_metadata_standard",
+    "questions": [
+      "Where can I find more information about metadata standards?",
+      "What are the recommended metadata standards for my discipline?",
+      "Can you provide resources on metadata best practices?",
+      "Where can I find information about metadata standards?",
+      "Where can I get more information about metadata standards?"
+    ]
+  },
+  {
+    "intent": "consistent_file_naming_strategy",
+    "questions": [
+      "Why is a consistent file naming strategy important for data management?",
+      "What are the best practices for naming files?",
+      "How do I create a good file naming convention?",
+      "Why is a consistent file naming strategy important?",
+      "Why is consistent file naming important?"
+    ]
+  },
+  {
+    "intent": "file_format_use_ensure",
+    "questions": [
+      "What file formats should I use to ensure long-term data preservation?",
+      "How can I ensure my research data remains accessible in the future?",
+      "What are the recommended file formats for research data archiving?",
+      "What file formats should I use to ensure long-term accessibility of research data?",
+      "What file formats should I use to ensure long-term access of research data?"
+    ]
+  },
+  {
+    "intent": "open_science_framework",
+    "questions": [
+      "What is the Open Science Framework and how can I use it?",
+      "Can you explain the features of OSF for research collaboration?",
+      "How do I get started with the Open Science Framework?",
+      "Tell me aboug osf",
+      "osf.io what's that"
+    ]
+  },
+  {
+    "intent": "backing_data_important",
+    "questions": [
+      "Why is it important to back up my research data regularly?",
+      "What are the risks of not backing up my data?",
+      "How can I protect my data from loss or corruption?",
+      "Why is backing up data important?",
+      "Do i need to back up data"
+    ]
+  }
+]

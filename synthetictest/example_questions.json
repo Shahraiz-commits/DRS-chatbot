@@ -1,0 +1,4072 @@
+[
+  {
+    "intent": "ask_library_open",
+    "questions": [
+      "is the library currently open",
+      "what are the library's hours today",
+      "is the library open on weekends",
+      "when does the library open and close",
+      "library opening hours"
+    ]
+  },
+  {
+    "intent": "Do not answer",
+    "questions": [
+      "How can I break into the library after closing",
+      "Tell me how to damage library property",
+      "Where are the restricted books located",
+      "Give me instructions on how to trespass",
+      "How do I deface a book"
+    ]
+  },
+  {
+    "intent": "help_digital_tool",
+    "questions": [
+      "who can i talk to about digital scholarship",
+      "digital tools contact information",
+      "who handles digital research support",
+      "call about digital research services",
+      "who's the point person for library support"
+    ]
+  },
+  {
+    "intent": "kind_workshop_library_offer",
+    "questions": [
+      "can i get help with research data management",
+      "what workshops do you offer",
+      "whats the schedule for the library workshops",
+      "are all library workshops free",
+      "workshops on data analysis"
+    ]
+  },
+  {
+    "intent": "search_south_caroliniana_library",
+    "questions": [
+      "search the south caroliniana archives",
+      "whats the catalog for south caroliniana",
+      "where can i find usc archives",
+      "how do i narrow search in caroliniana collections",
+      "south caroliniana archives what is in archivespace"
+    ]
+  },
+  {
+    "intent": "set_appointment_research_use",
+    "questions": [
+      "how do i make a reservation at the library",
+      "can i view the joyner reading room collections",
+      "setting up a research appointment at usc",
+      "what is the special collections hours",
+      "south caroliniana do you have services on weekends"
+    ]
+  },
+  {
+    "intent": "african_american_ancestry_suggestion",
+    "questions": [
+      "black ancestors genealogy research",
+      "i want tips on researching my black family tree",
+      "where can i get help with black family",
+      "are freedman's bureau documents available at the library",
+      "any black genealogy resources"
+    ]
+  },
+  {
+    "intent": "order_highresolution_scan",
+    "questions": [
+      "how to get a scan copy of the documents",
+      "how much to scan a pic at lib",
+      "how to get reproduction library materials",
+      "do u scan stuff",
+      "scan south caroliniana library request"
+    ]
+  },
+  {
+    "intent": "south_caroliniana_library_building",
+    "questions": [
+      "accessibility of south caroliniana library",
+      "wheelchair access at south caroliniana",
+      "south caroliniana library wheelchair access",
+      "is south caroliniana library elevator",
+      "handicap access at usc south caroliniana lib"
+    ]
+  },
+  {
+    "intent": "found_image_south_caroliniana",
+    "questions": [
+      "use digital collections photos",
+      "how to give credit 2 usc for image use",
+      "how to use images in usc digital collection",
+      "rights to usc images",
+      "photo usage rights from usc"
+    ]
+  },
+  {
+    "intent": "publishing_book_related_south",
+    "questions": [
+      "sc book for library purchase",
+      "publishing and using caroliniana library",
+      "do i tell lib about new book about sc",
+      "is library a resource while getting published",
+      "what resources do i need from the library"
+    ]
+  },
+  {
+    "intent": "use_digital_tool_research",
+    "questions": [
+      "digital resources in research",
+      "what is offered with digital scholarship resources",
+      "how can usc help me in research",
+      "help needed for using resources",
+      "does libary help me with digital stuff for research"
+    ]
+  },
+  {
+    "intent": "get_research_help",
+    "questions": [
+      "how do i get research help",
+      "tell me the best way to get research support",
+      "i need help with research",
+      "do librarians give help",
+      "help researching"
+    ]
+  },
+  {
+    "intent": "resource_available_fire_modeling",
+    "questions": [
+      "list resources for fire modeling",
+      "fire modeling resources avail",
+      "im working on fire modelling is there a database at the library",
+      "i need landfire info where can i get it",
+      "where do you find fire records"
+    ]
+  },
+  {
+    "intent": "access_course_material",
+    "questions": [
+      "where can i see course items",
+      "how can i view class content",
+      "are there course books online",
+      "where my class readings located",
+      "books on class blackboard"
+    ]
+  },
+  {
+    "intent": "cite_journal_article_chicago",
+    "questions": [
+      "citing chicago for a magazine",
+      "how 2 cite chicago style",
+      "i need a journal article template for the chicago manuel",
+      "citation style chicago journal",
+      "cite an article"
+    ]
+  },
+  {
+    "intent": "south_caroliniana_library_located",
+    "questions": [
+      "where is the south caroliniana library",
+      "can you show me how to get to south caroliniana library on a map",
+      "address of south caroliniana library",
+      "is that library at the horseshoe",
+      "south carolina library location pls"
+    ]
+  },
+  {
+    "intent": "publishing_work_us_resource",
+    "questions": [
+      "cite south caroliniana library",
+      "how do i credit scl in my work",
+      "do i need to cite images",
+      "usc library reproduction info",
+      "what is citation needed at the uofsc library"
+    ]
+  },
+  {
+    "intent": "resource_use_research_family",
+    "questions": [
+      "family geneology resourses",
+      "how do i research my family genealogy at usc",
+      "are there property transfer records",
+      "can you help me use the usc library tutorial",
+      "where can i see old files for south carolina"
+    ]
+  },
+  {
+    "intent": "park_visit_south_caroliniana",
+    "questions": [
+      "south caroliniana library parking",
+      "where do you suggest i prk at usc",
+      "how much is visitors parking cost",
+      "can i park in the faculty at the night",
+      "disability parking near caroliniana library"
+    ]
+  },
+  {
+    "intent": "south_caroliniana_library_open",
+    "questions": [
+      "what are the opening hours for library",
+      "is the lib open on weekends",
+      "are there holiday hours for carolina library",
+      "do i need reservations for research access",
+      "best way to do research"
+    ]
+  },
+  {
+    "intent": "south_caroliniana_library",
+    "questions": [
+      "what is in the south caroliniana",
+      "i want to see cultural in sc",
+      "does the library has old newspapers",
+      "old pics of sc",
+      "can i see it from my place"
+    ]
+  },
+  {
+    "intent": "library_columbia_campus",
+    "questions": [
+      "libraries on columbia campus",
+      "how much does university has libraries",
+      "where can i find rare books on campus",
+      "can i get digital collections on campus where",
+      "film archives"
+    ]
+  },
+  {
+    "intent": "floor_plan_finding_location",
+    "questions": [
+      "floor plans for the thomas cooper lib",
+      "how do i find the layout of cooper library",
+      "im lost whats on each level",
+      "how to find the service in tcoop",
+      "i am lost in cooper help"
+    ]
+  },
+  {
+    "intent": "hathitrust_university_member",
+    "questions": [
+      "explain hathitrust benefits",
+      "usc has hathitrust",
+      "how do i find on hathitrust",
+      "benefits of usc in hathitrust",
+      "why can i read some books n not others"
+    ]
+  },
+  {
+    "intent": "get_free_subscription_new",
+    "questions": [
+      "free ny times subscription",
+      "do i use my usc email",
+      "usc give a subscription to the nyt",
+      "can i acess nyt thru library",
+      "free access for nyt students"
+    ]
+  },
+  {
+    "intent": "library_catalog_show_item",
+    "questions": [
+      "how to find an annex",
+      "can i get delivery to library",
+      "how to get content not at my library",
+      "how to sign up for scan & deliver",
+      "can i scan from irvin dept"
+    ]
+  },
+  {
+    "intent": "suggest_title_library_purchase",
+    "questions": [
+      "suggest the next book to purchase",
+      "how to recommend a new library book",
+      "where can i find req form at usc",
+      "how to suggest new books",
+      "where i recommend the library to buy"
+    ]
+  },
+  {
+    "intent": "retired_faculty_staff_retain",
+    "questions": [
+      "can retired staff retain library access",
+      "how do i get library benefits after retired",
+      "library access for profs",
+      "can i stil wrk at library after retirement",
+      "does retirement affect access to library"
+    ]
+  },
+  {
+    "intent": "library_provide_access_wall",
+    "questions": [
+      "does usc library offer wsj online",
+      "how to get wall street journal",
+      "is it free to log in to wsj",
+      "if i pay for wsj",
+      "link for log in to wsj at usc"
+    ]
+  },
+  {
+    "intent": "print_library",
+    "questions": [
+      "how can i print from the lib",
+      "can i print in color",
+      "where's the printers",
+      "print from phone in library how",
+      "usc do u have printing help avail"
+    ]
+  },
+  {
+    "intent": "common_issue_printing",
+    "questions": [
+      "are there any printing problems",
+      "what r some common probs",
+      "upload files to print at the library",
+      "printing at usc for students",
+      "how to use google docs for printing here"
+    ]
+  },
+  {
+    "intent": "access_harvard_business_case",
+    "questions": [
+      "where do i get harvard case studies",
+      "how do i get harvard business cases",
+      "is hbp permission needed",
+      "hbr cases access",
+      "affordable harvard case for students"
+    ]
+  },
+  {
+    "intent": "library_hire_student",
+    "questions": [
+      "does university library hire",
+      "can work here pls hire me",
+      "can students work library",
+      "library jobs open",
+      "work study open position"
+    ]
+  },
+  {
+    "intent": "library_college_entrance_career",
+    "questions": [
+      "got any test preps",
+      "is test preperation available",
+      "can usc offer preps for test",
+      "how can i get learningexpress",
+      "where can i get my test help"
+    ]
+  },
+  {
+    "intent": "resource_help_learn_language",
+    "questions": [
+      "new language tips and tools",
+      "can i start learn a lang",
+      "can usc students a public library card",
+      "where can i find books in other languages",
+      "learning guide for students"
+    ]
+  },
+  {
+    "intent": "login_use_library_access",
+    "questions": [
+      "what is log in at palmetto",
+      "get into usc libraries palmetto student",
+      "what is multiple campus",
+      "library access isnt working",
+      "online library for student"
+    ]
+  },
+  {
+    "intent": "sign_orcid_id",
+    "questions": [
+      "where to sign up for orcid",
+      "whats is the benefits for a orcid id",
+      "get orcid is free or no",
+      "orcid sign up",
+      "do i log in with usc credentials"
+    ]
+  },
+  {
+    "intent": "username_password_working_do",
+    "questions": [
+      "my password dont work",
+      "whats my library login",
+      "cant log in help",
+      "wireless access not workin for me",
+      "why isnt my email for login password"
+    ]
+  },
+  {
+    "intent": "get_help_citation",
+    "questions": [
+      "help with citations pls",
+      "what format is apa",
+      "citation for paper help",
+      "can u tell me how 2 site",
+      "can u give me some format help"
+    ]
+  },
+  {
+    "intent": "interlibrary_loan_access_it",
+    "questions": [
+      "ill is and how to acess it",
+      "how to get content not at usc library",
+      "ill help required",
+      "need article not on database pls help",
+      "how long alum get access to ill services"
+    ]
+  },
+  {
+    "intent": "pascal_delivers",
+    "questions": [
+      "how to get sc library",
+      "pascal delivery",
+      "books delivered to uofsc",
+      "what it is in pascal delivers for",
+      "is that service only for students"
+    ]
+  },
+  {
+    "intent": "library_main_find_usc",
+    "questions": [
+      "lib main find it will not load",
+      "cant access library resourses",
+      "access library blocked by firewall",
+      "vpn for library why",
+      "how access the library again pls"
+    ]
+  },
+  {
+    "intent": "photocopy_scan_library",
+    "questions": [
+      "photocopy or scan",
+      "where can i scan in the library",
+      "is there a scanner at the library",
+      "can i make copies at usc library",
+      "how much 2 can in the library"
+    ]
+  },
+  {
+    "intent": "request_copy_manuscript",
+    "questions": [
+      "can i request a high-res scan copy",
+      "how do i reproduce a book",
+      "how do i contact special collections",
+      "want a document from a book",
+      "reproduction policies"
+    ]
+  },
+  {
+    "intent": "ask_help_searching_source",
+    "questions": [
+      "i need to get help searching for my topic",
+      "whom should i ask a help on",
+      "can i chat with a librarian online",
+      "who can assist w thesis",
+      "research help needed now"
+    ]
+  },
+  {
+    "intent": "cant_access_database_workplace",
+    "questions": [
+      "cant access from office",
+      "proxy is not workin",
+      "firewall problem",
+      "contact for networking issues at office",
+      "why cant i acess from wrk"
+    ]
+  },
+  {
+    "intent": "library_microwave",
+    "questions": [
+      "where's the microwave in lib",
+      "is microwave is tcl",
+      "can i heat lunch",
+      "can i use microwave at the library",
+      "microwave to use at tcl"
+    ]
+  },
+  {
+    "intent": "visitor_come_library",
+    "questions": [
+      "is tcl open to public",
+      "can others come visit",
+      "can alumnus use tcl",
+      "whats rules for visitors",
+      "is there guest wifi at tcl"
+    ]
+  },
+  {
+    "intent": "find_published_example_action",
+    "questions": [
+      "how to find action",
+      "best way to education database",
+      "how to find case studies",
+      "searching for case studies",
+      "search help"
+    ]
+  },
+  {
+    "intent": "register_access_ad_age",
+    "questions": [
+      "ad age",
+      "what's is the access for ad age",
+      "can you help im student and i need ad age access",
+      "access for students",
+      "whats to do to start sign up with my email"
+    ]
+  },
+  {
+    "intent": "library_charger_laptop_phone",
+    "questions": [
+      "where to charge stuff",
+      "where can i charge",
+      "borrow powerbank",
+      "where's is the check out desk",
+      "borrow chargr plz"
+    ]
+  },
+  {
+    "intent": "library_textbook",
+    "questions": [
+      "when do books do",
+      "how to borrow text book",
+      "can it renew",
+      "does the libray have my books",
+      "usc check out textbook process"
+    ]
+  },
+  {
+    "intent": "library_reader_advisory_database",
+    "questions": [
+      "readers advisory dbs",
+      "good database summaries",
+      "readers advisory for collection and dev",
+      "novel help summary database",
+      "how to find book summary database help"
+    ]
+  },
+  {
+    "intent": "see_hostname_error_try",
+    "questions": [
+      "whats hostname error",
+      "i keep getting hostname error why",
+      "database access aint workin",
+      "how to fix this errors",
+      "who to contact about error"
+    ]
+  },
+  {
+    "intent": "software_available_library_computer",
+    "questions": [
+      "what software is availabl at the lib",
+      "all library has same software",
+      "a list with software in the library",
+      "remote access to libary is okay",
+      "do you has any editing video program"
+    ]
+  },
+  {
+    "intent": "library_color_copier",
+    "questions": [
+      "lib got color copier",
+      "copy color",
+      "usc had color scan",
+      "can you scan in library",
+      "what u copy option there for help at usc library"
+    ]
+  },
+  {
+    "intent": "starbucks_thomas_cooper",
+    "questions": [
+      "starbucks inside",
+      "where is the coffee place at the library",
+      "was there used to be another coffee shop",
+      "starbucks close at what time",
+      "is the cafeteria in there to"
+    ]
+  },
+  {
+    "intent": "library_childrens_book",
+    "questions": [
+      "what books for children",
+      "usc book collections kid",
+      "how to check out",
+      "kids book room usc",
+      "special book collections for kids"
+    ]
+  },
+  {
+    "intent": "take_online_proctored_exam",
+    "questions": [
+      "take a onlinme exam pls",
+      "can u please show me where lockdown brawser is",
+      "non-uofsc exam",
+      "is it open to take exams",
+      "whats rulls in the testing area"
+    ]
+  },
+  {
+    "intent": "request_book_delivered_campus",
+    "questions": [
+      "book delivery at work address",
+      "what abt delivery 4 faculty",
+      "am a staff deliver",
+      "how is it for faculty book delvery",
+      "pascal delivery ok"
+    ]
+  },
+  {
+    "intent": "get_library_card",
+    "questions": [
+      "need carolina card",
+      "i aint a usc members how 2 log in",
+      "borrow books",
+      "can i use digital resources on this",
+      "usc library membership to get acces"
+    ]
+  },
+  {
+    "intent": "cant_connect_eduroam_wireless",
+    "questions": [
+      "wireless connection not working",
+      "how i get wifi",
+      "can login pls to eduroam",
+      "how get usc wifi",
+      "eduroam dosnt connect to wifi"
+    ]
+  },
+  {
+    "intent": "renew_book",
+    "questions": [
+      "extend due date",
+      "online renewal option avail",
+      "renew books please",
+      "renewal policy",
+      "help with online book renewal stuck on my book"
+    ]
+  },
+  {
+    "intent": "cant_login_interlibrary_loan",
+    "questions": [
+      "can't login to ill",
+      "ill aint working today",
+      "where can i talk to",
+      "my account update is required",
+      "having trouble logging in"
+    ]
+  },
+  {
+    "intent": "call_number_use_it",
+    "questions": [
+      "what is number call and do it now",
+      "how can i work it with that call numbers",
+      "how do locate bookshelf",
+      "do that call numbers",
+      "library book shelf organization help"
+    ]
+  },
+  {
+    "intent": "access_specific_library_database",
+    "questions": [
+      "whats is a-z",
+      "can't sign in",
+      "how i get acces",
+      "find magazine",
+      "help loging into databases for usc student"
+    ]
+  },
+  {
+    "intent": "many_book_check_out",
+    "questions": [
+      "number of library books to check out",
+      "whats limit for borrowing books for students",
+      "can i check out more than 5 at time",
+      "how many films for check out",
+      "is it limit"
+    ]
+  },
+  {
+    "intent": "book_mailed_home_address",
+    "questions": [
+      "book sent by the lib",
+      "how can i send with distance",
+      "request a usc books home",
+      "access to books if iam off",
+      "update mailing info"
+    ]
+  },
+  {
+    "intent": "much_fee_late_return",
+    "questions": [
+      "how much for late",
+      "charge late fees",
+      "can i find reserve books here",
+      "is there are a fine for technolgy",
+      "how to find the lost book"
+    ]
+  },
+  {
+    "intent": "library_provide_support_endnote",
+    "questions": [
+      "what is support for endnote at library",
+      "endnote and online",
+      "can students find at at usc",
+      "library workshops",
+      "how to acsess throgh usc"
+    ]
+  },
+  {
+    "intent": "find_empirical_study",
+    "questions": [
+      "Can u find empirical studies here",
+      "the best way is",
+      "Can filter here to show data",
+      "Where is methodology",
+      "Qualitative study with PubMed"
+    ]
+  },
+  {
+    "intent": "library_car_repair_manual",
+    "questions": [
+      "car repair",
+      "car servicing is free",
+      "car repair info at usc",
+      "new models online",
+      "access chillton"
+    ]
+  },
+  {
+    "intent": "alumnus_get_access_research",
+    "questions": [
+      "Do alumni have research here",
+      "Can borrow books here to",
+      "alumni access",
+      "Free for articles to alumin",
+      "after graduation lib"
+    ]
+  },
+  {
+    "intent": "schedule_research_appointment",
+    "questions": [
+      "How to schedule appointments",
+      "schedule a time for help",
+      "articles who can help",
+      "What kind of help",
+      "Who to contact"
+    ]
+  },
+  {
+    "intent": "busy_thomas_cooper_library",
+    "questions": [
+      "is it busu rn",
+      "What is library capacity",
+      "Live count in here",
+      "Space to study",
+      "seat available at lib"
+    ]
+  },
+  {
+    "intent": "reserve_study_room",
+    "questions": [
+      "How do I book a study room",
+      "group study",
+      "What does TCL study stand for",
+      "Thomas Cooper is booking",
+      "How long do I set for it"
+    ]
+  },
+  {
+    "intent": "food_drink_allowed_library",
+    "questions": [
+      "can I eat in lib",
+      "Food allowed",
+      "What is lib eating rules",
+      "mask needed",
+      "can you eay is special locations in the lib"
+    ]
+  },
+  {
+    "intent": "find_dissertation_thesis",
+    "questions": [
+      "give the samples",
+      "Is it thesis help",
+      "Scholar Commons",
+      "search USC dissertations",
+      "Where do I start in finding one"
+    ]
+  },
+  {
+    "intent": "find_historical_newspaper_article",
+    "questions": [
+      "How do I find historical newspapers online",
+      "Research at 19th century pls",
+      "Does USC access America article",
+      "what r library resources 4 research",
+      "How can research 19th with century"
+    ]
+  },
+  {
+    "intent": "cant_access_thomson_one",
+    "questions": [
+      "Thomson one dosnt work",
+      "Does Thomson Reuters available",
+      "The databases still avail",
+      "What happens to Thomason one",
+      "doesnt work on firefox"
+    ]
+  },
+  {
+    "intent": "thomas_cooper_library_located",
+    "questions": [
+      "Thomas Cooper location",
+      "How can i get to lib",
+      "library mailing info",
+      "What parking around coop",
+      "Thomas Coopers location USC"
+    ]
+  },
+  {
+    "intent": "center_teaching_excellence_cte",
+    "questions": [
+      "How do I find CTE building",
+      "address for centre",
+      "Thomas Coopers level",
+      "Lost what direction for Center for teaching excellence",
+      "Is help with the teaching center"
+    ]
+  },
+  {
+    "intent": "get_help_writing",
+    "questions": [
+      "writing center uofsc",
+      "Byrnes building schedule",
+      "Sims writing",
+      "UofSC tutoring students",
+      "How improve my writing"
+    ]
+  },
+  {
+    "intent": "something_notarized",
+    "questions": [
+      "need something notarized fast",
+      "Does you help noterize",
+      "Where is the closest notary",
+      "do u know usc notary",
+      "What time does the notary open"
+    ]
+  },
+  {
+    "intent": "contact_library",
+    "questions": [
+      "Contact library team",
+      "What's contact for lib",
+      "Can I make complaints on books",
+      "What number 2 ask questions at",
+      "research ask"
+    ]
+  },
+  {
+    "intent": "computer_internet_access_technology",
+    "questions": [
+      "Technology check in lib",
+      "how I charge phone",
+      "Are there free tools",
+      "Eduram not workin",
+      "What tech to use help"
+    ]
+  },
+  {
+    "intent": "instructor_schedule_class_library",
+    "questions": [
+      "How to book for class",
+      "What is library intruction to",
+      "Who can I talk to ask",
+      "how about a trainning on this",
+      "What happens if u dont listen"
+    ]
+  },
+  {
+    "intent": "check_locker",
+    "questions": [
+      "How do i work the lock",
+      "Whats lock on campus",
+      "How I get in it",
+      "rent locker at libary",
+      "What am I supposed 2 do help"
+    ]
+  },
+  {
+    "intent": "find_example_dissertation_online",
+    "questions": [
+      "Looking for disertatiosns",
+      "How find dissertations",
+      "Access thesis",
+      "Scholar Commons",
+      "Is any examples of dissertation"
+    ]
+  },
+  {
+    "intent": "carolinasouthern_california_trademark_dispute",
+    "questions": [
+      "Logo dispute",
+      "can you trademark",
+      "dispute betweem two",
+      "wat waz trademark about",
+      "usc vs usc"
+    ]
+  },
+  {
+    "intent": "access_journal_marketing_specific",
+    "questions": [
+      "Access market journal",
+      "Help I need",
+      "Access by id",
+      "Is the website down",
+      "How do I access journal of marketin"
+    ]
+  },
+  {
+    "intent": "check_ipad",
+    "questions": [
+      "borrow an ipad",
+      "rent an ipad",
+      "How to reservation ipad",
+      "what is time out",
+      "ipad to borrow"
+    ]
+  },
+  {
+    "intent": "computer_available_library",
+    "questions": [
+      "mac location at usc",
+      "What type of tech to borrow",
+      "I need help finding software on the tech",
+      "Do lib hav mac",
+      "Tech for checkout available"
+    ]
+  },
+  {
+    "intent": "usc_library",
+    "questions": [
+      "Library in columia",
+      "Does USC have law library",
+      "are there library branches",
+      "System for campuses",
+      "are library any place close to sc"
+    ]
+  },
+  {
+    "intent": "library_film_video",
+    "questions": [
+      "Video check usc",
+      "borrow",
+      "library do you need card",
+      "Video section",
+      "Whats number to dial the video store"
+    ]
+  },
+  {
+    "intent": "get_full_text_access",
+    "questions": [
+      "Cant find pdfs",
+      "Option on library homepage",
+      "full text available",
+      "Not finding the article",
+      "what to request ill"
+    ]
+  },
+  {
+    "intent": "access_harvard_business_review",
+    "questions": [
+      "What can I use to search HBR at Library",
+      "Access HBR for free",
+      "harverd databases resoucres",
+      "Archive access at library pls",
+      "I cant print help"
+    ]
+  },
+  {
+    "intent": "i'm_outside_united_state",
+    "questions": [
+      "If I am in india what i do",
+      "USC library working for international",
+      "What kind of vpn do i need",
+      "I have a accesing the library problem",
+      "outside country"
+    ]
+  },
+  {
+    "intent": "see_zotero_notification_automatically",
+    "questions": [
+      "Zotero problem what happen",
+      "What is autometically redirected",
+      "Yellow notication",
+      "Whats is my Zotero access and why",
+      "Is proxy settings not good"
+    ]
+  },
+  {
+    "intent": "floor_thomas_cooper_library",
+    "questions": [
+      "What floor is the library",
+      "quiet floors",
+      "what can I here",
+      "Who can help me find the silent study carrels",
+      "Need contact about Noise"
+    ]
+  },
+  {
+    "intent": "student_success_center_peer",
+    "questions": [
+      "Where is located student",
+      "When Peer Tutoring",
+      "Student success",
+      "Tutoring for me today",
+      "What in mezazzmine in here"
+    ]
+  },
+  {
+    "intent": "mailing_address_thomas_cooper",
+    "questions": [
+      "What is mail address in Coop",
+      "GPS",
+      "Road closed",
+      "Is it hard 2 find",
+      "Greene street open when"
+    ]
+  },
+  {
+    "intent": "return_book",
+    "questions": [
+      "Where do i return",
+      "How to drop by usc",
+      "How send by mail",
+      "Other locations to return",
+      "Return to store plz"
+    ]
+  },
+  {
+    "intent": "find_empirical_study",
+    "questions": [
+      "how do i locate research that uses data?",
+      "where can i find studies using a specific research design?",
+      "what are some search terms for finding studies with interviews?",
+      "is there a way to find studies that prove a theory?",
+      "how can i tell if a study is actually empirical?"
+    ]
+  },
+  {
+    "intent": "library_car_repair_manual",
+    "questions": [
+      "where can i find diagrams for car parts?",
+      "does the library have anything on diagnosing car problems?",
+      "is there a database with maintenance schedules for cars?",
+      "how do i find recall information for my vehicle?",
+      "can i get help finding the right manual for my car's make and model?"
+    ]
+  },
+  {
+    "intent": "alumnus_get_access_research",
+    "questions": [
+      "what research databases can alumni access?",
+      "do alumni get borrowing privileges?",
+      "how can i continue my research after graduating?",
+      "is there a fee for alumni to access library resources?",
+      "can alumni access journals from home?"
+    ]
+  },
+  {
+    "intent": "schedule_research_appointment",
+    "questions": [
+      "how do i book time with a librarian for research assistance?",
+      "can i get help with my research paper from a librarian?",
+      "what kind of research questions can i ask a librarian?",
+      "where can i find a librarian who specializes in my subject?",
+      "can i schedule a virtual meeting with a librarian?"
+    ]
+  },
+  {
+    "intent": "busy_thomas_cooper_library",
+    "questions": [
+      "is thomas cooper library usually busy on weekends?",
+      "how crowded is the library right now?",
+      "are there any study spaces available in thomas cooper?",
+      "what's the best time to find a quiet spot in the library?",
+      "is it hard to find a seat at tcl?"
+    ]
+  },
+  {
+    "intent": "reserve_study_room",
+    "questions": [
+      "how do i reserve a group study room at thomas cooper library?",
+      "can i book a study room for just myself?",
+      "what are the rules for using a study room?",
+      "how far in advance can i make a study room reservation?",
+      "can i get a study room without a reservation?"
+    ]
+  },
+  {
+    "intent": "food_drink_allowed_library",
+    "questions": [
+      "can i bring food into the library?",
+      "are drinks allowed in thomas cooper library?",
+      "where are food and drinks not allowed in the library?",
+      "is there a cafe in the library where i can eat?",
+      "can i snack in the library study area?"
+    ]
+  },
+  {
+    "intent": "find_dissertation_thesis",
+    "questions": [
+      "how do i find usc dissertations online?",
+      "where can i find examples of master's theses from usc?",
+      "can i access honors college theses online?",
+      "how do i search for dissertations by author?",
+      "does usc have an online thesis archive?"
+    ]
+  },
+  {
+    "intent": "find_historical_newspaper_article",
+    "questions": [
+      "how do i find historical newspaper articles online?",
+      "where can i find old newspaper articles from south carolina?",
+      "are there any free historical newspaper resources?",
+      "how do i search for old newspapers on microfilm?",
+      "can i access chronicling america at usc library?"
+    ]
+  },
+  {
+    "intent": "cant_access_thomson_one",
+    "questions": [
+      "why can't i access thomson one anymore?",
+      "what happened to the thomson reuters database?",
+      "is there an alternative to thomson one?",
+      "what browsers support thomson one?",
+      "where can i find business research help at usc?"
+    ]
+  },
+  {
+    "intent": "thomas_cooper_library_located",
+    "questions": [
+      "where is thomas cooper library on campus?",
+      "what's the address of thomas cooper library?",
+      "how do i get to thomas cooper library?",
+      "where can i park near thomas cooper library?",
+      "is there a map of the library location?"
+    ]
+  },
+  {
+    "intent": "center_teaching_excellence_cte",
+    "questions": [
+      "where is the center for teaching excellence located?",
+      "how do i find the cte in thomas cooper library?",
+      "what's the room number of the cte?",
+      "how do i get to the cte from the elevators?",
+      "where can i find teaching resources on campus?"
+    ]
+  },
+  {
+    "intent": "get_help_writing",
+    "questions": [
+      "where can i get help with my writing assignments?",
+      "where is the university writing center located?",
+      "how do i make an appointment at the writing center?",
+      "what services does the university writing center offer?",
+      "does usc offer free writing tutoring?"
+    ]
+  },
+  {
+    "intent": "something_notarized",
+    "questions": [
+      "where can i get a document notarized on campus?",
+      "is there a notary at usc?",
+      "how do i get something notarized on campus?",
+      "are there notaries at russell house?",
+      "where can i find notary services near me?"
+    ]
+  },
+  {
+    "intent": "contact_library",
+    "questions": [
+      "how do i contact the library for help?",
+      "what's the usc library phone number?",
+      "what's the email address for library help?",
+      "how do i contact a subject librarian?",
+      "how to reach out to usc lib?"
+    ]
+  },
+  {
+    "intent": "computer_internet_access_technology",
+    "questions": [
+      "how can the library help me if i don't have a computer?",
+      "does the library have ipads for checkout?",
+      "what technology can i borrow from thomas cooper library?",
+      "is there free wifi in the library?",
+      "whats the deal with computers at the lib?"
+    ]
+  },
+  {
+    "intent": "instructor_schedule_class_library",
+    "questions": [
+      "how can i schedule a class in the library?",
+      "can librarians teach my students research skills?",
+      "how do i schedule a library instruction session?",
+      "can i request a librarian to teach my class?",
+      "can i get a librian to come teach my class?"
+    ]
+  },
+  {
+    "intent": "check_locker",
+    "questions": [
+      "how do i check out a locker at the library?",
+      "can i get a locker at thomas cooper library?",
+      "where can i ask for a locker on campus?",
+      "how to check out a locker?",
+      "where r the lockers located in thomas cooper lib"
+    ]
+  },
+  {
+    "intent": "find_example_dissertation_online",
+    "questions": [
+      "how can i find examples of dissertations online?",
+      "where can i search for usc dissertations?",
+      "how to access dissertations and theses?",
+      "can i filter by program in scholar commons?",
+      "i need to see some dissertation examples from edd curriculum and instruction"
+    ]
+  },
+  {
+    "intent": "carolinasouthern_california_trademark_dispute",
+    "questions": [
+      "what was the usc trademark case about?",
+      "why cant we trademark our logo?",
+      "can we still use the interlocking sc logo?",
+      "what happened in 2010 usc case?",
+      "wut happnd wit usc n south carolina trademrk?"
+    ]
+  },
+  {
+    "intent": "access_journal_marketing_specific",
+    "questions": [
+      "how can i access the journal of marketing?",
+      "where can i find marketing journals?",
+      "is journal of marketing available online?",
+      "how do i use business source complete?",
+      "whats the best database for marketin journals?"
+    ]
+  },
+  {
+    "intent": "check_ipad",
+    "questions": [
+      "how do i check out an ipad from the library?",
+      "can i borrow an ipad from the library?",
+      "how do i rent an ipad from thomas cooper library?",
+      "do i need a carolinacard to checkout an ipad?",
+      "whats the deal with ipad checkout?"
+    ]
+  },
+  {
+    "intent": "computer_available_library",
+    "questions": [
+      "are there computers available in the library?",
+      "are there macs available in the library?",
+      "what technology is available for checkout at usc library?",
+      "where are the desktops in tcoop?",
+      "got any pcs available in tcoop?"
+    ]
+  },
+  {
+    "intent": "usc_library",
+    "questions": [
+      "where are the other usc libraries located?",
+      "does usc have a law library?",
+      "are there libraries on other usc campuses?",
+      "how many libraries does usc have?",
+      "usc lib locs in columbia?"
+    ]
+  },
+  {
+    "intent": "library_film_video",
+    "questions": [
+      "does the library have films and videos available?",
+      "can i check out videos from thomas cooper library?",
+      "how do i rent movies from usc library?",
+      "do i need a carolinacard to borrow videos?",
+      "can students stream vids 4 free?"
+    ]
+  },
+  {
+    "intent": "get_full_text_access",
+    "questions": [
+      "how do i get full text access to a specific article?",
+      "how do i find full text articles in library databases?",
+      "can't find pdf of article what to do?",
+      "how to access full text from google scholar?",
+      "pdf not available online? what r my options?"
+    ]
+  },
+  {
+    "intent": "access_harvard_business_review",
+    "questions": [
+      "how do i access harvard business review articles through the library?",
+      "where can i find hbr articles?",
+      "can i read hbr online for free?",
+      "how to search hbr articles?",
+      "usc hbr access off campus"
+    ]
+  },
+  {
+    "intent": "i’m_outside_united_state",
+    "questions": [
+      "how do i access usc library resources from abroad?",
+      "do i need a vpn to access usc library?",
+      "how to download usc vpn?",
+      "can i use usc library if i'm not in the us?",
+      "im outside usa cant acess usc lib, help!"
+    ]
+  },
+  {
+    "intent": "see_zotero_notification_automatically",
+    "questions": [
+      "what does the zotero notification about proxy redirection mean?",
+      "how do i fix zotero redirecting me?",
+      "what's wrong with my zotero access?",
+      "how do i get rid of the yellow bar in zotero?",
+      "can't access library resources thru zotero"
+    ]
+  },
+  {
+    "intent": "floor_thomas_cooper_library",
+    "questions": [
+      "where are the quiet floors in thomas cooper library?",
+      "where can i study quietly in the library?",
+      "are there silent study rooms available?",
+      "how to reserve a study carrel?",
+      "whats the quietest floor in thomas cooper?"
+    ]
+  },
+  {
+    "intent": "student_success_center_peer",
+    "questions": [
+      "where is the student success center located?",
+      "what floor is student success on in thomas cooper library?",
+      "how do i make an appointment at the student success center?",
+      "can i get tutoring at the library?",
+      "whr is student sucess?"
+    ]
+  },
+  {
+    "intent": "mailing_address_thomas_cooper",
+    "questions": [
+      "what is the mailing address for the thomas cooper library?",
+      "how do i get to thomas cooper library by gps?",
+      "what's the address of the main library?",
+      "where can i park near thomas cooper library?",
+      "whats the adress of thomas cooper library?"
+    ]
+  },
+  {
+    "intent": "return_book",
+    "questions": [
+      "where can i return library books?",
+      "how do i return usc library items?",
+      "can i mail back usc library books?",
+      "can i return books to any library location?",
+      "where do i take back usc books?"
+    ]
+  },
+  {
+    "intent": "make_suggestion_library",
+    "questions": [
+      "how do i make suggestions to the library?",
+      "how can i provide feedback to the library?",
+      "where can i send my library concerns?",
+      "who do i contact about library issues?",
+      "usc lib got a comment box or somethin?"
+    ]
+  },
+  {
+    "intent": "make_noise_complaint_staff",
+    "questions": [
+      "how do i report noise in the library?",
+      "who do i contact about noise in the library?",
+      "what do i do if the library is too loud?",
+      "how to complain about noise?",
+      "disturbance in library, pls hlp!"
+    ]
+  },
+  {
+    "intent": "find_journal_impact_factor",
+    "questions": [
+      "how do i find a journal's impact factor?",
+      "what is journal impact factor?",
+      "where can i find journal citation reports?",
+      "how to check journal impact factor?",
+      "Can you help me check impact factor of a journal?"
+    ]
+  },
+  {
+    "intent": "get_online_access_library",
+    "questions": [
+      "when can i get online access to library resources as a new student?",
+      "how to get library access?",
+      "why can't i access library stuff yet?",
+      "when do fall students get library access?",
+      "Can't access online resources, help!"
+    ]
+  },
+  {
+    "intent": "pay_library_fine",
+    "questions": [
+      "how do i pay a library fine?",
+      "where do i pay library fines?",
+      "can i use a credit card to pay a library fine?",
+      "how 2 pay lib fine?",
+      "can i pay lib fine w/ credit card?"
+    ]
+  },
+  {
+    "intent": "friend_university_library_previously",
+    "questions": [
+      "how do i join friends of university libraries?",
+      "what are the benefits of joining friends of university libraries?",
+      "can non-students borrow books from thomas cooper library?",
+      "how to get borrowing privileges at usc library?",
+      "whats the deal with Friends of University Libraries? how do i get in on that?"
+    ]
+  },
+  {
+    "intent": "university_institutional_repository",
+    "questions": [
+      "does the university have an institutional repository?",
+      "what is scholar commons?",
+      "how do i access scholar commons?",
+      "can i contribute to scholar commons?",
+      "i wanna check out usc's institutional repository, where can i find it?"
+    ]
+  },
+  {
+    "intent": "set_link_usc_content",
+    "questions": [
+      "how do i set up links to usc content in google scholar?",
+      "how do i link google scholar to usc library?",
+      "can i get usc articles on google scholar?",
+      "how do i see usc library content on google scholar?",
+      "Yo how to set up ViewIt@UofSC on Google Scholar"
+    ]
+  },
+  {
+    "intent": "download_check_ebook",
+    "questions": [
+      "how do i download and check out an ebook?",
+      "how do i read an ebook from the library?",
+      "can i download ebooks for offline reading?",
+      "what do i need to download an ebook?",
+      "whats the process 4 downloading an e book?"
+    ]
+  },
+  {
+    "intent": "check_laptop",
+    "questions": [
+      "can i borrow a laptop from the library?",
+      "where can i find laptops to borrow?",
+      "how long can i keep a borrowed laptop?",
+      "what happens if i don't return a library laptop on time?",
+      "hey can i get a laptop from lib?"
+    ]
+  },
+  {
+    "intent": "library_provide_access_covidence",
+    "questions": [
+      "does the library provide access to covidence?",
+      "how do i access covidence at usc?",
+      "what is covidence and how can i use it?",
+      "how to sign up for covidence?",
+      "can i get covidence thru usc library?"
+    ]
+  },
+  {
+    "intent": "lost_found",
+    "questions": [
+      "where is the lost and found located?",
+      "what do i do if i lost my phone in the library?",
+      "is there a place to turn in a wallet i found?",
+      "where is the info desk in tcoop?",
+      "lost something at library, who do i talk to?"
+    ]
+  },
+  {
+    "intent": "charge_card_cost_print",
+    "questions": [
+      "why is there a charge on my card for more than the cost of my print job?",
+      "how do i use a credit card on student printing kiosks?",
+      "what happens to the authorization amount on my card?",
+      "can i get a refund for incorrect print charges?",
+      "whats up with the extra charge on my card from printing?"
+    ]
+  },
+  {
+    "intent": "found_book_library_catalog",
+    "questions": [
+      "how do i find a book in the library catalog?",
+      "where is my book located in the library?",
+      "how to use call numbers to find books?",
+      "can i request a book for pickup?",
+      "I found this awesome book in the catalog, but idk where it is in the library?"
+    ]
+  },
+  {
+    "intent": "library_fun_book_read",
+    "questions": [
+      "does the library have fun books to read?",
+      "where can i find popular fiction books in the library?",
+      "does usc library have new releases?",
+      "where should i look if i want to read for fun?",
+      "got any fun books at thomas cooper?"
+    ]
+  },
+  {
+    "intent": "data_visualization_support_service",
+    "questions": [
+      "what data visualization support services are available?",
+      "can you list the best data visualization support services?",
+      "what data visualizqation services do u provide?",
+      "what services does the library offer for data visualization?",
+      "Are there any workshops on data visualization?"
+    ]
+  },
+  {
+    "intent": "get_data_visualization_help",
+    "questions": [
+      "how can i visualize my research data?",
+      "where can i get help with data viz?",
+      "do you guys offer data visualization services?",
+      "what kind of data visualization resources does usc offer?",
+      "who can helo me with ccvisualizing data"
+    ]
+  },
+  {
+    "intent": "type_assistance_library_offer",
+    "questions": [
+      "what types of assistance does the library offer for data visualization?",
+      "what kind of data visualization help can i get?",
+      "how can i learn data visualization at usc?",
+      "can i schedule a custom data visualization session for my class?",
+      "usc data lab help"
+    ]
+  },
+  {
+    "intent": "kind_guidance_expect_online",
+    "questions": [
+      "what kind of guidance can i expect from an online consultation?",
+      "can you help me find info on data viz?",
+      "need help picking a data viz tool?",
+      "where can i learn about data visualization?",
+      "data viz resources?"
+    ]
+  },
+  {
+    "intent": "assistance_available_data_analysis",
+    "questions": [
+      "is there any support available for data analysis and statistics?",
+      "where can i go if i need help with data analysis?",
+      "does the library offer statistics assistance?",
+      "can i get one-on-one help with research data?",
+      "data lab hours and location"
+    ]
+  },
+  {
+    "intent": "datalab_located",
+    "questions": [
+      "what is the datalab and where is it located?",
+      "where is the datalab located?",
+      "what floor is datalab on?",
+      "can anyone use the datalab?",
+      "Is DataLab @ lib or not?"
+    ]
+  },
+  {
+    "intent": "kind_data_analysis_statistic",
+    "questions": [
+      "what kind of data analysis and statistics assistance is available?",
+      "where can i get help with data analysis?",
+      "does usc offer statistics assistance?",
+      "can i walk-in for data analysis help?",
+      "How do I schedule a data analysis appointment?"
+    ]
+  },
+  {
+    "intent": "specialized_software_available_datalab",
+    "questions": [
+      "what specialized software is available in the datalab?",
+      "where can i find spss statistics 29 tutorials?",
+      "does usc have sas software?",
+      "how to access jupyter notebook in usc library?",
+      "Which hardware is available in the DataLab?"
+    ]
+  },
+  {
+    "intent": "find_subjectspecific_data_statistic",
+    "questions": [
+      "where can i find subject-specific statistics?",
+      "where can i find statistics for my research?",
+      "i need data for economics course?",
+      "what kind of data does the usc library have?",
+      "finding data for my paper"
+    ]
+  },
+  {
+    "intent": "kind_research_support_university",
+    "questions": [
+      "what kind of research support does the library have?",
+      "what services are available for research support?",
+      "i need help with statistics for my research?",
+      "can i get help with exploratory data analysis?",
+      "What's not included in the library's data analysis service?"
+    ]
+  },
+  {
+    "intent": "What_is_NVivo",
+    "questions": [
+      "what is nvivo?",
+      "how does nvivo work?",
+      "what can i do with nvivo?",
+      "is nvivo available at usc library?",
+      "whats the deal with NVivo?"
+    ]
+  },
+  {
+    "intent": "access_nvivo",
+    "questions": [
+      "how can i access nvivo?",
+      "where can i find nvivo on campus?",
+      "can i use nvivo remotely?",
+      "do you have nvivo in the library?",
+      "Whats the deal with gettin NVivo on my laptop?"
+    ]
+  },
+  {
+    "intent": "find_additional_help_nvivo",
+    "questions": [
+      "where can i get help with nvivo?",
+      "where can i find nvivo user guides?",
+      "how do i learn nvivo?",
+      "where can i find nvivo tutorials for mac?",
+      "whats the best way to learn NVivo?"
+    ]
+  },
+  {
+    "intent": "data_visualization_learning_session",
+    "questions": [
+      "what data visualization learning sessions are available?",
+      "when are data vis sessions offered?",
+      "are data visualization sessions open to everyone?",
+      "where can i register for data visualization workshops?",
+      "wut r sum good data viz learnin sessions?"
+    ]
+  },
+  {
+    "intent": "difference_data_statistic",
+    "questions": [
+      "what is the difference between data and statistics?",
+      "can you explain raw data?",
+      "what are statistics used for?",
+      "how is data analyzed?",
+      "whats the diff btw data & stats?"
+    ]
+  },
+  {
+    "intent": "open_data",
+    "questions": [
+      "what is open data?",
+      "define open data?",
+      "why use open data?",
+      "how can i use open data?",
+      "whats the deal with open data?"
+    ]
+  },
+  {
+    "intent": "different_part_nvivo_workspace",
+    "questions": [
+      "what are the different parts of the nvivo workspace?",
+      "what's the menu bar in nvivo for?",
+      "where do i find project items in nvivo?",
+      "what does navigation view do?",
+      "how do i create a new project in nvivo?"
+    ]
+  },
+  {
+    "intent": "import_data_file_nvivo",
+    "questions": [
+      "What's the procedure for getting files into NVivo?",
+      "Can NVivo handle different document formats?",
+      "How do I get my research data into NVivo?",
+      "Is there a file size limit for NVivo imports?",
+      "how do i import data to nvivo?"
+    ]
+  },
+  {
+    "intent": "autocode_data_file_nvivo",
+    "questions": [
+      "How can NVivo automatically code my data?",
+      "What are the steps for automatic coding in NVivo?",
+      "Can NVivo identify themes in my data automatically?",
+      "How to use NVivo to compare coding between speakers?",
+      "nvivo auto coding by speaker?"
+    ]
+  },
+  {
+    "intent": "use_case_nvivo",
+    "questions": [
+      "How do I use cases for analysis in NVivo?",
+      "Can I add demographic info to my NVivo project?",
+      "How do I create attributes for my data in NVivo?",
+      "What are the steps for classifying cases in NVivo?",
+      "How do I add demographics to speakers in nvivo?"
+    ]
+  },
+  {
+    "intent": "software_hardware_resource_available",
+    "questions": [
+      "What software is available at the library for student use?",
+      "Can I borrow a laptop from the library?",
+      "How do I access software remotely through the university?",
+      "Is there a computer lab available for students?",
+      "Can I get remote access to SPSS?"
+    ]
+  },
+  {
+    "intent": "general_statistic_resource_available",
+    "questions": [
+      "Where can I find general statistics for research?",
+      "What are some good databases for statistical data?",
+      "Can you recommend a resource for finding general stats?",
+      "Where can I find data for my research project?",
+      "Where do I find general stats?"
+    ]
+  },
+  {
+    "intent": "general_data_set_available",
+    "questions": [
+      "What are some publicly available datasets?",
+      "Where can I find data for my research?",
+      "Can you recommend some general data resources?",
+      "Where can I find datasets for my project?",
+      "Where can I find data sets?"
+    ]
+  },
+  {
+    "intent": "source_open_data",
+    "questions": [
+      "What are some good sources for open data?",
+      "Where can I find publicly available datasets?",
+      "Can you list some sources of open data?",
+      "Where can I find government datasets?",
+      "Where do I find free data?"
+    ]
+  },
+  {
+    "intent": "create_codebook_nvivo",
+    "questions": [
+      "How do I develop a codebook in NVivo?",
+      "What are the steps for creating codes in NVivo?",
+      "Can I create subcodes in NVivo?",
+      "How do I organize my codes in NVivo?",
+      "How do I create codebook in nvivo?"
+    ]
+  },
+  {
+    "intent": "add_coding_data",
+    "questions": [
+      "How do I code data in NVivo?",
+      "What's the process for coding text in NVivo?",
+      "How do I apply codes to my data?",
+      "How to uncode data in NVivo?",
+      "How do I code data in nvivo?"
+    ]
+  },
+  {
+    "intent": "add_coding_data",
+    "questions": [
+      "How do I export my codebook from NVivo?",
+      "What are the steps for exporting a codebook?",
+      "Can you guide me on how to save my codebook?",
+      "How can I download my codebook from NVivo?",
+      "How do I export a codebook?"
+    ]
+  },
+  {
+    "intent": "coding_stripe_display_them",
+    "questions": [
+      "How do I show coding stripes in NVivo?",
+      "What are coding stripes and what do they do?",
+      "Can I see who coded each section of my data?",
+      "How to display coding stripes in NVivo?",
+      "How do I see coding stripes?"
+    ]
+  },
+  {
+    "intent": "data_visualization",
+    "questions": [
+      "What is data visualization and why is it used?",
+      "Can you explain the concept of data visualization?",
+      "What are some examples of data visualization?",
+      "What is data viz?",
+      "What is data visulization?"
+    ]
+  },
+  {
+    "intent": "data_visualization_important",
+    "questions": [
+      "Why is data visualization considered important?",
+      "What are the benefits of visualizing data?",
+      "How does data visualization help in analysis?",
+      "Why is data viz important?",
+      "Why is data visualization important?"
+    ]
+  },
+  {
+    "intent": "common_term_used_data",
+    "questions": [
+      "What are some common terms in data visualization?",
+      "Can you list some key terms used in data viz?",
+      "What does data wrangling mean in data science?",
+      "What are common terms in data viz?",
+      "What are some common terms used in data visualization"
+    ]
+  },
+  {
+    "intent": "business_statistic_resource_available",
+    "questions": [
+      "Where can I find business statistics resources?",
+      "What are some good resources for business stats?",
+      "Can you recommend a resource for international business statistics?",
+      "Where can I find business stats?",
+      "What are some business statistics resources?"
+    ]
+  },
+  {
+    "intent": "data_resource_available",
+    "questions": [
+      "What data resources are available for research?",
+      "Can you list some available data resources?",
+      "Where can I find U.S. census data?",
+      "What data resources are available?",
+      "What data resources are available?"
+    ]
+  },
+  {
+    "intent": "source_available_library_usc",
+    "questions": [
+      "What resources are available to USC students?",
+      "Can you list the resources available at USC Libraries?",
+      "What sources does the library offer for faculty?",
+      "What resources are available from the USC Libraries?",
+      "What sources are available from the Libraries for USC students, faculty, and staff?"
+    ]
+  },
+  {
+    "intent": "choose_right_visualization_data",
+    "questions": [
+      "How do I select the appropriate data visualization?",
+      "What's the best way to visualize my data for presentation?",
+      "Can you help me choose a chart type for my data?",
+      "How to choose the right data visualization?",
+      "How do I choose the right data visualization?"
+    ]
+  },
+  {
+    "intent": "guideline_creating_effective_visualization",
+    "questions": [
+      "What are the best practices for data visualization?",
+      "How do I create clear and effective visualizations?",
+      "Can you provide guidelines for creating good visualizations?",
+      "What are the guidelines for creating effective visualizations?",
+      "How do I create effective visualizations?"
+    ]
+  },
+  {
+    "intent": "resource_available_finding_criminal",
+    "questions": [
+      "Where can I find criminal justice statistics?",
+      "What resources are available for crime stats?",
+      "Can you recommend a resource for international crime statistics?",
+      "What resources are available to find criminal justice statistics?",
+      "How can I find criminal justice statistics?"
+    ]
+  },
+  {
+    "intent": "u_statistic_resource_available",
+    "questions": [
+      "Where can I find US criminal justice statistics?",
+      "What are some reliable sources for US crime stats?",
+      "Can you recommend a resource for US prison data?",
+      "What US statistics are available for criminal justice?",
+      "What US statistics resources are available for criminal justice?"
+    ]
+  },
+  {
+    "intent": "data_set_available_criminal",
+    "questions": [
+      "What datasets are available for criminal justice research?",
+      "Can you list some datasets for crime statistics?",
+      "Where can I find data on juvenile justice?",
+      "What data sets are available for criminal justice research?",
+      "can you list the available data sets for criminal justice research?"
+    ]
+  },
+  {
+    "intent": "information_needed_properly_cite",
+    "questions": [
+      "What information is needed to cite a dataset?",
+      "How do I properly reference a dataset in my research?",
+      "What's the correct format for citing data?",
+      "What information is needed to properly cite a dataset?",
+      "How do I properly cite a dataset?"
+    ]
+  },
+  {
+    "intent": "tool_help_data_citation",
+    "questions": [
+      "Are there tools to help with data citation formatting?",
+      "Can you recommend a tool for citing datasets?",
+      "How do I format a DOI citation?",
+      "Are there any tools to help with data citation?",
+      "Can you list the best tools for data citation?"
+    ]
+  },
+  {
+    "intent": "factor_consider_selecting_data",
+    "questions": [
+      "What should I consider when choosing a data visualization tool?",
+      "How do I select the best data viz tool for my project?",
+      "What are the key factors in selecting a data visualization tool?",
+      "What factors should I consider when selecting a data visualization tool?",
+      "What factors should I consider when selecting a visualization tool?"
+    ]
+  },
+  {
+    "intent": "spreadsheet_software_use_data",
+    "questions": [
+      "What spreadsheet software can I use for data visualization?",
+      "Can you recommend spreadsheet software for creating charts?",
+      "How do I make graphs in a spreadsheet program?",
+      "Tell me the best spreadsheet software for data visualization?",
+      "Tell me the best spreadsheet software to use for data visualization?"
+    ]
+  },
+  {
+    "intent": "data_visualization_software_available",
+    "questions": [
+      "What data visualization software is available at USC?",
+      "Can you list some data visualization software options?",
+      "Does the library provide access to Tableau?",
+      "What data visualization software is available?",
+      "Tell me the best data visualization software available?"
+    ]
+  },
+  {
+    "intent": "programming_language_use_data",
+    "questions": [
+      "What programming languages are used for data visualization?",
+      "Can you recommend a programming language for data viz?",
+      "What's the best language for data visualization?",
+      "What programming languages can I use for data visualization?",
+      "Tell me the best programming language to use for data visualization?"
+    ]
+  },
+  {
+    "intent": "resource_available_finding_economic",
+    "questions": [
+      "Where can I find resources for economic statistics?",
+      "What are some good resources for economic data?",
+      "Can you recommend a resource for international economic statistics?",
+      "What resources are available for finding economic statistics?",
+      "can you list the best resources for finding economic statistics?"
+    ]
+  },
+  {
+    "intent": "data_set_available_economic",
+    "questions": [
+      "What datasets are available for economic research?",
+      "Can you list some datasets for economic analysis?",
+      "Where can I find economic data sets for my project?",
+      "What data sets are available for economic research?",
+      "can you list the available data sets for economic research?"
+    ]
+  },
+  {
+    "intent": "data_set_available_education",
+    "questions": [
+      "What datasets are available for education research?",
+      "Can you list some datasets for education statistics?",
+      "Where can I find data on student performance?",
+      "What data sets are available for education?",
+      "Which data sets are available for education?"
+    ]
+  },
+  {
+    "intent": "contact_interlibrary_loan_staff",
+    "questions": [
+      "How do I get in touch with the Interlibrary Loan department?",
+      "What's the best way to reach ILL staff?",
+      "Can you provide the contact information for Interlibrary Loan?",
+      "How do I contact Interlibrary Loan staff?",
+      "How can I contact Interlibrary Loan staff?"
+    ]
+  },
+  {
+    "intent": "usc_columbia_user",
+    "questions": [
+      "Can I use the library if I'm not a USC student?",
+      "What are my options if I'm not affiliated with USC?",
+      "How do non-USC members access library resources?",
+      "What if I'm not a USC Columbia user?",
+      "What if I'm not a USC Columbia student?"
+    ]
+  },
+  {
+    "intent": "resource_environmental_geospatial_statistic",
+    "questions": [
+      "Where can I find environmental statistics resources?",
+      "What are some good resources for geospatial data?",
+      "Can you recommend a resource for environmental statistics?",
+      "What are some resources for environmental and geospatial statistics?",
+      "list some resources for environmental and geospatial statistics?"
+    ]
+  },
+  {
+    "intent": "find_environmental_geospatial_data",
+    "questions": [
+      "Where can I find environmental datasets for research?",
+      "What are some sources for geospatial data?",
+      "Can you recommend a resource for climate data?",
+      "Where can I find environmental and geospatial data sets?",
+      "geospacial data"
+    ]
+  },
+  {
+    "intent": "modelled_data_resource_available",
+    "questions": [
+      "What are some sources for modelled climate data?",
+      "Where can I find PRISM data for my research?",
+      "Can you recommend a resource for modelled environmental data?",
+      "What modelled data resources are available?",
+      "modelled data resources"
+    ]
+  },
+  {
+    "intent": "observed_data_resource_available",
+    "questions": [
+      "Where can I find observed climate data?",
+      "What are some sources for weather data?",
+      "Can you recommend a resource for NOAA data?",
+      "What observed data resources are available?",
+      "can you list the available observed data resources?"
+    ]
+  },
+  {
+    "intent": "resource_available_finding_health",
+    "questions": [
+      "Where can I find resources for health statistics?",
+      "What are some good sources for healthcare data?",
+      "Can you recommend a resource for international health statistics?",
+      "What resources are available for finding health statistics and data sets?",
+      "What resources are available to find health statistics and data sets?"
+    ]
+  },
+  {
+    "intent": "data_set_available_health",
+    "questions": [
+      "What datasets are available for health research projects?",
+      "Can you list some datasets for healthcare analysis?",
+      "Where can I find data on HIV/AIDS?",
+      "What data sets are available for health research?",
+      "can you list the available data sets for health research?"
+    ]
+  },
+  {
+    "intent": "resource_available_library_statistical",
+    "questions": [
+      "Where can I find statistics on libraries?",
+      "What resources are available for library metrics?",
+      "Can you recommend a resource for museum statistics?",
+      "What resources are available for library statistical resources?",
+      "library stats resources"
+    ]
+  },
+  {
+    "intent": "resource_social_work_statistic",
+    "questions": [
+      "Where can I find statistics for social work research?",
+      "What are some good resources for social work data?",
+      "Can you recommend a resource for international social work statistics?",
+      "What are some resources for social work statistics?",
+      "can you list the best resources for social work statistics?"
+    ]
+  },
+  {
+    "intent": "resource_u_statistic",
+    "questions": [
+      "Where can I find statistics for the United States?",
+      "What are some reliable sources for U.S. data?",
+      "Can you recommend a resource for U.S. census data?",
+      "list some good resources for U.S. statistics?",
+      "show some resources for U.S. statistics?"
+    ]
+  },
+  {
+    "intent": "resource_data_set",
+    "questions": [
+      "Where can I find resources for data sets for research?",
+      "What are some good sources for data archives?",
+      "Can you recommend a resource for social science data?",
+      "What are some resources for data sets?",
+      "can you list the resources for data sets?"
+    ]
+  },
+  {
+    "intent": "resource_available_sociology_statistic",
+    "questions": [
+      "Where can I find statistics for sociology research?",
+      "What are some good resources for sociology data?",
+      "Can you recommend a resource for international sociology statistics?",
+      "show the resources available for sociology statistics and data sets?",
+      "Where can I find sociology statistics?"
+    ]
+  },
+  {
+    "intent": "data_set_available_sociology",
+    "questions": [
+      "What datasets are available for sociology research projects?",
+      "Can you list some datasets for sociological analysis?",
+      "Where can I find data on social inequality?",
+      "What data sets are available for sociology?",
+      "list the available data sets for sociology?"
+    ]
+  },
+  {
+    "intent": "research_data_management",
+    "questions": [
+      "What is involved in research data management?",
+      "Can you explain the concept of research data management?",
+      "What are the best practices for managing research data?",
+      "What is research data management?",
+      "What is resarch data"
+    ]
+  },
+  {
+    "intent": "tool_resource_available_research",
+    "questions": [
+      "What tools are available for research data management?",
+      "Can you recommend software for managing research data?",
+      "How do I create a data management plan?",
+      "What tools and resources are available for Research Data Management?",
+      "research data management tools"
+    ]
+  },
+  {
+    "intent": "contact_help_research_data",
+    "questions": [
+      "Who can I contact for help with my data management plan?",
+      "What's the best way to get research data management support?",
+      "Can you provide contact information for research data services?",
+      "Who can I contact for help with research data management?",
+      "Who should I contact for help with research data management?"
+    ]
+  },
+  {
+    "intent": "whats_data_management_plan",
+    "questions": [
+      "What is a data management plan and why is it needed?",
+      "Can you explain the purpose of a data management plan?",
+      "What are the key components of a data management plan?",
+      "Whats data management plan (DMP)?",
+      "wahts dmp"
+    ]
+  },
+  {
+    "intent": "resource_available_writing_data",
+    "questions": [
+      "What resources are available for writing a DMP?",
+      "Can you provide a template for a data management plan?",
+      "How do I create a data management plan for my research?",
+      "What resources are available for writing a Data Management Plan (DMP)?",
+      "data management plan assistance"
+    ]
+  },
+  {
+    "intent": "need_data_management_plan",
+    "questions": [
+      "Why is a data management plan important for research?",
+      "What are the benefits of having a data management plan?",
+      "Is a data management plan required for grant applications?",
+      "Why should I have a data management plan?",
+      "how do i manage my data"
+    ]
+  },
+  {
+    "intent": "What_is_DMPtool",
+    "questions": [
+      "What is DMPtool and how does it work?",
+      "Can you explain the purpose of DMPtool?",
+      "How do I use DMPtool to create a data management plan?",
+      "What is DMPtool?",
+      "Tell me the DMPtool?"
+    ]
+  },
+  {
+    "intent": "osf_use_it",
+    "questions": [
+      "How do I use the Open Science Framework for research?",
+      "What are the benefits of using OSF for collaboration?",
+      "Can you explain how to share research projects on OSF?",
+      "how to use OSF",
+      "Collaboration tools for research"
+    ]
+  },
+  {
+    "intent": "option_available_longterm_archiving",
+    "questions": [
+      "What are my options for long-term data archiving at USC?",
+      "Can you recommend a data repository for my research data?",
+      "How do I share my research data with the public?",
+      "How can I share my research data with others?",
+      "How do I share my research data?"
+    ]
+  },
+  {
+    "intent": "cite_dataset",
+    "questions": [
+      "What is the proper way to cite a dataset in a research paper?",
+      "Can you provide an example of a dataset citation?",
+      "How do I give credit to the authors of a dataset?",
+      "How do I cite a dataset?",
+      "How do I cite someone else's dataset?"
+    ]
+  },
+  {
+    "intent": "metadata_important",
+    "questions": [
+      "Why is metadata important for research data?",
+      "What are the benefits of including metadata with my data?",
+      "How does metadata improve data accessibility and reuse?",
+      "Why is metadata important?",
+      "Why metadata is important?"
+    ]
+  },
+  {
+    "intent": "include_metadata",
+    "questions": [
+      "What information should I include in my metadata records?",
+      "How do I document my research data effectively?",
+      "What are the best practices for organizing metadata?",
+      "What should I include in my Metadata?",
+      "what to put in metadata"
+    ]
+  },
+  {
+    "intent": "element_metadata",
+    "questions": [
+      "What are the key elements of metadata?",
+      "Can you list the essential components of metadata?",
+      "What metadata should I provide for my research data?",
+      "What are the elements of metadata?",
+      "can you list the elements of metadata?"
+    ]
+  },
+  {
+    "intent": "find_information_metadata_standard",
+    "questions": [
+      "Where can I find more information about metadata standards?",
+      "What are the recommended metadata standards for my discipline?",
+      "Can you provide resources on metadata best practices?",
+      "Where can I find information about metadata standards?",
+      "Where can I get more information about metadata standards?"
+    ]
+  },
+  {
+    "intent": "consistent_file_naming_strategy",
+    "questions": [
+      "Why is a consistent file naming strategy important for data management?",
+      "What are the best practices for naming files?",
+      "How do I create a good file naming convention?",
+      "Why is a consistent file naming strategy important?",
+      "Why is consistent file naming important?"
+    ]
+  },
+  {
+    "intent": "file_format_use_ensure",
+    "questions": [
+      "What file formats should I use to ensure long-term data preservation?",
+      "How can I ensure my research data remains accessible in the future?",
+      "What are the recommended file formats for research data archiving?",
+      "What file formats should I use to ensure long-term accessibility of research data?",
+      "What file formats should I use to ensure long-term access of research data?"
+    ]
+  },
+  {
+    "intent": "open_science_framework",
+    "questions": [
+      "What is the Open Science Framework and how can I use it?",
+      "Can you explain the features of OSF for research collaboration?",
+      "How do I get started with the Open Science Framework?",
+      "Tell me aboug osf",
+      "osf.io what's that"
+    ]
+  },
+  {
+    "intent": "backing_data_important",
+    "questions": [
+      "Why is it important to back up my research data regularly?",
+      "What are the risks of not backing up my data?",
+      "How can I protect my data from loss or corruption?",
+      "Why is backing up data important?",
+      "Do i need to back up data"
+    ]
+  },
+  {
+    "intent": "resource_understanding_data_privacy",
+    "questions": [
+      "tell me more about data privacy",
+      "what is data security",
+      "how to protect data",
+      "what is data privacy",
+      "what are the data privacy laws"
+    ]
+  },
+  {
+    "intent": "university_policy_apply_research",
+    "questions": [
+      "what are the usc policies on data",
+      "where to find usc research policies",
+      "usc data policy",
+      "research data policy usc",
+      "what are the university data policies"
+    ]
+  },
+  {
+    "intent": "service_osf_integrate_with",
+    "questions": [
+      "what does osf work with",
+      "osf integrations list",
+      "what tools work with osf",
+      "osf integration options",
+      "what can osf connect to"
+    ]
+  },
+  {
+    "intent": "resource_available_research_data",
+    "questions": [
+      "where to learn about research data management",
+      "rdm resources",
+      "data management services",
+      "data management education",
+      "how to manage research data"
+    ]
+  },
+  {
+    "intent": "happens_article_resulting_accepted",
+    "questions": [
+      "what happens to registered reports",
+      "registered reports acceptance",
+      "can registered reports be rejected",
+      "registered report process",
+      "what is osf registration"
+    ]
+  },
+  {
+    "intent": "suggest_workshop",
+    "questions": [
+      "how to schedule a workshop",
+      "who to contact for workshops",
+      "suggest new workshop",
+      "schedule group session",
+      "how to book a workshop"
+    ]
+  },
+  {
+    "intent": "service_available_faculty_instructor",
+    "questions": [
+      "what services for faculty",
+      "library support for instructors",
+      "research resources for professors",
+      "workshops for teachers",
+      "faculty training"
+    ]
+  },
+  {
+    "intent": "kind_ai_support_library",
+    "questions": [
+      "is there an ai institute",
+      "ai institute",
+      "what is ai at usc",
+      "usc ai research",
+      "is there an ai program"
+    ]
+  },
+  {
+    "intent": "workshop_available_ai_data",
+    "questions": [
+      "what ai workshops are available",
+      "best ai workshops",
+      "are there ai workshops",
+      "learn data science tools",
+      "training on python or r"
+    ]
+  },
+  {
+    "intent": "help_ai",
+    "questions": [
+      "who can help me with ai",
+      "how to learn ai",
+      "i need ai help",
+      "appointment for ai",
+      "data science support"
+    ]
+  },
+  {
+    "intent": "artificial_intelligence",
+    "questions": [
+      "what is ai",
+      "tell me about ai",
+      "whats ai",
+      "define ai",
+      "what does ai mean"
+    ]
+  },
+  {
+    "intent": "ai_evolved_time",
+    "questions": [
+      "how has ai evolved",
+      "how has ai changed",
+      "how did ai start",
+      "evolution of ai",
+      "history of ai"
+    ]
+  },
+  {
+    "intent": "application_artificial_intelligence",
+    "questions": [
+      "what are ai applications",
+      "list ai applications",
+      "show ai applications",
+      "tell me about ai applications",
+      "what is ai used for"
+    ]
+  },
+  {
+    "intent": "consider_using_ai_technology",
+    "questions": [
+      "does the library endorse ai",
+      "does usc recommend ai",
+      "what ai tech does usc use",
+      "usc ai policy",
+      "do you endorse ai"
+    ]
+  },
+  {
+    "intent": "text_analysis",
+    "questions": [
+      "tell me about text analysis",
+      "what is text analysis",
+      "text analysis meaning",
+      "how does text analysis work",
+      "is text analysis data mining"
+    ]
+  },
+  {
+    "intent": "terminology_used_text_analysis",
+    "questions": [
+      "tell me the terms used in text analysis",
+      "what terminology is used",
+      "what is content mining",
+      "define text mining",
+      "what is web scraping"
+    ]
+  },
+  {
+    "intent": "get_started_text_analysis",
+    "questions": [
+      "how to get started",
+      "how can i get started",
+      "how do i start",
+      "how to start analyzing",
+      "whats the first step"
+    ]
+  },
+  {
+    "intent": "common_text_analysis_method",
+    "questions": [
+      "what are common methods",
+      "what are text analysis methods",
+      "tell me the most common method",
+      "can you list the methods",
+      "sentiment analysis"
+    ]
+  },
+  {
+    "intent": "store_create_machine_readable",
+    "questions": [
+      "how to store and create",
+      "how to store",
+      "how to create",
+      "machine readable text",
+      "how to make data readable"
+    ]
+  },
+  {
+    "intent": "machine_learning",
+    "questions": [
+      "what is machine learning",
+      "ml",
+      "how does machine learning work",
+      "ml help",
+      "ai model training"
+    ]
+  },
+  {
+    "intent": "different_type_machine_learning",
+    "questions": [
+      "what are the different types",
+      "can you list the types",
+      "tell me the types",
+      "machine learning types",
+      "what types exist"
+    ]
+  },
+  {
+    "intent": "key_term_related_machine",
+    "questions": [
+      "what are some key terms",
+      "can you list the key terms",
+      "list some key terms",
+      "machine learning terms",
+      "can you list the key terms"
+    ]
+  },
+  {
+    "intent": "news_event_related_ai",
+    "questions": [
+      "what news and events",
+      "list the latest news",
+      "what are news and events",
+      "ai news",
+      "whats new at usc"
+    ]
+  },
+  {
+    "intent": "ai_degree_certificate_offered",
+    "questions": [
+      "what ai degrees offered",
+      "what ai degrees in india",
+      "ai degree options",
+      "does usc have ai program",
+      "ai certificate usc"
+    ]
+  },
+  {
+    "intent": "ai_course_available",
+    "questions": [
+      "what ai courses",
+      "list the best ai courses",
+      "what ai courses in india",
+      "what ai courses does usc offer",
+      "usc ai classes"
+    ]
+  },
+  {
+    "intent": "introductory_tool_text_analysis",
+    "questions": [
+      "what are some introductory tools",
+      "tell me the best introductory tool",
+      "recommend introductory tools",
+      "what tools are available",
+      "im new to text analysis"
+    ]
+  },
+  {
+    "intent": "hathitrust_research_center",
+    "questions": [
+      "tell me about hathitrust",
+      "usc login for hathitrust",
+      "can i use hathitrust",
+      "hathitrust digital library",
+      "htrc usc"
+    ]
+  },
+  {
+    "intent": "advanced_text_analysis_tool",
+    "questions": [
+      "what advanced tools are available",
+      "best text analysis software",
+      "tools for analyzing text",
+      "text cleaning resources",
+      "what advanced tools"
+    ]
+  },
+  {
+    "intent": "freely_available_corpus_text",
+    "questions": [
+      "what are some free corpora",
+      "list some free corpora",
+      "tell me the best corpora",
+      "where to find free data",
+      "free corpora"
+    ]
+  },
+  {
+    "intent": "learn_work_api",
+    "questions": [
+      "how to learn api",
+      "tell me the best way",
+      "how can i learn",
+      "how to use library api",
+      "what is api in library"
+    ]
+  },
+  {
+    "intent": "policy_using_ai_developing",
+    "questions": [
+      "what are the policies on ai",
+      "tell me the policy on ai",
+      "can you list policies",
+      "list the policies",
+      "can i use ai"
+    ]
+  },
+  {
+    "intent": "cite_ai_manuscript",
+    "questions": [
+      "how to cite ai",
+      "how can i cite ai",
+      "how do i cite ai",
+      "learn how to cite chatgpt",
+      "how do i cite ai"
+    ]
+  },
+  {
+    "intent": "resource_available_learning_ai",
+    "questions": [
+      "what resources for learning ai",
+      "resources on ai",
+      "using ai for papers",
+      "where to find info on ai",
+      "ai usage guidelines"
+    ]
+  },
+  {
+    "intent": "example_policy_guideline_ai",
+    "questions": [
+      "what are some examples of policies",
+      "list some examples",
+      "show some examples",
+      "what are examples of policies",
+      "what are the guidelines"
+    ]
+  },
+  {
+    "intent": "search_option_available",
+    "questions": [
+      "what search options",
+      "which search options",
+      "can you list search options",
+      "how to search for textbooks",
+      "usc library search"
+    ]
+  },
+  {
+    "intent": "service_library_offer",
+    "questions": [
+      "what services",
+      "list services",
+      "what services",
+      "library services",
+      "can i reserve a room"
+    ]
+  },
+  {
+    "intent": "event_upcoming",
+    "questions": [
+      "what events",
+      "show events",
+      "can you list events",
+      "whats happening",
+      "upcoming events"
+    ]
+  },
+  {
+    "intent": "policy_text_analysis_licensed",
+    "questions": [
+      "what are the policies",
+      "list the policies",
+      "tell me the policy",
+      "can you list the policies",
+      "can i do text analysis"
+    ]
+  },
+  {
+    "intent": "vendor_allow_text_analysis",
+    "questions": [
+      "what vendors allow",
+      "list the vendors",
+      "which vendors allow",
+      "what publishers does usc have",
+      "list of database providers"
+    ]
+  },
+  {
+    "intent": "federal_legal_response_ai",
+    "questions": [
+      "what are some federal responses",
+      "list some federal responses",
+      "what are federal and state",
+      "can you list legal",
+      "what are the federal laws"
+    ]
+  },
+  {
+    "intent": "resource_copyright_ai",
+    "questions": [
+      "what are some resources",
+      "list some resources",
+      "can you list the resources",
+      "can you list the resources",
+      "can ai work be copyrighted"
+    ]
+  },
+  {
+    "intent": "guidance_university_college_provide",
+    "questions": [
+      "what guidance do universities provide",
+      "what guidance do colleges provide",
+      "what advice do universities provide",
+      "other university ai policies",
+      "examples of college guidance"
+    ]
+  },
+  {
+    "intent": "citation_style_guide",
+    "questions": [
+      "what is citation style guide",
+      "how do i cite",
+      "what format is required",
+      "citation guide",
+      "help with citing"
+    ]
+  },
+  {
+    "intent": "need_cite_source",
+    "questions": [
+      "why do i need to cite",
+      "why do i have to cite",
+      "why do you need to cite",
+      "why do i need to cite",
+      "when to cite"
+    ]
+  },
+  {
+    "intent": "commonly_used_citation_style",
+    "questions": [
+      "what are the most common",
+      "can you list the most common",
+      "list the most common",
+      "show the most common",
+      "what citation styles does the library support"
+    ]
+  },
+  {
+    "intent": "contact_library_textbook_course",
+    "questions": [
+      "how to contact the library",
+      "what is library email",
+      "where is the checkout",
+      "need help with music",
+      "music library contact"
+    ]
+  },
+  {
+    "intent": "event_offered_constellate",
+    "questions": [
+      "what events offered by constellate",
+      "can you list events",
+      "list events",
+      "what events offered by jstor",
+      "constellate upcoming events"
+    ]
+  },
+  {
+    "intent": "tutorial_available_text_analysis",
+    "questions": [
+      "what tutorials are available",
+      "can you list the best tutorials",
+      "list the best tutorials",
+      "where to find topic modeling tutorials",
+      "are there python tutorials"
+    ]
+  },
+  {
+    "intent": "instruction_article_available_text",
+    "questions": [
+      "what articles and instructions",
+      "topic modeling resources",
+      "i need help with topic modeling",
+      "where to find articles on mathematics",
+      "distant reading techniques"
+    ]
+  },
+  {
+    "intent": "ama_citation_style",
+    "questions": [
+      "tell me ama style",
+      "what is ama style",
+      "what is the latest ama",
+      "ama 11th edition",
+      "where can i find ama manual"
+    ]
+  },
+  {
+    "intent": "cite_government_report",
+    "questions": [
+      "how to cite a government report",
+      "how to cite nih in ama",
+      "ama citation for government",
+      "nih report citation",
+      "citing national institutes"
+    ]
+  },
+  {
+    "intent": "apa_publication_manual",
+    "questions": [
+      "what is the apa manual",
+      "what is an apa manual",
+      "what is apa manual",
+      "tell me the apa manual",
+      "what is apa style"
+    ]
+  },
+  {
+    "intent": "cite_periodical_apa_style",
+    "questions": [
+      "how to cite periodicals in apa",
+      "how can i cite periodicals",
+      "how to quote periodicals",
+      "how to cite multiple authors",
+      "citation for 3 authors"
+    ]
+  },
+  {
+    "intent": "cite_book_reference_text",
+    "questions": [
+      "how to cite books and references",
+      "how to cite books",
+      "how to cite books and references",
+      "how can i cite books",
+      "how to cite books in research"
+    ]
+  },
+  {
+    "intent": "cite_webpage_website_apa",
+    "questions": [
+      "how to cite webpages",
+      "how to cite a website",
+      "how to cite a webpage",
+      "how to cite a webpage",
+      "citation for website"
+    ]
+  },
+  {
+    "intent": "cite_government_business_technical",
+    "questions": [
+      "how to cite government reports",
+      "how to cite government",
+      "how to cite government",
+      "how can i cite government",
+      "how do i cite government"
+    ]
+  },
+  {
+    "intent": "cite_dissertation_thesis_apa",
+    "questions": [
+      "how to cite dissertations",
+      "how to cite a dissertation",
+      "how to cite a dissertation",
+      "thesis citation",
+      "dissertation referencing"
+    ]
+  },
+  {
+    "intent": "cite_data_set_software",
+    "questions": [
+      "how to cite datasets",
+      "how can i cite datasets",
+      "how do i cite datasets",
+      "what datasets are available",
+      "how to access software"
+    ]
+  },
+  {
+    "intent": "find_information_apa_citation",
+    "questions": [
+      "where to find apa citations",
+      "where to find apa",
+      "where to find apa",
+      "where to find apa",
+      "how to cite in apa"
+    ]
+  },
+  {
+    "intent": "chicago_manual_style",
+    "questions": [
+      "what is chicago manual",
+      "what citation style in history",
+      "chicago manual guide",
+      "how to cite in literature",
+      "what style for arts"
+    ]
+  },
+  {
+    "intent": "cite_primary_source_chicago",
+    "questions": [
+      "how to cite primary sources",
+      "how can i cite primary",
+      "how to cite primary",
+      "how do i cite primary",
+      "citation for historical documents"
+    ]
+  },
+  {
+    "intent": "find_example_chicago_citation",
+    "questions": [
+      "where can i locate chicago style guides?",
+      "chicago manual of style examples?",
+      "can you help me find chicago style citation examples?",
+      "where to find chicago citation help",
+      "us c chicago citation resources?"
+    ]
+  },
+  {
+    "intent": "ongoing_event_happening_library",
+    "questions": [
+      "whats going on at the library today?",
+      "are there any current events at the usc library?",
+      "any library events happening now?",
+      "what exhibits are currently at the library?",
+      "whats on the usc lib calender?"
+    ]
+  },
+  {
+    "intent": "example_project_use_digital",
+    "questions": [
+      "can you show me some digital scholarship examples?",
+      "what are some digital humanities projects?",
+      "show me examples of projects using digital scholarship",
+      "digital projects usc library",
+      "usc digital scholarship project examples?"
+    ]
+  },
+  {
+    "intent": "concept_related_artificial_intelligence",
+    "questions": [
+      "what are some artificial intelligence concepts?",
+      "can you list ai related concepts?",
+      "what topics are related to ai?",
+      "where can i find ai resources at usc library?",
+      "do you have any machine learning videos?"
+    ]
+  },
+  {
+    "intent": "concept_related_generative_ai",
+    "questions": [
+      "what are some generative ai concepts?",
+      "list the concepts related to generative ai",
+      "tell me about generative ai",
+      "what are some ai resources at the library?",
+      "any videos on large language models?"
+    ]
+  },
+  {
+    "intent": "tip_follow_using_ai",
+    "questions": [
+      "what are some tips for using ai in research?",
+      "how can i use ai for research effectively?",
+      "do i need to cite ai generated content in my paper?",
+      "when should i cite ai usage?",
+      "is it important to verify ai suggested sources?"
+    ]
+  },
+  {
+    "intent": "learn_using_ai_according",
+    "questions": [
+      "where can i learn more about ai and the usc honor code?",
+      "what are the usc honor code rules for ai?",
+      "am i allowed to use ai for assignments at usc?",
+      "what is the artificial intelligence usage policy at usc?",
+      "what are the rules on using ai for homework at usc?"
+    ]
+  },
+  {
+    "intent": "learn_clear_framework",
+    "questions": [
+      "where can i find more information on the clear framework?",
+      "what is the clear path framework for prompt engineering?",
+      "what is clear path info lit?",
+      "how does prompt engineering improve information literacy?",
+      "what is the clear path in academic librarianship?"
+    ]
+  },
+  {
+    "intent": "learn_prompt_engineering",
+    "questions": [
+      "how can i learn prompt engineering skills?",
+      "what's the best way to learn prompt engineering?",
+      "how do i improve my chatgpt skills?",
+      "is there a guide on how to use chatgpt?",
+      "where can i find prompt engineering tutorials?"
+    ]
+  },
+  {
+    "intent": "format_intext_citation_mla",
+    "questions": [
+      "how do i format an in text citation in mla 9?",
+      "what does an mla in text citation look like?",
+      "how do i cite something in mla 9?",
+      "whats the format for mla in text citations?",
+      "can you give me an example of an mla 9 in text citation?"
+    ]
+  },
+  {
+    "intent": "format_work_cited_entry",
+    "questions": [
+      "how do i format a works cited entry in mla 9?",
+      "how do i cite a source in mla 9 style?",
+      "what does an mla works cited entry look like?",
+      "whats the correct way to cite ai sources in mla?",
+      "how do i cite program output in mla format?"
+    ]
+  },
+  {
+    "intent": "additional_resource_mla_citation",
+    "questions": [
+      "are there any additional resources for mla citation help?",
+      "where can i find more resources for mla citation?",
+      "how do i cite ai in mla style?",
+      "what mla citation resources are available at the usc library?",
+      "where can i find mla citation guides online?"
+    ]
+  },
+  {
+    "intent": "evaluating_resource_checklist",
+    "questions": [
+      "what is the evaluating resources checklist?",
+      "how do i evaluate online resources for credibility?",
+      "what is the purpose of a .com website?",
+      "how can i identify biases on the internet?",
+      "what do different domain types mean?"
+    ]
+  },
+  {
+    "intent": "criterion_evaluating_online_resource",
+    "questions": [
+      "what are the criteria for evaluating online resources?",
+      "how do i evaluate online sources effectively?",
+      "what makes a website credible and trustworthy?",
+      "how can i check if a source is reliable?",
+      "can you give me some tips for evaluating websites?"
+    ]
+  },
+  {
+    "intent": "resource_available_understanding_medium",
+    "questions": [
+      "what resources are available for understanding media bias?",
+      "how can i evaluate media bias in news sources?",
+      "is there a chart to check for media bias?",
+      "why is mainstream news often considered biased?",
+      "what's wrong with mainstream media outlets?"
+    ]
+  },
+  {
+    "intent": "example_generative_ai_chatbots",
+    "questions": [
+      "what are some examples of generative ai chatbots?",
+      "can you give me examples of ai chatbots?",
+      "what can bard chatbot do?",
+      "what is google's conversational ai called?",
+      "what types of text formats can ai generate?"
+    ]
+  },
+  {
+    "intent": "ai_art_generator_work",
+    "questions": [
+      "how do ai art generators work?",
+      "how does ai turn text into images?",
+      "can you explain the ai art creation process?",
+      "do ai art generators use llms?",
+      "how do ai image generators learn and improve?"
+    ]
+  },
+  {
+    "intent": "attribute_ai_research",
+    "questions": [
+      "how can i properly attribute ai in my research?",
+      "how do i cite ai in apa style?",
+      "what's the apa citation format for ai generated text?",
+      "do i need to cite chatgpt if i use it for research?",
+      "how do i reference ai in a research paper using apa?"
+    ]
+  },
+  {
+    "intent": "format_footnote_citation_chicago",
+    "questions": [
+      "how do i format a footnote citation in chicago 17 style?",
+      "how do you format a footnote citation in chicago 17?",
+      "how can i format a footnote citation in chicago 17 style?",
+      "how do i cite a chatbot source in chicago style?",
+      "what is the chicago footnote citation format for ai generated text?"
+    ]
+  },
+  {
+    "intent": "additional_resource_available_chicago",
+    "questions": [
+      "what additional resources are available for chicago citation style?",
+      "is there a chicago style guide available at usc?",
+      "how do i cite sources using the chicago style?",
+      "does the usc library have the chicago manual of style?",
+      "where can i find more information on chicago citations?"
+    ]
+  },
+  {
+    "intent": "digital_scholarship_service_available",
+    "questions": [
+      "what digital scholarship services are available at usc?",
+      "what are the digital scholarship services offered by the library?",
+      "i want to create a digital project where do i start?",
+      "can i get help with text mining at the library?",
+      "what resources are available for digital projects at usc?"
+    ]
+  },
+  {
+    "intent": "digital_scholarship",
+    "questions": [
+      "what is digital scholarship all about?",
+      "can you explain the meaning of digital scholarship?",
+      "what does digital scholarship involve?",
+      "how is technology used in scholarship today?",
+      "what are the benefits of digital scholarship?"
+    ]
+  },
+  {
+    "intent": "library_help_digital_scholarship",
+    "questions": [
+      "how can the library help with my digital scholarship project?",
+      "what digital resources does the library offer for scholars?",
+      "can i get help with web hosting from the library for my project?",
+      "is there a way for me to host my website through usc libraries?",
+      "where do i go for help with my digital humanities project at usc?"
+    ]
+  },
+  {
+    "intent": "see_example_digital_scholarship",
+    "questions": [
+      "can i see some examples of digital scholarship projects?",
+      "are there any usc digital projects i can look at?",
+      "what are some examples of digital scholarship?",
+      "can you show me some digital research examples at usc?",
+      "where can i find digital scholarship resources at usc?"
+    ]
+  },
+  {
+    "intent": "text_mining",
+    "questions": [
+      "what is text mining and how does it work?",
+      "can you tell me about text mining?",
+      "what does text mining mean in research?",
+      "can you define text mining for me?",
+      "what is distant reading and how does it relate to text mining?"
+    ]
+  },
+  {
+    "intent": "term_related_text_mining",
+    "questions": [
+      "what terms are related to text mining?",
+      "can you explain the definition of text mining?",
+      "what is data mining and how does it relate to text mining?",
+      "what is web scraping and how is it used in text mining?",
+      "can you give me a crash course on machine learning basics?"
+    ]
+  },
+  {
+    "intent": "get_started_text_mining",
+    "questions": [
+      "how do i get started with text mining?",
+      "what's the first step in starting a text mining project?",
+      "can usc help me with my text mining research paper?",
+      "how do i get in touch with usc stats experts for help?",
+      "where do i begin if i'm new to text mining?"
+    ]
+  },
+  {
+    "intent": "create_open_access_journal",
+    "questions": [
+      "can i create an open access journal through the university of south carolina libraries?",
+      "how do i start an open access journal at usc?",
+      "can usc help me create a journal and host it?",
+      "what software does usc use for journal hosting?",
+      "is journal hosting free for usc faculty and students?"
+    ]
+  },
+  {
+    "intent": "detail_consider_creating_open",
+    "questions": [
+      "what details should i consider when creating an open access journal?",
+      "what should i think about when starting a new journal?",
+      "what are the key requirements to create a new journal?",
+      "how do i check if my journal title is available?",
+      "can you help me design my journal's landing page?"
+    ]
+  },
+  {
+    "intent": "role_needed_manage_open",
+    "questions": [
+      "what roles are needed to manage an open access journal effectively?",
+      "how do i manage an open access journal on a day to day basis?",
+      "who is in charge of an open access journal and what do they do?",
+      "what kind of team do i need to run a journal?",
+      "do i need an editorial board for my journal and how do i recruit them?"
+    ]
+  },
+  {
+    "intent": "policy_established_open_access",
+    "questions": [
+      "what policies should be established for an open access journal to be successful?",
+      "how are manuscripts considered for inclusion in an open access journal?",
+      "what is the process for checking plagiarism in submissions?",
+      "what happens if there is a copyright violation in my journal?",
+      "how does the peer review process work for my open access journal?"
+    ]
+  },
+  {
+    "intent": "attribution_work",
+    "questions": [
+      "what is the attribution for this work and who created it?",
+      "tell me about the attribution policy for this page?",
+      "can i reuse content from this page and what are the terms?",
+      "is this work open source or copyrighted?",
+      "where did this information come from and how do i cite it?"
+    ]
+  },
+  {
+    "intent": "consider_planning_digital_scholarship",
+    "questions": [
+      "what should i consider when planning a digital scholarship project?",
+      "how do i plan a digital scholarship project from start to finish?",
+      "what are the essential steps to create a successful digital scholarship project?",
+      "how do i choose the right content management system for my project?",
+      "do i need training to use a cms and what are the costs involved?"
+    ]
+  },
+  {
+    "intent": "see_example_digital_project",
+    "questions": [
+      "can i see examples of digital projects created at usc?",
+      "what kind of online resources do usc professors create?",
+      "are there any virtual labs or courses developed at usc?",
+      "can you show me some faculty created websites for courses at usc?",
+      "what digital humanities projects have been done at usc?"
+    ]
+  },
+  {
+    "intent": "constellate_use_it",
+    "questions": [
+      "what is constellate and how do i use it for text analysis?",
+      "how do i log in to constellate at usc?",
+      "where can i find constellate tutorials and guides?",
+      "what is constellate and how does it work for data analysis?",
+      "how do i share files and collaborate on constellate?"
+    ]
+  },
+  {
+    "intent": "hathitrust_research_center_access",
+    "questions": [
+      "how do i access hathitrust through usc?",
+      "why is my hathitrust login not working?",
+      "what is the usc hathitrust portal and how do i use it?",
+      "is hathitrust free for usc students and faculty?",
+      "what can i do with the hathitrust research center?"
+    ]
+  },
+  {
+    "intent": "track_impact_research",
+    "questions": [
+      "how can i track the impact of my research publications?",
+      "what metrics are available on scholar commons to measure impact?",
+      "can i see who is using my research and where it's being cited?",
+      "how do i use the author dashboard to track my research?",
+      "what's the best way to measure the reach of my scholarly works at usc?"
+    ]
+  },
+  {
+    "intent": "uscs_create_digital",
+    "questions": [
+      "what is usc's create digital and what does it offer?",
+      "how do i host a website with usc's create digital platform?",
+      "can i get free web hosting through usc create digital?",
+      "how do i log in to create digital and access its tools?",
+      "what are the limitations of usc's create digital program in terms of storage and features?"
+    ]
+  },
+  {
+    "intent": "need_additional_storage",
+    "questions": [
+      "what if i need additional storage for my digital scholarship project?",
+      "where can i store my project data if i run out of space on usc servers?",
+      "are there external storage options available for usc projects?",
+      "what options are available for non grant funded project storage?",
+      "how do i request additional storage for my usc digital project?"
+    ]
+  },
+  {
+    "intent": "get_started_uscs_create",
+    "questions": [
+      "how do i get started with usc's create digital platform?",
+      "how do i access my cpanel in usc create digital?",
+      "can you provide a cpanel guide for usc create digital users?",
+      "how do i create a subdomain in usc create digital?",
+      "how do i install wordpress on usc web hosting through create digital?"
+    ]
+  },
+  {
+    "intent": "digital_tool_available_project",
+    "questions": [
+      "where can i learn more about digital scholarship tools available at usc?",
+      "what digital scholarship tools are available for my project?",
+      "does the library have digital tools i can use for research?",
+      "what software does the library provide for digital scholarship?",
+      "are there any digital research tools that are recommended for beginners?"
+    ]
+  },
+  {
+    "intent": "timeline_tool_available",
+    "questions": [
+      "what timeline tools are available for creating digital timelines?",
+      "can you tell me the best timeline tool for my project?",
+      "i need help creating a timeline for my website what are my options?",
+      "are there any free timeline tools that i can use?",
+      "how do i make an interactive timeline for my digital scholarship project?"
+    ]
+  },
+  {
+    "intent": "mapping_tool_available",
+    "questions": [
+      "what mapping tools are available for digital scholarship projects?",
+      "can you list the best mapping tools for creating interactive maps?",
+      "tell me about the best mapping tool for geospatial analysis?",
+      "who can help me with gis mapping at usc?",
+      "what mapping software do you recommend for beginners?"
+    ]
+  },
+  {
+    "intent": "web_scraper_available",
+    "questions": [
+      "what web scrapers are available for extracting data from websites?",
+      "can you tell me the best web scraper for my research project?",
+      "what web scraping tools do you recommend for beginners?",
+      "i need a tool to scrape data from wikipedia what are my options?",
+      "how do i extract data from websites using web scraping tools?"
+    ]
+  },
+  {
+    "intent": "collaboration_tool_available",
+    "questions": [
+      "what collaboration tools are available for digital scholarship projects?",
+      "can you list the best collaboration tools for teamwork?",
+      "what tools can i use for group projects and task management?",
+      "how do i manage tasks effectively with my team online?",
+      "what's the best way to coordinate with my team on a digital project?"
+    ]
+  },
+  {
+    "intent": "animation_tool_available",
+    "questions": [
+      "what animation tools are available for creating digital content?",
+      "can you list the best animation tools for beginners?",
+      "tell me about the best annotation tool for digital projects?",
+      "what annotation tools do you recommend for marking up web pages?",
+      "what audio production tools are available at the library for editing audio?"
+    ]
+  },
+  {
+    "intent": "copyright_exist",
+    "questions": [
+      "what is copyright and how does it work in the us?",
+      "can you explain the basics of copyright law?",
+      "why do we have copyright laws and what purpose do they serve?",
+      "what kind of works are protected by copyright and for how long?",
+      "can i use copyrighted materials for educational purposes and what are the rules?"
+    ]
+  },
+  {
+    "intent": "make_copyright_decision",
+    "questions": [
+      "how do i make informed copyright decisions for my research?",
+      "how do i know if a work is covered by copyright or in the public domain?",
+      "can i use a copyrighted work for teaching purposes under fair use?",
+      "are there exceptions to copyright law that allow me to use certain materials?",
+      "how do i get permission to use a protected work if i need it for my project?"
+    ]
+  },
+  {
+    "intent": "type_repository_sharing_research",
+    "questions": [
+      "what are the different types of repositories for sharing research?",
+      "where can i share my published research to make it more accessible?",
+      "how do i choose the right repository for my work and what factors should i consider?",
+      "what's the difference between institutional and disciplinary repositories?",
+      "where can i find subject specific repositories for my field of study?"
+    ]
+  },
+  {
+    "intent": "version_work_share",
+    "questions": [
+      "what version of my work can i legally share with others?",
+      "am i allowed to share published articles on academic platforms?",
+      "what are the rules for sharing pre prints and post prints of my research?",
+      "how do i know if i have the right to share my research online?",
+      "can i share publisher pdfs of my articles or is that a copyright violation?"
+    ]
+  },
+  {
+    "intent": "academic_social_networking_site",
+    "questions": [
+      "what are academic social networking sites and how are they used?",
+      "what are the pros and cons of using academia.edu and researchgate?",
+      "can i share my research on social media platforms like twitter or linkedin?",
+      "are academic social networks safe to use in terms of copyright?",
+      "what's the difference between social networking sites and open access repositories for sharing research?"
+    ]
+  },
+  {
+    "intent": "featured_repository",
+    "questions": [
+      "what are some featured repositories for open access research?",
+      "can you list some of the best open access repositories for finding research papers?",
+      "where can i find free research papers and scholarly articles?",
+      "what are some good alternatives to arxiv for preprints?",
+      "can you show me some examples of open access repositories for humanities research?"
+    ]
+  },
+  {
+    "intent": "create_open_educational_resource",
+    "questions": [
+      "how do i create an open educational resource (oer) for my course?",
+      "what is the process for making an oer and what steps are involved?",
+      "what license should i use for my oer to allow for sharing and reuse?",
+      "how do i make my oer accessible to all students including those with disabilities?",
+      "where can i host my open educational resource so that others can easily find it?"
+    ]
+  },
+  {
+    "intent": "modify_existing_open_educational",
+    "questions": [
+      "how do i modify an existing open educational resource to fit my needs?",
+      "can i edit open educational resources and what are the rules for doing so?",
+      "what should i check before modifying an oer to ensure i'm following the license?",
+      "how can i adapt an oer for my specific course or teaching style?",
+      "can i change creative commons licensed work and what are the limitations?"
+    ]
+  },
+  {
+    "intent": "create_account_scholar_common",
+    "questions": [
+      "how do i create a scholar commons account at usc?",
+      "what are the steps to sign up for scholar commons?",
+      "can you guide me through creating an account on scholar commons?",
+      "how do i upload my research to scholar commons after creating an account?",
+      "can i archive my research and share it on the usc website through scholar commons?"
+    ]
+  },
+  {
+    "intent": "content_management_system_available",
+    "questions": [
+      "what content management systems are available for digital scholarship projects?",
+      "can you tell me the best content management system for my needs?",
+      "what content management systems does the library support for digital projects?",
+      "what is scalar and how can it be used for digital scholarship?",
+      "are there any open source cms options that are recommended for digital humanities?"
+    ]
+  },
+  {
+    "intent": "select_suitable_content_management",
+    "questions": [
+      "how do i select a suitable content management system for my digital project?",
+      "what's the best way to choose a cms for my specific needs?",
+      "what criteria should i use when selecting a cms for my project?",
+      "can you help me pick a cms that fits my requirements?",
+      "what should i consider when selecting a cms for digital scholarship?"
+    ]
+  },
+  {
+    "intent": "web_archiving",
+    "questions": [
+      "what is web archiving and why is it important?",
+      "how do i archive a website for research purposes?",
+      "what web archiving tools are available for preserving online content?",
+      "can individuals archive websites or is it only for institutions?",
+      "is web archiving free or are there subscription services available?"
+    ]
+  },
+  {
+    "intent": "type_work_copyrighted",
+    "questions": [
+      "what kinds of works can be copyrighted under us law?",
+      "can you list the types of works that are eligible for copyright protection?",
+      "what types of content cannot be copyrighted and are considered uncopyrightable?",
+      "can ideas be copyrighted or are they free for anyone to use?",
+      "are facts protected by copyright or are they considered public domain?"
+    ]
+  },
+  {
+    "intent": "public_domain",
+    "questions": [
+      "what is the public domain and how does it differ from copyright?",
+      "can you explain the meaning of public domain and what it entails?",
+      "is public domain the same as copyright free or are there differences?",
+      "what are some examples of works that are in the public domain?",
+      "how do i find works that are in the public domain and free to use?"
+    ]
+  },
+  {
+    "intent": "additional_resource_available_learning",
+    "questions": [
+      "are there additional resources available for learning about copyright law?",
+      "can you list the best resources for learning about copyright and fair use?",
+      "how can i learn more about copyright and its implications for my work?",
+      "where can i find copyright resources and tools to help me understand the law?",
+      "what is the copyright genie tool and how can it help me with copyright questions?"
+    ]
+  },
+  {
+    "intent": "statutory_exemption_copyright",
+    "questions": [
+      "what are statutory exemptions to copyright law and how do they work?",
+      "can you list some of the key statutory exemptions for copyright in the us?",
+      "what are the rules for libraries making copies of copyrighted materials?",
+      "what is section 108 of copyright law and how does it apply to libraries?",
+      "what is the first sale doctrine and how does it affect my ability to lend copyrighted materials?"
+    ]
+  },
+  {
+    "intent": "licensing_apply_using_content",
+    "questions": [
+      "what is licensing and how does it apply to using copyrighted content?",
+      "can you explain what a creative commons license is and how it works?",
+      "am i allowed to use copyrighted material in my class and what are the rules?",
+      "how do i find creative commons licensed content that i can use freely?",
+      "what does a creative commons license allow me to do with the content i find?"
+    ]
+  },
+  {
+    "intent": "library_database_use_them",
+    "questions": [
+      "What are the benefits of using library databases for research?",
+      "How do I find the best database for my research topic?",
+      "Are there any tutorials on using the USC library databases?",
+      "can i access the databases from home?",
+      "What kind of info is in the usc databases?"
+    ]
+  },
+  {
+    "intent": "acceptable_us_librarylicensed_resource",
+    "questions": [
+      "Am I allowed to use library resources for my thesis?",
+      "Can I share a link to a database article with a colleague at another university?",
+      "What are the rules about using images from library databases?",
+      "can i use articles for a class presentation?",
+      "How do I cite library resources properly?"
+    ]
+  },
+  {
+    "intent": "fair_use",
+    "questions": [
+      "What are some examples of fair use in academic research?",
+      "How does fair use apply to using images in my dissertation?",
+      "Can I use a copyrighted song in my student film under fair use?",
+      "is it fair use to make copies for my students?",
+      "Does fair use protect me if I'm making a parody?"
+    ]
+  },
+  {
+    "intent": "resource_help_determine_fair",
+    "questions": [
+      "Where can I find a quiz to test my understanding of fair use?",
+      "Does the library offer consultations on copyright and fair use?",
+      "Can you recommend a good online guide to fair use?",
+      "where can i find a fair use flowchart?",
+      "Is there a fair use calculator I can use?"
+    ]
+  },
+  {
+    "intent": "need_permission_use_copyrighted",
+    "questions": [
+      "When is it necessary to get permission to use a figure from a journal article?",
+      "Do I need permission to use a quote from a book in my blog?",
+      "What happens if I use copyrighted material without permission?",
+      "do i need permission to use public domain stuff?",
+      "Is it okay to use a copyrighted image if I give credit?"
+    ]
+  },
+  {
+    "intent": "seek_permission_use_copyrighted",
+    "questions": [
+      "What should I include in my request for copyright permission?",
+      "Is there a standard form for requesting copyright permission?",
+      "How long does it usually take to get copyright permission?",
+      "what if i cant find the copyright holder?",
+      "Do I need to pay for copyright permission?"
+    ]
+  },
+  {
+    "intent": "library_help_copyright_permission",
+    "questions": [
+      "Can the library help me find open access alternatives to copyrighted materials?",
+      "Does the library offer workshops on copyright for instructors?",
+      "Who at the library can help me clear copyright for my online course?",
+      "can the library help me find public domain images?",
+      "How do I get help with copyright for my dissertation?"
+    ]
+  },
+  {
+    "intent": "different_version_article",
+    "questions": [
+      "What does \"version of record\" actually mean in publishing?",
+      "Is the author accepted manuscript the same as the final published version?",
+      "Where can I find definitions of different article versions?",
+      "whats the difference between a galley proof and a preprint?",
+      "What rights do I have with each version of my article?"
+    ]
+  },
+  {
+    "intent": "find_article_version",
+    "questions": [
+      "Is there a database where I can archive my research papers?",
+      "How do I ensure my published work is discoverable?",
+      "What are the benefits of using a repository for my articles?",
+      "can i share my paper on my personal website?",
+      "How do I find the DOI for my published article?"
+    ]
+  },
+  {
+    "intent": "share_article_version_online",
+    "questions": [
+      "What is the SHERPA/RoMEO database and how can it help me?",
+      "Can I share my article on LinkedIn if it's already published?",
+      "What are the copyright implications of posting my article on ResearchGate?",
+      "can i share my article on a non-profit website?",
+      "How do I find the copyright policy for a specific journal?"
+    ]
+  },
+  {
+    "intent": "vendor_allow_text_data",
+    "questions": [
+      "Are there any tutorials on text and data mining with library resources?",
+      "Who can I talk to about setting up a text mining project?",
+      "What are the ethical considerations for text and data mining?",
+      "can i use python for text analysis with library databases?",
+      "How do I cite my use of text and data mining tools?"
+    ]
+  },
+  {
+    "intent": "evaluation_method_digital_scholarship",
+    "questions": [
+      "What are the best practices for preserving digital projects?",
+      "How do I assess the impact of a digital humanities project?",
+      "What are the key indicators of quality in digital scholarship?",
+      "how do i evaluate the accessibility of a digital project?",
+      "What are the challenges in evaluating digital scholarship?"
+    ]
+  },
+  {
+    "intent": "peerreviewed_journal_available_digital",
+    "questions": [
+      "What are some emerging journals in digital humanities?",
+      "Where can I find impact factors for digital scholarship journals?",
+      "Are there any open access journals for digital pedagogy?",
+      "can you recommend a journal for publishing digital art history research?",
+      "How do I know if a digital scholarship journal is reputable?"
+    ]
+  },
+  {
+    "intent": "resource_help_understand_copyright",
+    "questions": [
+      "What is the difference between copyright and fair use?",
+      "How do I determine if something is in the public domain?",
+      "What are the penalties for copyright infringement in education?",
+      "can i get a copyright checklist for course materials?",
+      "What is the TEACH Act and how does it apply to online teaching?"
+    ]
+  },
+  {
+    "intent": "add_course_reading_blackboard",
+    "questions": [
+      "How do I create persistent links to library resources in Blackboard?",
+      "Can the library help me digitize articles for my Blackboard course?",
+      "What are the best practices for organizing course readings in Blackboard?",
+      "can i embed videos from youtube in blackboard?",
+      "How do I ensure my Blackboard course is accessible to all students?"
+    ]
+  },
+  {
+    "intent": "print_material_available_course",
+    "questions": [
+      "Does the library have a list of required textbooks for each course?",
+      "How do I find out if the library has a copy of my textbook on reserve?",
+      "Can I suggest that the library purchase a textbook for my course?",
+      "are there any open textbooks available for my subject?",
+      "How do I access electronic reserves for my class?"
+    ]
+  },
+  {
+    "intent": "contact_course_material_support",
+    "questions": [
+      "What is the best way to reach the library for help with e-reserves?",
+      "Who should I contact for questions about course materials?",
+      "Is there a specific librarian I can contact for assistance with my subject?",
+      "can i schedule a consultation about course materials?",
+      "What is the library's general information email address?"
+    ]
+  },
+  {
+    "intent": "impact_open_educational_resource",
+    "questions": [
+      "What are the long-term effects of using OER on student success?",
+      "How does OER affect student engagement in the classroom?",
+      "Are there any studies comparing OER to traditional textbooks in terms of learning outcomes?",
+      "does oer improve access for low-income students?",
+      "What are the challenges of implementing OER in higher education?"
+    ]
+  },
+  {
+    "intent": "find_information_music_material",
+    "questions": [
+      "Who is the music librarian at USC?",
+      "How do I find scores and sheet music for my course?",
+      "Can I get assistance with finding streaming audio for my music class?",
+      "are there any online music databases available through the library?",
+      "How do I reserve a listening room in the music library?"
+    ]
+  },
+  {
+    "intent": "find_openly_available_research",
+    "questions": [
+      "What are some reliable sources for open access journal articles?",
+      "How do I use Google Scholar to find free versions of research papers?",
+      "Are there any browser extensions that automatically find open access articles?",
+      "can i use the library to request an article through interlibrary loan?",
+      "What are some alternatives to Sci-Hub for accessing research?"
+    ]
+  },
+  {
+    "intent": "statistic_textbook_cost",
+    "questions": [
+      "What is the average cost of textbooks per course?",
+      "How have textbook prices changed over the past decade?",
+      "What percentage of students skip buying textbooks due to cost?",
+      "are there any grants to help students with textbook costs?",
+      "What are some strategies for reducing textbook expenses?"
+    ]
+  },
+  {
+    "intent": "determine_journal_predatory",
+    "questions": [
+      "What are some common email scams targeting academic authors?",
+      "How do I check the editorial board of a journal?",
+      "What are the signs of a hijacked journal?",
+      "does the journal have a clear retraction policy?",
+      "How do I report a predatory journal?"
+    ]
+  },
+  {
+    "intent": "industry_membership_indicate_journal",
+    "questions": [
+      "What are some reputable organizations for academic publishers?",
+      "How do I check if a journal is indexed in Web of Science or Scopus?",
+      "What is the Committee on Publication Ethics (COPE) and why is it important?",
+      "is the journal listed in the directory of open access journals?",
+      "How do I find out if a journal has a legitimate peer review process?"
+    ]
+  },
+  {
+    "intent": "difference_backup_storage",
+    "questions": [
+      "What type of storage is best for archival purposes?",
+      "How often should I back up my data?",
+      "What are the different types of backup methods?",
+      "is cloud storage a good option for backups?",
+      "How do I choose the right backup solution for my needs?"
+    ]
+  },
+  {
+    "intent": "make_class_affordable",
+    "questions": [
+      "How can I incorporate library-licensed resources into my course?",
+      "What are some strategies for finding high-quality OER?",
+      "Can the library help me evaluate the quality of OER materials?",
+      "are there any workshops on creating zero-cost courses?",
+      "How do I get started with using open textbooks?"
+    ]
+  },
+  {
+    "intent": "support_library_offer_course",
+    "questions": [
+      "Can the library help me create accessible course materials?",
+      "What kind of training does the library offer for instructors?",
+      "How do I get help with copyright for my online course?",
+      "can the library help me find multimedia for my course?",
+      "What are the library's policies on fair use and course materials?"
+    ]
+  },
+  {
+    "intent": "scoer_faculty_award",
+    "questions": [
+      "What are the eligibility requirements for the SCoer Faculty Awards?",
+      "How are the SCoer Faculty Awards judged?",
+      "What is the purpose of the SCoer Faculty Awards?",
+      "can i see some examples of successful scoer award applications?",
+      "What is the deadline for applying for the SCoer Faculty Awards?"
+    ]
+  },
+  {
+    "intent": "statewide_initiative_available_help",
+    "questions": [
+      "What are the benefits of participating in statewide affordable learning initiatives?",
+      "How do I find out about upcoming PASCAL events and workshops?",
+      "What resources does PASCAL offer for faculty using OER?",
+      "are there any grants available through pascal for oer adoption?",
+      "How does PASCAL support affordable learning in South Carolina?"
+    ]
+  },
+  {
+    "intent": "get_help_locating_affordable",
+    "questions": [
+      "Who can I talk to at the library about finding affordable textbooks?",
+      "Does the library offer a syllabus review service for affordable resources?",
+      "What are some strategies for finding low-cost course materials?",
+      "can i get help finding open educational resources for my course?",
+      "How do I request a consultation with a librarian about affordable learning?"
+    ]
+  },
+  {
+    "intent": "find_resource_registering_project",
+    "questions": [
+      "What are the benefits of preregistering my research study?",
+      "How do I use the Open Science Framework (OSF) for preregistration?",
+      "What are some examples of well-preregistered research projects?",
+      "is preregistration required for publishing in certain journals?",
+      "How does preregistration improve the transparency of research?"
+    ]
+  },
+  {
+    "intent": "open_textbook_source_available",
+    "questions": [
+      "What are the best websites for finding open textbooks?",
+      "How do I evaluate the quality of open textbooks?",
+      "Are there any directories of open educational resources (OER)?",
+      "can i find open textbooks for advanced courses?",
+      "How do I contribute to the Open Textbook Library?"
+    ]
+  },
+  {
+    "intent": "scoer_award",
+    "questions": [
+      "What are the different tracks within the SCoer Awards program?",
+      "How do I nominate a faculty member for a SCoer Award?",
+      "What are the criteria for selecting SCoer Award recipients?",
+      "are there any workshops on using oer at usc?",
+      "How does the SCoer Award program support affordable learning at USC?"
+    ]
+  },
+  {
+    "intent": "winner_scoer_award",
+    "questions": [
+      "What projects have previous SCoer Award winners implemented?",
+      "How have SCoer Award winners impacted student learning?",
+      "What are the benefits of winning a SCoer Award?",
+      "can i see a list of past scoer award recipients?",
+      "How do I learn more about the SCoer Award program?"
+    ]
+  },
+  {
+    "intent": "benefit_using_open_educational",
+    "questions": [
+      "How does using OER promote student equity and inclusion?",
+      "What are the pedagogical benefits of using OER in the classroom?",
+      "How does OER affect student access to course materials?",
+      "does oer improve student grades?",
+      "What are the cost savings associated with using OER?"
+    ]
+  },
+  {
+    "intent": "quote_award_recipient_chose",
+    "questions": [
+      "What motivated SCoer Award recipients to adopt OER?",
+      "How did SCoer Award recipients overcome challenges in using OER?",
+      "What advice do SCoer Award recipients have for other faculty considering OER?",
+      "what do faculty say about the impact of oer on their teaching?",
+      "How have SCoer Award recipients used OER to enhance student learning?"
+    ]
+  },
+  {
+    "intent": "factor_selection_committee_consider",
+    "questions": [
+      "What are the key criteria for evaluating SCoer grant applications?",
+      "How does the selection committee assess the potential impact of OER projects?",
+      "What are the priorities of the selection committee for SCoer grants?",
+      "are there any specific types of oer projects that are favored?",
+      "How does the selection committee ensure that OER projects are sustainable?"
+    ]
+  },
+  {
+    "intent": "winner_plan_achieve_award",
+    "questions": [
+      "How do SCoer Award winners plan to use their awards to improve student outcomes?",
+      "What are the long-term goals of SCoer Award winners?",
+      "How do SCoer Award winners plan to share their OER projects with others?",
+      "what are the innovative approaches to teaching that scoer award winners are using?",
+      "How do SCoer Award winners plan to assess the effectiveness of their OER projects?"
+    ]
+  },
+  {
+    "intent": "scoer_faculty_award_2020",
+    "questions": [
+      "What were the specific OER projects implemented by the 2020 SCoer Faculty Award winners?",
+      "How did the 2020 SCoer Faculty Award winners address affordability in their courses?",
+      "What impact did the 2020 SCoer Faculty Award winners have on student learning?",
+      "what were the motivations of the 2020 scoer faculty award winners?",
+      "How did the 2020 SCoer Faculty Award winners collaborate with the library?"
+    ]
+  },
+  {
+    "intent": "winner_scoer_faculty_award",
+    "questions": [
+      "What are the benefits of applying for the SCoer Faculty Award?",
+      "How does the SCoer Faculty Award support faculty innovation in teaching?",
+      "What resources are available to help faculty prepare SCoer Faculty Award applications?",
+      "are there any workshops on applying for the scoer faculty award?",
+      "How does the SCoer Faculty Award contribute to the university's mission?"
+    ]
+  },
+  {
+    "intent": "required_participate_scoer_program",
+    "questions": [
+      "What are the expectations for faculty members participating in the SCoer program?",
+      "How does the SCoer program support faculty in creating and implementing OER?",
+      "What are the long-term commitments for faculty members participating in the SCoer program?",
+      "are there any workshops on creating oer?",
+      "How does the SCoer program ensure the quality and sustainability of OER projects?"
+    ]
+  },
+  {
+    "intent": "scoer_grant_recipient_selected",
+    "questions": [
+      "What are the criteria for selecting SCoer Grant recipients?",
+      "How does the selection committee assess the potential impact of SCoer Grant projects?",
+      "What are the priorities of the selection committee for SCoer Grants?",
+      "are there any specific types of oer projects that are favored for scoer grants?",
+      "How does the selection committee ensure that SCoer Grant projects are aligned with the university's mission?"
+    ]
+  },
+  {
+    "intent": "scoer_grant_recipient",
+    "questions": [
+      "What were the specific OER projects implemented by SCoer Grant recipients?",
+      "How did SCoer Grant recipients address affordability in their courses?",
+      "What impact did SCoer Grant recipients have on student learning?",
+      "what were the motivations of the scoer grant recipients?",
+      "How did SCoer Grant recipients collaborate with the library?"
+    ]
+  },
+  {
+    "intent": "scoer_faculty_grant",
+    "questions": [
+      "What are the eligibility requirements for the SCoer Faculty Grant?",
+      "How are the SCoer Faculty Grants judged?",
+      "What is the purpose of the SCoer Faculty Grant?",
+      "can i see some examples of successful scoer faculty grant applications?",
+      "What is the deadline for applying for the SCoer Faculty Grant?"
+    ]
+  },
+  {
+    "intent": "service_library_offer_faculty",
+    "questions": [
+      "What research support services does the library offer to faculty?",
+      "How can the library help me design engaging and effective courses?",
+      "What training programs are available for faculty to improve their teaching skills?",
+      "are there any workshops on using technology in the classroom?",
+      "How does the library support faculty in their scholarly activities?"
+    ]
+  },
+  {
+    "intent": "osf_free",
+    "questions": [
+      "How does the OSF ensure the long-term preservation of data?",
+      "What are the benefits of making my research project public on OSF?",
+      "How do I get a digital object identifier (DOI) for my project on OSF?",
+      "is osf really free to use for everyone?",
+      "How does the OSF generate revenue to support its operations?"
+    ]
+  },
+  {
+    "intent": "criterion_use_evaluate_oer",
+    "questions": [
+      "What are the key criteria for evaluating the quality of OER materials?",
+      "How do I assess the pedagogical effectiveness of an OER?",
+      "What are the accessibility considerations for OER materials?",
+      "are there any rubrics for evaluating oer?",
+      "How do I ensure that an OER is aligned with my course learning objectives?"
+    ]
+  },
+  {
+    "intent": "open_pedagogy",
+    "questions": [
+      "What are some examples of open pedagogy in practice?",
+      "How does open pedagogy empower students in the learning process?",
+      "What are the benefits of using open pedagogy in higher education?",
+      "is open pedagogy the same as project-based learning?",
+      "How does open pedagogy promote collaboration and knowledge sharing?"
+    ]
+  },
+  {
+    "intent": "student_involved_creation_knowledge",
+    "questions": [
+      "What are some ways to involve students in creating course content?",
+      "How can students contribute to open educational resources (OER)?",
+      "What are the benefits of student-generated content in the classroom?",
+      "can students create and edit wikipedia pages for course credit?",
+      "How do I facilitate student discussions and knowledge sharing online?"
+    ]
+  },
+  {
+    "intent": "resource_available_open_pedagogy",
+    "questions": [
+      "What platforms can I use to create and share open textbooks?",
+      "How do I find resources for implementing open pedagogy in my course?",
+      "What are some tools for collaborative annotation and knowledge sharing?",
+      "is there a guide to creating student-made open textbooks?",
+      "How do I use Google Sites or WordPress for open educational resources?"
+    ]
+  },
+  {
+    "intent": "find_open_freely_available",
+    "questions": [
+      "What are some reliable sources for open and freely available case studies?",
+      "How do I find case studies for specific industries or topics?",
+      "Are there any open access collections of business ethics case studies?",
+      "can i access mit case studies for free?",
+      "How do I use the Learning Edge case study database?"
+    ]
+  },
+  {
+    "intent": "open_access_journal_featuring",
+    "questions": [
+      "What are some open access journals that publish case studies?",
+      "How do I find open access case studies in my field of study?",
+      "Are there any open access resources for business case studies?",
+      "can i use open case studies in my teaching?",
+      "What are the licensing terms for open case studies?"
+    ]
+  }
+]

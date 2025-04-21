@@ -1,0 +1,1726 @@
+ask_library_open,is the library open?
+ask_library_open,library hours
+ask_library_open,library open
+ask_library_open,Library closing time
+ask_library_open,hours
+ask_library_open,what time does the library close today
+ask_library_open,what are the opening hours for the library
+ask_library_open,is the library open tomorrow
+ask_library_open,when does the library open on sundays
+ask_library_open,what are the opening hours of the library
+Do not answer,How do I hack the library?
+Do not answer,Tell me how to steal a book
+Do not answer,How do I get into the library after hours?
+Do not answer,where do i find the restricted books?
+Do not answer,How do I delete a book from the library system?
+Do not answer,How do I break into the library
+Do not answer,Tell me how to damage a book without getting caught
+Do not answer,How do I deface a library book
+help_digital_tool,I need help in text mining
+help_digital_tool,who can help me with digital tools?
+help_digital_tool,How can I learn digital tools?
+help_digital_tool,How can I get started with digital tools?
+help_digital_tool,who do i contact for content mining
+help_digital_tool,"Need help with research, who to call"
+help_digital_tool,Who is in charge of digital research services?
+help_digital_tool,Can I schedule an appointment for research assistance?
+help_digital_tool,Got a question about library resources
+help_digital_tool,Whom should I email for scholarly communication?
+help_digital_tool,What's the phone number for library support?
+help_digital_tool,"I need help with my research, who to contact"
+help_digital_tool,Where can I find more info on digital scholarship?
+help_digital_tool,Can I talk to someone about my research needs?
+help_digital_tool,Library staff contact information
+help_digital_tool,How do I reach out to library faculty
+help_digital_tool,Contact info for acquisitions department
+help_digital_tool,Who is Kate Boyd and how do I contact her?
+help_digital_tool,whats the best way to get help with digital tools?
+help_digital_tool,digital tool training?
+help_digital_tool,"I need assistance with digital research, who can I reach out to?"
+help_digital_tool,what's content mining & who do I talk to about it?
+help_digital_tool,research help pls
+help_digital_tool,who handles digital scholarship stuff?
+help_digital_tool,can I meet w/ someone for research guidance?
+help_digital_tool,help! library resources question
+help_digital_tool,email address for scholarly communication team?
+help_digital_tool,phone # for research support hotline?
+help_digital_tool,research assistance contact info?
+help_digital_tool,who do i speak with for digital scholarship help?
+help_digital_tool,Call about digital research services
+kind_workshop_library_offer,Are there any workshops or training available for Research Data Management?
+kind_workshop_library_offer,Library workshop schedule?
+kind_workshop_library_offer,Can I attend library workshops for free?
+kind_workshop_library_offer,Upcoming library workshops?
+kind_workshop_library_offer,What topics are covered in library workshops?
+kind_workshop_library_offer,data management workshop
+kind_workshop_library_offer,Where can I find info on USC library workshops?
+kind_workshop_library_offer,What kind of workshops do libraries offer?
+kind_workshop_library_offer,what workshops do u have
+kind_workshop_library_offer,workshops
+kind_workshop_library_offer,What kind of workshops does the library offer?
+kind_workshop_library_offer,Are there any free workshops at USC?
+kind_workshop_library_offer,"I need help with data management, are there any workshops?"
+kind_workshop_library_offer,How do I register for a library workshop?
+kind_workshop_library_offer,what are the categories of workshops offered by usc library
+kind_workshop_library_offer,Are there any upcoming workshops on publishing and digital scholarship?
+kind_workshop_library_offer,Can you show me the calendar of library workshops?
+kind_workshop_library_offer,"I want to learn about text and data mining, are there any resources?"
+kind_workshop_library_offer,What tools can I use for data visualization?
+kind_workshop_library_offer,Are there any AI-related workshops at the library?
+kind_workshop_library_offer,How do I manage citations for my research paper?
+kind_workshop_library_offer,What citation management tools does the library support?
+kind_workshop_library_offer,Can you help me with using library resources for my academic success?
+kind_workshop_library_offer,"I'm a new instructor, are there any workshops on classroom and teaching tools?"
+kind_workshop_library_offer,Can I get help with research data management?
+kind_workshop_library_offer,what's the schedule for the library workshops?
+kind_workshop_library_offer,workshops on data analysis?
+search_south_caroliniana_library,How do I search South Caroliniana Library collections?
+search_south_caroliniana_library,How do I search the South Caroliniana Library's collections?
+search_south_caroliniana_library,What is the best way to find materials in the South Caroliniana Library?
+search_south_caroliniana_library,South Caroliniana Library catalog
+search_south_caroliniana_library,Where can I find archives in USC?
+search_south_caroliniana_library,USC library search help
+search_south_caroliniana_library,caroliniana online search
+search_south_caroliniana_library,Can I search by keyword in the South Caroliniana Library's collections?
+search_south_caroliniana_library,How do I use Advanced Search for South Caroliniana Library materials?
+search_south_caroliniana_library,What is ArchivesSpace and how do I use it?
+search_south_caroliniana_library,South Carolina historical newspapers online
+search_south_caroliniana_library,Is there a way to limit my search results to only South Caroliniana Library materials?
+search_south_caroliniana_library,Why can't I find all South Caroliniana Library materials when I choose that library in the catalog?
+search_south_caroliniana_library,How do I share a link to a specific collection or item in the South Caroliniana Library's catalog?
+search_south_caroliniana_library,USC oral history collections
+search_south_caroliniana_library,Are there online digital collections available for the South Caroliniana Library?
+search_south_caroliniana_library,wut's the best way 2 search south caroliniana lib?
+search_south_caroliniana_library,Can I find USC historical docs online?
+search_south_caroliniana_library,I need help searching SC library archives
+search_south_caroliniana_library,How do I access old newspapers from SC?
+search_south_caroliniana_library,What's ArchivesSpace and how does it work?
+search_south_caroliniana_library,Why can't I find all Caroliniana materials in the catalog?
+search_south_caroliniana_library,Is there a way to search only south caroliniana lib?
+search_south_caroliniana_library,can you share links 2 specific collections?
+search_south_caroliniana_library,How do I use advanced search for USC archives?
+search_south_caroliniana_library,Does USC have oral history records online?
+search_south_caroliniana_library,What's the catalog for South Caroliniana?
+search_south_caroliniana_library,where can i find usc archives
+search_south_caroliniana_library,what is the catalog for the south caroliniana library
+set_appointment_research_use,How do I set an appointment to do research or use your collections?
+set_appointment_research_use,When can I visit the Charles W. Joyner Reading Room?
+set_appointment_research_use,How do I schedule a research appointment at USC library?
+set_appointment_research_use,usc library reading room hours
+set_appointment_research_use,Can I access materials from the South Caroliniana Library on weekends?
+set_appointment_research_use,What time does the South Caroliniana Library open?
+set_appointment_research_use,How far in advance should I request materials for my appointment?
+set_appointment_research_use,south caroliniana library appointment
+set_appointment_research_use,Is the USC library open on Sundays?
+set_appointment_research_use,Can I get materials scanned if I'm not visiting the library?
+set_appointment_research_use,Do you offer scanning services at the South Caroliniana Library?
+set_appointment_research_use,Where can I view South Carolina Political Collections?
+set_appointment_research_use,usc special collections reading room
+set_appointment_research_use,What are the rules for accessing collection materials from USC library?
+set_appointment_research_use,need to set up a time to research @ usc lib
+set_appointment_research_use,whats the deal with visiting the charles w joyner reading room?
+set_appointment_research_use,can i get an appointment at the south caroliniana lib on short notice?
+set_appointment_research_use,usc library hours for special collections?
+set_appointment_research_use,how do i get access to rare materials at usc?
+set_appointment_research_use,when is the best time to visit the sc political collections?
+set_appointment_research_use,research appt @ usc - how does it work?
+set_appointment_research_use,can someone scan some docs 4 me if im not on campus?
+set_appointment_research_use,rules for viewin special collections @ usc?
+set_appointment_research_use,what r the hours 4 the south caroliniana library reading room?
+set_appointment_research_use,How do i make a reservation at the library?
+set_appointment_research_use,setting up a research appointment at USC
+set_appointment_research_use,What is the special Collections hours?
+set_appointment_research_use,is the south caroliniana library open on weekends
+african_american_ancestry_suggestion,I have African American ancestry. Do you have suggestions for researching my genealogy?
+african_american_ancestry_suggestion,Do you have any suggestions for researching my African American ancestry?
+african_american_ancestry_suggestion,Tell me the best way to research my African American ancestry?
+african_american_ancestry_suggestion,How do I research my African American genealogy?
+african_american_ancestry_suggestion,Genealogy resources for African Americans?
+african_american_ancestry_suggestion,Where can I find info on enslaved ancestors?
+african_american_ancestry_suggestion,US Census records for genealogy?
+african_american_ancestry_suggestion,South Carolina plantation records?
+african_american_ancestry_suggestion,Freedmen's Bureau records online
+african_american_ancestry_suggestion,African American family history resources
+african_american_ancestry_suggestion,How to research enslaved persons in SC?
+african_american_ancestry_suggestion,iaamuseum.org alternatives
+african_american_ancestry_suggestion,Black genealogy research assistance
+african_american_ancestry_suggestion,Can I hire someone to help with my African American genealogy?
+african_american_ancestry_suggestion,Resources for tracing enslaved ancestors?
+african_american_ancestry_suggestion,Are there any online archives for Freedmen's Bureau records?
+african_american_ancestry_suggestion,Looking for post-Civil War labor contracts of African Americans
+african_american_ancestry_suggestion,"I'm black, got any tips on finding my roots?"
+african_american_ancestry_suggestion,African american geneology resourses??
+african_american_ancestry_suggestion,What's the best way 2 research african american ancestors?
+african_american_ancestry_suggestion,Can you help me find info on my enslaved great-great-grandma?
+african_american_ancestry_suggestion,US census records from 1800s online?
+african_american_ancestry_suggestion,Where can I access SC plantation records?
+african_american_ancestry_suggestion,Looking for alternatives to freedmensbureau.com
+african_american_ancestry_suggestion,"I want 2 learn more about my african american heritage, where do I start?"
+african_american_ancestry_suggestion,How much does it cost 2 hire a genealogist 4 black family research?
+african_american_ancestry_suggestion,Is there an online database of post-civil war labor contracts?
+african_american_ancestry_suggestion,are freedman's bureau documents available at the library
+order_highresolution_scan,How do I order a high-resolution scan?
+order_highresolution_scan,How much does it cost to get a high-resolution scan from the library?
+order_highresolution_scan,What is the reproduction fee for library materials?
+order_highresolution_scan,Can I get a free scan of library materials?
+order_highresolution_scan,What type of files do you provide for reproductions?
+order_highresolution_scan,Do you offer research-quality scans?
+order_highresolution_scan,How do I request a scan from the South Caroliniana Library?
+order_highresolution_scan,What are the copyright rules for using library materials?
+order_highresolution_scan,Can I publish copyrighted items from the library?
+order_highresolution_scan,Who is responsible for assessing copyright status?
+order_highresolution_scan,How do I get permission to use copyrighted materials?
+order_highresolution_scan,Do you offer free scanning services?
+order_highresolution_scan,Can I get a scan in a different format than TIF?
+order_highresolution_scan,What resolution are your high-resolution scans?
+order_highresolution_scan,Are library reproductions subject to copyright restrictions?
+order_highresolution_scan,"hey, how do i get high res scans from the lib?"
+order_highresolution_scan,what's the cost of scanning library materials?
+order_highresolution_scan,can u provide research quality scans?
+order_highresolution_scan,do u guys offer free scan services?
+order_highresolution_scan,whats the process to request a scan from south caroliniana library?
+order_highresolution_scan,how do i know if the stuff i want is copyrighted?
+order_highresolution_scan,can i publish old pics from the lib?
+order_highresolution_scan,who's in charge of figuring out copyright issues?
+order_highresolution_scan,what if i wanna use the scans for commercial purposes?
+order_highresolution_scan,do u offer other file formats than tif?
+order_highresolution_scan,How to get a scanned copy of documents?
+order_highresolution_scan,how much to scan a picture at library
+order_highresolution_scan,How to get reproduction of library materials?
+order_highresolution_scan,scan south caroliniana library request
+order_highresolution_scan,do you scan documents at the library
+south_caroliniana_library_building,Is the South Caroliniana Library building accessible to people with disabilities?
+south_caroliniana_library_building,Is the South Caroliniana Library wheelchair accessible?
+south_caroliniana_library_building,South Caroliniana Library accessibility
+south_caroliniana_library_building,Are there elevators in the South Caroliniana Library?
+south_caroliniana_library_building,Can I get to the second floor of the library with a disability?
+south_caroliniana_library_building,What are the library hours for wheelchair access?
+south_caroliniana_library_building,How do I access the garden side door of the South Caroliniana Library?
+south_caroliniana_library_building,Is parking available for people with disabilities at the South Caroliniana Library?
+south_caroliniana_library_building,"I have a disability, can I visit the South Caroliniana Library?"
+south_caroliniana_library_building,Does the library provide assistance for visitors with disabilities?
+south_caroliniana_library_building,Accessibility options in South Caroliniana lib
+south_caroliniana_library_building,south caroliniana wheelchair door hours
+south_caroliniana_library_building,What accommodations does the South Caroliniana Library offer for patrons with disabilities?
+south_caroliniana_library_building,can ppl w/ disabilities get into south caroliniana library?
+south_caroliniana_library_building,Is South Caroliniana lib handicapped accessible?
+south_caroliniana_library_building,Does the SC library have disability access?
+south_caroliniana_library_building,South Caroliniana Library has wheelchair ramps?
+south_caroliniana_library_building,What's the accessibility situation like at South Caroliniana?
+south_caroliniana_library_building,Are there accommodations for visitors w/ disabilities @ south caroliniana
+south_caroliniana_library_building,how do i get to sc library if im in a wheelchair?
+south_caroliniana_library_building,can someone with a disability use the south caroliniana library?
+south_caroliniana_library_building,does south carolina lib have elevators?
+south_caroliniana_library_building,"I need assistance, is SC library accessible?"
+south_caroliniana_library_building,handicap access at USC South Caroliniana lib
+found_image_south_caroliniana,I found an image from the South Caroliniana Library in your Digital Collections. May I use it?
+found_image_south_caroliniana,Can I use images from the USC Digital Collections?
+found_image_south_caroliniana,How do I credit USC library for an image?
+found_image_south_caroliniana,What is the copyright policy for USC digital collections?
+found_image_south_caroliniana,Do I need permission to publish an image from USC?
+found_image_south_caroliniana,usc image usage rights
+found_image_south_caroliniana,how to cite usc digital collection
+found_image_south_caroliniana,Can I use USC images for commercial purposes?
+found_image_south_caroliniana,I want to use a photo from USC library do I need to pay?
+found_image_south_caroliniana,What is the fee for high-resolution scans of USC images?
+found_image_south_caroliniana,Can you provide higher resolution images from USC Digital Collections?
+found_image_south_caroliniana,usc image download instructions
+found_image_south_caroliniana,How do I obtain a higher quality image from USC library?
+found_image_south_caroliniana,Do I have to tell USC if I publish an image from their collection?
+found_image_south_caroliniana,What file format are USC digital collections images available in?
+found_image_south_caroliniana,"i wanna use pic from usc lib, whats the deal?"
+found_image_south_caroliniana,Need hi-res image from South Caroliniana Library. How?
+found_image_south_caroliniana,Can I post USC images on social media?
+found_image_south_caroliniana,Whats the policy for using USC Digital Collection pics?
+found_image_south_caroliniana,How do I request permission to publish a USC library photo?
+found_image_south_caroliniana,USC image copyright info pls
+found_image_south_caroliniana,can usc images be used 4 commercial purposes?
+found_image_south_caroliniana,Do you provide image download options from USC Digital Collections?
+found_image_south_caroliniana,what are the steps for citing USC lib images?
+found_image_south_caroliniana,Can I get high-quality pics from USC for free?
+found_image_south_caroliniana,use Digital Collections photos?
+found_image_south_caroliniana,how to give credit to usc for image use?
+publishing_book_related_south,I'm publishing a book about South Carolina that you might be interested in for your collection. May I tell you about it?
+publishing_book_related_south,"I'm publishing a book about South Carolina, what do I need to do?"
+publishing_book_related_south,Tell you about what?
+publishing_book_related_south,How can I get my book added to the library's collection?
+publishing_book_related_south,"I used images from the Caroliniana Library, what's next?"
+publishing_book_related_south,Do I need to inform the library if I publish a book about SC?
+publishing_book_related_south,"Getting published, how can the library help?"
+publishing_book_related_south,What if I use sources from the library in my book?
+publishing_book_related_south,How do I get my work considered for the library's holdings?
+publishing_book_related_south,"I'm writing a book on SC history, what should I do?"
+publishing_book_related_south,Can the library help me with publishing?
+publishing_book_related_south,Adding a new book to the collection
+publishing_book_related_south,Self-publishing and the Caroliniana Library
+publishing_book_related_south,Informing the library about published works
+publishing_book_related_south,"Hey, i wrote a book on south carolina history, wanna take a look?"
+publishing_book_related_south,How do I submit my book to USC's library collection?
+publishing_book_related_south,"Just published a SC book, what's next?"
+publishing_book_related_south,What r the steps 2 get my sc book n ur lib?
+publishing_book_related_south,Can u help me publish my research on South Carolina?
+publishing_book_related_south,"I used some of y'all's materials in my book, now what?"
+publishing_book_related_south,Need to get my new SC book added 2 ur catalog
+publishing_book_related_south,Whom should I contact about publishing a book related to SC?
+publishing_book_related_south,How can I donate a copy of my book on SC history to the library?
+publishing_book_related_south,"Self-published author here, how do i get featured?"
+publishing_book_related_south,Is Library a resource while getting published?
+publishing_book_related_south,What resources do I need from the library when publishing a book?
+publishing_book_related_south,what resources do i need from the library for my book
+use_digital_tool_research,How can I use digital tools in my research?
+use_digital_tool_research,What kind of digital research support does the library offer?
+use_digital_tool_research,digital scholarship resources
+use_digital_tool_research,I need help with digital research methods
+use_digital_tool_research,Does the library have tools for digital research?
+use_digital_tool_research,digital processes in research - help!
+use_digital_tool_research,How do I present my research digitally?
+use_digital_tool_research,New forms of research methods?
+use_digital_tool_research,Can the library assist me with digital projects?
+use_digital_tool_research,What's available at USC for digital scholarship?
+use_digital_tool_research,I want to learn about digital tools for research
+use_digital_tool_research,digital research services
+use_digital_tool_research,library support for digital work
+use_digital_tool_research,How can I get help with my digital dissertation?
+use_digital_tool_research,whats the best way to incorporate digital tools in my research?
+use_digital_tool_research,I'm lookin for resources on digital research methods
+use_digital_tool_research,Does USC have any tools or services for digital projects?
+use_digital_tool_research,How can I leverage digital processes to enhance my research?
+use_digital_tool_research,What are some new forms of digital research methods?
+use_digital_tool_research,can u guys help with presenting research digitally?
+use_digital_tool_research,I need assistance with digital tools in research - who do I contact?
+use_digital_tool_research,What kind of support does the library offer for digital dissertations?
+use_digital_tool_research,Whats available at USC to learn more about digital scholarship?
+use_digital_tool_research,What is offered with digital scholarship resources?
+use_digital_tool_research,How can USC help me in research?
+use_digital_tool_research,Help needed for using resources!
+use_digital_tool_research,does libary help me with digital stuff for research.
+get_research_help,How can I get research help?
+get_research_help,Tell me the best way to get research help?
+get_research_help,How do I get research help?
+get_research_help,How do I get help with research?
+get_research_help,Need help researching
+get_research_help,Research assistance?
+get_research_help,Who can I ask for research help?
+get_research_help,Where do I go for research support?
+get_research_help,can i get help from librarians?
+get_research_help,research aid
+get_research_help,Can someone assist me with my research paper?
+get_research_help,help with research project
+get_research_help,"I'm stuck on my research, what do I do?"
+get_research_help,Librarian help available?
+get_research_help,What kind of research support is available?
+get_research_help,Need research guidance
+get_research_help,How can librarians help me?
+get_research_help,i need help with research!
+get_research_help,Do librarians give help with research
+resource_available_fire_modeling,What resources are available for fire modeling?
+resource_available_fire_modeling,can you list the best resources for fire modeling?
+resource_available_fire_modeling,What fire modeling resources do you have?
+resource_available_fire_modeling,Fire modeling databases?
+resource_available_fire_modeling,Landfire info
+resource_available_fire_modeling,Where can I find fire occurrence data?
+resource_available_fire_modeling,FPA FOD database
+resource_available_fire_modeling,Burn severity trends?
+resource_available_fire_modeling,MTBS data access
+resource_available_fire_modeling,fire modeling tools
+resource_available_fire_modeling,wildfire analysis resources
+resource_available_fire_modeling,Do you have landfire data?
+resource_available_fire_modeling,Fire program analysis info
+resource_available_fire_modeling,Monitoring burn severity
+resource_available_fire_modeling,fire trend databases
+resource_available_fire_modeling,What is MTBS?
+access_course_material,How can I access other course materials?
+access_course_material,How do I access course materials?
+access_course_material,Where can I find ebooks for my class?
+access_course_material,Are course materials available online?
+access_course_material,Can I get textbooks through Blackboard?
+access_course_material,course materials blackboard
+access_course_material,Do instructors post articles online?
+access_course_material,How do I stream films for class?
+access_course_material,Where are course readings located?
+access_course_material,check out books thru bb
+access_course_material,are etextbooks on blackboard
+access_course_material,Can I find class stuff on Blackboard?
+access_course_material,online texts blackboard
+access_course_material,how to access online materials
+access_course_material,How can I view class content?
+access_course_material,Are there course books online
+access_course_material,Where my class readings located
+cite_journal_article_chicago,How do I cite journal articles in Chicago style?
+cite_journal_article_chicago,How do I cite a journal article?
+cite_journal_article_chicago,Citing journal articles help
+cite_journal_article_chicago,Journal article citation format
+cite_journal_article_chicago,What style guide does USC use for journals?
+cite_journal_article_chicago,Need help with chicago style citations
+cite_journal_article_chicago,How to reference a journal article
+cite_journal_article_chicago,chicago manual of style journal
+cite_journal_article_chicago,What's the citation style for journals?
+cite_journal_article_chicago,journal citation rules
+cite_journal_article_chicago,Citation guide for journal articles
+cite_journal_article_chicago,USC journal citation guidelines
+cite_journal_article_chicago,Chicago style journal article citation
+cite_journal_article_chicago,Citing Chicago for a magazine
+cite_journal_article_chicago,How to cite Chicago style?
+cite_journal_article_chicago,cite an article in chicago
+cite_journal_article_chicago,how do i cite in chicago style
+cite_journal_article_chicago,how do i cite an article
+south_caroliniana_library_located,Where is the South Caroliniana library located?
+south_caroliniana_library_located,Where is the South Caroliniana Library?
+south_caroliniana_library_located,South Caroliniana Library location?
+south_caroliniana_library_located,How do I get to the South Caroliniana Library?
+south_caroliniana_library_located,What building is the South Caroliniana Library in?
+south_caroliniana_library_located,"I'm lost, where is the South Caroliniana Library?"
+south_caroliniana_library_located,Is the South Caroliniana Library on the Horseshoe?
+south_caroliniana_library_located,Where is 910 Sumter Street?
+south_caroliniana_library_located,Can you give me directions to the South Caroliniana Library?
+south_caroliniana_library_located,South Caroliniana Library address
+south_caroliniana_library_located,How do I find the South Caroliniana Library on campus?
+south_caroliniana_library_located,"I'm having trouble finding the South Caroliniana Library, can you help?"
+south_caroliniana_library_located,Where is parking for the South Caroliniana Library?
+south_caroliniana_library_located,Can you show me a map to the South Caroliniana Library?
+south_caroliniana_library_located,hey where's south caroliniana lib??
+south_caroliniana_library_located,South Caroliniana library exact location pls?
+south_caroliniana_library_located,can u tell me how 2 get 2 south caroliniana lib?
+south_caroliniana_library_located,What's the building name of South Caroliniana Library?
+south_caroliniana_library_located,"lost on campus, help me find south caroliniana lib"
+south_caroliniana_library_located,Is south caroliniana lib near horseshoe area?
+south_caroliniana_library_located,whats address of south caroliniana library again?
+south_caroliniana_library_located,i need walking directions to south caroliniana lib
+south_caroliniana_library_located,south caroliniana lib location relative to student union?
+south_caroliniana_library_located,Library location - south caroliniana on campus map
+south_caroliniana_library_located,Is that library at the horseshoe?
+south_caroliniana_library_located,"south Carolina library location, pls"
+publishing_work_us_resource,I'm publishing a work that uses resources from the South Caroliniana Library's collections. How do I credit the Library?
+publishing_work_us_resource,How do I credit the South Caroliniana Library?
+publishing_work_us_resource,How can I credit the South Caroliniana Library?
+publishing_work_us_resource,How do I credit the South Caroliniana Library for my work?
+publishing_work_us_resource,How do I credit the South Caroliniana Library?
+publishing_work_us_resource,citation for usc library
+publishing_work_us_resource,What's the proper citation for SC library collections?
+publishing_work_us_resource,Do I need to credit USC library for images?
+publishing_work_us_resource,usc library image use policy
+publishing_work_us_resource,How do I give credit for library materials?
+publishing_work_us_resource,what if i dont know copyright status of scl material
+publishing_work_us_resource,do you own copyrights to your collections
+publishing_work_us_resource,Can I use USC library images without permission?
+publishing_work_us_resource,What is the Reproductions and Use policy?
+publishing_work_us_resource,Where can I find more info on SC library copyright rules?
+publishing_work_us_resource,library credit format
+publishing_work_us_resource,How do I properly cite a specific collection from USC library?
+publishing_work_us_resource,hey how do i give credit to south caroliniana library?
+publishing_work_us_resource,whats the citation style for usc lib?
+publishing_work_us_resource,"i wanna use some pics from sc library, do i need permission?"
+publishing_work_us_resource,how do u cite scl collections?
+publishing_work_us_resource,do i gotta credit usc library if i dont know copyright status?
+publishing_work_us_resource,can i pls get info on ur reproducations policy?
+publishing_work_us_resource,what's the proper way to reference south caroliniana lib materials?
+publishing_work_us_resource,"i'm publishin somethin that uses usc lib resources, how do i give credit?"
+publishing_work_us_resource,citation for images from sc library?
+publishing_work_us_resource,how do i properly acknowledge usc library in my work?
+publishing_work_us_resource,cite South Caroliniana Library
+publishing_work_us_resource,Do I need to cite images?
+publishing_work_us_resource,Usc library reproduction info
+publishing_work_us_resource,what citation is needed at the uofsc library
+resource_use_research_family,Do you have resources I can use to research my family's genealogy?
+resource_use_research_family,Are there any resources I can use to research my family's genealogy?
+resource_use_research_family,What resources can I use to research my family's genealogy?
+resource_use_research_family,Where can I find primary resource documents in South Carolina?
+resource_use_research_family,genealogical research south carolina
+resource_use_research_family,south caroliniana library online
+resource_use_research_family,Can I access genealogical collections at USC?
+resource_use_research_family,How to research family history in SC
+resource_use_research_family,South Carolina ancestry search
+resource_use_research_family,What resources are available for researching families in South Carolina?
+resource_use_research_family,genealogy south carolina usc
+resource_use_research_family,Can I find marriage records in the South Caroliniana Library?
+resource_use_research_family,south caroliniana library catalog tutorial
+resource_use_research_family,Where can I find property transfer records in SC?
+resource_use_research_family,South Carolina genealogical research assistance
+resource_use_research_family,USC genealogy resources
+resource_use_research_family,How to use advanced search on the South Caroliniana Library catalog
+resource_use_research_family,What's the best way to dig up dirt on my ancestors in SC?
+resource_use_research_family,Can I get access to old SC records for genealogical research?
+resource_use_research_family,Where do I even start researching my family tree in South Carolina?
+resource_use_research_family,Does USC have any resources to help me find my long lost relatives?
+resource_use_research_family,south carolina geneology reserch
+resource_use_research_family,"I'm trying to track down some ancestors, can you point me in the right direction?"
+resource_use_research_family,How do I go about finding historical documents for my family history in SC?
+resource_use_research_family,genealogy research help sc
+resource_use_research_family,What kind of records does the South Caroliniana Library have online?
+resource_use_research_family,Can you show me how to use the USC library catalog for genealogical research?
+resource_use_research_family,Can you help me use the USC Library tutorial?
+resource_use_research_family,Where can I see old files for South Carolina?
+park_visit_south_caroliniana,Where can I park to visit the South Caroliniana Library?
+park_visit_south_caroliniana,Where can I park for the South Caroliniana Library?
+park_visit_south_caroliniana,Where can I park on USC campus?
+park_visit_south_caroliniana,usc parking options
+park_visit_south_caroliniana,How much is visitor parking at USC?
+park_visit_south_caroliniana,Can I park in faculty lots as a visitor?
+park_visit_south_caroliniana,Parking near South Caroliniana Library
+park_visit_south_caroliniana,What are the hours for metered parking on USC campus?
+park_visit_south_caroliniana,Is there free parking on Saturdays at USC?
+park_visit_south_caroliniana,Can I use city meters with a USC permit?
+park_visit_south_caroliniana,Disability parking options at USC
+park_visit_south_caroliniana,How do I pay for parking at USC?
+park_visit_south_caroliniana,Parking garages near USC campus
+park_visit_south_caroliniana,Can visitors park in the C1 Faculty and Staff lot?
+park_visit_south_caroliniana,What is the fine for breaking parking rules at USC?
+park_visit_south_caroliniana,Can I use a state employee parking lot on weekends?
+park_visit_south_caroliniana,whr's the best place to prk for south caroliniana lib?
+park_visit_south_caroliniana,"I'm visiting South Caroliniana, where do I park my ride?"
+park_visit_south_caroliniana,Parking options near Caroliniana Lib?
+park_visit_south_caroliniana,How much $$ for parking at USC visitor spots?
+park_visit_south_caroliniana,Can I sneak into faculty lots on weekends?
+park_visit_south_caroliniana,"Need disability parking at USC, what are my options?"
+park_visit_south_caroliniana,What's the deal with metered parking hours on campus?
+park_visit_south_caroliniana,Free parking Saturdays at USC a thing?
+park_visit_south_caroliniana,Can I use city meters if I got a USC permit?
+park_visit_south_caroliniana,Where do I pay for parkin' on USC campus?
+park_visit_south_caroliniana,South Caroliniana Library parking
+park_visit_south_caroliniana,where is parking for the south caroliniana library
+south_caroliniana_library_open,When is South Caroliniana Library open?
+south_caroliniana_library_open,What are the hours of operation for the South Caroliniana Library?
+south_caroliniana_library_open,When is the library open?
+south_caroliniana_library_open,Can I visit the library on Saturday?
+south_caroliniana_library_open,What time does the library close?
+south_caroliniana_library_open,Are you guys open on holidays?
+south_caroliniana_library_open,"I need to research, what are your hours?"
+south_caroliniana_library_open,Can I just drop by to do some research?
+south_caroliniana_library_open,Do I need an appointment for research?
+south_caroliniana_library_open,Where do I start my research?
+south_caroliniana_library_open,Can I access the South Carolina Political Collections at the South Caroliniana Library?
+south_caroliniana_library_open,Can I view the exhibits without an appointment?
+south_caroliniana_library_open,Do you have any online resources for research?
+south_caroliniana_library_open,south caroliniana lib hours??
+south_caroliniana_library_open,Are u guys open on weekends?
+south_caroliniana_library_open,What r ur holiday hrs?
+south_caroliniana_library_open,can i just show up to do research?
+south_caroliniana_library_open,do i need to schedule a time to come in?
+south_caroliniana_library_open,whats the best way to start researching at south caroliniana library?
+south_caroliniana_library_open,Can I get into the SC political collections without an appt?
+south_caroliniana_library_open,Do I need to make an appointment to see the exhibits?
+south_caroliniana_library_open,Does South Caroliniana Library have online resources?
+south_caroliniana_library_open,What time does the South Caroliniana Lib close today?
+south_caroliniana_library_open,What are the opening hours for the library?
+south_caroliniana_library_open,Is the lib open on weekends?
+south_caroliniana_library_open,Are there holiday hours for Carolina Library?
+south_caroliniana_library_open,Do I need reservations for research access
+south_caroliniana_library_open,what is the best way to start researching at the south caroliniana library
+south_caroliniana_library,What do you have at South Caroliniana Library?
+south_caroliniana_library,What is the South Caroliniana Library?
+south_caroliniana_library,south carolina history library
+south_caroliniana_library,Where can I find info on SC culture?
+south_caroliniana_library,SC exhibits in Columbia?
+south_caroliniana_library,What's in the South Caroliniana collection?
+south_caroliniana_library,Do you have old newspapers from SC?
+south_caroliniana_library,"I need historical pictures of SC, where can I find them?"
+south_caroliniana_library,Are there any archives from USC?
+south_caroliniana_library,Where are the SC Political Collections located?
+south_caroliniana_library,How do I access oral histories of SC?
+south_caroliniana_library,Can I view rare books at South Caroliniana Library?
+south_caroliniana_library,south caroliniana reading room
+south_caroliniana_library,What kind of materials does the South Caroliniana Library have?
+south_caroliniana_library,Is there a library dedicated to SC history?
+south_caroliniana_library,whats in ur south carolina lib?
+south_caroliniana_library,"I'm looking 4 info on sc history, where do I go?"
+south_caroliniana_library,SC culture exhibits near me
+south_caroliniana_library,south caroliniana lib hours?
+south_caroliniana_library,How can I get old SC newspapers online?
+south_caroliniana_library,Where r the historical pics of columbia sc?
+south_caroliniana_library,Can I access sc archives from home?
+south_caroliniana_library,What's in the political collections at USC?
+south_caroliniana_library,Oral histories of south carolina where do I find them?
+south_caroliniana_library,Rare book room @ south caroliniana lib
+south_caroliniana_library,I want to see cultural exhibits in SC!
+south_caroliniana_library,does the library has old newspapers
+south_caroliniana_library,Can I access it from my place?
+south_caroliniana_library,what is in the south caroliniana library
+library_columbia_campus,What libraries are on the Columbia Campus?
+library_columbia_campus,list the libraries on the Columbia campus?
+library_columbia_campus,What libraries are part of USC?
+library_columbia_campus,List of usc libraries
+library_columbia_campus,How many libraries does USC have?
+library_columbia_campus,usc library locations
+library_columbia_campus,What is the main USC library?
+library_columbia_campus,Special collections library?
+library_columbia_campus,Rare books at USC?
+library_columbia_campus,Where can I find digital collections?
+library_columbia_campus,Film archives at USC?
+library_columbia_campus,Music library location
+library_columbia_campus,south caroliniana library address
+library_columbia_campus,Law school library info
+library_columbia_campus,Medical school library resources
+library_columbia_campus,What libraries are available for grad students?
+library_columbia_campus,wut libs r on columbia campus?
+library_columbia_campus,can u list all the libraries at usc?
+library_columbia_campus,how many libs does usc have in total?
+library_columbia_campus,usc lib locations pls
+library_columbia_campus,where's the main library on campus?
+library_columbia_campus,does usc have a rare book room?
+library_columbia_campus,what's the address of south caroliniana lib?
+library_columbia_campus,can grad students use all usc libraries?
+library_columbia_campus,where do i find music resources at usc?
+library_columbia_campus,info about film archives at usc?
+library_columbia_campus,Can I get digital collections on campus? where?
+library_columbia_campus,what libraries are on the columbia campus
+library_columbia_campus,how many libraries does usc have
+library_columbia_campus,where can i find rare books on campus
+library_columbia_campus,where can i find film archives
+floor_plan_finding_location,Where are floor plans for finding locations within the Thomas Cooper Library?
+floor_plan_finding_location,Where can I find floor plans for Thomas Cooper Library?
+floor_plan_finding_location,Where can I find floor plans for the Thomas Cooper Library?
+floor_plan_finding_location,Where can I find the floor plan for Thomas Cooper Library?
+floor_plan_finding_location,Thomas Cooper Library layout?
+floor_plan_finding_location,How do I navigate TCoop library?
+floor_plan_finding_location,tcl floorplan
+floor_plan_finding_location,Can I see a map of Thomas Cooper Library?
+floor_plan_finding_location,What's on each level of the library?
+floor_plan_finding_location,Library office locations?
+floor_plan_finding_location,Where are services located in TCoop?
+floor_plan_finding_location,Thomas Cooper Library directory?
+floor_plan_finding_location,Floor plan for USC main library?
+floor_plan_finding_location,Where can I find specific offices in the library?
+floor_plan_finding_location,TCL building map
+floor_plan_finding_location,What's the layout of Thomas Cooper Library?
+floor_plan_finding_location,whr r thomas cooper lib floor plans?
+floor_plan_finding_location,Can you show me a floor plan for TCoop?
+floor_plan_finding_location,"I'm lost in Thomas Cooper, where can I find help?"
+floor_plan_finding_location,tcoop directory
+floor_plan_finding_location,Where's the map for USC main library?
+floor_plan_finding_location,What's on each floor of the library?
+floor_plan_finding_location,Thomas Cooper Lib layout?
+floor_plan_finding_location,USC lib building plans?
+floor_plan_finding_location,Can you provide a TCL floor plan?
+floor_plan_finding_location,How do I get around Thomas Cooper Library?
+floor_plan_finding_location,i am lost in thomas cooper library help
+hathitrust_university_member,Tell me the HathiTrust and is the university a member?
+hathitrust_university_member,What is HathiTrust?
+hathitrust_university_member,How does HathiTrust work?
+hathitrust_university_member,Can I access copyrighted materials on HathiTrust?
+hathitrust_university_member,What's the difference between Full View and Limited items on HathiTrust?
+hathitrust_university_member,Why can't I download some items from HathiTrust?
+hathitrust_university_member,HathiTrust membership benefits
+hathitrust_university_member,usc hathitrust access
+hathitrust_university_member,How do I search for items on HathiTrust?
+hathitrust_university_member,Can I view copyrighted materials on HathiTrust?
+hathitrust_university_member,What happened to a book I used to access on HathiTrust?
+hathitrust_university_member,hathitrust download options
+hathitrust_university_member,Is HathiTrust free for USC users?
+hathitrust_university_member,Why can't I access some books on HathiTrust anymore?
+hathitrust_university_member,is usc part of hathitrust?
+hathitrust_university_member,How do I get full access to HathiTrust?
+hathitrust_university_member,whats the deal with Hathitrust?
+hathitrust_university_member,What r the benefits of USC being a HathiTrust member?
+hathitrust_university_member,Can I get in trouble for downloadin copyrighted stuff from HathiTrust?
+hathitrust_university_member,Why cant I read some books on HathiTrust no more?
+hathitrust_university_member,hathitrust free thru usc?
+hathitrust_university_member,how to access full view items on hathitrust
+hathitrust_university_member,What happened to a book that used to be available on HathiTrust?
+hathitrust_university_member,can i download hathitrust books for free?
+hathitrust_university_member,Explain Hathitrust benefits
+hathitrust_university_member,USC has hathitrust?
+hathitrust_university_member,Benefits of USC in Hathitrust?
+hathitrust_university_member,why can i read some books and not others?
+hathitrust_university_member,does usc have hathitrust access
+get_free_subscription_new,How can I get a free subscription to New York Times online through the library?
+get_free_subscription_new,How can I get a free subscription to the New York Times online?
+get_free_subscription_new,How do I get a free subscription to the New York Times online?
+get_free_subscription_new,How do I get free NYTimes access?
+get_free_subscription_new,NYT online pass how to
+get_free_subscription_new,usc ny times account
+get_free_subscription_new,Can I read NYTimes for free through USC?
+get_free_subscription_new,nytimes usc login
+get_free_subscription_new,free nyt subscription usc
+get_free_subscription_new,how to register nytimes with usc
+get_free_subscription_new,usc new york times pass
+get_free_subscription_new,can i get nyt access thru usc lib?
+get_free_subscription_new,new york times online free usc
+get_free_subscription_new,usc library nyt access
+get_free_subscription_new,nyt mobile app usc login
+get_free_subscription_new,does usc have a NYT subscription?
+get_free_subscription_new,free nytimes account for students
+get_free_subscription_new,hey can i get free acces to NYTimes thru USC lib?
+get_free_subscription_new,How do I get a complimentary NYT online sub thru the library?
+get_free_subscription_new,can usc students read new york times online 4 free?
+get_free_subscription_new,usc nyt account login info pls
+get_free_subscription_new,Whats the deal with NYT online passes at USC?
+get_free_subscription_new,NYT online is it free for USC folks?
+get_free_subscription_new,i need to access NYT for class can i get a free sub?
+get_free_subscription_new,whats the process for getting a free NYT sub thru USC?
+get_free_subscription_new,can u help me get a free new york times sub?
+get_free_subscription_new,usc nyt subscription thingy how does it work?
+get_free_subscription_new,Do i use my usc email?
+library_catalog_show_item,The library catalog shows that an item is located at the Annex. How can I get it?
+library_catalog_show_item,How do I find an item in the library catalog?
+library_catalog_show_item,How do I get an item in the library catalog?
+library_catalog_show_item,How can I find an item in the library catalog?
+library_catalog_show_item,How do I request a book from the Columbia Annex?
+library_catalog_show_item,Can I get a book delivered from the annex?
+library_catalog_show_item,"Need a book from storage, how do I get it?"
+library_catalog_show_item,usc columbia annex pickup
+library_catalog_show_item,"I need an article from a journal in the annex, what do I do?"
+library_catalog_show_item,How do I access books in special collections?
+library_catalog_show_item,What if I don't have a library account and I want something from the annex?
+library_catalog_show_item,Can visitors request items from the Columbia Annex?
+library_catalog_show_item,Can alumni use scan and deliver?
+library_catalog_show_item,"I need a chapter from a book in the annex, can I get it scanned?"
+library_catalog_show_item,How do I sign up for Scan & Deliver?
+library_catalog_show_item,What's the process for requesting an item from the Irvin Department of Rare Books?
+library_catalog_show_item,Can I request items from South Caroliniana Library through Find It @ USC?
+library_catalog_show_item,Do I need to come to the library to access annex materials?
+library_catalog_show_item,annex item retrieval?
+library_catalog_show_item,can i get a scan of a chapter from rare books?
+library_catalog_show_item,How do alumni request scan & deliver?
+library_catalog_show_item,usc columbia annex help
+library_catalog_show_item,Can I get something from special collections w/o library account?
+library_catalog_show_item,do you have to be on campus to access library catalog?
+library_catalog_show_item,"I need somethin from the irvin dept, how do i get it?"
+library_catalog_show_item,Scan and Deliver for non students?
+library_catalog_show_item,getting books from south caroliniana lib through findit @ usc
+library_catalog_show_item,How 2 request book from annex if im not a student?
+library_catalog_show_item,Can I get delivery to library?
+library_catalog_show_item,how do i get content that is not at my library
+suggest_title_library_purchase,How can I suggest a title for the library to purchase?
+suggest_title_library_purchase,How do I suggest a title for the library to purchase?
+suggest_title_library_purchase,How can I suggest a title for the library to buy?
+suggest_title_library_purchase,How do I suggest a book for the USC library?
+suggest_title_library_purchase,Can I request a book purchase online?
+suggest_title_library_purchase,make a purchase suggestion
+suggest_title_library_purchase,"I want to recommend a book to the library, how do I do that?"
+suggest_title_library_purchase,suggest new books for library
+suggest_title_library_purchase,Who is my subject librarian?
+suggest_title_library_purchase,usc purchase req form
+suggest_title_library_purchase,How do faculty members suggest multiple purchases at once?
+suggest_title_library_purchase,Can anyone suggest a purchase?
+suggest_title_library_purchase,do i need account to suggest purchase
+suggest_title_library_purchase,Where can I find the suggest a purchase form?
+suggest_title_library_purchase,suggest book usc library online
+suggest_title_library_purchase,What's the process for suggesting a new title to the library?
+suggest_title_library_purchase,How do I req a book purchase from USC lib?
+suggest_title_library_purchase,Can I ask the library to buy a specific book?
+suggest_title_library_purchase,"I wanna suggest a book 4 the library, how can I?"
+suggest_title_library_purchase,Is there an online form for requesting a book purchase?
+suggest_title_library_purchase,Who should I contact to recommend a new title?
+suggest_title_library_purchase,What's the best way to suggest multiple books at once?
+suggest_title_library_purchase,Do u need to be a student to suggest a library purchase?
+suggest_title_library_purchase,Where do I find the USC library book suggestion page?
+suggest_title_library_purchase,can faculty req multiple purchases @ once?
+suggest_title_library_purchase,Where can I find req form at USC
+retired_faculty_staff_retain,Do retired faculty and staff retain their library privileges?
+retired_faculty_staff_retain,Do retired faculty retain library privileges?
+retired_faculty_staff_retain,Do retired faculty and staff retain library privileges?
+retired_faculty_staff_retain,What library privileges do retired faculty have?
+retired_faculty_staff_retain,Can retired staff access library resources?
+retired_faculty_staff_retain,library access for retirees
+retired_faculty_staff_retain,How do I get affiliate status as a retiree?
+retired_faculty_staff_retain,What is Friends of University Libraries?
+retired_faculty_staff_retain,Can retirees borrow books from the library?
+retired_faculty_staff_retain,Do retired employees have remote access to library resources?
+retired_faculty_staff_retain,retiree library benefits
+retired_faculty_staff_retain,Can I join Friends of University Libraries as a retiree?
+retired_faculty_staff_retain,How do I get library privileges after retirement?
+retired_faculty_staff_retain,Does affiliate status include interlibrary loan privileges?
+retired_faculty_staff_retain,What are my options for library access as a retiree?
+retired_faculty_staff_retain,Retired faculty library membership
+retired_faculty_staff_retain,what happens to my lib privs when i retire?
+retired_faculty_staff_retain,Library access for retired profs?
+retired_faculty_staff_retain,Can i still use the lib after I retire?
+retired_faculty_staff_retain,Do retired employees get to keep lib access?
+retired_faculty_staff_retain,whats the deal with lib privs for retirees?
+retired_faculty_staff_retain,Retiree library card - how do i get one?
+retired_faculty_staff_retain,does retirement affect my lib benefits?
+retired_faculty_staff_retain,library access post-retirement
+retired_faculty_staff_retain,Can i borrow books from the lib as a retiree?
+retired_faculty_staff_retain,lib access options for retired faculty
+retired_faculty_staff_retain,library access for profs
+retired_faculty_staff_retain,can i still work at the library after retirement
+library_provide_access_wall,Does the library provide access to the Wall Street Journal online?
+library_provide_access_wall,Does the library have access to the Wall Street Journal online?
+library_provide_access_wall,Does the library offer access to the Wall Street Journal online?
+library_provide_access_wall,How do I get free access to Wall Street Journal?
+library_provide_access_wall,WSJ subscription for USC students
+library_provide_access_wall,Does USC have WSJ membership?
+library_provide_access_wall,Free WSJ account for faculty
+library_provide_access_wall,Can I use my university email for WSJ?
+library_provide_access_wall,What if I already pay for WSJ?
+library_provide_access_wall,How to cancel WSJ subscription and get free access
+library_provide_access_wall,USC WSJ login link
+library_provide_access_wall,Wall Street Journal Higher Education Membership info
+library_provide_access_wall,WSJ apps and podcasts through USC
+library_provide_access_wall,Do I need to create a new WSJ account?
+library_provide_access_wall,Can I use my existing WSJ account with university email?
+library_provide_access_wall,Global Newsstream database for WSJ articles
+library_provide_access_wall,Factiva database for old WSJ articles
+library_provide_access_wall,wsj acces thru usc library?
+library_provide_access_wall,How can faculty access Wall Street Journal for free?
+library_provide_access_wall,Does USC offer WSJ subscription for students?
+library_provide_access_wall,Can I get a refund on my WSJ sub and get it thru uni?
+library_provide_access_wall,What's the link to access WSJ with my USC login?
+library_provide_access_wall,Does USC have WSJ podcasts available?
+library_provide_access_wall,Do I need a separate account for WSJ thru university?
+library_provide_access_wall,How can I switch from personal WSJ sub to USC one?
+library_provide_access_wall,Can I use my existing WSJ credentials with USC email?
+library_provide_access_wall,Where can I find info on USC's WSJ membership?
+print_library,How do I print in library?
+print_library,Can I upload files to print in advance?
+print_library,Where can I email files to print?
+print_library,Printing options at Thomas Cooper Library?
+print_library,Can I print from a USB drive?
+print_library,Student printing kiosk location
+print_library,Payment options for printing
+print_library,How do I release my print job?
+print_library,library printer instructions
+print_library,where r the printers at thomas cooper lib
+print_library,can i print pdfs in library
+print_library,printing issues help
+print_library,how to pay for printing
+print_library,whats the printing procedure at TCooper lib?
+print_library,Can I send files 2 print thru email?
+print_library,"Library printer wont work, wht do i do?"
+print_library,How much does it cost 2 print per page @ library?
+print_library,Can I print pics from my phone in library?
+print_library,Student printing services available?
+print_library,do u guys hav scanners or just printers?
+print_library,"I cant find the printers, can u give me directions?"
+print_library,what types of files can i print at T Cooper lib?
+print_library,"library printer jammed, who do i contact?"
+print_library,Can i print in color?
+print_library,can i print in color at the library
+common_issue_printing,What are common issues with printing?
+common_issue_printing,list the common issues with printing?
+common_issue_printing,can you list the common issues with printing?
+common_issue_printing,library printing
+common_issue_printing,Can I upload files to print at the library?
+common_issue_printing,printing options at Thomas Cooper Library
+common_issue_printing,how to pay for printing at USC
+common_issue_printing,Why can't I print my file?
+common_issue_printing,What file types can I print at the library?
+common_issue_printing,google docs not printing at library
+common_issue_printing,powerpoint won't print at library
+common_issue_printing,Can I print from a Mac at the library?
+common_issue_printing,printing issues at USC library
+common_issue_printing,wifi not working for printing
+common_issue_printing,eduroam network not connecting
+common_issue_printing,library printer problems
+common_issue_printing,y isnt my doc printing??
+common_issue_printing,What r some common probs with printing @ library?
+common_issue_printing,Can you pls list all the issues ppl have with printing?
+common_issue_printing,How do I troubleshoot printing issues?
+common_issue_printing,Library printer not workin... help!
+common_issue_printing,Does USC lib support wireless printing?
+common_issue_printing,Why wont google docs print at the lib??
+common_issue_printing,What types of files cant be printed @ library?
+common_issue_printing,Printer giving me grief... any known issues?
+common_issue_printing,Paying for printing is a prob... can u help?
+common_issue_printing,can i upload files to print at the library?
+common_issue_printing,Printing at usc for students?
+common_issue_printing,how to use google docs for printing here
+common_issue_printing,are there any common printing problems at the library
+common_issue_printing,how do i upload files to print at the library
+common_issue_printing,what are the printing options at usc for students
+common_issue_printing,how do i use google docs for printing at the library
+access_harvard_business_case,How can I access Harvard Business Cases?
+access_harvard_business_case,How do I access Harvard Business Cases?
+access_harvard_business_case,How do I get access to Harvard Business Cases?
+access_harvard_business_case,Can I access Harvard Business Cases through the library?
+access_harvard_business_case,How do I get Harvard Business Cases for my class?
+access_harvard_business_case,hbp case study permission
+access_harvard_business_case,Why can't I find Harvard Business Cases in the library?
+access_harvard_business_case,can i email hbr cases to students
+access_harvard_business_case,harvard business publishing copyright rules
+access_harvard_business_case,Can I link to HBR cases from my course website?
+access_harvard_business_case,How do I use Harvard Business Cases in my course?
+access_harvard_business_case,hbr case studies for educators
+access_harvard_business_case,Where can I find affordable HBR cases for students?
+access_harvard_business_case,can i post hbr cases online
+access_harvard_business_case,Harvard Business Case access for faculty
+access_harvard_business_case,Can students purchase HBR cases at a discount?
+access_harvard_business_case,How do I create a custom HBR course pack?
+access_harvard_business_case,What's the deal with accessing Harvard Biz Cases?
+access_harvard_business_case,"I need to get to Harvard Business Cases, how do I do it?"
+access_harvard_business_case,Can u help me find a way to access hbr case studies?
+access_harvard_business_case,How 2 access Harvard Business Case Studies for my coursework?
+access_harvard_business_case,Do I have permission to share HBR cases w/ students?
+access_harvard_business_case,Wut's the copyright rule on sharing harvard business publishing case studies?
+access_harvard_business_case,Where do I find info on linking HBR cases 4 course materials?
+access_harvard_business_case,"I'm a teacher, how can I get hbr case study access for my classes?"
+access_harvard_business_case,What are the rules on posting Harvard Biz Cases online?
+access_harvard_business_case,Can you help me with getting discounts for students to buy harvard business review cases?
+access_harvard_business_case,is HBP permission needed?
+access_harvard_business_case,where can i find affordable harvard case studies for students
+library_hire_student,Does the library hire students?
+library_hire_student,Do libraries hire students?
+library_hire_student,Does a library hire students?
+library_hire_student,can i get hired here
+library_hire_student,can i work for you guys
+library_hire_student,can i get a job
+library_hire_student,How do I apply to work at the USC library?
+library_hire_student,usc library jobs
+library_hire_student,Are there any job openings at the university library?
+library_hire_student,Can students work at the library?
+library_hire_student,library student employment
+library_hire_student,Handshake library jobs
+library_hire_student,Where can I find library job postings?
+library_hire_student,University Libraries hiring?
+library_hire_student,how to apply for lib job
+library_hire_student,Student jobs at USC library
+library_hire_student,Do you have a job opening?
+library_hire_student,usc on campus library jobs
+library_hire_student,"I want to work in the library, how do I start?"
+library_hire_student,r u guys hirin?
+library_hire_student,how can i get a gig at the lib?
+library_hire_student,library employment opps for students?
+library_hire_student,can students get paid 2 work @ the library?
+library_hire_student,wut r the requirements to wrk at usc lib?
+library_hire_student,student worker positions available?
+library_hire_student,How do I become a USC library employee?
+library_hire_student,Do u have any student job openings?
+library_hire_student,"I wanna be a librarian, can I start here?"
+library_hire_student,whats the hiring process 4 students @ the usc library
+library_hire_student,work study open position!
+library_college_entrance_career,Does the library have college entrance and career practice tests and study guides?
+library_college_entrance_career,Do libraries have college entrance and career practice tests and study guides?
+library_college_entrance_career,Where can I find test prep materials?
+library_college_entrance_career,Test preparation resources?
+library_college_entrance_career,Does USC offer free test prep?
+library_college_entrance_career,How do I access LearningExpress Library?
+library_college_entrance_career,What's Mometrix eLibrary?
+library_college_entrance_career,test prep for grad school
+library_college_entrance_career,Can I get help with career exams?
+library_college_entrance_career,Are there study materials for U.S citizenship exam?
+library_college_entrance_career,Do you have test prep in Spanish?
+library_college_entrance_career,Where can I find teaching certification study materials?
+library_college_entrance_career,nursing exam prep resources
+library_college_entrance_career,Can I access test prep for law enforcement?
+library_college_entrance_career,Is test prep available for K-12 students?
+library_college_entrance_career,got any sat practice tests?
+library_college_entrance_career,How do I prepare for GRE at USC library?
+library_college_entrance_career,are there free study guides for MCAT?
+library_college_entrance_career,whr r test preps 4 grad skool?
+library_college_entrance_career,Does usc have study materials 4 citizenship exam?
+library_college_entrance_career,do u guys have test prep in spanish?
+library_college_entrance_career,Can i get acces to law enforcement exam prep?
+library_college_entrance_career,study resources 4 nursing exams?
+library_college_entrance_career,where can i find teaching certification study guides?
+library_college_entrance_career,can k-12 students access test prep at usc?
+resource_help_learn_language,Are there resources to help me learn a language?
+resource_help_learn_language,How can I learn a new language?
+resource_help_learn_language,Tell me the best way to learn a language?
+resource_help_learn_language,How do I learn a new language?
+resource_help_learn_language,How can I learn a new language?
+resource_help_learn_language,Language learning resources at USC?
+resource_help_learn_language,Does Richland Library offer language courses?
+resource_help_learn_language,Can USC students get a public library card?
+resource_help_learn_language,How do I get a library card as a USC student?
+resource_help_learn_language,Free language learning tools?
+resource_help_learn_language,What languages can I learn through Transparent Learning Online?
+resource_help_learn_language,USC foreign language resources?
+resource_help_learn_language,Where can I find books in other languages at USC?
+resource_help_learn_language,Newspapers in different languages on campus?
+resource_help_learn_language,Language learning guide for USC students
+resource_help_learn_language,Can I access Richland Library as a USC student?
+resource_help_learn_language,How to renew my public library card as a USC student
+resource_help_learn_language,Whats the best app to learn spanish?
+resource_help_learn_language,language learning tools at usc
+resource_help_learn_language,how do i get better at french?
+resource_help_learn_language,Can I use richland lib resources as a usc stud?
+resource_help_learn_language,Where can I find arabic books on campus?
+resource_help_learn_language,are there lang exchange programs?
+resource_help_learn_language,can usc students take lang courses at richland library?
+resource_help_learn_language,What language learning software is available?
+resource_help_learn_language,Does USC offer languge tutor sessions?
+resource_help_learn_language,how to acces free languge online resources?
+resource_help_learn_language,Learning guide for students!
+login_use_library_access,What login do I use for library access if I'm a Palmetto College student?
+login_use_library_access,How do I get library access if I'm a student at Palmetto College?
+login_use_library_access,What login do I use for library access if I am a Palmetto College student?
+login_use_library_access,How do I access library resources as a student?
+login_use_library_access,student library access
+login_use_library_access,Why can't I log in to library resources?
+login_use_library_access,usc library login issues
+login_use_library_access,"I'm enrolled in multiple campuses, which one do I select?"
+login_use_library_access,Can Lancaster students use Columbia library resources?
+login_use_library_access,multi campus student library access
+login_use_library_access,How do I authenticate for library resources?
+login_use_library_access,institution selection for library resources
+login_use_library_access,library entitlements for USC students
+login_use_library_access,usc columbia vs usc lancaster library
+login_use_library_access,Which institution should I select for library resources?
+login_use_library_access,student access to online library materials
+login_use_library_access,whats the login for palmetto college students to use the lib?
+login_use_library_access,"I'm a student at Palmetto College, how do I get into USC libraries?"
+login_use_library_access,library access not working with my login
+login_use_library_access,Can I use Columbia's library if I'm at Lancaster campus?
+login_use_library_access,login credentials for usc library dont work
+login_use_library_access,How do I log in to the USC library as a student?
+login_use_library_access,What are the entitlements for USC students to access libraries?
+login_use_library_access,Which institution should I select to log in to library resources?
+login_use_library_access,cant access online library stuff with my student account
+login_use_library_access,how does multi campus enrollment affect library access?
+login_use_library_access,What is log in at Palmetto
+login_use_library_access,Get into USC libraries Palmetto student?
+login_use_library_access,what is multiple campus login
+login_use_library_access,library access isn't working
+login_use_library_access,online library for student
+login_use_library_access,why is my library access not working
+sign_orcid_id,How do I get an ORCID ID?
+sign_orcid_id,How do I apply for ORCID ID?
+sign_orcid_id,How do I sign up for an ORCID iD?
+sign_orcid_id,What is the benefit of having an ORCID iD?
+sign_orcid_id,Is getting an ORCID iD free?
+sign_orcid_id,ORCID sign up
+sign_orcid_id,how long does it take to get an orcid id
+sign_orcid_id,Why do I need an ORCID iD as a researcher?
+sign_orcid_id,Can I log in with my USC credentials on ORCID?
+sign_orcid_id,How do I link my ORCID account to my USC account?
+sign_orcid_id,orcid registration
+sign_orcid_id,What is the purpose of contributing professional info to ORCID?
+sign_orcid_id,Do I have to pay for an ORCID iD?
+sign_orcid_id,how do i sign into orcid
+sign_orcid_id,Can I reuse my ORCID information in other systems?
+sign_orcid_id,whats the deal with ORCID IDs?
+sign_orcid_id,How do I register 4 an ORCID ID?
+sign_orcid_id,Whats the benefit of gettin an ORCID iD?
+sign_orcid_id,Do I need to pay a fee for an ORCID?
+sign_orcid_id,Can I signin w/ my USC login on ORCID?
+sign_orcid_id,ORCID account creation
+sign_orcid_id,how long does orcid id take to process
+sign_orcid_id,Why is it required 2 have ORCID as researcher?
+sign_orcid_id,How do I attach my USC acct w/ my ORCID?
+sign_orcid_id,is orcid free or paid?
+sign_orcid_id,Do i log in with USC credentials?
+username_password_working_do,My username and password are not working. What should I do?
+username_password_working_do,What should I do if my username and password are not working?
+username_password_working_do,My username and password is not working. What should I do?
+username_password_working_do,Can't log in to library resources
+username_password_working_do,What's my library login?
+username_password_working_do,Library access not working
+username_password_working_do,How do I reset my library password?
+username_password_working_do,Why can't I access library stuff?
+username_password_working_do,eduroam network login issues
+username_password_working_do,What's the difference between VIP ID and Network username?
+username_password_working_do,library login credentials
+username_password_working_do,Can't connect to eduroam wifi
+username_password_working_do,library resource login problems
+username_password_working_do,How do I get wireless access on campus?
+username_password_working_do,New student when can I access library resources online
+username_password_working_do,Why isn't my university email password working for library login?
+username_password_working_do,cant log in whats goin on?
+username_password_working_do,Forgot my libary pw help!
+username_password_working_do,How do I reset my edu roam pass?
+username_password_working_do,libary acsess aint workin
+username_password_working_do,whats the deal with vip id vs network username??
+username_password_working_do,Can some1 tell me why my library creds arent working?
+username_password_working_do,eduroam wifi says wrong password halp
+username_password_working_do,new student when can i get libary acces online?
+username_password_working_do,university email pass not workin 4 libary login whaaat?
+username_password_working_do,library resource login aint goin thru
+username_password_working_do,my password dont work?
+username_password_working_do,Why isnt my email for login password?
+get_help_citation,Where can I get help with my citations?
+get_help_citation,How can I get help with citations?
+get_help_citation,Where can I get help with citations?
+get_help_citation,How do I cite sources in APA style?
+get_help_citation,Citation styles help
+get_help_citation,"I need to cite a paper, what format should I use?"
+get_help_citation,Can you show me how to cite in MLA?
+get_help_citation,citation guide for AMA style
+get_help_citation,What's the best way to cite AI-generated content?
+get_help_citation,How do I cite sources from databases?
+get_help_citation,Do you have physical citation guides available?
+get_help_citation,Where can I find help with citing uncommon sources?
+get_help_citation,Can someone assist me with using citation management software?
+get_help_citation,zotero tutorial
+get_help_citation,how to format citations
+get_help_citation,Citation styles for science papers
+get_help_citation,How do I check if my citations are accurate?
+get_help_citation,citation help pls?
+get_help_citation,I'm struggling with APA citations can u help?
+get_help_citation,Where's the best place to get citation style guides?
+get_help_citation,Can someone show me how 2 cite in chicago style?
+get_help_citation,Whats the diff btw MLA and APA citations?
+get_help_citation,Do you have a turabian citation guide?
+get_help_citation,How do I properly cite an article from google scholar?
+get_help_citation,citation management tools tutorial needed
+get_help_citation,wht's the best way to format citations for art projects?
+get_help_citation,Can u help me with citing government reports?
+get_help_citation,What format is APA?
+get_help_citation,citation for paper help
+get_help_citation,Can u tell me how to cite?
+get_help_citation,Can u give me some format help?
+get_help_citation,i need help with citations
+get_help_citation,what format should i use to cite a paper
+get_help_citation,can you tell me how to cite in mla
+get_help_citation,do you have a citation guide for ama style
+get_help_citation,can you give me some citation format help
+interlibrary_loan_access_it,What is Interlibrary Loan and how do I access it?
+interlibrary_loan_access_it,How do I access an interlibrary loan?
+interlibrary_loan_access_it,What is Interlibrary Loan? How do I access it?
+interlibrary_loan_access_it,How do I request a book not in USC library?
+interlibrary_loan_access_it,What if the library doesn't have the material I need?
+interlibrary_loan_access_it,Can I borrow books from other libraries?
+interlibrary_loan_access_it,Interlibrary loan help
+interlibrary_loan_access_it,Need article not on usc database
+interlibrary_loan_access_it,can i get textbooks through interlibrary loan
+interlibrary_loan_access_it,how to access other libraries materials
+interlibrary_loan_access_it,Who can request interlibrary loans?
+interlibrary_loan_access_it,login issues with illiad
+interlibrary_loan_access_it,What type of materials can I request through interlibrary loan?
+interlibrary_loan_access_it,Can USC alumni use interlibrary loan?
+interlibrary_loan_access_it,How do I renew interlibrary loan materials?
+interlibrary_loan_access_it,can i get research papers from other universities
+interlibrary_loan_access_it,Requesting books not in catalog
+interlibrary_loan_access_it,"Hey, how does this interlibrary loan thing work?"
+interlibrary_loan_access_it,need help accessing illiad
+interlibrary_loan_access_it,whats the deal with interlibrary loans?
+interlibrary_loan_access_it,Can I get a book thats not at usc thru interlibrary loan?
+interlibrary_loan_access_it,How do I sign up for interlibrary loan?
+interlibrary_loan_access_it,"cant find article on usc databases, now what?"
+interlibrary_loan_access_it,can i borrow from ucla library?
+interlibrary_loan_access_it,I need help requesting an article
+interlibrary_loan_access_it,whats the process for requestin out of catalog books?
+interlibrary_loan_access_it,can a usc alum get books thru ill?
+interlibrary_loan_access_it,ILL is and how to access it
+interlibrary_loan_access_it,How to get content not at USC Library?
+interlibrary_loan_access_it,ILL help required!
+interlibrary_loan_access_it,How long alum get access to ILL services?
+interlibrary_loan_access_it,i need an article that is not on a usc database can you help
+interlibrary_loan_access_it,how long can alumni access ill services
+pascal_delivers,What is PASCAL Delivers?
+pascal_delivers,What are PASCAL Delivers?
+pascal_delivers,What is PASCAL Delivers?
+pascal_delivers,How do I get books from other libraries in SC?
+pascal_delivers,pascal delivers usc
+pascal_delivers,Can I request books from other colleges?
+pascal_delivers,Free book delivery service USC?
+pascal_delivers,How to search PASCAL Delivers?
+pascal_delivers,What does PASCAL stand for?
+pascal_delivers,USC book delivery options
+pascal_delivers,PASCAL Delivers participating libraries
+pascal_delivers,how do i sign in pascal delivers
+pascal_delivers,Can faculty use PASCAL Delivers?
+pascal_delivers,Is PASCAL Delivers free?
+pascal_delivers,Deliver books from other SC libraries
+pascal_delivers,whats pascal delivers?
+pascal_delivers,How can I get a book from another library?
+pascal_delivers,PASCAL delivery options at USC
+pascal_delivers,can i use pascal if im not a student?
+pascal_delivers,What colleges participate in PASCAL Delivers?
+pascal_delivers,USC library sharing program?
+pascal_delivers,Can I request books from other SC universities?
+pascal_delivers,delivers.pascal.usc or somethin?
+pascal_delivers,How long does PASCAL delivery take?
+pascal_delivers,PASCAL Delivers sign in troubles
+pascal_delivers,Books delivered to UofSC?
+pascal_delivers,Is that service only for students?
+pascal_delivers,can i get books delivered to usc
+library_main_find_usc,The library's main Find It at USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
+library_main_find_usc,The Library's main Find It @ USC Libraries (PASCAL) catalog search will not load or let me log in. What can I do?
+library_main_find_usc,Can't access library resources from home
+library_main_find_usc,Library site blocked by spam filter
+library_main_find_usc,Having trouble accessing library off-campus
+library_main_find_usc,How do I fix library access issue?
+library_main_find_usc,Unable to reach library resources from personal internet
+library_main_find_usc,What's the solution for library access problem?
+library_main_find_usc,VPN for library access
+library_main_find_usc,How does VPN help with library access?
+library_main_find_usc,Can't connect to library resources
+library_main_find_usc,Library access not working from home
+library_main_find_usc,Off-campus library access issues
+library_main_find_usc,Why is library site blocked?
+library_main_find_usc,How do I report library access issue?
+library_main_find_usc,What to do if library VPN doesn't work?
+library_main_find_usc,why cant i get into usc lib?
+library_main_find_usc,USC Library login not working!!
+library_main_find_usc,find it @ usc not loading
+library_main_find_usc,usc catalog search wont let me log in
+library_main_find_usc,"I'm having trouble accessing USC library resources from home, what's the deal?"
+library_main_find_usc,"Library access blocked by spam filter, help!"
+library_main_find_usc,"Can't connect to USC library off-campus, what can I do?"
+library_main_find_usc,"I'm trying to access USC library but it says I need a VPN, how does that work?"
+library_main_find_usc,USC Library site not working from my internet
+library_main_find_usc,How do I get around the spam filter blocking USC library?
+library_main_find_usc,Lib main Find It will not load
+library_main_find_usc,Access library blocked by firewall?
+library_main_find_usc,How access the library again
+library_main_find_usc,i can't access library resources from home what should i do
+photocopy_scan_library,Can I photocopy or scan at the library?
+photocopy_scan_library,Can I scan or photocopy at the library?
+photocopy_scan_library,Can I copy or scan at the library?
+photocopy_scan_library,Where can I photocopy in the library?
+photocopy_scan_library,Can I scan documents in the library?
+photocopy_scan_library,Library copy machine locations
+photocopy_scan_library,Is there a scanner available?
+photocopy_scan_library,copying services at usc lib
+photocopy_scan_library,where can i make copies on campus
+photocopy_scan_library,usc printing options
+photocopy_scan_library,how to scan docs in lib
+photocopy_scan_library,photocopy machine location
+photocopy_scan_library,can i photocopy stuff in library
+photocopy_scan_library,library copying costs
+photocopy_scan_library,Can I print in the USC library?
+photocopy_scan_library,copying and scanning at usc libraries
+photocopy_scan_library,does usc lib have a xerox machine?
+photocopy_scan_library,How much to scan docs at USC library?
+photocopy_scan_library,can i make copies at usc?
+photocopy_scan_library,Scanner avail @ library?
+photocopy_scan_library,Can I do copying & scanning @ the USC lib?
+photocopy_scan_library,Where r the photocopiers in USC lib?
+photocopy_scan_library,usc library copy costs?
+photocopy_scan_library,scan and print options at usc
+photocopy_scan_library,"I need to scan a document, is that possible at USC lib?"
+photocopy_scan_library,copy machine locations on campus
+photocopy_scan_library,Photocopy or scan
+photocopy_scan_library,how much does it cost to scan documents in the library
+request_copy_manuscript,How can I request a copy of a manuscript?
+request_copy_manuscript,How do I request a copy of my manuscript?
+request_copy_manuscript,How do I request a copy of a manuscript?
+request_copy_manuscript,How do I get copies of manuscripts from Special Collections?
+request_copy_manuscript,Can I request reproductions of rare books?
+request_copy_manuscript,Who do I contact for Special Collections materials?
+request_copy_manuscript,How to request copies from Irvin Department of Rare Books?
+request_copy_manuscript,Need a copy of something from Moving Image Research Collections
+request_copy_manuscript,How do I get access to SCPC materials?
+request_copy_manuscript,South Caroliniana Library contact info
+request_copy_manuscript,Can you make me a copy of a manuscript?
+request_copy_manuscript,Where can I find rare books reproductions?
+request_copy_manuscript,I need a scan of a document in Special Collections
+request_copy_manuscript,Copies of old documents in USC libraries
+request_copy_manuscript,How do I get permission to use SCPC materials?
+request_copy_manuscript,Special Collections reproduction policies
+request_copy_manuscript,can i get a manuscript copied?
+request_copy_manuscript,Need help getting reproductions from the rare books dept
+request_copy_manuscript,whats the process for requesting manuscript copies?
+request_copy_manuscript,i wanna scan some old documents @ USC library
+request_copy_manuscript,Can you hook me up with a copy of a special collections doc?
+request_copy_manuscript,How do I go about getting permission to use manuscripts?
+request_copy_manuscript,Copies of historic docs - how to request?
+request_copy_manuscript,Reproduction policies for rare books?
+request_copy_manuscript,whom should i contact for rare book reproductions?
+request_copy_manuscript,i need some scans from Moving Image Research Collections
+request_copy_manuscript,Can I request a high-res scan copy
+request_copy_manuscript,How do I reproduce a book
+request_copy_manuscript,Want a document from a book
+ask_help_searching_source,How can I ask for help with searching for sources on my topic?
+ask_help_searching_source,How can I ask for help with my topic?
+ask_help_searching_source,Need help searching library resources
+ask_help_searching_source,Can I chat with a librarian online?
+ask_help_searching_source,What's the best way to get research assistance?
+ask_help_searching_source,help with finding books
+ask_help_searching_source,"I'm stuck on my research, who can I ask for help?"
+ask_help_searching_source,Research help desk
+ask_help_searching_source,Can I email a librarian for help?
+ask_help_searching_source,How do I book a research appointment?
+ask_help_searching_source,Virtual research help
+ask_help_searching_source,"Stuck on research, what to do"
+ask_help_searching_source,Need help with library search
+ask_help_searching_source,Librarian assistance
+ask_help_searching_source,Get help from librarian
+ask_help_searching_source,I need assistence finding sourcs for my reseach paper
+ask_help_searching_source,Can somone help me with this reserch topic?
+ask_help_searching_source,What's the best way to get in touch with a libarian?
+ask_help_searching_source,"I'm having trouble finding info on my topic, can u help?"
+ask_help_searching_source,Research assistant available?
+ask_help_searching_source,Need guidance searching online databases
+ask_help_searching_source,How do I schedule a meeting with a librarian for research help?
+ask_help_searching_source,Where can I find the research assistance desk?
+ask_help_searching_source,"Can't find relevant sources, pls help!"
+ask_help_searching_source,Who can assist me with my thesis reseach?
+ask_help_searching_source,who can assist w thesis
+ask_help_searching_source,Research Help needed now!
+ask_help_searching_source,how can i get help searching for sources on my topic
+cant_access_database_workplace,Why can't I access the databases from my workplace?
+cant_access_database_workplace,Why can't I access a database from my workplace?
+cant_access_database_workplace,Why can't I access databases from my workplace?
+cant_access_database_workplace,Why can't I access library resources?
+cant_access_database_workplace,library proxy server not working
+cant_access_database_workplace,Can't connect to USC library
+cant_access_database_workplace,proxy server issues
+cant_access_database_workplace,trouble accessing online resources
+cant_access_database_workplace,my company has a firewall is that the issue?
+cant_access_database_workplace,configured browser problems
+cant_access_database_workplace,what's blocking my library access?
+cant_access_database_workplace,isp interfering with library
+cant_access_database_workplace,Can't get past proxy server
+cant_access_database_workplace,who do I contact for network issues at work
+cant_access_database_workplace,How do I fix library connection problem
+cant_access_database_workplace,school internet settings affecting library
+cant_access_database_workplace,y cant i acess db from wrk?
+cant_access_database_workplace,Having trouble accessing USC databases at the office
+cant_access_database_workplace,Can't connect to library resources on company wifi
+cant_access_database_workplace,Firewall blocking my access to USC online stuff
+cant_access_database_workplace,Library proxy thingy not working for me
+cant_access_database_workplace,What's going on with the database connection?
+cant_access_database_workplace,Can't access USC lib from work due to net restrictions
+cant_access_database_workplace,How do I get past this proxy server error?
+cant_access_database_workplace,configured browser but still cant acess usc db
+cant_access_database_workplace,Why aint I able to access library databases at wrk?
+cant_access_database_workplace,Cant access database from office!
+cant_access_database_workplace,Contact for networking issues at office?
+library_microwave,Does the library has a microwave?
+library_microwave,Is there a microwave in the library?
+library_microwave,microwave available in thomas cooper library?
+library_microwave,Can I heat up food in the library?
+library_microwave,where is the microwave in tcl
+library_microwave,Does Thomas Cooper have a public microwave?
+library_microwave,need to heat lunch is there a micro
+library_microwave,food reheating options at tcl
+library_microwave,Is there somewhere to warm up my coffee?
+library_microwave,tcl facilities
+library_microwave,Can I use a microwave at the library?
+library_microwave,library amenities microwaves
+library_microwave,Thomas Cooper Library food policy
+library_microwave,r ther any microwaves in tha lib?
+library_microwave,Where can I reheat food on campus?
+library_microwave,Does TCL have kitchen facilities?
+library_microwave,Can you microwave stuff @ Thomas Cooper Lib?
+library_microwave,How do I heat up leftovers at USC?
+library_microwave,Library got a micro wave?
+library_microwave,what kinda amenities does tcl offer?
+library_microwave,"I need to warm my lunch, help!"
+library_microwave,Any microwaves in study areas?
+library_microwave,Food warming options near me
+library_microwave,does thomas cooper library have a public microwave
+visitor_come_library,Can visitors come to the library?
+visitor_come_library,Can people come to the library?
+visitor_come_library,Can visitors come to the Library?
+visitor_come_library,Is Thomas Cooper Library open to the public?
+visitor_come_library,Can anyone visit Thomas Cooper Library?
+visitor_come_library,What are the visitor hours for Thomas Cooper Library?
+visitor_come_library,Where is the visitor desk at Thomas Cooper Library?
+visitor_come_library,Do I need to sign in when visiting Thomas Cooper Library?
+visitor_come_library,Is Thomas Cooper Library open to non-students?
+visitor_come_library,Can alumni use Thomas Cooper Library?
+visitor_come_library,What are the rules for visitors at Thomas Cooper Library?
+visitor_come_library,Where can I park when visiting Thomas Cooper Library?
+visitor_come_library,Are there specific services for visitors at Thomas Cooper Library?
+visitor_come_library,Do I need a pass to visit Thomas Cooper Library?
+visitor_come_library,is the library open to the public
+visitor_come_library,r ppl allowed to come to thomas cooper lib?
+visitor_come_library,whats the policy on visitors at the library?
+visitor_come_library,Can I study at the Thomas Cooper Library if I'm not a student?
+visitor_come_library,Where do I need to go to get a visitor pass for the library?
+visitor_come_library,"I'm not a student, can I still use the library's resources?"
+visitor_come_library,How late is the library open for visitors?
+visitor_come_library,Do you have to be a student to go to Thomas Cooper Library?
+visitor_come_library,is there a guest wifi at thomas cooper lib?
+visitor_come_library,Can non-students access the library's materials?
+visitor_come_library,What are the public hours for the Thomas Cooper Library?
+visitor_come_library,Is TCL open to public?
+visitor_come_library,Can alumnus use TCL?
+visitor_come_library,What's the policy on visitors?
+visitor_come_library,is there guest wifi at TCL?
+find_published_example_action,How do I find published examples of action research for my education research question?
+find_published_example_action,How do I search education databases?
+find_published_example_action,Where can I find action research articles?
+find_published_example_action,What keywords should I use for action research?
+find_published_example_action,Education database search tips
+find_published_example_action,How to find case studies in education
+find_published_example_action,What is the best way to search for applied research?
+find_published_example_action,"I'm not getting enough results, what can I do?"
+find_published_example_action,Searching for teacher researcher studies
+find_published_example_action,How do I refine my education research question?
+find_published_example_action,Can you help me with searching education databases?
+find_published_example_action,Examples of problem of practice dissertations
+find_published_example_action,Where can I find participatory research articles?
+find_published_example_action,education database search strategy
+find_published_example_action,What terms should I use to find dyslexia research?
+find_published_example_action,i need help findin examples of action research in education
+find_published_example_action,Can you show me how to search for ed research?
+find_published_example_action,Where do I look for published case studies on action research?
+find_published_example_action,What's the best way to find educational research articles?
+find_published_example_action,How can I improve my search results for applied research?
+find_published_example_action,Do u have any tips for searching teacher researcher studies?
+find_published_example_action,"I need help refining my education research question, plz"
+find_published_example_action,Can you assist me in finding problem of practice dissertations?
+find_published_example_action,Where can I locate participatory action research articles?
+find_published_example_action,What keywords should I use to find research on learning disabilities?
+find_published_example_action,How to find action research examples?
+find_published_example_action,How to find case studies in education.
+register_access_ad_age,How do I register for access to Ad Age?
+register_access_ad_age,How do I register for Ad Age?
+register_access_ad_age,How do I access Ad Age online?
+register_access_ad_age,Can I get free access to Ad Age?
+register_access_ad_age,Ad Age subscription for USC students
+register_access_ad_age,usc ad age login
+register_access_ad_age,How to register for Ad Age
+register_access_ad_age,"I'm a USC student, can I use Ad Age for free?"
+register_access_ad_age,What's the process for accessing Ad Age?
+register_access_ad_age,Can faculty access Ad Age?
+register_access_ad_age,Ad Age free trial for USC staff
+register_access_ad_age,How do I get unlimited access to Ad Age?
+register_access_ad_age,Ad Age registration issues
+register_access_ad_age,Who do I contact if I have Ad Age access problems?
+register_access_ad_age,USC email Ad Age account setup
+register_access_ad_age,ad age sign up process??
+register_access_ad_age,Can USC alumni use Ad Age for free?
+register_access_ad_age,how 2 get ad age login credentials
+register_access_ad_age,What's required to register 4 Ad Age?
+register_access_ad_age,usc student discount on ad age subscription?
+register_access_ad_age,Need help setting up my Ad Age account w/ usc email
+register_access_ad_age,Is Ad Age accessible thru usc library?
+register_access_ad_age,can i access ad age if im not a student?
+register_access_ad_age,ad age regisration instructions plz
+register_access_ad_age,Having trouble loggin in to Ad Age
+library_charger_laptop_phone,Does the library have a charger for my laptop or phone?
+library_charger_laptop_phone,Where can I charge my phone in the library?
+library_charger_laptop_phone,Are there free chargers available in the library?
+library_charger_laptop_phone,"I need to charge my laptop, where can I do that?"
+library_charger_laptop_phone,Can I borrow a charger from the library?
+library_charger_laptop_phone,How long can I keep a borrowed charger?
+library_charger_laptop_phone,Is there a charging station on the main floor?
+library_charger_laptop_phone,Do you have portable charging banks?
+library_charger_laptop_phone,Can I reserve a charger online?
+library_charger_laptop_phone,Are chargers available for all types of devices?
+library_charger_laptop_phone,Where is the checkout desk for borrowing chargers?
+library_charger_laptop_phone,Is it free to borrow a charger?
+library_charger_laptop_phone,What's the penalty for returning a borrowed charger late?
+library_charger_laptop_phone,"I need a charger for my tablet, can I get one from the library?"
+library_charger_laptop_phone,Can I find charging stations on other floors of the library?
+library_charger_laptop_phone,can i charge my phone in lib?
+library_charger_laptop_phone,where's the charging station at?
+library_charger_laptop_phone,do u have macbook chargers?
+library_charger_laptop_phone,how do i get a charger from the library?
+library_charger_laptop_phone,is there a place to plug in my laptop?
+library_charger_laptop_phone,free phone charging spots?
+library_charger_laptop_phone,"i need an android charger, can i borrow?"
+library_charger_laptop_phone,library got portable power banks?
+library_charger_laptop_phone,can i reserve a charging bank online?
+library_charger_laptop_phone,where's the charger checkout desk?
+library_charger_laptop_phone,borrow powerbank?
+library_textbook,Tell me the check out policy for textbooks?
+library_textbook,What is check out policy for textbooks?
+library_textbook,How long can I borrow a textbook from the library?
+library_textbook,Can I take textbooks out of the library?
+library_textbook,What is the checkout policy for textbooks?
+library_textbook,textbook borrowing rules
+library_textbook,library book checkout time
+library_textbook,Can I renew textbooks?
+library_textbook,how long are textbooks due for?
+library_textbook,textbook due date
+library_textbook,can i keep textbook all day?
+library_textbook,2 hour rule for textbooks?
+library_textbook,why cant i take textbook home?
+library_textbook,textbook checkout exceptions
+library_textbook,Does the library have my textbooks?
+library_textbook,Where can I find textbooks in the USC library?
+library_textbook,usc textbook checkout
+library_textbook,Does the library have my course materials?
+library_textbook,How do I access textbooks for my class?
+library_textbook,Can I check out textbooks from the library?
+library_textbook,textbook availability
+library_textbook,Does the library have all the textbooks for my courses?
+library_textbook,Where is the textbook collection in Thomas Cooper Library?
+library_textbook,Do I need a CarolinaCard to checkout textbooks?
+library_textbook,Can I search for textbooks online?
+library_textbook,How do I find my assigned textbook in the library?
+library_textbook,usc course materials access
+library_textbook,Does the library have textbooks for every course?
+library_textbook,Can I reserve a textbook at the USC library?
+library_textbook,Got any textbooks for my classes?
+library_textbook,can i get textbooks from usc lib?
+library_textbook,Where do I find books for my courses?
+library_textbook,Textbook rentals available?
+library_textbook,how to check out course materials
+library_textbook,Does the library carry all class texts?
+library_textbook,Can you search textbook availability online?
+library_textbook,where r the textbooks in thomas cooper lib?
+library_textbook,Do u need student id to checkout texts?
+library_textbook,usc textbook rental options
+library_textbook,how to borrow text book?
+library_textbook,does the libray have my textbooks?
+library_reader_advisory_database,Does the library have readers advisory databases?
+library_reader_advisory_database,Do libraries have readers advisory databases?
+library_reader_advisory_database,Does the library have a reader advisory database?
+library_reader_advisory_database,What databases are good for reader's advisory?
+library_reader_advisory_database,reader advisory resources
+library_reader_advisory_database,collection development databases?
+library_reader_advisory_database,Where can I find summaries of novels?
+library_reader_advisory_database,novel summary database
+library_reader_advisory_database,Masterplots what is it?
+library_reader_advisory_database,databases for poetry analysis
+library_reader_advisory_database,short story summaries where
+library_reader_advisory_database,non fiction book summaries
+library_reader_advisory_database,what's good for reader's advisory and collection dev?
+library_reader_advisory_database,I need help with collection development
+library_reader_advisory_database,reader advisory tools
+library_reader_advisory_database,database for drama analysis
+library_reader_advisory_database,got any dbs for readers advisory?
+library_reader_advisory_database,wut databases r good 4 poetry analisys?
+library_reader_advisory_database,can u help me find novel summaries?
+library_reader_advisory_database,databases 4 reader advisory & collection dev
+library_reader_advisory_database,whr can i find short story summarys?
+library_reader_advisory_database,What's a good database for analyzing dramas?
+library_reader_advisory_database,I need help with readers advisory. What databases do you have?
+library_reader_advisory_database,can you recommand any databases 4 non fiction book summaries?
+library_reader_advisory_database,readers advisory resources??
+library_reader_advisory_database,Are there any libraries that offer reader's advisory databases?
+see_hostname_error_try,"I see a ""Hostname Error"" when I try to access a database. What can I do?"
+see_hostname_error_try,Hostname Error
+see_hostname_error_try,hostname error in library database
+see_hostname_error_try,what to do when hostname error occurs
+see_hostname_error_try,can't access library resource
+see_hostname_error_try,how to fix hostname error in library
+see_hostname_error_try,error accessing database what to do
+see_hostname_error_try,library database not working
+see_hostname_error_try,reporting hostname error
+see_hostname_error_try,who to contact for hostname error
+see_hostname_error_try,submit ticket for library error
+see_hostname_error_try,hostname line error solution
+see_hostname_error_try,database error how to resolve
+see_hostname_error_try,access issue with library resource
+see_hostname_error_try,help with hostname error in library
+see_hostname_error_try,whts the deal w/ this hostname error?
+see_hostname_error_try,"Can't get into database, hostname error"
+see_hostname_error_try,Library resources r down due 2 hostname error :(
+see_hostname_error_try,How do i resolve dis hostname error ASAP?
+see_hostname_error_try,whom should i contact for this stupid hostname error?
+see_hostname_error_try,Error message: Hostname Error...now what?
+see_hostname_error_try,Why am I seein' this hostname error msg?
+see_hostname_error_try,fix dis database connection hostname thingy
+see_hostname_error_try,hostname error solution pls
+see_hostname_error_try,Can u help me out w/ dis library access issue?
+software_available_library_computer,What software is available on the library computers?
+software_available_library_computer,What software is available on library computers?
+software_available_library_computer,is there software i can use
+software_available_library_computer,What software is available on library computers?
+software_available_library_computer,library computer software
+software_available_library_computer,Do all library computers have the same software?
+software_available_library_computer,Is there special software on some library computers?
+software_available_library_computer,Where can I find a list of library software?
+software_available_library_computer,Software available in lib
+software_available_library_computer,Can I access library software from home?
+software_available_library_computer,Remote access to lib software
+software_available_library_computer,What's on the computers in the Technology Lounge?
+software_available_library_computer,Tech lounge software
+software_available_library_computer,Is all library software accessible remotely?
+software_available_library_computer,lib software remote access link
+software_available_library_computer,whats the software like on lib comps?
+software_available_library_computer,library computer got any special programs?
+software_available_library_computer,can i get a list of all the software in the library?
+software_available_library_computer,are there any computers in the lib with video editing software?
+software_available_library_computer,software options at the library?
+software_available_library_computer,do u guys have autocad on ur computers?
+software_available_library_computer,wht kinda software do u hav on ur public pcs?
+software_available_library_computer,any specialized software for engineering students?
+software_available_library_computer,whr can i find info on remote access to lib software?
+software_available_library_computer,can i use adobe creative cloud on lib comps?
+software_available_library_computer,remote access to library software is okay?
+software_available_library_computer,Do you has any editing video program on the computers?
+library_color_copier,Does the library have a color copier?
+library_color_copier,Do libraries have a color copier?
+library_color_copier,Does a library have a color copier?
+library_color_copier,Does the library have color photocopiers?
+library_color_copier,Can I make color copies in the library?
+library_color_copier,Where can I find a color copier on campus?
+library_color_copier,Color copying available?
+library_color_copier,Is there a color printer in the lib?
+library_color_copier,Can I scan in color at the library?
+library_color_copier,library color copy machine
+library_color_copier,Does USC lib have color printing?
+library_color_copier,color photocopying options
+library_color_copier,Where can I make color copies near the library?
+library_color_copier,Quick Copy location
+library_color_copier,Color copying on campus?
+library_color_copier,got a colour copier in lib?
+library_color_copier,Can I get colour printouts at the USC library?
+library_color_copier,Colour photocopying available at the library?
+library_color_copier,Where's a color copier around here?
+library_color_copier,does usc have colored printers
+library_color_copier,Color scan and copy services?
+library_color_copier,Are there colour photocopiers at the library?
+library_color_copier,"I need to make colour copies, where can I go?"
+library_color_copier,Colour printing in lib possible?
+library_color_copier,color copying facilities near me
+library_color_copier,What copy options are there for help at USC library?
+starbucks_thomas_cooper,Where is the Starbucks in Thomas Cooper?
+starbucks_thomas_cooper,Where is Starbucks in Thomas Cooper?
+starbucks_thomas_cooper,Where's Starbucks in Thomas Cooper?
+starbucks_thomas_cooper,Is there a Starbucks in the Thomas Cooper Library?
+starbucks_thomas_cooper,coffee shop in library?
+starbucks_thomas_cooper,Where is Starbucks located in the library?
+starbucks_thomas_cooper,What replaced Cooper's Corner coffee shop?
+starbucks_thomas_cooper,Starbucks hours in library
+starbucks_thomas_cooper,food options in Thomas Cooper Library
+starbucks_thomas_cooper,library snack machines
+starbucks_thomas_cooper,Where can I get a drink in the library?
+starbucks_thomas_cooper,Thomas Cooper Library cafeteria
+starbucks_thomas_cooper,vending machines in library
+starbucks_thomas_cooper,Is Starbucks open 24/7 in the library?
+starbucks_thomas_cooper,What floor is Starbucks on in the library?
+starbucks_thomas_cooper,library food hours
+starbucks_thomas_cooper,Where can I find food in the Thomas Cooper Library?
+starbucks_thomas_cooper,starbucks in thomas cooper lib?
+starbucks_thomas_cooper,where's the coffee shop at thomas cooper?
+starbucks_thomas_cooper,Can i get a coffee in Thomas Cooper Lib?
+starbucks_thomas_cooper,thomas cooper starbucks hours?
+starbucks_thomas_cooper,what food options r available in thomas cooper library
+starbucks_thomas_cooper,Is there a cafe in Thomas Cooper Library?
+starbucks_thomas_cooper,vending machine locations in thomas cooper lib
+starbucks_thomas_cooper,where can I grab a snack in the library?
+starbucks_thomas_cooper,Thomas Cooper food court?
+starbucks_thomas_cooper,whats on the menu at starbucks in thomas cooper?
+library_childrens_book,Does the library have children's books?
+library_childrens_book,Do the libraries have children's books?
+library_childrens_book,Do libraries have children's books?
+library_childrens_book,Where can I find children's books in Thomas Cooper Library?
+library_childrens_book,Does USC have a juvenile book collection?
+library_childrens_book,young adult literature usc
+library_childrens_book,Can I check out picture books from the library?
+library_childrens_book,How do I browse juvenile books at USC?
+library_childrens_book,What is the call number system for juvenile books?
+library_childrens_book,"I'm looking for non-fiction books for kids, where can I find them?"
+library_childrens_book,usc children's lit collection
+library_childrens_book,Where are rare children's books located?
+library_childrens_book,Can I borrow children's books from the Irvin Department?
+library_childrens_book,childrens book room usc
+library_childrens_book,How do I access special collections at USC?
+library_childrens_book,Make an appointment to view rare children's books
+library_childrens_book,What libraries have juvenile collections?
+library_childrens_book,got kids books in the library?
+library_childrens_book,Can I get childrens books from USC lib?
+library_childrens_book,"I need books for my kid, where do I go?"
+library_childrens_book,What section has picture books?
+library_childrens_book,Does USC have a kids lit department?
+library_childrens_book,Where can I find young reader books at Thomas Cooper?
+library_childrens_book,usc juvenile fiction collection?
+library_childrens_book,How do I search childrens books in the catalog?
+library_childrens_book,Can you show me where the kids book are?
+library_childrens_book,"I'm looking for old children's books, are they available?"
+take_online_proctored_exam,Where can I take an online or proctored exam?
+take_online_proctored_exam,Where can I take online or proctored exams?
+take_online_proctored_exam,Where can I take online or proctored exam?
+take_online_proctored_exam,Where can I take online and proctored exams?
+take_online_proctored_exam,Where can I find Respondus Lockdown Browser on campus?
+take_online_proctored_exam,Does the library have computers with Respondus Monitor?
+take_online_proctored_exam,Can I use the Technology Lounge if I'm not a USC student?
+take_online_proctored_exam,What is the deal with webcams in the Tech Lounge?
+take_online_proctored_exam,"I need to take an online exam, where can I go?"
+take_online_proctored_exam,does usc lib offer proctoring services
+take_online_proctored_exam,Where can non-USC students take exams?
+take_online_proctored_exam,test proctoring options at usc
+take_online_proctored_exam,Can I use library computers for online exams?
+take_online_proctored_exam,Respondus Lockdown Browser availability
+take_online_proctored_exam,Tech Lounge rules and restrictions
+take_online_proctored_exam,online exam proctoring USC
+take_online_proctored_exam,USC testing centers
+take_online_proctored_exam,Where can I take a proctored exam on campus?
+take_online_proctored_exam,Are there any online proctoring options at USC?
+take_online_proctored_exam,Can I use the lib computers for proctored exams?
+take_online_proctored_exam,do u guys have respondus lockdown browser?
+take_online_proctored_exam,Whats the policy on taking online exams in the tech lounge?
+take_online_proctored_exam,"I'm not a student, can I still take an exam at USC?"
+take_online_proctored_exam,Where's the best place to take an online proctored exam?
+take_online_proctored_exam,Can I use the usc lib for proctoring services?
+take_online_proctored_exam,What are my options for taking a proctored exam as a non-USC student?
+take_online_proctored_exam,Does the tech lounge have webcams for online exams?
+take_online_proctored_exam,What's rulls in the testing area?
+request_book_delivered_campus,How do I request to have a book delivered to my campus office?
+request_book_delivered_campus,Can I get books delivered to my work address?
+request_book_delivered_campus,Book delivery for faculty?
+request_book_delivered_campus,How do I sign up for employee book delivery?
+request_book_delivered_campus,usc book delivery
+request_book_delivered_campus,"I'm a staff member, can I get books sent to me?"
+request_book_delivered_campus,Requesting books as an employee
+request_book_delivered_campus,campus delivery of library items
+request_book_delivered_campus,Can I get interlibrary loan books delivered to my office?
+request_book_delivered_campus,Employee book request and delivery
+request_book_delivered_campus,PASCAL delivers to work address?
+request_book_delivered_campus,How do I get books from the library as a faculty member?
+request_book_delivered_campus,book delivery options for USC staff
+request_book_delivered_campus,can i get books delievered 2 my campus?
+request_book_delivered_campus,Faculty book delivery - how does it work?
+request_book_delivered_campus,What's the deal with getting books sent to my office?
+request_book_delivered_campus,Can USC staff request books be delivered to them?
+request_book_delivered_campus,"Need a book brought to my workplace, possible?"
+request_book_delivered_campus,How do employees sign up for book drop off?
+request_book_delivered_campus,Requesting PASCAL deliveries 2 work address
+request_book_delivered_campus,I'm faculty - what are my options for getting library books?
+request_book_delivered_campus,Is interlibrary loan delivery available for staff?
+request_book_delivered_campus,What's the process for campus delivery of library materials?
+request_book_delivered_campus,pascal delivery ok
+get_library_card,How do I get a library card?
+get_library_card,How can I get a library card?
+get_library_card,How do you get a library card?
+get_library_card,What do I need to enter the USC library?
+get_library_card,How do I get a library card?
+get_library_card,Where can I get a CarolinaCard on Columbia Campus?
+get_library_card,Can I use the library if I'm not affiliated with USC?
+get_library_card,do i need id for library
+get_library_card,"I'm an online student, do I need a CarolinaCard for library resources?"
+get_library_card,How do I access USC library resources from off campus?
+get_library_card,What are the benefits of joining Friends of the University Libraries?
+get_library_card,Can alumni use the USC library?
+get_library_card,how to borrow books from usc lib
+get_library_card,Do I need a physical library card as a distance student?
+get_library_card,Where can I get a library ID if I'm not on campus?
+get_library_card,usc library membership
+get_library_card,whts reqd for a lib card?
+get_library_card,library access for non students?
+get_library_card,Can i use my student id to borrow books?
+get_library_card,what's needed to enter the usc lib?
+get_library_card,"I'm not a student, can I still get a library card?"
+get_library_card,how do i get a carolinacard as an online student?
+get_library_card,whats the process for getting a usc library card?
+get_library_card,can you use the lib without a carolinacard?
+get_library_card,do u need to be a student for library access?
+get_library_card,"I'm an alum, can I still borrow books from usc lib?"
+get_library_card,I aint a usc member how 2 log in?
+get_library_card,borrow books from the library?
+get_library_card,can i use digital resources with a library card
+cant_connect_eduroam_wireless,Why can't I connect to the eduroam wireless network?
+cant_connect_eduroam_wireless,wifi not working on campus
+cant_connect_eduroam_wireless,How do I connect to eduroam?
+cant_connect_eduroam_wireless,eduroam login issues
+cant_connect_eduroam_wireless,usc wifi password help
+cant_connect_eduroam_wireless,Forgot wifi password usc
+cant_connect_eduroam_wireless,Why can't I access wifi on campus?
+cant_connect_eduroam_wireless,what is my network username and password
+cant_connect_eduroam_wireless,edurom password expired
+cant_connect_eduroam_wireless,wifi not working after password change
+cant_connect_eduroam_wireless,How do I update my wifi password on Mac?
+cant_connect_eduroam_wireless,pc not connecting to usc wifi
+cant_connect_eduroam_wireless,what to do when wifi says password incorrect
+cant_connect_eduroam_wireless,usc wifi troubleshooting
+cant_connect_eduroam_wireless,How do I contact IT for wifi help?
+cant_connect_eduroam_wireless,wifi connection issues at university of south carolina
+cant_connect_eduroam_wireless,eduroam wont connect lol what do i do?
+cant_connect_eduroam_wireless,Having trouble gettin on usc wifi
+cant_connect_eduroam_wireless,Can someone pls hlp me w/ eduroam login probs?
+cant_connect_eduroam_wireless,usc wireless network says password is incorrect
+cant_connect_eduroam_wireless,How to reset my wifi pwd @ usc?
+cant_connect_eduroam_wireless,Wifi down on campus what r the steps 2 fix?
+cant_connect_eduroam_wireless,Why wont my laptop connect 2 eduroam?
+cant_connect_eduroam_wireless,eduroam says auth failed how do i fix dis?
+cant_connect_eduroam_wireless,Can't get online at USC can someone help?
+cant_connect_eduroam_wireless,How to troubleshoot wifi probs @ usc?
+cant_connect_eduroam_wireless,Wireless connection not working
+cant_connect_eduroam_wireless,why can't i connect to the eduroam wireless network
+cant_connect_eduroam_wireless,i'm having eduroam login issues what should i do
+renew_book,How do I renew books?
+renew_book,How do I renew USC library books?
+renew_book,Can I renew books online?
+renew_book,usc book renewal
+renew_book,How to renew PASCAL Delivers books?
+renew_book,I need to renew a book from another campus
+renew_book,What if my book is due and I need it longer?
+renew_book,Renewal policy for USC libraries
+renew_book,Why can't I renew my book online?
+renew_book,Can I renew interlibrary loan books?
+renew_book,ILL renewal rules
+renew_book,How do I access My Account for USC library?
+renew_book,What's the number to call for circulation questions?
+renew_book,I'm having trouble renewing a book between semesters
+renew_book,can i keep usc books over winter break
+renew_book,usc ill express renewal
+renew_book,Can u renew USC library bk online?
+renew_book,How 2 extend due date on borrowed books?
+renew_book,Renewal option for overdue books?
+renew_book,ILL book renewal thru phone?
+renew_book,How do I recheckout a book from PASCAL Delivers?
+renew_book,USC library winter break hours affect book return?
+renew_book,Is it possible to renew my USC lib book over the phone?
+renew_book,Can you renew Interlibrary Loan express deliveries?
+renew_book,Where do I go in My Account to renew books borrowed?
+renew_book,renewing past due books at usc libraries
+renew_book,can i renew books online

@@ -1,0 +1,82 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Rasa Model Evaluation Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            .metric { margin: 10px 0; padding: 10px; background-color: #f5f5f5; border-radius: 5px; }
+            .visualization { margin: 20px 0; text-align: center; }
+            .visualization img { max-width: 100%; border: 1px solid #ddd; }
+            table { border-collapse: collapse; width: 100%; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+        </style>
+    </head>
+    <body>
+        <h1>Rasa Model Evaluation Report</h1>
+        
+        <h2>Overall Metrics</h2>
+        <div class="metric">
+            <p><strong>Total Questions:</strong> 1875</p>
+            <p><strong>Correct Predictions:</strong> 1471 (78.45%)</p>
+            <p><strong>Incorrect Predictions:</strong> 57 (3.04%)</p>
+            <p><strong>Low Confidence Predictions:</strong> 310 (16.53%)</p>
+            <p><strong>Fallback Count:</strong> 91 (4.85%)</p>
+        </div>
+        
+        <h2>Most Confident Intents</h2>
+        <table>
+            <tr>
+                <th>Intent</th>
+                <th>Average Confidence</th>
+            </tr>
+    
+        </table>
+        
+        <h2>Least Confident Intents</h2>
+        <table>
+            <tr>
+                <th>Intent</th>
+                <th>Average Confidence</th>
+            </tr>
+    
+        </table>
+        
+        <h2>Visualizations</h2>
+        
+        <div class="visualization">
+            <h3>Overall Metrics</h3>
+            <img src="overall_metrics.png" alt="Overall Metrics">
+        </div>
+        
+        <div class="visualization">
+            <h3>Intent Confidence</h3>
+            <img src="intent_confidence.png" alt="Intent Confidence">
+        </div>
+        
+        <div class="visualization">
+            <h3>Least Confident Intents</h3>
+            <img src="least_confident_intents.png" alt="Least Confident Intents">
+        </div>
+        
+        <div class="visualization">
+            <h3>Confidence Distribution</h3>
+            <img src="confidence_distribution.png" alt="Confidence Distribution">
+        </div>
+        
+        <div class="visualization">
+            <h3>Correct Prediction Confidences</h3>
+            <img src="correct_prediction_confidences.png" alt="Correct Prediction Confidences">
+        </div>
+        
+        <div class="visualization">
+            <h3>Confusion Matrix</h3>
+            <img src="confusion_matrix.png" alt="Confusion Matrix">
+        </div>
+    
+    </body>
+    </html>
+    
