@@ -818,7 +818,7 @@ function sendMessageToRasa(message) {
         // console.log("Alternative Response pattern detected. Processing with displayAlternativeButtons.");
         displayAlternativeButtons(data);
       } else {
-        let combinedText = data
+        const combinedText = data
           .filter((msgObj) => msgObj && msgObj.text)
           .map((msgObj) => msgObj.text)
           .join("\n\n");
