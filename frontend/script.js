@@ -23,14 +23,31 @@ const LOCAL_LINK = "http://localhost:5005/webhooks/rest/webhook";
 const PROD_LINK =
   "https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook";
 
+let userScrolling = false;
+let scrollTimeout = null;
+
 function scrollChatToBottom() {
+  if (userScrolling) {
+    return;
+  }
   if (chatLog && typeof chatLog.scrollHeight !== 'undefined') {
-    if (chatLog.scrollHeight - chatLog.scrollTop <= chatLog.clientHeight + 200) {
-      chatLog.scrollTop = chatLog.scrollHeight;
-    }
+    chatLog.scrollTo({
+      top: chatLog.scrollHeight,
+      behavior: 'smooth'
+    });
   } else {
     console.warn("Chatlog not available or ready for scrolling.");
   }
+}
+
+function handleScroll() {
+  userScrolling = true;
+  if (scrollTimeout) {
+    clearTimeout(scrollTimeout);
+  }
+  scrollTimeout = setTimeout(() => {
+    userScrolling = false;
+  }, 250);
 }
 
 function openModal(modal) {
@@ -120,9 +137,7 @@ function typeWriterEffect(element, finalHtml, speed = 10) {
 
         if (isLastMessageContainer || isNearBottom) {
           try {
-            if (element.scrollHeight > initialScrollHeight + 10) {
-              scrollChatToBottom();
-            }
+            scrollChatToBottom();
           } catch (e) { }
         }
       }
@@ -133,16 +148,18 @@ function typeWriterEffect(element, finalHtml, speed = 10) {
         element.classList.remove("typing");
       }
       typingInProgress = false;
-      scrollChatToBottom();
+      setTimeout(scrollChatToBottom, 50);
 
       const msgContainer = element.closest(".message-container");
-      const fb = msgContainer?.querySelector(".feedback-buttons");
-      if (fb) fb.style.display = "block";
+      const controlsDivMsg = msgContainer?.querySelector('.message-controls');
+      const feedbackDiv = msgContainer?.querySelector(".feedback-buttons");
+
+
+      if (feedbackDiv) feedbackDiv.style.display = "block";
 
 
       if (element?.closest) {
         const messageDiv = element.closest('.message');
-        const controlsDivMsg = messageDiv?.querySelector('.message-controls');
         const showMoreBtnMsg = controlsDivMsg?.querySelector('.show-more-btn');
 
         if (messageDiv && controlsDivMsg && showMoreBtnMsg && element.classList.contains('message-content-preview')) {
@@ -198,9 +215,10 @@ function addMessageToChat(text, ...classNames) {
   const container = document.createElement("div");
   container.classList.add("message-container");
 
-  if (isBotMsg && !isAlternativeIntro) {
+  if (isBotMsg && !isAlternativeIntro && lastUserQuestion) {
     container.setAttribute("data-user-question", lastUserQuestion);
   }
+
 
   text = text.replace(/\n{3,}/g, "\n\n").trim();
 
@@ -238,71 +256,79 @@ function addMessageToChat(text, ...classNames) {
     iconDiv.classList.add("response-icon", iconClass);
     iconDiv.textContent = iconText;
     iconContainer.appendChild(iconDiv);
+
     container.appendChild(iconContainer);
-  }
 
-  const shouldApplyTypewriter = isBotMsg;
+    const shouldApplyTypewriter = true;
+    if (shouldApplyTypewriter) {
+      const contentDiv = document.createElement('div');
+      contentDiv.classList.add('message-content-preview');
+      messageDiv.appendChild(contentDiv);
 
-  if (shouldApplyTypewriter) {
-    const contentDiv = document.createElement('div');
-    contentDiv.classList.add('message-content-preview');
-    messageDiv.appendChild(contentDiv);
+      const controlsDiv = document.createElement('div');
+      controlsDiv.classList.add('message-controls');
+      controlsDiv.style.display = 'none';
 
-    const controlsDiv = document.createElement('div');
-    controlsDiv.classList.add('message-controls');
-    controlsDiv.style.display = 'none';
+      const showMoreBtn = document.createElement('button');
+      showMoreBtn.classList.add('show-more-btn');
+      showMoreBtn.textContent = 'Show more';
+      showMoreBtn.onclick = () => {
+        messageDiv.classList.toggle('expanded');
+        showMoreBtn.textContent = messageDiv.classList.contains('expanded') ? 'Show less' : 'Show more';
+        contentDiv.style.maxHeight = messageDiv.classList.contains('expanded') ? contentDiv.scrollHeight + 'px' : '';
+        setTimeout(scrollChatToBottom, 50);
+      };
+      controlsDiv.appendChild(showMoreBtn);
 
-    const showMoreBtn = document.createElement('button');
-    showMoreBtn.classList.add('show-more-btn');
-    showMoreBtn.textContent = 'Show more';
-    showMoreBtn.onclick = () => {
-      messageDiv.classList.toggle('expanded');
-      showMoreBtn.textContent = messageDiv.classList.contains('expanded') ? 'Show less' : 'Show more';
-      contentDiv.style.maxHeight = messageDiv.classList.contains('expanded') ? contentDiv.scrollHeight + 'px' : '';
-      setTimeout(scrollChatToBottom, 50);
-    };
-    controlsDiv.appendChild(showMoreBtn);
-    messageDiv.appendChild(controlsDiv);
+      const messageId = `msg_${messageCounter++}`;
+      messageDiv.setAttribute("data-message-id", messageId);
 
-    const messageId = `msg_${messageCounter++}`;
-    messageDiv.setAttribute("data-message-id", messageId);
+      container.appendChild(messageDiv);
+      container.appendChild(controlsDiv);
 
-    container.appendChild(messageDiv);
 
-    if (!isGreeting && !isAlternativeIntro && !isFollowUp) {
-      const feedbackDiv = document.createElement("div");
-      feedbackDiv.classList.add("feedback-buttons");
-      feedbackDiv.style.display = "none";
-      feedbackDiv.innerHTML = `
-          <div class="feedback-buttons-wrapper">
-            <button class="feedback-btn thumbs-up" title="Good response" aria-label="Good response" onclick="handleFeedbackClick('${messageId}', 'positive')">👍</button>
-            <button class="feedback-btn thumbs-down" title="Bad response" aria-label="Bad response" onclick="handleFeedbackClick('${messageId}', 'negative')">👎</button>
-          </div>
-          <div class="feedback-input-wrapper">
-            <input type="text" class="feedback-text-input" placeholder="">
-            <button class="submit-feedback-btn">Submit</button>
-          </div>
-          <div class="feedback-thank-you" style="display: none;">Thank you for your feedback!</div>
-        `;
-      container.appendChild(feedbackDiv);
+      if (!isGreeting && !isAlternativeIntro && !isFollowUp) {
+        const feedbackDiv = document.createElement("div");
+        feedbackDiv.classList.add("feedback-buttons");
+        feedbackDiv.style.display = "none";
+        feedbackDiv.innerHTML = `
+              <div class="feedback-buttons-wrapper">
+                <button class="feedback-btn thumbs-up" title="Good response" aria-label="Good response" onclick="handleFeedbackClick('${messageId}', 'positive')">👍</button>
+                <button class="feedback-btn thumbs-down" title="Bad response" aria-label="Bad response" onclick="handleFeedbackClick('${messageId}', 'negative')">👎</button>
+              </div>
+              <div class="feedback-input-wrapper">
+                <input type="text" class="feedback-text-input" placeholder="">
+                <button class="submit-feedback-btn">Submit</button>
+              </div>
+              <div class="feedback-thank-you" style="display: none;">Thank you for your feedback!</div>
+            `;
+        container.appendChild(feedbackDiv);
+      }
+
+      chatLog.appendChild(container);
+      setTimeout(scrollChatToBottom, 0);
+
+      typeWriterEffect(contentDiv, formattedText);
+
+    } else {
+      messageDiv.innerHTML = formattedText;
+      container.appendChild(messageDiv);
+      chatLog.appendChild(container);
+      setTimeout(scrollChatToBottom, 0);
     }
 
-    chatLog.appendChild(container);
-    scrollChatToBottom();
-
-    typeWriterEffect(contentDiv, formattedText);
 
   } else if (isUserMsg) {
     messageDiv.textContent = text;
     container.appendChild(messageDiv);
     chatLog.appendChild(container);
-    scrollChatToBottom();
+    setTimeout(scrollChatToBottom, 0);
   } else {
     if (!isAlternativeIntro) {
       messageDiv.innerHTML = formattedText;
       container.appendChild(messageDiv);
       chatLog.appendChild(container);
-      scrollChatToBottom();
+      setTimeout(scrollChatToBottom, 0);
     } else {
       // console.log("Detected raw alternative block, will be processed by displayAlternativeButtons.");
     }
@@ -399,11 +425,8 @@ function submitMessageFeedback(messageId, feedback, feedbackText) {
     sender: senderID
   };
 
-  // console.log("Submitting message feedback:", feedbackData);
-
   saveMessageFeedback(feedbackData)
     .then(() => {
-      // console.log("Feedback saved successfully");
       const container = messageElement.closest('.message-container');
       if (container) {
         const feedbackWrapper = container.querySelector(".feedback-input-wrapper");
@@ -549,6 +572,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  chatLog.addEventListener('scroll', handleScroll);
+
 
   window.addEventListener('resize', () => {
     // Only update button appearance on resize, not layout
@@ -620,10 +645,10 @@ function displayAlternativeButtons(data) {
     console.warn("No valid options parsed from the alternative response data. Displaying raw data as fallback.");
     let combinedRawText = data
       .map(msg => msg.text)
-      .filter(text => text && text.trim() !== '')
+      .filter(text => text && text.trim() !== '' && !text.includes("Did any of these") && !text.includes("[1]") && !text.includes("[2]") && !text.includes("[3]"))
       .join('\n\n');
     if (combinedRawText) {
-      addMessageToChat(combinedRawText, "botMsg", "errorMsg");
+      addMessageToChat(combinedRawText, "botMsg");
     }
     return;
   }
@@ -701,9 +726,6 @@ function displayAlternativeButtons(data) {
       }
       card.classList.add('selected-option');
       sendMessageToRasa(String(option.number)); // Send selected option number
-      // console.log(option.number);
-      addMessageToChat("Thank you for your feedback! Can I help you with anything else?", "botMsg");
-      // console.log(`Selected Option: ${option.number}`);
 
     };
 
@@ -739,8 +761,6 @@ function displayAlternativeButtons(data) {
       optionsContainer.querySelectorAll('.select-option-btn, .none-btn-alt').forEach(btn => btn.disabled = true); // Fallback
     }
     sendMessageToRasa("0");
-    addMessageToChat("Okay, I understand. How else can I assist you?", "botMsg");
-    // console.log("Selected: None were helpful");
   };
 
   const wrapperContainer = document.createElement("div");
@@ -750,7 +770,7 @@ function displayAlternativeButtons(data) {
   wrapperContainer.appendChild(noneButton);
 
   chatLog.appendChild(wrapperContainer);
-  scrollChatToBottom();
+  setTimeout(scrollChatToBottom, 0);
 }
 
 // --- sendMessageToRasa ---
@@ -770,8 +790,8 @@ function sendMessageToRasa(message) {
     lastUserQuestion = message;
     addMessageToChat(message, "userMsg");
     if (userInput) userInput.value = "";
+    scrollChatToBottom();
   } else if (isFeedbackNumber) {
-    // console.log(`Feedback number ${message} selected, sending to Rasa.`);
   }
 
   // console.log("Sending to Rasa:", payload);
@@ -814,7 +834,6 @@ function sendMessageToRasa(message) {
       );
 
       if (isAlternative) {
-        // // console.log("Alternative Response pattern detected. Processing with displayAlternativeButtons.");
         displayAlternativeButtons(data);
       } else {
         let combinedText = data
@@ -824,7 +843,11 @@ function sendMessageToRasa(message) {
 
         if (combinedText) {
           // console.log("text after: " + combinedText);
-          if (!combinedText.startsWith("Hi!")) combinedText += "\n\n" + getContinuationText();
+          // Check if the response is NOT an alternative intro or follow-up before adding continuation text
+          const isFollowUp = (combinedText.includes("Okay, I understand. How") || combinedText.includes("Thank you for your feedback!"));
+          if (!combinedText.startsWith("Hi!") && !isFollowUp && !combinedText.includes("Sorry, I am a bit unsure")) {
+            combinedText += "\n\n" + getContinuationText();
+          }
           addMessageToChat(combinedText, "botMsg");
         } else if (data.length > 0 && !isFeedbackNumber) {
           // console.log("Received non-empty response from Rasa, but no text content found.");

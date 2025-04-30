@@ -90,7 +90,6 @@ body.preload * {
   width: var(--sidebar-width);
   background: var(--bg-sidebar);
   color: var(--text-secondary);
-  padding: 20px;
   height: 100vh;
   box-sizing: border-box;
   display: flex;
@@ -101,6 +100,10 @@ body.preload * {
   transition: var(--sidebar-transition), background 0.3s, color 0.3s, border-color 0.3s;
   overflow: hidden;
   font-size: 16px;
+}
+
+#sidebar:not(.mobile-layout) {
+    padding: 20px;
 }
 
 #sidebar h2 {
@@ -169,6 +172,7 @@ body.preload * {
   flex-direction: column;
   height: 100vh;
   transition: background 0.3s, margin-left 0.3s ease;
+  position: relative;
 }
 
 #quickActions {
@@ -252,31 +256,32 @@ body.dark-mode #chatHeader #endChatBtn:hover {
 
 #chatLog {
   flex: 1;
-  padding: 10px 20px;
+  padding: 20px;
   overflow-y: auto;
   width: 100%;
   box-sizing: border-box;
+  padding-bottom: 100px;
 }
 
 .message-container {
   clear: both;
   overflow: visible;
-  margin-bottom: 15px;
-  width: auto;
-  max-width: 65%;
+  margin: 0 auto 15px auto;
+  width: 100%;
+  max-width: 700px;
   box-sizing: border-box;
-  display: block;
-  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
 }
 
-.message-container:has(> .userMsg) {
-  float: right;
-}
-
 .bot-icon-container {
-  float: left;
-  margin-right: 12px;
+  align-self: flex-start;
+  position: absolute;
+  left: 5px;
+  top: 0;
+  z-index: 1;
 }
 
 .message {
@@ -288,7 +293,6 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   position: relative;
   color: var(--text-primary);
   transition: background 0.3s, color 0.3s;
-  float: left;
 }
 
 /* Response icon styles */
@@ -369,15 +373,20 @@ body.dark-mode #chatHeader #endChatBtn:hover {
 .userMsg {
   background: var(--bg-user-msg);
   color: var(--text-user-msg);
-  float: right;
-  border-radius: 10px 10px 0 10px;
+  border-radius: 10px;
+  align-self: flex-end;
+  width: auto;
+  max-width: 100%;
 }
 
 .botMsg {
   color: var(--text-bot-msg);
-  float: left;
   position: relative;
-  padding-top: 0px;
+  padding-top: 12px;
+  padding-left: 50px;
+  align-self: flex-start;
+  width: auto;
+  max-width: 100%;
 }
 
 .botMsg a {
@@ -488,16 +497,26 @@ body.dark-mode #chatHeader #endChatBtn:hover {
 }
 
 #inputArea {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
   display: flex;
-  border-top: 1px solid var(--border-primary);
   background-color: var(--bg-secondary);
-  transition: background-color 0.3s, border-color 0.3s;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--border-primary);
+  z-index: 10;
+  transition: bottom 0.3s ease-out, background-color 0.3s, border-color 0.3s;
 }
 
 #userInput {
   flex: 1;
   border: none;
-  padding: 15px;
+  padding: 15px 20px;
   background-color: transparent;
   color: var(--text-primary);
 }
@@ -524,7 +543,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   display: block;
   position: static;
   width: auto;
-  margin-left: 52px;
+  align-self: center;
 }
 
 .feedback-btn {
@@ -566,6 +585,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   margin-top: 5px;
   width: auto;
   opacity: 0; height: 0; overflow: hidden; transition: opacity 0.3s;
+  align-self: center;
 }
 
 .feedback-text-input {
@@ -620,6 +640,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   color: #28a745;
   font-size: 14px;
   margin-top: 5px;
+  align-self: center;
 }
 
 @media (max-width: 768px) {
@@ -637,6 +658,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
         transform: none !important;
         overflow: visible;
         transition: height 0.3s ease;
+        padding: 0;
     }
 
     body.sidebar-collapsed #sidebar .sidebar-content {
@@ -653,14 +675,20 @@ body.dark-mode #chatHeader #endChatBtn:hover {
         height: 45px;
         border-radius: 0;
         box-shadow: none;
+        border: none;
         border-bottom: 1px solid var(--border-primary);
-        margin-bottom: -1px;
+        margin-bottom: 0px;
         transform: none !important;
         right: auto;
+        left: auto;
         font-size: 1em;
         background-color: var(--bg-sidebar);
         color: var(--text-secondary);
         justify-content: center;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        order: -1;
     }
 
     body:not(.sidebar-collapsed) .sidebar-toggle-btn::after {
@@ -669,7 +697,6 @@ body.dark-mode #chatHeader #endChatBtn:hover {
     body.sidebar-collapsed .sidebar-toggle-btn::after {
         content: 'Show Info ▼';
     }
-    /* Hide original text content for mobile */
     .sidebar-toggle-btn {
         font-size: 0;
     }
@@ -691,9 +718,10 @@ body.dark-mode #chatHeader #endChatBtn:hover {
     }
 
     #chatContainer {
-        width: 100%;
+        width: 100% !important;
         height: auto;
-        min-height: calc(100vh - 250px); /* Adjust based on actual sidebar height */
+        flex-grow: 1;
+        min-height: 0;
         order: 2;
         margin-left: 0 !important;
     }
@@ -726,8 +754,8 @@ body.dark-mode #chatHeader #endChatBtn:hover {
         padding: 20px;
     }
     .feedback-text-input {
-        min-width: 0; /* Allow shrinking on mobile */
-        width: 100%; /* Take available space */
+        min-width: 0;
+        width: 100%;
     }
     .feedback-input-wrapper {
         flex-direction: column; /* Stack input and button */
@@ -738,14 +766,20 @@ body.dark-mode #chatHeader #endChatBtn:hover {
         align-self: flex-end; /* Align button to the right */
     }
 
+    #inputArea {
+        width: calc(100% - 20px);
+        bottom: 10px;
+    }
+
 }
 
 
 #chatLog .message-container:has(> .alternative-options-container) {
   max-width: 100%;
   width: 100%;
-  float: none;
   box-sizing: border-box;
+  align-items: stretch;
+  padding: 0;
 }
 
 .alternative-options-container {
@@ -898,7 +932,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   position: relative;
   transition: max-height 0.3s ease-out;
   line-height: 1.4;
-  margin-left: 40px;
+  margin-left: 0;
 }
 
 .botMsg.expanded .message-content-preview {
@@ -912,7 +946,6 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   border-top: 1px solid var(--border-secondary);
   transition: border-color 0.3s;
   display: none;
-  margin-left: 40px;
 }
 
 ::-webkit-scrollbar {
@@ -989,7 +1022,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
 }
 
 
-.sidebar-toggle-btn {
+.sidebar-toggle-btn:not(.mobile-layout) {
   position: absolute;
   right: -0px;
   top: 50%;
@@ -1009,7 +1042,7 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   transition: background 0.3s, transform 0.3s;
 }
 
-.sidebar-toggle-btn:hover {
+.sidebar-toggle-btn:not(.mobile-layout):hover {
   background: var(--button-hover-bg);
 }
 
@@ -1034,27 +1067,29 @@ body:not(.sidebar-collapsed) .sidebar-content {
 }
 
 
-body.sidebar-collapsed .sidebar-toggle-btn {
-  left: calc(var(--sidebar-collapsed-width) - 15px);
-  right: auto;
-  transform: translateY(-50%) rotate(180deg);
+@media (min-width: 769px) {
+  body.sidebar-collapsed .sidebar-toggle-btn {
+    left: calc(var(--sidebar-collapsed-width) - 15px);
+    right: auto;
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+  body:not(.sidebar-collapsed) .sidebar-toggle-btn {
+    left: calc(var(--sidebar-width) - 35px);
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  body.sidebar-collapsed #chatContainer {
+    margin-left: var(--sidebar-collapsed-width);
+    width: calc(100% - var(--sidebar-collapsed-width));
+  }
+
+  body:not(.sidebar-collapsed) #chatContainer {
+     margin-left: 0;
+     width: calc(100% - var(--sidebar-width));
+  }
 }
 
-body:not(.sidebar-collapsed) .sidebar-toggle-btn {
-  left: calc(var(--sidebar-width) - 35px);
-  transform: translateY(-50%) rotate(0deg);
-}
-
-
-body.sidebar-collapsed #chatContainer {
-  margin-left: var(--sidebar-collapsed-width);
-  width: calc(100% - var(--sidebar-collapsed-width));
-}
-
-body:not(.sidebar-collapsed) #chatContainer {
-   margin-left: 0;
-   width: calc(100% - var(--sidebar-width));
-}
 
 #chatContainer {
     transition: margin-left 0.3s ease, width 0.3s ease, background 0.3s;
