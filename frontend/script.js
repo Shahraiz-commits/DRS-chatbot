@@ -23,14 +23,31 @@ const LOCAL_LINK = "http://localhost:5005/webhooks/rest/webhook";
 const PROD_LINK =
   "https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook";
 
+let userScrolling = false;
+let scrollTimeout = null;
+
 function scrollChatToBottom() {
+  if (userScrolling) {
+    return;
+  }
   if (chatLog && typeof chatLog.scrollHeight !== 'undefined') {
-    if (chatLog.scrollHeight - chatLog.scrollTop <= chatLog.clientHeight + 200) {
-      chatLog.scrollTop = chatLog.scrollHeight;
-    }
+    chatLog.scrollTo({
+      top: chatLog.scrollHeight,
+      behavior: 'smooth'
+    });
   } else {
     console.warn("Chatlog not available or ready for scrolling.");
   }
+}
+
+function handleScroll() {
+  userScrolling = true;
+  if (scrollTimeout) {
+    clearTimeout(scrollTimeout);
+  }
+  scrollTimeout = setTimeout(() => {
+    userScrolling = false;
+  }, 250);
 }
 
 function openModal(modal) {
@@ -120,9 +137,7 @@ function typeWriterEffect(element, finalHtml, speed = 10) {
 
         if (isLastMessageContainer || isNearBottom) {
           try {
-            if (element.scrollHeight > initialScrollHeight + 10) {
-              scrollChatToBottom();
-            }
+            scrollChatToBottom();
           } catch (e) { }
         }
       }
@@ -133,16 +148,18 @@ function typeWriterEffect(element, finalHtml, speed = 10) {
         element.classList.remove("typing");
       }
       typingInProgress = false;
-      scrollChatToBottom();
+      setTimeout(scrollChatToBottom, 50);
 
       const msgContainer = element.closest(".message-container");
-      const fb = msgContainer?.querySelector(".feedback-buttons");
-      if (fb) fb.style.display = "block";
+      const controlsDivMsg = msgContainer?.querySelector('.message-controls');
+      const feedbackDiv = msgContainer?.querySelector(".feedback-buttons");
+
+
+      if (feedbackDiv) feedbackDiv.style.display = "block";
 
 
       if (element?.closest) {
         const messageDiv = element.closest('.message');
-        const controlsDivMsg = messageDiv?.querySelector('.message-controls');
         const showMoreBtnMsg = controlsDivMsg?.querySelector('.show-more-btn');
 
         if (messageDiv && controlsDivMsg && showMoreBtnMsg && element.classList.contains('message-content-preview')) {
@@ -194,13 +211,16 @@ function addMessageToChat(text, ...classNames) {
   const isAlternativeIntro = text.includes("Sorry, I am a bit unsure");
   const isFollowUp = (text.includes("Okay, I understand. How") || text.includes("Thank you for your feedback!"));
   // console.log(isFollowUp);
+  const isFollowUp = (text.includes("Okay, I understand. How") || text.includes("Thank you for your feedback!"));
+  // console.log(isFollowUp);
 
   const container = document.createElement("div");
   container.classList.add("message-container");
 
-  if (isBotMsg && !isAlternativeIntro) {
+  if (isBotMsg && !isAlternativeIntro && lastUserQuestion) {
     container.setAttribute("data-user-question", lastUserQuestion);
   }
+
 
   text = text.replace(/\n{3,}/g, "\n\n").trim();
 
@@ -238,36 +258,35 @@ function addMessageToChat(text, ...classNames) {
     iconDiv.classList.add("response-icon", iconClass);
     iconDiv.textContent = iconText;
     iconContainer.appendChild(iconDiv);
+
     container.appendChild(iconContainer);
-  }
 
-  const shouldApplyTypewriter = isBotMsg;
+    const shouldApplyTypewriter = true;
+    if (shouldApplyTypewriter) {
+      const contentDiv = document.createElement('div');
+      contentDiv.classList.add('message-content-preview');
+      messageDiv.appendChild(contentDiv);
 
-  if (shouldApplyTypewriter) {
-    const contentDiv = document.createElement('div');
-    contentDiv.classList.add('message-content-preview');
-    messageDiv.appendChild(contentDiv);
+      const controlsDiv = document.createElement('div');
+      controlsDiv.classList.add('message-controls');
+      controlsDiv.style.display = 'none';
 
-    const controlsDiv = document.createElement('div');
-    controlsDiv.classList.add('message-controls');
-    controlsDiv.style.display = 'none';
+      const showMoreBtn = document.createElement('button');
+      showMoreBtn.classList.add('show-more-btn');
+      showMoreBtn.textContent = 'Show more';
+      showMoreBtn.onclick = () => {
+        messageDiv.classList.toggle('expanded');
+        showMoreBtn.textContent = messageDiv.classList.contains('expanded') ? 'Show less' : 'Show more';
+        contentDiv.style.maxHeight = messageDiv.classList.contains('expanded') ? contentDiv.scrollHeight + 'px' : '';
+        setTimeout(scrollChatToBottom, 50);
+      };
+      controlsDiv.appendChild(showMoreBtn);
 
-    const showMoreBtn = document.createElement('button');
-    showMoreBtn.classList.add('show-more-btn');
-    showMoreBtn.textContent = 'Show more';
-    showMoreBtn.onclick = () => {
-      messageDiv.classList.toggle('expanded');
-      showMoreBtn.textContent = messageDiv.classList.contains('expanded') ? 'Show less' : 'Show more';
-      contentDiv.style.maxHeight = messageDiv.classList.contains('expanded') ? contentDiv.scrollHeight + 'px' : '';
-      setTimeout(scrollChatToBottom, 50);
-    };
-    controlsDiv.appendChild(showMoreBtn);
-    messageDiv.appendChild(controlsDiv);
+      const messageId = `msg_${messageCounter++}`;
+      messageDiv.setAttribute("data-message-id", messageId);
 
-    const messageId = `msg_${messageCounter++}`;
-    messageDiv.setAttribute("data-message-id", messageId);
-
-    container.appendChild(messageDiv);
+      container.appendChild(messageDiv);
+      container.appendChild(controlsDiv);
 
     if (!isGreeting && !isAlternativeIntro && !isFollowUp) {
       const feedbackDiv = document.createElement("div");
@@ -287,22 +306,30 @@ function addMessageToChat(text, ...classNames) {
       container.appendChild(feedbackDiv);
     }
 
-    chatLog.appendChild(container);
-    scrollChatToBottom();
+      chatLog.appendChild(container);
+      setTimeout(scrollChatToBottom, 0);
 
-    typeWriterEffect(contentDiv, formattedText);
+      typeWriterEffect(contentDiv, formattedText);
+
+    } else {
+      messageDiv.innerHTML = formattedText;
+      container.appendChild(messageDiv);
+      chatLog.appendChild(container);
+      setTimeout(scrollChatToBottom, 0);
+    }
+
 
   } else if (isUserMsg) {
     messageDiv.textContent = text;
     container.appendChild(messageDiv);
     chatLog.appendChild(container);
-    scrollChatToBottom();
+    setTimeout(scrollChatToBottom, 0);
   } else {
     if (!isAlternativeIntro) {
       messageDiv.innerHTML = formattedText;
       container.appendChild(messageDiv);
       chatLog.appendChild(container);
-      scrollChatToBottom();
+      setTimeout(scrollChatToBottom, 0);
     } else {
       // console.log("Detected raw alternative block, will be processed by displayAlternativeButtons.");
     }
@@ -399,11 +426,8 @@ function submitMessageFeedback(messageId, feedback, feedbackText) {
     sender: senderID
   };
 
-  // console.log("Submitting message feedback:", feedbackData);
-
   saveMessageFeedback(feedbackData)
     .then(() => {
-      // console.log("Feedback saved successfully");
       const container = messageElement.closest('.message-container');
       if (container) {
         const feedbackWrapper = container.querySelector(".feedback-input-wrapper");
@@ -549,6 +573,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  chatLog.addEventListener('scroll', handleScroll);
+
 
   window.addEventListener('resize', () => {
     // Only update button appearance on resize, not layout
@@ -620,10 +646,10 @@ function displayAlternativeButtons(data) {
     console.warn("No valid options parsed from the alternative response data. Displaying raw data as fallback.");
     let combinedRawText = data
       .map(msg => msg.text)
-      .filter(text => text && text.trim() !== '')
+      .filter(text => text && text.trim() !== '' && !text.includes("Did any of these") && !text.includes("[1]") && !text.includes("[2]") && !text.includes("[3]"))
       .join('\n\n');
     if (combinedRawText) {
-      addMessageToChat(combinedRawText, "botMsg", "errorMsg");
+      addMessageToChat(combinedRawText, "botMsg");
     }
     return;
   }
@@ -750,7 +776,7 @@ function displayAlternativeButtons(data) {
   wrapperContainer.appendChild(noneButton);
 
   chatLog.appendChild(wrapperContainer);
-  scrollChatToBottom();
+  setTimeout(scrollChatToBottom, 0);
 }
 
 // --- sendMessageToRasa ---
@@ -770,10 +796,12 @@ function sendMessageToRasa(message) {
     lastUserQuestion = message;
     addMessageToChat(message, "userMsg");
     if (userInput) userInput.value = "";
+    scrollChatToBottom();
   } else if (isFeedbackNumber) {
     // console.log(`Feedback number ${message} selected, sending to Rasa.`);
   }
 
+  // console.log("Sending to Rasa:", payload);
   // console.log("Sending to Rasa:", payload);
 
   fetch(PROD_LINK, {
@@ -790,10 +818,12 @@ function sendMessageToRasa(message) {
         return response.json();
       } else {
         // console.log("Received non-JSON or empty response from Rasa.");
+        // console.log("Received non-JSON or empty response from Rasa.");
         return null;
       }
     })
     .then((data) => {
+      // console.log("Received from Rasa:", data);
       // console.log("Received from Rasa:", data);
 
       if (data === null) {
