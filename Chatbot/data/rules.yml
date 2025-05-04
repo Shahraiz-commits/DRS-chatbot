@@ -1325,11 +1325,6 @@ rules:
   - intent: tip_follow_using_ai
   - action: utter_tip_follow_using_ai
 
-- rule: Answer learn_using_ai_according
-  steps:
-  - intent: learn_using_ai_according
-  - action: utter_learn_using_ai_according
-
 - rule: Answer learn_clear_framework
   steps:
   - intent: learn_clear_framework

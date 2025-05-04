@@ -190,7 +190,6 @@ intents:
 - kind_workshop_library_offer
 - learn_clear_framework
 - learn_prompt_engineering
-- learn_using_ai_according
 - learn_work_api
 - library_car_repair_manual
 - library_catalog_show_item
@@ -2530,6 +2529,8 @@ responses:
 
       - Be sure to review and understand the [implications](https://sc.edu/about/offices_and_divisions/student_conduct_and_academic_integrity/academic_integrity/artificial_intelligence/index.php) before choosing to use AI technologies and/or tools.
       - While our guide presents information about, and actively uses, various AI tools, the University Libraries recommend or endorse any specific AI technology and/or tool(s).
+      - Check with your professor if you can use AI on your assignment. Each professor and department have different standards.  
+      
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979)
 
       ###### Contact AI and Data Science
@@ -3246,15 +3247,6 @@ responses:
 
       - When using AI language models to find resources, make sure the journal article or website is accessible to you
 
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=410193&p=10386858)
-  utter_learn_using_ai_according:
-  - text: |-
-      ##### General Disclaimer
-      - **Do I need to use a hanging indent for an AI citation?** Follow the original style you are following.
-      But typically, yes.
-      - **Am I allowed to use AI on this assignment?** Check with your professor.
-      Each professor and department have different standards.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=410193&p=10386858)
   utter_learn_clear_framework:

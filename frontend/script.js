@@ -211,9 +211,6 @@ function addMessageToChat(text, ...classNames) {
   const isAlternativeIntro = text.includes("Sorry, I am a bit unsure");
   const isFollowUp = (text.includes("Okay, I understand. How") || text.includes("Thank you for your feedback!"));
   // console.log(isFollowUp);
-  const isFollowUp = (text.includes("Okay, I understand. How") || text.includes("Thank you for your feedback!"));
-  // console.log(isFollowUp);
-
   const container = document.createElement("div");
   container.classList.add("message-container");
 
@@ -801,9 +798,6 @@ function sendMessageToRasa(message) {
     // console.log(`Feedback number ${message} selected, sending to Rasa.`);
   }
 
-  // console.log("Sending to Rasa:", payload);
-  // console.log("Sending to Rasa:", payload);
-
   fetch(PROD_LINK, {
     method: "POST",
     headers: { "Content-Type": "application/json", "Accept": "application/json" },
@@ -818,13 +812,10 @@ function sendMessageToRasa(message) {
         return response.json();
       } else {
         // console.log("Received non-JSON or empty response from Rasa.");
-        // console.log("Received non-JSON or empty response from Rasa.");
         return null;
       }
     })
     .then((data) => {
-      // console.log("Received from Rasa:", data);
-      // console.log("Received from Rasa:", data);
 
       if (data === null) {
         if (!isFeedbackNumber) {

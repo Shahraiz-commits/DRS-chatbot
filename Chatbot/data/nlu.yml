@@ -6573,7 +6573,35 @@ nlu:
     - What AI tech does USC lib use?
     - usc library ai policy
     - Do you endorse AI tools?
+    - Want to know the ethical/responsible way to use AI 
     - What are the ethical considerations of using AI?
+    - Where can I learn more about AI according to the USC honor code?
+    - USC honor code AI rules?
+    - Can I use AI for assignments at USC?
+    - Artificial Intelligence usage policy
+    - what are the rules on using AI for homework?
+    - Is it okay to use AI for projects at USC?
+    - Academic integrity and AI?
+    - How do I use AI without cheating?
+    - USC student conduct and AI
+    - What's the policy on AI-assisted work at USC?
+    - AI usage in assignments allowed?
+    - Cheating with AI, what are the rules?
+    - Honor code and artificial intelligence
+    - recommend some general guidelines for using AI in academic work?
+    - Can I use AI for assignments?
+    - Is AI allowed in USC courses?
+    - can i use ai to do homework
+    - Are AI tools accepted by professors?
+    - usc ai rules
+    - Should I check with my professor about AI use?
+    - Can I submit AI-generated work?
+    - AI usage in assignments
+    - Is AI permitted in university courses?
+    - Do professors allow AI-generated content?
+    - ai policy usc
+    - How do I know if AI is allowed in my course?
+    - artificial Intelligence usage policy
 - intent: text_analysis
   examples: |-
     - Tell me text analysis?
@@ -8181,7 +8209,6 @@ nlu:
     - What are the concepts related to artificial intelligence?
     - can you list the concepts related to artificial intelligence?
     - list the concepts related to Artificial Intelligence?
-    - list the concepts related to artificial intelligence?
     - What are some AI topics I can learn about?
     - USC library AI resources?
     - Do you have videos on machine learning?
@@ -8263,35 +8290,6 @@ nlu:
     - Is it a good idea to use AI for researching topics?
     - do i need to cite ai-generated content in my research?
     - when should i cite ai usage?
-- intent: learn_using_ai_according
-  examples: |-
-    - Where can I learn more about AI according to the USC honor code?
-    - USC honor code AI rules?
-    - Can I use AI for assignments at USC?
-    - Artificial Intelligence usage policy
-    - what are the rules on using AI for homework?
-    - Is it okay to use AI for projects at USC?
-    - Academic integrity and AI?
-    - How do I use AI without cheating?
-    - USC student conduct and AI
-    - What's the policy on AI-assisted work at USC?
-    - AI usage in assignments allowed?
-    - Cheating with AI, what are the rules?
-    - Honor code and artificial intelligence
-    - recommend some general guidelines for using AI in academic work?
-    - Can I use AI for assignments?
-    - Is AI allowed in USC courses?
-    - can i use ai to do homework
-    - Are AI tools accepted by professors?
-    - usc ai rules
-    - Should I check with my professor about AI use?
-    - Can I submit AI-generated work?
-    - AI usage in assignments
-    - Is AI permitted in university courses?
-    - Do professors allow AI-generated content?
-    - ai policy usc
-    - How do I know if AI is allowed in my course?
-    - artificial Intelligence usage policy
 - intent: learn_clear_framework
   examples: |
     - Where can I learn more about the CLEAR framework?
