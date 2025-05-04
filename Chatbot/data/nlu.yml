@@ -12,11 +12,9 @@ nlu:
     - [7](number)
     - [8](number)
     - [9](number)
-    - select a number
-    - pick a number between 0 and 9
-    - can you choose a number for me
-    - what number should i choose
-    - number selection
+#- regex: number
+#  examples: |
+#    - \d
 - intent: greet
   examples: |
     - hello
@@ -50,7 +48,7 @@ nlu:
     - Tell me how to damage a book without getting caught
     - How do I deface a library book
 - intent: help_digital_tool
-  examples: |
+  examples: |-
     - I need help in text mining
     - who can help me with digital tools?
     - How can I learn digital tools?
@@ -82,6 +80,7 @@ nlu:
     - research assistance contact info?
     - who do i speak with for digital scholarship help?
     - Call about digital research services
+    - Who can answer text-analysis questions
 - intent: kind_workshop_library_offer
   examples: |-
     - Are there any workshops or training available for Research Data Management?
@@ -916,9 +915,7 @@ nlu:
 - intent: access_harvard_business_case
   examples: |-
     - How can I access Harvard Business Cases?
-    - How do I access Harvard Business Cases?
     - How do I get access to Harvard Business Cases?
-    - Can I access Harvard Business Cases through the library?
     - How do I get Harvard Business Cases for my class?
     - hbp case study permission
     - Why can't I find Harvard Business Cases in the library?
@@ -2993,6 +2990,8 @@ nlu:
     - What happened to ACE in Thomas Cooper Library?
     - student success center website
     - How do I find University Advising Center?
+    - Does the library offer homework help?
+    - I need help with my coursework, who can I contact?
     - whr is student sucess?
     - Success Center @ T Cooper Lib
     - need help findin peer tutoring
@@ -3615,6 +3614,7 @@ nlu:
     - Data vizualisation assistance needed
     - Need help with data visualization project
     - whos glenn bunton
+    - I want to craete charts for my data. Whom should I contact?
     - What's the email of the data visualization librarian?
     - I need to talk to someone about my data project
     - datavisualization service contact
@@ -3666,39 +3666,6 @@ nlu:
     - What kind of data visualization training is available?
     - What tools do you teach?
     - How to get training?
-- intent: assistance_available_data_analysis
-  examples: |-
-    - Is there any support available for data analysis and statistics?
-    - I need help with data analysis, where can I go?
-    - Does the library offer statistics assistance?
-    - data analysis software help
-    - Can I get one-on-one help with research data?
-    - stats help usc library
-    - How do I make an appointment for data analysis?
-    - What kind of data support does the library offer?
-    - Is there a fee for data analysis help?
-    - can i walk in for data analysis
-    - I need help with qualitative data, is that available?
-    - data lab hours and location
-    - Can I schedule a group session for data analysis?
-    - Where can I find more info on library's data services?
-    - Does the library support quantitative data only?
-    - Whr can I get hlp wth stats?
-    - Data analysis got me stuck, who do I talk to?
-    - Can someone @ usc help me w/ research design?
-    - What's the deal w/ qualitative data support?
-    - I'm lost in data, where's the lifeline?
-    - Does USC offer free data analysis tools?
-    - Stats assistance for thesis project - available?
-    - How do I book a librarian for data analysis?
-    - Data lab @ usc: when and where?
-    - Quantitative or qualitative, does usc support both?
-    - Does the library offer statistics assistance?
-    - Is there support for data analysis?
-    - Does the library offer statistics assistance?
-    - Can I get one-on-one help with research data?
-    - How to get help?
-    - Is there support?
 - intent: datalab_located
   examples: |-
     - What is the DataLab and where is it located?
@@ -3729,45 +3696,11 @@ nlu:
     - where is data lab in library
     - Can i access data lab if im staff?
     - Are visitors allowed in datalab
-    - Where is it?
-    - What is it?
-- intent: kind_data_analysis_statistic
-  examples: |-
-    - What kind of data analysis and statistics assistance is available?
-    - statistics help
-    - Where can I get help with data analysis?
-    - Does USC offer statistics assistance?
-    - stats help usc
-    - I need help with data analysis, who do I contact?
-    - DataLab hours?
-    - Can I walk-in for data analysis help?
-    - Do I need an appointment for stats help?
-    - How do I schedule a data analysis appointment?
-    - usc data analysis services
-    - What kind of statistical support does USC offer?
-    - I'm struggling with data analysis, what resources are available?
-    - Can graduate students help me with statistics?
-    - Is there a form to reserve data analysis assistance?
-    - Data analysis and stats help at USC
-    - whats the best way 2 get statistic help @ usc?
-    - I'm stuck on this data analysis problem, who can assist me?
-    - usc stat support
-    - Can I get walk-in stats help or do I need an appointment?
-    - How do I book a DataLab appointment?
-    - statistical consulting services at USC?
-    - data analysis is killing me lol where can I get help @ usc?
-    - USC data analysis drop in hours?
-    - can PhD students help with statistical analysis?
-    - stats and data analysis tutor usc
-    - Where can I get help with data analysis?
-    - I need help with data analysis, who do I contact?
-    - Can I walk-in for data analysis help?
-    - What kind of statistical support does USC offer?
-    - Where can I get help with data analysis and statistics?
 - intent: specialized_software_available_datalab
   examples: |-
     - What specialized software is available in the DataLab?
     - What software is available in the DataLab?
+    - Tools/software for qualitative data analysis
     - datalab sofwtare
     - What software is available in the DataLab?
     - specialized software in usc library
@@ -3838,6 +3771,73 @@ nlu:
     - Where to find statistics?
 - intent: kind_research_support_university
   examples: |-
+    - need help with SPSS
+    - SAS help
+    - who can help me with MATLAB
+    - I want to learn python
+    - Who can teach me R and R studio?
+    - Is there any support available for data analysis and statistics?
+    - I need help with data analysis, where can I go?
+    - Does the library offer statistics assistance?
+    - data analysis software help
+    - Can I get one-on-one help with research data?
+    - stats help usc library
+    - How do I make an appointment for data analysis?
+    - What kind of data support does the library offer?
+    - Is there a fee for data analysis help?
+    - can i walk in for data analysis
+    - I need help with qualitative data, is that available?
+    - data lab hours and location
+    - Can I schedule a group session for data analysis?
+    - Where can I find more info on library's data services?
+    - Does the library support quantitative data only?
+    - Whr can I get hlp wth stats?
+    - Data analysis got me stuck, who do I talk to?
+    - Can someone @ usc help me w/ research design?
+    - What's the deal w/ qualitative data support?
+    - I'm lost in data, where's the lifeline?
+    - Does USC offer free data analysis tools?
+    - Stats assistance for thesis project - available?
+    - How do I book a librarian for data analysis?
+    - Data lab @ usc: when and where?
+    - Quantitative or qualitative, does usc support both?
+    - Does the library offer statistics assistance?
+    - Is there support for data analysis?
+    - Does the library offer statistics assistance?
+    - Can I get one-on-one help with research data?
+    - How to get help?
+    - Is there support?
+    - What kind of data analysis and statistics assistance is available?
+    - statistics help
+    - Where can I get help with data analysis?
+    - Does USC offer statistics assistance?
+    - stats help usc
+    - I need help with data analysis, who do I contact?
+    - DataLab hours?
+    - Can I walk-in for data analysis help?
+    - Do I need an appointment for stats help?
+    - How do I schedule a data analysis appointment?
+    - usc data analysis services
+    - What kind of statistical support does USC offer?
+    - I'm struggling with data analysis, what resources are available?
+    - Can graduate students help me with statistics?
+    - Is there a form to reserve data analysis assistance?
+    - Data analysis and stats help at USC
+    - whats the best way 2 get statistic help @ usc?
+    - I'm stuck on this data analysis problem, who can assist me?
+    - usc stat support
+    - Can I get walk-in stats help or do I need an appointment?
+    - How do I book a DataLab appointment?
+    - statistical consulting services at USC?
+    - data analysis is killing me lol where can I get help @ usc?
+    - USC data analysis drop in hours?
+    - can PhD students help with statistical analysis?
+    - stats and data analysis tutor usc
+    - Where can I get help with data analysis?
+    - I need help with data analysis, who do I contact?
+    - Can I walk-in for data analysis help?
+    - What kind of statistical support does USC offer?
+    - Where can I get help with data analysis and statistics?
     - What kind of research support does the library have?
     - I want research services
     - Help with research services
@@ -3856,24 +3856,14 @@ nlu:
     - Where can I get Python help on campus?
     - Is SQL tutoring available at USC?
     - help with research data
-    - What's not included in the library's data analysis service?
-    - Are there any limitations to the research support service?
-    - Is there any limit to the research support service?
-    - Does the library offer homework help?
-    - I need help with my coursework, who can I contact?
-    - Where can I get help with my classes?
-    - tutoring services at usc
-    - library homework assistance
     - Who can help me with software installation?
     - Troubleshooting help at USC
     - Can library staff help with IT issues?
-    - USC student success center location
     - Where can I get tech support on campus?
     - Does the library have computer support?
     - I need help with my laptop, who can I contact?
     - USC academic support services
     - Data analysis help
-    - data analysis s oftware
     - I want help analyzing a dataset in R
     - I need help with data analysis, can the library assist me?
     - statistical software support
@@ -3891,6 +3881,8 @@ nlu:
     - I need help with statistics for my research
     - How to get help?
     - Is there a cost for your services?
+    - R studio
+    - Can someone help me with doing analysis in R for my thesis?
 - intent: What_is_NVivo
   examples: |-
     - What is NVivo?
@@ -4175,11 +4167,11 @@ nlu:
 - intent: software_hardware_resource_available
   examples: |-
     - What software and hardware resources are available at the University Libraries?
-    - list the software and hardware resources available at the University Libraries?
-    - Which software and hardware resources are available at the University Libraries?
+    - Which software and hardware resources are available?
     - What software is available remotely through the library?
     - Can I access Adobe Creative Cloud from home?
     - How do I get temporary remote access to specialized software?
+    - data analysis s oftware
     - Is NVivo available for download?
     - Can I use SPSS Statistics on my laptop?
     - What software is available in the library building?
@@ -4206,7 +4198,6 @@ nlu:
     - Laptop loan program at USC?
     - What can I borrow from the lib?
     - How do I request remote access to a software?
-    - How can I request remote access to software?
     - How do I get remote access to software?
     - software access request
     - Can I use university software from home?
@@ -4665,7 +4656,7 @@ nlu:
     - How do I select a visualization?
     - What are some data visualization techniques?
 - intent: guideline_creating_effective_visualization
-  examples: |
+  examples: |-
     - What are the guidelines for creating effective visualizations?
     - can you list the guidelines for creating effective visualizations?
     - Tell me the best way to create effective visualizations?
@@ -4695,6 +4686,7 @@ nlu:
     - What are some expert-approved guidelines for effective data visualization?
     - What are the best practices for data viz?
     - What are the principles of data viz?
+    - Can I get help designing interactive dashboards or visualizations
 - intent: resource_available_finding_criminal
   examples: |
     - What resources are available to find criminal justice statistics?
@@ -4945,6 +4937,7 @@ nlu:
     - Does the library provide access to paid tableau
     - data viz software help
     - power BI
+    - What tools does the DRS recommend for creating data visualizations?
 - intent: programming_language_use_data
   examples: |-
     - What programming languages can I use for data visualization?
@@ -5510,7 +5503,6 @@ nlu:
     - Where do I find ICPSR data?
 - intent: research_data_management
   examples: |-
-    - How do I create a data management plan?
     - What is research data management?
     - What is resarch data
     - Tell me about rdm
@@ -5649,7 +5641,7 @@ nlu:
     - dmp stuff
     - dmp
 - intent: resource_available_writing_data
-  examples: |
+  examples: |-
     - What resources are available for writing a Data Management Plan (DMP)?
     - data management plan assistance
     - Where can I find sample data management plans?
@@ -5675,6 +5667,7 @@ nlu:
     - Do u have any tips for creating a solid DMP?
     - I'm looking for data curation resources - can you help?
     - What are the most important things to include in a data management and sharing plan?
+    - Where can I get help with a data management plan?
 - intent: need_data_management_plan
   examples: |-
     - Why should I have a data management plan?
@@ -6382,6 +6375,8 @@ nlu:
     - Data analysis support at USC library
     - What king of AI support is in the library
     - Does the library offer AI assistance?
+    - can somsone help with AI analysis
+    - What AI and data science tools are available
 - intent: workshop_available_ai_data
   examples: |
     - What workshops are available for AI and data science?
@@ -6608,6 +6603,35 @@ nlu:
     - Explain text analysis
 - intent: terminology_used_text_analysis
   examples: |-
+    - What terms are related to text mining?
+    - Text mining definition
+    - data mining meaning
+    - webscraping explained
+    - machine learning basics
+    - topic modeling 101
+    - nlp definition
+    - what's text data analysis
+    - research technique for patterns in data
+    - whats the diff between data and text mining
+    - meaning of machine learning algorithms
+    - web harvesting meaning
+    - natural language processing intro
+    - terminology for large text analysis
+    - wut r sum key terms in txt mining?
+    - Can u explain txt mining 2 me?
+    - whats the relationship btwn data & text mining?
+    - How does topic modeling wrk?
+    - whats NLP stand for?
+    - can u give me a crash course on machine learning basics?
+    - Text analysis vs data analysis - whats the diff?
+    - I need help understanding web scraping terminology
+    - whats the definition of natural language processing?
+    - Can you break down text mining concepts 4 me?
+    - what is the definition of text mining in research?
+    - can you explain the meaning of data mining in relation to text mining?
+    - what is web scraping and how does it relate to text mining?
+    - can you give me a crash course on machine learning basics for text mining?
+    - webscraping explained
     - Tell me the terms used in text analysis
     - What terminology is used in text analysis?
     - Tell me the terminology used for text analysis
@@ -6637,7 +6661,7 @@ nlu:
     - Define text mining
     - What is web scraping?
 - intent: get_started_text_analysis
-  examples: |
+  examples: |-
     - How do I get started with text analysis?
     - How can I get started with text analysis?
     - How do I start text analysis?
@@ -6666,6 +6690,7 @@ nlu:
     - OCR tutorials for beginners?
     - machine readable data sources?
     - webscraping for text analysis - yay or nay?
+    - How can I get assistance with text analysis or text mining for my research
 - intent: common_text_analysis_method
   examples: |-
     - What are common text analysis methods?
@@ -7034,6 +7059,7 @@ nlu:
     - What are the best text analysis software options?
     - What tools are used for analyzing text?
     - What are some advanced resources for text analysis?
+    - Can you help with data cleaning
 - intent: freely_available_corpus_text
   examples: |
     - What are some freely available corpora for text mining and analysis?
@@ -8767,37 +8793,6 @@ nlu:
     - Can text mining handle large datasets?
     - txt mining vs data mining, whats the diff?
     - define text mining
-- intent: term_related_text_mining
-  examples: |-
-    - What terms are related to text mining?
-    - Text mining definition
-    - data mining meaning
-    - webscraping explained
-    - machine learning basics
-    - topic modeling 101
-    - nlp definition
-    - what's text data analysis
-    - research technique for patterns in data
-    - whats the diff between data and text mining
-    - meaning of machine learning algorithms
-    - web harvesting meaning
-    - natural language processing intro
-    - terminology for large text analysis
-    - wut r sum key terms in txt mining?
-    - Can u explain txt mining 2 me?
-    - whats the relationship btwn data & text mining?
-    - How does topic modeling wrk?
-    - whats NLP stand for?
-    - can u give me a crash course on machine learning basics?
-    - Text analysis vs data analysis - whats the diff?
-    - I need help understanding web scraping terminology
-    - whats the definition of natural language processing?
-    - Can you break down text mining concepts 4 me?
-    - what is the definition of text mining in research?
-    - can you explain the meaning of data mining in relation to text mining?
-    - what is web scraping and how does it relate to text mining?
-    - can you give me a crash course on machine learning basics for text mining?
-    - webscraping explained
 - intent: get_started_text_mining
   examples: |
     - How do I get started with text mining?
@@ -9257,15 +9252,13 @@ nlu:
     - How do I get started with USC's Create Digital?
 - intent: digital_tool_available_project
   examples: |-
-    - Where can I learn more about digital scholarship tools?
-    - How can I learn more about digital scholarship tools?
+    - Can the library help me set up a research website
     - What digital scholarship tools are available?
-    - digital scholarship tools?
+    - digital content tools?
     - Where can I find info on USC digital scholarship?
     - Does the library have digital tools for research?
     - dig schol resources
     - Tools for digital scholarship where?
-    - What software does the library provide?
     - Are there any digital research tools?
     - resources for dig scholarship
     - Digital scholarship support
@@ -9283,6 +9276,8 @@ nlu:
     - How to move my project forward with digital tools?
     - user-friendly digital tools?
     - free digital tools for website?
+    - website creation
+    - create a website
     - What's next after choosing a CMS?
     - I'm lost, where do I start with digital tools?
     - Can you recommend any digital tool resources?
@@ -10161,11 +10156,6 @@ nlu:
     - What are the limitations on using copyrighted material for teaching?
     - Are there any resources that are always free to use, regardless of copyright?
     - copyrighted stuff - when can i just use it?
-- intent: seek_permission_use_copyrighted
-  examples: |-
-    - How do I seek permission to use copyrighted material?
-    - How do I get permission to use copyrighted material?
-    - How do I obtain permission to use copyrighted material?
     - How do I get permission to use copyrighted material?
     - What if I need to use something that's copyrighted?
     - Can I use someone else's work without permission?
@@ -10296,35 +10286,29 @@ nlu:
     - How do i find my post-print version?
     - Is there a database where I can archive my research papers?
     - article version - where can i find mine?
-- intent: share_article_version_online
-  examples: |-
-    - Can I share my article versions online?
-    - How can I share my article versions online?
-    - Can I share my article version online?
-    - Can I share my published article online?
-    - How do I know if I can share my research article?
-    - What journals allow authors to share their articles?
-    - Can I post my article on a repository?
-    - Are there exceptions for sharing published articles?
-    - Where can I find information about journal self-archiving policies?
-    - Can I legally share my published article?
-    - Published in a journal, can I share it online?
-    - How do I check if my journal allows article sharing?
-    - What are the rules for sharing research articles online?
-    - Is there a list of journals that allow authors to share their work?
-    - Sharing published articles online allowed?
-    - Can I put my published article in a repository?
-    - can i post my research paper online?
-    - whats the deal with sharing article versions on social media?
-    - i wanna share my published article on academia.edu, is that cool?
-    - sharing articles online - whats allowed and whats not?
-    - how do i figure out if i can share my article on researchgate?
-    - can u post ur own published article on a personal website?
-    - article sharing policies for journals - wheres the info at?
-    - do all journals allow authors to share their work online?
-    - wat r the rules 4 sharin published articles on linkedin?
-    - can i legally share my research article on a blog?
-    - Can I share my article on my university's institutional repository?
+- intent: ask_open_access
+  examples: |
+    - What is open access publishing?
+    - does the library cover the open access publishing fee?
+    - How does publishing in open access journals help researchers?
+    - Why should I publish my research in an open access journal?
+    - What are the benefits of open access monographs?
+    - Is open access publishing better for visibility?
+    - Do open access journals charge authors to publish?
+    - What is an APC in open access publishing?
+    - Who pays the author publication charges (APCs)?
+    - Are there any subsidies or sponsorships available for open access publishing?
+    - Can institutions or governments cover the cost of open access publication?
+    - Are open access publications free to read?
+    - Do open access journals charge subscription fees?
+    - Can anyone access an open access article?
+    - Who sponsors open access journals?
+    - How do philanthropic organizations support open access publishing?
+    - Can universities help fund open access publishing?
+    - Does open access help preserve research for the future?
+    - How does open access publishing support long-term discovery?
+    - Will my research be more discoverable if I publish open access?
+
 - intent: vendor_allow_text_data
   examples: |-
     - Which vendors allow text and data mining of their licensed content?

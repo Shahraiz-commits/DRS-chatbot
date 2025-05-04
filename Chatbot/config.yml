@@ -41,17 +41,17 @@ pipeline:
 - name: DIETClassifier
   epochs: 100
   constrain_similarities: true
-  batch_size: [32, 64] # Lower this range if low on memory
+  batch_size: [64, 128] # Lower this range if low on memory
   learning_rate: 0.001
   embedding_dimension: 150
   transformer_size: 256
 - name: FallbackClassifier
   threshold: 0.3
   ambiguity_threshold: 0.005
-- name: ResponseSelector
-  epochs: 100
-  retrieval_intent: faq
-  constrain_similarities: true
+#- name: ResponseSelector
+#  epochs: 100
+#  retrieval_intent: faq
+#  constrain_similarities: true
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

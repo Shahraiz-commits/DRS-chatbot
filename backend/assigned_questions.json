@@ -32,7 +32,8 @@
         "types of ML"
     ],
     "kind_ai_support_library": [
-        "What king of AI support is in the library"
+        "can somsone help with AI analysis",
+        "What AI and data science tools are available"
     ],
     "library_film_video": [
         "can i borrow films here"
@@ -58,7 +59,7 @@
         "tell me applications of artifical intelligence"
     ],
     "advanced_text_analysis_tool": [
-        "Google Colab"
+        "Can you help with data cleaning"
     ],
     "autocode_data_file_nvivo": [
         "n vivo coding tips"
@@ -67,7 +68,7 @@
         "Are there workshops on data viz in the Libraries?"
     ],
     "data_visualization_software_available": [
-        "power BI"
+        "What tools does the DRS recommend for creating data visualizations?"
     ],
     "find_subjectspecific_data_statistic": [
         "how do i get new data"
@@ -99,7 +100,8 @@
         "What digital tools do you recommend for collaborative research?"
     ],
     "kind_research_support_university": [
-        "Is there a cost for your services?"
+        "R studio",
+        "Can someone help me with doing analysis in R for my thesis?"
     ],
     "library_help_digital_scholarship": [
         "how can I create a web site for my research?",
@@ -122,5 +124,17 @@
     ],
     "web_scraper_available": [
         "tool for scraping"
+    ],
+    "get_started_text_analysis": [
+        "How can I get assistance with text analysis or text mining for my research"
+    ],
+    "guideline_creating_effective_visualization": [
+        "Can I get help designing interactive dashboards or visualizations"
+    ],
+    "help_digital_tool": [
+        "Who can answer text-analysis questions"
+    ],
+    "resource_available_writing_data": [
+        "Where can I get help with a data management plan?"
     ]
 }

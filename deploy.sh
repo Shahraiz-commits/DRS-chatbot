@@ -66,6 +66,27 @@ function deploy_frontend {
   gcloud run services update-traffic frontend --to-latest --region=$REGION
 }
 
+function deploy_python_api {
+    
+  # Build and push api image
+  echo "Building and pushing python API image..."
+  docker build -t gcr.io/$PROJECT_ID/api:$IMAGE_TAG -f Dockerfile.api .
+  docker push gcr.io/$PROJECT_ID/api:$IMAGE_TAG
+
+  # Deploy api to Cloud Run
+  echo "Deploying python API to Cloud Run..."
+  gcloud run deploy api \
+    --image gcr.io/$PROJECT_ID/api:$IMAGE_TAG \
+    --platform managed \
+    --region $REGION \
+    --allow-unauthenticated \
+    --port 8080
+
+  # Update services
+  echo "Clearing cached containers..."
+  gcloud run services update-traffic api --to-latest --region=$REGION
+}
+
 # Stop on errors
 set -e
 
@@ -81,7 +102,8 @@ IMAGE_TAG=$(git rev-parse --short HEAD)  # Git commit hash as tag
 #gcloud services enable containerregistry.googleapis.com storage.googleapis.com
 #gcloud config get-value project
 
-deploy_bot
+#deploy_bot
 #deploy_actions
 #deploy_frontend
+#deploy_python_api
 echo "Deployment complete!"

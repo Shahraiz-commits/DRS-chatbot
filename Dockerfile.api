@@ -1,0 +1,8 @@
+FROM python:3.10-slim
+COPY helper_api/ /helper_api
+WORKDIR /helper_api
+RUN pip install --no-cache-dir -r requirements.txt
+RUN python -m spacy download en_core_web_sm
+EXPOSE 8080
+
+CMD ["python", "helpers.py"]

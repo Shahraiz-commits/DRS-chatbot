@@ -192,6 +192,8 @@ function addMessageToChat(text, ...classNames) {
   const isUserMsg = classNames.includes("userMsg");
   const isGreeting = text.startsWith("Hi! How can I help you?");
   const isAlternativeIntro = text.includes("Sorry, I am a bit unsure");
+  const isFollowUp = (text.includes("Okay, I understand. How") || text.includes("Thank you for your feedback!"));
+  // console.log(isFollowUp);
 
   const container = document.createElement("div");
   container.classList.add("message-container");
@@ -267,7 +269,7 @@ function addMessageToChat(text, ...classNames) {
 
     container.appendChild(messageDiv);
 
-    if (!isGreeting && !isAlternativeIntro) {
+    if (!isGreeting && !isAlternativeIntro && !isFollowUp) {
       const feedbackDiv = document.createElement("div");
       feedbackDiv.classList.add("feedback-buttons");
       feedbackDiv.style.display = "none";
@@ -576,7 +578,6 @@ document.querySelectorAll(".actionBtn").forEach((button) => {
 });
 
 function displayAlternativeButtons(data) {
-
   addMessageToChat("Sorry, I am a bit unsure with my response. Is this what you were looking for?", "botMsg");
 
   const optionsContainer = document.createElement("div");
@@ -700,12 +701,9 @@ function displayAlternativeButtons(data) {
       }
       card.classList.add('selected-option');
       sendMessageToRasa(String(option.number)); // Send selected option number
-      if (option.number !== 0) {
-        addMessageToChat("Thank you for your feedback! Can I help you with anything else?", "botMsg");
-      } else {
-        addMessageToChat("Okay, I understand. How else can I assist you?", "botMsg");
-      }
-      console.log(`Selected Option: ${option.number}`);
+      // console.log(option.number);
+      addMessageToChat("Thank you for your feedback! Can I help you with anything else?", "botMsg");
+      // console.log(`Selected Option: ${option.number}`);
 
     };
 
@@ -741,7 +739,8 @@ function displayAlternativeButtons(data) {
       optionsContainer.querySelectorAll('.select-option-btn, .none-btn-alt').forEach(btn => btn.disabled = true); // Fallback
     }
     sendMessageToRasa("0");
-    console.log("Selected: None were helpful");
+    addMessageToChat("Okay, I understand. How else can I assist you?", "botMsg");
+    // console.log("Selected: None were helpful");
   };
 
   const wrapperContainer = document.createElement("div");
@@ -772,10 +771,10 @@ function sendMessageToRasa(message) {
     addMessageToChat(message, "userMsg");
     if (userInput) userInput.value = "";
   } else if (isFeedbackNumber) {
-    console.log(`Feedback number ${message} selected, sending to Rasa.`);
+    // console.log(`Feedback number ${message} selected, sending to Rasa.`);
   }
 
-  console.log("Sending to Rasa:", payload);
+  // console.log("Sending to Rasa:", payload);
 
   fetch(PROD_LINK, {
     method: "POST",
@@ -790,12 +789,12 @@ function sendMessageToRasa(message) {
       if (contentType && contentType.indexOf("application/json") !== -1) {
         return response.json();
       } else {
-        console.log("Received non-JSON or empty response from Rasa.");
+        // console.log("Received non-JSON or empty response from Rasa.");
         return null;
       }
     })
     .then((data) => {
-      console.log("Received from Rasa:", data);
+      // console.log("Received from Rasa:", data);
 
       if (data === null) {
         if (!isFeedbackNumber) {
@@ -815,19 +814,40 @@ function sendMessageToRasa(message) {
       );
 
       if (isAlternative) {
-        // console.log("Alternative Response pattern detected. Processing with displayAlternativeButtons.");
+        // // console.log("Alternative Response pattern detected. Processing with displayAlternativeButtons.");
         displayAlternativeButtons(data);
       } else {
-        const combinedText = data
+        let combinedText = data
           .filter((msgObj) => msgObj && msgObj.text)
           .map((msgObj) => msgObj.text)
           .join("\n\n");
 
-        if (combinedText) {
-          // console.log("text after: " + combinedText);
-          if (!combinedText.startsWith("Hi!")) combinedText += "\n\n" + getContinuationText();
-          addMessageToChat(combinedText, "botMsg");
-        } else if (data.length > 0 && !isFeedbackNumber) {
+          if (combinedText) {
+            // console.log("text after: " + combinedText);
+            if (!combinedText.startsWith("Hi!")) {
+              combinedText += "\n\n" + getContinuationText();
+              fetch("https://api-sue4xaradq-ue.a.run.app/helper_api", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ text: message })
+              })
+                .then(res => res.json())
+                .then(data => {
+                  if(data.keyword == null || data.keyword == "help"){
+                    data.keyword = "that"
+                  }
+                  combinedText = getInitiationText() + data.keyword + ".\n\n" + combinedText;
+                  console.log("Initiating with:", combinedText);
+                  addMessageToChat(combinedText, "botMsg");
+                })
+                .catch(error => {
+                  console.error("Keyword fetch failed:", error);
+                  addMessageToChat(combinedText, "botMsg");
+                });
+            } else {
+              addMessageToChat(combinedText, "botMsg");
+            }
+          } else if (data.length > 0 && !isFeedbackNumber) {
           // console.log("Received non-empty response from Rasa, but no text content found.");
           if (!message.startsWith('/greet')) {
             addMessageToChat("I received a response, but it was empty. Please try again.", "botMsg", "errorMsg");
@@ -846,11 +866,27 @@ function sendMessageToRasa(message) {
     });
 }
 
+// Returns a random string to initiate the conversation
+function getInitiationText() {
+  const texts = {
+    0: "I can definitely help you with ",
+    1: "Sure thing! Here's what you need to know about ",
+    2: "Got it! Let’s take a look at ",
+    3: "Happy to assist! This is what I found on ",
+    4: "Here’s some information on ",
+    5: "I’ve got you covered. Here’s some info about ",
+    6: "Right away — I can help you out with ",
+    7: "I'm happy to help you with "
+  }
+
+  let chosen = Math.floor((Math.random() * 8));
+  return texts[chosen]
+}
+
 // Returns a random string to continue the conversation
 function getContinuationText() {
-  // Possible continuations
   const texts = {
-    0: "Feel free to ask me about something else!",
+    0: "What else may I help you with?",
     1: "How else may I assist you?",
     2: "Anything else I can help you with?",
     3: "Is there anything else you need? I'm happy to help!",

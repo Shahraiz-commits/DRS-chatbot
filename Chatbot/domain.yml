@@ -29,7 +29,6 @@ intents:
 - artificial_intelligence
 - ask_help_searching_source
 - ask_library_open
-- assistance_available_data_analysis
 - attribute_ai_research
 - attribution_work
 - autocode_data_file_nvivo
@@ -160,6 +159,7 @@ intents:
 - get_full_text_access
 - get_help_citation
 - get_help_locating_affordable
+- ask_open_access
 - get_help_writing
 - get_library_card
 - get_online_access_library
@@ -186,7 +186,6 @@ intents:
 - introductory_tool_text_analysis
 - i’m_outside_united_state
 - kind_ai_support_library
-- kind_data_analysis_statistic
 - kind_research_support_university
 - kind_workshop_library_offer
 - learn_clear_framework
@@ -306,7 +305,6 @@ intents:
 - see_example_digital_scholarship
 - see_hostname_error_try
 - see_zotero_notification_automatically
-- seek_permission_use_copyrighted
 - select_suitable_content_management
 - service_available_faculty_instructor
 - service_library_offer
@@ -314,7 +312,6 @@ intents:
 - service_osf_integrate_with
 - set_appointment_research_use
 - set_link_usc_content
-- share_article_version_online
 - sign_orcid_id
 - software_available_library_computer
 - software_hardware_resource_available
@@ -338,7 +335,6 @@ intents:
 - suggest_workshop
 - support_library_offer_course
 - take_online_proctored_exam
-- term_related_text_mining
 - terminology_used_text_analysis
 - text_analysis
 - text_mining
@@ -381,7 +377,7 @@ responses:
       Sorry, I am designed not to answer such a question.
   utter_help_digital_tool:
   - text: |
-      # Contact Us
+      ###### Contact Us
       Contact us with questions or to schedule an appointment to discuss your needs.
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
@@ -396,7 +392,7 @@ responses:
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
   utter_kind_workshop_library_offer:
   - text: |+
-      ## Workshops
+      ##### Workshops
       University Libraries offers a variety of free workshops to support research and teaching at the university.
       Browse our full calendar of [library workshops](https://libcal.library.sc.edu/calendar/workshops) or explore the categories below.
       Select individual events for details and registration.
@@ -460,7 +456,6 @@ responses:
   utter_publishing_book_related_south:
   - text: |2+
 
-      Yes, please tell us about it!
       If you are planning to publish a book related to South Carolina, especially if it uses images or sources from South Caroliniana Library collection materials, please [tell us about it here](https://forms.office.com/Pages/ResponsePage.aspx?id=GUsqSzXRDkKLsrHNI4mYzNvwutl2Ox5CnNJtjgz7j5hUQjRPVjg5RFhUR1pBTERYMUExSkJWMlEySi4u) so we may consider adding your work to our holdings if it fits with our collection development goals.
       [Learn more here](https://libanswers.library.sc.edu//scl/faq/372593)
 
@@ -640,7 +635,6 @@ responses:
   utter_library_hire_student:
   - text: |2-
 
-      We do!
       Students interested in working at University Libraries can search for open positions and apply in Handshake.
       Under Jobs, select Location as Columbia, SC and click the filter for On-campus.
       Then search using the word library.
@@ -706,7 +700,7 @@ responses:
       [Learn more here](https://libanswers.library.sc.edu//faq/262345)
   utter_interlibrary_loan_access_it:
   - text: |+
-      ## Request an Interlibrary Loan
+      ##### Request an Interlibrary Loan
       Need materials you can't find through University Libraries?
       Interlibrary Loan is a free service for accessing books, articles and research materials from other libraries.
       [Login to request, renew and view materials](https://ill3.tcl.sc.edu/illiad/)
@@ -820,7 +814,7 @@ responses:
       [Learn more here](https://libanswers.library.sc.edu//faq/262347)
   utter_library_textbook:
   - text: |-
-      ## Textbooks and Course Materials
+      ##### Textbooks and Course Materials
       University Libraries gives students access to assigned textbooks and other course materials whenever possible, especially for courses with more than 100 students.
       You must have a valid CarolinaCard.
       The library has a large collection of print textbooks, especially for courses with over 100 students.
@@ -1499,17 +1493,17 @@ responses:
       [Learn more here](https://libanswers.library.sc.edu//faq/23786)
   utter_data_visualization_support_service:
   - text: |-
-      ## Data Visualization Support
+      ##### Data Visualization Support
       Data visualization support may be desired at any stage of your research process.
       The University Libraries offers resources and services useful in data visualization.
       [https://guides.library.sc.edu/c.php?g=1316892](https://guides.library.sc.edu/c.php?g=1316892)
 
-      #### Consultations
+      ##### Consultations
       We can help you online or in-person.
       Discover information and tutorials about data visualization and data vis tools.
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -1528,55 +1522,24 @@ responses:
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
   utter_type_assistance_library_offer:
-  - text: |+
-      ## Ways We Can Assist
+  - text: |
+      ##### Ways We Can Assist
       - **Learning Sessions/Workshops**
       - **Online Consultations**
       - **University Libraries DataLab**
       We offer regularly scheduled online learning sessions each semester covering various aspects of data visualization.  
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1316892)
-
-  utter_assistance_available_data_analysis:
-  - text: |-
-      ## Data Analysis Software Assistance
-      The University Libraries is pleased to offer support for exploratory data analysis and statistics.
-      This service provides free, one-on-one or small group help with research data.
-      In-person and virtual appointments are available.
-      Although support for qualitative data may be available in some cases, the service primarily helps with quantitative data.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1316892)
-      ##### Contact Data Visualization
-      [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
-      Glenn Bunton  
-      Data Visualization Librarian  
-      803-777-2903  
-      [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_datalab_located:
   - text: |-
-      ## Welcome
+      ##### Welcome
       The DataLab is located on the 5th floor of Thomas Cooper Library near the front staircase.
       It is available any time Thomas Cooper Library is open.
       This space and technology supports data visualization and data analysis activities related to University research projects.
       Services and resources are provided by the Digital Research Services (DRS) unit of the University Libraries.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
-      ##### Contact Data Visualization
-      [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
-      Glenn Bunton  
-      Data Visualization Librarian  
-      803-777-2903  
-      [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
-  utter_kind_data_analysis_statistic:
-  - text: |-
-      ## Data Analysis and Statistics Assistance
-      The University Libraries is pleased to offer support for exploratory data analysis and statistics.
-      Graduate student employees with expertise in statistical and data analysis are available to provide In-person assistance.
-      Appointment times are currently available and can be reserved using an online reservation form.
-      Walk-ins to the University Libraries DataLab are welcome but we strongly encourage scheduled appointments to assure the best service.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -1584,17 +1547,12 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_specialized_software_available_datalab:
   - text: |-
-      ## Available Hardware
-      - 3 high-powered Windows computers
-      - Large-screen monitor with individual-owned Windows laptops connection capabilities
-
-      ## Available Specialized Software
-      A variety of software related to data/spatial analysis and data/spatial visualization is installed on the computers in the DataLab.
-      Instructional information about these software applications is available below.
-      - [SPSS Statistics 29](https://www.youtube.com/watch?v=_zFBUfZEBWQ)
+      ##### Available Specialized Software/Hardware
+      A variety of software and hardware related to data/spatial analysis and data/spatial visualization is installed on the computers in the DataLab.
+      Instructional information about these software and hardware applications is available in the guide below.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1321483)
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -1602,7 +1560,7 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_find_subjectspecific_data_statistic:
   - text: |-
-      ## Finding Data
+      ##### Finding Data
       Effective data visualization requires quality data be used.
       In many cases, your research will create or collect its own data.
       In some cases, you may wish to use data that has already been collected.
@@ -1611,7 +1569,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=9683964)
 
 
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -1619,7 +1577,7 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_kind_research_support_university:
   - text: |-
-      ### Get Help with Your Research
+      ##### Get Help with Your Research
       University Libraries is pleased to offer support for exploratory data analysis and statistics.
       This service provides free, one-on-one or small group help with research data.
       In-person and virtual appointments are available.
@@ -1628,7 +1586,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=1335227)
   utter_What_is_NVivo:
   - text: |-
-      ## What is NVivo?
+      ##### What is NVivo?
       NVivo is a qualitative data analysis software that allows users to organize, analyze, and visualize unstructured data.
       With NVivo, users can:
       - Analyze and manage various types of qualitative data (e.g., text, images, audio, videos, etc.)
@@ -1637,7 +1595,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/nvivo)
   utter_access_nvivo:
   - text: |-
-      ## How Can I Access NVivo?
+      ##### How Can I Access NVivo?
       NVivo is available in the DataLab on Level 5 (L516D) in Thomas Cooper Library.
 
       - [DataLab](https://guides.library.sc.edu/data-viz-lab)
@@ -1648,7 +1606,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/nvivo)
   utter_find_additional_help_nvivo:
   - text: |-
-      ## Where Can I Find Additional Help with NVivo?
+      ##### Where Can I Find Additional Help with NVivo?
       Find additional help with NVivo with user guides and online tutorials from University Libraries QSR International.
 
       - [NVivo Playlist from University Libraries](https://www.youtube.com/watch?v=JBRFa4bCri0&list=PLdDPdq-AmS7Sp8flZhzZ1xOKPVhkY78KL)
@@ -1657,14 +1615,14 @@ responses:
       [Learn more here](https://guides.library.sc.edu/nvivo)
   utter_data_visualization_learning_session:
   - text: |-
-      ## Data Vis Learning Sessions
+      ##### Data Vis Learning Sessions
       The Digital Research Services (DRS) unit of the University Libraries offers a variety of data visualization learning sessions each term.
       All sessions are open to all members of the University.
       Those sessions listed as being part of the  program provide credit to participants leading to successful completion of SHARPGrads requirements.
       Use the link below to see sessions currently being offered and register for those of interest.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=9683763)
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -1672,29 +1630,29 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_open_data:
   - text: |-
-      #### Open data is data that is freely available for use or distribution by anyone. It is research data that:
+      ##### Open data is data that is freely available for use or distribution by anyone. It is research data that:
       - Is freely available on the internet;
       - Permits any user to download, copy, analyze, re-process, pass to software or use for any other purpose; and
       - Is without financial, legal, or technical barriers other than those inseparable from gaining access ot the internet
       [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
       Copyright SPARC
 
-      ## Why Use Open Data?
+      ##### Why Use Open Data?
 
       [Learn more here](https://guides.library.sc.edu/opendata)
   utter_different_part_nvivo_workspace:
   - text: |-
-      ## Creating a Project File
+      ##### Creating a Project File
       - Open NVivo, then click Create a new project
       - When the New Project dialog box opens, enter a name for the project in the Project title box
       - Check the File location and click the Browse button to change where the file saves
       - Click the Create button
-      ## Understanding the Workspace
+      ##### Understanding the Workspace
 
       [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
   utter_import_data_file_nvivo:
   - text: |+
-      ## Importing Data Files
+      ##### Importing Data Files
       - In the Menu Bar, click the Data tab
       - Select the data source to import (e.g., Word document, PDF)
       - Select the file(s) you want to import and click Import (Tip: Import multiple files of the same type at once by using the Shift or Ctrl buttons to select them)
@@ -1703,7 +1661,7 @@ responses:
 
   utter_autocode_data_file_nvivo:
   - text: |-
-      ## Auto-Coding
+      ##### Auto-Coding
       You can set up your data files (e.g., interview transcripts, focus group transcripts) so that NVivo automatically labels the different parts of the transcript based on the speaker.
       Auto-coding is particularly helpful if you want to compare different codes that are starting to emerge from your data across the different speakers.
       - In the Menu Bar, click the Analyze tab
@@ -1712,7 +1670,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
   utter_use_case_nvivo:
   - text: |-
-      ## Using Cases
+      ##### Using Cases
       Once you have speakers auto-coded, you can add characteristics that you think might be important to your data analysis, such as demographic information.
       - In the Navigation View panel, click on Case Classifications
       - Right-click on the classification you previously created (e.g., People, Participants) and select New Attribute
@@ -1721,18 +1679,14 @@ responses:
       [Learn more here](https://guides.library.sc.edu/nvivo/creatingaproject)
   utter_software_hardware_resource_available:
   - text: |-
-      ## Remote Access Software Request
-      Complete this form to request remote access to software.
-      Required fields
-      ## Software and Hardware
+      ##### Software and Hardware
       University Libraries provides a variety of computing resources to support the needs of students, faculty and staff for research and coursework.
-      Fill out the Software Request form on this page to get permission and instructions.
-      - Adobe Creative Cloud (including Acrobat Pro)
+      Fill out the Software Request form on [this](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php) page to get permission and instructions.
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/technology_services/software_hardware/index.php)
   utter_general_statistic_resource_available:
   - text: |-
-      ## General Statistics and Data Set Resources
+      ##### General Statistics and Data Set Resources
       Below are some examples of resources that you can use to find general resources.
       For subject specific databases, use the navigation tabs to find the field of study needed.
       - [Data Citation Index](https://login.pallas2.tcl.sc.edu/login?url=https://www.webofscience.com/wos/drci/basic-search)Data Citation Index captures metadata from data repositories in the Social Sciences, Life Sciences, Physical Sciences, and Arts & Humanities.Web of Science is the host!
@@ -1741,7 +1695,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/general)
   utter_general_data_set_available:
   - text: |-
-      ## Data Sets - General
+      ##### Data Sets - General
       - [Data.gov](http://www.data.gov/)
       - [Gapminder Data](https://www.gapminder.org/data/)Identifies the most ignored global facts by comparing what people think against the official statistics.
       Offers[ visualization tools](https://www.gapminder.org/tools)and other resources.
@@ -1759,7 +1713,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=831780&p=5938206)
   utter_create_codebook_nvivo:
   - text: |-
-      ## Creating a Codebook
+      ##### Creating a Codebook
       Codes are collections of references from your data about a specific theme, topic, concept, idea, or experience, and can be descriptive or analytical.
       You can create codes before you start coding and/or as you code your data.
       - In the Navigation View panel, click on Nodes
@@ -1768,18 +1722,18 @@ responses:
       [Learn more here](https://guides.library.sc.edu/nvivo/coding)
   utter_add_coding_data:
   - text: |-
-      ## Exporting a Codebook
+      ##### Exporting a Codebook
       - In the Menu Bar, click on the Data tab
       - Click on Codebook
       - Select the Nodes folder
       - Choose a location on your computer to save the document
 
-      ### Uncoding Data
+      ##### Uncoding Data
 
       [Learn more here](https://guides.library.sc.edu/nvivo/coding)
   utter_coding_stripe_display_them:
   - text: |+
-      ## Coding Stripes
+      ##### Coding Stripes
       Coding stripes are a visual indicator of the segments of coded data.
       You can display coding stripes to see the content that is coded at specific themes or nodes, or you can display coding stripes to show the data that has been coded by specific users.
       - In the List View panel, select a data source that has been coded or that you'll be coding
@@ -1787,14 +1741,14 @@ responses:
 
   utter_data_visualization:
   - text: |-
-      ## The Data Science Lifecycle
+      ##### The Data Science Lifecycle
       Data visualization is one component of a much broader data analytics life cycle.
       While there is some variation in defining the full data analytics life cycle, the graphic below presents a general structure encompassing the basic components.
       Data visualization is an umbrella term referring to the representation of raw data content in a graphic or pictorial manner.
       Related concepts include information visualization and scientific visualization.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438972)
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -1802,14 +1756,14 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_data_visualization_important:
   - text: |-
-      ## Why Visualize Data?
+      ##### Why Visualize Data?
       Raw data and statistics can often appear confusing.
       Many research data sets are going to be overwhelming in size.
       Data visualization applies what we know about human perception to optimize cognition, making it easier to understand, interpret, and analyze patterns, trends, and relationships within the data.
       Use of effective data visualization if often focused on one of two primary purposes:
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438972)
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -1817,14 +1771,14 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_common_term_used_data:
   - text: |-
-      ## Terminology
+      ##### Terminology
       When discussing data visualization, various related terms may be used somewhat loosely.
       The following is a very brief glossary of commonly used data terminology:
       - A process of building, cleaning, and structuring datasets for the purpose of analysis and extraction of meaning.
       - Analysis of data to answer questions, identify trends, and extract insights.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1316892&p=10439116)
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -1832,7 +1786,7 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_business_statistic_resource_available:
   - text: |-
-      ## Business Statistics and Data Set Resources
+      ##### Business Statistics and Data Set Resources
       Below are some examples of resources that you can use to find business resources.
       - [Fitch Connect](https://saml.fitchconnect.com/saml/login?orgId=6iU4UH3SLU2L51lDBPe9iT)
       - [Hoover's Online](https://login.pallas2.tcl.sc.edu/login?url=https://www.mergentonline.com/Hoovers)
@@ -1841,7 +1795,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/cj)
   utter_data_resource_available:
   - text: |-
-      ## Data
+      ##### Data
       - [U.S. Census Bureau](https://www.census.gov/) – Includes the Census of Population and Housing, Economic Census, Census of Governments, and other Census Bureau surveys, data, and publications.
       - [World Bank Open Data](http://data.worldbank.org/) – Provides free, open, and easy access to a comprehensive set of data on living standards around the globe—some 2,000 indicators, including hundreds that go back 50 years—through its new data portal.
       - [Data.gov](http://www.data.gov/) – Aims to increase public access to high-value, machine-readable datasets generated by the Executive Branch of the Federal Government.
@@ -1859,17 +1813,17 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=831780&p=7302138)
   utter_choose_right_visualization_data:
   - text: |-
-      ## Choosing the Appropriate Visualization
+      ##### Choosing the Appropriate Visualization
       Visualization of data can be highly effective or ineffective based on the selection and application of the appropriate or inappropriate visualization technique.
       guides your consideration of various chart, graph, and other visualization approaches based on your communication and/or analysis requirements.
       - [The Data Visualisation Catalogue](https://datavizcatalogue.com/search.html)
 
-      #### from Data to Viz
+      ##### from Data to Viz
       The web site offers an interactive tool that assists in your selection of the appropriate visualization technique by leading you through a decision tree.
       Based on your responses, it will recommend an appropriate visualization, provide some relevant code, and offer some common caveats for consideration.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438980)
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -1877,14 +1831,14 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_guideline_creating_effective_visualization:
   - text: |-
-      ## Guidelines for Effective Visualizations
+      ##### Guidelines for Effective Visualizations
       - Know and understand your audience
       - Make sure to clearly identify what you are seeking to communicate
       - Adapt the visualization to the strengths of the medium and vice-versa
       - Captions are essential
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438980)
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -1892,7 +1846,7 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_resource_available_finding_criminal:
   - text: |-
-      ## Criminal Justice Statistics and Data Sets
+      ##### Criminal Justice Statistics and Data Sets
       Below are some examples of resources that you can use to find criminal justice resources.
       - [Dealth Penalty Information Center](https://deathpenaltyinfo.org/)
       - [European Monitoring Centre for Drugs and Drug Addiction (EMCDDA)](http://www.emcdda.europa.eu/data)
@@ -1901,7 +1855,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/cj)
   utter_u_statistic_resource_available:
   - text: |-
-      #### U.S. Statistics
+      ##### U.S. Statistics
       - [Bureau of Justice Assistance](https://www.bja.gov/)
       - [Bureau of Prisons](https://www.bop.gov/)
       - [Central Intelligence Agency (CIA)](https://www.cia.gov/)
@@ -1910,7 +1864,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/cj)
   utter_data_set_available_criminal:
   - text: |-
-      ## Data Sets
+      ##### Data Sets
       - [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.[More information](http://guides.library.sc.edu/more_information/icpsr)
       - [BJS - Federal Justice Statistics Resource Center](https://www.bjs.gov/fjsrc/index.cfm)
       - [Compendium of National Juvenile Justice Datasets](https://www.ojjdp.gov/ojstatbb/compendium/)
@@ -1945,14 +1899,14 @@ responses:
 
   utter_factor_consider_selecting_data:
   - text: |-
-      ## Data Visualization Tools
+      ##### Data Visualization Tools
       Selecting the appropriate data visualization tool can be challenging, given the many available options.
       You will want to consider:
       - Your data : the type and amount will affect the success of the tool you use.
       Numerical, geospatial, or textual data may benefit from use of different tools.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -1960,7 +1914,7 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_spreadsheet_software_use_data:
   - text: |-
-      ## Spreadsheet Software
+      ##### Spreadsheet Software
       A program such as Microsoft Excel, while fundamentally a spreadsheet product, offers at least 20 different types of graphs, charts, plots, and other visual representations.
       Other spreadsheet programs are also likely to provide ways of creating visual representations of spreadsheet data.
       - [Microsoft Excel visual representation options](https://support.microsoft.com/en-us/office/available-chart-types-in-office-a6187218-807e-4103-9e0a-27cdb19afb90)
@@ -1968,7 +1922,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
 
 
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -1976,14 +1930,14 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_data_visualization_software_available:
   - text: |-
-      ## Visualization Software
+      ##### Visualization Software
       - [Tableau Public](https://public.tableau.com/app/discover) - Widely used by the business and research communities, Tableau allows users to connect, visualize, and share data powerfully and interactively, providing a wide range of tools and features for creating dynamic, interactive dashboards, charts, maps, and other visualizations.
       Tableau Public is free (with certain limitations) while Tableau Creator can be purchased from DoIT.
       - [Microsoft Power BI](https://powerbi.microsoft.com/en-us/) - As a member of the University, you have access to Power BI through Office 365.
       You can connect to various data sources, analyze data, and create interactive visualizations and reports.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -1991,14 +1945,14 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_programming_language_use_data:
   - text: |-
-      ## Programming Languages
+      ##### Programming Languages
       While data visualization products continue to become more sophisticated and capable, you may still find instances where your project requires capabilities or a combination of capabilities not offered by these products.
       In such cases, the following languages have significant visualization capabilities along with ability to create, gather, and clean data in one program.
       - [R language](https://www.r-project.org/) - The R language is commonly used for statistical analysis and also offers significant methods for creating data visualizations.
       The primary visualization library package used by R **Ggplot2** is but many other packages build off its functionality.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
-      ##### Contact Data Visualization
+      ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
@@ -2006,7 +1960,7 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_resource_available_finding_economic:
   - text: |-
-      ## Economic Statistics and Data Set Resources
+      ##### Economic Statistics and Data Set Resources
       Below are some examples of resources that you can use to find economic resources.
       - [AidData](http://aiddata.org/)
       - [BEA International Economic Accounts](https://www.bea.gov/international/)
@@ -2015,7 +1969,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/economics)
   utter_data_set_available_economic:
   - text: |-
-      ## Data Sets
+      ##### Data Sets
       - [IMF Data](https://data.imf.org/)
       - [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.[More information](http://guides.library.sc.edu/more_information/icpsr)
       - [Bureau of Labor Statistics](http://stats.bls.gov/)
@@ -2024,7 +1978,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/economics)
   utter_data_set_available_education:
   - text: |-
-      ## Data Sets
+      ##### Data Sets
       - [Campus Safety and Security Data (US Dept. of Education)](https://ope.ed.gov/campussafety/#/)
       - [Child Care & Early Research Connections](https://www.researchconnections.org/research-tools/data-collection)
       - [Common Core of Data (CCD)](https://nces.ed.gov/ccd/index.asp)
@@ -2033,7 +1987,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/education)
   utter_contact_interlibrary_loan_staff:
   - text: |+
-      # Contact Us
+      ###### Contact Us
       For additional help check out the [ILL online user guide](http://guides.library.sc.edu/interlibraryloan).
       [Interlibrary Loan Staff](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/index.php?search=Interlibrary)
       [uscill@mailbox.sc.edu](mailto:uscill@mailbox.sc.edu)
@@ -2041,7 +1995,7 @@ responses:
 
   utter_usc_columbia_user:
   - text: |+
-      # Not a USC Columbia user?
+      ##### Not a USC Columbia user?
       Check a local institution or a local public library for ILL services.
       In Columbia:
       - [School of Law Library](http://law.sc.edu/library)
@@ -2049,14 +2003,14 @@ responses:
 
   utter_resource_environmental_geospatial_statistic:
   - text: |+
-      ## Environmental & Geospatial Statistics and Data Set Resources
+      ##### Environmental & Geospatial Statistics and Data Set Resources
       Below are some examples of resources that you can use to find environmental and geospatial resources.
       - [Our World in Data](https://ourworldindata.org/)
       - [Statista](https://go.openathens.net/redirector/sc.edu?url=http%3A%2F%2Fwww.statista.com%2F)
 
   utter_find_environmental_geospatial_data:
   - text: |+
-      ## Data Sets (.csv)
+      ##### Data Sets (.csv)
       - [Climate TRACE](https://climatetrace.org/data)
       - [Data.gov](https://data.gov)
       - [PolicyMap](https://sc.policymap.com/)
@@ -2064,21 +2018,21 @@ responses:
 
   utter_modelled_data_resource_available:
   - text: |-
-      #### Geospatial Data
+      ##### Geospatial Data
       - [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
       - [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)
 
-      #### Transportation Data
+      ##### Transportation Data
       - [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
 
-      #### Modelled Data
+      ##### Modelled Data
       - [Parameter-elevation Relationships on Independent Slopes Model (PRISM)](http://www.prism.oregonstate.edu/)
       Most of modelled data are stored in NetCDF format.
 
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
   utter_observed_data_resource_available:
   - text: |+
-      #### Observed Data
+      ##### Observed Data
       - [NOAA - Full List of Data](https://www.ncdc.noaa.gov/data-access)
       - [NOAA - Weather & Climate Quick Links](https://www.ncdc.noaa.gov/data-access/quick-links)
       - [Applied Climate Information System - Query Data](http://builder.rcc-acis.org)To learn how to use this system, click here for[ more information](https://www.rcc-acis.org/docs_webservices.html).
@@ -2086,21 +2040,21 @@ responses:
 
   utter_resource_available_finding_health:
   - text: |-
-      ## Health Statistics and Data Set Resources
+      ##### Health Statistics and Data Set Resources
       Below are some examples of resources that you can use to find health resources.
       Some additional resources for finding statistics or data sets is the [NICHSR Finding Health Statistics tutorial](https://www.nlm.nih.gov/nichsr/usestats/finding_health_statistics.html) or the [Public Health Information & Data Tutorial](https://phpartners.org/tutorial/03-hs/)
 
-      ## Statistics
-      #### International Statistics
+      ##### Statistics
+      ##### International Statistics
       - [Google Public Data Explorer](https://www.google.com/publicdata/directory)
       - [WHO Global Health Observatory](http://apps.who.int/gho/data/)
 
-      #### U.S.
+      ##### U.S.
 
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/health)
   utter_data_set_available_health:
   - text: |-
-      ## Data Sets
+      ##### Data Sets
       - [CDC Wonder](https://wonder.cdc.gov/)
       - [HealthData.gov](https://www.healthdata.gov/)
       - [Our World in Data](https://ourworldindata.org/)
@@ -2109,7 +2063,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/health)
   utter_resource_available_library_statistical:
   - text: |-
-      ## Museum & Library Statistics and Data Set Resources
+      ##### Museum & Library Statistics and Data Set Resources
       Below are some examples of resources that you can use to find library statistical resources.
       - [ACRL Benchmark: Library Metrics and Trends](https://login.pallas2.tcl.sc.edu/login?url=https://assets.tcl.sc.edu/eresources/list.html)
       - [IBISWorld](https://login.pallas2.tcl.sc.edu/login?url=https://my.ibisworld.com)
@@ -2118,7 +2072,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/lis)
   utter_resource_social_work_statistic:
   - text: |+
-      ## Social Work Statistics and Data Set Resources
+      ##### Social Work Statistics and Data Set Resources
       Below are some examples of resources that you can use to find social work resources.
       - [EUROSTAT](https://ec.europa.eu/eurostat/web/main/data)
       - [Human Rights Watch](https://www.hrw.org/)
@@ -2126,7 +2080,7 @@ responses:
 
   utter_resource_u_statistic:
   - text: |-
-      #### U.S. Statistics
+      ##### U.S. Statistics
       - [Census Data from data.census.gov](https://data.census.gov/cedsci/)
       - [Agency for Healthcare Research and Quality- Research Tools & Data](https://www.ahrq.gov/research/index.html)
       - [Centers for Medicare & Medicaid Services](https://www.cms.gov/Research-Statistics-Data-and-Systems/Research-Statistics-Data-and-Systems.html)
@@ -2135,7 +2089,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/social-work)
   utter_resource_data_set:
   - text: |-
-      ## Data Sets
+      ##### Data Sets
       - [Council of European Social Science Data Archives (CESSDA)](https://datacatalogue.cessda.eu/)
       - [ICPSR: Inter-University Consortium for Political and Social Research](https://www.icpsr.umich.edu/icpsrweb/)University affiliates can create an account and access the ICPSR archive of research data, including specialized collections in education, aging, criminal justice, substance abuse, and terror.[More information](http://guides.library.sc.edu/more_information/icpsr)
       - [National Archive of Criminal Justice Data](http://www.icpsr.umich.edu/icpsrweb/content/NACJD/index.html)
@@ -2144,7 +2098,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/social-work)
   utter_resource_available_sociology_statistic:
   - text: |+
-      ## Sociology Statistics and Data Set Resources
+      ##### Sociology Statistics and Data Set Resources
       Below are some examples of resources that you can use to find sociology resources.
       - [Economic Indicators](https://www.govinfo.gov/app/collection/ECONI)
       - [InfoShare Online](http://www.infoshare.org/)Includes population statistics, immigration trends, socioeconomic indicators, birth and death data, hospitalizations, local trade data, and much more.You will need to create an individual account.
@@ -2154,7 +2108,7 @@ responses:
 
   utter_data_set_available_sociology:
   - text: |+
-      ## Data Sets
+      ##### Data Sets
       - [ICPSR](http://www.icpsr.umich.edu/icpsrweb/ICPSR/)
       - [ASA Data Resources on Sociology as a profession](http://www.asanet.org/research-publications/research-sociology/data-resources-sociology-profession)
       - [The General Social Survey ](http://gss.norc.org/)
@@ -2170,13 +2124,11 @@ responses:
       Materials constituting research data vary by discipline.
 
       [Learn more here](http://guides.library.sc.edu/rdm)
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
-      [winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
-
-      
+      [winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)  
       [Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.
 
   utter_contact_help_research_data:
@@ -2189,9 +2141,7 @@ responses:
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
-      [winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
-
-      ### Make an Appointment
+      [winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)  
       [Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.  
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php)
@@ -2204,22 +2154,22 @@ responses:
       - Data Formats and Metadata
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095609)
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
       [winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
       [Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.
   utter_resource_available_writing_data:
-  - text: |2-
-      ## Data Management Plans  
+  - text: |-
+      ##### Data Management Plans  
       - [Sample DMPs from UC San Diego](https://library.ucsd.edu/lpw-staging/research-and-collections/data-curation/data-management/dmp-samples.html)
       - [Data Management Planning Guidelines from NC State University](https://www.lib.ncsu.edu/do/data-management/funding-agency-guidelines)
       - [Sample NIH Data Management and Sharing Plans](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#sample-plans)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095609)
 
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2234,7 +2184,7 @@ responses:
       - Data Formats and Metadata  
       [Learn more here](http://guides.library.sc.edu/rdm)
 
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2247,7 +2197,7 @@ responses:
       It walks users through the components required by the funder they're applying to, and allows them to create a completed DMP, which can be exported as a Word document or PDF.
       [Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095609)
 
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2261,7 +2211,7 @@ responses:
       To learn more about this resource, visit the [Open Science Framework Guide](http://guides.library.sc.edu/osf).
       [Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
 
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2276,7 +2226,7 @@ responses:
       These repositories are also good places to find datasets for re-use.
 
       [Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2298,7 +2248,7 @@ responses:
       Title.
 
       [Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2315,7 +2265,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095612)
 
 
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2330,7 +2280,7 @@ responses:
       - Make a note of all file names and formats associated with the project, how the data are organized, how the data were generated (including any equipment or software used), and information about how the data have been altered or processed.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095612)
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2338,14 +2288,14 @@ responses:
       [Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.
   utter_element_metadata:
   - text: |-
-      ### Metadata Elements - Things to Document
+      ##### Metadata Elements - Things to Document
       - Name of the dataset or research project that produced it
       - Names and addresses of the organization or people who created the data
       - Number used to identify the data, even if it is just an internal project reference number
       - Keywords or phrases describing the subject or content of the data
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095612)
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2353,14 +2303,14 @@ responses:
       [Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.
   utter_find_information_metadata_standard:
   - text: |-
-      ### Metadata Standards
+      ##### Metadata Standards
       - A directory of [Disciplinary Metadata](http://www.dcc.ac.uk/resources/metadata-standards) standards is available from the UK's Digital Curation Centre.
       This site is browseable by discipline.
       - For a visualization of the wider metadata universe most often used in the humanities, see Jenn Riley's [Seeing Standards](http://jennriley.com/metadatamap/).
       - The [Metadata Standard Glossary](http://jennriley.com/metadatamap/seeingstandards_glossary_pamphlet.pdf) provides additional description for each of the standards listed.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4095612)
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2375,7 +2325,7 @@ responses:
       It may be useful to consider including some or all of the following information, as long as it is done consistently.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573562)
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2390,7 +2340,7 @@ responses:
       - Open, documented standard
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573562)
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2407,7 +2357,7 @@ responses:
       [Learn more here](http://guides.library.sc.edu/osf)
   utter_backing_data_important:
   - text: |+
-      ## Regulation and Security
+      ##### Regulation and Security
       Hardware failure, virus infection, hacking, and loss or theft of hardware are all common realities that can have a devastating effect on research if proper back-up hasn't taken place.
       See the [UK Data Archive's guidelines on Backing-up Data](https://www.ukdataservice.ac.uk/manage-data/store.aspx) for more information.
       While storage refers to ways of preserving files for the short- or long-term, back-up refers to preserving copies of your files in different physical locations and using different media to protect against data loss.
@@ -2422,14 +2372,14 @@ responses:
       A few resources of note include:
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
       [winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
       [Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.
   utter_university_policy_apply_research:
-  - text: |2-
+  - text: |-
       The following university policies are potentially applicable to research data management.
       - [Information Security IT 3.00](http://www.sc.edu/policies/it300.pdf)
       - [Archives and Record Management LIB 1.03](http://www.sc.edu/policies/lib103.pdf)
@@ -2437,7 +2387,7 @@ responses:
       - [Data & Information Governance UNIV 1.51](http://www.sc.edu/policies/univ151.pdf)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2445,7 +2395,7 @@ responses:
       [Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.
   utter_service_osf_integrate_with:
   - text: |+
-      ## OSF Integrations
+      ##### OSF Integrations
       OSF integrates with many services you might already use.
       - [Creating and Managing Projects](https://help.osf.io/hc/en-us/categories/360001495973-Creating-and-Managing-Projects)
 
@@ -2453,7 +2403,7 @@ responses:
 
   utter_resource_available_research_data:
   - text: |-
-      ## Online Data Management Educational Resources
+      ##### Online Data Management Educational Resources
       - [DataOne Research Data Management Education Modules](https://www.dataone.org/training/)  
         DataONE is a platform for sharing environmental and ecological data.
       The DataONE Research Data Management Education Modules provide guidance on many concepts.
@@ -2461,7 +2411,7 @@ responses:
         A free online data management course from the University of Edinburgh that provides modules geared toward Research Students, Career Researchers, Senior Academics, and Information Professionals.
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4581796)
 
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -2478,7 +2428,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)
   utter_suggest_workshop:
   - text: |+
-      # Contact Us
+      ###### Contact Us
       Do you have a group interested in scheduling a workshop session?
       Or have an idea for additional workshop offerings?
       Email us at [tclrefbi@mailbox.sc.edu](mailto:tclrefbi@mailbox.sc.edu).
@@ -2486,96 +2436,94 @@ responses:
 
   utter_service_available_faculty_instructor:
   - text: |+
-      # Faculty and Instructor Services
+      ##### Faculty and Instructor Services
       Learn about other ways that [University Libraries offers support for your teaching and research](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/index.php).
       Additional workshops and programs about teaching are offered through the [Center for Teaching Excellence](https://www.sc.edu/about/offices_and_divisions/cte/index.php).
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=5107061)
 
   utter_kind_ai_support_library:
   - text: |-
-      ## AI/Data Science Support
+      ##### AI/Data Science Support
       The library offers support with the application of AI and Machine learning (ML) tools for your research and projects.
       You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
       - [Welcome to the world of Artificial Intelligence (AI)](https://guides.library.sc.edu/welcome-to-the-world-of-ai): This guide introduces AI and its subfields along with some terminology associated with it.
       - [Artificial Intelligence Basic Knowledge, Tools, and Resources](https://guides.library.sc.edu/c.php?g=1353979): A starting point for information about AI, Generative AI, and more.
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_workshop_available_ai_data:
   - text: |-
-      #### Workshops
+      ##### Workshops
       - Workshops on AI and Data Science Tools: Conducting workshops on popular tools and platforms, such as Python, R, TensorFlow.
       - AI/Machine learning: Offering training to improve data literacy covering topics like data ethics, data management, and basic analysis techniques.
       - AI Ethics and Responsible AI: Educating the academic community on the ethical implications of AI, including bias, fairness, and transparency.
       - GenAI: Usage of GenAI for research and learning.
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_help_ai:
   - text: |
-      ### Contact
+      ###### Contact
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
-
-      ### Make an Appointment
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
   utter_artificial_intelligence:
   - text: |-
-      ## What is Artificial Intelligence?
+      ##### What is Artificial Intelligence?
       In simple terms, AI refers to machines (or computers) that mimic cognitive functions associated with the human mind, such as 
       A more formal definition is given by the National Institute of Standards and Technology in their AI Risk Management Framework (AI RMF 1.0):
 
       [Learn more here](https://guides.library.sc.edu/welcome-to-the-world-of-ai)
 
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_ai_evolved_time:
   - text: |-
-      ## How AI Evolved Over The Years?
+      ##### How AI Evolved Over The Years?
       - McCullough and Pitts introduced the neuron model which became the foundation of neural networks.
       The neuron model discussed parallelism between computing machines and the human brain.
 
       - Alan Turing created the Turing test to test the intelligence of a machine.
 
       [Learn more here](https://guides.library.sc.edu/welcome-to-the-world-of-ai)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_application_artificial_intelligence:
   - text: |-
-      ## What are the subfields of AI?
+      ##### What are the subfields of AI?
       The term AI can be used for any system mimicking human cognitive skills, such as planning, pattern recognition, and decision-making.
       There are numerous applications of AI; from healthcare to finance, from designing robots to cybersecurity, from recommender systems to search engines, and so on.
       Some of the other applications are given below:
       - Targeted advertising and personalized recommendations (like Amazon)
 
       [Learn more here](https://guides.library.sc.edu/welcome-to-the-world-of-ai)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_consider_using_ai_technology:
   - text: |2-
@@ -2584,22 +2532,22 @@ responses:
       - While our guide presents information about, and actively uses, various AI tools, the University Libraries recommend or endorse any specific AI technology and/or tool(s).
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979)
 
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_text_analysis:
   - text: |-
-      ## What is It?
+      ##### What is It?
       Text analysis is a subset of data mining, using computational methodes to study natural languages as unstructured data sets.
       It can allow you to explore connections between words and topics.
       It can be large blocks of text, not in a table or database.
       This research method is increasing in use, but should not be done alone.
 
       [Learn more here](https://guides.library.sc.edu/text-analysis)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -2611,14 +2559,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_terminology_used_text_analysis:
   - text: |-
-      ## Terminology
+      ##### Terminology
       Content Mining is the overall concept of pulling together into one place a large corpus of text, data, or images from various sources and running scripts on them to answer a research question.
 
       - [Text Mining](https://en.wikipedia.org/wiki/Text_mining)is a research technique using computational analysis to uncover patterns in large text-based data sets.
       (Wikipedia)
 
       [Learn more here](https://guides.library.sc.edu/text-analysis)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -2630,14 +2578,12 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_get_started_text_analysis:
   - text: |-
-      ## Getting Started with text analysis
+      ##### Getting Started with text analysis
       - What is your research question?
-
       - Pull together a team of support: librarians, computer programmers, statisticians are on campus and here to help.
 
-
       [Learn more here](https://guides.library.sc.edu/text-analysis)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -2649,14 +2595,12 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_common_text_analysis_method:
   - text: |-
-      ## Common Text Analysis Methods
-      - Word Frequency: Most themes and words used throughout the text
-
+      ##### Common Text Analysis Methods
+      - Word Frequency: Most themes and words used throughout the text  
       - Significant Terms or TFIDF (Term Frequency and Inverse Document Frequency): Finding the most significant terms across documents
 
-
       [Learn more here](https://guides.library.sc.edu/text-analysis)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -2668,14 +2612,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_store_create_machine_readable:
   - text: |-
-      ## Storing and Creating Machine Readable Text
+      ##### Storing and Creating Machine Readable Text
       Your data , text, or content must be machine readable and together in one place for the algorthims in any platform to work.
       In other words, images like PNG or JPG will not work, so they must be OCRed or converted into text.
       PDFs may work if the text is searchable within the document.
       Here are a few tools for converting your data into the proper text format.
 
       [Learn more here](https://guides.library.sc.edu/text-analysis)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -2687,60 +2631,60 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_machine_learning:
   - text: |-
-      ## What is Machine Learning?
-      A machine is said to be if its performance or efficiency for a given task improves with the experience (past data).
+      ##### What is Machine Learning?
+      A machine is said to be "learning" if its performance or efficiency for a given task improves with the experience (past data).
       Machine Learning uses advanced algorithms to analyze and learn relationships between the data to make intelligent decisions on what it has learned.
       The algorithms use a large amount of data to find the relationship.
       This relationship is called a which is used to make useful predictions or generate content from the data.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1430013&p=10626775)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_different_type_machine_learning:
   - text: |-
-      ## What are the different types of Machine Learning?
+      ##### What are the different types of Machine Learning?
       There are 4 major types of ML problems:
       - **Supervised learning** is used for tasks where the target variable has defined labels or values.The target variable has 2 labels (binary class classification) or more (multiclass classification).
       For example: Whether USA will win or lose a match (binary).Gmail classifying email in classes like social, promotion, updates, or spam (multiclass).The output is numeric and has a continuous value and the task is to predict a value as closer to the actual output value.
       For example predict stock price of a stock.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1430013&p=10626775)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_news_event_related_ai:
   - text: |-
-      ## USC News & Events
+      ##### USC News & Events
       - [New projects explore AI in art and science](https://www.sc.edu/study/colleges_schools/artsandsciences/about/news/2023/artificial_intelligence.php)
       - [Harnessing the power of artificial intelligence](https://sc.edu/uofsc/posts/2023/05/artificial-intelligence.php)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10028526)
 
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_ai_degree_certificate_offered:
   - text: |-
-      ## AI Degrees, Certificates, Courses
+      ##### AI Degrees, Certificates, Courses
       - [Graduate Certificate in Artificial Intelligence](https://sc.edu/study/colleges_schools/engineering_and_computing/academics/graduate_programs/artificial_intelligence_certificate/index.php)The Artificial Intelligence Graduate Certificate is a 12-credit hour program comprised of core and elective courses.Major subjects include: Big Data Analytics, Robotics Systems, Machine Learning, Data Mining and Warehousing, Bayesian Networks and Decision Graphs, Computer Processing and Natural Language, Pattern Recognition and Classification
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10028526)
 
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_ai_course_available:
   - text: |2-
@@ -2750,22 +2694,22 @@ responses:
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10028526)
 
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_introductory_tool_text_analysis:
   - text: |-
-      ## Introductory Tools
+      ##### Introductory Tools
       These are wonderful, easy to use tools to explore whether you want to learn more about text analysis.
       We are members of HathiTrust, which gives you access to their tools.
       Voyant is a free web browser and AntConc is application available to download.
       Constellate is a product from JSTOR for  which we have a license.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -2777,12 +2721,12 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_hathitrust_research_center:
   - text: |-
-      ## HathiTrust Research Center (USC login required)
+      ##### HathiTrust Research Center (USC login required)
       Supported by Indiana University and University of Illinois at Urbana-Champaign, HathiTrust Research Center (HTRC) enables computational analysis of works in the HathiTrust Digital Library (HTDL) to facilitate non-profit research and educational use of the collection.
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
 
 
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -2794,17 +2738,17 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_advanced_text_analysis_tool:
   - text: |-
-      ## Data Cleaning Tools
+      ##### Data Cleaning Tools
       - [Open Refine](https://openrefine.org/download)
       - [Regexr](https://regexr.com/)[more...](javascript:void(0);)[less...](javascript:void(0);)
       - [Regular Expressions (Regex)](https://regex101.com/)
 
-      ## Advanced Text Analysis Tools
+      ##### Advanced Text Analysis Tools
       These tools will take some learning, but there are people in Research Computing and in the Libraries who can help you get started.
       - [Anaconda](https://www.anaconda.com/)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -2816,14 +2760,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_freely_available_corpus_text:
   - text: |-
-      ## Freely available corpora to mine and analyze
+      ##### Freely available corpora to mine and analyze
       Here are a few collections of text that are freely available for text mining and analysis.
       Usually, a freely available or accessible corpora comes with an API which assists the user in pulling the information they need.
       See below for information on how to get started with using APIs.
       - [Biodiversity Heritage Library APIs](https://about.biodiversitylibrary.org/tools-and-services/developer-and-data-tools/)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886165)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -2835,14 +2779,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_learn_work_api:
   - text: |-
-      ## Learn to work with an API
+      ##### Learn to work with an API
       Here is some information to learn how to pull in some of these free content and work with their API (Application Programming Interface).
       - [University of Alambama API Code Examples](https://ualibweb.github.io/UALIB_ScholarlyAPI_Cookbook/content/about/introduction.html)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886165)
 
 
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -2854,51 +2798,51 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_policy_using_ai_developing:
   - text: |-
-      ## AI Use in Developing Manuscripts
+      ##### AI Use in Developing Manuscripts
       Many journals and publishers have developed or are considering policies surrounding the use of AI in developing or authoring manuscripts.
       You can generally find this information in the Instructions for Authors (or similar) section of the journal.
       These policies and guidelines are rapidly evolving, so be sure to check regularly for updates.
       While journal or publisher policies will always be your final determinant for whether or how you can use AI in developing your manuscript, a few best practices include:
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10052763)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_cite_ai_manuscript:
   - text: |-
-      ## Citing AI
+      ##### Citing AI
       If you are permitted to use AI in the development of your manuscript, you will need to cite the use of the tool.
       Citation standards are are still developing and evolving, so be sure to check the appropriate citation guide for guidance.
       You can visit the Libraries' guide to citation basics for general information, or explore the resources below for statements from MLA, APA, and Chicago.
       - [Citation Basics](https://guides.library.sc.edu/citation)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10052763)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_resource_available_learning_ai:
   - text: |-
-      ## Resources
+      ##### Resources
       - [Using AI to Write Scholarly Publications](https://login.pallas2.tcl.sc.edu/login?url=https://doi.org/10.1080/08989621.2023.2168535)[more...](javascript:void(0);)[less...](javascript:void(0);)
       - [Editors  Statement on the Responsible Use of Generative AI Technologies in Scholarly Journal Publishing](https://login.pallas2.tcl.sc.edu/login?url=https://onlinelibrary.wiley.com/doi/10.1002/hast.1507)[more...](javascript:void(0);)[less...](javascript:void(0);)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10052763)
 
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_example_policy_guideline_ai:
   - text: |-
-      ## Examples of Policies and Guidelines
+      ##### Examples of Policies and Guidelines
       - [The Use of Generative AI and AI-assisted Technologies in Writing for Elsevier - Policy for Book and Commissioned Content Authors](https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier)
       - [MDPI s Updated Guidelines on Artificial Intelligence and Authorship](https://www.mdpi.com/about/announcements/5687)
       - [JAMA - Guidance for Authors, Peer Reviewers, and Editors on Use of AI, Language Models, and Chatbots](https://login.pallas2.tcl.sc.edu/login?url=https://jamanetwork.com/journals/jama/fullarticle/2807956)
@@ -2906,15 +2850,15 @@ responses:
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10052763)
 
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_search_option_available:
   - text: |-
-      ### Search Options
+      ##### Search Options
       - [Find It @ USC](#section1)
       - [Textbooks](#section2)
       - [Library Webpages](#section3)
@@ -2925,35 +2869,35 @@ responses:
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
   utter_service_library_offer:
   - text: |+
-      #### Find Library Services
+      ##### Find Library Services
       We're more than just collections.
       Reserve study rooms, borrow and renew books, request Interlibrary Loan materials, use technology and [much more](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/index.php).
 
 
   utter_event_upcoming:
   - text: |-
-      # Print from your device
+      ##### Print from your device
       [Login to print](https://mobileprint.tcl.sc.edu/myprintcenter/)
       Send documents from your computer directly to library printers.
       [Need help?](https://libanswers.library.sc.edu/faq/268696)
 
-      ### Upcoming Events
-      #### Graduate Student Research ToolboxMonday, Mar.
+      ##### Upcoming Events
+      ##### Graduate Student Research ToolboxMonday, Mar.
       3, 2025See event description for more details.
       4, 2025Hollings Special Collections Library Program Room0
-      #### SCoer Award Information Session Drop InWednesday, Mar.
+      ##### SCoer Award Information Session Drop InWednesday, Mar.
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/index.php)
   utter_policy_text_analysis_licensed:
   - text: |-
-      ## Licensed Content for Text Analysis
+      ##### Licensed Content for Text Analysis
       Policies and terms of use for text and data mining of licensed products are subject to change and may be adjusted without notice.
       Many requests can be mediated through the Libraries, but you may need to negotiate directly with the vendor and pay associated costs.
       The Libraries does not pay content mining fees for researchers.
       The following list is representative of vendor policies but is not exhaustive.
 
       [Learn more here](https://guides.library.sc.edu/text-analysis/content)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -2973,47 +2917,47 @@ responses:
 
   utter_federal_legal_response_ai:
   - text: |-
-      ## Federal and Legal AI Responses
+      ##### Federal and Legal AI Responses
       - [Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/)
       - [LAYING DOWN HARMONISED RULES ON ARTIFICIAL INTELLIGENCE (ARTIFICIAL INTELLIGENCE ACT) AND AMENDING CERTAIN UNION LEGISLATIVE ACTS](https://artificialintelligenceact.eu/the-act/)
       - [The State of State AI Laws: 2023](https://epic.org/the-state-of-state-ai-laws-2023/)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10053229)
 
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_resource_copyright_ai:
   - text: |-
-      ## Copyright and AI
+      ##### Copyright and AI
       - [Federal Court Rules Work Generated by Artificial Intelligence Alone Is Not Eligible for Copyright Protection](https://www.klgates.com/Federal-Court-Rules-Work-Generated-by-Artificial-Intelligence-Alone-Is-Not-Eligible-for-Copyright-Protection-8-30-2023)
       - [Artificial Intelligence and Copyright](https://www.federalregister.gov/documents/2023/08/30/2023-18624/artificial-intelligence-and-copyright)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10053229)
 
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_guidance_university_college_provide:
   - text: |-
-      ## Example Univesity/College Guidance Statements
+      ##### Example Univesity/College Guidance Statements
       Like us, most universities and colleges are seeking to develop appropriate guidance regarding the use of AI and generative AI products.
       Here are examples of some institutional statements.
       These are offered as examples for awareness, not for advocacy of any particular perspective or recommendation.
       - [UC Berkeley - Appropriate Use of Generative AI Tools](https://oercs.berkeley.edu/privacy/privacy-resources/appropriate-use-generative-ai-tools)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10053229)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_citation_style_guide:
   - text: |2-
@@ -3026,7 +2970,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/citation)
   utter_need_cite_source:
   - text: |-
-      ## When and Why to Cite
+      ##### When and Why to Cite
       You should also provide documentation for any statistics or facts that are not considered common knowledge.
       - Avoid charges of plagiarism
       - Give credit to the original author or creator
@@ -3046,7 +2990,7 @@ responses:
 
   utter_contact_library_textbook_course:
   - text: |+
-      # Contact Us
+      ###### Contact Us
       Visit the Checkout Desk on the Main Level of Thomas Cooper Library or contact us.
       803-777-3145 Email: [ereserve@mailbox.sc.edu](mailto:ereserve@mailbox.sc.edu) For questions about textbooks and materials for music courses, contact the [Music Library](https://sc.edu/about/offices_and_divisions/university_libraries/browse/music_library/index.php).
       803-777-5139 [musiclib@mailbox.sc.edu](mailto:musiclib@mailbox.sc.edu)
@@ -3055,14 +2999,14 @@ responses:
 
   utter_event_offered_constellate:
   - text: |-
-      ## Constellate Events
+      ##### Constellate Events
       JSTOR's [Constellate ](https://constellate.org/events)offers events through out the year,  Some upcoming events include:
       - Wat Can you Do with Word Counts (Sept.
       13)
       - Introduction to Language Models (Sept.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886483)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3074,14 +3018,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_tutorial_available_text_analysis:
   - text: |-
-      ## Tutorials
+      ##### Tutorials
       - [Blei, David (2012) Modeling Science: Dynamic Topic Models of Scholarly Research. GoogleTalks Archive YouTube Video](https://www.youtube.com/watch?v=7BMsuyBPx90)
       - [Hermenuti.ca](http://hermeneuti.ca/)
       - [Mimno, David. (2012) Topic Modeling MITH Workshop on Topic Modeling Vimeo Video](https://vimeo.com/53080123)
       - [Programming Historian Tutorials](https://programminghistorian.org/en/lessons/)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886483)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3093,7 +3037,7 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_instruction_article_available_text:
   - text: |-
-      ## Instructions and Articles
+      ##### Instructions and Articles
       - [Brett, Megan.(Winter 2012) Topic Modeling, A Basic Introduction. Journal of Digital Humanities. Vol 2, No.1](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/)
       - [Gavin, Michael. (2023) Literary Mathematics](https://literarymathematics.org/)
       - [Posner, Miriam, (2012) Very basic strategies for interpreting results from the Topic Modeling Tool, Miriam Posner's Blog](https://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/)
@@ -3102,7 +3046,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886483)
 
 
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3134,7 +3078,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/citation/ama)
   utter_apa_publication_manual:
   - text: |+
-      ## Publication Manual of the APA 7th ed.
+      ##### Publication Manual of the APA 7th ed.
       The APA has established an editorial style, commonly used in the social and behavioral sciences, that combines in-text citations with a corresponding list of references for documenting sources.
       For specific guidance, please refer to [the APA 7 official handbook (print).](https://pascal-usc.primo.exlibrisgroup.com/permalink/01PASCAL_USCCOL/1oceqbt/alma99101024381)
 
@@ -3143,7 +3087,7 @@ responses:
 
   utter_cite_periodical_apa_style:
   - text: |-
-      ## Periodicals
+      ##### Periodicals
       (2017, January 27).
       Can dark matter vanquish controversial rival theory?
       Science, 355(6323), 337.
@@ -3154,7 +3098,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_cite_book_reference_text:
   - text: |-
-      ## Books and Reference Texts
+      ##### Books and Reference Texts
       S.
       (2018).
       How to lie with maps (3rd ed.).
@@ -3163,7 +3107,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_cite_webpage_website_apa:
   - text: |-
-      ## Webpages and Websites
+      ##### Webpages and Websites
       Tarlo, S.
       (2019, December 9).
       Experts say kids still have way too much homework.
@@ -3172,7 +3116,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_cite_government_business_technical:
   - text: |-
-      ## Government, Business, and Technical Reports
+      ##### Government, Business, and Technical Reports
       National Heart, Lung, and Blood Institute.
       (2003).
       Managing asthma: A guide for schools (NIH Publication No.
@@ -3181,7 +3125,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_cite_dissertation_thesis_apa:
   - text: |-
-      ## Dissertations and Theses - See Manual 10.6
+      ##### Dissertations and Theses - See Manual 10.6
       Bryce, M.
       S.
       (2013).
@@ -3190,7 +3134,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_cite_data_set_software:
   - text: |-
-      ## Data Sets and Software - See Manual 10.9
+      ##### Data Sets and Software - See Manual 10.9
       (2018).
       Cognitive effects of music and dance training in children (ICPSR 37080; Version V1) [Data set].
       ICPSR.
@@ -3201,7 +3145,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/citation/apa)
   utter_find_information_apa_citation:
   - text: |+
-      ## Examples of APA Citations
+      ##### Examples of APA Citations
       - [APA 7th Ed. Citation Examples](https://apastyle.apa.org/instructional-aids/reference-examples.pdf)
       - [APA Style Blog](https://apastyle.apa.org/blog)
       - [APA In-Text Citations Guidelines](https://apastyle.apa.org/style-grammar-guidelines/citations/)
@@ -3210,7 +3154,7 @@ responses:
 
   utter_chicago_manual_style:
   - text: |+
-      ## The Chicago Manual of Style (CMOS) 18th ed.
+      ##### The Chicago Manual of Style (CMOS) 18th ed.
       This guide provides examples of notes and bibliographic entries*  Chicago Manual of Style (CMOS), preferred by scholars in history, literature, and the arts.
       For additional guidance, take a look at [the CMOS 18 official handbook (online).](https://guides.library.sc.edu/citation/chicago#s-lg-box-16965191)
 
@@ -3218,7 +3162,7 @@ responses:
 
   utter_cite_primary_source_chicago:
   - text: |-
-      ## Primary Sources
+      ##### Primary Sources
       31.
       Chesnutt to George Washington Cable, February 2, 1889, in 
              ed.
@@ -3228,10 +3172,10 @@ responses:
       [Learn more here](https://guides.library.sc.edu/citation/chicago)
   utter_find_example_chicago_citation:
   - text: |+
-      ## Printable style sheets
+      ##### Printable style sheets
       - [Chicago Style 17th edition](https://guides.library.sc.edu/ld.php?content_id=38692665)
 
-      ## Examples of Chicago Citations
+      ##### Examples of Chicago Citations
       - [Chicago Manual of Style Online](https://go.openathens.net/redirector/sc.edu?url=https%3A%2F%2Fwww.chicagomanualofstyle.org%2Fbook%2Fed18%2Ffrontmatter%2Ftoc.html)
       - [Quick Citation Guide - Chicago Manual of Style 18th Ed.](https://www.chicagomanualofstyle.org/tools_citationguide.html)
       - [FAQ's - Chicago Manual of Style 18th Ed.](https://www.chicagomanualofstyle.org/qanda/latest.html)
@@ -3245,16 +3189,16 @@ responses:
 
   utter_example_project_use_digital:
   - text: |-
-      ## USC Related Work
+      ##### USC Related Work
       - [Gavin, Michael. (2023) Literary Mathematics](https://literarymathematics.org/)
       - [On the Books: Jim Crow and Algorithms of Resistance](https://onthebooks.lib.unc.edu/)[more...](javascript:void(0);)[less...](javascript:void(0);)
 
-      ## Example Projects
+      ##### Example Projects
       - [Blevins, Cameron. (April 2010) Topic Modeling Marth Ballard's Diary. Blog Post](http://www.cameronblevins.org/posts/topic-modeling-martha-ballards-diary/)
       - [Block, Sharon. (January 2006) Doing More with Digitization. Common Place. Vol.6 No.2](http://commonplace.online/article/doing-more-with-digitization/)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886548)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3273,11 +3217,11 @@ responses:
       - [Computer Vision (b1, b2) :](https://www.youtube.com/watch?v=puB-4LuRNys)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10019571)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_concept_related_generative_ai:
   - text: |2-
@@ -3288,15 +3232,15 @@ responses:
       - [Transformers:](https://www.youtube.com/watch?v=SZorAJ4I-sA)
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10019571)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_tip_follow_using_ai:
   - text: |-
-      ## Tips and Tricks
+      ##### Tips and Tricks
       - Cite AI usage when using to edit or if content is formed by generative AI
       Citing is unnecessary if used to
 
@@ -3306,7 +3250,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=410193&p=10386858)
   utter_learn_using_ai_according:
   - text: |-
-      ## General Disclaimer
+      ##### General Disclaimer
       - **Do I need to use a hanging indent for an AI citation?** Follow the original style you are following.
       But typically, yes.
       - **Am I allowed to use AI on this assignment?** Check with your professor.
@@ -3315,37 +3259,37 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=410193&p=10386858)
   utter_learn_clear_framework:
   - text: |-
-      ## The CLEAR Framework for effective AI prompts
+      ##### The CLEAR Framework for effective AI prompts
       Dr.
       Leo Lo, Dean of the College of University Libraries & Learning Sciences at the University of New Mexico, has developed a framework for effective AI prompt engineering.
       The CLEAR framework is comprised of five characteristics.
       - [The CLEAR path: A framework for enhancing information literacy through prompt engineering](https://doi.org/10.1016/j.acalib.2023.102720)Leo S.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10065331)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_learn_prompt_engineering:
   - text: |-
-      ## Prompt Engineering Defined
+      ##### Prompt Engineering Defined
       Prompt engineering is the practice of designing inputs for generative AI tools that will produce optimal outputs.
       - [12 ways to get better at using ChatGPT: Comprehensive prompt guide](https://www.businessinsider.com/how-to-use-get-better-chatgpt-ai-prompt-guide)
       - [Prompt Engineering for ChatGPT](https://www.coursera.org/learn/prompt-engineering?action=enroll)
       - [Prompt Engineering Course](https://www.youtube.com/watch?v=_ZvnD73m40o)
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10065331)
 
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_format_intext_citation_mla:
   - text: |+
-      ## MLA 9: In-text Citation
+      ##### MLA 9: In-text Citation
       (Prompt or shortened version).
       Symbols are often used in writing to describe exactly what the author intends without using overused metaphors.
       In Romeo and Juliet, the rose is used as a method of expression to show the fragility, love, and beauty of human emotions.
@@ -3353,7 +3297,7 @@ responses:
 
   utter_format_work_cited_entry:
   - text: |-
-      ## MLA 9: Works Cited
+      ##### MLA 9: Works Cited
       Prompt given prompt.
       Program Used, Day and Month of updated version.
       version #, company (ex OpenAI), date accessed.
@@ -3362,7 +3306,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=1370928&p=10133633)
   utter_additional_resource_mla_citation:
   - text: |+
-      ## Additional Resources
+      ##### Additional Resources
       - [](https://pascal-usc.primo.exlibrisgroup.com/permalink/01PASCAL_USCCOL/ena7hp/alma991026177784405618)
       - [Citation Formats: MLA 8 and 9](https://guides.library.sc.edu/citation/mla)
       - [How do I cite generative aI in MLA style? by the MLA Style Center](https://style.mla.org/citing-generative-ai/)
@@ -3371,13 +3315,13 @@ responses:
 
   utter_evaluating_resource_checklist:
   - text: |-
-      ## Additional Resources
+      ##### Additional Resources
       Evaluating Sources: Credo Reference Videos (YouTube) [3:47]
       The Facts About Fact Checking: Crash Course (YouTube) [13:55]
-      ## Evaluating Resources Checklist
+      ##### Evaluating Resources Checklist
       - [Checklist for Evaluating Web Pages](https://guides.library.sc.edu/ld.php?content_id=76915064)
 
-      #### Domain Types and What They Mean
+      ##### Domain Types and What They Mean
       When browsing websites on the internet, pay attention to the domain type at the end of a company/website link - this information can give you a good sense of what to expect from the website or what their biases might be
       - AdvocacyPurpose: influence public opinion, sell ideas
       - Business/marketingPurpose: promote or sell products
@@ -3385,7 +3329,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/evaluate)
   utter_criterion_evaluating_online_resource:
   - text: |-
-      #### Criteria 1: Authority
+      ##### Criteria 1: Authority
       - Is it clear who (organization, institution, or person) isfor the contents?
       - Is there a link to a page describing the, the nature of the company, or purpose of the sponsor?
       - Is there a way ofof the sponsor?
@@ -3394,7 +3338,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/evaluate)
   utter_resource_available_understanding_medium:
   - text: |+
-      ## Media Bias
+      ##### Media Bias
       - [Interactive Media Bias Chart](https://adfontesmedia.com/interactive-media-bias-chart/)
       - [Why Are We Still Listening To Mainstream News? (Medium, 2020)](https://medium.com/indian-thoughts/why-are-we-still-listening-to-mainstream-news-ad8f9b901ad2)
       - [Why do billionaires want to own the news? (BBC News, 2018)](https://www.bbc.com/news/business-45550747)
@@ -3412,42 +3356,42 @@ responses:
       I am trained on a massive amount of text data, and I am able to communicate and generate human-like text in response to a wide range of prompts and questions.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10019175)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_ai_art_generator_work:
   - text: |-
-      ## Generative AI Image/Art generators
+      ##### Generative AI Image/Art generators
       The goal of an AI art generator is to take a text prompt and turn it into an image that represents the prompt.
       Comparable to LLMs (large language models), art generators use vast image-text pair content models to discern and learn image meanings and characteristics.
       Ultimately, they render a resulting image using either a diffusion model or generative adversarial networks (GANS).
       Unlike the major generative AI chatbots, most generative AI art generators have limited or no free access.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10019175)
-      ##### Contact AI and Data Science
+      ###### Contact AI and Data Science
       [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
       AI/Data Science Specialist  
       803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)
+      [vandana@sc.edu](mailto:vandana@sc.edu)  
       [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_attribute_ai_research:
   - text: |-
-      ## AI Attribution
+      ##### AI Attribution
       According to the [APA official blog](https://apastyle.apa.org/blog/how-to-cite-chatgpt), if using AI for editing, data visualization, or other uses, the user should attribute it in the following ways:
       - Reference the use and the scenario in the Introduction or Methods section of your paper
       - If you are quoting from an AI tool directly, provide the prompt and any text quotedSee[Parenthetical Citation](https://sc.libapps.com/libguides/admin_c.php?g=1370928&p=10133636#s-lg-box-31978749)or[Narrative Citation](https://sc.libapps.com/libguides/admin_c.php?g=1370928&p=10133636#s-lg-box-31978750)for examples
       - Include a citation in the Reference section or Sources Cited section of the paperSee the[Reference List](https://sc.libapps.com/libguides/admin_c.php?g=1370928&p=10133636#s-lg-box-31978756)section for an example
 
-      ## APA 7: Parenthetical citation
+      ##### APA 7: Parenthetical citation
       (Company, Year).
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1370928&p=10133636)
   utter_format_footnote_citation_chicago:
   - text: |-
-      ## Chicago 17: Author-date
+      ##### Chicago 17: Author-date
       (Program, Month Day, Year).
       Before the industrial era, paper could be made out of cotton or hemp by the way of pulping the fibers before mixing the materials with water to then press and dry the fibers into sheets (ChatGPT, May 18, 2023).
       Text generated by Program, Company, Month Day, Year, https://chat.openai.com/chat.
@@ -3456,7 +3400,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=1370928&p=10133625)
   utter_additional_resource_available_chicago:
   - text: |+
-      ## Additional Resources
+      ##### Additional Resources
       - [](https://pascal-usc.primo.exlibrisgroup.com/permalink/01PASCAL_USCCOL/ena7hp/alma991027565744305618)
       - [Chicago/Turabian Citation Guide](http://guides.library.sc.edu/citation/chicago)
       - [Chicago Manual of Style Online](https://go.openathens.net/redirector/sc.edu?url=https%3A%2F%2Fwww.chicagomanualofstyle.org%2Fbook%2Fed18%2Ffrontmatter%2Ftoc.html)
@@ -3468,7 +3412,7 @@ responses:
       View services offered by digital scholarship including our guides on [Digital Scholarship](https://guides.library.sc.edu/digitalscholarship), [Content Mining](https://guides.library.sc.edu/c.php?g=1341033), [Web Hosting](https://usccreate.org//), [Journal hosting](https://guides.library.sc.edu/scholarcommons/new), [Digital collections](https://sc.edu/about/offices_and_divisions/university_libraries/browse/digital_collections/index.php) and more.  
 
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3480,14 +3424,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_see_example_digital_scholarship:
   - text: |-
-      ## Examples of Digital Scholarship
+      ##### Examples of Digital Scholarship
       - [Digital Project Showcase from USC](https://www.sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
       - [Gamer Theory](http://www.futureofthebook.org/mckenziewark/)
       - [Gossamar Network](https://gossamernetwork.com/)
       - [Keweenaw Time Traveler](https://www.keweenawhistory.com/)
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3499,33 +3443,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_text_mining:
   - text: |-
-      ## What is It?
+      ##### What is It?
       Text mining is a subset of data mining, using computational methodes to study natural languages as unstructured data sets.
       It can allow you to explore connections between words and topics.
       It can be large blocks of text, not in a table or database.
       This research method is increasing in use, but should not be done alone.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033)
-      ##### Contact Digital Scholarhip
-      [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
-      Director of Digital Research Services  
-      803-777-2249  
-      [boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)  
-
-      [Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
-      Assistant Head, Acquisitions & Scholarly Communication  
-      803-777-8280  
-      [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
-  utter_term_related_text_mining:
-  - text: |-
-      ## Terminology
-      Content Mining is the overall concept of pulling together into one place a large corpus of text, data, or images from various sources and running scripts on them to answer a research question.
-
-      - [Text Mining](https://en.wikipedia.org/wiki/Text_mining)is a research technique using computational analysis to uncover patterns in large text-based data sets.
-      (Wikipedia)
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1341033)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3537,14 +3462,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_get_started_text_mining:
   - text: |-
-      ## Getting Started
+      ##### Getting Started
       - What is your **research question**?
       - Pull together a **team** of support: librarians, computer programmers, statisticians are on campus and here to help.
       - These projects take **time** to pull together and perform.
       Make sure you have this, especially for preparing the data.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3556,7 +3481,7 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_create_open_access_journal:
   - text: |-
-      ## Create and Manage Open Access Journals
+      ##### Create and Manage Open Access Journals
       The University of South Carolina Libraries offers software and support for the creation and management of open access journals.
       The library uses [Digital Commons software to host journals](https://www.bepress.com/reference_guide_dc/managing-publishing-journals/).
       Benefits of using this software include support for all types of content, search engine optimization, access to detailed analytics, and flexible peer-review workflows.
@@ -3565,7 +3490,7 @@ responses:
       [Learn more here](https://www.bepress.com/reference_guide_dc/managing-publishing-journals/)
   utter_detail_consider_creating_open:
   - text: |-
-      ## Details
+      ##### Details
       - Is this title already in use?
       Check [WorldCat](https://www.worldcat.org/) and [Ulrichsweb](https://login.pallas2.tcl.sc.edu/login?url=http://www.ulrichsweb.serialssolutions.com) to confirm that the title is available.
       Make sure that the title is clear and can be abbreviated.
@@ -3574,14 +3499,14 @@ responses:
       [Learn more here](https://www.bepress.com/reference_guide_dc/managing-publishing-journals/)
   utter_role_needed_manage_open:
   - text: |-
-      ## Managing Open Access Journals
-      - Who will serve as journal manager, the person who is primarily responsible for this journal during the planning stages and after the journal has launched?You will likely need a managing editor to create and publish journal issues, monitor submissions, and assign peer-reviewers.
+      ##### Managing Open Access Journals
+      - Who will serve as journal manager, the person who is primarily responsible for this journal during the planning stages and after the journal has launched? You will likely need a managing editor to create and publish journal issues, monitor submissions, and assign peer-reviewers.
       You may  need section editors to manage specific articles.
       Additionally, you will need production staff who handle tasks such as copyediting, layout, and proofing.
       You'll also likely need an editorial board, authors, and reviewers.While there certainly can be overlap in these roles (for example, you may choose to ask your editorial board to act as reviewers or content shepherds) and you don't necessarily need to have names in place to start the journal creation process, keep in mind tht these roles will continue to be necessary throughout the life of the journal.
 
       [Learn more here](https://guides.library.sc.edu/scholarcommons/new)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3593,14 +3518,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_policy_established_open_access:
   - text: |-
-      ## Policies
+      ##### Policies
       - How will submitted manuscripts be considered for inclusion?
       How will manuscripts be checked for plagiarism and/or copyright violations?
 
       - What kind of review will each submission require?
 
       [Learn more here](https://guides.library.sc.edu/scholarcommons/new)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3612,13 +3537,13 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_attribution_work:
   - text: |-
-      ## Attribution
+      ##### Attribution
       Parts of this work are derived from [Creating a New OJS Journal: Decisions](http://libguides.bc.edu/ld.php?content_id=42736086) created by Boston College Libraries, which is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license](https://creativecommons.org/licenses/by-nc-sa/3.0/).
       This page is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license](https://creativecommons.org/licenses/by-nc-sa/3.0/).
       [Learn more here](https://guides.library.sc.edu/scholarcommons/new)
 
 
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3630,14 +3555,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_consider_planning_digital_scholarship:
   - text: |-
-      ## Plan your Project
+      ##### Plan your Project
       Creating digital scholarship can take years of research, planning, and coordination, which is why it's important to create a project plan and timeline as early as possible.
       While your plan may evolve and need to be updated over time, it's a good idea to use it as a guide to stay organized.
       Here are some factors to consider:
       - What is the primary purpose of your project?
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/projects)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3649,7 +3574,7 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_see_example_digital_project:
   - text: |-
-      ## Digital Projects Showcase
+      ##### Digital Projects Showcase
 
       - [Biological Anthropology 161](https://anth161.goldberg.uofsccreate.org/)  
       Dr.
@@ -3657,7 +3582,7 @@ responses:
 
 
       [Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3676,7 +3601,7 @@ responses:
       The web site offers Tutorials in the top right link on Beginner Python Lessons and Intermediate Text Analysis.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3688,14 +3613,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_hathitrust_research_center_access:
   - text: |-
-      ## HathiTrust Research Center (USC login required)
+      ##### HathiTrust Research Center (USC login required)
       Supported by Indiana University and University of Illinois at Urbana-Champaign, HathiTrust Research Center (HTRC) enables computational analysis of works in the HathiTrust Digital Library (HTDL) to facilitate non-profit research and educational use of the collection.
       As institutional members of [HathiTrust](https://www.hathitrust.org/), Columbia faculty and students have access to the HathiTrust Research Center.
       To access this portal, you must first Login to HathiTrust using your USC network id.
       Once signed in, you can read about the [HathiTrust Research Center here](https://www.hathitrust.org/member-libraries/services-programs/htrc/).
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3707,13 +3632,13 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_track_impact_research:
   - text: |-
-      ### Using Scholar Commons to Assess Your Research Impact
+      ##### Using Scholar Commons to Assess Your Research Impact
       After adding your research to Scholar Commons, you’ll have access to useful insights into the ways that others are using your research.
       In [this video](https://www.youtube.com/watch?v=D29l_Zvmovg&t=12s), learn how to use the Author Dashboard to understand the reach and impact of your scholarly works.
       [Learn more here](https://guides.library.sc.edu/scholarcommons/impact)
 
 
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3732,7 +3657,7 @@ responses:
       USC Create Digital allows you to manage all of your digital scholarship projects from one location.
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/webhosting)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3751,7 +3676,7 @@ responses:
       To request additional storage, please [fill out the request form](https://sc.libwizard.com/f/CDstorage).
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/webhosting)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3770,7 +3695,7 @@ responses:
       - [Installing Omeka](https://guides.library.sc.edu/digitalscholarship/webhosting#InstallingOmeka)
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/webhosting)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3782,14 +3707,12 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_digital_tool_available_project:
   - text: |-
-      ## Digital Tools
-      You've [picked your CMS](http://guides.library.sc.edu/digitalscholarship/cms).
-      Now, it's time to create content for your site.
-      You'll likely need a number of digital tools to build your vision.
-      Here are some areas you might consider when developing your website and an explanation of some of the tools available to move your project from dream to reality.
+      ##### Digital Tools
+      Before moving forward, make sure you've [picked your CMS](http://guides.library.sc.edu/digitalscholarship/cms). You'll likely need a number of digital tools to build your vision.  
+      [Here](https://guides.library.sc.edu/digitalscholarship/tools) are some areas you might consider when developing your website and an explanation of some of the tools available to move your project from dream to reality.
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3801,14 +3724,16 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_timeline_tool_available:
   - text: |-
-      ## Timeline Tools
-      - [TimelineJS](https://timeline.knightlab.com/)A customizable open source tool to create visually appealing, interactive timelines.
+      ##### Timeline Tools
+      - [TimelineJS](https://timeline.knightlab.com/)  
+      A customizable open source tool to create visually appealing, interactive timelines.  
       Users can build timelines using Google sheets or JSON files and can incorporate media from sources such as Twitter, Flickr, YouTube, Vimeo, Soundcloud, and more.
-      Example:[Revolutionary User Interfaces](https://timeline.knightlab.com/examples/user-interface/index.html)
-      - [TimeMapper](http://timemapper.okfnlabs.org/)An easy-to-use open source tool that uses Google sheets to create timelines and maps.
+      Example: [Revolutionary User Interfaces](https://timeline.knightlab.com/examples/user-interface/index.html)
+      - [TimeMapper](http://timemapper.okfnlabs.org/)  
+      An easy-to-use open source tool that uses Google sheets to create timelines and maps.
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3820,14 +3745,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_mapping_tool_available:
   - text: |-
-      ## Mapping Tools
+      ##### Mapping Tools
       - [Open Street Map](https://www.openstreetmap.org/#map=11/41.4499/-81.5199)
       - [QGIS](https://www.qgis.org/en/site/)An open source geographic information system (GIS).
       QGIS allows users to visualize, manage, edit, analyse data, and compose printable maps.[Examples](https://www.flickr.com/groups/qgis/pool/)
       - [StoryMapJS](https://storymap.knightlab.com/)A free, user-friendly tool that allows you to tell media-rich, location-based stories.
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3839,14 +3764,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_web_scraper_available:
   - text: |-
-      ## Web Scrapers
+      ##### Web Scrapers
       - [Data Miner](https://dataminer.io/)
       - [Google News Scraper](https://wiki.digitalmethods.net/Dmi/ToolGoogleNewsScraper)
       - [WIScker](http://cloud.tapor.ca/wiscker/)Tool to scrape previous versions of Wikipedia articles.
       WIScker is free to use.
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3858,14 +3783,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_collaboration_tool_available:
   - text: |-
-      ## Collaboration Tools
+      ##### Collaboration Tools
       A challenging part of creating digital projects is coordinating tasks and people.
       Collaboration tools can help you keep track of deadlines, discussions, tasks, and assignments.
       - [Microsoft Teams](https://www.office.com/)
       - [Slack](https://slack.com/)
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3877,10 +3802,10 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_animation_tool_available:
   - text: |-
-      ## Audio Production Tools
+      ##### Audio Production Tools
       - [Audacity](https://www.audacityteam.org/)
 
-      ## Animation Tools
+      ##### Animation Tools
       - [Explain Everything](https://explaineverything.com/)
       - [Bonsai](https://open-ephys.org/bonsai)Open source graphics library that allows users to edit code to create unique content.
       Bonsai makes creating graphic content easier for users.[Try it yourself.](http://orbit.bonsaijs.org/)
@@ -3888,7 +3813,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
 
 
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3900,7 +3825,7 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_copyright_exist:
   - text: |-
-      ## Copyright Basics
+      ##### Copyright Basics
       Information and educational tools on this website are offered to assist faculty, staff, and students of the University in making good decisions about the appropriate use of copyrighted materials.
       The Copyright Law (Title 17 of the US Code) exists to grant certain rights to content creators.
       It allows them the control over copies, derivative works, public display, public performance, and transmission of their works.
@@ -3909,7 +3834,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/copyright)
   utter_make_copyright_decision:
   - text: |-
-      ## Making Copyright Decisions
+      ##### Making Copyright Decisions
       Is the work covered by copyright or could it be part of the [Public Domain](http://guides.library.sc.edu/copyright/publicdomain)?
       Ideas, facts, processes, and concepts cannot be copyrighted.
       Works must meet a minimal level of originality to be able to be copyrighted.
@@ -3918,7 +3843,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/copyright)
   utter_type_repository_sharing_research:
   - text: |-
-      ## Types of Repositories
+      ##### Types of Repositories
       Sharing your previously published research can[ increase its visibility and reach](https://sparceurope.org/what-we-do/open-access/sparc-europe-open-access-resources/open-access-citation-advantage-service-oaca/oaca-list/).
       It's important to understand the differences in the types of repositories to determine which is most appropriate for sharing your work.
       While there is some overlap between repository types, the three main types are:
@@ -3929,7 +3854,7 @@ responses:
       [Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
   utter_version_work_share:
   - text: |-
-      ## What Can I Share?
+      ##### What Can I Share?
       It can be tricky to know which version of your work you can share.
       It's always a good idea to pay attention to your publication agreements, because they'll tell you exactly how you can legally share your works.
       But what if you don't have those agreements, or if you aren't sure which version is which?
@@ -3938,7 +3863,7 @@ responses:
       [Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
   utter_academic_social_networking_site:
   - text: |-
-      ## Social Networking
+      ##### Social Networking
       Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
       These sites are often used as social media and outreach tools.
       Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
@@ -3947,7 +3872,7 @@ responses:
       [Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
   utter_featured_repository:
   - text: |-
-      ## Featured Repositories
+      ##### Featured Repositories
       - [arXiv](https://arxiv.org/)
       - [bioRxiv](https://www.biorxiv.org/)
       - [Figshare](https://figshare.com/)
@@ -3956,7 +3881,7 @@ responses:
       [Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
   utter_create_open_educational_resource:
   - text: |-
-      ## Attribution
+      ##### Attribution
       Sections of this page have been modified from the [COERLL Module on Open Educational Resources](https://utexas.instructure.com/courses/1097558), licensed under a [CC BY 4.0 Attribution](http://creativecommons.org/licenses/by/4.0) License.
       Things to consider:
       - What license will you assign to your OER?
@@ -3965,7 +3890,7 @@ responses:
       [Learn more here](http://guides.library.sc.edu/OER/createOER)
   utter_modify_existing_open_educational:
   - text: |-
-      ## Modifying OER
+      ##### Modifying OER
       Modifying an existing OER is a a simpler way of adopting content to suit your needs than creating a new OER.
       Before modifying an OER, check that the Creative Commons license does not contain a no derivatives clause.
       If it does, you do not have permission to modify the work.
@@ -3974,13 +3899,13 @@ responses:
       [Learn more here](http://guides.library.sc.edu/OER/createOER)
   utter_create_account_scholar_common:
   - text: |-
-      ## Creating an Account in Scholar Commons
+      ##### Creating an Account in Scholar Commons
       This video will guide you through the steps of creating an account with Scholar Commons, the institutional repository of the University of South Carolina.
       In this video, learn how to use the Author Dashboard to understand the reach and impact of your scholarly works.
       [Learn more here](https://guides.library.sc.edu/scholarcommons/tutorials)
 
 
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -3992,7 +3917,7 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_content_management_system_available:
   - text: |+
-      ## Content Management Systems
+      ##### Content Management Systems
       - [Drupal](https://www.drupal.org/)
       - [Omeka](https://omeka.org/)
       - [Scalar](https://scalar.me/anvc/)Scalar is an open source platform that specializes in book-length digital scholarship.
@@ -4000,7 +3925,7 @@ responses:
 
   utter_select_suitable_content_management:
   - text: |-
-      ## Selection Criteria
+      ##### Selection Criteria
       Selecting a CMS may seem like a simple task, but picking a CMS that is suitable is critical for the success of the project.
       Viewing tutorials and reviewing documentation in advance of your selection will help you to understand both the technical expertise necessary to administer your project and to decide if the CMS offers the tools needed to showcase your work.
       Need help selecting a CMS?[ Reach out to us for assistance!](mailto:boydkf@mailbox.sc.edu?subject=CMS%20help)
@@ -4008,7 +3933,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/cms)
 
 
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -4020,7 +3945,7 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_web_archiving:
   - text: |-
-      ## Web Archiving
+      ##### Web Archiving
       Web archiving allows researchers and others to capture and store collections of web content for preservation purposes.
       There are many tools and services that make web archiving possible.
       Some are available to individuals at no or low cost, while others are primarily used by organizations and institutions.
@@ -4028,7 +3953,7 @@ responses:
       Creates an archival record of pages as they are browsed, including dynamic content triggered by interactions.
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/webarchiving)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -4040,7 +3965,7 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_type_work_copyrighted:
   - text: |-
-      ## What Can Be Copyrighted?
+      ##### What Can Be Copyrighted?
       Not everything created can be copyrighted.
       One important aspect of copyright law throughout history is that ideas and facts cannot be copyrighted.
       For example, you may write a book about capitalism.
@@ -4049,7 +3974,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/copyright/publicdomain)
   utter_public_domain:
   - text: |-
-      ## What is the Public Domain?
+      ##### What is the Public Domain?
       A work in the public domain is not protected by copyright.
       The public domain is important to us as a culture.
       Allowing people to create using other people's ideas and works helps us remain an innovative and progressive society.
@@ -4058,7 +3983,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/copyright/publicdomain)
   utter_additional_resource_available_learning:
   - text: |-
-      ## Additional Resources
+      ##### Additional Resources
       - [Copyright Genie](http://librarycopyright.net/resources/genie/index.php)
       - [Copyright Renewal Database](https://exhibits.stanford.edu/copyrightrenewals)
       - [Copyright Renewals List](http://onlinebooks.library.upenn.edu/cce/)
@@ -4067,7 +3992,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/copyright/publicdomain)
   utter_statutory_exemption_copyright:
   - text: |-
-      ## Statutory Exemptions
+      ##### Statutory Exemptions
       Like most of the statutes, it applies only to certain types of works, and only under certain circumstances.
       This important exception allows libraries to lend materials and stores to sell books.
       The Supreme Court addressed this exception in the [Kirtsaeng](http://copyright.columbia.edu/copyright/2013/03/20/the-kirtsaeng-decision-copyright-logic-and-libraries/) decision, holding that the ‘first sale’ doctrine applies to copies of a copyrighted work lawfully made abroad.
@@ -4076,7 +4001,7 @@ responses:
       [Learn more here](http://guides.library.sc.edu/copyright/exceptions)
   utter_licensing_apply_using_content:
   - text: |+
-      ## Licensing
+      ##### Licensing
       In some circumstances, a may be covered by a license that would allow you to use it in certain ways.
       Content licensed under certain Creative Commons licenses can be used freely for classroom teaching at the University of South Carolina.
       - [Creative Commons Search](https://search.creativecommons.org/)
@@ -4085,7 +4010,7 @@ responses:
 
   utter_library_database_use_them:
   - text: |-
-      ## Library Databases
+      ##### Library Databases
       The University of South Carolina subscribes to hundreds of databases on many subjects for you to use for research and teaching.
       You are welcome to provide links to these resources, although in many cases, downloading and reposting is prohibited.
       Copyright law and the University contractual license agreements govern the access, use, and reproduction of most of the University Libraries' electronic databases.
@@ -4094,7 +4019,7 @@ responses:
       [Learn more here](http://guides.library.sc.edu/copyright/licensing)
   utter_acceptable_us_librarylicensed_resource:
   - text: |-
-      ### Acceptable uses
+      ##### Acceptable uses
       - Print, download, or quote limited amounts of information (with proper attribution)
       - Email an article to another current University faculty, student, or staff member (unless this practice is specifically forbidden by the license)
       - Create a link to an article on a publisher's website.
@@ -4103,7 +4028,7 @@ responses:
       [Learn more here](http://guides.library.sc.edu/copyright/licensing)
   utter_fair_use:
   - text: |-
-      ## Fair Use Basics
+      ##### Fair Use Basics
       One of the limitations on copyright is the Fair Use doctrine, which can be found in [section 107 of the copyright law](https://www.law.cornell.edu/uscode/text/17/107).
       This broad and flexible doctrine provides instances for when using copyrighted material may be deemed fair.
       Each of the four factors must be weighed in determining if fair use applies:
@@ -4112,9 +4037,9 @@ responses:
       [Learn more here](http://guides.library.sc.edu/copyright/fairuse)
   utter_resource_help_determine_fair:
   - text: |-
-      ## Fair Use for Students
+      ##### Fair Use for Students
       - [Fair Use in a Day in the Life of a College Student](https://guides.library.sc.edu/ld.php?content_id=19742476)
-      ## Fair Use Checklist Examples
+      ##### Fair Use Checklist Examples
       There are many Fair Use checklists developed that have been developed by U.S.
       universities.
       These may be useful in helping you determine whether your intended use of a work is fair.
@@ -4123,25 +4048,16 @@ responses:
       [Learn more here](http://guides.library.sc.edu/copyright/fairuse)
   utter_need_permission_use_copyrighted:
   - text: |-
-      ## You May Not Need Permission If....
-      - your use is within[fair use](http://guides.library.sc.edu/aecontent.php?pid=441641&sid=3630697)or another copyright exception;
-
-      - the work is[not protected](http://guides.library.sc.edu/aecontent.php?pid=441641&sid=3629780)by copyright at all; or
-
-
-      [Learn more here](http://guides.library.sc.edu/copyright/permission)
-  utter_seek_permission_use_copyrighted:
-  - text: |-
-      ## Seeking Permission
-      If none of the circumstances above apply, you may still be able to use the work if you seek permission.
-      Seeking copyright permission can be difficult but necessary work.
-      If you're interested in seeking permission, these are the steps you'll need to take:
-      - Identify the copyright owner
+      You may not need copyright permission if:
+      - your use is within[fair use](http://guides.library.sc.edu/aecontent.php?pid=441641&sid=3630697) or another copyright exception;  
+      - the work is[not protected](http://guides.library.sc.edu/aecontent.php?pid=441641&sid=3629780) by copyright at all; or
+      - your use is within the terms of a license agreement, including a [Creative Commons license](https://creativecommons.org/) from the author; or
+      - the library has already [purchased a license](https://guides.library.sc.edu/c.php?g=410347&p=2795301) so you can link to the information.
 
       [Learn more here](http://guides.library.sc.edu/copyright/permission)
   utter_library_help_copyright_permission:
   - text: |+
-      ## USC Electronic Reserves
+      ##### USC Electronic Reserves
       The University Libraries will seek and will sometimes pay reasonable permissions fees for items used for teaching in Blackboard.
       If you would like our help, please email your syllabus or reading list with citations to [Mark Volmer](mailto:volmerm@mailbox.sc.edu).
       Visit [Electronic Reserves at USC](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php) for more information.
@@ -4149,7 +4065,7 @@ responses:
 
   utter_different_version_article:
   - text: |-
-      ## Pre-print
+      ##### Pre-print
       Author's manuscript, original manuscript, first draft.
       [Example](https://zenodo.org/record/1197399#.WqlSPpPwbOR)
        Draft of the manuscript before formal peer-review, or the first version sent to the journal for consideration.
@@ -4159,22 +4075,18 @@ responses:
       [Learn more here](https://guides.library.sc.edu/openaccessresources/version)
   utter_find_article_version:
   - text: |-
-      ## Overview
       Archiving your research can make your work freely accessible, stops your research from being taken down, and gets you a wider audience to increase your research impact.
       But, it can be a bit tricky to know your rights and choose the right version of your work to share.
       - Search your email, computer hard drive and cloud storage
       - Contact your co-authors
 
       [Learn more here](https://guides.library.sc.edu/openaccessresources/version)
-  utter_share_article_version_online:
-  - text: |2-
-
-      Yes, if you've published in a [RoMEO green or yellow journal.](http://www.sherpa.ac.uk/romeoinfo.html) You can usually find your journal's RoMEO color at [http://www.sherpa.ac.uk/romeo/search.php](http://www.sherpa.ac.uk/romeo/search.php).
-      Yes, if you've published in a [RoMEO blue or yellow journal](http://www.sherpa.ac.uk/romeoinfo.html).
-      Blue and Yellow journals allow the author to deposit the accepted  manuscript (post-print) in a repository.
-      Subscription journals typically don't allow authors to legally share the published version of their article online unless it was published open access, but there are exceptions.
-
-      [Learn more here](https://guides.library.sc.edu/openaccessresources/version)
+  utter_ask_open_access:
+  - text: |
+      Publishing your research in open access journals or monographs is a great way to increase the visibility of your work and to preserve it for future use and discovery.  
+      Open access publications are made freely available for readers, charging no subscription fees to users or institutions. To cover publication costs, open access publishers sometimes charge author publication fees, or APCs, or receive subsidies, endowments, or sponsorships from institutions, governments, or philanthropic organizations. 
+  
+      [Learn more here](https://guides.library.sc.edu/openaccessresources/publishingoa)
   utter_vendor_allow_text_data:
   - text: |2-
 
@@ -4184,7 +4096,7 @@ responses:
       Request access from[AM's website](https://www.amdigital.co.uk/contact/text-and-data-mining).
 
       [Learn more here](https://guides.library.sc.edu/text-analysis/content)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -4196,14 +4108,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_evaluation_method_digital_scholarship:
   - text: |-
-      ## Evaluation Methods
+      ##### Evaluation Methods
       Peer evaluation is an important part of scholarly publication.
       But how should nontraditional scholarly output be evaluated?
       In this section, we'll provide brief suggestions for evaluating digital scholarship and a curated list of peer-reviewed journals that review and publish on digital scholarship or digital humanities projects.
       - Scholarship: Is the project intellectually rigorous?
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/evaluate)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -4215,14 +4127,14 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_peerreviewed_journal_available_digital:
   - text: |-
-      ## Peer Reviewed Journals
+      ##### Peer Reviewed Journals
       Find a journal to evaluate or publish on digital scholarship.
       - [dh+lib](https://dhandlib.org/)
       - [Digital Humanities Now](https://digitalhumanitiesnow.org/)
       - [Digital Humanities Quarterly](http://digitalhumanities.org:8081/dhq/)
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/evaluate)
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -4234,7 +4146,7 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_resource_help_understand_copyright:
   - text: |-
-      ## Thinking Through Copyright and Course Materials
+      ##### Thinking Through Copyright and Course Materials
       This short video will provide you with an overview of the information necessary to help you make responsible copyright determinations for course materials.
       - [17 U.S. Code Title 17 — Copyrights](https://www.law.cornell.edu/uscode/text/17)
       - [TEACH Act Toolkit](https://lib.lsu.edu/services/copyright/teach/index)
@@ -4243,7 +4155,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/copyright/moreresources)
   utter_add_course_reading_blackboard:
   - text: |+
-      ## Course Materials Support
+      ##### Course Materials Support
       Send us your syllabus to request links in Blackboard for articles, streaming videos, book chapters, ebooks and Open Educational Resources.
       We can even consider purchasing new items to support your teaching.
       Use the [Course Materials Request form](https://sc.libwizard.com/f/eReserve) for help with articles, books and films in both online and physical formats.
@@ -4251,7 +4163,7 @@ responses:
 
   utter_print_material_available_course:
   - text: |+
-      #### Textbooks
+      ##### Textbooks
       The library has a large collection of print textbooks, especially for courses with over 100 students.
       To see if the library has the textbook for your course, search by book title or course number in [Find It @ USC Libraries](https://pascal-usc.primo.exlibrisgroup.com/discovery/search?vid=01PASCAL_USCCOL:USC) under Course Reserves.
       - Print or ebooks in the library collection
@@ -4259,14 +4171,14 @@ responses:
 
   utter_contact_course_material_support:
   - text: |+
-      # Contact Us
+      ###### Contact Us
       Contact course materials support with questions or to submit requests.
       Phone : 803-777-3145
       Email : [ereserve@mailbox.sc.edu](mailto:ereserve@mailbox.sc.edu)
 
   utter_impact_open_educational_resource:
   - text: |-
-      ## OER Impact
+      ##### OER Impact
       The use of Open Educational Resources (OER) can benefit students and instructors.
       Research has shown that:
       - [The use of OER can save students money without negatively impacting learning outcomes.](https://openpraxis.org/index.php/OpenPraxis/article/view/505)
@@ -4282,7 +4194,7 @@ responses:
 
   utter_find_openly_available_research:
   - text: |-
-      ## Finding Openly Available Works
+      ##### Finding Openly Available Works
       Even if you don't have institutional access to certain research, you may be able to access an openly available version of the work.
       Here, we share tools to help you locate open access copies.
       You can use the search bar below provided by the [Open Access Button](https://openaccessbutton.org/) to search by URL, DOI, title, or citation.
@@ -4291,7 +4203,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/openaccessresources/tools)
   utter_statistic_textbook_cost:
   - text: |-
-      ## Did You Know?
+      ##### Did You Know?
       The average student should budget $1298 a year for books and supplies.
       - [College Board](https://bigfuture.collegeboard.org/pay-for-college/college-costs/quick-guide-college-costs)
       64.2% of students have chosen not to purchase a textbook because it was too expensive.
@@ -4302,7 +4214,7 @@ responses:
       [Learn more here](http://guides.library.sc.edu/OER)
   utter_determine_journal_predatory:
   - text: |-
-      ## Predatory Publishers
+      ##### Predatory Publishers
       Frequently, these publishers do not initially mention an author's fee, but may later ask for a publication fee under the guise of operating as a quality journal.
       - Closely examine the editor and staff of the journal.
       Is a single editor responsible for a large number of journals across a publisher?
@@ -4311,7 +4223,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/openaccessresources/predatory)
   utter_industry_membership_indicate_journal:
   - text: |+
-      ## Industry Memberships
+      ##### Industry Memberships
       Membership in the [Directory of Open Access Journals](https://doaj.org/) or the [Open Access Scholarly Publishers Association](http://oaspa.org/) is a good indicator that a journal is not predatory.
       You can check these sites to help you determine that the journal you are interested is legitimate.
       [Learn more here](https://guides.library.sc.edu/openaccessresources/predatory)
@@ -4321,10 +4233,10 @@ responses:
 
       Back-up and storage are related concepts, but are not the same thing.
       While storage refers to ways of preserving files for the short- or long-term, back-up refers to preserving copies of your files in different physical locations and using different media to protect against data loss.
-      
+
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=4573568)
 
-      ##### Contact Research Data Management
+      ###### Contact Research Data Management
       [Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
       Research Data Librarian  
       803-777-1968  
@@ -4332,7 +4244,7 @@ responses:
       [Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.
   utter_make_class_affordable:
   - text: |-
-      ## Making Your Class Affordable
+      ##### Making Your Class Affordable
       Many faculty members across USC have converted traditional courses to zero cost courses.
       How can you do the same?
       There's no one answer for everyone, but you can use a mix of Open Educational Resources, library-licensed resources, and items freely available or in the public domain on the web.
@@ -4341,7 +4253,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/OER/affordableclass)
   utter_support_library_offer_course:
   - text: |+
-      ## Course Materials Support
+      ##### Course Materials Support
       The library will scan library materials or find links to resources for you at no cost in Blackboard.
       We will also address copyright concerns connected to posting these materials.
       To provide this service, we need a list of the reading assignments as well as the dates of the assignments.
@@ -4349,7 +4261,7 @@ responses:
 
   utter_scoer_faculty_award:
   - text: |+
-      ## SCoer Faculty Awards
+      ##### SCoer Faculty Awards
       Check the [SCoer website](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/scoer/index.php) for information on upcoming SCoer Awards.
       - [2024 SCoer Winners](https://sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2024/scoer_winners_24.php)
       - [2023 SCoer Winners](https://sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2023/scoer_winners_23.php)
@@ -4357,7 +4269,7 @@ responses:
 
   utter_statewide_initiative_available_help:
   - text: |+
-      ## Statewide Initiatives
+      ##### Statewide Initiatives
       Learn about [statewide initiatives](http://pascalsc.libguides.com/scale/faculty) to help you adopt affordable resources offered by the Partnership Among South Carolina Academic Libraries (PASCAL).
       PASCAL is currently accepting applications for the [Professors for Affordable Learning Award](https://pascalsc.libguides.com/scale/faculty/pal).
       Learn more from the PASCAL [website](http://pascalsc.libguides.com/scale/faculty).
@@ -4365,7 +4277,7 @@ responses:
 
   utter_get_help_locating_affordable:
   - text: |+
-      ## Get Help!
+      ##### Get Help!
       We are happy to offer a syllabus review service to help you locate affordable resources.
       Please fill out the template provided in the email below:
       Email: [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu?subject=Help%20locating%20affordable%20resources&body=Name%3A%0A%0ADepartment%3A%0A%0ACourse%3A%0A%0AReading%20List%20(please%20cut%20and%20paste%20your%20reading%20list)%3A%0A%0AIs%20there%20anything%20else%20you'd%20like%20to%20let%20us%20know%3F)
@@ -4374,7 +4286,7 @@ responses:
 
   utter_find_resource_registering_project:
   - text: |-
-      ### Registration Resources
+      ##### Registration Resources
       - [Register your Project with OSF](https://help.osf.io/hc/en-us/articles/360019930893-Register-Your-Project)
       - [Tips from COS](https://cos.io/blog/10-preregistration-tips/)
       - [Submission Checklist](https://osf.io/93znh/?_ga=2.14338366.884352988.1557167302-1022953819.1557167302)
@@ -4383,10 +4295,10 @@ responses:
       [Learn more here](https://guides.library.sc.edu/c.php?g=934685&p=6738400)
   utter_open_textbook_source_available:
   - text: |-
-      ## Search Across OER Sources
+      ##### Search Across OER Sources
       [](https://oasis.geneseo.edu/advanced_search.php)
 
-      ## Open Textbooks
+      ##### Open Textbooks
       - [Open Textbook Library](https://open.umn.edu/opentextbooks/)
       - [MERLOT](https://www.merlot.org/)
       - [OER Commons](https://www.oercommons.org)
@@ -4394,7 +4306,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/OER/opentextbooks)
   utter_scoer_award:
   - text: |-
-      ## Faculty in Arts and Sciences, Education Honored with 2024 SCoer Awards
+      ##### Faculty in Arts and Sciences, Education Honored with 2024 SCoer Awards
       Posted on: June 14, 2024; Updated on: June 14, 2024
       By Leslie Haynsworth, [haynswor@mailbox.sc.edu](mailto:haynswor@mailbox.sc.edu)
       The SCoer Awards recognize and support faculty who use open educational resources in their classrooms.
@@ -4405,21 +4317,21 @@ responses:
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2024/scoer_winners_24.php)
   utter_winner_scoer_award:
   - text: |-
-      # 2024 TRACK ONE SCOER AWARD WINNER
+      ##### 2024 TRACK ONE SCOER AWARD WINNER
       Nicola Waldron
-      # 2024 TRACK ONE SCOER AWARD WINNER
+      ##### 2024 TRACK ONE SCOER AWARD WINNER
       Toni Williams
-      # 2024 TRACK TWO SCOER AWARD WINNER
+      ##### 2024 TRACK TWO SCOER AWARD WINNER
       Leah McClimans
-      # 2024 TRACK TWO SCOER AWARD WINNER
+      ##### 2024 TRACK TWO SCOER AWARD WINNER
       Lauren Sklaroff
 
       Michael Grant
-      # 2023 SCOER Award Winner
+      ##### 2023 SCOER Award Winner
       Jin Liu
-      # 2023 SCOER Award Winner
+      ##### 2023 SCOER Award Winner
       Hengtao Tang
-      # 2023 SCOER Award Winner
+      ##### 2023 SCOER Award Winner
       Kasie Whitener
 
       Brett W.
@@ -4485,7 +4397,7 @@ responses:
 
   utter_scoer_grant_recipient:
   - text: |+
-      ### Meredith DeBoom
+      ##### Meredith DeBoom
       I am a first-generation college graduate ...
       When I began my career as an Assistant Professor at USC in Fall 2018, I made a commitment to myself that improving the inclusivity of higher education would be a priority in my career.
       Rather than walking away with an expensive textbook, I would much rather my students leave with a clear understanding of how they can apply geographic tools and theories in their careers.
@@ -4502,14 +4414,14 @@ responses:
       [Learn more here](https://www.sc.edu/about/offices_and_divisions/university_libraries/exhibits_events_news/news/2018/scoer_2018.php)
   utter_service_library_offer_faculty:
   - text: |+
-      # Faculty and Instructor Services
+      ##### Faculty and Instructor Services
       Learn about other ways that [University Libraries offers support for your teaching and research](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/index.php).
       Additional workshops and programs about teaching are offered through the [Center for Teaching Excellence](https://www.sc.edu/about/offices_and_divisions/cte/index.php).
       [Learn more here](https://guides.library.sc.edu/c.php?g=592274&p=5107061)
 
   utter_osf_free:
   - text: |-
-      ## Get a DOI
+      ##### Get a DOI
       OSF assigns DOIs for entire projects but not individual data sets within projects.
       OSF is maintained and developed by the [Center for Open Science](http://cos.io/) (COS), a 501(c)3 non-profit organization.
       COS is supported through grants from a variety of supporters, including [federal agencies, private foundations, and commercial entities](https://cos.io/about_sponsors/).
@@ -4555,7 +4467,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/OER/pedagogy)
   utter_find_open_freely_available:
   - text: |+
-      ## Open and Freely Available Case Studies
+      ##### Open and Freely Available Case Studies
       - [LearningEdge Case Studies](https://mitsloan.mit.edu/LearningEdge/Pages/Case-Studies.aspx)
       - [Open Case Studies at UBC](https://cases.open.ubc.ca/case-studies/)
       - [Oikos Free Case Collection](https://oikos-international.org/programmes/cases-program/)
@@ -4564,7 +4476,7 @@ responses:
 
   utter_open_access_journal_featuring:
   - text: |-
-      ## Open Case Studies
+      ##### Open Case Studies
       Open Case Studies can be valuable supplemental resources for your course content.
       Most Creative Commons licensed case studies can be incorporated directly into other OER for seamless reading.
       This list is not exhaustive.
@@ -4573,7 +4485,7 @@ responses:
       [Learn more here](https://guides.library.sc.edu/OER/casestudies)
   utter_access_course_material:
   - text: |+
-      # For Faculty and Instructors
+      ##### For Faculty and Instructors
       Want to make course materials available for your students?
       [Find out how the library can help](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php).
       Please check [Blackboard](https://blackboard.sc.edu/) or contact your instructor.
@@ -4588,7 +4500,7 @@ responses:
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
 
 
-      ##### Contact Digital Scholarhip
+      ###### Contact Digital Scholarhip
       [Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
       Director of Digital Research Services  
       803-777-2249  
@@ -4600,30 +4512,30 @@ responses:
       [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
   utter_resource_available_fire_modeling:
   - text: |-
-      #### Landuse and Landcover Databases
+      ##### Landuse and Landcover Databases
       - [Multi-Resolution Land Characteristics (MRLC) Consortium](https://www.mrlc.gov/)
       - [Gap Analysis Project](https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap)
 
 
-      #### Fire Modeling
+      ##### Fire Modeling
       - [LandFire](https://www.landfire.gov/)
       - [Fire Program Analysis Fire Occurrence Database (FPAFOD)](https://doi.org/10.2737/RDS-2013-0009.6)
 
       [Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
   utter_get_research_help:
   - text: |+
-      #### Support the Libraries
+      ##### Support the Libraries
       Your gift to the libraries funds learning and discovery by helping us acquire new resources, revitalize spaces, and preserve rare and historic materials.
       [Ways to Give](https://sc.edu/about/offices_and_divisions/university_libraries/support/index.php)
 
-      #### Get Research Help
+      ##### Get Research Help
       Take advantage of the expert research support our librarians provide.
       Here are all the [ways you can get help](https://sc.edu/about/offices_and_divisions/university_libraries/get_research_help/index.php)!
       [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/)
 
   utter_cite_journal_article_chicago:
   - text: |+
-      ## Websites, Blogs, and Social Media
+      ##### Websites, Blogs, and Social Media
       - For guidance on citing websites, blogs, and social media, refer to the Chicago Manual of Style.
       [Learn more here](https://guides.library.sc.edu/citation/chicago)
 

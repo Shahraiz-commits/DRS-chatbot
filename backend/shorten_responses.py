@@ -3,7 +3,6 @@ import re
 from bs4 import BeautifulSoup
 from configure_new_data import configure_domain
 from ruamel.yaml import YAML
-
 def chat_with_rasa(question, rasa_endpoint):
     payload = {"message": question}
     headers = {"Content-Type": "application/json"}
@@ -172,7 +171,22 @@ def modify_data():
             new_answer = summarize(answer["text"])
             #print("NEW ANSWER---------------------------------------------------------------------\n" + new_answer)
             configure_domain("modify", intent.replace("utter_", ""), new_answer)
-            
+
+# Changes all headers to level 6 headers
+def remove_headers():
+    yaml = YAML()
+    with open("../Chatbot/domain.yml", "r", encoding='utf-8') as file:
+        data = yaml.load(file)
+    responses = data["responses"]
+    for intent, answers in responses.items():
+        for answer in answers:
+            response = answer['text']
+            has_heading = re.match(r'^#+', response)
+            if(has_heading):
+                new_response = re.sub(r'^(#+)\s*(.*)', r'###### \2', response, flags=re.MULTILINE) # level 6 headers for all
+                #print(f"old:\n{response}\nnew:\n{new_response}")
+                configure_domain("modify", intent.replace("utter_", ""), new_response)
+    
 def main():
     #rasa_endpoint = "http://localhost:5005/webhooks/rest/webhook"
     #response = chat_with_rasa("ai services", rasa_endpoint)
@@ -190,7 +204,7 @@ Below are some examples of resources that you can use to find business resources
     #print(f"\nSUMMARIZED----------------------------------------\n{summarize(response)}")
     #print(chr(sum(range(ord(min(str(not()))))))) # Prints among us character ඞ
     
-    modify_data()
-
+    #modify_data()
+    #remove_headers()
 if __name__ == "__main__":
     main()
