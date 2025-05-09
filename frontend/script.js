@@ -22,6 +22,8 @@ const sidebarToggleBtn = document.getElementById("sidebarToggleBtn");
 const LOCAL_LINK = "http://localhost:5005/webhooks/rest/webhook";
 const PROD_LINK =
   "https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook";
+const KEYWORD_LINK = "https://api-sue4xaradq-ue.a.run.app/extract_keyword" // TODO: CHANGE ROUTE
+const CENSOR_LINK = "https://api-sue4xaradq-ue.a.run.app/censor_text"
 
 let userScrolling = false;
 let scrollTimeout = null;
@@ -777,10 +779,9 @@ function displayAlternativeButtons(data) {
 }
 
 // --- sendMessageToRasa ---
-function sendMessageToRasa(message) {
+async function sendMessageToRasa(message) {
   message = message?.trim();
   if (!message) return;
-
   const isIntent = message.startsWith("/");
   const isFeedbackNumber = /^[0-3]$/.test(message);
 
@@ -788,6 +789,35 @@ function sendMessageToRasa(message) {
     sender: senderID,
     message: message,
   };
+
+  // Check if the message is inappropriate
+  try {
+    const response = await fetch(CENSOR_LINK, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify({ text: message }),
+    });
+
+    if (!response.ok) {
+      throw new Error(`API network response was not ok: ${response.status} ${response.statusText}`);
+    }
+
+    const contentType = response.headers.get('content-type');
+    const data = contentType && contentType.includes("application/json") ? await response.json() : null;
+
+    if (data?.contains_profanity) {
+      const censored_text = data.censored_text;
+      lastUserQuestion = censored_text;
+      addMessageToChat(censored_text, "userMsg");
+      if (userInput) userInput.value = "";
+      scrollChatToBottom();
+      addMessageToChat("Please refrain from using inappropriate language! I'm happy to help with a rephrased question.", "botMsg");
+      return;
+    }
+
+  } catch (error) {
+    console.error("Censor fetch failed: ", error);
+  }
 
   if (!isIntent && !isFeedbackNumber) {
     lastUserQuestion = message;
@@ -847,9 +877,9 @@ function sendMessageToRasa(message) {
             // console.log("text after: " + combinedText);
             if (!combinedText.startsWith("Hi!")) {
               combinedText += "\n\n" + getContinuationText();
-              fetch("https://api-sue4xaradq-ue.a.run.app/helper_api", {
+              fetch(KEYWORD_LINK, {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
+                headers: { "Content-Type": "application/json"},
                 body: JSON.stringify({ text: message })
               })
                 .then(res => res.json())

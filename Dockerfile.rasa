@@ -1,7 +1,12 @@
-FROM rasa/rasa:3.6.21-full
+FROM rasa/rasa:3.6.21
 COPY Chatbot /Chatbot
 # Ensure Rasa runs inside the correct directory
 WORKDIR /Chatbot
+# Switch to root for installing dependencies (only for setup)
+USER root
+RUN pip install --no-cache-dir -r requirements.txt
+# Switch back to the non-root user (Rasa's default user with ID 1001)
+USER 1001
 EXPOSE 8080
 #ENTRYPOINT ["rasa"]
 CMD ["run", "--enable-api", "--cors", "*", "--port", "8080"]

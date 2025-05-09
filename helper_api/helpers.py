@@ -2,10 +2,28 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import spacy
 from spacy.lang.en.stop_words import STOP_WORDS
+from better_profanity import profanity
 
 app = Flask(__name__)
 CORS(app) # Allow all origins
-@app.route("/helper_api", methods=["POST", "OPTIONS"])
+
+@app.route('/censor_text', methods=['POST', 'OPTIONS'])
+def censor_text():
+    """Censors a given text and its modified spellings using character matching"""
+    if request.method == "OPTIONS":
+        response = app.make_default_options_response()
+        headers = {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'POST, OPTIONS',
+            'Access-Control-Allow-Headers': 'Content-Type'
+        }
+        response.headers.update(headers)
+        return response
+    data = request.get_json()
+    text = data.get("text", "")
+    profanity.load_censor_words()
+    return jsonify({"contains_profanity":profanity.contains_profanity(text), "censored_text":profanity.censor(text)})
+@app.route("/extract_keyword", methods=["POST", "OPTIONS"])
 def get_relevant_keyword():
     """Returns the most relevant noun keyword in a given string"""
     if request.method == "OPTIONS":

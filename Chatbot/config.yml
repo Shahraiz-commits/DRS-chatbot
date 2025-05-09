@@ -39,7 +39,7 @@ pipeline:
 - name: LexicalSyntacticFeaturizer
 - name: RegexFeaturizer # Useful for patterns like phone nums, emails etc.
 - name: DIETClassifier
-  epochs: 100
+  epochs: 200
   constrain_similarities: true
   batch_size: [64, 128] # Lower this range if low on memory
   learning_rate: 0.001

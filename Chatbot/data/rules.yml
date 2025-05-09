@@ -1620,11 +1620,6 @@ rules:
   - intent: library_help_copyright_permission
   - action: utter_library_help_copyright_permission
 
-- rule: Answer different_version_article
-  steps:
-  - intent: different_version_article
-  - action: utter_different_version_article
-
 - rule: Answer ask_open_access
   steps:
   - intent: ask_open_access
@@ -1694,11 +1689,6 @@ rules:
   steps:
   - intent: determine_journal_predatory
   - action: utter_determine_journal_predatory
-
-- rule: Answer industry_membership_indicate_journal
-  steps:
-  - intent: industry_membership_indicate_journal
-  - action: utter_industry_membership_indicate_journal
 
 - rule: Answer difference_backup_storage
   steps:

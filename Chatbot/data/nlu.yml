@@ -12,9 +12,9 @@ nlu:
     - [7](number)
     - [8](number)
     - [9](number)
-#- regex: number
-#  examples: |
-#    - \d
+- regex: number
+  examples: |
+    - \d
 - intent: greet
   examples: |
     - hello
@@ -30,13 +30,20 @@ nlu:
     - is the library open?
     - library hours
     - library open
+    - is library open or not
     - Library closing time
+    - tell me the library hours
+    - when will the library close
+    - is the library closing soon
+    - hours for library
+    - lib hours
     - hours
     - what time does the library close today
     - what are the opening hours for the library
     - is the library open tomorrow
     - when does the library open on sundays
     - what are the opening hours of the library
+    - is the library open on weekends
 - intent: Do not answer
   examples: |-
     - How do I hack the library?
@@ -1348,6 +1355,7 @@ nlu:
     - who can assist w thesis
     - Research Help needed now!
     - how can i get help searching for sources on my topic
+    - help
 - intent: cant_access_database_workplace
   examples: |
     - Why can't I access the databases from my workplace?
@@ -1492,7 +1500,7 @@ nlu:
     - ad age regisration instructions plz
     - Having trouble loggin in to Ad Age
 - intent: library_charger_laptop_phone
-  examples: |
+  examples: |-
     - Does the library have a charger for my laptop or phone?
     - Where can I charge my phone in the library?
     - Are there free chargers available in the library?
@@ -1519,6 +1527,7 @@ nlu:
     - can i reserve a charging bank online?
     - where's the charger checkout desk?
     - borrow powerbank?
+    - I would like to know if i can rent some hardware
 - intent: library_textbook
   examples: |
     - Tell me the check out policy for textbooks?
@@ -2376,7 +2385,7 @@ nlu:
     - Need assistance with company data
     - Can't find thomson one on chrome
 - intent: thomas_cooper_library_located
-  examples: |
+  examples: |-
     - Where is the Thomas Cooper Library located?
     - location
     - google maps library
@@ -2405,6 +2414,7 @@ nlu:
     - Cooper lib parking info
     - Where can I find a map of USC libraries?
     - Is there a parking garage near the library?
+    - where can i find the library
 - intent: center_teaching_excellence_cte
   examples: |
     - Where is the Center for Teaching Excellence (CTE)?
@@ -3293,6 +3303,7 @@ nlu:
     - How do I search for articles by a specific USC author?
     - What is Scholar Commons?
     - How to access repository?
+    - repository
 - intent: set_link_usc_content
   examples: |-
     - How do I set up links to USC content in Google Scholar?
@@ -3587,10 +3598,14 @@ nlu:
     - What kind of data visualization support is offered?
     - Are there data visualization workshops?
     - Where is DataLab?
+    - I need to create a dashboard displaying data
+    - I need help creating a charts for my dissertation, can you help me?
 - intent: get_data_visualization_help
   examples: |-
     - How can I visualize my research data?
     - data visualization help
+    - need to create a dashboard displaying data
+    - How do i create a bar chart
     - help data visz
     - Where can I get help with data viz?
     - Can the library assist with data visualization?
@@ -3854,6 +3869,7 @@ nlu:
     - I need help with SAS, who can I ask?
     - Does the library support RStudio?
     - Where can I get Python help on campus?
+    - how do i go about learning python
     - Is SQL tutoring available at USC?
     - help with research data
     - Who can help me with software installation?
@@ -3883,6 +3899,10 @@ nlu:
     - Is there a cost for your services?
     - R studio
     - Can someone help me with doing analysis in R for my thesis?
+    - where can i get statistics help
+    - MATLAB help
+    - can you tell me about MATLAB
+    - where can i get SPSS help
 - intent: What_is_NVivo
   examples: |-
     - What is NVivo?
@@ -4687,6 +4707,7 @@ nlu:
     - What are the best practices for data viz?
     - What are the principles of data viz?
     - Can I get help designing interactive dashboards or visualizations
+    - designing visualizations
 - intent: resource_available_finding_criminal
   examples: |
     - What resources are available to find criminal justice statistics?
@@ -4874,6 +4895,7 @@ nlu:
     - What data viz tool should I use?
     - How to choose a data visualization tool?
     - data viz tool help
+    - data visualization tools
 - intent: spreadsheet_software_use_data
   examples: |
     - What spreadsheet software can I use for data visualization?
@@ -4905,8 +4927,8 @@ nlu:
 - intent: data_visualization_software_available
   examples: |-
     - What data visualization software is available?
-    - Tell me the best data visualization software available?
     - Tell me the best data visualization software?
+    - Does the library have a data visualization tool we can use?
     - Does the library provide access to paid tableau
     - Does the library have tableau?
     - What visualization software is available at USC?
@@ -5696,6 +5718,7 @@ nlu:
     - Why funders want me to have a DMP
     - Why is data management important?
     - data management plan need help
+    - dmp help?
 - intent: What_is_DMPtool
   examples: |-
     - What is DMPtool?
@@ -5728,9 +5751,13 @@ nlu:
     - how to create a data management plan
     - data management tools
     - tools for dmp
+    - data management plan tool
 - intent: osf_use_it
   examples: |-
     - how to use OSF
+    - whats osf
+    - whats OSF about
+    - tell me about OSF
     - Collaboration tools for research
     - How do I share research projects?
     - Can I archive research materials online?
@@ -6294,6 +6321,10 @@ nlu:
 - intent: kind_ai_support_library
   examples: |-
     - Is there an Artificial Intelligence Institute at USC?
+    - data science
+    - what is data science
+    - data science and AI
+    - data science resources
     - AI institute
     - What is the AI institute at USC?
     - USC artificial intelligence
@@ -6377,6 +6408,8 @@ nlu:
     - Does the library offer AI assistance?
     - can somsone help with AI analysis
     - What AI and data science tools are available
+    - who can help me make my own chatbot
+    - ai help how to get
 - intent: workshop_available_ai_data
   examples: |
     - What workshops are available for AI and data science?
@@ -6602,6 +6635,7 @@ nlu:
     - ai policy usc
     - How do I know if AI is allowed in my course?
     - artificial Intelligence usage policy
+    - ethics of AI
 - intent: text_analysis
   examples: |-
     - Tell me text analysis?
@@ -6785,6 +6819,7 @@ nlu:
 - intent: machine_learning
   examples: |-
     - What is Machine Learning?
+    - I have a large dataset and would like to try machine learning, how do I get started?
     - ML
     - How does machine lreanign work
     - ML help machine learning
@@ -8260,6 +8295,7 @@ nlu:
     - Got any good books on generative ai at usc library?
     - what are some ai resources at the usc library?
     - LLMs
+    - Large language model resource
 - intent: tip_follow_using_ai
   examples: |-
     - What tips can I follow when using AI for research?
@@ -8700,6 +8736,7 @@ nlu:
     - I need help with a digital project, wheres the best place to start?
     - What kinda digital resources does USC offer?
     - Can you guys help me create an online journal?
+    - Can you tell me who can help me find recently digitized collections?
     - are there any digital collection resources available at USC?
     - how do i go about text mining?
     - Can I host a website through USC?
@@ -10215,38 +10252,6 @@ nlu:
     - Can the library help me clear copyright for a film I want to show in class?
     - Who should I contact about using copyrighted music in my course?
     - Can the library help me find alternative resources that don't require copyright permission?
-- intent: different_version_article
-  examples: |-
-    - What are the different versions of my article?
-    - can you list the different versions of my article?
-    - What is a pre-print?
-    - Define post-print
-    - preprint vs postprint
-    - What is an author accepted manuscript?
-    - What's the difference between pre and post print?
-    - draft before peer review called
-    - what is AAM in publishing
-    - version of record meaning
-    - Published version vs pre print
-    - whats a published pdf
-    - Types of manuscripts in journal
-    - Explain types of drafts in research paper
-    - Preprint definition academic
-    - Post print journal branding
-    - What's the diff btw preprint & postprint?
-    - Can u explain author accepted manuscript?
-    - I need a list of all my article versions
-    - Wut is a pre-print vs post-print?
-    - Define version of record pls
-    - Pre & post print, whats the difference?
-    - What do u call a draft b4 peer review?
-    - AAM in publishing, anyone?
-    - Can u tell me about published pdfs?
-    - What r the types of manuscripts?
-    - What is a corrected proof?
-    - Is the author accepted manuscript the same as the final published version?
-    - Where can I find definitions of different article versions?
-    - article versions - whats the difference?
 - intent: find_article_version
   examples: |-
     - How do I find my article versions?
@@ -10285,7 +10290,7 @@ nlu:
     - Is there a database where I can archive my research papers?
     - article version - where can i find mine?
 - intent: ask_open_access
-  examples: |
+  examples: |-
     - What is open access publishing?
     - does the library cover the open access publishing fee?
     - How does publishing in open access journals help researchers?
@@ -10306,6 +10311,7 @@ nlu:
     - Does open access help preserve research for the future?
     - How does open access publishing support long-term discovery?
     - Will my research be more discoverable if I publish open access?
+    - I got an article accepted into social media + society. does the library cover the open access publishing fee?
 
 - intent: vendor_allow_text_data
   examples: |-
@@ -10690,8 +10696,6 @@ nlu:
     - how do i check the editorial board of a journal?
     - Does the journal have a physical address?
     - is the journal's website professional looking?
-- intent: industry_membership_indicate_journal
-  examples: |-
     - What industry memberships indicate a journal is not predatory?
     - How do I know if a journal is predatory?
     - What makes a journal legit?

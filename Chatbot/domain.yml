@@ -107,7 +107,6 @@ intents:
 - difference_backup_storage
 - different_part_nvivo_workspace
 - different_type_machine_learning
-- different_version_article
 - digital_scholarship_service_available
 - digital_tool_available_project
 - download_check_ebook
@@ -178,7 +177,6 @@ intents:
 - impact_open_educational_resource
 - import_data_file_nvivo
 - include_metadata
-- industry_membership_indicate_journal
 - information_needed_properly_cite
 - instruction_article_available_text
 - instructor_schedule_class_library
@@ -2530,7 +2528,7 @@ responses:
       - Be sure to review and understand the [implications](https://sc.edu/about/offices_and_divisions/student_conduct_and_academic_integrity/academic_integrity/artificial_intelligence/index.php) before choosing to use AI technologies and/or tools.
       - While our guide presents information about, and actively uses, various AI tools, the University Libraries recommend or endorse any specific AI technology and/or tool(s).
       - Check with your professor if you can use AI on your assignment. Each professor and department have different standards.  
-      
+
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979)
 
       ###### Contact AI and Data Science
@@ -3739,9 +3737,11 @@ responses:
   - text: |-
       ##### Mapping Tools
       - [Open Street Map](https://www.openstreetmap.org/#map=11/41.4499/-81.5199)
-      - [QGIS](https://www.qgis.org/en/site/)An open source geographic information system (GIS).
-      QGIS allows users to visualize, manage, edit, analyse data, and compose printable maps.[Examples](https://www.flickr.com/groups/qgis/pool/)
-      - [StoryMapJS](https://storymap.knightlab.com/)A free, user-friendly tool that allows you to tell media-rich, location-based stories.
+      - [QGIS](https://www.qgis.org/en/site/)  
+      An open source geographic information system (GIS).
+      QGIS allows users to visualize, manage, edit, analyse data, and compose printable maps. [Examples](https://www.flickr.com/groups/qgis/pool/)
+      - [StoryMapJS](https://storymap.knightlab.com/)  
+      A free, user-friendly tool that allows you to tell media-rich, location-based stories.
 
       [Learn more here](https://guides.library.sc.edu/digitalscholarship/tools)
       ###### Contact Digital Scholarhip
@@ -4054,30 +4054,28 @@ responses:
       If you would like our help, please email your syllabus or reading list with citations to [Mark Volmer](mailto:volmerm@mailbox.sc.edu).
       Visit [Electronic Reserves at USC](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php) for more information.
       [Learn more here](http://guides.library.sc.edu/copyright/permission)
-
-  utter_different_version_article:
-  - text: |-
-      ##### Pre-print
-      Author's manuscript, original manuscript, first draft.
-      [Example](https://zenodo.org/record/1197399#.WqlSPpPwbOR)
-       Draft of the manuscript before formal peer-review, or the first version sent to the journal for consideration.
-      An essay with no journal branding.
-      It is commonly a .DOCX or other text format.
-
-      [Learn more here](https://guides.library.sc.edu/openaccessresources/version)
   utter_find_article_version:
   - text: |-
       Archiving your research can make your work freely accessible, stops your research from being taken down, and gets you a wider audience to increase your research impact.
-      But, it can be a bit tricky to know your rights and choose the right version of your work to share.
-      - Search your email, computer hard drive and cloud storage
-      - Contact your co-authors
+      But, it can be a bit tricky to know your rights and choose the right version of your work to share.  
+      Most sharing policies are available through a copyright & self-archiving tool called [SHERPA/RoMEO](https://www.sherpa.ac.uk/romeo/index.php).
 
+      [Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+      Assistant Head, Acquisitions & Scholarly Communication  
+      803-777-8280  
+      [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)  
+      
       [Learn more here](https://guides.library.sc.edu/openaccessresources/version)
   utter_ask_open_access:
   - text: |
       Publishing your research in open access journals or monographs is a great way to increase the visibility of your work and to preserve it for future use and discovery.  
       Open access publications are made freely available for readers, charging no subscription fees to users or institutions. To cover publication costs, open access publishers sometimes charge author publication fees, or APCs, or receive subsidies, endowments, or sponsorships from institutions, governments, or philanthropic organizations. 
   
+      [Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+      Assistant Head, Acquisitions & Scholarly Communication  
+      803-777-8280  
+      [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)  
+      
       [Learn more here](https://guides.library.sc.edu/openaccessresources/publishingoa)
   utter_vendor_allow_text_data:
   - text: |2-
@@ -4192,6 +4190,11 @@ responses:
       You can use the search bar below provided by the [Open Access Button](https://openaccessbutton.org/) to search by URL, DOI, title, or citation.
       Sometimes, a quick title search in [Google](https://www.google.com/) or [Google Scholar](https://scholar.google.com/) will direct you to OA research.
 
+      [Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+      Assistant Head, Acquisitions & Scholarly Communication  
+      803-777-8280  
+      [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)  
+
       [Learn more here](https://guides.library.sc.edu/openaccessresources/tools)
   utter_statistic_textbook_cost:
   - text: |-
@@ -4207,19 +4210,15 @@ responses:
   utter_determine_journal_predatory:
   - text: |-
       ##### Predatory Publishers
-      Frequently, these publishers do not initially mention an author's fee, but may later ask for a publication fee under the guise of operating as a quality journal.
-      - Closely examine the editor and staff of the journal.
-      Is a single editor responsible for a large number of journals across a publisher?
-      Is there a lack of information or diversity on the editorial or review board?
+      Frequently, publishers do not initially mention an author's fee, but may later ask for a publication fee under the guise of operating as a quality journal.  
+      Membership in the [Directory of Open Access Journals](https://doaj.org/) or the [Open Access Scholarly Publishers Association](https://www.oaspa.org/) is a good indicator that a journal is not predatory. You can check these sites to help you determine that the journal you are interested is legitimate.
+
+      [Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+      Assistant Head, Acquisitions & Scholarly Communication  
+      803-777-8280  
+      [dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)  
 
       [Learn more here](https://guides.library.sc.edu/openaccessresources/predatory)
-  utter_industry_membership_indicate_journal:
-  - text: |+
-      ##### Industry Memberships
-      Membership in the [Directory of Open Access Journals](https://doaj.org/) or the [Open Access Scholarly Publishers Association](http://oaspa.org/) is a good indicator that a journal is not predatory.
-      You can check these sites to help you determine that the journal you are interested is legitimate.
-      [Learn more here](https://guides.library.sc.edu/openaccessresources/predatory)
-
   utter_difference_backup_storage:
   - text: |2-
 

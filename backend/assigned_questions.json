@@ -22,8 +22,7 @@
         "do u guys have SPSS"
     ],
     "What_is_DMPtool": [
-        "data management tools",
-        "tools for dmp"
+        "data management plan tool"
     ],
     "contact_help_research_data": [
         "Who can help me with cleaning my data?"
@@ -32,8 +31,8 @@
         "types of ML"
     ],
     "kind_ai_support_library": [
-        "can somsone help with AI analysis",
-        "What AI and data science tools are available"
+        "who can help me make my own chatbot",
+        "ai help how to get"
     ],
     "library_film_video": [
         "can i borrow films here"
@@ -50,7 +49,7 @@
         "librry special collections"
     ],
     "thomas_cooper_library_located": [
-        "where is the library located"
+        "where can i find the library"
     ],
     "visitor_come_library": [
         "is the library open to the public"
@@ -100,8 +99,10 @@
         "What digital tools do you recommend for collaborative research?"
     ],
     "kind_research_support_university": [
-        "R studio",
-        "Can someone help me with doing analysis in R for my thesis?"
+        "where can i get statistics help",
+        "MATLAB help",
+        "can you tell me about MATLAB",
+        "where can i get SPSS help"
     ],
     "library_help_digital_scholarship": [
         "how can I create a web site for my research?",
@@ -111,7 +112,7 @@
         "digital creation"
     ],
     "concept_related_generative_ai": [
-        "LLMs"
+        "Large language model resource"
     ],
     "student_success_center_peer": [
         "tutoring help"
@@ -129,12 +130,37 @@
         "How can I get assistance with text analysis or text mining for my research"
     ],
     "guideline_creating_effective_visualization": [
-        "Can I get help designing interactive dashboards or visualizations"
+        "designing visualizations"
     ],
     "help_digital_tool": [
         "Who can answer text-analysis questions"
     ],
     "resource_available_writing_data": [
         "Where can I get help with a data management plan?"
+    ],
+    "ask_open_access": [
+        "I got an article accepted into social media + society. does the library cover the open access publishing fee?"
+    ],
+    "consider_using_ai_technology": [
+        "ethics of AI"
+    ],
+    "factor_consider_selecting_data": [
+        "data visualization tools"
+    ],
+    "need_data_management_plan": [
+        "dmp help?"
+    ],
+    "ask_help_searching_source": [
+        "help"
+    ],
+    "data_visualization_support_service": [
+        "I need to create a dashboard displaying data",
+        "I need help creating a charts for my dissertation, can you help me?"
+    ],
+    "library_charger_laptop_phone": [
+        "I would like to know if i can rent some hardware"
+    ],
+    "university_institutional_repository": [
+        "repository"
     ]
 }
