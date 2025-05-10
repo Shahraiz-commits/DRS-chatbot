@@ -115,7 +115,6 @@ intents:
 - evaluation_method_digital_scholarship
 - event_offered_constellate
 - event_upcoming
-- example_generative_ai_chatbots
 - example_policy_guideline_ai
 - example_project_use_digital
 - factor_consider_selecting_data
@@ -254,7 +253,6 @@ intents:
 - publishing_book_related_south
 - publishing_work_us_resource
 - quote_award_recipient_chose
-- register_access_ad_age
 - renew_book
 - request_book_delivered_campus
 - request_copy_manuscript
@@ -294,7 +292,6 @@ intents:
 - scoer_faculty_award
 - scoer_faculty_award_2020
 - scoer_faculty_grant
-- scoer_grant_recipient
 - scoer_grant_recipient_selected
 - search_option_available
 - search_south_caroliniana_library
@@ -309,10 +306,8 @@ intents:
 - service_osf_integrate_with
 - set_appointment_research_use
 - set_link_usc_content
-- sign_orcid_id
 - software_available_library_computer
 - software_hardware_resource_available
-- something_notarized
 - source_available_library_usc
 - source_open_data
 - south_caroliniana_library
@@ -637,18 +632,6 @@ responses:
       Then search using the word library.
 
       [Learn more here](https://libanswers.library.sc.edu//faq/23789)
-  utter_library_college_entrance_career:
-  - text: |2-
-
-      Yes, you can access test preparation materials through these databases:
-      LearningExpress Library
-      You must register for a personal account to use the wide range of tests, tutorials and ebooks for adults and children.
-      Includes college and graduate school admission tests, career exams, skill building in math, reading, grammar, writing and sciences, U.S citizenship exam, and some materials in Spanish.
-      Mometrix eLibrary
-      Access free test preparation materials for career and professional certifications in areas like teaching, nursing, social work, finance, and law enforcement as well as the major grad school admissions exams.
-      Some resources for K-12 audience.
-
-      [Learn more here](https://libanswers.library.sc.edu//faq/382477)
   utter_resource_help_learn_language:
   - text: |2-
 
@@ -667,15 +650,6 @@ responses:
       For example, a USC Lancaster student taking classes at USC Lancaster and USC Columbia will be assigned the entitlement for both Lancaster and Columbia.
 
       [Learn more here](https://libanswers.library.sc.edu//faq/394192)
-  utter_sign_orcid_id:
-  - text: |2-
-
-      Signing up for an ORCID iD is free and takes only a few minutes.
-      Your ORCID iD distinguishes you from other researchers.
-      Contributing your professional information to your ORCID iD will allow you to quickly reuse this information in other systems.
-      After registering the first time, you can sign in with your ORCID credentials or you can select Institutional account to log in with your USC network username and password.
-
-      [Learn more here](https://libanswers.library.sc.edu//faq/323829)
   utter_username_password_working_do:
   - text: |2-
 
@@ -789,17 +763,6 @@ responses:
       Try searching for the most important elements and use the same strategy of using more terms for each of the elements.
 
       [Learn more here](https://libanswers.library.sc.edu//faq/372150)
-  utter_register_access_ad_age:
-  - text: |2+
-
-      All USC Columbia students, faculty and staff can register for unlimited online access to Ad Age.
-      Use the [provided link](https://adage.com/) to access the Ad Age platform
-      Click Register for Free near the top right of the screen
-      Complete the form using your USC email address
-      Choose 'Universities/Colleges/Schools' for your Industry and 'Other' for your Title
-      If you have previously registered for an account with Ad Age using your USC email account, contact [Brent Appling](mailto:applingm@mailbox.sc.edu?subject=Ad%20Age%20access) if you are not able to get access to content.
-      [Learn more here](https://libanswers.library.sc.edu//faq/408775)
-
   utter_library_charger_laptop_phone:
   - text: |2-
 
@@ -1119,14 +1082,6 @@ responses:
       [Peer Writing and Communications from Student Success Center](https://www.sc.edu/about/offices_and_divisions/student_success_center/study-smart/peer-writing-and-communications/index.php)
 
       [Learn more here](https://libanswers.library.sc.edu//faq/23796)
-
-  utter_something_notarized:
-  - text: |2+
-
-      The CarolinaCard office in the basement of Russell House has a notary.
-      Call CarolinaCard at 803-777-1708 to check availability at a specific time.
-      [Learn more here](https://libanswers.library.sc.edu//faq/138210)
-
   utter_contact_library:
   - text: |2+
 
@@ -3333,32 +3288,13 @@ responses:
       - [Why Are We Still Listening To Mainstream News? (Medium, 2020)](https://medium.com/indian-thoughts/why-are-we-still-listening-to-mainstream-news-ad8f9b901ad2)
       - [Why do billionaires want to own the news? (BBC News, 2018)](https://www.bbc.com/news/business-45550747)
       [Learn more here](https://guides.library.sc.edu/evaluate)
-
-  utter_example_generative_ai_chatbots:
-  - text: |2-
-
-      - [Dall-E 2](https://openai.com/dall-e-2)
-      - [Bing Image Creator](https://www.bing.com/create)
-
-      ## Generative AI Chatbots
-      In their own words
-      - [Bard](https://bard.google.com/?hl=en)Created by Google.I would describe myself as a large language model, also known as a conversational AI or chatbot, trained to be informative and comprehensive.
-      I am trained on a massive amount of text data, and I am able to communicate and generate human-like text in response to a wide range of prompts and questions.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10019175)
-      ###### Contact AI and Data Science
-      [Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
-      AI/Data Science Specialist  
-      803-777-5699  
-      [vandana@sc.edu](mailto:vandana@sc.edu)  
-      [Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
   utter_ai_art_generator_work:
   - text: |-
-      ##### Generative AI Image/Art generators
+      ##### Generative AI Chatbots and Image/Art generators
       The goal of an AI art generator is to take a text prompt and turn it into an image that represents the prompt.
       Comparable to LLMs (large language models), art generators use vast image-text pair content models to discern and learn image meanings and characteristics.
       Ultimately, they render a resulting image using either a diffusion model or generative adversarial networks (GANS).
-      Unlike the major generative AI chatbots, most generative AI art generators have limited or no free access.
+      Unlike the major [generative AI chatbots](https://guides.library.sc.edu/c.php?g=1353979&p=10019175), most generative AI art generators have limited or no free access.
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10019175)
       ###### Contact AI and Data Science
@@ -4384,16 +4320,6 @@ responses:
 
       The SCoer Grant recipients are selected by Student Government representatives and members of the University Libraries.
       The selection committee looks closely at three determining factors: applicants who showed a strong desire to learn the process of finding and using online educational resources, the potential for long-term financial savings for students, and the availability of OER materials on the subject taught, said , Scholarly Communication Librarian.
-
-
-  utter_scoer_grant_recipient:
-  - text: |+
-      ##### Meredith DeBoom
-      I am a first-generation college graduate ...
-      When I began my career as an Assistant Professor at USC in Fall 2018, I made a commitment to myself that improving the inclusivity of higher education would be a priority in my career.
-      Rather than walking away with an expensive textbook, I would much rather my students leave with a clear understanding of how they can apply geographic tools and theories in their careers.
-
-
   utter_scoer_faculty_grant:
   - text: |2-
 

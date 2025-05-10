@@ -211,10 +211,15 @@ function addMessageToChat(text, ...classNames) {
   const isUserMsg = classNames.includes("userMsg");
   const isGreeting = text.startsWith("Hi! How can I help you?");
   const isAlternativeIntro = text.includes("Sorry, I am a bit unsure");
+  const isOutOfScopeIntro = text.includes("not handled by Digital Research Services")
   const isFollowUp = (text.includes("Okay, I understand. How") || text.includes("Thank you for your feedback!"));
   // console.log(isFollowUp);
   const container = document.createElement("div");
   container.classList.add("message-container");
+
+  if(isBotMsg && isOutOfScopeIntro) {
+    text = text.replace(/^.*?\n\n/, '') // Remove the initial text when out of scope
+  }
 
   if (isBotMsg && !isAlternativeIntro && lastUserQuestion) {
     container.setAttribute("data-user-question", lastUserQuestion);
@@ -811,7 +816,7 @@ async function sendMessageToRasa(message) {
       addMessageToChat(censored_text, "userMsg");
       if (userInput) userInput.value = "";
       scrollChatToBottom();
-      addMessageToChat("Please refrain from using inappropriate language! I'm happy to help with a rephrased question.", "botMsg");
+      addMessageToChat(getBadLanguageResponse(), "botMsg");
       return;
     }
 
@@ -888,7 +893,7 @@ async function sendMessageToRasa(message) {
                     data.keyword = "that"
                   }
                   combinedText = getInitiationText() + data.keyword + ".\n\n" + combinedText;
-                  console.log("Initiating with:", combinedText);
+                  //console.log("Initiating with:", combinedText);
                   addMessageToChat(combinedText, "botMsg");
                 })
                 .catch(error => {
@@ -915,6 +920,21 @@ async function sendMessageToRasa(message) {
       console.error("Error during fetch or processing Rasa response:", err);
       addMessageToChat(`Sorry, there was an issue connecting to the chatbot service (${err.message}). Please try again later.`, "botMsg", "errorMsg");
     });
+}
+
+// Returns a random string in response to inappropriate language
+function getBadLanguageResponse() {
+  const texts = {
+    0: "Please refrain from using inappropriate language! I'm happy to help with a rephrased question.",
+    1: "Please keep things respectful. I’m here to help however I can. Could you rephrase your question so I can better understand how to assist you?",
+    2: "Let's keep the conversation professional. I'm happy to help if you could clarify your request.",
+    3: "I'm here to provide assistance with your queries. Let’s keep things courteous so we can find the best solution for your situation.",
+    4: "Let’s work together respectfully. I’d be glad to assist if you could rephrase or clarify your request.",
+    5: "I'm happy to help with your questions. Lets try again with a clear and appropriate message."
+  }
+
+  let chosen = Math.floor((Math.random() * 6));
+  return texts[chosen]
 }
 
 // Returns a random string to initiate the conversation

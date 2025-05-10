@@ -175,11 +175,6 @@ rules:
   - intent: library_hire_student
   - action: utter_library_hire_student
 
-- rule: Answer library_college_entrance_career
-  steps:
-  - intent: library_college_entrance_career
-  - action: utter_library_college_entrance_career
-
 - rule: Answer resource_help_learn_language
   steps:
   - intent: resource_help_learn_language
@@ -189,11 +184,6 @@ rules:
   steps:
   - intent: login_use_library_access
   - action: utter_login_use_library_access
-
-- rule: Answer sign_orcid_id
-  steps:
-  - intent: sign_orcid_id
-  - action: utter_sign_orcid_id
 
 - rule: Answer username_password_working_do
   steps:
@@ -254,11 +244,6 @@ rules:
   steps:
   - intent: find_published_example_action
   - action: utter_find_published_example_action
-
-- rule: Answer register_access_ad_age
-  steps:
-  - intent: register_access_ad_age
-  - action: utter_register_access_ad_age
 
 - rule: Answer library_charger_laptop_phone
   steps:
@@ -424,11 +409,6 @@ rules:
   steps:
   - intent: get_help_writing
   - action: utter_get_help_writing
-
-- rule: Answer something_notarized
-  steps:
-  - intent: something_notarized
-  - action: utter_something_notarized
 
 - rule: Answer contact_library
   steps:
@@ -1365,11 +1345,6 @@ rules:
   - intent: resource_available_understanding_medium
   - action: utter_resource_available_understanding_medium
 
-- rule: Answer example_generative_ai_chatbots
-  steps:
-  - intent: example_generative_ai_chatbots
-  - action: utter_example_generative_ai_chatbots
-
 - rule: Answer ai_art_generator_work
   steps:
   - intent: ai_art_generator_work
@@ -1779,11 +1754,6 @@ rules:
   steps:
   - intent: scoer_grant_recipient_selected
   - action: utter_scoer_grant_recipient_selected
-
-- rule: Answer scoer_grant_recipient
-  steps:
-  - intent: scoer_grant_recipient
-  - action: utter_scoer_grant_recipient
 
 - rule: Answer scoer_faculty_grant
   steps:

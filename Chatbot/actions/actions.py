@@ -17,6 +17,7 @@ import nltk
 nltk.download('punkt_tab')
 nltk.download('punkt')
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../")))
+# firebase_utils for PROD and .firebase_utils for LOCAL
 from firebase_utils import add_question_to_intent, add_unassigned_question
 
 class ActionSaveConversation(Action):
@@ -129,17 +130,20 @@ class ActionProcessFallback(Action):
         return "action_process_fallback"
     
     def run(self, dispatcher, tracker : Tracker, domain):
-        out_of_scope = "Sorry, I can't handle that request. Please rephrase the question"
+        #out_of_scope = "Sorry, I can't handle that request. Please rephrase the question"
         intents = tracker.latest_message["intent_ranking"]
         first_text = ""
         second_text = ""
         third_text = ""
         name1 = intents[1]['name']
-        #confidence1 = intents[1]['confidence']
+        confidence1 = intents[1]['confidence']
         name2 = intents[2]['name']
         #confidence2 = intents[2]['confidence']
         name3 = intents[3]['name']
         
+        if(confidence1 < 0.2):
+            dispatcher.utter_message(f"I believe this query is not handled by Digital Research Services (DRS). For questions or concerns not relating to our department, please refer to the university's [enhanced search engine](https://sc.edu/search/?cx=013416120310277204335%3Awk85hzl5qdq&q=#gsc.tab=0).")
+            return
 
         # Search for first two intents text
         # NOTE: "../Chatbot/domain.yml" for LOCAL "domain.yml" for PROD

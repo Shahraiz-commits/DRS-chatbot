@@ -2,6 +2,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 from datetime import datetime
 
+# ./firebase_service_key.json for PROD actions/firebase_service_key.json and for LOCAL
 cred = credentials.Certificate(cert="./firebase_service_key.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()

@@ -3425,3 +3425,1858 @@ If you are permitted to use AI in the development of your manuscript, you will n
 [Learn more here](https://guides.library.sc.edu/c.php?g=1353979&p=10052763)
 
 2025-03-26 01:02:06.964746|user_24309|U28|nlu_fallback|whats going on w ccopyright|
+2025-05-09 18:54:31.566808|user_80491|U0|greet|/greet|
+2025-05-09 18:54:31.566849|user_80491|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 18:54:31.566878|user_80491|U1|kind_ai_support_library|ai help|
+2025-05-09 18:54:31.566906|user_80491|B1|||||utter_kind_ai_support_library|##### AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+- [Welcome to the world of Artificial Intelligence (AI)](https://guides.library.sc.edu/welcome-to-the-world-of-ai): This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources](https://guides.library.sc.edu/c.php?g=1353979): A starting point for information about AI, Generative AI, and more.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+###### Contact AI and Data Science
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)  
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+2025-05-09 18:54:31.566939|user_80491|U2|nlu_fallback|digitized collections|
+2025-05-09 18:54:37.648412|user_80491|U0|greet|/greet|
+2025-05-09 18:54:37.648455|user_80491|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 18:54:37.648478|user_80491|U1|kind_ai_support_library|ai help|
+2025-05-09 18:54:37.648507|user_80491|B1|||||utter_kind_ai_support_library|##### AI/Data Science Support
+The library offers support with the application of AI and Machine learning (ML) tools for your research and projects.
+You can also receive guidance on the safe and responsible usage of generative AI (GenAI) for your research, teaching, and learning.
+- [Welcome to the world of Artificial Intelligence (AI)](https://guides.library.sc.edu/welcome-to-the-world-of-ai): This guide introduces AI and its subfields along with some terminology associated with it.
+- [Artificial Intelligence Basic Knowledge, Tools, and Resources](https://guides.library.sc.edu/c.php?g=1353979): A starting point for information about AI, Generative AI, and more.
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/ai_data_science_support/index.php)
+###### Contact AI and Data Science
+[Vandana Srivastava](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/srivastava_vandana.php)  
+AI/Data Science Specialist  
+803-777-5699  
+[vandana@sc.edu](mailto:vandana@sc.edu)  
+[Make an Appointment](https://libcal.library.sc.edu/appointments/vandanasrivastava) to discuss how we might be able to assist with your AI and data science needs.
+2025-05-09 18:54:37.648540|user_80491|U2|nlu_fallback|digitized collections|
+2025-05-09 18:54:37.648625|user_80491|U3|nlu_fallback|blooooooooooooop blaaaaaaaaaaaaaaaaaaa|
+2025-05-09 18:55:49.060221|user_68365|U0|greet|/greet|
+2025-05-09 18:55:49.060265|user_68365|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 18:55:49.060276|user_68365|U1|nlu_fallback|blooooooooooooooop blaaaaaaaaaaaaaaa|
+2025-05-09 18:56:43.919805|user_68365|U0|greet|/greet|
+2025-05-09 18:56:43.919844|user_68365|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 18:56:43.919854|user_68365|U1|nlu_fallback|blooooooooooooooop blaaaaaaaaaaaaaaa|
+2025-05-09 18:56:43.919944|user_68365|U2|nlu_fallback|digitized collections|
+2025-05-09 18:57:04.709246|user_68365|U0|greet|/greet|
+2025-05-09 18:57:04.709291|user_68365|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 18:57:04.709302|user_68365|U1|nlu_fallback|blooooooooooooooop blaaaaaaaaaaaaaaa|
+2025-05-09 18:57:04.709383|user_68365|U2|nlu_fallback|digitized collections|
+2025-05-09 18:57:04.709490|user_68365|U3|choose_number|1|
+number|1|2025-05-09 18:57:32.454512|user_68365|U0|greet|/greet|
+2025-05-09 18:57:32.454553|user_68365|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 18:57:32.454577|user_68365|U1|nlu_fallback|blooooooooooooooop blaaaaaaaaaaaaaaa|
+2025-05-09 18:57:32.454657|user_68365|U2|nlu_fallback|digitized collections|
+2025-05-09 18:57:32.454756|user_68365|U3|choose_number|1|
+number|1|2025-05-09 18:57:32.454809|user_68365|U4|nlu_fallback|can someone help me with reserving a tour|
+2025-05-09 18:59:09.191794|user_83952|U0|greet|/greet|
+2025-05-09 18:59:09.191837|user_83952|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 18:59:09.191848|user_83952|U1|nlu_fallback|Sports and Outdoors activities|
+2025-05-09 18:59:43.374102|user_62463|U0|greet|/greet|
+2025-05-09 18:59:43.374141|user_62463|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 18:59:43.374164|user_62463|U1|nlu_fallback|sports and outdoor activities|
+2025-05-09 19:03:45.410379|user_13578|U0|greet|/greet|
+2025-05-09 19:03:45.410423|user_13578|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:03:45.410448|user_13578|U1|download_check_ebook|how to purchase a book|
+2025-05-09 19:03:45.410475|user_13578|B1|||||utter_download_check_ebook|
+When connected to the internet, you can choose Read Online or PDF Full Text to read an ebook.
+Downloading is not required.
+Most ebooks also allow downloading of pages or chapters, up to a maximum per session which is set by the publisher.
+The PDF downloads can be saved to your device and do not expire.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/234603)
+2025-05-09 19:03:45.410499|user_13578|U2|nlu_fallback|wheres the gym|
+2025-05-09 19:04:11.952851|user_13578|U0|greet|/greet|
+2025-05-09 19:04:11.952898|user_13578|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:04:11.952923|user_13578|U1|download_check_ebook|how to purchase a book|
+2025-05-09 19:04:11.952951|user_13578|B1|||||utter_download_check_ebook|
+When connected to the internet, you can choose Read Online or PDF Full Text to read an ebook.
+Downloading is not required.
+Most ebooks also allow downloading of pages or chapters, up to a maximum per session which is set by the publisher.
+The PDF downloads can be saved to your device and do not expire.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/234603)
+2025-05-09 19:04:11.952975|user_13578|U2|nlu_fallback|wheres the gym|
+2025-05-09 19:04:11.953051|user_13578|U3|nlu_fallback|wheres the gym located|
+2025-05-09 19:04:18.063510|user_13578|U0|greet|/greet|
+2025-05-09 19:04:18.063556|user_13578|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:04:18.063579|user_13578|U1|download_check_ebook|how to purchase a book|
+2025-05-09 19:04:18.063606|user_13578|B1|||||utter_download_check_ebook|
+When connected to the internet, you can choose Read Online or PDF Full Text to read an ebook.
+Downloading is not required.
+Most ebooks also allow downloading of pages or chapters, up to a maximum per session which is set by the publisher.
+The PDF downloads can be saved to your device and do not expire.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/234603)
+2025-05-09 19:04:18.063630|user_13578|U2|nlu_fallback|wheres the gym|
+2025-05-09 19:04:18.063710|user_13578|U3|nlu_fallback|wheres the gym located|
+2025-05-09 19:04:18.063774|user_13578|U4|nlu_fallback|where is the gymnasium|
+2025-05-09 19:04:25.526298|user_13578|U0|greet|/greet|
+2025-05-09 19:04:25.526343|user_13578|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:04:25.526354|user_13578|U1|download_check_ebook|how to purchase a book|
+2025-05-09 19:04:25.526382|user_13578|B1|||||utter_download_check_ebook|
+When connected to the internet, you can choose Read Online or PDF Full Text to read an ebook.
+Downloading is not required.
+Most ebooks also allow downloading of pages or chapters, up to a maximum per session which is set by the publisher.
+The PDF downloads can be saved to your device and do not expire.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/234603)
+2025-05-09 19:04:25.526407|user_13578|U2|nlu_fallback|wheres the gym|
+2025-05-09 19:04:25.526494|user_13578|U3|nlu_fallback|wheres the gym located|
+2025-05-09 19:04:25.526569|user_13578|U4|nlu_fallback|where is the gymnasium|
+2025-05-09 19:04:25.526630|user_13578|U5|nlu_fallback|where can i workout|
+2025-05-09 19:05:07.647532|user_13578|U0|greet|/greet|
+2025-05-09 19:05:07.647574|user_13578|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:05:07.647596|user_13578|U1|download_check_ebook|how to purchase a book|
+2025-05-09 19:05:07.647624|user_13578|B1|||||utter_download_check_ebook|
+When connected to the internet, you can choose Read Online or PDF Full Text to read an ebook.
+Downloading is not required.
+Most ebooks also allow downloading of pages or chapters, up to a maximum per session which is set by the publisher.
+The PDF downloads can be saved to your device and do not expire.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/234603)
+2025-05-09 19:05:07.647647|user_13578|U2|nlu_fallback|wheres the gym|
+2025-05-09 19:05:07.647733|user_13578|U3|nlu_fallback|wheres the gym located|
+2025-05-09 19:05:07.647948|user_13578|U4|nlu_fallback|where is the gymnasium|
+2025-05-09 19:05:07.648009|user_13578|U5|nlu_fallback|where can i workout|
+2025-05-09 19:05:07.648070|user_13578|U6|common_issue_printing|who do i go to for printing papers|
+2025-05-09 19:05:07.648096|user_13578|B2|||||utter_common_issue_printing|
+You can [upload files in advance online](https://printme.com) or email file(s) as attachments to [print@printme.com](mailto:print@printme.com) to print in the library.
+You can also print files from a USB drive.
+Visit a Student Printing Kiosk on the Main Level of Thomas Cooper Library to choose your form of payment and enter your release code.
+Most Common Issues:
+Incorrect or unsupported file type
+ Only files stored as MS Word (.doc), PDF, JPEG or HTML can be uploaded.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/268696)
+2025-05-09 19:05:07.648119|user_13578|U7|nlu_fallback|whats the USC experience like?|
+2025-05-09 19:05:46.229937|user_23714|U0|greet|/greet|
+2025-05-09 19:05:46.229983|user_23714|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:05:46.230008|user_23714|U1|nlu_fallback|whats the usc experience like|
+2025-05-09 19:16:54.953900|user_95957|U0|greet|/greet|
+2025-05-09 19:16:54.953943|user_95957|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:16:54.953974|user_95957|U1|nlu_fallback|school admissions|
+2025-05-09 19:17:08.550892|user_95957|U0|greet|/greet|
+2025-05-09 19:17:08.550930|user_95957|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:17:08.550952|user_95957|U1|nlu_fallback|school admissions|
+2025-05-09 19:17:08.551016|user_95957|U2|nlu_fallback|how do i admit my kid into USC?|
+2025-05-09 19:17:39.444871|user_95957|U0|greet|/greet|
+2025-05-09 19:17:39.444914|user_95957|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:17:39.444937|user_95957|U1|nlu_fallback|school admissions|
+2025-05-09 19:17:39.445003|user_95957|U2|nlu_fallback|how do i admit my kid into USC?|
+2025-05-09 19:17:39.445068|user_95957|U3|nlu_fallback|can you tell me what to do for my major|
+2025-05-09 19:17:50.660877|user_95957|U0|greet|/greet|
+2025-05-09 19:17:50.660941|user_95957|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:17:50.660952|user_95957|U1|nlu_fallback|school admissions|
+2025-05-09 19:17:50.661012|user_95957|U2|nlu_fallback|how do i admit my kid into USC?|
+2025-05-09 19:17:50.661076|user_95957|U3|nlu_fallback|can you tell me what to do for my major|
+2025-05-09 19:17:50.661135|user_95957|U4|nlu_fallback|how do i pick my major at the university|
+2025-05-09 19:18:03.397837|user_95957|U0|greet|/greet|
+2025-05-09 19:18:03.397879|user_95957|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:18:03.397890|user_95957|U1|nlu_fallback|school admissions|
+2025-05-09 19:18:03.397951|user_95957|U2|nlu_fallback|how do i admit my kid into USC?|
+2025-05-09 19:18:03.398012|user_95957|U3|nlu_fallback|can you tell me what to do for my major|
+2025-05-09 19:18:03.398073|user_95957|U4|nlu_fallback|how do i pick my major at the university|
+2025-05-09 19:18:03.398131|user_95957|U5|nlu_fallback|what floor are books on|
+2025-05-09 19:18:12.821478|user_95957|U0|greet|/greet|
+2025-05-09 19:18:12.821520|user_95957|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:18:12.821543|user_95957|U1|nlu_fallback|school admissions|
+2025-05-09 19:18:12.821608|user_95957|U2|nlu_fallback|how do i admit my kid into USC?|
+2025-05-09 19:18:12.821666|user_95957|U3|nlu_fallback|can you tell me what to do for my major|
+2025-05-09 19:18:12.821724|user_95957|U4|nlu_fallback|how do i pick my major at the university|
+2025-05-09 19:18:12.821784|user_95957|U5|nlu_fallback|what floor are books on|
+2025-05-09 19:18:12.821842|user_95957|U6|nlu_fallback|floormap for library|
+2025-05-09 19:23:38.257011|user_95957|U0|greet|/greet|
+2025-05-09 19:23:38.257057|user_95957|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:23:38.257080|user_95957|U1|nlu_fallback|school admissions|
+2025-05-09 19:23:38.257142|user_95957|U2|nlu_fallback|how do i admit my kid into USC?|
+2025-05-09 19:23:38.257207|user_95957|U3|nlu_fallback|can you tell me what to do for my major|
+2025-05-09 19:23:38.257267|user_95957|U4|nlu_fallback|how do i pick my major at the university|
+2025-05-09 19:23:38.257326|user_95957|U5|nlu_fallback|what floor are books on|
+2025-05-09 19:23:38.257385|user_95957|U6|nlu_fallback|floormap for library|
+2025-05-09 19:23:38.257446|user_95957|U7|option_available_longterm_archiving|how to archive or share data|
+2025-05-09 19:23:38.257472|user_95957|B1|||||utter_option_available_longterm_archiving|
+The University of South Carolina does not currently have a system-wide, long-term archiving option for research data.
+However, many external disciplinary and general data repositories exist.
+If you want or need to share your research data, one of these might be a good fit.
+These repositories are also good places to find datasets for re-use.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+###### Contact Research Data Management
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
+Research Data Librarian  
+803-777-1968  
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+[Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.
+2025-05-09 19:23:38.257507|user_95957|U8|use_digital_tool_research|who can help me with digital collections|
+2025-05-09 19:23:38.257535|user_95957|B2|||||utter_use_digital_tool_research|
+The library offers support for using digital processes, tools, and methods to enable and present new forms of research.
+[Digital Projects Showcase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+
+###### Contact Digital Scholarhip
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
+Director of Digital Research Services  
+803-777-2249  
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)  
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+Assistant Head, Acquisitions & Scholarly Communication  
+803-777-8280  
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+2025-05-09 19:23:38.257567|user_95957|U9|find_information_music_material|special collectios|
+2025-05-09 19:23:38.257595|user_95957|B3|||||utter_find_information_music_material|
+For streaming audio reserves and other music materials contact the [Music Library](https://sc.edu/about/offices_and_divisions/university_libraries/browse/music_library/index.php).
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php)
+
+
+2025-05-09 19:23:38.257617|user_95957|U10|set_appointment_research_use|special collections|
+2025-05-09 19:23:38.257644|user_95957|B4|||||utter_set_appointment_research_use|
+We set research appointments in the Charles W.
+Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m.
+until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability.
+We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month.
+
+[Learn more here](https://libanswers.library.sc.edu//scl/faq/376435)
+2025-05-09 19:23:38.257667|user_95957|U11|set_appointment_research_use|special collections USC|
+2025-05-09 19:23:38.257695|user_95957|B5|||||utter_set_appointment_research_use|
+We set research appointments in the Charles W.
+Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m.
+until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability.
+We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month.
+
+[Learn more here](https://libanswers.library.sc.edu//scl/faq/376435)
+2025-05-09 19:23:38.257718|user_95957|U12|modelled_data_resource_available|Government Information and Maps|
+2025-05-09 19:23:38.257745|user_95957|B6|||||utter_modelled_data_resource_available|##### Geospatial Data
+- [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
+- [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)
+
+##### Transportation Data
+- [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
+
+##### Modelled Data
+- [Parameter-elevation Relationships on Independent Slopes Model (PRISM)](http://www.prism.oregonstate.edu/)
+Most of modelled data are stored in NetCDF format.
+
+[Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
+2025-05-09 19:23:38.257777|user_95957|U13|nlu_fallback|Off-Campus Access|
+2025-05-09 19:25:07.918957|user_95957|U0|greet|/greet|
+2025-05-09 19:25:07.919004|user_95957|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:25:07.919026|user_95957|U1|nlu_fallback|school admissions|
+2025-05-09 19:25:07.919087|user_95957|U2|nlu_fallback|how do i admit my kid into USC?|
+2025-05-09 19:25:07.919144|user_95957|U3|nlu_fallback|can you tell me what to do for my major|
+2025-05-09 19:25:07.919202|user_95957|U4|nlu_fallback|how do i pick my major at the university|
+2025-05-09 19:25:07.919260|user_95957|U5|nlu_fallback|what floor are books on|
+2025-05-09 19:25:07.919318|user_95957|U6|nlu_fallback|floormap for library|
+2025-05-09 19:25:07.919375|user_95957|U7|option_available_longterm_archiving|how to archive or share data|
+2025-05-09 19:25:07.919400|user_95957|B1|||||utter_option_available_longterm_archiving|
+The University of South Carolina does not currently have a system-wide, long-term archiving option for research data.
+However, many external disciplinary and general data repositories exist.
+If you want or need to share your research data, one of these might be a good fit.
+These repositories are also good places to find datasets for re-use.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+###### Contact Research Data Management
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
+Research Data Librarian  
+803-777-1968  
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+[Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.
+2025-05-09 19:25:07.919434|user_95957|U8|use_digital_tool_research|who can help me with digital collections|
+2025-05-09 19:25:07.919461|user_95957|B2|||||utter_use_digital_tool_research|
+The library offers support for using digital processes, tools, and methods to enable and present new forms of research.
+[Digital Projects Showcase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+
+###### Contact Digital Scholarhip
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
+Director of Digital Research Services  
+803-777-2249  
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)  
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+Assistant Head, Acquisitions & Scholarly Communication  
+803-777-8280  
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+2025-05-09 19:25:07.919493|user_95957|U9|find_information_music_material|special collectios|
+2025-05-09 19:25:07.919519|user_95957|B3|||||utter_find_information_music_material|
+For streaming audio reserves and other music materials contact the [Music Library](https://sc.edu/about/offices_and_divisions/university_libraries/browse/music_library/index.php).
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php)
+
+
+2025-05-09 19:25:07.919542|user_95957|U10|set_appointment_research_use|special collections|
+2025-05-09 19:25:07.919569|user_95957|B4|||||utter_set_appointment_research_use|
+We set research appointments in the Charles W.
+Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m.
+until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability.
+We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month.
+
+[Learn more here](https://libanswers.library.sc.edu//scl/faq/376435)
+2025-05-09 19:25:07.919593|user_95957|U11|set_appointment_research_use|special collections USC|
+2025-05-09 19:25:07.919620|user_95957|B5|||||utter_set_appointment_research_use|
+We set research appointments in the Charles W.
+Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m.
+until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability.
+We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month.
+
+[Learn more here](https://libanswers.library.sc.edu//scl/faq/376435)
+2025-05-09 19:25:07.919642|user_95957|U12|modelled_data_resource_available|Government Information and Maps|
+2025-05-09 19:25:07.919668|user_95957|B6|||||utter_modelled_data_resource_available|##### Geospatial Data
+- [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
+- [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)
+
+##### Transportation Data
+- [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
+
+##### Modelled Data
+- [Parameter-elevation Relationships on Independent Slopes Model (PRISM)](http://www.prism.oregonstate.edu/)
+Most of modelled data are stored in NetCDF format.
+
+[Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
+2025-05-09 19:25:07.919699|user_95957|U13|nlu_fallback|Off-Campus Access|
+2025-05-09 19:25:07.919757|user_95957|U14|pascal_delivers|do you have book delivery for students in the library|
+2025-05-09 19:25:07.919782|user_95957|B7|||||utter_pascal_delivers|
+PASCAL Delivers is a free book-delivery service which enables current USC students, faculty and staff to request delivery of physical books from other academic libraries across the state to a participating library.
+If you're wondering, PASCAL stands for Partnership Among South Carolina Academic Libraries.
+To find items available for request, expand your results in Find It @ USC by choosing to search PASCAL Delivers.
+Sign in to make requests.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23791)
+2025-05-09 19:25:07.919805|user_95957|U15|food_drink_allowed_library|do you deliver food to students?|
+2025-05-09 19:25:07.919832|user_95957|B8|||||utter_food_drink_allowed_library|
+You are allowed to have food and drinks in most areas of the library.
+Please wear your mask or face covering when you are not actively eating or drinking.
+Exceptions:
+Food and beverages are not allowed in the library classrooms, Library Productions Studios, the Hollings Special Collections Library, or the South Caroliniana Library.
+Remember to Keep it Clean!
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23774)
+2025-05-09 19:25:07.919855|user_95957|U16|suggest_title_library_purchase|can i suggest a purchase of a book|
+2025-05-09 19:25:07.919881|user_95957|B9|||||utter_suggest_title_library_purchase|
+You can make purchase suggestions online to help us build the library's collection.
+The form requires a USC network username and password.
+Faculty members can also email their Subject Librarian directly, especially when submitting multiple requests at once.
+[Suggest a Purchase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/suggest_a_purchase/index.php)
+[Find My Subject Librarian](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/subject_librarian/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23790)
+
+
+2025-05-09 19:25:07.919905|user_95957|U17|nlu_fallback|undergrad ruels|
+2025-05-09 19:25:13.634404|user_95957|U0|greet|/greet|
+2025-05-09 19:25:13.634448|user_95957|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:25:13.634471|user_95957|U1|nlu_fallback|school admissions|
+2025-05-09 19:25:13.634532|user_95957|U2|nlu_fallback|how do i admit my kid into USC?|
+2025-05-09 19:25:13.634591|user_95957|U3|nlu_fallback|can you tell me what to do for my major|
+2025-05-09 19:25:13.634650|user_95957|U4|nlu_fallback|how do i pick my major at the university|
+2025-05-09 19:25:13.634708|user_95957|U5|nlu_fallback|what floor are books on|
+2025-05-09 19:25:13.634766|user_95957|U6|nlu_fallback|floormap for library|
+2025-05-09 19:25:13.634821|user_95957|U7|option_available_longterm_archiving|how to archive or share data|
+2025-05-09 19:25:13.634846|user_95957|B1|||||utter_option_available_longterm_archiving|
+The University of South Carolina does not currently have a system-wide, long-term archiving option for research data.
+However, many external disciplinary and general data repositories exist.
+If you want or need to share your research data, one of these might be a good fit.
+These repositories are also good places to find datasets for re-use.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+###### Contact Research Data Management
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
+Research Data Librarian  
+803-777-1968  
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+[Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.
+2025-05-09 19:25:13.634893|user_95957|U8|use_digital_tool_research|who can help me with digital collections|
+2025-05-09 19:25:13.634938|user_95957|B2|||||utter_use_digital_tool_research|
+The library offers support for using digital processes, tools, and methods to enable and present new forms of research.
+[Digital Projects Showcase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+
+###### Contact Digital Scholarhip
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
+Director of Digital Research Services  
+803-777-2249  
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)  
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+Assistant Head, Acquisitions & Scholarly Communication  
+803-777-8280  
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+2025-05-09 19:25:13.634950|user_95957|U9|find_information_music_material|special collectios|
+2025-05-09 19:25:13.634961|user_95957|B3|||||utter_find_information_music_material|
+For streaming audio reserves and other music materials contact the [Music Library](https://sc.edu/about/offices_and_divisions/university_libraries/browse/music_library/index.php).
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php)
+
+
+2025-05-09 19:25:13.634971|user_95957|U10|set_appointment_research_use|special collections|
+2025-05-09 19:25:13.634995|user_95957|B4|||||utter_set_appointment_research_use|
+We set research appointments in the Charles W.
+Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m.
+until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability.
+We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month.
+
+[Learn more here](https://libanswers.library.sc.edu//scl/faq/376435)
+2025-05-09 19:25:13.635022|user_95957|U11|set_appointment_research_use|special collections USC|
+2025-05-09 19:25:13.635049|user_95957|B5|||||utter_set_appointment_research_use|
+We set research appointments in the Charles W.
+Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m.
+until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability.
+We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month.
+
+[Learn more here](https://libanswers.library.sc.edu//scl/faq/376435)
+2025-05-09 19:25:13.635072|user_95957|U12|modelled_data_resource_available|Government Information and Maps|
+2025-05-09 19:25:13.635098|user_95957|B6|||||utter_modelled_data_resource_available|##### Geospatial Data
+- [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
+- [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)
+
+##### Transportation Data
+- [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
+
+##### Modelled Data
+- [Parameter-elevation Relationships on Independent Slopes Model (PRISM)](http://www.prism.oregonstate.edu/)
+Most of modelled data are stored in NetCDF format.
+
+[Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
+2025-05-09 19:25:13.635122|user_95957|U13|nlu_fallback|Off-Campus Access|
+2025-05-09 19:25:13.635181|user_95957|U14|pascal_delivers|do you have book delivery for students in the library|
+2025-05-09 19:25:13.635207|user_95957|B7|||||utter_pascal_delivers|
+PASCAL Delivers is a free book-delivery service which enables current USC students, faculty and staff to request delivery of physical books from other academic libraries across the state to a participating library.
+If you're wondering, PASCAL stands for Partnership Among South Carolina Academic Libraries.
+To find items available for request, expand your results in Find It @ USC by choosing to search PASCAL Delivers.
+Sign in to make requests.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23791)
+2025-05-09 19:25:13.635230|user_95957|U15|food_drink_allowed_library|do you deliver food to students?|
+2025-05-09 19:25:13.635257|user_95957|B8|||||utter_food_drink_allowed_library|
+You are allowed to have food and drinks in most areas of the library.
+Please wear your mask or face covering when you are not actively eating or drinking.
+Exceptions:
+Food and beverages are not allowed in the library classrooms, Library Productions Studios, the Hollings Special Collections Library, or the South Caroliniana Library.
+Remember to Keep it Clean!
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23774)
+2025-05-09 19:25:13.635280|user_95957|U16|suggest_title_library_purchase|can i suggest a purchase of a book|
+2025-05-09 19:25:13.635306|user_95957|B9|||||utter_suggest_title_library_purchase|
+You can make purchase suggestions online to help us build the library's collection.
+The form requires a USC network username and password.
+Faculty members can also email their Subject Librarian directly, especially when submitting multiple requests at once.
+[Suggest a Purchase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/suggest_a_purchase/index.php)
+[Find My Subject Librarian](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/subject_librarian/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23790)
+
+
+2025-05-09 19:25:13.635329|user_95957|U17|nlu_fallback|undergrad ruels|
+2025-05-09 19:25:13.635387|user_95957|U18|nlu_fallback|undergrad rules|
+2025-05-09 19:25:38.088772|user_95957|U0|greet|/greet|
+2025-05-09 19:25:38.088813|user_95957|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:25:38.088836|user_95957|U1|nlu_fallback|school admissions|
+2025-05-09 19:25:38.088899|user_95957|U2|nlu_fallback|how do i admit my kid into USC?|
+2025-05-09 19:25:38.088960|user_95957|U3|nlu_fallback|can you tell me what to do for my major|
+2025-05-09 19:25:38.089021|user_95957|U4|nlu_fallback|how do i pick my major at the university|
+2025-05-09 19:25:38.089080|user_95957|U5|nlu_fallback|what floor are books on|
+2025-05-09 19:25:38.089138|user_95957|U6|nlu_fallback|floormap for library|
+2025-05-09 19:25:38.089247|user_95957|U7|option_available_longterm_archiving|how to archive or share data|
+2025-05-09 19:25:38.089284|user_95957|B1|||||utter_option_available_longterm_archiving|
+The University of South Carolina does not currently have a system-wide, long-term archiving option for research data.
+However, many external disciplinary and general data repositories exist.
+If you want or need to share your research data, one of these might be a good fit.
+These repositories are also good places to find datasets for re-use.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+###### Contact Research Data Management
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
+Research Data Librarian  
+803-777-1968  
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+[Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.
+2025-05-09 19:25:38.089322|user_95957|U8|use_digital_tool_research|who can help me with digital collections|
+2025-05-09 19:25:38.089354|user_95957|B2|||||utter_use_digital_tool_research|
+The library offers support for using digital processes, tools, and methods to enable and present new forms of research.
+[Digital Projects Showcase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+
+###### Contact Digital Scholarhip
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
+Director of Digital Research Services  
+803-777-2249  
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)  
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+Assistant Head, Acquisitions & Scholarly Communication  
+803-777-8280  
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+2025-05-09 19:25:38.089379|user_95957|U9|find_information_music_material|special collectios|
+2025-05-09 19:25:38.089407|user_95957|B3|||||utter_find_information_music_material|
+For streaming audio reserves and other music materials contact the [Music Library](https://sc.edu/about/offices_and_divisions/university_libraries/browse/music_library/index.php).
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php)
+
+
+2025-05-09 19:25:38.089431|user_95957|U10|set_appointment_research_use|special collections|
+2025-05-09 19:25:38.089460|user_95957|B4|||||utter_set_appointment_research_use|
+We set research appointments in the Charles W.
+Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m.
+until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability.
+We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month.
+
+[Learn more here](https://libanswers.library.sc.edu//scl/faq/376435)
+2025-05-09 19:25:38.089484|user_95957|U11|set_appointment_research_use|special collections USC|
+2025-05-09 19:25:38.089511|user_95957|B5|||||utter_set_appointment_research_use|
+We set research appointments in the Charles W.
+Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m.
+until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability.
+We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month.
+
+[Learn more here](https://libanswers.library.sc.edu//scl/faq/376435)
+2025-05-09 19:25:38.089534|user_95957|U12|modelled_data_resource_available|Government Information and Maps|
+2025-05-09 19:25:38.089561|user_95957|B6|||||utter_modelled_data_resource_available|##### Geospatial Data
+- [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
+- [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)
+
+##### Transportation Data
+- [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
+
+##### Modelled Data
+- [Parameter-elevation Relationships on Independent Slopes Model (PRISM)](http://www.prism.oregonstate.edu/)
+Most of modelled data are stored in NetCDF format.
+
+[Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
+2025-05-09 19:25:38.089592|user_95957|U13|nlu_fallback|Off-Campus Access|
+2025-05-09 19:25:38.089651|user_95957|U14|pascal_delivers|do you have book delivery for students in the library|
+2025-05-09 19:25:38.089677|user_95957|B7|||||utter_pascal_delivers|
+PASCAL Delivers is a free book-delivery service which enables current USC students, faculty and staff to request delivery of physical books from other academic libraries across the state to a participating library.
+If you're wondering, PASCAL stands for Partnership Among South Carolina Academic Libraries.
+To find items available for request, expand your results in Find It @ USC by choosing to search PASCAL Delivers.
+Sign in to make requests.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23791)
+2025-05-09 19:25:38.089700|user_95957|U15|food_drink_allowed_library|do you deliver food to students?|
+2025-05-09 19:25:38.089728|user_95957|B8|||||utter_food_drink_allowed_library|
+You are allowed to have food and drinks in most areas of the library.
+Please wear your mask or face covering when you are not actively eating or drinking.
+Exceptions:
+Food and beverages are not allowed in the library classrooms, Library Productions Studios, the Hollings Special Collections Library, or the South Caroliniana Library.
+Remember to Keep it Clean!
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23774)
+2025-05-09 19:25:38.089750|user_95957|U16|suggest_title_library_purchase|can i suggest a purchase of a book|
+2025-05-09 19:25:38.089777|user_95957|B9|||||utter_suggest_title_library_purchase|
+You can make purchase suggestions online to help us build the library's collection.
+The form requires a USC network username and password.
+Faculty members can also email their Subject Librarian directly, especially when submitting multiple requests at once.
+[Suggest a Purchase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/suggest_a_purchase/index.php)
+[Find My Subject Librarian](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/subject_librarian/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23790)
+
+
+2025-05-09 19:25:38.089809|user_95957|U17|nlu_fallback|undergrad ruels|
+2025-05-09 19:25:38.089867|user_95957|U18|nlu_fallback|undergrad rules|
+2025-05-09 19:25:38.089925|user_95957|U19|nlu_fallback|whats the carolina creed|
+2025-05-09 19:39:51.774982|user_95957|U0|greet|/greet|
+2025-05-09 19:39:51.775034|user_95957|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:39:51.775065|user_95957|U1|nlu_fallback|school admissions|
+2025-05-09 19:39:51.775133|user_95957|U2|nlu_fallback|how do i admit my kid into USC?|
+2025-05-09 19:39:51.775199|user_95957|U3|nlu_fallback|can you tell me what to do for my major|
+2025-05-09 19:39:51.775258|user_95957|U4|nlu_fallback|how do i pick my major at the university|
+2025-05-09 19:39:51.775316|user_95957|U5|nlu_fallback|what floor are books on|
+2025-05-09 19:39:51.775374|user_95957|U6|nlu_fallback|floormap for library|
+2025-05-09 19:39:51.775432|user_95957|U7|option_available_longterm_archiving|how to archive or share data|
+2025-05-09 19:39:51.775458|user_95957|B1|||||utter_option_available_longterm_archiving|
+The University of South Carolina does not currently have a system-wide, long-term archiving option for research data.
+However, many external disciplinary and general data repositories exist.
+If you want or need to share your research data, one of these might be a good fit.
+These repositories are also good places to find datasets for re-use.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+###### Contact Research Data Management
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
+Research Data Librarian  
+803-777-1968  
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+[Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.
+2025-05-09 19:39:51.775483|user_95957|U8|use_digital_tool_research|who can help me with digital collections|
+2025-05-09 19:39:51.775511|user_95957|B2|||||utter_use_digital_tool_research|
+The library offers support for using digital processes, tools, and methods to enable and present new forms of research.
+[Digital Projects Showcase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+
+###### Contact Digital Scholarhip
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
+Director of Digital Research Services  
+803-777-2249  
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)  
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+Assistant Head, Acquisitions & Scholarly Communication  
+803-777-8280  
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+2025-05-09 19:39:51.775535|user_95957|U9|find_information_music_material|special collectios|
+2025-05-09 19:39:51.775562|user_95957|B3|||||utter_find_information_music_material|
+For streaming audio reserves and other music materials contact the [Music Library](https://sc.edu/about/offices_and_divisions/university_libraries/browse/music_library/index.php).
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php)
+
+
+2025-05-09 19:39:51.775585|user_95957|U10|set_appointment_research_use|special collections|
+2025-05-09 19:39:51.775612|user_95957|B4|||||utter_set_appointment_research_use|
+We set research appointments in the Charles W.
+Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m.
+until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability.
+We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month.
+
+[Learn more here](https://libanswers.library.sc.edu//scl/faq/376435)
+2025-05-09 19:39:51.775636|user_95957|U11|set_appointment_research_use|special collections USC|
+2025-05-09 19:39:51.775664|user_95957|B5|||||utter_set_appointment_research_use|
+We set research appointments in the Charles W.
+Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m.
+until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability.
+We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month.
+
+[Learn more here](https://libanswers.library.sc.edu//scl/faq/376435)
+2025-05-09 19:39:51.775686|user_95957|U12|modelled_data_resource_available|Government Information and Maps|
+2025-05-09 19:39:51.775713|user_95957|B6|||||utter_modelled_data_resource_available|##### Geospatial Data
+- [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
+- [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)
+
+##### Transportation Data
+- [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
+
+##### Modelled Data
+- [Parameter-elevation Relationships on Independent Slopes Model (PRISM)](http://www.prism.oregonstate.edu/)
+Most of modelled data are stored in NetCDF format.
+
+[Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
+2025-05-09 19:39:51.775737|user_95957|U13|nlu_fallback|Off-Campus Access|
+2025-05-09 19:39:51.775795|user_95957|U14|pascal_delivers|do you have book delivery for students in the library|
+2025-05-09 19:39:51.775820|user_95957|B7|||||utter_pascal_delivers|
+PASCAL Delivers is a free book-delivery service which enables current USC students, faculty and staff to request delivery of physical books from other academic libraries across the state to a participating library.
+If you're wondering, PASCAL stands for Partnership Among South Carolina Academic Libraries.
+To find items available for request, expand your results in Find It @ USC by choosing to search PASCAL Delivers.
+Sign in to make requests.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23791)
+2025-05-09 19:39:51.775849|user_95957|U15|food_drink_allowed_library|do you deliver food to students?|
+2025-05-09 19:39:51.775877|user_95957|B8|||||utter_food_drink_allowed_library|
+You are allowed to have food and drinks in most areas of the library.
+Please wear your mask or face covering when you are not actively eating or drinking.
+Exceptions:
+Food and beverages are not allowed in the library classrooms, Library Productions Studios, the Hollings Special Collections Library, or the South Caroliniana Library.
+Remember to Keep it Clean!
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23774)
+2025-05-09 19:39:51.775899|user_95957|U16|suggest_title_library_purchase|can i suggest a purchase of a book|
+2025-05-09 19:39:51.775927|user_95957|B9|||||utter_suggest_title_library_purchase|
+You can make purchase suggestions online to help us build the library's collection.
+The form requires a USC network username and password.
+Faculty members can also email their Subject Librarian directly, especially when submitting multiple requests at once.
+[Suggest a Purchase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/suggest_a_purchase/index.php)
+[Find My Subject Librarian](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/subject_librarian/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23790)
+
+
+2025-05-09 19:39:51.775950|user_95957|U17|nlu_fallback|undergrad ruels|
+2025-05-09 19:39:51.776008|user_95957|U18|nlu_fallback|undergrad rules|
+2025-05-09 19:39:51.776066|user_95957|U19|nlu_fallback|whats the carolina creed|
+2025-05-09 19:39:51.776123|user_95957|U20|introductory_tool_text_analysis|do you know of licensed stuff for analyzing text|
+2025-05-09 19:39:51.776158|user_95957|B10|||||utter_introductory_tool_text_analysis|##### Introductory Tools
+These are wonderful, easy to use tools to explore whether you want to learn more about text analysis.
+We are members of HathiTrust, which gives you access to their tools.
+Voyant is a free web browser and AntConc is application available to download.
+Constellate is a product from JSTOR for  which we have a license.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+###### Contact Digital Scholarhip
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
+Director of Digital Research Services  
+803-777-2249  
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)  
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+Assistant Head, Acquisitions & Scholarly Communication  
+803-777-8280  
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+2025-05-09 19:39:51.776183|user_95957|U21|nlu_fallback|who is amie freeman|
+2025-05-09 19:40:29.248574|user_95957|U0|greet|/greet|
+2025-05-09 19:40:29.248612|user_95957|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:40:29.248635|user_95957|U1|nlu_fallback|school admissions|
+2025-05-09 19:40:29.248696|user_95957|U2|nlu_fallback|how do i admit my kid into USC?|
+2025-05-09 19:40:29.248755|user_95957|U3|nlu_fallback|can you tell me what to do for my major|
+2025-05-09 19:40:29.248813|user_95957|U4|nlu_fallback|how do i pick my major at the university|
+2025-05-09 19:40:29.248872|user_95957|U5|nlu_fallback|what floor are books on|
+2025-05-09 19:40:29.248973|user_95957|U6|nlu_fallback|floormap for library|
+2025-05-09 19:40:29.249042|user_95957|U7|option_available_longterm_archiving|how to archive or share data|
+2025-05-09 19:40:29.249067|user_95957|B1|||||utter_option_available_longterm_archiving|
+The University of South Carolina does not currently have a system-wide, long-term archiving option for research data.
+However, many external disciplinary and general data repositories exist.
+If you want or need to share your research data, one of these might be a good fit.
+These repositories are also good places to find datasets for re-use.
+
+[Learn more here](http://guides.library.sc.edu/c.php?g=592274&p=4095611)
+###### Contact Research Data Management
+[Stacy Winchester](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/winchester_stacy.php)  
+Research Data Librarian  
+803-777-1968  
+[winches2@mailbox.sc.edu](mailto:winches2@mailbox.sc.edu)
+[Book an appointment](https://libcal.library.sc.edu/appointment/31854) with Stacy Winchester to dicuss your needs.
+2025-05-09 19:40:29.249102|user_95957|U8|use_digital_tool_research|who can help me with digital collections|
+2025-05-09 19:40:29.249130|user_95957|B2|||||utter_use_digital_tool_research|
+The library offers support for using digital processes, tools, and methods to enable and present new forms of research.
+[Digital Projects Showcase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/digital_project_showcase/index.php)
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+
+###### Contact Digital Scholarhip
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
+Director of Digital Research Services  
+803-777-2249  
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)  
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+Assistant Head, Acquisitions & Scholarly Communication  
+803-777-8280  
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+2025-05-09 19:40:29.249155|user_95957|U9|find_information_music_material|special collectios|
+2025-05-09 19:40:29.249182|user_95957|B3|||||utter_find_information_music_material|
+For streaming audio reserves and other music materials contact the [Music Library](https://sc.edu/about/offices_and_divisions/university_libraries/browse/music_library/index.php).
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/course_materials/index.php)
+
+
+2025-05-09 19:40:29.249204|user_95957|U10|set_appointment_research_use|special collections|
+2025-05-09 19:40:29.249231|user_95957|B4|||||utter_set_appointment_research_use|
+We set research appointments in the Charles W.
+Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m.
+until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability.
+We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month.
+
+[Learn more here](https://libanswers.library.sc.edu//scl/faq/376435)
+2025-05-09 19:40:29.249255|user_95957|U11|set_appointment_research_use|special collections USC|
+2025-05-09 19:40:29.249282|user_95957|B5|||||utter_set_appointment_research_use|
+We set research appointments in the Charles W.
+Joyner Reading Room at the South Caroliniana Library during our open hours of 9 a.m.
+until 4 p.m., Tuesdays through Fridays, and the first Saturday of each month, subject to appointment availability.
+We are closed to the public on Sundays, Mondays, and Saturdays except for the first Saturday of each month.
+
+[Learn more here](https://libanswers.library.sc.edu//scl/faq/376435)
+2025-05-09 19:40:29.249304|user_95957|U12|modelled_data_resource_available|Government Information and Maps|
+2025-05-09 19:40:29.249331|user_95957|B6|||||utter_modelled_data_resource_available|##### Geospatial Data
+- [Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/)
+- [U.S. Census - List of Data and Tools](https://www.census.gov/data/data-tools.html)
+
+##### Transportation Data
+- [Topologically Integrated Geographic Encoding & Referencing (TIGER) Data](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
+
+##### Modelled Data
+- [Parameter-elevation Relationships on Independent Slopes Model (PRISM)](http://www.prism.oregonstate.edu/)
+Most of modelled data are stored in NetCDF format.
+
+[Learn more here](https://guides.library.sc.edu/data-and-statistics/geospatial)
+2025-05-09 19:40:29.249354|user_95957|U13|nlu_fallback|Off-Campus Access|
+2025-05-09 19:40:29.249413|user_95957|U14|pascal_delivers|do you have book delivery for students in the library|
+2025-05-09 19:40:29.249439|user_95957|B7|||||utter_pascal_delivers|
+PASCAL Delivers is a free book-delivery service which enables current USC students, faculty and staff to request delivery of physical books from other academic libraries across the state to a participating library.
+If you're wondering, PASCAL stands for Partnership Among South Carolina Academic Libraries.
+To find items available for request, expand your results in Find It @ USC by choosing to search PASCAL Delivers.
+Sign in to make requests.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23791)
+2025-05-09 19:40:29.249462|user_95957|U15|food_drink_allowed_library|do you deliver food to students?|
+2025-05-09 19:40:29.249489|user_95957|B8|||||utter_food_drink_allowed_library|
+You are allowed to have food and drinks in most areas of the library.
+Please wear your mask or face covering when you are not actively eating or drinking.
+Exceptions:
+Food and beverages are not allowed in the library classrooms, Library Productions Studios, the Hollings Special Collections Library, or the South Caroliniana Library.
+Remember to Keep it Clean!
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23774)
+2025-05-09 19:40:29.249511|user_95957|U16|suggest_title_library_purchase|can i suggest a purchase of a book|
+2025-05-09 19:40:29.249539|user_95957|B9|||||utter_suggest_title_library_purchase|
+You can make purchase suggestions online to help us build the library's collection.
+The form requires a USC network username and password.
+Faculty members can also email their Subject Librarian directly, especially when submitting multiple requests at once.
+[Suggest a Purchase](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/suggest_a_purchase/index.php)
+[Find My Subject Librarian](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/faculty_services/subject_librarian/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23790)
+
+
+2025-05-09 19:40:29.249562|user_95957|U17|nlu_fallback|undergrad ruels|
+2025-05-09 19:40:29.249622|user_95957|U18|nlu_fallback|undergrad rules|
+2025-05-09 19:40:29.249680|user_95957|U19|nlu_fallback|whats the carolina creed|
+2025-05-09 19:40:29.249736|user_95957|U20|introductory_tool_text_analysis|do you know of licensed stuff for analyzing text|
+2025-05-09 19:40:29.249760|user_95957|B10|||||utter_introductory_tool_text_analysis|##### Introductory Tools
+These are wonderful, easy to use tools to explore whether you want to learn more about text analysis.
+We are members of HathiTrust, which gives you access to their tools.
+Voyant is a free web browser and AntConc is application available to download.
+Constellate is a product from JSTOR for  which we have a license.
+
+[Learn more here](https://guides.library.sc.edu/c.php?g=1341033&p=9886349)
+###### Contact Digital Scholarhip
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
+Director of Digital Research Services  
+803-777-2249  
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)  
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+Assistant Head, Acquisitions & Scholarly Communication  
+803-777-8280  
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)
+2025-05-09 19:40:29.249793|user_95957|U21|nlu_fallback|who is amie freeman|
+2025-05-09 19:40:29.249875|user_95957|U22|nlu_fallback|jupyter notebook|
+2025-05-09 19:41:45.015350|user_22690|U0|greet|/greet|
+2025-05-09 19:41:45.015395|user_22690|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:41:45.015418|user_22690|U1|nlu_fallback|jupyter notebook|
+2025-05-09 19:41:50.191692|user_38166|U0|greet|/greet|
+2025-05-09 19:41:50.191733|user_38166|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:41:50.191756|user_38166|U1|nlu_fallback|jupyter notebook|
+2025-05-09 19:42:09.125400|user_17113|U0|greet|/greet|
+2025-05-09 19:42:09.125446|user_17113|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:42:09.125458|user_17113|U1|nlu_fallback|jupyter notebook|
+2025-05-09 19:43:04.549353|user_17113|U0|greet|/greet|
+2025-05-09 19:43:04.549395|user_17113|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:43:04.549421|user_17113|U1|nlu_fallback|jupyter notebook|
+2025-05-09 19:43:04.549517|user_17113|U2|nlu_fallback|admission into usc|
+2025-05-09 19:43:19.259919|user_17113|U0|greet|/greet|
+2025-05-09 19:43:19.259964|user_17113|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:43:19.259975|user_17113|U1|nlu_fallback|jupyter notebook|
+2025-05-09 19:43:19.260080|user_17113|U2|nlu_fallback|admission into usc|
+2025-05-09 19:43:19.260173|user_17113|U3|nlu_fallback|admit my kid into usc|
+2025-05-09 19:43:26.386917|user_17113|U0|greet|/greet|
+2025-05-09 19:43:26.386963|user_17113|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:43:26.386973|user_17113|U1|nlu_fallback|jupyter notebook|
+2025-05-09 19:43:26.387072|user_17113|U2|nlu_fallback|admission into usc|
+2025-05-09 19:43:26.387152|user_17113|U3|nlu_fallback|admit my kid into usc|
+2025-05-09 19:43:26.387213|user_17113|U4|nlu_fallback|admission services|
+2025-05-09 19:43:30.086417|user_17113|U0|greet|/greet|
+2025-05-09 19:43:30.086461|user_17113|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:43:30.086484|user_17113|U1|nlu_fallback|jupyter notebook|
+2025-05-09 19:43:30.086593|user_17113|U2|nlu_fallback|admission into usc|
+2025-05-09 19:43:30.086687|user_17113|U3|nlu_fallback|admit my kid into usc|
+2025-05-09 19:43:30.086747|user_17113|U4|nlu_fallback|admission services|
+2025-05-09 19:43:30.086807|user_17113|U5|nlu_fallback|how to pick my major|
+2025-05-09 19:49:19.685263|user_17113|U0|greet|/greet|
+2025-05-09 19:49:19.685303|user_17113|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:49:19.685340|user_17113|U1|nlu_fallback|jupyter notebook|
+2025-05-09 19:49:19.685427|user_17113|U2|nlu_fallback|admission into usc|
+2025-05-09 19:49:19.685500|user_17113|U3|nlu_fallback|admit my kid into usc|
+2025-05-09 19:49:19.685559|user_17113|U4|nlu_fallback|admission services|
+2025-05-09 19:49:19.685617|user_17113|U5|nlu_fallback|how to pick my major|
+2025-05-09 19:49:19.685674|user_17113|U6|nlu_fallback|admissions services|
+2025-05-09 19:50:25.475553|user_76481|U0|greet|/greet|
+2025-05-09 19:50:25.475597|user_76481|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:50:25.475620|user_76481|U1|nlu_fallback|admissions services|
+2025-05-09 19:50:29.844516|user_76481|U0|greet|/greet|
+2025-05-09 19:50:29.844562|user_76481|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:50:29.844574|user_76481|U1|nlu_fallback|admissions services|
+2025-05-09 19:50:29.844674|user_76481|U2|nlu_fallback|admissions resources|
+2025-05-09 19:54:55.068241|user_55532|U0|greet|/greet|
+2025-05-09 19:54:55.068292|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:54:55.068303|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 19:54:55.068329|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 19:54:55.068354|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 19:54:55.068382|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:54:55.068407|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 19:54:55.068434|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:54:55.068459|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 19:55:13.609090|user_55532|U0|greet|/greet|
+2025-05-09 19:55:13.609133|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:55:13.609158|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 19:55:13.609186|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 19:55:13.609209|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 19:55:13.609238|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:55:13.609263|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 19:55:13.609290|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:55:13.609315|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 19:55:13.609380|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 19:55:20.908225|user_55532|U0|greet|/greet|
+2025-05-09 19:55:20.908279|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:55:20.908294|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 19:55:20.908324|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 19:55:20.908351|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 19:55:20.908380|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:55:20.908406|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 19:55:20.908446|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:55:20.908534|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 19:55:20.908601|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 19:55:20.908661|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 19:56:10.555026|user_55532|U0|greet|/greet|
+2025-05-09 19:56:10.555066|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:56:10.555089|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 19:56:10.555117|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 19:56:10.555141|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 19:56:10.555168|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:56:10.555193|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 19:56:10.555219|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:56:10.555293|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 19:56:10.555354|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 19:56:10.555616|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 19:56:10.555693|user_55532|U7|student_success_center_peer|athletics department|
+2025-05-09 19:56:10.555719|user_55532|B4|||||utter_student_success_center_peer|
+The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library).
+Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+
+2025-05-09 19:56:10.555744|user_55532|U8|nlu_fallback|how do i become an athlete|
+2025-05-09 19:56:24.565347|user_55532|U0|greet|/greet|
+2025-05-09 19:56:24.565397|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:56:24.565424|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 19:56:24.565452|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 19:56:24.565476|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 19:56:24.565505|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:56:24.565530|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 19:56:24.565558|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:56:24.565582|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 19:56:24.565646|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 19:56:24.565709|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 19:56:24.565801|user_55532|U7|student_success_center_peer|athletics department|
+2025-05-09 19:56:24.565829|user_55532|B4|||||utter_student_success_center_peer|
+The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library).
+Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+
+2025-05-09 19:56:24.565855|user_55532|U8|nlu_fallback|how do i become an athlete|
+2025-05-09 19:56:24.565919|user_55532|U9|nlu_fallback|why is the world like this|
+2025-05-09 19:56:28.534631|user_55532|U0|greet|/greet|
+2025-05-09 19:56:28.534677|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:56:28.534701|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 19:56:28.534728|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 19:56:28.534752|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 19:56:28.534779|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:56:28.534804|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 19:56:28.534831|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:56:28.534855|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 19:56:28.534916|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 19:56:28.534973|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 19:56:28.535059|user_55532|U7|student_success_center_peer|athletics department|
+2025-05-09 19:56:28.535085|user_55532|B4|||||utter_student_success_center_peer|
+The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library).
+Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+
+2025-05-09 19:56:28.535108|user_55532|U8|nlu_fallback|how do i become an athlete|
+2025-05-09 19:56:28.535165|user_55532|U9|nlu_fallback|why is the world like this|
+2025-05-09 19:56:28.535223|user_55532|U10|nlu_fallback|why is there war|
+2025-05-09 19:56:59.794092|user_55532|U0|greet|/greet|
+2025-05-09 19:56:59.794143|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:56:59.794168|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 19:56:59.794198|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 19:56:59.794222|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 19:56:59.794250|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:56:59.794345|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 19:56:59.794415|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:56:59.794453|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 19:56:59.794521|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 19:56:59.794569|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 19:56:59.794645|user_55532|U7|student_success_center_peer|athletics department|
+2025-05-09 19:56:59.794672|user_55532|B4|||||utter_student_success_center_peer|
+The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library).
+Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+
+2025-05-09 19:56:59.794698|user_55532|U8|nlu_fallback|how do i become an athlete|
+2025-05-09 19:56:59.794767|user_55532|U9|nlu_fallback|why is the world like this|
+2025-05-09 19:56:59.794830|user_55532|U10|nlu_fallback|why is there war|
+2025-05-09 19:56:59.794894|user_55532|U11|need_cite_source|and suffering|
+2025-05-09 19:56:59.794922|user_55532|B5|||||utter_need_cite_source|##### When and Why to Cite
+You should also provide documentation for any statistics or facts that are not considered common knowledge.
+- Avoid charges of plagiarism
+- Give credit to the original author or creator
+- Provide context for your audience
+
+[Learn more here](https://guides.library.sc.edu/citation)
+2025-05-09 19:56:59.794947|user_55532|U12|nlu_fallback|how do i become an athlete|
+2025-05-09 19:57:08.883643|user_55532|U0|greet|/greet|
+2025-05-09 19:57:08.883685|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:57:08.883708|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 19:57:08.883736|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 19:57:08.883747|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 19:57:08.883775|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:57:08.883801|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 19:57:08.883829|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:57:08.883855|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 19:57:08.883920|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 19:57:08.883982|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 19:57:08.884059|user_55532|U7|student_success_center_peer|athletics department|
+2025-05-09 19:57:08.884085|user_55532|B4|||||utter_student_success_center_peer|
+The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library).
+Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+
+2025-05-09 19:57:08.884110|user_55532|U8|nlu_fallback|how do i become an athlete|
+2025-05-09 19:57:08.884173|user_55532|U9|nlu_fallback|why is the world like this|
+2025-05-09 19:57:08.884234|user_55532|U10|nlu_fallback|why is there war|
+2025-05-09 19:57:08.884295|user_55532|U11|need_cite_source|and suffering|
+2025-05-09 19:57:08.884322|user_55532|B5|||||utter_need_cite_source|##### When and Why to Cite
+You should also provide documentation for any statistics or facts that are not considered common knowledge.
+- Avoid charges of plagiarism
+- Give credit to the original author or creator
+- Provide context for your audience
+
+[Learn more here](https://guides.library.sc.edu/citation)
+2025-05-09 19:57:08.884347|user_55532|U12|nlu_fallback|how do i become an athlete|
+2025-05-09 19:57:08.884407|user_55532|U13|nlu_fallback|suffering|
+2025-05-09 19:57:37.202222|user_55532|U0|greet|/greet|
+2025-05-09 19:57:37.202266|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:57:37.202300|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 19:57:37.202329|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 19:57:37.202352|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 19:57:37.202380|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:57:37.202405|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 19:57:37.202433|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:57:37.202466|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 19:57:37.202531|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 19:57:37.202594|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 19:57:37.202674|user_55532|U7|student_success_center_peer|athletics department|
+2025-05-09 19:57:37.202701|user_55532|B4|||||utter_student_success_center_peer|
+The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library).
+Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+
+2025-05-09 19:57:37.202727|user_55532|U8|nlu_fallback|how do i become an athlete|
+2025-05-09 19:57:37.202787|user_55532|U9|nlu_fallback|why is the world like this|
+2025-05-09 19:57:37.202864|user_55532|U10|nlu_fallback|why is there war|
+2025-05-09 19:57:37.202924|user_55532|U11|need_cite_source|and suffering|
+2025-05-09 19:57:37.202950|user_55532|B5|||||utter_need_cite_source|##### When and Why to Cite
+You should also provide documentation for any statistics or facts that are not considered common knowledge.
+- Avoid charges of plagiarism
+- Give credit to the original author or creator
+- Provide context for your audience
+
+[Learn more here](https://guides.library.sc.edu/citation)
+2025-05-09 19:57:37.202974|user_55532|U12|nlu_fallback|how do i become an athlete|
+2025-05-09 19:57:37.203036|user_55532|U13|nlu_fallback|suffering|
+2025-05-09 19:57:37.203097|user_55532|U14|sign_orcid_id|how do i get my diploma|
+2025-05-09 19:57:37.203123|user_55532|B6|||||utter_sign_orcid_id|
+Signing up for an ORCID iD is free and takes only a few minutes.
+Your ORCID iD distinguishes you from other researchers.
+Contributing your professional information to your ORCID iD will allow you to quickly reuse this information in other systems.
+After registering the first time, you can sign in with your ORCID credentials or you can select Institutional account to log in with your USC network username and password.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/323829)
+2025-05-09 19:57:37.203147|user_55532|U15|nlu_fallback|when will i graduate|
+2025-05-09 19:58:44.929595|user_55532|U0|greet|/greet|
+2025-05-09 19:58:44.929647|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:58:44.929658|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 19:58:44.929685|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 19:58:44.929709|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 19:58:44.929736|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:58:44.929761|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 19:58:44.929788|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:58:44.929812|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 19:58:44.929871|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 19:58:44.929930|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 19:58:44.930017|user_55532|U7|student_success_center_peer|athletics department|
+2025-05-09 19:58:44.930043|user_55532|B4|||||utter_student_success_center_peer|
+The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library).
+Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+
+2025-05-09 19:58:44.930066|user_55532|U8|nlu_fallback|how do i become an athlete|
+2025-05-09 19:58:44.930124|user_55532|U9|nlu_fallback|why is the world like this|
+2025-05-09 19:58:44.930182|user_55532|U10|nlu_fallback|why is there war|
+2025-05-09 19:58:44.930239|user_55532|U11|need_cite_source|and suffering|
+2025-05-09 19:58:44.930264|user_55532|B5|||||utter_need_cite_source|##### When and Why to Cite
+You should also provide documentation for any statistics or facts that are not considered common knowledge.
+- Avoid charges of plagiarism
+- Give credit to the original author or creator
+- Provide context for your audience
+
+[Learn more here](https://guides.library.sc.edu/citation)
+2025-05-09 19:58:44.930287|user_55532|U12|nlu_fallback|how do i become an athlete|
+2025-05-09 19:58:44.930344|user_55532|U13|nlu_fallback|suffering|
+2025-05-09 19:58:44.930403|user_55532|U14|sign_orcid_id|how do i get my diploma|
+2025-05-09 19:58:44.930428|user_55532|B6|||||utter_sign_orcid_id|
+Signing up for an ORCID iD is free and takes only a few minutes.
+Your ORCID iD distinguishes you from other researchers.
+Contributing your professional information to your ORCID iD will allow you to quickly reuse this information in other systems.
+After registering the first time, you can sign in with your ORCID credentials or you can select Institutional account to log in with your USC network username and password.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/323829)
+2025-05-09 19:58:44.930450|user_55532|U15|nlu_fallback|when will i graduate|
+2025-05-09 19:58:44.930508|user_55532|U16|nlu_fallback|self-guided visit|
+2025-05-09 19:58:50.650050|user_55532|U0|greet|/greet|
+2025-05-09 19:58:50.650099|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:58:50.650123|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 19:58:50.650150|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 19:58:50.650173|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 19:58:50.650201|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:58:50.650226|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 19:58:50.650254|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:58:50.650277|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 19:58:50.650338|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 19:58:50.650396|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 19:58:50.650484|user_55532|U7|student_success_center_peer|athletics department|
+2025-05-09 19:58:50.650512|user_55532|B4|||||utter_student_success_center_peer|
+The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library).
+Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+
+2025-05-09 19:58:50.650546|user_55532|U8|nlu_fallback|how do i become an athlete|
+2025-05-09 19:58:50.650606|user_55532|U9|nlu_fallback|why is the world like this|
+2025-05-09 19:58:50.650665|user_55532|U10|nlu_fallback|why is there war|
+2025-05-09 19:58:50.650725|user_55532|U11|need_cite_source|and suffering|
+2025-05-09 19:58:50.650751|user_55532|B5|||||utter_need_cite_source|##### When and Why to Cite
+You should also provide documentation for any statistics or facts that are not considered common knowledge.
+- Avoid charges of plagiarism
+- Give credit to the original author or creator
+- Provide context for your audience
+
+[Learn more here](https://guides.library.sc.edu/citation)
+2025-05-09 19:58:50.650774|user_55532|U12|nlu_fallback|how do i become an athlete|
+2025-05-09 19:58:50.650834|user_55532|U13|nlu_fallback|suffering|
+2025-05-09 19:58:50.650894|user_55532|U14|sign_orcid_id|how do i get my diploma|
+2025-05-09 19:58:50.650920|user_55532|B6|||||utter_sign_orcid_id|
+Signing up for an ORCID iD is free and takes only a few minutes.
+Your ORCID iD distinguishes you from other researchers.
+Contributing your professional information to your ORCID iD will allow you to quickly reuse this information in other systems.
+After registering the first time, you can sign in with your ORCID credentials or you can select Institutional account to log in with your USC network username and password.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/323829)
+2025-05-09 19:58:50.650943|user_55532|U15|nlu_fallback|when will i graduate|
+2025-05-09 19:58:50.651003|user_55532|U16|nlu_fallback|self-guided visit|
+2025-05-09 19:58:50.651062|user_55532|U17|nlu_fallback|tour of the university|
+2025-05-09 19:59:21.856131|user_55532|U0|greet|/greet|
+2025-05-09 19:59:21.856174|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:59:21.856197|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 19:59:21.856224|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 19:59:21.856247|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 19:59:21.856275|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:59:21.856308|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 19:59:21.856336|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:59:21.856367|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 19:59:21.856427|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 19:59:21.856486|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 19:59:21.856571|user_55532|U7|student_success_center_peer|athletics department|
+2025-05-09 19:59:21.856595|user_55532|B4|||||utter_student_success_center_peer|
+The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library).
+Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+
+2025-05-09 19:59:21.856618|user_55532|U8|nlu_fallback|how do i become an athlete|
+2025-05-09 19:59:21.856675|user_55532|U9|nlu_fallback|why is the world like this|
+2025-05-09 19:59:21.856734|user_55532|U10|nlu_fallback|why is there war|
+2025-05-09 19:59:21.856791|user_55532|U11|need_cite_source|and suffering|
+2025-05-09 19:59:21.856816|user_55532|B5|||||utter_need_cite_source|##### When and Why to Cite
+You should also provide documentation for any statistics or facts that are not considered common knowledge.
+- Avoid charges of plagiarism
+- Give credit to the original author or creator
+- Provide context for your audience
+
+[Learn more here](https://guides.library.sc.edu/citation)
+2025-05-09 19:59:21.856838|user_55532|U12|nlu_fallback|how do i become an athlete|
+2025-05-09 19:59:21.856898|user_55532|U13|nlu_fallback|suffering|
+2025-05-09 19:59:21.856953|user_55532|U14|sign_orcid_id|how do i get my diploma|
+2025-05-09 19:59:21.856979|user_55532|B6|||||utter_sign_orcid_id|
+Signing up for an ORCID iD is free and takes only a few minutes.
+Your ORCID iD distinguishes you from other researchers.
+Contributing your professional information to your ORCID iD will allow you to quickly reuse this information in other systems.
+After registering the first time, you can sign in with your ORCID credentials or you can select Institutional account to log in with your USC network username and password.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/323829)
+2025-05-09 19:59:21.857002|user_55532|U15|nlu_fallback|when will i graduate|
+2025-05-09 19:59:21.857061|user_55532|U16|nlu_fallback|self-guided visit|
+2025-05-09 19:59:21.857120|user_55532|U17|nlu_fallback|tour of the university|
+2025-05-09 19:59:21.857201|user_55532|U18|open_textbook_source_available|online education resource|
+2025-05-09 19:59:21.857227|user_55532|B7|||||utter_open_textbook_source_available|##### Search Across OER Sources
+[](https://oasis.geneseo.edu/advanced_search.php)
+
+##### Open Textbooks
+- [Open Textbook Library](https://open.umn.edu/opentextbooks/)
+- [MERLOT](https://www.merlot.org/)
+- [OER Commons](https://www.oercommons.org)
+
+[Learn more here](https://guides.library.sc.edu/OER/opentextbooks)
+2025-05-09 19:59:21.857250|user_55532|U19|nlu_fallback|clubs for me|
+2025-05-09 19:59:30.013610|user_55532|U0|greet|/greet|
+2025-05-09 19:59:30.013655|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 19:59:30.013666|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 19:59:30.013694|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 19:59:30.013731|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 19:59:30.013756|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:59:30.013783|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 19:59:30.013811|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 19:59:30.013823|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 19:59:30.013887|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 19:59:30.013948|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 19:59:30.014033|user_55532|U7|student_success_center_peer|athletics department|
+2025-05-09 19:59:30.014059|user_55532|B4|||||utter_student_success_center_peer|
+The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library).
+Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+
+2025-05-09 19:59:30.014083|user_55532|U8|nlu_fallback|how do i become an athlete|
+2025-05-09 19:59:30.014143|user_55532|U9|nlu_fallback|why is the world like this|
+2025-05-09 19:59:30.014200|user_55532|U10|nlu_fallback|why is there war|
+2025-05-09 19:59:30.014259|user_55532|U11|need_cite_source|and suffering|
+2025-05-09 19:59:30.014285|user_55532|B5|||||utter_need_cite_source|##### When and Why to Cite
+You should also provide documentation for any statistics or facts that are not considered common knowledge.
+- Avoid charges of plagiarism
+- Give credit to the original author or creator
+- Provide context for your audience
+
+[Learn more here](https://guides.library.sc.edu/citation)
+2025-05-09 19:59:30.014308|user_55532|U12|nlu_fallback|how do i become an athlete|
+2025-05-09 19:59:30.014370|user_55532|U13|nlu_fallback|suffering|
+2025-05-09 19:59:30.014427|user_55532|U14|sign_orcid_id|how do i get my diploma|
+2025-05-09 19:59:30.014452|user_55532|B6|||||utter_sign_orcid_id|
+Signing up for an ORCID iD is free and takes only a few minutes.
+Your ORCID iD distinguishes you from other researchers.
+Contributing your professional information to your ORCID iD will allow you to quickly reuse this information in other systems.
+After registering the first time, you can sign in with your ORCID credentials or you can select Institutional account to log in with your USC network username and password.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/323829)
+2025-05-09 19:59:30.014476|user_55532|U15|nlu_fallback|when will i graduate|
+2025-05-09 19:59:30.014535|user_55532|U16|nlu_fallback|self-guided visit|
+2025-05-09 19:59:30.014595|user_55532|U17|nlu_fallback|tour of the university|
+2025-05-09 19:59:30.014653|user_55532|U18|open_textbook_source_available|online education resource|
+2025-05-09 19:59:30.014679|user_55532|B7|||||utter_open_textbook_source_available|##### Search Across OER Sources
+[](https://oasis.geneseo.edu/advanced_search.php)
+
+##### Open Textbooks
+- [Open Textbook Library](https://open.umn.edu/opentextbooks/)
+- [MERLOT](https://www.merlot.org/)
+- [OER Commons](https://www.oercommons.org)
+
+[Learn more here](https://guides.library.sc.edu/OER/opentextbooks)
+2025-05-09 19:59:30.014702|user_55532|U19|nlu_fallback|clubs for me|
+2025-05-09 19:59:30.014759|user_55532|U20|nlu_fallback|admissions help|
+2025-05-09 20:00:54.935337|user_55532|U0|greet|/greet|
+2025-05-09 20:00:54.935376|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:00:54.935398|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 20:00:54.935412|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 20:00:54.935420|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 20:00:54.935430|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 20:00:54.935441|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 20:00:54.935450|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 20:00:54.935460|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 20:00:54.935486|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 20:00:54.935512|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 20:00:54.935575|user_55532|U7|student_success_center_peer|athletics department|
+2025-05-09 20:00:54.935590|user_55532|B4|||||utter_student_success_center_peer|
+The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library).
+Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+
+2025-05-09 20:00:54.935612|user_55532|U8|nlu_fallback|how do i become an athlete|
+2025-05-09 20:00:54.935679|user_55532|U9|nlu_fallback|why is the world like this|
+2025-05-09 20:00:54.935736|user_55532|U10|nlu_fallback|why is there war|
+2025-05-09 20:00:54.935811|user_55532|U11|need_cite_source|and suffering|
+2025-05-09 20:00:54.935821|user_55532|B5|||||utter_need_cite_source|##### When and Why to Cite
+You should also provide documentation for any statistics or facts that are not considered common knowledge.
+- Avoid charges of plagiarism
+- Give credit to the original author or creator
+- Provide context for your audience
+
+[Learn more here](https://guides.library.sc.edu/citation)
+2025-05-09 20:00:54.935831|user_55532|U12|nlu_fallback|how do i become an athlete|
+2025-05-09 20:00:54.935886|user_55532|U13|nlu_fallback|suffering|
+2025-05-09 20:00:54.935944|user_55532|U14|sign_orcid_id|how do i get my diploma|
+2025-05-09 20:00:54.935956|user_55532|B6|||||utter_sign_orcid_id|
+Signing up for an ORCID iD is free and takes only a few minutes.
+Your ORCID iD distinguishes you from other researchers.
+Contributing your professional information to your ORCID iD will allow you to quickly reuse this information in other systems.
+After registering the first time, you can sign in with your ORCID credentials or you can select Institutional account to log in with your USC network username and password.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/323829)
+2025-05-09 20:00:54.935969|user_55532|U15|nlu_fallback|when will i graduate|
+2025-05-09 20:00:54.936024|user_55532|U16|nlu_fallback|self-guided visit|
+2025-05-09 20:00:54.936083|user_55532|U17|nlu_fallback|tour of the university|
+2025-05-09 20:00:54.936137|user_55532|U18|open_textbook_source_available|online education resource|
+2025-05-09 20:00:54.936162|user_55532|B7|||||utter_open_textbook_source_available|##### Search Across OER Sources
+[](https://oasis.geneseo.edu/advanced_search.php)
+
+##### Open Textbooks
+- [Open Textbook Library](https://open.umn.edu/opentextbooks/)
+- [MERLOT](https://www.merlot.org/)
+- [OER Commons](https://www.oercommons.org)
+
+[Learn more here](https://guides.library.sc.edu/OER/opentextbooks)
+2025-05-09 20:00:54.936183|user_55532|U19|nlu_fallback|clubs for me|
+2025-05-09 20:00:54.936238|user_55532|U20|nlu_fallback|admissions help|
+2025-05-09 20:00:54.936307|user_55532|U21|resource_help_learn_language|learn new language|
+2025-05-09 20:00:54.936333|user_55532|B8|||||utter_resource_help_learn_language|
+Richland Library currently offers [Transparent Learning Online](https://www.richlandlibrary.com/databases/transparent-language-online) with over 100 languages.
+USC Columbia students, regardless of where they live, can [get a public library card at Richland Library](https://askus.richlandlibrary.com/faq/207283) for free and renew it annually while they are still enrolled.
+Visit a library branch in person with your CarolinaCard.
+The USC University Libraries has both books about learning a language and books and newspapers written in other languages.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/392735)
+2025-05-09 20:00:54.936343|user_55532|U22|nlu_fallback|do you guys hire|
+2025-05-09 20:01:01.619974|user_55532|U0|greet|/greet|
+2025-05-09 20:01:01.620021|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:01:01.620049|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 20:01:01.620079|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 20:01:01.620105|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 20:01:01.620135|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 20:01:01.620161|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 20:01:01.620178|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 20:01:01.620202|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 20:01:01.620268|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 20:01:01.620383|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 20:01:01.620464|user_55532|U7|student_success_center_peer|athletics department|
+2025-05-09 20:01:01.620492|user_55532|B4|||||utter_student_success_center_peer|
+The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library).
+Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+
+2025-05-09 20:01:01.620519|user_55532|U8|nlu_fallback|how do i become an athlete|
+2025-05-09 20:01:01.620584|user_55532|U9|nlu_fallback|why is the world like this|
+2025-05-09 20:01:01.620645|user_55532|U10|nlu_fallback|why is there war|
+2025-05-09 20:01:01.620709|user_55532|U11|need_cite_source|and suffering|
+2025-05-09 20:01:01.620737|user_55532|B5|||||utter_need_cite_source|##### When and Why to Cite
+You should also provide documentation for any statistics or facts that are not considered common knowledge.
+- Avoid charges of plagiarism
+- Give credit to the original author or creator
+- Provide context for your audience
+
+[Learn more here](https://guides.library.sc.edu/citation)
+2025-05-09 20:01:01.620761|user_55532|U12|nlu_fallback|how do i become an athlete|
+2025-05-09 20:01:01.620824|user_55532|U13|nlu_fallback|suffering|
+2025-05-09 20:01:01.620887|user_55532|U14|sign_orcid_id|how do i get my diploma|
+2025-05-09 20:01:01.620940|user_55532|B6|||||utter_sign_orcid_id|
+Signing up for an ORCID iD is free and takes only a few minutes.
+Your ORCID iD distinguishes you from other researchers.
+Contributing your professional information to your ORCID iD will allow you to quickly reuse this information in other systems.
+After registering the first time, you can sign in with your ORCID credentials or you can select Institutional account to log in with your USC network username and password.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/323829)
+2025-05-09 20:01:01.620964|user_55532|U15|nlu_fallback|when will i graduate|
+2025-05-09 20:01:01.621030|user_55532|U16|nlu_fallback|self-guided visit|
+2025-05-09 20:01:01.621118|user_55532|U17|nlu_fallback|tour of the university|
+2025-05-09 20:01:01.621181|user_55532|U18|open_textbook_source_available|online education resource|
+2025-05-09 20:01:01.621209|user_55532|B7|||||utter_open_textbook_source_available|##### Search Across OER Sources
+[](https://oasis.geneseo.edu/advanced_search.php)
+
+##### Open Textbooks
+- [Open Textbook Library](https://open.umn.edu/opentextbooks/)
+- [MERLOT](https://www.merlot.org/)
+- [OER Commons](https://www.oercommons.org)
+
+[Learn more here](https://guides.library.sc.edu/OER/opentextbooks)
+2025-05-09 20:01:01.621234|user_55532|U19|nlu_fallback|clubs for me|
+2025-05-09 20:01:01.621299|user_55532|U20|nlu_fallback|admissions help|
+2025-05-09 20:01:01.621378|user_55532|U21|resource_help_learn_language|learn new language|
+2025-05-09 20:01:01.621405|user_55532|B8|||||utter_resource_help_learn_language|
+Richland Library currently offers [Transparent Learning Online](https://www.richlandlibrary.com/databases/transparent-language-online) with over 100 languages.
+USC Columbia students, regardless of where they live, can [get a public library card at Richland Library](https://askus.richlandlibrary.com/faq/207283) for free and renew it annually while they are still enrolled.
+Visit a library branch in person with your CarolinaCard.
+The USC University Libraries has both books about learning a language and books and newspapers written in other languages.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/392735)
+2025-05-09 20:01:01.621430|user_55532|U22|nlu_fallback|do you guys hire|
+2025-05-09 20:01:01.621506|user_55532|U23|choose_number|1|
+number|1|2025-05-09 20:01:19.454635|user_55532|U0|greet|/greet|
+2025-05-09 20:01:19.454678|user_55532|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:01:19.454688|user_55532|U1|something_notarized|what are you here for|
+2025-05-09 20:01:19.454713|user_55532|B1|||||utter_something_notarized|
+The CarolinaCard office in the basement of Russell House has a notary.
+Call CarolinaCard at 803-777-1708 to check availability at a specific time.
+[Learn more here](https://libanswers.library.sc.edu//faq/138210)
+
+
+2025-05-09 20:01:19.454737|user_55532|U2|academic_social_networking_site|social media|
+2025-05-09 20:01:19.454763|user_55532|B2|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 20:01:19.454837|user_55532|U3|academic_social_networking_site|usc social media|
+2025-05-09 20:01:19.454864|user_55532|B3|||||utter_academic_social_networking_site|##### Social Networking
+Social networking sites for academics, such as Academia.edu and ResearchGate, are used by some researchers to share their scholarly works and monitor analytics across disciplines.
+These sites are often used as social media and outreach tools.
+Because these types of sites have been regularly accused by publishers of [massive copyright infringement](http://www.responsiblesharing.org/coalition-statement/), it's important that researchers pay close attention to the terms of service and privacy policies of these sites.
+The University of California Office of Scholarly Communication provides a [great read on the differences between academic social networking sites and open access repositories](https://osc.universityofcalifornia.edu/2015/12/a-social-networking-site-is-not-an-open-access-repository/?utm_source=hootsuite).
+
+[Learn more here](http://guides.library.sc.edu/openaccessresources/repositories)
+2025-05-09 20:01:19.454910|user_55532|U4|nlu_fallback|history of usc|
+2025-05-09 20:01:19.454967|user_55532|U5|nlu_fallback|admissions resources|
+2025-05-09 20:01:19.455026|user_55532|U6|nlu_fallback|how to admit my child to the school|
+2025-05-09 20:01:19.455103|user_55532|U7|student_success_center_peer|athletics department|
+2025-05-09 20:01:19.455128|user_55532|B4|||||utter_student_success_center_peer|
+The Student Success Center, which offers a variety of services including peer tutoring and supplemental instruction, is located in Thomas Cooper Library on the Mezzanine Level (the top floor of the library).
+Find more information or make an appointment on their website.
+Note: Academic Coaching (ACE) and Major Change Advising are now part of the University Advising Center, located in the Close/Hipp Building.
+[Student Success Center](http://www.sc.edu/success)
+[Making an Appointment](http://www.sc.edu/about/offices_and_divisions/student_success_center/make-appointment/index.php)
+[University Advising Center](http://sc.edu/about/offices_and_divisions/advising/university_advising_center/index.php)
+
+[Learn more here](https://libanswers.library.sc.edu//faq/23760)
+
+
+2025-05-09 20:01:19.455152|user_55532|U8|nlu_fallback|how do i become an athlete|
+2025-05-09 20:01:19.455210|user_55532|U9|nlu_fallback|why is the world like this|
+2025-05-09 20:01:19.455268|user_55532|U10|nlu_fallback|why is there war|
+2025-05-09 20:01:19.455324|user_55532|U11|need_cite_source|and suffering|
+2025-05-09 20:01:19.455348|user_55532|B5|||||utter_need_cite_source|##### When and Why to Cite
+You should also provide documentation for any statistics or facts that are not considered common knowledge.
+- Avoid charges of plagiarism
+- Give credit to the original author or creator
+- Provide context for your audience
+
+[Learn more here](https://guides.library.sc.edu/citation)
+2025-05-09 20:01:19.455371|user_55532|U12|nlu_fallback|how do i become an athlete|
+2025-05-09 20:01:19.455432|user_55532|U13|nlu_fallback|suffering|
+2025-05-09 20:01:19.455490|user_55532|U14|sign_orcid_id|how do i get my diploma|
+2025-05-09 20:01:19.455516|user_55532|B6|||||utter_sign_orcid_id|
+Signing up for an ORCID iD is free and takes only a few minutes.
+Your ORCID iD distinguishes you from other researchers.
+Contributing your professional information to your ORCID iD will allow you to quickly reuse this information in other systems.
+After registering the first time, you can sign in with your ORCID credentials or you can select Institutional account to log in with your USC network username and password.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/323829)
+2025-05-09 20:01:19.455540|user_55532|U15|nlu_fallback|when will i graduate|
+2025-05-09 20:01:19.455598|user_55532|U16|nlu_fallback|self-guided visit|
+2025-05-09 20:01:19.455656|user_55532|U17|nlu_fallback|tour of the university|
+2025-05-09 20:01:19.455714|user_55532|U18|open_textbook_source_available|online education resource|
+2025-05-09 20:01:19.455740|user_55532|B7|||||utter_open_textbook_source_available|##### Search Across OER Sources
+[](https://oasis.geneseo.edu/advanced_search.php)
+
+##### Open Textbooks
+- [Open Textbook Library](https://open.umn.edu/opentextbooks/)
+- [MERLOT](https://www.merlot.org/)
+- [OER Commons](https://www.oercommons.org)
+
+[Learn more here](https://guides.library.sc.edu/OER/opentextbooks)
+2025-05-09 20:01:19.455762|user_55532|U19|nlu_fallback|clubs for me|
+2025-05-09 20:01:19.455821|user_55532|U20|nlu_fallback|admissions help|
+2025-05-09 20:01:19.455907|user_55532|U21|resource_help_learn_language|learn new language|
+2025-05-09 20:01:19.455933|user_55532|B8|||||utter_resource_help_learn_language|
+Richland Library currently offers [Transparent Learning Online](https://www.richlandlibrary.com/databases/transparent-language-online) with over 100 languages.
+USC Columbia students, regardless of where they live, can [get a public library card at Richland Library](https://askus.richlandlibrary.com/faq/207283) for free and renew it annually while they are still enrolled.
+Visit a library branch in person with your CarolinaCard.
+The USC University Libraries has both books about learning a language and books and newspapers written in other languages.
+
+[Learn more here](https://libanswers.library.sc.edu//faq/392735)
+2025-05-09 20:01:19.455957|user_55532|U22|nlu_fallback|do you guys hire|
+2025-05-09 20:01:19.456028|user_55532|U23|choose_number|1|
+number|1|2025-05-09 20:01:19.456093|user_55532|U24|nlu_fallback|how can i make my resume better|
+2025-05-09 20:23:52.827348|user_12218|U0|greet|/greet|
+2025-05-09 20:23:52.827391|user_12218|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:23:52.827414|user_12218|U1|nlu_fallback|how can i make my resume better|
+2025-05-09 20:24:25.758637|user_14433|U0|greet|/greet|
+2025-05-09 20:24:25.758685|user_14433|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:24:25.758708|user_14433|U1|nlu_fallback|how can i make my resume better|
+2025-05-09 20:24:42.435805|user_14433|U0|greet|/greet|
+2025-05-09 20:24:42.435849|user_14433|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:24:42.435859|user_14433|U1|nlu_fallback|how can i make my resume better|
+2025-05-09 20:24:42.435924|user_14433|U2|nlu_fallback|how can i make my resume better|
+2025-05-09 20:24:48.596224|user_63519|U0|greet|/greet|
+2025-05-09 20:24:48.596266|user_63519|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:24:48.596290|user_63519|U1|nlu_fallback|how can i make my resume better|
+2025-05-09 20:26:06.948047|user_51596|U0|greet|/greet|
+2025-05-09 20:26:06.948108|user_51596|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:26:06.948134|user_51596|U1|help_digital_tool|I'm happy to help you with that.  I believe this query is not handled by Digital Research Services (DRS). For questions or concerns not relating to our department, please refer to the university's enhanced search engine.  How else may I assist you?|
+2025-05-09 20:26:06.948173|user_51596|B1|||||utter_help_digital_tool|###### Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
+Director of Digital Research Services  
+803-777-2249  
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)  
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+Assistant Head, Acquisitions & Scholarly Communication  
+803-777-8280  
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)  
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-05-09 20:26:06.948201|user_51596|U2|nlu_fallback|how can i make my resume better|
+2025-05-09 20:26:47.921501|user_51596|U0|greet|/greet|
+2025-05-09 20:26:47.921548|user_51596|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:26:47.921572|user_51596|U1|help_digital_tool|I'm happy to help you with that.  I believe this query is not handled by Digital Research Services (DRS). For questions or concerns not relating to our department, please refer to the university's enhanced search engine.  How else may I assist you?|
+2025-05-09 20:26:47.921603|user_51596|B1|||||utter_help_digital_tool|###### Contact Us
+Contact us with questions or to schedule an appointment to discuss your needs.
+[Kate Boyd](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/boyd_kate.php)  
+Director of Digital Research Services  
+803-777-2249  
+[boydkf@mailbox.sc.edu](mailto:boydkf@mailbox.sc.edu)  
+
+[Amie Freeman](https://sc.edu/about/offices_and_divisions/university_libraries/about/contact/faculty-staff/freeman_amie.php)  
+Assistant Head, Acquisitions & Scholarly Communication  
+803-777-8280  
+[dillarda@mailbox.sc.edu](mailto:dillarda@mailbox.sc.edu)  
+
+[Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/digital_scholarship/index.php)
+
+2025-05-09 20:26:47.921631|user_51596|U2|nlu_fallback|how can i make my resume better|
+2025-05-09 20:26:47.921693|user_51596|U3|nlu_fallback|how can i make my resume better|
+2025-05-09 20:26:52.331464|user_81252|U0|greet|/greet|
+2025-05-09 20:26:52.331509|user_81252|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:26:52.331532|user_81252|U1|nlu_fallback|how can i make my resume better|
+2025-05-09 20:27:16.955098|user_81252|U0|greet|/greet|
+2025-05-09 20:27:16.955139|user_81252|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:27:16.955162|user_81252|U1|nlu_fallback|how can i make my resume better|
+2025-05-09 20:27:16.955225|user_81252|U2|nlu_fallback|help with BLOOOOOOOOOOOOOOOOOOOOPERSSSSSSS MAN|
+2025-05-09 20:30:36.077133|user_81252|U0|greet|/greet|
+2025-05-09 20:30:36.077179|user_81252|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:30:36.077205|user_81252|U1|nlu_fallback|how can i make my resume better|
+2025-05-09 20:30:36.077267|user_81252|U2|nlu_fallback|help with BLOOOOOOOOOOOOOOOOOOOOPERSSSSSSS MAN|
+2025-05-09 20:30:36.077327|user_81252|U3|nlu_fallback|have you watched friends|
+2025-05-09 20:30:46.342687|user_81252|U0|greet|/greet|
+2025-05-09 20:30:46.342733|user_81252|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:30:46.342769|user_81252|U1|nlu_fallback|how can i make my resume better|
+2025-05-09 20:30:46.342830|user_81252|U2|nlu_fallback|help with BLOOOOOOOOOOOOOOOOOOOOPERSSSSSSS MAN|
+2025-05-09 20:30:46.342902|user_81252|U3|nlu_fallback|have you watched friends|
+2025-05-09 20:30:46.342962|user_81252|U4|nlu_fallback|can you recommend shows to watch|
+2025-05-09 20:30:49.283941|user_81252|U0|greet|/greet|
+2025-05-09 20:30:49.283984|user_81252|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:30:49.283996|user_81252|U1|nlu_fallback|how can i make my resume better|
+2025-05-09 20:30:49.284056|user_81252|U2|nlu_fallback|help with BLOOOOOOOOOOOOOOOOOOOOPERSSSSSSS MAN|
+2025-05-09 20:30:49.284116|user_81252|U3|nlu_fallback|have you watched friends|
+2025-05-09 20:30:49.284202|user_81252|U4|nlu_fallback|can you recommend shows to watch|
+2025-05-09 20:30:49.284262|user_81252|U5|nlu_fallback|im bored dude|
+2025-05-09 20:40:39.342274|user_85443|U0|greet|/greet|
+2025-05-09 20:40:39.342320|user_85443|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:40:39.342354|user_85443|U1|nlu_fallback|kys|
+2025-05-09 20:41:47.640129|user_85443|U0|greet|/greet|
+2025-05-09 20:41:47.640175|user_85443|B0|||||utter_greet|Hi! How can I help you?
+2025-05-09 20:41:47.640200|user_85443|U1|nlu_fallback|kys|
+2025-05-09 20:41:47.640265|user_85443|U2|nlu_fallback|cra|

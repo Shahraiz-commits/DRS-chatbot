@@ -124,7 +124,7 @@ IMAGE_TAG=$(git rev-parse --short HEAD)  # Git commit hash as tag
 
 #deploy_bot_test
 #deploy_bot
-#deploy_actions
-#deploy_frontend
+deploy_actions
+deploy_frontend
 #deploy_python_api
 echo "Deployment complete!"

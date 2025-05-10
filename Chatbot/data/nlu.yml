@@ -949,7 +949,7 @@ nlu:
     - is HBP permission needed?
     - where can i find affordable harvard case studies for students
 - intent: library_hire_student
-  examples: |
+  examples: |-
     - Does the library hire students?
     - Do libraries hire students?
     - Does a library hire students?
@@ -980,33 +980,7 @@ nlu:
     - I wanna be a librarian, can I start here?
     - whats the hiring process 4 students @ the usc library
     - work study open position!
-- intent: library_college_entrance_career
-  examples: |
-    - Does the library have college entrance and career practice tests and study guides?
-    - Do libraries have college entrance and career practice tests and study guides?
-    - Where can I find test prep materials?
-    - Test preparation resources?
-    - Does USC offer free test prep?
-    - How do I access LearningExpress Library?
-    - What's Mometrix eLibrary?
-    - test prep for grad school
-    - Can I get help with career exams?
-    - Are there study materials for U.S citizenship exam?
-    - Do you have test prep in Spanish?
-    - Where can I find teaching certification study materials?
-    - nursing exam prep resources
-    - Can I access test prep for law enforcement?
-    - Is test prep available for K-12 students?
-    - got any sat practice tests?
-    - How do I prepare for GRE at USC library?
-    - are there free study guides for MCAT?
-    - whr r test preps 4 grad skool?
-    - Does usc have study materials 4 citizenship exam?
-    - do u guys have test prep in spanish?
-    - Can i get acces to law enforcement exam prep?
-    - study resources 4 nursing exams?
-    - where can i find teaching certification study guides?
-    - can k-12 students access test prep at usc?
+    - do you guys hire
 - intent: resource_help_learn_language
   examples: |
     - Are there resources to help me learn a language?
@@ -1071,34 +1045,6 @@ nlu:
     - library access isn't working
     - online library for student
     - why is my library access not working
-- intent: sign_orcid_id
-  examples: |
-    - How do I get an ORCID ID?
-    - How do I apply for ORCID ID?
-    - How do I sign up for an ORCID iD?
-    - What is the benefit of having an ORCID iD?
-    - Is getting an ORCID iD free?
-    - ORCID sign up
-    - how long does it take to get an orcid id
-    - Why do I need an ORCID iD as a researcher?
-    - Can I log in with my USC credentials on ORCID?
-    - How do I link my ORCID account to my USC account?
-    - orcid registration
-    - What is the purpose of contributing professional info to ORCID?
-    - Do I have to pay for an ORCID iD?
-    - how do i sign into orcid
-    - Can I reuse my ORCID information in other systems?
-    - whats the deal with ORCID IDs?
-    - How do I register 4 an ORCID ID?
-    - Whats the benefit of gettin an ORCID iD?
-    - Do I need to pay a fee for an ORCID?
-    - Can I signin w/ my USC login on ORCID?
-    - ORCID account creation
-    - how long does orcid id take to process
-    - Why is it required 2 have ORCID as researcher?
-    - How do I attach my USC acct w/ my ORCID?
-    - is orcid free or paid?
-    - Do i log in with USC credentials?
 - intent: username_password_working_do
   examples: |
     - My username and password are not working. What should I do?
@@ -1472,33 +1418,6 @@ nlu:
     - What keywords should I use to find research on learning disabilities?
     - How to find action research examples?
     - How to find case studies in education.
-- intent: register_access_ad_age
-  examples: |
-    - How do I register for access to Ad Age?
-    - How do I register for Ad Age?
-    - How do I access Ad Age online?
-    - Can I get free access to Ad Age?
-    - Ad Age subscription for USC students
-    - usc ad age login
-    - How to register for Ad Age
-    - I'm a USC student, can I use Ad Age for free?
-    - What's the process for accessing Ad Age?
-    - Can faculty access Ad Age?
-    - Ad Age free trial for USC staff
-    - How do I get unlimited access to Ad Age?
-    - Ad Age registration issues
-    - Who do I contact if I have Ad Age access problems?
-    - USC email Ad Age account setup
-    - ad age sign up process??
-    - Can USC alumni use Ad Age for free?
-    - how 2 get ad age login credentials
-    - What's required to register 4 Ad Age?
-    - usc student discount on ad age subscription?
-    - Need help setting up my Ad Age account w/ usc email
-    - Is Ad Age accessible thru usc library?
-    - can i access ad age if im not a student?
-    - ad age regisration instructions plz
-    - Having trouble loggin in to Ad Age
 - intent: library_charger_laptop_phone
   examples: |-
     - Does the library have a charger for my laptop or phone?
@@ -2473,34 +2392,6 @@ nlu:
     - UofSC writing lab appointment process
     - Whas the hours of operation for writin center?
     - How do I get help with my essays?
-- intent: something_notarized
-  examples: |
-    - Where can I have something notarized?
-    - Where can I have my documents notarized?
-    - How can I have something notarized?
-    - Where can I find a notary on campus?
-    - Is there a notary at USC?
-    - Notary near me
-    - Do you have a notary public?
-    - where is the notary office
-    - I need something notarized, where do I go?
-    - notary available?
-    - How do I get something notarized on campus?
-    - Is there a notary at Russell House?
-    - Can I get a document notarized at USC?
-    - Notary services on campus
-    - Where is the closest notary to me?
-    - USC notary location
-    - notery public usc?
-    - wheres a notary at?
-    - can i get somethin notarized today?
-    - Need 2 get doc notarized. whr do I go?
-    - are ther notaries @ russell house?
-    - where can I find notary services near me?
-    - how to get document noterized on campus
-    - Notarize my stuff!
-    - usc notary public locations?
-    - Do you guys have a notery?
 - intent: contact_library
   examples: |-
     - How can I contact the library?
@@ -8562,8 +8453,9 @@ nlu:
     - whats wrong w/ corporate owned media?
     - r there any independent media bias ratings?
     - can i get a list of unbiased new sites?
-- intent: example_generative_ai_chatbots
+- intent: ai_art_generator_work
   examples: |
+    - How do AI art generators work?
     - What are examples of generative AI chatbots?
     - What is a generative AI chatbot?
     - Examples of AI chatbots?
@@ -8590,11 +8482,7 @@ nlu:
     - I need to generate an image using AI. Help!
     - What's Dall-E 2 and how do I use it?
     - Where can I learn more about Bing Image Creator?
-    - AI image creation tools recommended by USC library
-- intent: ai_art_generator_work
-  examples: |
-    - How do AI art generators work?
-    - How do AI art generators work?
+    - AI image creation tools recommended
     - AI image generator process
     - What is an AI art generator?
     - How does AI turn text into images?
@@ -8769,6 +8657,7 @@ nlu:
     - digital scholarship definition
     - digital tools for research
     - digitl scholrship info
+    - digitized collections
 - intent: see_example_digital_scholarship
   examples: |-
     - Can I see examples of digital scholarship projects?
@@ -11261,35 +11150,6 @@ nlu:
     - What do I need to do to get selected for a SCoer Grant?
     - Can you share the requirements for the SCoer Grant program?
     - What does the SCoer Grant committee look for?
-- intent: scoer_grant_recipient
-  examples: |
-    - SCoer Grant recipients
-    - scoer recipients
-    - What is the goal of Professor Meredith DeBoom's career?
-    - Why did Prof DeBoom not want students to use expensive textbooks?
-    - Who is Austin Downey and what is he working on?
-    - What is EMCH 330 and why is it special?
-    - Tell me about Jennifer Pournelle's teaching experience
-    - What kind of students does Prof Pournelle work with?
-    - Who is Timothy Shaw and what permission did he get?
-    - What is OpenStax and how is it being used?
-    - Why are these professors creating open educational resources?
-    - Can you tell me about the no-cost Mechanical Vibrations course?
-    - How are USC professors making education more inclusive?
-    - What motivated Prof DeBoom to prioritize inclusivity in higher ed?
-    - What is OER and how is it being used at USC?
-    - whats the deal with SCoer Grant winners?
-    - professor Meredith DeBoom career goals?
-    - y didnt prof deboom want students to buy pricey textbooks?
-    - whts EMCH 330 about?
-    - jen pournelle teaching background?
-    - type of students prof pournelle works w/
-    - tim shaw permission for wut?
-    - openstax, whts tht?
-    - how r usc profs makin education inclusive?
-    - prof deboom motivation 4 prioritizin inclusivity?
-    - Who are the current SCoer Grant recipients?
-    - What projects are being funded by SCoer Grants?
 - intent: scoer_faculty_grant
   examples: |
     - What is the SCoer Faculty Grant?

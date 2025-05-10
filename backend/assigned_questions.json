@@ -162,5 +162,11 @@
     ],
     "university_institutional_repository": [
         "repository"
+    ],
+    "digital_scholarship_service_available": [
+        "digitized collections"
+    ],
+    "library_hire_student": [
+        "do you guys hire"
     ]
 }
