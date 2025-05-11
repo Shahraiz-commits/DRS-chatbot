@@ -14,32 +14,12 @@ function deploy_bot {
     --region $REGION \
     --allow-unauthenticated \
     --port 8080 \
-    --memory=10000Mi \
-    --cpu=4
+    --memory=4000Mi \
+    --cpu=2
 
   # Update services
   echo "Clearing cached containers..."
   gcloud run services update-traffic rasa-chatbot --to-latest --region=$REGION
-}
-
-function deploy_bot_test {
-  # Build and push Rasa Chatbot image
-  echo "Building and pushing Rasa Chatbot image (test)..."
-  #docker build -t gcr.io/$PROJECT_ID/rasa-chatbot:$IMAGE_TAG -f Dockerfile.rasa .
-  #docker push gcr.io/$PROJECT_ID/rasa-chatbot:$IMAGE_TAG
-
-  # Deploy to a test service (e.g., rasa-chatbot-test)
-  echo "Deploying Rasa Chatbot TEST to Cloud Run..."
-  gcloud run deploy rasa-chatbot-test \
-    --image gcr.io/$PROJECT_ID/rasa-chatbot:$IMAGE_TAG \
-    --platform managed \
-    --region $REGION \
-    --allow-unauthenticated \
-    --port 8080 \
-    --memory=4000Mi \
-    --cpu=2                 
-
-  echo "Deployed test service: rasa-chatbot-test"
 }
 
 
@@ -111,7 +91,7 @@ function deploy_python_api {
 set -e
 
 # Set Variables
-PROJECT_ID="drs-nlp-chatbot"
+PROJECT_ID="drs-chatbot-75b67" # Old project id: "drs-nlp-chatbot"
 REGION="us-east1"
 IMAGE_TAG=$(git rev-parse --short HEAD)  # Git commit hash as tag
 
@@ -122,9 +102,8 @@ IMAGE_TAG=$(git rev-parse --short HEAD)  # Git commit hash as tag
 #gcloud services enable containerregistry.googleapis.com storage.googleapis.com
 #gcloud config get-value project
 
-#deploy_bot_test
 #deploy_bot
-deploy_actions
-deploy_frontend
+#deploy_actions
+#deploy_frontend
 #deploy_python_api
 echo "Deployment complete!"

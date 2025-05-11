@@ -25,6 +25,10 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - who are you
+    - what are you
+    - are you real or fake
+    - what kind of bot are you
 - intent: ask_library_open
   examples: |-
     - is the library open?
@@ -3491,8 +3495,6 @@ nlu:
     - Where is DataLab?
     - I need to create a dashboard displaying data
     - I need help creating a charts for my dissertation, can you help me?
-- intent: get_data_visualization_help
-  examples: |-
     - How can I visualize my research data?
     - data visualization help
     - need to create a dashboard displaying data
@@ -3529,13 +3531,9 @@ nlu:
     - who can help me with mapping tools
     - can someone help me with gis
     - can i schedule meeting for datavisualisation help
-    - How to get help?
-    - Who to contact?
     - who do i contact for data viz help
     - help with visualizing
     - Who do I talked to about help with Tableau?
-- intent: type_assistance_library_offer
-  examples: |-
     - What types of assistance does the library offer for data visualization?
     - what kind of data visualization help can i get
     - I want help doing data visualization in R
@@ -3786,7 +3784,6 @@ nlu:
     - Can I get assistance with SPSS/R/SAS at the library?
     - What statistical software does the library support?
     - I need help with statistics for my research
-    - How to get help?
     - Is there a cost for your services?
     - R studio
     - Can someone help me with doing analysis in R for my thesis?
@@ -3887,8 +3884,7 @@ nlu:
     - help! cant figure out NVivo
     - what r some good resources 4 learning NVivo?
     - Where can I find NVivo user guides?
-    - How to get help?
-    - Where to find tutorials?
+    - Where to find tutorials for nvivo?
 - intent: data_visualization_learning_session
   examples: |-
     - What data visualization learning sessions are available?
@@ -4753,40 +4749,6 @@ nlu:
     - What tools help with data citation?
     - Can you help me cite data?
     - What's the best way to cite data?
-- intent: factor_consider_selecting_data
-  examples: |-
-    - What factors should I consider when selecting a data visualization tool?
-    - What factors should I consider when selecting a visualization tool?
-    - What factors should I consider when choosing a data visualization tool?
-    - What data visualization tool should I use?
-    - Data visualization tools for beginners
-    - How to choose a data visualization tool?
-    - Best data visualization software
-    - data viz tools USC
-    - I need help with selecting a data visualization tool
-    - What are the factors to consider when choosing a data visualization tool?
-    - Are there free data visualization tools?
-    - Data visualization for geospatial data
-    - Can you recommend a data visualization tool for textual data?
-    - Easy-to-use data visualization tools
-    - What features should I look for in a data visualization tool?
-    - Comparison of data visualization tools
-    - Which data visualization tool is best for my project?
-    - wut r key considerations 4 choosin data viz tool?
-    - Can you help me pick a dataviz software?
-    - What's the best way to select a data visualization platform?
-    - Data visualization tools 4 dummies
-    - whats important when choosing viz tool?
-    - What 2 look for in a good data viz tool?
-    - Which factors r most importnt 4 selecting data viz software?
-    - I need a data viz tool, where do I start?
-    - How do I choose the best data visualization tool for my needs?
-    - what's top free data viz tools?
-    - How do I pick a data viz tool?
-    - What data viz tool should I use?
-    - How to choose a data visualization tool?
-    - data viz tool help
-    - data visualization tools
 - intent: spreadsheet_software_use_data
   examples: |
     - What spreadsheet software can I use for data visualization?
@@ -4821,6 +4783,34 @@ nlu:
     - Tell me the best data visualization software?
     - Does the library have a data visualization tool we can use?
     - Does the library provide access to paid tableau
+    - What data visualization tool should I use?
+    - Data visualization tools for beginners
+    - How to choose a data visualization tool?
+    - Best data visualization software
+    - data viz tools USC
+    - I need help with selecting a data visualization tool
+    - What are the factors to consider when choosing a data visualization tool?
+    - Are there free data visualization tools?
+    - Data visualization for geospatial data
+    - Can you recommend a data visualization tool for textual data?
+    - Easy-to-use data visualization tools
+    - What features should I look for in a data visualization tool?
+    - Comparison of data visualization tools
+    - Which data visualization tool is best for my project?
+    - wut r key considerations 4 choosin data viz tool?
+    - Can you help me pick a dataviz software?
+    - What's the best way to select a data visualization platform?
+    - Data visualization tools 4 dummies
+    - whats important when choosing viz tool?
+    - What 2 look for in a good data viz tool?
+    - Which factors r most importnt 4 selecting data viz software?
+    - I need a data viz tool, where do I start?
+    - How do I choose the best data visualization tool for my needs?
+    - what's top free data viz tools?
+    - How do I pick a data viz tool?
+    - What data viz tool should I use?
+    - How to choose a data visualization tool?
+    - data viz tool help
     - Does the library have tableau?
     - What visualization software is available at USC?
     - data visualization tools
@@ -5616,6 +5606,11 @@ nlu:
     - Tell me the DMPtool?
     - What is a DMPtool?
     - What is DMPTool?
+    - is there a tool for managing data easily?
+    - data tools
+    - software for managing data
+    - data management service
+    - data organization tool software
     - How do I create a data management plan?
     - Is there a tool to help with funder requirements?
     - Where can I find the DMPTool?

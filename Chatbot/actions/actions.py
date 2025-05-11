@@ -142,7 +142,7 @@ class ActionProcessFallback(Action):
         name3 = intents[3]['name']
         
         if(confidence1 < 0.2):
-            dispatcher.utter_message(f"I believe this query is not handled by Digital Research Services (DRS). For questions or concerns not relating to our department, please refer to the university's [enhanced search engine](https://sc.edu/search/?cx=013416120310277204335%3Awk85hzl5qdq&q=#gsc.tab=0).")
+            dispatcher.utter_message(f"I believe this query is not handled by Digital Research Services (DRS). For questions or concerns not related to our department, please refer to the university's [enhanced search engine](https://sc.edu/search/?cx=013416120310277204335%3Awk85hzl5qdq&q=#gsc.tab=0).")
             return
 
         # Search for first two intents text

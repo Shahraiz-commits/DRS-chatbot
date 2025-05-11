@@ -585,16 +585,6 @@ rules:
   - intent: data_visualization_support_service
   - action: utter_data_visualization_support_service
 
-- rule: Answer get_data_visualization_help
-  steps:
-  - intent: get_data_visualization_help
-  - action: utter_get_data_visualization_help
-
-- rule: Answer type_assistance_library_offer
-  steps:
-  - intent: type_assistance_library_offer
-  - action: utter_type_assistance_library_offer
-
 - rule: Answer datalab_located
   steps:
   - intent: datalab_located
@@ -759,11 +749,6 @@ rules:
   steps:
   - intent: tool_help_data_citation
   - action: utter_tool_help_data_citation
-
-- rule: Answer factor_consider_selecting_data
-  steps:
-  - intent: factor_consider_selecting_data
-  - action: utter_factor_consider_selecting_data
 
 - rule: Answer spreadsheet_software_use_data
   steps:

@@ -21,9 +21,9 @@ const sidebarToggleBtn = document.getElementById("sidebarToggleBtn");
 
 const LOCAL_LINK = "http://localhost:5005/webhooks/rest/webhook";
 const PROD_LINK =
-  "https://rasa-chatbot-42751455718.us-east1.run.app/webhooks/rest/webhook";
-const KEYWORD_LINK = "https://api-sue4xaradq-ue.a.run.app/extract_keyword" // TODO: CHANGE ROUTE
-const CENSOR_LINK = "https://api-sue4xaradq-ue.a.run.app/censor_text"
+  "https://rasa-chatbot-721902099793.us-east1.run.app/webhooks/rest/webhook";
+const KEYWORD_LINK = "https://api-721902099793.us-east1.run.app/extract_keyword"
+const CENSOR_LINK = "https://api-721902099793.us-east1.run.app/censor_text"
 
 let userScrolling = false;
 let scrollTimeout = null;

@@ -117,7 +117,6 @@ intents:
 - event_upcoming
 - example_policy_guideline_ai
 - example_project_use_digital
-- factor_consider_selecting_data
 - factor_selection_committee_consider
 - fair_use
 - featured_repository
@@ -152,7 +151,6 @@ intents:
 - friend_university_library_previously
 - general_data_set_available
 - general_statistic_resource_available
-- get_data_visualization_help
 - get_free_subscription_new
 - get_full_text_access
 - get_help_citation
@@ -192,7 +190,6 @@ intents:
 - library_catalog_show_item
 - library_charger_laptop_phone
 - library_childrens_book
-- library_college_entrance_career
 - library_color_copier
 - library_columbia_campus
 - library_database_use_them
@@ -336,7 +333,6 @@ intents:
 - tool_help_data_citation
 - track_impact_research
 - tutorial_available_text_analysis
-- type_assistance_library_offer
 - type_repository_sharing_research
 - type_work_copyrighted
 - u_statistic_resource_available
@@ -1447,41 +1443,21 @@ responses:
   - text: |-
       ##### Data Visualization Support
       Data visualization support may be desired at any stage of your research process.
-      The University Libraries offers resources and services useful in data visualization.
-      [https://guides.library.sc.edu/c.php?g=1316892](https://guides.library.sc.edu/c.php?g=1316892)
+      The University Libraries offers resources, workshops, and services useful in data visualization.
 
-      ##### Consultations
-      We can help you online or in-person.
-      Discover information and tutorials about data visualization and data vis tools.
+      ##### Ways We Can Assist
+      - **Learning Sessions/Workshops**
+      - **Online Consultations**
+      - **University Libraries DataLab**  
+      View the [full guide](https://guides.library.sc.edu/c.php?g=1316892)
 
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
+      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)  
       ###### Contact Data Visualization
       [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
       Glenn Bunton  
       Data Visualization Librarian  
       803-777-2903  
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
-  utter_get_data_visualization_help:
-  - text: |
-      Data visualization support may be desired at any stage of your research process. The University Libraries offers resources and services useful in data visualization.  
-
-      # Contact Us
-      [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
-      Glenn Bunton  
-      Data Visualization Librarian  
-      803-777-2903  
-      [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)  
-
-      [Learn more here](https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php)
-  utter_type_assistance_library_offer:
-  - text: |
-      ##### Ways We Can Assist
-      - **Learning Sessions/Workshops**
-      - **Online Consultations**
-      - **University Libraries DataLab**
-      We offer regularly scheduled online learning sessions each semester covering various aspects of data visualization.  
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1316892)
   utter_datalab_located:
   - text: |-
       ##### Welcome
@@ -1849,21 +1825,6 @@ responses:
 
       [Learn more here](https://guides.library.sc.edu/c.php?g=831780&p=5941467)
 
-  utter_factor_consider_selecting_data:
-  - text: |-
-      ##### Data Visualization Tools
-      Selecting the appropriate data visualization tool can be challenging, given the many available options.
-      You will want to consider:
-      - Your data : the type and amount will affect the success of the tool you use.
-      Numerical, geospatial, or textual data may benefit from use of different tools.
-
-      [Learn more here](https://guides.library.sc.edu/c.php?g=1409713&p=10438982)
-      ###### Contact Data Visualization
-      [Make an appointment](https://libcal.library.sc.edu/appointments/datavis) to discuss how we might be able to assist with your data visualization needs.  
-      Glenn Bunton  
-      Data Visualization Librarian  
-      803-777-2903  
-      [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_spreadsheet_software_use_data:
   - text: |-
       ##### Spreadsheet Software
@@ -1882,7 +1843,9 @@ responses:
       [buntonga@mailbox.sc.edu](mailto:buntonga@mailbox.sc.edu)
   utter_data_visualization_software_available:
   - text: |-
-      ##### Visualization Software
+      ##### Data Visualization Tools
+      Selecting the appropriate data visualization tool can be challenging, given the many available options.
+      You may want to consider some of the following visualization Software:
       - [Tableau Public](https://public.tableau.com/app/discover) - Widely used by the business and research communities, Tableau allows users to connect, visualize, and share data powerfully and interactively, providing a wide range of tools and features for creating dynamic, interactive dashboards, charts, maps, and other visualizations.
       Tableau Public is free (with certain limitations) while Tableau Creator can be purchased from DoIT.
       - [Microsoft Power BI](https://powerbi.microsoft.com/en-us/) - As a member of the University, you have access to Power BI through Office 365.
