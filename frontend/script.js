@@ -18,6 +18,7 @@ const closeSurveyBtn = document.getElementById("closeSurveyBtn");
 const closePolicyBtn = document.getElementById("closePolicyBtn");
 const themeToggleBtn = document.getElementById("themeToggleBtn");
 const sidebarToggleBtn = document.getElementById("sidebarToggleBtn");
+const sampleQuestionsDiv = document.getElementById("sampleQuestions");
 
 const LOCAL_LINK = "http://localhost:5005/webhooks/rest/webhook";
 const PROD_LINK =
@@ -29,16 +30,17 @@ let userScrolling = false;
 let scrollTimeout = null;
 
 function scrollChatToBottom() {
+  const scrollElement = chatLog.closest('#chatContainer');
   if (userScrolling) {
     return;
   }
-  if (chatLog && typeof chatLog.scrollHeight !== 'undefined') {
-    chatLog.scrollTo({
-      top: chatLog.scrollHeight,
+  if (scrollElement && typeof scrollElement.scrollHeight !== 'undefined') {
+    scrollElement.scrollTo({
+      top: scrollElement.scrollHeight,
       behavior: 'smooth'
     });
   } else {
-    console.warn("Chatlog not available or ready for scrolling.");
+    console.warn("Scrollable element not available or ready for scrolling.");
   }
 }
 
@@ -78,7 +80,7 @@ function wrapTextNodes(node, charSpans) {
       span.textContent = text[i];
 
       if (text[i] === ' ' && (i > 0 && text[i - 1] === ' ' || i < text.length - 1 && text[i + 1] === ' ')) {
-        span.innerHTML = ' ';
+        span.innerHTML = ' ';
       } else if (text[i] === '\n') {
         span.textContent = '\n';
       }
@@ -217,7 +219,7 @@ function addMessageToChat(text, ...classNames) {
   const container = document.createElement("div");
   container.classList.add("message-container");
 
-  if(isBotMsg && isOutOfScopeIntro) {
+  if (isBotMsg && isOutOfScopeIntro) {
     text = text.replace(/^.*?\n\n/, '') // Remove the initial text when out of scope
   }
 
@@ -292,11 +294,11 @@ function addMessageToChat(text, ...classNames) {
       container.appendChild(messageDiv);
       container.appendChild(controlsDiv);
 
-    if (!isGreeting && !isAlternativeIntro && !isFollowUp) {
-      const feedbackDiv = document.createElement("div");
-      feedbackDiv.classList.add("feedback-buttons");
-      feedbackDiv.style.display = "none";
-      feedbackDiv.innerHTML = `
+      if (!isGreeting && !isAlternativeIntro && !isFollowUp) {
+        const feedbackDiv = document.createElement("div");
+        feedbackDiv.classList.add("feedback-buttons");
+        feedbackDiv.style.display = "none";
+        feedbackDiv.innerHTML = `
           <div class="feedback-buttons-wrapper">
             <button class="feedback-btn thumbs-up" title="Good response" aria-label="Good response" onclick="handleFeedbackClick('${messageId}', 'positive')">👍</button>
             <button class="feedback-btn thumbs-down" title="Bad response" aria-label="Bad response" onclick="handleFeedbackClick('${messageId}', 'negative')">👎</button>
@@ -307,8 +309,8 @@ function addMessageToChat(text, ...classNames) {
           </div>
           <div class="feedback-thank-you" style="display: none;">Thank you for your feedback!</div>
         `;
-      container.appendChild(feedbackDiv);
-    }
+        container.appendChild(feedbackDiv);
+      }
 
       chatLog.appendChild(container);
       setTimeout(scrollChatToBottom, 0);
@@ -551,6 +553,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Add event listener for theme toggle button
   // themeToggleBtn.addEventListener('click', toggleTheme);
+
+  // Ensure sample questions are visible on load if chat is empty (assuming /greet is the only initial message)
+  if (chatLog.children.length <= 1 && sampleQuestionsDiv) { // Check if chatLog has only the greet message or is empty
+    sampleQuestionsDiv.style.display = 'block';
+  }
 
 
   const sidebarCollapsed = localStorage.getItem('sidebarCollapsed') === 'true';
@@ -829,6 +836,11 @@ async function sendMessageToRasa(message) {
     addMessageToChat(message, "userMsg");
     if (userInput) userInput.value = "";
     scrollChatToBottom();
+
+    // Hide sample questions after the first user message
+    if (sampleQuestionsDiv) {
+      sampleQuestionsDiv.style.display = 'none';
+    }
   } else if (isFeedbackNumber) {
     // console.log(`Feedback number ${message} selected, sending to Rasa.`);
   }
@@ -878,32 +890,32 @@ async function sendMessageToRasa(message) {
           .map((msgObj) => msgObj.text)
           .join("\n\n");
 
-          if (combinedText) {
-            // console.log("text after: " + combinedText);
-            if (!combinedText.startsWith("Hi!")) {
-              combinedText += "\n\n" + getContinuationText();
-              fetch(KEYWORD_LINK, {
-                method: "POST",
-                headers: { "Content-Type": "application/json"},
-                body: JSON.stringify({ text: message })
+        if (combinedText) {
+          // console.log("text after: " + combinedText);
+          if (!combinedText.startsWith("Hi!")) {
+            combinedText += "\n\n" + getContinuationText();
+            fetch(KEYWORD_LINK, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ text: message })
+            })
+              .then(res => res.json())
+              .then(data => {
+                if (data.keyword == null || data.keyword == "help") {
+                  data.keyword = "that"
+                }
+                combinedText = getInitiationText() + data.keyword + ".\n\n" + combinedText;
+                //console.log("Initiating with:", combinedText);
+                addMessageToChat(combinedText, "botMsg");
               })
-                .then(res => res.json())
-                .then(data => {
-                  if(data.keyword == null || data.keyword == "help"){
-                    data.keyword = "that"
-                  }
-                  combinedText = getInitiationText() + data.keyword + ".\n\n" + combinedText;
-                  //console.log("Initiating with:", combinedText);
-                  addMessageToChat(combinedText, "botMsg");
-                })
-                .catch(error => {
-                  console.error("Keyword fetch failed:", error);
-                  addMessageToChat(combinedText, "botMsg");
-                });
-            } else {
-              addMessageToChat(combinedText, "botMsg");
-            }
-          } else if (data.length > 0 && !isFeedbackNumber) {
+              .catch(error => {
+                console.error("Keyword fetch failed:", error);
+                addMessageToChat(combinedText, "botMsg");
+              });
+          } else {
+            addMessageToChat(combinedText, "botMsg");
+          }
+        } else if (data.length > 0 && !isFeedbackNumber) {
           // console.log("Received non-empty response from Rasa, but no text content found.");
           if (!message.startsWith('/greet')) {
             addMessageToChat("I received a response, but it was empty. Please try again.", "botMsg", "errorMsg");

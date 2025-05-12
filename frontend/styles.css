@@ -167,7 +167,7 @@ body.preload * {
 #chatContainer {
   flex: 1;
   background: var(--bg-secondary);
-  overflow: hidden;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -255,12 +255,10 @@ body.dark-mode #chatHeader #endChatBtn:hover {
 
 
 #chatLog {
-  flex: 1;
   padding: 20px;
-  overflow-y: auto;
   width: 100%;
   box-sizing: border-box;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 
 .message-container {
@@ -497,8 +495,6 @@ body.dark-mode #chatHeader #endChatBtn:hover {
 }
 
 #inputArea {
-  position: absolute;
-  bottom: 20px;
   left: 0;
   right: 0;
   width: 90%;
@@ -510,7 +506,10 @@ body.dark-mode #chatHeader #endChatBtn:hover {
   overflow: hidden;
   border: 1px solid var(--border-primary);
   z-index: 10;
-  transition: bottom 0.3s ease-out, background-color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+  margin-top: auto;
 }
 
 #userInput {
@@ -719,11 +718,11 @@ body.dark-mode #chatHeader #endChatBtn:hover {
 
     #chatContainer {
         width: 100% !important;
-        height: auto;
+        min-height: 100vh;
         flex-grow: 1;
-        min-height: 0;
         order: 2;
         margin-left: 0 !important;
+        overflow-y: auto;
     }
 
     #chatHeader {
@@ -1093,4 +1092,60 @@ body:not(.sidebar-collapsed) .sidebar-content {
 
 #chatContainer {
     transition: margin-left 0.3s ease, width 0.3s ease, background 0.3s;
+}
+
+#sampleQuestions {
+  margin: 0;
+  padding: 20px;
+  background-color: var(--bg-option-card);
+  border: 1px solid var(--border-primary);
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+  box-sizing: border-box;
+  color: var(--text-primary);
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+#sampleQuestions h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: var(--option-card-header-color);
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#sampleQuestions ul {
+  list-style: disc;
+  padding-left: 25px;
+  margin: 0;
+}
+
+#sampleQuestions li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+#sampleQuestions li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    #sampleQuestions {
+        width: calc(100% - 40px);
+        padding: 15px;
+    }
+    #sampleQuestions h3 {
+        font-size: 1em;
+    }
+    #sampleQuestions ul {
+        padding-left: 20px;
+    }
 }
