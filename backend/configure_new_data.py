@@ -56,7 +56,7 @@ def remove_rule(target_intent):
 def configure_domain(action: str, intent: str, new_response: str = ""):
     """
     action: remove or modify
-    intent: The intent to be removed, OR The intent that will hold the new response
+    intent: The intent to be removed, or The intent that will hold the new response
     new_response: The new response to store
     """
     yaml = YAML()
