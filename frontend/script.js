@@ -402,7 +402,7 @@ function handleFeedbackClick(messageId, feedbackType) {
   textInput.placeholder = feedbackType === "positive" ? "What did you like? (Optional)" : "What went wrong? (Optional)";
 
   textInput.focus();
-  setTimeout(scrollChatToBottom, 50);
+  // setTimeout(scrollChatToBottom, 50);
 
   submitBtn.onclick = () => submitMessageFeedback(messageId, feedbackType, textInput.value);
 }
@@ -824,6 +824,9 @@ async function sendMessageToRasa(message) {
       if (userInput) userInput.value = "";
       scrollChatToBottom();
       addMessageToChat(getBadLanguageResponse(), "botMsg");
+      if (sampleQuestionsDiv) {
+        sampleQuestionsDiv.style.display = 'none';
+      }
       return;
     }
 
