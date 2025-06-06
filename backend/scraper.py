@@ -14,7 +14,7 @@ ai = "https://sc.edu/about/offices_and_divisions/university_libraries/find_servi
 rdm = "https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/research_data_management/index.php" # 15
 data_viz = "https://sc.edu/about/offices_and_divisions/university_libraries/find_services/digital_research_services/data_visualization_gis/index.php" # 89
 
-# Starting point (To do all links at once, add the four links to queue.csv and leave URL blank)
+# Starting point (To set multiple root links, add links to queue.csv and leave URL blank)
 URL = ""
 
 # The https/http prefix to only include website links
@@ -72,7 +72,6 @@ def save_text(text_arr, links_arr):
 
 # Format text to keep headers, hyperlinks etc. intact
 def format_text(page_text):
-  #print(page_text)
   # Tags we want to keep to process later into markdown
   allowed_tags = {"h1", "h2", "h3", "h4", "h5", "h6", "li", "a", "p", "br"}
 
