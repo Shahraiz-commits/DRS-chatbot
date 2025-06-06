@@ -19,6 +19,7 @@ def chat_with_rasa(question, rasa_endpoint):
         return "Error"
 
 def get_learn_more_link(text):
+    """ Returns the 'Learn more here' link if found in a response text """
     links = re.findall(r'\[Learn more here\]\((https?://.*?)\)', text)
     if links:
         return links[-1]
@@ -26,6 +27,7 @@ def get_learn_more_link(text):
         return None
 
 def get_contact_info(link):
+    """ Returns the contact info for the relevant DRS department based on the content found on the given link """
     if "faq" in link.lower() or "calendar" in link.lower() or "appointment" in link.lower():
         return
     # Main page link, return contact info based on keywords
@@ -155,6 +157,7 @@ def summarize(response: str):
     return summarized_text
     
 def modify_data():
+    """ Summarizes each response in the domain """
     yaml = YAML()
     with open("../Chatbot/domain.yml", "r", encoding="utf-8") as file:
         data = yaml.load(file)
@@ -188,23 +191,7 @@ def remove_headers():
                 configure_domain("modify", intent.replace("utter_", ""), new_response)
     
 def main():
-    #rasa_endpoint = "http://localhost:5005/webhooks/rest/webhook"
-    #response = chat_with_rasa("ai services", rasa_endpoint)
-    response ="""## Business Statistics and Data Set Resources
-Below are some examples of resources that you can use to find business resources. 
-## Statistics
-#### International Statistics
-- [Fitch Connect](https://saml.fitchconnect.com/saml/login?orgId=6iU4UH3SLU2L51lDBPe9iT)
-- [Hoover's Online](https://login.pallas2.tcl.sc.edu/login?url=https://www.mergentonline.com/Hoovers)
-- [IMF Data Mapper](http://www.imf.org/external/datamapper/index.php)Interactive tool for various time periods by country, regions, or analytical groupsTIP: Population and unemployment are under World Economic Outlook dataset
-- [OECD iLibrary Statistics](https://www.oecd-ilibrary.org/statistics)
-- [OSHA Statistics and Data](https://www.osha.gov/oshstats/)
-
-[Learn more here](https://guides.library.sc.edu/data-and-statistics/cj)"""
-    #print(f"\nSUMMARIZED----------------------------------------\n{summarize(response)}")
-    #print(chr(sum(range(ord(min(str(not()))))))) # Prints among us character ඞ
-    
     #modify_data()
-    #remove_headers()
+    remove_headers()
 if __name__ == "__main__":
     main()
