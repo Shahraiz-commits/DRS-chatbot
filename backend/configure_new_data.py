@@ -8,8 +8,8 @@ from datetime import datetime
 import os
 import json
 
-# Finds the intent and adds questions to its examples Or removes an intent along with its examples
 def configure_nlu(action: str, intent: str, questions: list = []):
+""" Finds the given intent and adds questions to its examples (action=modify) or removes an intent along with its examples (action=remove). """
     OUTPUT_FILE = "../Chatbot/data/nlu.yml"
     yaml = YAML()
     with open(OUTPUT_FILE, "r", encoding="utf-8") as file:
@@ -39,6 +39,7 @@ def configure_nlu(action: str, intent: str, questions: list = []):
         yaml.dump(data, file)
 
 def remove_rule(target_intent):
+    """ Removes the rule associated with the given intent """
     rules_file = "../Chatbot/data/rules.yml"
     yaml = YAML()
     with open(rules_file, "r", encoding="utf-8") as file:
@@ -55,9 +56,9 @@ def remove_rule(target_intent):
 # Remove intents from domain file or change the response of an intent in the file
 def configure_domain(action: str, intent: str, new_response: str = ""):
     """
-    action: remove or modify
-    intent: The intent to be removed, or The intent that will hold the new response
-    new_response: The new response to store
+    Removes the given intent from the domain file (action=remove) or changes the response text associated with the intent (action=modify)
+    intent: The intent to be removed, or will hold the new response
+    new_response: The new text to replace the response with
     """
     yaml = YAML()
     domain_file = "../Chatbot/domain.yml"
