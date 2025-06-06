@@ -32,3 +32,6 @@ env/
 *.log
 *.bak
 *.swp
+
+# Service key
+Chatbot/actions/firebase_service_key.json
