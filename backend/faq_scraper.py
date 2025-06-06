@@ -12,7 +12,6 @@ Need selenium to access dynamically loaded javascript content (FAQs)"""
 
 
 # Return all stored faq links
-# TODO: Possibly put in the question associated with each link aswell
 def get_links():
     try:
         with open("backend/faq_links.csv", "r") as f: # read all links
@@ -149,10 +148,7 @@ for link in links_to_be_processed:
     
     question = get_valid_question(soup)   
     answerDIV = soup.find('div', class_ = "s-la-faq-answer-body") or soup.find('div', class_ = "s-la-faq-answer")
-    #answer_paragraphs = answerDIV.find_all('p')
-    #for p in answer_paragraphs:
-        #p = configure_hyperlink(p)
-        #full_answer += p + '\n'
+
     for element in answerDIV.contents:
         if(element.name):
             element = configure_text(element)
@@ -176,8 +172,6 @@ for link in links_to_be_processed:
     full_answer = re.sub(r'[\u00A0\u2000-\u200B\u202F\u205F\u3000]', ' ', full_answer) # Remove non-breaking spaces and other unicode spaces that break yaml
     full_answer = re.sub(r'\n+', '\n', full_answer)  # Replace multiple new lines with a single new line
     full_answer += '\n' + "[Learn more here](" + link + ")"
-    
-    
     
     
     #print(f"FAQ {count} LINK: {link}")

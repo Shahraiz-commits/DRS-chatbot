@@ -120,7 +120,9 @@ nlu:
     - I'm a new instructor, are there any workshops on classroom and teaching tools?
     - Can I get help with research data management?
     - what's the schedule for the library workshops?
+    - workshop on text analysis
     - workshops on data analysis?
+    - what kind of workshops are there
 - intent: search_south_caroliniana_library
   examples: |-
     - How do I search South Caroliniana Library collections?
@@ -363,9 +365,14 @@ nlu:
     - How can I get research help?
     - Tell me the best way to get research help?
     - How do I get research help?
+    - I’ve never done a data project before where can I find beginner help?
     - How do I get help with research?
     - Need help researching
+    - help with everything research
     - Research assistance?
+    - research related help
+    - starting out with research
+    - how do i start a data project im new
     - Who can I ask for research help?
     - Where do I go for research support?
     - can i get help from librarians?
@@ -416,26 +423,6 @@ nlu:
     - How can I view class content?
     - Are there course books online
     - Where my class readings located
-- intent: cite_journal_article_chicago
-  examples: |-
-    - How do I cite journal articles in Chicago style?
-    - How do I cite a journal article?
-    - Citing journal articles help
-    - Journal article citation format
-    - What style guide does USC use for journals?
-    - Need help with chicago style citations
-    - How to reference a journal article
-    - chicago manual of style journal
-    - What's the citation style for journals?
-    - journal citation rules
-    - Citation guide for journal articles
-    - USC journal citation guidelines
-    - Chicago style journal article citation
-    - Citing Chicago for a magazine
-    - How to cite Chicago style?
-    - cite an article in chicago
-    - how do i cite in chicago style
-    - how do i cite an article
 - intent: south_caroliniana_library_located
   examples: |
     - Where is the South Caroliniana library located?
@@ -952,39 +939,6 @@ nlu:
     - Can you help me with getting discounts for students to buy harvard business review cases?
     - is HBP permission needed?
     - where can i find affordable harvard case studies for students
-- intent: library_hire_student
-  examples: |-
-    - Does the library hire students?
-    - Do libraries hire students?
-    - Does a library hire students?
-    - can i get hired here
-    - can i work for you guys
-    - can i get a job
-    - How do I apply to work at the USC library?
-    - usc library jobs
-    - Are there any job openings at the university library?
-    - Can students work at the library?
-    - library student employment
-    - Handshake library jobs
-    - Where can I find library job postings?
-    - University Libraries hiring?
-    - how to apply for lib job
-    - Student jobs at USC library
-    - Do you have a job opening?
-    - usc on campus library jobs
-    - I want to work in the library, how do I start?
-    - r u guys hirin?
-    - how can i get a gig at the lib?
-    - library employment opps for students?
-    - can students get paid 2 work @ the library?
-    - wut r the requirements to wrk at usc lib?
-    - student worker positions available?
-    - How do I become a USC library employee?
-    - Do u have any student job openings?
-    - I wanna be a librarian, can I start here?
-    - whats the hiring process 4 students @ the usc library
-    - work study open position!
-    - do you guys hire
 - intent: resource_help_learn_language
   examples: |
     - Are there resources to help me learn a language?
@@ -1015,40 +969,6 @@ nlu:
     - Does USC offer languge tutor sessions?
     - how to acces free languge online resources?
     - Learning guide for students!
-- intent: login_use_library_access
-  examples: |-
-    - What login do I use for library access if I'm a Palmetto College student?
-    - How do I get library access if I'm a student at Palmetto College?
-    - What login do I use for library access if I am a Palmetto College student?
-    - How do I access library resources as a student?
-    - student library access
-    - Why can't I log in to library resources?
-    - usc library login issues
-    - I'm enrolled in multiple campuses, which one do I select?
-    - Can Lancaster students use Columbia library resources?
-    - multi campus student library access
-    - How do I authenticate for library resources?
-    - institution selection for library resources
-    - library entitlements for USC students
-    - usc columbia vs usc lancaster library
-    - Which institution should I select for library resources?
-    - student access to online library materials
-    - whats the login for palmetto college students to use the lib?
-    - I'm a student at Palmetto College, how do I get into USC libraries?
-    - library access not working with my login
-    - Can I use Columbia's library if I'm at Lancaster campus?
-    - login credentials for usc library dont work
-    - How do I log in to the USC library as a student?
-    - What are the entitlements for USC students to access libraries?
-    - Which institution should I select to log in to library resources?
-    - cant access online library stuff with my student account
-    - how does multi campus enrollment affect library access?
-    - What is log in at Palmetto
-    - Get into USC libraries Palmetto student?
-    - what is multiple campus login
-    - library access isn't working
-    - online library for student
-    - why is my library access not working
 - intent: username_password_working_do
   examples: |
     - My username and password are not working. What should I do?
@@ -1083,6 +1003,47 @@ nlu:
   examples: |-
     - Where can I get help with my citations?
     - How can I get help with citations?
+    - chicago citation help
+    - What is a DOI?
+    - DOI meaning
+    - How do I find a DOI?
+    - doi search
+    - how do i cite AI
+    - cite ChatGPT
+    - citing an LLM
+    - whats doi stand for
+    - How do I cite a government report?
+    - How do I cite NIH publications in AMA style?
+    - AMA citation for government reports
+    - NIH report citation format
+    - Citing National Institutes of Health sources
+    - How to cite a pdf from nih
+    - How do I cite books in my research?
+    - book citation format
+    - What's the correct way to reference texts?
+    - Can you show me an example of book referencing?
+    - how to cite authors with multiple sources
+    - Book referencing style guide
+    - How do I cite a webpage?
+    - citation for website
+    - what's the format to cite online sources?
+    - how to reference a webpage in apa style
+    - How do I cite multiple authors?
+    - citation for 3 authors
+    - What's the format for citing periodicals?
+    - What's the format for citing technical reports?
+    - gov report citation help
+    - how to reference thesis
+    - Whats the citation for a dissertation?
+    - dissertations citation manual
+    - citation examples
+    - What is the Chicago Manual of Style?
+    - What is APA
+    - USC library chicago style
+    - How do I cite in Chicago style?
+    - Chicago style 17th edition guide
+    - What's the latest Chicago style edition?
+    - Need help with Chicago citations
     - Where can I get help with citations?
     - How do I cite sources in APA style?
     - Citation styles help
@@ -1116,6 +1077,7 @@ nlu:
     - what format should i use to cite a paper
     - can you tell me how to cite in mla
     - do you have a citation guide for ama style
+    - how do i cite software
     - can you give me some citation format help
 - intent: interlibrary_loan_access_it
   examples: |-
@@ -1336,32 +1298,6 @@ nlu:
     - Why aint I able to access library databases at wrk?
     - Cant access database from office!
     - Contact for networking issues at office?
-- intent: library_microwave
-  examples: |-
-    - Does the library has a microwave?
-    - Is there a microwave in the library?
-    - microwave available in thomas cooper library?
-    - Can I heat up food in the library?
-    - where is the microwave in tcl
-    - Does Thomas Cooper have a public microwave?
-    - need to heat lunch is there a micro
-    - food reheating options at tcl
-    - Is there somewhere to warm up my coffee?
-    - tcl facilities
-    - Can I use a microwave at the library?
-    - library amenities microwaves
-    - Thomas Cooper Library food policy
-    - r ther any microwaves in tha lib?
-    - Where can I reheat food on campus?
-    - Does TCL have kitchen facilities?
-    - Can you microwave stuff @ Thomas Cooper Lib?
-    - How do I heat up leftovers at USC?
-    - Library got a micro wave?
-    - what kinda amenities does tcl offer?
-    - I need to warm my lunch, help!
-    - Any microwaves in study areas?
-    - Food warming options near me
-    - does thomas cooper library have a public microwave
 - intent: visitor_come_library
   examples: |
     - Can visitors come to the library?
@@ -1452,7 +1388,7 @@ nlu:
     - borrow powerbank?
     - I would like to know if i can rent some hardware
 - intent: library_textbook
-  examples: |
+  examples: |-
     - Tell me the check out policy for textbooks?
     - What is check out policy for textbooks?
     - How long can I borrow a textbook from the library?
@@ -1494,6 +1430,7 @@ nlu:
     - usc textbook rental options
     - how to borrow text book?
     - does the libray have my textbooks?
+    - how to check out books
 - intent: library_reader_advisory_database
   examples: |
     - Does the library have readers advisory databases?
@@ -1606,39 +1543,9 @@ nlu:
     - Colour printing in lib possible?
     - color copying facilities near me
     - What copy options are there for help at USC library?
-- intent: starbucks_thomas_cooper
-  examples: |
-    - Where is the Starbucks in Thomas Cooper?
-    - Where is Starbucks in Thomas Cooper?
-    - Where's Starbucks in Thomas Cooper?
-    - Is there a Starbucks in the Thomas Cooper Library?
-    - coffee shop in library?
-    - Where is Starbucks located in the library?
-    - What replaced Cooper's Corner coffee shop?
-    - Starbucks hours in library
-    - food options in Thomas Cooper Library
-    - library snack machines
-    - Where can I get a drink in the library?
-    - Thomas Cooper Library cafeteria
-    - vending machines in library
-    - Is Starbucks open 24/7 in the library?
-    - What floor is Starbucks on in the library?
-    - library food hours
-    - Where can I find food in the Thomas Cooper Library?
-    - starbucks in thomas cooper lib?
-    - where's the coffee shop at thomas cooper?
-    - Can i get a coffee in Thomas Cooper Lib?
-    - thomas cooper starbucks hours?
-    - what food options r available in thomas cooper library
-    - Is there a cafe in Thomas Cooper Library?
-    - vending machine locations in thomas cooper lib
-    - where can I grab a snack in the library?
-    - Thomas Cooper food court?
-    - whats on the menu at starbucks in thomas cooper?
 - intent: library_childrens_book
   examples: |
     - Does the library have children's books?
-    - Do the libraries have children's books?
     - Do libraries have children's books?
     - Where can I find children's books in Thomas Cooper Library?
     - Does USC have a juvenile book collection?
@@ -1720,68 +1627,6 @@ nlu:
     - Is interlibrary loan delivery available for staff?
     - What's the process for campus delivery of library materials?
     - pascal delivery ok
-- intent: get_library_card
-  examples: |
-    - How do I get a library card?
-    - How can I get a library card?
-    - How do you get a library card?
-    - What do I need to enter the USC library?
-    - How do I get a library card?
-    - Where can I get a CarolinaCard on Columbia Campus?
-    - Can I use the library if I'm not affiliated with USC?
-    - do i need id for library
-    - I'm an online student, do I need a CarolinaCard for library resources?
-    - How do I access USC library resources from off campus?
-    - What are the benefits of joining Friends of the University Libraries?
-    - Can alumni use the USC library?
-    - how to borrow books from usc lib
-    - Do I need a physical library card as a distance student?
-    - Where can I get a library ID if I'm not on campus?
-    - usc library membership
-    - whts reqd for a lib card?
-    - library access for non students?
-    - Can i use my student id to borrow books?
-    - what's needed to enter the usc lib?
-    - I'm not a student, can I still get a library card?
-    - how do i get a carolinacard as an online student?
-    - whats the process for getting a usc library card?
-    - can you use the lib without a carolinacard?
-    - do u need to be a student for library access?
-    - I'm an alum, can I still borrow books from usc lib?
-    - I aint a usc member how 2 log in?
-    - borrow books from the library?
-    - can i use digital resources with a library card
-- intent: cant_connect_eduroam_wireless
-  examples: |-
-    - Why can't I connect to the eduroam wireless network?
-    - wifi not working on campus
-    - How do I connect to eduroam?
-    - eduroam login issues
-    - usc wifi password help
-    - Forgot wifi password usc
-    - Why can't I access wifi on campus?
-    - what is my network username and password
-    - edurom password expired
-    - wifi not working after password change
-    - How do I update my wifi password on Mac?
-    - pc not connecting to usc wifi
-    - what to do when wifi says password incorrect
-    - usc wifi troubleshooting
-    - How do I contact IT for wifi help?
-    - wifi connection issues at university of south carolina
-    - eduroam wont connect lol what do i do?
-    - Having trouble gettin on usc wifi
-    - Can someone pls hlp me w/ eduroam login probs?
-    - usc wireless network says password is incorrect
-    - How to reset my wifi pwd @ usc?
-    - Wifi down on campus what r the steps 2 fix?
-    - Why wont my laptop connect 2 eduroam?
-    - eduroam says auth failed how do i fix dis?
-    - Can't get online at USC can someone help?
-    - How to troubleshoot wifi probs @ usc?
-    - Wireless connection not working
-    - why can't i connect to the eduroam wireless network
-    - i'm having eduroam login issues what should i do
 - intent: renew_book
   examples: |-
     - How do I renew books?
@@ -2015,88 +1860,9 @@ nlu:
     - What r the benefits of usin EndNote @ USC?
     - Does USC provide free EndNote subscription?
     - can someone help me with endnote desktop purchase?
-- intent: find_empirical_study
-  examples: |-
-    - How do I find empirical studies?
-    - Tell me the best way to find empirical studies?
-    - How can I find empirical studies?
-    - How do I filter by methodology in databases?
-    - Can I limit search results to empirical studies?
-    - Where is the methodology filter in PsycINFO?
-    - How do I find qualitative studies on PubMed?
-    - What if there's no methodology limit option?
-    - How can I identify empirical research articles?
-    - What keywords should I use for empirical studies?
-    - Can you give me search terms for qualitative research?
-    - how to recognize empirical articles
-    - Empirical study filters in databases?
-    - PsycINFO methodology limiter?
-    - Searching for case studies tips
-    - How do I find action research articles?
-    - whats the best way 2 find empirical studies?
-    - Need help locating empirical research
-    - Can you show me how to filter by study type?
-    - Where can I find evidence-based studies?
-    - How do I refine my search for empirical articles?
-    - What's the trick to finding quantitative studies on Google Scholar?
-    - Do u have tips for searching empirical research papers?
-    - how do i know if an article is empirical?
-    - Can you give me some keywords for searching case studies?
-    - Where can I find info on empirical study design?
-    - How do I locate research articles using a specific methodology?
-    - Where can I find articles that present original research findings?
-    - How do I locate research that uses data?
-- intent: library_car_repair_manual
-  examples: |
-    - Does the library have any car repair manuals?
-    - Where can I find car repair information?
-    - auto repair database
-    - I need to fix my old car where do i start
-    - car maintenance resources
-    - does the library have info on car servicing
-    - new car repair manuals
-    - how to fix a car online resources
-    - is chilton library free
-    - accessing car repair databases in SC
-    - south carolina virtual library auto repair
-    - can i get car repair info at my local library
-    - car servising manual availble in librairy?
-    - can u tell me wher 2 find new car repair manuals?
-    - wht r some gud online resources for fixin cars?
-- intent: alumnus_get_access_research
-  examples: |
-    - How can alumni get access to research resources?
-    - How do alumni get access to research resources?
-    - How can I get alumni access to research resources?
-    - What library benefits do USC alumni have?
-    - Can USC alumni borrow books?
-    - Alumni database access?
-    - How can I access library resources as an alumnus?
-    - Do USC alumni get free article access?
-    - can i use usc lib after graduation
-    - Off-campus library access for alumni?
-    - What databases can USC alumni use?
-    - Can alumni make interlibrary loan requests?
-    - alumni subscription resources?
-    - How do I get more access to library resources as an alumnus?
-    - JPASS options for USC alumni
-    - Can I pay-per-view for articles as a USC alumnus?
-    - What's the deal with research access after graduation?
-    - can usc alumns acess lib databases 4 free?
-    - Alumni benefits - whats included?
-    - Hey, can I still get into USC libraries if I'm not a student anymore?
-    - How do USC alums get their hands on academic papers?
-    - Does USC have any library perks for alums?
-    - whats the process for alumni to access usc lib?
-    - Can I use USC's online resources after I graduate?
-    - USC alum here, how can I get more research access?
-    - do i stil hav acces to usc interlib loan as an alum?
-    - How do I maintain library access after graduation?
 - intent: schedule_research_appointment
   examples: |-
     - How can I schedule a research appointment?
-    - How do I schedule research appointments?
-    - How do I schedule a research appointment?
     - make appointment digital resraech
     - Can I set up a consultation appointment with the Research Data Librarian?
     - Can i set up a consultation appointment with a librarian
@@ -2182,39 +1948,6 @@ nlu:
     - tech coop reservations needed?
     - Reserve collab tech room
     - Booking study room for group proj
-- intent: food_drink_allowed_library
-  examples: |-
-    - Are food and drinks allowed in the library?
-    - Is food and drink allowed in the library?
-    - Is food and drinks allowed in the library?
-    - Can I eat in the library?
-    - Food allowed in USC library?
-    - Where can't I have food in the library?
-    - library eating rules
-    - Are masks required in the library?
-    - Can I drink in library classrooms?
-    - Is food permitted in Special Collections Library?
-    - Keep it Clean what does that mean?
-    - library food policy
-    - Do I have to wear a mask while eating?
-    - USC lib can i snack?
-    - Where are food and drinks not allowed in the library?
-    - Library Productions Studios food rules
-    - can u eat n drink in da library?
-    - Library food rules?
-    - Is it okay to bring coffee into the library?
-    - USC lib snacking policy?
-    - Are snacks allowed @ USC libraries?
-    - What's the deal with eating in the library?
-    - Can I have a meal in the library study area?
-    - is there a no food sign in usc lib?
-    - can you eat at the USC library cafe tables?
-    - Where can't I snack in da USC library?
-    - What are the specific rules about food and drinks in different library areas?
-    - Are there designated eating areas in the library?
-    - Is there a library cafe?
-    - Can I have coffee in the library?
-    - Where can i eat in the library?
 - intent: find_dissertation_thesis
   examples: |
     - How do I find dissertations and theses?
@@ -2252,8 +1985,6 @@ nlu:
 - intent: find_historical_newspaper_article
   examples: |
     - How can I find historical newspaper articles?
-    - How do I find historical newspaper articles?
-    - How can I find historical newspapers?
     - How do I access historical newspapers?
     - Where can I find old newspaper articles?
     - usc library historical newspapers?
@@ -2338,6 +2069,7 @@ nlu:
     - Where can I find a map of USC libraries?
     - Is there a parking garage near the library?
     - where can i find the library
+    - where are you located
 - intent: center_teaching_excellence_cte
   examples: |
     - Where is the Center for Teaching Excellence (CTE)?
@@ -2554,32 +2286,6 @@ nlu:
     - Where can I search for USC dissertations online?
     - How to find dissertations?
     - Where to find dissertation examples online?
-- intent: carolinasouthern_california_trademark_dispute
-  examples: |
-    - What was the Carolina/Southern California trademark dispute about, and does it affect the UofSC/USC branding?
-    - trademark disput?
-    - USC vs University of Southern California case
-    - What was the USC trademark case about?
-    - usc sc logo dispute
-    - university of south carolina vs southern california
-    - Why cant we trademark our logo?
-    - Whats up with SC logo
-    - trademark issue between usc's
-    - Can we still use the interlocking SC logo?
-    - What happened in 2010 USC case?
-    - USC logo history dispute
-    - Did we lose a court case over our logo?
-    - SC block vs script logo controversy
-    - wut happnd wit usc n south carolina trademrk?
-    - Why did UofSC and USC have a branding problem?
-    - trademark issue between University of South Carolina & Southern California
-    - USC logo controvercy, whts the deal?
-    - How come we cant trademark our interlocking SC logo no more?
-    - Wat happend wit usc vs university of south carolina case in 2010?
-    - whats goin on with the USC and UofSC logos?
-    - Did we loose a lawsuit ovr the SC logo?
-    - trademark disput between Carolina & Southern Cal
-    - Can UofSC still use its original logo after tradmark disputes?
 - intent: access_journal_marketing_specific
   examples: |
     - How can I access the Journal of Marketing or other specific marketing journals?
@@ -2909,6 +2615,7 @@ nlu:
     - ACE relocated?
     - What subjects are covered by peer tutoring?
     - tutoring help
+    - How do I request help with a class project?
 - intent: mailing_address_thomas_cooper
   examples: |
     - What is the mailing address for the Thomas Cooper Library?
@@ -3098,71 +2805,6 @@ nlu:
     - Why can't I access library databases?
     - How to get online access?
     - When do I get access?
-- intent: pay_library_fine
-  examples: |
-    - Where / How can I pay a library fine?
-    - How do I pay a library fine?
-    - How can I pay a library fine?
-    - How do I pay library fines?
-    - Where do I pay library fines?
-    - How do I pay a fine at the library?
-    - library fine payment options
-    - Can I use credit card to pay library fine?
-    - Do you accept cash for library fines?
-    - how 2 pay lib fine
-    - Where is the Circulation Desk in Thomas Cooper Library?
-    - What forms of payment do you accept for library fines?
-    - Can I pay library fines online?
-    - How do I appeal a library fine?
-    - I got a fine from the library what do I do?
-    - library fine policy
-    - Can I use CarolinaCash to pay library fines?
-    - whats the best way 2 pay lib fines?
-    - can i pay lib fine w/ credit card?
-    - Do u guys take debit card for lib fine payment?
-    - lib fine cash only?
-    - what if i dont wanna pay lib fine?
-    - payin lib fine online possible?
-    - where do i go to pay lib fine in person?
-    - how can i clear my lib fine?
-    - can someone else pay my lib fine 4 me?
-    - whats ur policy on overdue lib fine payment?
-    - What forms of payment are accepted at the circulation desk?
-    - Is there a grace period for overdue books?
-    - How do I appeal a library fine?
-- intent: friend_university_library_previously
-  examples: |-
-    - What is Friends of University Libraries (previously Thomas Cooper Society) and how can I join?
-    - How do I join Friends of University Libraries?
-    - How can I join Friends of University Libraries?
-    - How do I become a Friend of University Libraries?
-    - What are the benefits of joining Friends of University Libraries?
-    - friends of university library membership cost
-    - Can non-students borrow books from Thomas Cooper Library?
-    - how to get borrowing privileges at usc library
-    - usc library events calendar
-    - How do I request a checkout account at USC library?
-    - library tours available?
-    - What discounts do Friends of University Libraries members get?
-    - friends of university libraries levels
-    - Can I join friends of university libraries online?
-    - how to access special collections departments at usc
-    - usc library supporter organization
-    - benefits of donating to usc library
-    - whats the deal with Friends of University Libraries? how do i get in on that?
-    - Can anyone join Friends of University Libraries or is it just for students?
-    - How much does it cost to become a Friend of University Library?
-    - what r the perks of being a friend of university libraries?
-    - I'm not a student, can I still borrow books from USC library?
-    - whats the process for getting borrowing privileges at usc library?
-    - What kind of events does Friends of University Libraries host?
-    - How do I get access to special collections at USC library?
-    - Can I join Friends of University Libraries online or do I need to go in person?
-    - Whats the difference between the different levels of Friends of University Libraries membership?
-    - How can I support the library through donations?
-    - Are there any volunteer opportunities with Friends of University Libraries?
-    - Can non-students borrow books?
-    - What are the benefits?
 - intent: university_institutional_repository
   examples: |-
     - Does the university have an institutional repository?
@@ -3444,29 +3086,27 @@ nlu:
   examples: |-
     - What kind of guidance can I expect from an online consultation?
     - I need help with data visualization
+    - What resources are available to help me make an infographic or story map for class?
     - data visualization tutorials?
     - Can you help me find info on data viz?
-    - Need help picking a data viz tool
     - Data visualization guidance please
     - Where can I learn about data visualization?
     - I want to compare data visualization tools
     - How do I decide on a data visualization technique?
     - data viz resources?
     - Can I get help with data visualization online?
-    - What's the best data visualization tool for my project?
     - Data visualization consultation?
     - whats kinda guidance i can expect from online consult?
     - I need some guidance on choosing a data viz method
     - where do I find info on data visualization techniques?
+    - Who is the GIS contact on campus?
     - Can you provide resources for learning data visualization?
     - data viz consultation avail?
     - What's the process for getting help with data visualization online?
-    - how to pick best data viz tool?
     - I'm looking for some guidance on creating effective data visualizations
     - what kinda support i can expect from a data viz consult?
     - Are there any good tutorials for learning data visualization?
     - Can I get help with data visualization online?
-    - How do I choose the best data visualization tool?
     - What data visualization support services are available?
     - can you list the best data visualization support services?
     - list the best data visualization support services?
@@ -3476,7 +3116,6 @@ nlu:
     - I need help with data visualization, where can I find resources?
     - Data viz support at USC?
     - What services does the library offer for data visualization?
-    - How do I choose a data visualization tool?
     - Can someone help me clean my data for visualization?
     - Are there any workshops on data visualization?
     - I need to learn how to visualize data, can you help?
@@ -3565,16 +3204,10 @@ nlu:
     - Does USC library offer any data science bootcamps?
     - How can I learn data visualization at USC?
     - Can I schedule a custom data visualization session for my class?
-    - What tools do you teach in data visualization workshops?
     - What data visualization tools do you teach?
     - What kind of data visualization training is available?
-    - What tools do you teach?
-    - How to get training?
 - intent: datalab_located
   examples: |-
-    - What is the DataLab and where is it located?
-    - What is DataLab and where is it located?
-    - Tell me the DataLab and where is it located?
     - What is a DataLab?
     - Where is the DataLab located?
     - datalab location
@@ -3677,6 +3310,8 @@ nlu:
   examples: |-
     - need help with SPSS
     - SAS help
+    - SAS
+    - Help using R for systematic review?  
     - who can help me with MATLAB
     - I want to learn python
     - Who can teach me R and R studio?
@@ -3791,6 +3426,8 @@ nlu:
     - MATLAB help
     - can you tell me about MATLAB
     - where can i get SPSS help
+    - SPSS
+    - I have a spreadsheet of numbers, but I don’t know what to do with it. Can someone help?
 - intent: What_is_NVivo
   examples: |-
     - What is NVivo?
@@ -3885,37 +3522,6 @@ nlu:
     - what r some good resources 4 learning NVivo?
     - Where can I find NVivo user guides?
     - Where to find tutorials for nvivo?
-- intent: data_visualization_learning_session
-  examples: |-
-    - What data visualization learning sessions are available?
-    - list the best data visualization learning sessions?
-    - can you list the best data visualization learning sessions?
-    - data visualization training usc
-    - When are data vis sessions offered?
-    - Are data visualization sessions open to everyone?
-    - SHARPGrads requirements help
-    - Where can I register for data visualization workshops?
-    - upcoming data vis workshops
-    - Can I get credit for attending data visualization sessions?
-    - How do I arrange a custom data vis session for my class?
-    - Data visualization for instructors
-    - data vis learning sessions usc library
-    - data visualization help for students
-    - What data visualization resources are available at USC?
-    - I want to learn data visualization, where do I start?
-    - wut r sum good data viz learnin sessions?
-    - Can you pls list out the data visualization workshops at USC?
-    - How can I get started w/ data visualization training?
-    - Data vis classes for newbies?
-    - When's the next data visualization learning session?
-    - Are the data vis workshops restricted to certain majors?
-    - Where do I sign up for data viz sessions?
-    - data visualization tutorial usc
-    - Can attending data vis sessions count towards my course credits?
-    - How can instructors use data visualization in their classes?
-    - Are there workshops on data viz in the Libraries?
-    - How to register?
-    - What sessions are there?
 - intent: open_data
   examples: |
     - What is open data?
@@ -4152,8 +3758,6 @@ nlu:
     - Where do I find data for research?
     - What are some reliable sources for general statistics?
     - How do I access statistical resources through the library?
-- intent: general_data_set_available
-  examples: |-
     - What general data sets are available?
     - What data sets are available?
     - can you list the general data sets available?
@@ -4189,25 +3793,13 @@ nlu:
     - Are there any data repositories that I can access?
     - How do I find data sets related to my research topic?
     - whats a good data set for research
-- intent: source_open_data
-  examples: |-
     - What are some sources for open data?
-    - can you list the sources of open data?
-    - can you list the sources for open data?
     - can you list the best sources for open data?
     - Where can I find public data sources?
-    - data.gov link?
     - I need census data, where do I go?
     - google public data?
-    - open data aws?
-    - who data resources?
-    - eu open data?
-    - what is re3data?
-    - icpsr account help
-    - public datasets online
     - gov data sources
     - Hey, where can I get free data from?
-    - open data sources? plz list
     - I'm lookin for some gov datasets, help!
     - What's the best place to find public datasets?
     - Can u give me a list of open data websites?
@@ -4216,7 +3808,7 @@ nlu:
     - Where do I get started with Google Public Data?
     - WHO data sources? anyone?
     - eu open data portal, where is it?
-    - What's this re3data thingy?
+    - political speech data
     - Where can I find open data?
     - How do I access open data for my research?
 - intent: create_codebook_nvivo
@@ -4353,17 +3945,13 @@ nlu:
     - datavisualization concepts
     - Can you explain data visualization techniques?
     - whats involved in data visualization
-    - Tell me the data science lifecycle?
-    - What is a data science lifecycle?
     - What's the bigger picture for data visualization?
     - data analytics lifecycle
     - Is data visualization the only step?
     - what are the steps of data analysis
-    - Data science process components
     - data viz life cycle
     - I want to know the whole process of data analytics
     - Where does data visualization fit in?
-    - Can you explain the full data science lifecycle?
     - What comes before and after data visualization?
     - general structure of data analysis
     - Data analytics steps
@@ -4374,70 +3962,8 @@ nlu:
     - What are data visualization techniques?
     - Can you explain data visualization?
     - data viz help
-- intent: data_visualization_important
-  examples: |-
-    - Why is data visualization important?
-    - Why is data visualization so important?
-    - Why data visualization is important?
-    - What's the point of visualizing data?
-    - Why do I need to visualize my research data?
-    - data visualization importance
-    - How does visualization help with data analysis?
-    - Whats the use of data viz?
-    - Can data visualization really make a difference?
-    - Why is it hard to understand raw data?
-    - What's the goal of data visualization?
-    - Is data visualization just for making pretty graphs?
-    - Data visualization vs. statistics
-    - How does data visualization aid in pattern recognition?
-    - What are the benefits of using visualizations in research?
-    - Can data visualization help identify trends?
-    - Why is selecting the right tool important in data viz?
-    - whats the big deal about data viz?
-    - Data visualization: whats the point?
-    - How does data visualization benefit my research?
-    - Is it really necessary to visualize data?
-    - Why cant I just look at the raw numbers?
-    - What are some advantages of data visualization?
-    - Will data visualization help me identify patterns in my data?
-    - whats more important, data analysis or data viz?
-    - How does data visualization contribute to decision making?
-    - whats the role of data visualization in research papers?
-    - Why is it important to choose the right visualization tool?
-- intent: common_term_used_data
-  examples: |-
-    - What are some common terms used in data visualization?
-    - can you list the common terms used in data visualization?
-    - list some common terms used in data visualization?
-    - data terminology
-    - what's the difference between data analysis and data visualization
-    - What does data wrangling mean?
-    - Can you explain scientific visualization?
-    - Info viz vs sci viz
-    - define information visualization
-    - whats data cleaning?
-    - How do I extract insights from data?
-    - data transformation process
-    - what's the purpose of structuring datasets
-    - geographic data analysis techniques
-    - What does data extraction mean?
-    - whats the lingo used in data viz?
-    - Data visualization terms for beginners?
-    - Can u list key phrases used in data science?
-    - Terminology used in data
-    - Whats diff btw data mining & data visualization?
-    - define data wrangling??
-    - Tell me about sci viz vs info viz
-    - whats the def of scientific visualization?
-    - Explain data cleaning process pls
-    - How to gain insights from large datasets?
-    - what's involved in transforming data?
-    - What are common data viz terms?
-    - What is data mining?
-    - data viz terms help
 - intent: business_statistic_resource_available
   examples: |-
-    - What business statistics resources are available?
     - Which business statistics resources are available?
     - can you list the best business statistics resources?
     - Where can I find international business statistics?
@@ -4562,8 +4088,6 @@ nlu:
     - How do I choose a data viz method?
     - How do I select a visualization?
     - What are some data visualization techniques?
-- intent: guideline_creating_effective_visualization
-  examples: |-
     - What are the guidelines for creating effective visualizations?
     - can you list the guidelines for creating effective visualizations?
     - Tell me the best way to create effective visualizations?
@@ -4718,39 +4242,8 @@ nlu:
     - What's the correct way to cite data?
     - How do I give credit for a dataset?
     - data citation help
-- intent: tool_help_data_citation
-  examples: |
-    - Are there tools to help with data citation?
-    - can you list the best tools for data citation?
-    - Are there any tools to help with data citation?
-    - How do I format a DOI citation?
-    - doi citation tool
-    - What is the Data Citation Index?
-    - data citation formatter
-    - Can you help me cite a dataset?
-    - Web of Science citation tool
-    - How to cite data from USC library
-    - citation for datasets
-    - where can i find doi citation formatter
-    - USC library data citation guide
-    - formatting citations for data sets
-    - data citation index wos
-    - Can I get a citation for my dataset?
-    - whats the best way to cite data?
-    - I need help citating a dataset lol
-    - Are there any good tools 4 citing data?
-    - How do u format a citation 4 a database?
-    - Whats this I hear about a Data Citation Index?
-    - can you pls list some data citation tools?
-    - Where can I find info on citing USC datasets?
-    - What's the proper way to cite research data?
-    - Can u give me an example of a DOI citation?
-    - How do I get my dataset cited by others?
-    - What tools help with data citation?
-    - Can you help me cite data?
-    - What's the best way to cite data?
 - intent: spreadsheet_software_use_data
-  examples: |
+  examples: |-
     - What spreadsheet software can I use for data visualization?
     - Tell me the best spreadsheet software to use for data visualization?
     - Tell me the best spreadsheet software for data visualization?
@@ -4777,6 +4270,7 @@ nlu:
     - can you tell me about some good spreadsheet software for data analysis and visualization?
     - I wanna make some fancy charts, what software should I use?
     - Is Microsoft Excel the only game in town for data visualization?
+    - What’s the easiest tool to start learning data viz as a beginner
 - intent: data_visualization_software_available
   examples: |-
     - What data visualization software is available?
@@ -4808,6 +4302,12 @@ nlu:
     - How do I choose the best data visualization tool for my needs?
     - what's top free data viz tools?
     - How do I pick a data viz tool?
+    - how to pick best data viz tool?
+    - Need help picking a data viz tool
+    - What's the best data visualization tool for my project?
+    - How do I choose the best data visualization tool?
+    - picking a data visualization tool?
+    - What tools do you teach in data visualization workshops?
     - What data viz tool should I use?
     - How to choose a data visualization tool?
     - data viz tool help
@@ -4815,6 +4315,7 @@ nlu:
     - What visualization software is available at USC?
     - data visualization tools
     - Can I use Tableau for free?
+    - should I use Tableau?
     - How do I access Power BI?
     - visualization software options
     - what's datawrapper?
@@ -4840,12 +4341,13 @@ nlu:
     - Does the library provide access to paid tableau
     - data viz software help
     - power BI
+    - What is the best data viz tool for me to use?
     - What tools does the DRS recommend for creating data visualizations?
+    - what data viz platforms are available through the libraries?
 - intent: programming_language_use_data
   examples: |-
     - What programming languages can I use for data visualization?
     - Tell me the best programming language to use for data visualization?
-    - Tell me the best programming language for data visualization?
     - coding languages
     - programming langs
     - What programming languages are used for data visualization?
@@ -4968,6 +4470,7 @@ nlu:
     - UNESCO got any educational datasets available?
     - Any way to get NCES data directly?
     - education data sets help
+    - Government Information and Maps
 - intent: contact_interlibrary_loan_staff
   examples: |-
     - How do I contact Interlibrary Loan staff?
@@ -4996,37 +4499,6 @@ nlu:
     - what is the contact info for USC interlibrary loan
     - Who can I talk to about my ILL request?
     - interlibrary loan help
-- intent: usc_columbia_user
-  examples: |-
-    - What if I'm not a USC Columbia user?
-    - What if I'm not a USC Columbia student?
-    - I'm not a USC student, can I still borrow books?
-    - Not affiliated with USC, how do I get library access?
-    - Can non-USC members use the library?
-    - What if I'm not a USC Columbia user?
-    - ILL services near me
-    - Where else can I find interlibrary loan services?
-    - Not a student, where can I borrow books in Columbia?
-    - USC law library info
-    - Are there other libraries in Columbia?
-    - Can the public use USC libraries?
-    - Local institutions with ILL services
-    - Alternative libraries in Columbia SC
-    - What are my options if not affiliated with USC?
-    - can i get libary access without being usc student?
-    - How do non-students borrow books from USC library?
-    - USC interlibrary loan for outsiders
-    - Public access to USC libraries in Columbia SC
-    - Where can non-USC folks find study resources?
-    - Options for borrowing books if not a USC member
-    - Are there alternatives to USC's ILL services nearby?
-    - Not a Trojan, how do i get libary priviledges?
-    - What are the library options in Columbia for non students?
-    - Can you use USC libraries without being affiliated?
-    - How do non-students borrow books?
-    - What are the library options for non-students?
-    - How do I get library access if I'm not affiliated?
-    - usc columbia help
 - intent: resource_environmental_geospatial_statistic
   examples: |
     - What are some resources for environmental and geospatial statistics?
@@ -5441,7 +4913,6 @@ nlu:
     - research data management tools
     - RDM tools
     - is there software for research managaemnt
-    - How do I create a DMP?
     - data management plan guidelines
     - funder requirements for data management
     - what tools are available for data management?
@@ -5462,12 +4933,35 @@ nlu:
     - I need help with data managment software
     - What are my options for storing research data?
     - how do i properly cite my datasets?
+    - Data management education resources?
+    - MANTRA training program
+    - Research data management tutorials?
+    - data management education modules
+    - What is MANTRA training?
+    - resources for managing research data
+    - Where can I find data management guides?
+    - whats available to learn about managing research data?
+    - research data management - where do i start?
+    - link to data management edu pls
+    - dataone module tutorials?
+    - usc resources for rdm?
+    - Any online courses on research data mgt?
+    - How do I get trained in research data management?
+    - any good guides for managing research data?
+    - Data management 101 - where can i learn?
+    - data management services?
+    - learn research data management
+    - Where can I get research data help?
+    - What data management resources are available?
+    - Data management resources
     - What are data management plan guidelines?
     - What tools and resources are available for Research Data Management?
-    - How do I create a DMP?
     - research data tools help
     - can you help with organizing dat
     - organize my data
+    - Who do I talk to for help with a data management plan?
+    - How to manage research data
+    - Who can I talk to about organizing all the parts of my research?
 - intent: contact_help_research_data
   examples: |-
     - Who can I contact for help with research data management?
@@ -5561,6 +5055,7 @@ nlu:
     - What are the best practices for writing a DMP?
     - DMP planning and budgeting?
     - whats the deal with data management plans?
+    - How do I create a DMP?
     - Need help writin a DMP - got any resources?
     - Can u pls provide some sample data mngmnt plans?
     - I'm looking for examples of good data management plans
@@ -5642,6 +5137,7 @@ nlu:
   examples: |-
     - how to use OSF
     - whats osf
+    - Is there a tool for me to share my data?
     - whats OSF about
     - tell me about OSF
     - Collaboration tools for research
@@ -5666,26 +5162,30 @@ nlu:
     - Do I need to register my research project?
     - How do I use OSF?
     - What is OSF?
+    - Can I link OSF to my project management tool?
+    - Does OSF work w/ my existing toolkit?
+    - Can I hook up OSF to other project management tools?
+    - How do i get osf to work with other stuff?
+    - osf and 3rd party apps?
     - How do I share research projects with OSF?
     - What is the Open Science Framework?
     - How to document research process with OSF?
     - osf help
+    - USC data sharing options
+    - How can I share my data with others?
+    - share data guide usc
+    - How can I make my research data public?
+    - I need to share my research data, where can I do that?
 - intent: option_available_longterm_archiving
   examples: |-
     - I have data - how do I archive it?
     - how do i archive qualitative data
-    - How can I share my research data with others?
-    - How do I share my research data?
-    - How do I share research data at USC?
     - Where can I archive my research data?
-    - USC data sharing options
     - Can I store my research data at USC?
     - data repository usc
     - Where should I save my research data?
-    - share data guide usc
     - What are the options for long-term data archiving?
     - Does USC have a data repository?
-    - How can I make my research data public?
     - USC open access repositories
     - Can I use external data repositories?
     - Where can I find info on sharing data at USC?
@@ -5698,7 +5198,6 @@ nlu:
     - data archives
     - Where can I store my research data?
     - usc data archiving options
-    - I need to share my research data, where can I do that?
     - data repositories for USC researchers
     - What are some good places to find datasets for re-use?
     - icpsr access
@@ -5717,6 +5216,35 @@ nlu:
     - how do i archive data
 - intent: cite_dataset
   examples: |-
+    - Are there tools to help with data citation?
+    - can you list the best tools for data citation?
+    - Are there any tools to help with data citation?
+    - How do I format a DOI citation?
+    - doi citation tool
+    - What is the Data Citation Index?
+    - data citation formatter
+    - Can you help me cite a dataset?
+    - Web of Science citation tool
+    - How to cite data from USC library
+    - citation for datasets
+    - where can i find doi citation formatter
+    - USC library data citation guide
+    - formatting citations for data sets
+    - data citation index wos
+    - Can I get a citation for my dataset?
+    - whats the best way to cite data?
+    - I need help citating a dataset lol
+    - Are there any good tools 4 citing data?
+    - How do u format a citation 4 a database?
+    - Whats this I hear about a Data Citation Index?
+    - can you pls list some data citation tools?
+    - Where can I find info on citing USC datasets?
+    - What's the proper way to cite research data?
+    - Can u give me an example of a DOI citation?
+    - How do I get my dataset cited by others?
+    - What tools help with data citation?
+    - Can you help me cite data?
+    - What's the best way to cite data?
     - How do I cite a dataset?
     - How do I cite someone else's dataset?
     - how to give credit for datasets
@@ -5744,34 +5272,6 @@ nlu:
     - Do I have to cite data I use?
     - How do I reference a dataset?
     - dataset citation help
-- intent: metadata_important
-  examples: |-
-    - Why is metadata important?
-    - Why metadata is important?
-    - Why metadata is so important?
-    - Why is it important to preserve research data?
-    - what happen to data after research project
-    - Can I use old research data for new projects?
-    - data lifecycle importance
-    - How can shared data help scientific inquiry?
-    - funding stopped can i still work on data
-    - data management best practices
-    - Why share research data?
-    - can other researchers use my data
-    - Data reuse benefits?
-    - importance of documenting research data
-    - Can I build upon existing research data?
-    - whats the big deal about metadata?
-    - Is metadata really that important?
-    - Why do we need metadata anyway?
-    - What's the point of preserving old research data?
-    - can i still use data from an old project
-    - Can I reuse someone else's research data for my new project?
-    - How does sharing data advance science?
-    - will my data be deleted if funding stops
-    - what are some good practices for managing data
-    - Why is it beneficial to share research findings?
-    - metadata importance help
 - intent: include_metadata
   examples: |-
     - What should I include in my Metadata?
@@ -5802,51 +5302,22 @@ nlu:
     - How should I document my research data?
     - How do I note data alterations?
     - metadata include help
-- intent: element_metadata
-  examples: |-
-    - What are the elements of metadata?
-    - can you list the elements of metadata?
-    - How do I describe my research data?
-    - metadata for datasets what to include
-    - Can you list the necessary details for data documentation?
-    - What information is needed for a data citation?
-    - Do I need to provide funding agency info for my research data?
-    - data documentation best practices
-    - What language should I use for data metadata?
-    - Are there specific dates I should record for my dataset?
-    - How do I document data processing and alterations?
-    - What file formats are acceptable for research data?
-    - Do I need to list software used to generate data?
-    - whats in a metadata?
-    - metadata elements - whats required?
-    - I need help with my data management plan
-    - what kinda info do i need for dataset documentation?
-    - How do u describe research data?
-    - Can you pls list metadata requirements?
-    - research data citation - what's needed?
-    - do I hav to include funding agency in metadata?
-    - whats best practice for documenting research data?
-    - In what language shld I write my metadata?
-    - What info do I need to document?
-    - What information is needed for a data citation?
-- intent: find_information_metadata_standard
+- intent: sharpgrads_define
   examples: |
-    - Where can I find metadata standards?
-    - metadata directory
-    - What are the metadata standards for humanities?
-    - Can you show me a visualization of metadata standards?
-    - What is metadata universe?
-    - DataONEpedia database
-    - NSF funded data management project
-    - metadata glossary pdf
-    - where to find best practices for data management
-    - I need help finding metadata standards, where do I look?
-    - metadata standard guide?
-    - best practices for creating shareable metadata?
-    - Where can I find a list of metadata stds by discipline?
-    - Do u have any info on the Seeing Standards website?
-    - Can you show me where to find best practices for data management?
-    - whr cn i get a copy of the metadata glossary?
+    - what is sharpgrads
+    - SHARPGrads requirements help
+    - What workshops should a grad student take?
+    - are there services for graduate students at the library?
+    - does the library have grad workshops
+    - Any support for grad students from the libraries?
+    - do you guys have support for graduates at usc
+    - How do I sign up for SHARPGrads
+    - Can you tell me about SHARPGrads?
+    - Is there any free training for graduate students?
+    - Where can I learn about digital skills as a grad student?
+    - What programs help grad students learn about research tools?
+    - How can I earn a digital badge as a graduate student?
+    - Do you have a list of workshops or trainings for grad students?
 - intent: consistent_file_naming_strategy
   examples: |
     - Why is a consistent file naming strategy important?
@@ -5906,9 +5377,11 @@ nlu:
 - intent: open_science_framework
   examples: |-
     - Tell me aboug osf
-    - osf.io what's that
+    - osf what's that
+    - How do I share my research data?
+    - need a software for sharing stuff between teammates
     - Is OSF only for science research?
-    - Can I store sensitive data on OSF?
+    - Can I store sensitive data?
     - What kind of projects can I collaborate on with OSF?
     - How do I share my research materials?
     - Where can I archive my research project?
@@ -5917,9 +5390,10 @@ nlu:
     - Is OSF available for non-science disciplines?
     - Can I use OSF for documentation purposes?
     - research collaboration tools
-    - What's the purpose of OSF.io?
-    - How can I get started with Open Science Framework?
-    - How do I get started with the Open Science Framework?
+    - tool to collaborate with others
+    - collaboration tool
+    - What's the purpose of OSF
+    - How can I get started with OSF?
     - How do I sign up for OSF?
     - OSF account creation
     - I want to create an Open Science Framework account
@@ -5930,22 +5404,17 @@ nlu:
     - What's the link for USC OSF?
     - OSF USC portal
     - register for osf
+    - where do i document my project
+    - where should i archive my research
+    - how can i share my work
     - USC Open Science Framework sign up
     - How to join USC OSF
     - Where do I find USC research projects on OSF?
-    - What type of data should not be stored in the Open Science Framework?
-    - What types of data should not be stored in Open Science Framework?
-    - Is OSF HIPAA compliant?
-    - Can I store personal info on Open Science Framework?
-    - pii on osf?
-    - Can I upload sensitive data to OSF?
-    - Is Open Science Framework safe for phi?
     - what not to put on osf
     - OSF restrictions
     - Can I share personal data on OSF?
     - HIPAA and Open Science Framework
     - Is OSF secure for identifiable info?
-    - phi storage options
     - osf limitations
     - How do I share my research materials?
     - open science framework help
@@ -6056,58 +5525,6 @@ nlu:
     - Can I get access to USC library records management policy?
     - USC university policies on tech use?
     - Data policies for USC researchers?
-- intent: service_osf_integrate_with
-  examples: |
-    - What services does OSF integrate with?
-    - What services do OSF integrate with?
-    - list the services that OSF integrates with?
-    - What services does OSF integrate with?
-    - osf integrations
-    - Does OSF work with other tools?
-    - Can I connect OSF to my existing accounts?
-    - OSF compatible services
-    - whats osf integrated with
-    - Can I link OSF to my project management tool?
-    - What are the OSF integration options?
-    - osf connections
-    - How do I integrate OSF with other services?
-    - Does OSF support third-party integrations?
-    - OSF and other tools compatibility
-    - what kinda tools can i use with osf?
-    - Can OSF be linked to other apps?
-    - What 3rd party services integrate w/ OSF?
-    - osf compatability options?
-    - I need a list of all the services osf integrates with
-    - whats the deal with osf integrations?
-    - Does OSF work w/ my existing toolkit?
-    - Can I hook up OSF to other project management tools?
-    - How do i get osf to work with other stuff?
-    - osf and 3rd party apps?
-- intent: resource_available_research_data
-  examples: |-
-    - Data management education resources?
-    - dataone modules link
-    - MANTRA training program
-    - Research data management tutorials?
-    - data management education modules
-    - What is MANTRA training?
-    - resources for managing research data
-    - Where can I find data management guides?
-    - whats available to learn about managing research data?
-    - research data management - where do i start?
-    - link to data management edu pls
-    - dataone module tutorials?
-    - usc resources for rdm?
-    - Any online courses on research data mgt?
-    - wut is MANTRA training program?
-    - How do I get trained in research data management?
-    - any good guides for managing research data?
-    - Data management 101 - where can i learn?
-    - data management services?
-    - learn research data management
-    - Where can I get research data help?
-    - What data management resources are available?
-    - Data management resources
 - intent: happens_article_resulting_accepted
   examples: |
     - What happens to articles resulting from accepted Registered Reports?
@@ -6141,38 +5558,6 @@ nlu:
     - How does OSF affect data collection?
     - Can I change my OSF registration after submission
     - What's the point of registering research plan
-- intent: suggest_workshop
-  examples: |
-    - How can I schedule a workshop session or suggest additional workshop offerings?
-    - How do I schedule a workshop session?
-    - Tell me the best way to schedule a workshop session?
-    - How do I schedule a workshop at the library?
-    - Can I request a custom workshop for my group?
-    - Who do I contact for library workshops?
-    - I have an idea for a new workshop, who should I email?
-    - Workshop scheduling email
-    - Group training sessions available?
-    - Additional workshop ideas who to send to
-    - library workshops contact info
-    - How to schedule a group session at the lib?
-    - New workshop suggestion email address
-    - Can I book a library workshop for my team?
-    - Who handles library workshop requests?
-    - How do I suggest workshops?
-    - Tell me the best way to suggest workshops?
-    - How can I suggest workshops?
-    - I want to book a group study session, who do I contact?
-    - Can I request a custom workshop for my class?
-    - Who should I email about library workshops?
-    - got an idea for lib workshop
-    - Library group sessions scheduling?
-    - Where can I find more info on library workshops?
-    - Contact info for USC library workshops?
-    - How to propose new workshop ideas?
-    - Email address for library reference services?
-    - I want to suggest a new workshop topic, who do I contact?
-    - group study room reservation
-    - Who handles library event scheduling?
 - intent: service_available_faculty_instructor
   examples: |-
     - What other services are available for faculty and instructors?
@@ -6204,6 +5589,7 @@ nlu:
     - How can the library help instructors?
     - Library services for faculty
     - How does the library support faculty research?
+    - I’m doing an honors thesis who can help me manage all the research?
 - intent: kind_ai_support_library
   examples: |-
     - Is there an Artificial Intelligence Institute at USC?
@@ -6281,7 +5667,6 @@ nlu:
     - Need data science expertise for project
     - Collaboration on research projects available?
     - Library support for interdisciplinary research?
-    - How do I get help with data visualization?
     - Digital services for research projects
     - Can someone assist with data management?
     - Research collaboration opportunities?
@@ -6296,6 +5681,7 @@ nlu:
     - What AI and data science tools are available
     - who can help me make my own chatbot
     - ai help how to get
+    - Who do I reach out to for help analyzing text-based data
 - intent: workshop_available_ai_data
   examples: |
     - What workshops are available for AI and data science?
@@ -6522,12 +5908,43 @@ nlu:
     - How do I know if AI is allowed in my course?
     - artificial Intelligence usage policy
     - ethics of AI
+    - ethical AI usage policy
 - intent: text_analysis
   examples: |-
     - Tell me text analysis?
     - What is text analysis?
     - text analysis meaning
     - How does text analysis work?
+    - How do I get started with text analysis?
+    - How can I get started with text analysis?
+    - How do I start text analysis?
+    - How do I start analyzing text?
+    - What's the first step in text analysis?
+    - text analysis research question
+    - Who can help me with text analysis on campus?
+    - I need help with my text analysis project, who should I ask?
+    - how long does text analysis take?
+    - What's the timeline for a text analysis project?
+    - How do I prepare data for text analysis?
+    - Data prep for text analysis?
+    - What is text analysis?
+    - Where can I get machine-readable data?
+    - How do I get started with OCRing content?
+    - Can I scrape the web for text analysis data?
+    - How do I request licensed data for text analysis?
+    - What resources are available for text analysis on campus?
+    - whats the best way to begin with text analysis?
+    - can u help me get started w/ text analysis?
+    - text analysis 101, where do i start?
+    - starting a text analysis project - need guidance
+    - help! dont no how to analyze texts
+    - who's the text analysis guru on campus?
+    - need expert advice for text analysis ASAP
+    - timeline 4 text analysis proj, plz?
+    - OCR tutorials for beginners?
+    - machine readable data sources?
+    - webscraping for text analysis - yay or nay?
+    - How can I get assistance with text analysis or text mining for my research
     - Is text analysis data mining?
     - What's the point of text analysis?
     - How do I research large blocks of text?
@@ -6549,8 +5966,6 @@ nlu:
     - Is distant reading better than close reading?
     - Is text analysis data mining?
     - Explain text analysis
-- intent: terminology_used_text_analysis
-  examples: |-
     - What terms are related to text mining?
     - Text mining definition
     - data mining meaning
@@ -6608,37 +6023,6 @@ nlu:
     - What is content mining?
     - Define text mining
     - What is web scraping?
-- intent: get_started_text_analysis
-  examples: |-
-    - How do I get started with text analysis?
-    - How can I get started with text analysis?
-    - How do I start text analysis?
-    - How do I start analyzing text?
-    - What's the first step in text analysis?
-    - text analysis research question
-    - Who can help me with text analysis on campus?
-    - I need help with my text analysis project, who should I ask?
-    - how long does text analysis take?
-    - What's the timeline for a text analysis project?
-    - How do I prepare data for text analysis?
-    - Data prep for text analysis?
-    - Where can I get machine-readable data?
-    - How do I get started with OCRing content?
-    - Can I scrape the web for text analysis data?
-    - How do I request licensed data for text analysis?
-    - What resources are available for text analysis on campus?
-    - whats the best way to begin with text analysis?
-    - can u help me get started w/ text analysis?
-    - text analysis 101, where do i start?
-    - starting a text analysis project - need guidance
-    - help! dont no how to analyze texts
-    - who's the text analysis guru on campus?
-    - need expert advice for text analysis ASAP
-    - timeline 4 text analysis proj, plz?
-    - OCR tutorials for beginners?
-    - machine readable data sources?
-    - webscraping for text analysis - yay or nay?
-    - How can I get assistance with text analysis or text mining for my research
 - intent: common_text_analysis_method
   examples: |-
     - What are common text analysis methods?
@@ -6843,7 +6227,6 @@ nlu:
     - USC computer science courses with AI focus
     - Grad programs for AI at USC
     - How many credits is the AI grad certificate?
-    - wut r da ai degree optins @ usc?
     - Can I get certified in Artificial Intelligence from University of South Carolina?
     - USC AI program course list?
     - What's the deal with USC's AI graduate certification?
@@ -6856,8 +6239,6 @@ nlu:
     - AI degree options at USC
     - Does USC have an AI program?
     - What AI graduate programs are available at USC?
-- intent: ai_course_available
-  examples: |
     - What AI courses are available?
     - list the best AI courses?
     - What AI courses are available in India?
@@ -6991,6 +6372,7 @@ nlu:
     - list the best data cleaning tools?
     - how to clean data
     - I want help cleaning my dataset
+    - Is there a place I can learn how to clean or prepare messy data?
     - What data cleaning tools are available?
     - Data cleaning resources?
     - Where can I find data cleaning software?
@@ -7100,37 +6482,6 @@ nlu:
     - What are the policies on using AI in developing manuscripts?
     - AI in manuscript writing
     - What are the guidelines for AI in academic writing?
-- intent: cite_ai_manuscript
-  examples: |
-    - How do I cite AI in my manuscript?
-    - How can I cite AI in my manuscript?
-    - How do I cite AI in a manuscript?
-    - I want to learn how to cite ChatGPT
-    - how do i cite AI
-    - How do I cite AI in my research?
-    - Do I need to cite AI tools?
-    - AI citation guidelines
-    - Citing chatGPT in MLA
-    - APA style for AI citations
-    - Chicago manual of style AI
-    - How to cite generative AI?
-    - Can you show me how to cite AI sources?
-    - What's the format for citing AI?
-    - Do I have to cite language generators?
-    - MLA citation for AI tools
-    - Are there rules for citing AI assistants?
-    - AI citation styles
-    - Citation guide for AI research
-    - Whats the deal with citin AI in papers?
-    - I need help citting AI sources in APA
-    - Can u tell me how 2 cite AI in MLA format?
-    - Do I gotta cite those AI chatbots?
-    - How do you properly cite AI assistants?
-    - Citation style for AI generated content?
-    - What's the Chicago style way of citin AI?
-    - I'm lookin for a guide on citing AI tools
-    - Are there any rules for citin language generators?
-    - Can you pls show me how to cite ChatGPT in my research?
 - intent: resource_available_learning_ai
   examples: |-
     - What resources are available for learning about AI in scholarly publications?
@@ -7411,7 +6762,6 @@ nlu:
     - does AI-generated work have any copyright protection?
 - intent: guidance_university_college_provide
   examples: |-
-    - What guidance do universities and colleges provide on AI usage?
     - What guidance do universities and colleges provide on AI?
     - What advice do universities and colleges provide on AI usage?
     - Other university AI policies?
@@ -7468,34 +6818,6 @@ nlu:
     - I'm confused about citation style
     - citation style for assignments
     - Who decides the citation style?
-- intent: need_cite_source
-  examples: |
-    - Why do I need to cite sources?
-    - Why do I have to cite sources?
-    - Why do you need to cite sources?
-    - Why do I need to cite sources?
-    - When should I cite a reference?
-    - What's the point of citations?
-    - Do I have to cite if I paraphrase?
-    - How can I avoid plagiarism?
-    - Why give credit to original authors?
-    - what are citations for
-    - Do I need to cite common knowledge?
-    - Why do I gotta cite stats?
-    - Is citation important?
-    - Can I get in trouble for not citing?
-    - Citation rules?
-    - What happens if I don't cite sources?
-    - Whats the big deal about citing?
-    - how to avoid plagiarism?
-    - Why do i gotta give credit to authors?
-    - whats the point of referencing?
-    - Do u have to cite everything?
-    - What r citations 4?
-    - Why should I care about citations?
-    - Can i get in trouble for plagiarizing?
-    - Why is it importint to site sources?
-    - Do I need to cite if its common knowlege?
 - intent: commonly_used_citation_style
   examples: |-
     - What are the most commonly used citation styles?
@@ -7648,416 +6970,6 @@ nlu:
     - What resources are available for text analysis?
     - Text analysis articles
     - Where can I find text analysis guides?
-- intent: ama_citation_style
-  examples: |
-    - Tell me the AMA citation style?
-    - What is AMA Citation Style?
-    - What is the latest AMA citation style?
-    - AMA 11th edition guidelines
-    - Where can I find AMA manual of style?
-    - How to cite in AMA style?
-    - AMA citation rules
-    - Journal abbreviations for AMA
-    - US National Library of Medicine journal abbreviations
-    - What's new in AMA 11th ed?
-    - Citation guide for medical journals
-    - Can you provide AMA citation examples?
-    - How do I cite a website in AMA style?
-    - AMA style blog citations
-    - Are there specific rules for citing books in AMA style?
-    - Where can I find more info on AMA citations?
-    - Tell me the DOI?
-    - What is DOI?
-    - What is a DOI?
-    - DOI meaning
-    - How do I find a DOI?
-    - doi search
-    - whats doi stand for
-    - Where can I look up a DOI?
-    - Can you explain what DOI means?
-    - What's the purpose of a DOI?
-    - Free DOI search?
-    - How to get a DOI link
-    - DOI lookup tool
-    - what is doi used for
-    - Doi number meaning
-- intent: cite_government_report
-  examples: |-
-    - How do I cite a government report?
-    - How do I cite NIH publications in AMA style?
-    - AMA citation for government reports
-    - NIH report citation format
-    - Citing National Institutes of Health sources
-    - How to cite a pdf from nih
-    - ama citation rules for reports
-    - Need help with AMA citations for gov docs
-    - AMA style citation for Center for Global Health
-    - Can you give an example of AMA citation for a research report?
-    - Citing a publication from National Heart, Lung and Blood Institute
-    - What's the format for citing NIH publications in AMA style?
-    - How do I cite a dissertation in AMA style?
-    - AMA citation for USC dissertation
-    - What's the format for citing dissertations?
-    - citation for etd
-    - Can you show me an example of AMA citation?
-    - Dissertation citation rules
-    - how to cite a usc thesis in ama
-    - Need help with citing my dissertation
-    - AMA style citation for online dissertation
-    - USC scholarcommons citation
-    - What's the correct way to cite a dissertation in AMA?
-    - How do I cite data in AMA style?
-    - AMA citation for datasets?
-    - Citing data from Dryad
-    - StataCorp citation help
-    - Need example of AMA citation
-    - where to find AMA citation guide
-    - how to reference a dataset
-    - citation for dataset with doi
-    - AMA style for online resources
-    - library help with citations
-    - How do I cite StataCorp?
-    - AMA formatting for datasets
-    - need help citing data
-    - Citing sources in AMA
-    - How do I cite a government report?
-- intent: apa_publication_manual
-  examples: |
-    - What is the APA Publication Manual?
-    - What is an APA Publication Manual?
-    - What is APA Publication Manual?
-    - Tell me the APA Publication Manual?
-    - What is APA style?
-    - APA citation guide
-    - How do I cite in APA 7th edition?
-    - Where can I find the APA manual?
-    - apa 7th ed handbook
-    - What's the apa reference style?
-    - need help with apa citations
-    - apa style for social sciences
-    - Can you show me apa guidelines?
-    - where to get apa manual
-    - APA citation rules
-    - apa documentation guide
-    - How do I use APA 7th edition for references?
-    - whats the deal with APA publication manual?
-    - I need help citing sources in APA style
-    - Can u show me how to cite APA 7th ed?
-    - apa citation examples pls
-    - How do I get my hands on the APA manual?
-    - What's the diff btw APA 6th and 7th ed?
-    - apa referencing guide for dummies
-    - Do you have APA style guidelines?
-    - Where can I find APA formatting rules?
-    - I'm lost with APA citations, help!
-    - What is the APA Publication Manual?
-    - What is an APA Publication Manual?
-    - What is APA Publication Manual?
-    - Tell me the APA Publication Manual?
-    - What is APA style?
-- intent: cite_periodical_apa_style
-  examples: |-
-    - How do I cite periodicals in APA style?
-    - How can I cite periodicals in APA style?
-    - How do I quote periodicals in APA style?
-    - How do I cite multiple authors?
-    - citation for 3 authors
-    - What's the format for citing periodicals?
-    - how to cite news article
-    - multiple sources citation help
-    - periodical citation example
-    - citing newspapers and magazines
-    - two authors citation format
-    - three authors apa style
-    - Can you show me a citation example?
-    - citation for one author only
-    - format for citing articles with multiple authors
-    - apa citation for periodicals
-    - how to cite article with 2 authors
-    - whats the apa styel for citing news papers?
-    - How do u cite a magazine in APA format?
-    - Can you show me an example of APA style for 4 authors?
-    - apa citation periodical help plz
-    - Citing multiple sources with no author?
-    - how to quote a newspaper article APA style
-    - what is the apa citation format for journals?
-    - I need to cite 5 authors in APA style, how do I do it?
-    - Can you provide an example of citing a news article with no author?
-    - how to cite online magazines in apa
-    - How do I cite multiple authors?
-    - What's the APA format for periodicals?
-- intent: cite_book_reference_text
-  examples: |-
-    - How do I cite books and reference texts in APA style?
-    - How do I cite books in APA style?
-    - How do I cite books and references in APA style?
-    - How can I cite books in APA style?
-    - How do I cite books in my research?
-    - book citation format
-    - What's the correct way to reference texts?
-    - Can you show me an example of book referencing?
-    - how to cite authors with multiple sources
-    - Book referencing style guide
-    - need help citing textbook
-    - How do I cite a book with one author?
-    - Multiple authors citation format
-    - citation rules for books and texts
-    - Can you provide examples of in-text citations?
-    - referencing multiple sources in one sentence
-    - book citation styles
-    - whats the apa style for citing a book?
-    - How do u cite a textbook in APA format?
-    - I need help with referencing a book with 2 authors
-    - Can u give me an example of how to cite multiple sources in APA style?
-    - Whats the proper way to cite a book in research papers?
-    - how do i reference a chapter in a book apa style?
-    - apa citation for books with no author
-    - Citing texts and references apa style help!
-    - book referencing apa guide needed
-    - apa style for citing multiple authors same last name
-    - How to cite a reference text
-- intent: cite_webpage_website_apa
-  examples: |
-    - How do I cite webpages and websites in APA style?
-    - How do I cite a website in APA style?
-    - How do I cite a webpage in APA style?
-    - How do I cite a webpage?
-    - citation for website
-    - what's the format to cite online sources?
-    - how to reference a webpage in apa style
-    - apa citation for website with no author
-    - webpage citation rules
-    - can you show me how to cite a website?
-    - website citation example
-    - citing websites apa 7th edition
-    - no author website citation apa
-    - how do i cite an online source?
-    - apa style website citation
-    - Whats the APA format for citing web pages?
-    - how to cite a website with no auther?
-    - Citing websites in APA 7, how is it done?
-    - I need help citin a webpage in APA
-    - Can u show me an example of APA citation for website?
-    - How do I properly cite online sources APA style?
-    - What's the correct way to reference webpages APA style?
-    - APA citation rules for websites, pls explain
-    - citation for web page with unknown author apa
-    - need help citing a webpage apa style
-- intent: cite_government_business_technical
-  examples: |-
-    - How do I cite government, business, and technical reports in APA style?
-    - How do I cite government, business and technical reports in APA style?
-    - How do I cite government business and technical reports in APA style?
-    - How can I cite government, business and technical reports in APA style?
-    - How do I cite government reports?
-    - citation for business reports?
-    - What's the format for citing technical reports?
-    - gov report citation help
-    - Can you show me an example of a cited gov report?
-    - how to reference nhlbi publications
-    - Citing NHLBI reports?
-    - Need help with manual 10.4 citations
-    - what is manual 10.4?
-    - How do I cite a report from the National Heart, Lung, and Blood Institute?
-    - What's the proper citation for a technical report from 2003?
-    - whats the apa style citation for gov biz and tech reports?
-    - gov business and tech report citations in apa?
-    - how do i cite nhlbi stuff?
-    - can u show me an example of citing a technical report from 2005?
-    - apa style for government, business & technical reports?
-    - what is the citation format for NHLBI publications?
-    - citing gov reports apa help
-    - I need to cite a biz report, how do I do that?
-    - whats manual 10.4 in apa citations?
-    - can you provide an example of apa style for citing technical reports?
-    - What's the APA format for government reports?
-    - Government report citation
-- intent: cite_dissertation_thesis_apa
-  examples: |-
-    - How do I cite dissertations and theses in APA style?
-    - How do I cite a dissertation in APA style?
-    - How do I cite a dissertation?
-    - Thesis citation format
-    - Dissertation referencing style
-    - how to reference thesis
-    - Whats the citation for a dissertation?
-    - dissertations citation manual
-    - can you show me thesis citations?
-    - Citing dissertations and theses
-    - Reference style for thesis
-    - Thesis APA citation
-    - How do I cite my sources for thesis?
-    - Whats the apa format 4 citing a thesis?
-    - how do u cite a dissertation in apa?
-    - apa style citation for phd thesis
-    - Citing thesis apa style, help!
-    - Can you give me an example of apa citation for dissertation?
-    - I need to cite my thesis in apa format
-    - Thesis citation apa 7th edition
-    - Apa citation for unpublished thesis
-    - Dissertation citations apa style guide
-    - Cite a thesis in apa for me
-    - How to cite a thesis
-- intent: cite_data_set_software
-  examples: |-
-    - How do I cite data sets and software in APA style?
-    - How can I cite data sets and software in APA style?
-    - How do I cite data sets in APA style?
-    - What datasets are available?
-    - How do I access software and data sets?
-    - dataset location
-    - icpsr datasets?
-    - Where can I find ICPSR 37080?
-    - data set v1 wiseheart
-    - D'Souza dataset link
-    - software for research
-    - data set manual 10.9
-    - ICPSR data access
-    - wiseheart m dataset download
-    - Can I use ICPSR datasets?
-    - dataset doi:10.3886/ICPSR37080.v1
-    - Whats the APA format for citing data & software?
-    - Citing data sets in apa style??
-    -  dataset citation apa style
-    - Do u have datasets avail?
-    - data set access instructions
-    - I need help w/ icpsr 37080 dataset
-    - software and research tools?
-    - any1 has D'Souza data set link?
-    - icpsr data sets download process
-    - wiseheart dataset version 1 manual
-    - How do I cite software in APA?
-    - Dataset citation
-    - How to cite software
-- intent: find_information_apa_citation
-  examples: |-
-    - Where can I find more information on APA citations?
-    - Where can I find more information about APA Citations?
-    - Where can I find information on APA citations?
-    - Where can I find information about APA citations?
-    - How do I cite in APA style?
-    - apa citation examples
-    - What's the APA citation format?
-    - Need help with APA referencing
-    - Can you show me an APA citation example?
-    - APA 7th edition citation guide
-    - Where can I find APA style guidelines?
-    - How to do in-text citations APA
-    - apa blog for citation
-    - What's the latest APA citation style?
-    - Citation examples for APA
-    - I need APA formatting help
-    - apa citation instructions
-    - Whats the deal with APA citations?
-    - Can u pls show me an example of apa referencing?
-    - Where do i find info on apa style?
-    - How to cite sources apa 7th ed?
-    - Apa format help needed
-    - whats new in apa citation 7th edition?
-    - Need guidance on APA citations!
-    - apa style tutorials?
-    - Cant figure out APA referencing, plz hlp
-    - apa citation formats?
-    - Where can I find APA citation examples?
-    - Where can I find APA citation guidelines?
-    - Where can I find APA citation help?
-    - APA citation information
-    - Where to find APA citation info
-- intent: chicago_manual_style
-  examples: |-
-    - What is the Chicago Manual of Style?
-    - What citation style is used in history?
-    - Chicago manual of style guide
-    - How do I cite sources in literature?
-    - What is the preferred citation style for arts?
-    - CMOS 18th edition examples
-    - Where can I find Chicago style guidelines?
-    - citation style for humanities
-    - Need help with CMOS citations
-    - What's the difference between notes and bibliographic entries?
-    - How to cite sources in Chicago style?
-    - Chicago citation guide for scholars
-    - CMOS 18 online handbook
-    - Where can I find additional guidance on CMOS?
-    - citation styles used by historians
-    - whats chicago manual of style?
-    - What's the deal with citation styles in history?
-    - need help with citing sources in literature
-    - Whats the preferred citation style 4 arts?
-    - Where do I find the Chicago style guide online?
-    - How to do notes & bibliographic entries in CMOS?
-    - Can u explain difference between author-date & notes-bibliography?
-    - what r some good resources for learning chicago manual of style?
-    - Hey, can you help me with CMOS citation examples?
-    - Where can I find the latest Chicago Manual of Style edition?
-    - What is the Chicago Manual of Style?
-    - How do I cite in Chicago style?
-    - What are the Chicago style guidelines?
-    - Chicago style citation
-    - How to use Chicago style
-- intent: cite_primary_source_chicago
-  examples: |
-    - How do I cite primary sources in Chicago style?
-    - How can I cite primary sources in Chicago style?
-    - How do you cite primary sources in Chicago style?
-    - How do I cite primary sources?
-    - citation for historical documents
-    - Chicago style citation examples
-    - What is the format for citing letters?
-    - usc library chicago style guide
-    - primary source citation help
-    - example of citing old books
-    - How do I cite translations in Chicago style?
-    - citation rules for edited books
-    - How to cite historical texts
-    - chicago style bibliography examples
-    - Citing primary sources in research papers
-    - whats the chicago style citation for old newspapers?
-    - how 2 cite primary sources in chicgo style?
-    - I need help with citing a letter from 1800s
-    - chicago styel citatoin guide pls
-    - can u give me an example of citing a diary entry?
-    - How do I properly cite a translation of a historical text in Chicago?
-    - primary sourcs citation examples chicago stlye
-    - Citing archival materials in chicago style, how do i do it?
-    - Chicago style bibliography help for edited volumes
-    - can you provide chicago styl citation example for photographs?
-- intent: find_example_chicago_citation
-  examples: |-
-    - Where can I find examples of Chicago citations?
-    - Where can I find Chicago citation examples?
-    - chicago citation examples
-    - Where can I find the Chicago Manual of Style?
-    - USC chicago citation guide
-    - What's the 18th edition of Chicago style?
-    - help with chicago citations
-    - Can you show me a Chicago style citation?
-    - Chicago style online resources
-    - How do I access the Chicago Manual of Style Online?
-    - chicago citation faq
-    - Where can I find examples of Chicago citations?
-    - Chicago style citation rules
-    - What's the latest Chicago Manual of Style edition?
-    - Chicago citation tutorial
-    - Where can I find style sheets for Chicago style?
-    - Where can I get style sheets for Chicago style?
-    - Where can I find Chicago style sheets?
-    - Where can I find Chicago style guides?
-    - chicago citation help
-    - USC library chicago style
-    - How do I cite in Chicago style?
-    - Chicago style 17th edition guide
-    - What's the latest Chicago style edition?
-    - Need help with Chicago citations
-    - Can you provide a Chicago style sheet?
-    - Where is the Chicago style guide?
-    - chicago style cheat sheet
-    - citation guide chicago
-    - How do I format Chicago citations?
-    - USC chicago citation resources
-    - chicago manual of style examples?
-    - where to find chicago style guide
-    - Where can i locate examples of chicago style citations?
 - intent: ongoing_event_happening_library
   examples: |-
     - What ongoing events are happening at the library?
@@ -8131,10 +7043,8 @@ nlu:
     - can you list the concepts related to artificial intelligence?
     - list the concepts related to Artificial Intelligence?
     - What are some AI topics I can learn about?
-    - USC library AI resources?
     - Do you have videos on machine learning?
     - Where can I find info on deep learning?
-    - I need to learn about NLP, help
     - Are there any computer vision tutorials?
     - Robotics resources at USC?
     - Can I access expert systems lectures?
@@ -8147,8 +7057,6 @@ nlu:
     - speech recognition videos?
     - Planning and optimization tutorials?
     - what are some concepts related to ai?
-    - where can i find resources on ai?
-    - usc library resources for ai?
 - intent: concept_related_generative_ai
   examples: |-
     - What are the concepts related to generative AI?
@@ -8170,8 +7078,9 @@ nlu:
     - LLMs, GANs and VAEs resources
     - library resources for machine learning
     - whats the big deal bout generative ai?
-    - Generative AI: where do I even start?
-    - can u pls list concepts related 2 generative ai?
+    - Generative AI
+    - gen AI
+    - can u pls list concepts related to gen ai?
     - I wanna learn about Large Language Models, got any vids?
     - How does VAEs work? need a simple explanation
     - whats the diff btwn GANs & transformers?
@@ -8273,93 +7182,6 @@ nlu:
     - prompt engineering info
     - Designing inputs for generative AI
     - how can i improve my chatgpt skills?
-- intent: format_intext_citation_mla
-  examples: |-
-    - How do I format an in-text citation in MLA 9?
-    - MLA in text citation?
-    - How do I cite in MLA 9?
-    - What's the format for MLA in-text citations?
-    - Can you show me an example of MLA 9 in-text citation?
-    - In-text citation MLA style
-    - mla cititation rules
-    - Citing sources in MLA 9, how?
-    - MLA 9 citation help
-    - How to do in-text cites MLA
-    - What's new in MLA 9 citations?
-    - MLA in-text citation format
-    - Can you give me an example of an MLA in-text citation?
-    - I need help with MLA citations
-    - whats the deal wit mla in text cites?
-    - How do I properly cite sources in MLA 9th edition?
-    - MLA intext citation, can u show example?
-    - i dont get MLA citation, help!
-    - Whats changed with MLA in-text citations?
-    - Cite this in MLA for me
-    - Can u provide a sample of an in text citation MLA style?
-    - How do I make an MLA 9th edition in text cite?
-    - Do you have any tips on formatting MLA citations?
-    - MLA citin made easy?
-    - how do i cite in mla 9?
-- intent: format_work_cited_entry
-  examples: |-
-    - How do I format a Works Cited entry in MLA 9?
-    - How do I cite a source in MLA 9?
-    - MLA works cited format?
-    - What's the correct way to cite AI sources?
-    - how to cite program output mla
-    - Can you show me an example of MLA citation?
-    - mla 9th edition works cited page
-    - How do I cite a website in MLA?
-    - need help with mla citation
-    - can ai sources be cited
-    - MLA format for citing online sources
-    - What's the MLA style for citing software?
-    - mla citation guide
-    - works cited mla 9 example
-    - Can you provide an example of a cited source in MLA 9?
-    - whats the MLA format 4 citing a website?
-    - How do I cite online sources in MLA style?
-    - I need help citin a software program in MLA
-    - MLA 9 Works Cited entry example pls?
-    - Can u show me how to cite AI output in MLA 9?
-    - What is the correct MLA citation for a webpage?
-    - How do I format an MLA Works Cited page?
-    - Citing sources in MLA, can you provide examples?
-    - Whats the proper way to cite online articles in MLA 9?
-    - Can you give me an example of a cited source in MLA style?
-    - how do i cite a source in mla 9?
-    - what's the correct way to cite ai sources in mla?
-    - can you show me an example of mla citation?
-    - whats the correct way to cite ai sources?
-- intent: additional_resource_mla_citation
-  examples: |
-    - Are there additional resources for MLA citation?
-    - Are there any resources for MLA citation?
-    - can you list the resources for MLA citation?
-    - list the best resources for MLA citation?
-    - What resources are available for citation help?
-    - Where can I find MLA citation guides?
-    - How do I cite AI in MLA style?
-    - usc library citation resources
-    - citation formats?
-    - MLA 8 or 9 which one to use
-    - Can you show me some additional resources?
-    - Need help with citing sources
-    - MLA style center
-    - Generative AI citations?
-    - Citation guides for MLA
-    - usc citation help
-    - Where can I learn more about citations?
-    - Whats the best way 2 cite in MLA?
-    - I need help with MLA citating, plz provide resources
-    - MLA citation resources at USC lib?
-    - how do u cite AI sources in MLA format?
-    - Need a list of reliable MLA citation guides
-    - Citation help desk at usc library?
-    - What r some good online resources 4 MLA citations?
-    - usc mla citation tutorials?
-    - Where can I get MLA citation assistance?
-    - Can u show me MLA style center?
 - intent: evaluating_resource_checklist
   examples: |-
     - What is the Evaluating Resources Checklist?
@@ -8528,69 +7350,6 @@ nlu:
     - Whats the proper way to quote AI in a paper?
     - apa citation rules for ai generated info
     - do I need to give credit to AI if its just suggestions?
-- intent: format_footnote_citation_chicago
-  examples: |
-    - How do I format a footnote citation in Chicago 17 style?
-    - How do you format a footnote citation in Chicago 17 style?
-    - How can I format a footnote citation in Chicago 17 style?
-    - How do I cite a chatbot source in Chicago style?
-    - Chicago footnote citation for AI-generated text
-    - What's the format for citing online chat sources?
-    - Do you have an example of a Chicago 17 footnote citation?
-    - Citation style for generated text by a program
-    - How to cite OpenAI chat sources in research papers
-    - Can I use chatbot responses as sources in academic writing?
-    - What's the proper way to cite AI-generated content?
-    - Chicago citation format for online chat platforms
-    - Footnote citation example for chatbot-generated text
-    - Citing chatbot sources in Chicago 17 style
-    - How do I reference a chatbot response in a research paper?
-    - Tell me the Chicago 17 author-date citation style?
-    - What is Chicago 17 author date citation style?
-    - How do I cite in Chicago 17 author-date style?
-    - Chicago author date citation example
-    - What is the format for Chicago 17 citations?
-    - how to cite chicago style
-    - chicago 17 citation help
-    - Need example of author date citation
-    - Chicago citation style guide
-    - How do I cite sources in Chicago 17?
-    - Citation style for chicago 17 author date
-    - What's the correct way to cite in Chicago style?
-    - author date citation chicago
-    - chicago style citations examples
-    - Learn Chicago 17 author date citation
-- intent: additional_resource_available_chicago
-  examples: |-
-    - What additional resources are available for Chicago citation style?
-    - chicago style guide usc
-    - How do I cite sources in Chicago style?
-    - usc library chicago manual of style
-    - Where can I find additional resources on citations?
-    - Citation guides USC
-    - Chicago Turabian citation help
-    - citation styles available
-    - USC library resources for citing sources
-    - Can you provide more info on Chicago Manual of Style?
-    - How to cite in Chicago style?
-    - Where can I find the Chicago Manual of Style online?
-    - Got any extra chicago citation resources?
-    - Chicago style citations, help!
-    - USC library got chicago manual of style?
-    - Whr cn i find chicago style guide?
-    - Need more info on chicago style citations
-    - How do u cite sources in chicago style?
-    - USC got any good chicago style guides?
-    - What r some good resources for chicago citations?
-    - Can u give me link to chicago manual of style?
-    - Chicago citation styles avail @ usc library?
-    - where can i find a chicago style guide at usc?
-    - how do i cite sources in chicago style using usc library resources?
-    - What additional resources are available for chicago citation style?
-    - chicago style guide usc
-    - how do i cite sources in chicago style?
-    - usc library chicago manual of style
-    - where can i find additional resources on citations?
 - intent: digital_scholarship_service_available
   examples: |-
     - What digital scholarship services are available?
@@ -8681,12 +7440,14 @@ nlu:
     - Dig scholarship project ideas wanted
     - what are some examples of digital scholarship in practice?
     - usc digital projects
+    - What kind of digital scholarship projects have other students completed?
 - intent: text_mining
   examples: |-
     - What is text mining?
     - what does text mining mean?
     - Tell me about text mining
     - What is text mining?
+    - whats data mining
     - define text mining
     - whats distant reading?
     - Text mining vs data mining
@@ -8712,9 +7473,6 @@ nlu:
     - Can text mining handle large datasets?
     - txt mining vs data mining, whats the diff?
     - define text mining
-- intent: get_started_text_mining
-  examples: |
-    - How do I get started with text mining?
     - How do I start text mining?
     - How can I get started with text mining?
     - How do I get started with research?
@@ -8732,23 +7490,9 @@ nlu:
     - text mining for beginners?
     - What's the best way to start a text mining project?
     - new to text mining, where do i begin?
-    - Can USC help me with my research paper?
-    - How do I get in touch with USC stats experts?
-    - data prep is killing me, help!
-    - library resources 101?
-    - do you guys have coding librarians?
-    - how long does it take to process a data request?
-    - does the library offer scanning services?
-    - how do i get started with text mining for research?
-    - what are the first steps to start text mining?
-    - how can i get started with text mining at usc?
-    - what support does usc offer for text mining research projects?
-    - who can help me with stats and data analysis for text mining?
 - intent: create_open_access_journal
   examples: |
     - Can I create an open access journal through the University of South Carolina Libraries?
-    - How do I create an open access journal through the University of South Carolina Libraries?
-    - How can I create an open access journal through the University of South Carolina Libraries?
     - How do I start an open access journal?
     - Can USC help me create a journal?
     - What software does USC use for journal hosting?
@@ -8841,8 +7585,6 @@ nlu:
 - intent: policy_established_open_access
   examples: |
     - What policies should be established for an open access journal?
-    - What policies should be established for open access journals?
-    - What policies should be set for open access journals?
     - What policy should be established for open access journals?
     - How are manuscripts considered for inclusion?
     - What is the plagiarism checking process?
@@ -9073,42 +7815,6 @@ nlu:
     - can i see who's using and citing my research on scholar commons?
     - how do i use the author dashboard to track my research stats at usc?
     - what's the best way to measure the research impact of my scholarly works?
-- intent: uscs_create_digital
-  examples: |-
-    - What is USC's Create Digital?
-    - What is create digital at USC?
-    - What is Create Digital at USC?
-    - What is USC's Create Digital program?
-    - How do I host a website with USC?
-    - USC web hosting options?
-    - Can I get free web hosting through USC?
-    - Create Digital USC what is it
-    - How do I log in to Create Digital?
-    - USC digital scholarship platforms
-    - What tools does Create Digital offer?
-    - Omeka hosting at USC
-    - Can staff use Create Digital?
-    - USC graduate student website hosting
-    - Where can I manage my USC digital projects?
-    - One click installations USC web hosting
-    - USC supported digital scholarship tools
-    - list the limitations of USC's Create Digital program?
-    - What are limitations of USC's Create Digital program?
-    - list the limitations of USC's Create Digital?
-    - What's the storage limit on USC web hosting?
-    - how much space do i get on usc create
-    - USC Create storage limits?
-    - Can I host large files on USC Create?
-    - usc create hosting restrictions
-    - How much hosting space does USC offer?
-    - What are the USC Create terms of service?
-    - Storage limit for USC digital scholarship?
-    - Where can I find more info on USC web hosting?
-    - USC Create documentation where
-    - Hosting rules and regulations USC
-    - Can I host more than 1GB on USC Create?
-    - USC digital scholarship storage limits
-    - what tools does create digital offer for digital scholarship projects?
 - intent: need_additional_storage
   examples: |
     - What if I need additional storage?
@@ -9167,12 +7873,12 @@ nlu:
     - USC webhosting manual
     - how do i get a usc website up and running?
     - create digital usc tutorials?
-    - how do i get started with usc's create digital platform?
     - How do I get started with USC's Create Digital?
 - intent: digital_tool_available_project
   examples: |-
     - Can the library help me set up a research website
     - What digital scholarship tools are available?
+    - How do I choose the right tool for a project if I’m not good at coding?
     - digital content tools?
     - Where can I find info on USC digital scholarship?
     - Does the library have digital tools for research?
@@ -9203,11 +7909,11 @@ nlu:
     - how can i find information on usc digital scholarship resources?
     - what software does the library provide for digital scholarship?
     - are there any digital research tools recommended by the usc library?
+    - Do I need to know how to code to work on a digital project
 - intent: timeline_tool_available
   examples: |
     - What timeline tools are available?
     - Tell me the best timeline tool?
-    - Tell me the best timeline tool available?
     - who can help me with timelines
     - I need help with creating a timeline for my web site
     - What tools can I use to create a timeline?
@@ -9271,6 +7977,7 @@ nlu:
   examples: |-
     - What web scrapers are available?
     - Tell me the best web scraper?
+    - Free web scraping tools?
     - list the best web scrapers?
     - What web scraping tools are available?
     - web scraper recommendations
@@ -9297,6 +8004,7 @@ nlu:
     - What are some web scraping tools for Python?
     - what web scraping tools are available for researchers at usc?
     - tool for scraping
+    - Can I access any web scraping tools through the library
 - intent: collaboration_tool_available
   examples: |-
     - What collaboration tools are available?
@@ -9456,10 +8164,6 @@ nlu:
     - respository optoins for interdisciplinary research
     - whats the diff between instutional and disciplinary repos?
     - Can u give me a list of general repos for sharing research?
-    - How do I pick the rite repository for my published work?
-- intent: version_work_share
-  examples: |
-    - What version of my work can I share with others?
     - What versions of my work can I share?
     - Can I share published articles?
     - Sharing pre-prints allowed?
@@ -9739,7 +8443,6 @@ nlu:
     - list some free tools for web archiving?
     - What tools can I use for web archiving?
     - What web archiving tools are free?
-    - Free web scraping tools?
     - webrecorder alternatives
     - Is Heritrix free to use?
     - Can I use WebCite for free?
@@ -10173,6 +8876,7 @@ nlu:
     - How do i find my post-print version?
     - Is there a database where I can archive my research papers?
     - article version - where can i find mine?
+    - Does USC have a place to store my research paper online
 - intent: ask_open_access
   examples: |-
     - What is open access publishing?
@@ -10231,6 +8935,7 @@ nlu:
     - Are there any workshops on text and data mining offered by the library?
     - What are the ethical considerations for text and data mining?
     - text data mining - is it allowed?
+    - Do we have any data mining resources/subscriptions through the University
 - intent: evaluation_method_digital_scholarship
   examples: |
     - What are the evaluation methods for digital scholarship?
@@ -10511,39 +9216,6 @@ nlu:
     - can i find preprints of research papers?
     - What are some good open access repositories?
     - What are some reputable open access repositories?
-- intent: statistic_textbook_cost
-  examples: |
-    - What are some statistics about textbook costs?
-    - list some statistics about textbook costs?
-    - show some statistics about textbook costs?
-    - What are statistics about textbook costs?
-    - How much should I budget for books and supplies?
-    - avg cost of textbooks per year
-    - Why do students not buy textbooks?
-    - Textbook costs are too high what can i do?
-    - how much have textbook prices increased
-    - I cant afford textbooks what are my options
-    - Did textbook prices really increase 1000 percent?
-    - stats on students buying textbooks
-    - average yearly cost of college books
-    - Why are textbooks so expensive?
-    - percent of students who dont buy textbooks
-    - textbook costs since the 70s
-    - College book budget per year
-    - what percentage of students cant afford textbooks
-    - whats the avg price of college textbooks?
-    - Stats on textbook prices over the years?
-    - How much r textbooks gonna set me back?
-    - Can't afford books...any alternatives?
-    - Textbook costs: then vs now
-    - Why r textbooks so pricey??
-    - Avg yearly cost of textbooks per student
-    - Textbook inflation rate since 2000
-    - What % of students can't buy textbooks?
-    - typical college book budget annually
-    - How much do students spend on books over four years?
-    - why are digital textbooks so expensive?
-    - What are some ways to reduce textbook costs?
 - intent: determine_journal_predatory
   examples: |-
     - How can I determine if a journal is predatory?
@@ -10702,98 +9374,6 @@ nlu:
     - Can a librarian help me with copyright for my course materials?
     - how do i get help with blackboard?
     - How do I post readings in Blackboard while respecting copyright?
-- intent: scoer_faculty_award
-  examples: |-
-    - What are the SCoer Faculty Awards?
-    - What are SCoer Faculty Awards?
-    - Tell me the SCoer Faculty Award?
-    - list the SCoer Faculty Awards?
-    - What are the SCoer Faculty Awards?
-    - SCoer award winners
-    - Where can I find info on SCoer awards?
-    - USC faculty awards?
-    - How do I apply for SCoer award?
-    - scoer faculity award website
-    - List of past SCoer winners?
-    - 2024 SCoer award winners
-    - Who won the 2023 SCoer award?
-    - faculty award past recipients
-    - What is SCoer?
-    - University of South Carolina faculty awards
-    - whats up with scoer faculity award?
-    - where do I find info on USC faculty award winners?
-    - SCoer Awards - how to apply?
-    - Can u list past SCoer Faculty Award recipients?
-    - whats the deal with University of South Carolina faculty awards?
-    - faculity award usc 2024
-    - How do I nominate someone for a SCoer Award?
-    - scoer faculity award applicaiton process
-    - What are the diff types of USC faculty awards?
-    - who won the scoer award last year?
-    - What is the purpose of the SCoer Faculty Awards?
-    - Who is eligible for the SCoer Faculty Awards?
-    - What are the judging criteria for the SCoer Faculty Awards?
-    - What are the eligibility requirements for the SCoer Faculty Awards?
-    - Where can I find a list of past SCoer award winners?
-    - What is the selection criteria for the SCoer Faculty Awards?
-    - scoer faculty awards - whats the deal?
-- intent: statewide_initiative_available_help
-  examples: |
-    - What statewide initiatives are available to help adopt affordable resources?
-    - Which statewide initiatives are available to help adopt affordable resources?
-    - can you list the statewide initiatives available to help adopt affordable resources?
-    - What are statewide initiatives for affordable resources?
-    - PASCAL initiatives?
-    - How can I adopt affordable resources in SC?
-    - Statewide academic library initiatives?
-    - PAL award application
-    - Professors for Affordable Learning Award info
-    - SC affordable learning options
-    - PASCAL faculty resources
-    - affordable textbook options sc
-    - What is PASCAL's role in SC education?
-    - statewide initatives for libraries
-    - How to apply for PAL award?
-    - affordable resources for professors
-    - hey whats available to help me adopt affordable resources statewide?
-    - Can u list statewide initiatives 4 adopting affordable resources?
-    - What r some initiatives in SC 4 affordable learning?
-    - how do i get started w/ pascal faculty resources?
-    - Whats the deal w/ PAL award? how do i apply?
-    - whats available in sc for affordable textbooks?
-    - r there any statewide initiatives to help professors adopt affordable resources?
-    - What does PASCAL do 4 education in SC?
-    - i need info on SC academic library initiatives
-    - whats the Professors 4 Affordable Learning Award all about?
-    - What resources does PASCAL offer for faculty?
-- intent: get_help_locating_affordable
-  examples: |
-    - How can I get help locating affordable resources?
-    - How can I get help finding affordable resources?
-    - How can I get help with finding affordable resources?
-    - How can I get help finding affordable textbooks?
-    - I need cheap class materials, what do I do?
-    - Is there a service to review my syllabus for affordable resources?
-    - Where can I find affordable course materials?
-    - Can someone help me with textbook costs?
-    - Low cost textbook options
-    - help with class resources
-    - How do I get assistance finding affordable books?
-    - What is the syllabus review service?
-    - need affordable class book help
-    - Can the library help me find affordable course materials?
-    - I need help with expensive textbooks, what's available?
-    - whats the best way to get cheap textbooks?
-    - Need help finding affordable books for class
-    - How do I get help with outrageously priced textbooks?
-    - Where can I find someone to help me locate cheap course materials?
-    - Can somone pls help me with afforadble clas mterials?
-    - What's available for students who need help affording textbooks?
-    - I'm struggling to afford class resources, is there any assistance?
-    - whr can i get low cost txtbook options?
-    - What's the process for getting help finding affordable course materials?
-    - Is thr a servce tht helps studnts wth affordable txtbooks?
-    - Can the library help me find open textbooks?
 - intent: find_resource_registering_project
   examples: |-
     - Where can I find resources for registering my project?
@@ -10854,325 +9434,6 @@ nlu:
     - Where can I find open source books?
     - OER library resources
     - open textbooks - where can i find them?
-- intent: scoer_award
-  examples: |-
-    - What are SCoer Awards?
-    - Whats score
-    - Tell me the SCoer Awards
-    - What is the SCoer Award?
-    - scoer award info
-    - USC faculty awards for affordable learning
-    - How do I apply for the SCoer Award?
-    - what's the deal with oer at usc
-    - I want to switch to open educational resources, can I get an award?
-    - Can students nominate faculty for the SCoer Award?
-    - Faculty award for using library materials?
-    - How much money have USC students saved from affordable learning materials?
-    - scoer program university libraries
-    - What's Track One and Track Two in SCoer Awards?
-    - Who selects SCoer Award recipients?
-    - USC open educational resources support
-    - whats the scoer award abt?
-    - How do faculty get recognized for using affordable learning materials?
-    - I wanna know about oer awards @ usc
-    - Can u tell me about the SCoer Award application process?
-    - What's the diff btw Track One and Track Two SCoer Awards?
-    - Are there any USC faculty awards for making education cheaper?
-    - how much $$ have students saved from open educational resources?
-    - Who picks the winners of the SCoer Awards?
-    - Is there a program that rewards USC faculty for using library materials?
-    - Can students recommend professors for the SCoer Award?
-    - What are the eligibility requirements for the SCoer Award?
-    - How much is the SCoer Award?
-    - how do i apply for the scoer award?
-    - what is the purpose of the scoer award?
-    - What are the criteria for selecting SCoer Award recipients?
-    - scoer award - tell me more!
-- intent: winner_scoer_award
-  examples: |-
-    - Who are the winners of SCoer Awards?
-    - Who are the winners of SCoer Awards 2017?
-    - Who won the SCOER award in 2024?
-    - scoer award winners
-    - 2023 scoer award winner list
-    - USC SCOER award past winners
-    - Names of SCOER award recipients
-    - What is the SCOER award?
-    - List of USC faculty who received SCOER awards
-    - Who are the 2022 SCOER award winners?
-    - Can I see previous years' SCOER award winners?
-    - SCOER awardees at University of South Carolina
-    - Where can I find more info on SCOER awards?
-    - Recent SCOER award recipients
-    - whats the deal with scoer award?
-    - Can u list all past USC Scoer winners?
-    - I need 2024 winner of scoer award
-    - whod won the USC scoer in 23?
-    - USC faculty who got SCOER award plz
-    - How do I find the names of the recent USC SCOER Awards winners?
-    - Any info on past recipients of USC Scoer award?
-    - What's the list of people awarded with USC SCOER from last year?
-    - Hey! Do you have any idea about previous scoer awardees at usc?
-    - USC SCOER Award Winner in 2020?
-    - Who won the SCoer Award in 2023?
-    - Where can I find a list of past SCoer Award winners?
-    - are there any scoer award winners from my department?
-    - What projects have won the SCoer Award?
-    - how do i find info on scoer awards?
-    - What do winners of the SCoer Faculty Award receive?
-    - When are the SCoer Faculty Awards typically given out?
-    - How can I learn more about adopting OER?
-    - What is the timeline for the SCoer Faculty Awards?
-- intent: benefit_using_open_educational
-  examples: |
-    - What are the benefits of using Open Educational Resources (OER) according to the award recipients?
-    - list the benefits of using Open Educational Resources (OER) according to award recipients?
-    - What are the benefits of OER?
-    - Why use open educational resources?
-    - How does OER help students?
-    - Benefits of using library resources
-    - what r benefits oer?
-    - Does OER reduce costs for students?
-    - Is there a benefit to using free resources in class?
-    - What are the advantages of using open educational materials?
-    - oer benefits students how?
-    - Why is diversity of knowledge important?
-    - How does OER promote equity on campus?
-    - Can OER help students learn better?
-    - what r good things about oer
-    - Whats the point of usin Open Educational Resources?
-    - Open Ed Res benefits - what do award winners say?
-    - How does open educational stuff help learners?
-    - What's the upside to using free ed resources?
-    - r there any advantages 2 usin oer in class?
-    - Can u list reasons y oer is good 4 students?
-    - Why shd I use Open Ed Resources?
-    - Is OER really helpful for student learning?
-    - benefits of open educational material?
-    - How does using OER impact campus equity?
-    - what are the benfits of oer?
-- intent: quote_award_recipient_chose
-  examples: |-
-    - What are some quotes from the award recipients on why they chose to use OER?
-    - list some quotes from award recipients
-    - Why did you start using open educational resources?
-    - How did you deal with textbook costs as a graduate student?
-    - What motivated you to focus on OER?
-    - How do you save money on textbooks at USC?
-    - What's your experience with expensive textbooks?
-    - OER research at USC?
-    - Why is OER important in higher education?
-    - Your thoughts on textbook affordability?
-    - How did you manage textbook expenses as a student?
-    - Open educational resources at USC?
-    - Textbook costs got you down?
-    - Why promote OER adoption?
-    - USC faculty views on OER
-    -  Wat inspired award winners 2 use open ed resources?
-    - Can I get some quotes from ppl who won awards 4 using OER?
-    - What made u decide 2 focus on free educational stuff?
-    - How did u handle expensive textbooks in grad school?
-    - Why r open educational resources so important at USC?
-    - Quotes from award recipients on why OER is the way 2 go?
-    - I need sum quotes from ppl who chose OER, can u help?
-    - USC profs thoughts on using free ed resources?
-    - Award winners' thoughts on textbook affordability, pls
-    - Can u give me sum reasons y ppl use open educational resources?
-    - oer quotes - what do people say about it?
-- intent: factor_selection_committee_consider
-  examples: |-
-    - What factors did the selection committee consider?
-    - What criteria did the selection committee consider?
-    - What factors were considered by the selection committee?
-    - What does the selection committee look for in applicants?
-    - How are OER grant applicants selected?
-    - What factors determine OER funding?
-    - What matters most to the selection committee?
-    - oer grant requirements
-    - how do i get oer funding
-    - what makes a strong oer applicant
-    - selection criteria for oer grants
-    - How are OER proposals evaluated?
-    - OER application process
-    - What does the OER selection committee consider
-    - key factors in oer grant decisions
-    - whats the main thing ur lookin 4 in an oer applicant?
-    - Can u tell me what goes into selecting an oer proposal?
-    - How do I know if I qualify for that OER grant?
-    - What r the key factors 4 gettin an oer award?
-    - What's most importnt 2 the ppl selecting oer grants?
-    - Do u guys look at past projects when decidin on new ones?
-    - OER funding - how do they choose who gets it?
-    - I wanna apply 4 OER, what makes me stand out?
-    - Are there any specific requiremnts 4 an OER application?
-    - how does the selection process work for oer?
-    - oer grant - what are they looking for?
-- intent: winner_plan_achieve_award
-  examples: |
-    - What do the winners plan to achieve with their awards?
-    - What do winners want to achieve with their awards?
-    - What do the winners want to achieve with their awards?
-    - What is the goal of the award program?
-    - Why did you apply for the OER award?
-    - How do you plan to use the award to benefit students?
-    - What motivated you to create a free textbook?
-    - Can I get funding to make my course materials more affordable?
-    - How can I improve learning outcomes in my class?
-    - What are some benefits of using OER in courses?
-    - I want to reduce textbook costs for my students, where do I start?
-    - Why is equity important in education?
-    - How can I create an equitable classroom experience?
-    - Are there resources available to help me transition to affordable course materials?
-    - What inspired you to focus on creating a zero-cost course?
-    - Can using OER really make a difference for students?
-    - wat r winners gonna do w/ their awards?
-    - How will the award be used to improve student outcomes?
-    - Whats the point of giving out these awards?
-    - What impact do you hope to have with your OER project?
-    - Can I get $$ to make my course materials cheaper?
-    - whats the goal of using free textbooks?
-    - Why did u apply 4 the award?
-    - How can I use the award to benefit my students?
-    - Whats driving the push for affordable course materials?
-    - Can using OER really help low-income students?
-    - What are the goals of the SCoer award program?
-- intent: scoer_faculty_award_2020
-  examples: |-
-    - Who won the SCoer Faculty Awards for 2020?
-    - Who won the 2020 SCoer Faculty Awards?
-    - Who won the SCoer Faculty Awards 2020?
-    - Who are the winners of the award?
-    - Award winners for low cost materials
-    - What is the goal of Gerald Brasington's career?
-    - Why did Amanda Fairchild want to reduce course material costs?
-    - Who does Dexin Shi collaborate with for PSYC 227?
-    - Why does Dexin Shi consider price when selecting textbooks?
-    - Ashley Williard's motivation for making content affordable
-    - How do expensive textbooks affect students according to Dexin Shi?
-    - What do the winners have in common?
-    - Goal of the award winners
-    - Who are the recipients of the low-cost material award?
-    - Why is it important to make course materials affordable according to Ashley Williard?
-    - whos the winner of SCoer faculty award 2020?
-    - Can you name the faculty members who won the SCoer Awards in 2020?
-    - Who were the SCoer Faculty Award winners for 2020?
-    - I need a list of the 2020 SCoer Faculty Award recipients
-    - whats the goal of the award winner gerald brasington?
-    - Why did Amanda Fairchild wanna reduce course material costs??
-    - Dexin Shi collaborates with who for PSYC 227 textbook selection?
-    - ashley williard motivation for affordable content?
-    - What do all the SCoer Faculty Award winners have in common?
-    - Importance of affordable materials acc to Ashley Williard?
-    - scoer faculty award 2020 - who won?
-- intent: winner_scoer_faculty_award
-  examples: |-
-    - What do winners of the SCoer Faculty Award receive?
-    - What do winners of the SCoer Faculty Award get?
-    - What do SCoer Faculty Award winners receive?
-    - What is the SCoer Faculty Award?
-    - When are SCoer Faculty Awards given out?
-    - How often do SCoer Faculty Awards occur?
-    - Who won the SCoer Faculty Award?
-    - What's the deadline for the next SCoer Faculty Award?
-    - Can I apply for the SCoer Faculty Award now?
-    - How can I learn about adopting OER?
-    - Is there an award for using OER in courses?
-    - When is the next OER award cycle?
-    - Where can I find info on OER adoption?
-    - What's the timeline for the SCoer Faculty Awards?
-    - whats the prize for winning SCoer faculty award?
-    - How do I qualify for the SCoer Faculty Award?
-    - scoer faculty award benifits?
-    - What is the criteria for the SCoer Faculty Award?
-    - Are SCoer Faculty Awards given annually?
-    - Who selects the winners of the SCoer Faculty Award?
-    - whats the submission process for the scoer faculty award?
-    - How can I apply for OER adoption award?
-    - When will they announce the next SCoer Faculty Award winner?
-    - What are the requirements to apply for the SCoer Faculty Award?
-    - scoer faculty award - what do you get?
-- intent: required_participate_scoer_program
-  examples: |-
-    - What is required to participate in the SCoer program?
-    - What is required to participate in SCoer?
-    - What is required to participate in SCoer program?
-    - What do faculty members have to do to participate in the OER program?
-    - OER workshop details?
-    - How do I get trained on OER materials?
-    - what's required for oer participation
-    - Faculty OER commitment?
-    - What happens after winning OER award?
-    - How long is the OER workshop?
-    - What's involved in switching to an OER textbook?
-    - OER training for faculty
-    - Do I have to attend a workshop for OER program?
-    - Can I still use traditional textbooks with OER?
-    - What's expected of faculty members who win the OER award?
-    - whats needed for SCoer program?
-    - I wanna participate in OER, whats next?
-    - Faculty reqs for SCoer participation?
-    - How do I join the Open Educational Resources thingy?
-    - training required 4 OER?
-    - do I gotta attend an OER workshop if I win?
-    - What are the obligations after receiving OER award?
-    - Is it compulsary to use OER textbooks only?
-    - Scoer reqs for faculty members?
-    - Open Educational Resources expectations from faculty?
-    - scoer program - what do i need to do?
-- intent: scoer_grant_recipient_selected
-  examples: |-
-    - How are SCoer Grant recipients selected?
-    - How are SCoer Grants selected?
-    - How are SCoer Grant recipients chosen?
-    - Who selects SCoer Grant winners?
-    - What factors determine SCoer Grant selection?
-    - SCoer Grant requirements
-    - How do I get a SCoer Grant?
-    - scoer grant selection criteria
-    - Who decides on SCoer Grants?
-    - What does the SCoer Grant committee look for?
-    - How are SCoer Grant applicants evaluated?
-    - SCoer Grant judging process
-    - What makes a strong SCoer Grant applicant?
-    - whats the criteria for gettin a scoer grant?
-    - Can you walk me through the SCoer Grant selection process?
-    - How does one become a recipient of the SCoer Grant?
-    - What's the basis for selecting SCoer Grant awardees?
-    - Do you have any info on SCoer Grant eligibility?
-    - who picks the winners of the scoer grants?
-    - I wanna apply for a SCoer Grant, what are my chances?
-    - what makes an applicant competitive for a scoer grant?
-    - What do I need to do to get selected for a SCoer Grant?
-    - Can you share the requirements for the SCoer Grant program?
-    - What does the SCoer Grant committee look for?
-- intent: scoer_faculty_grant
-  examples: |
-    - What is the SCoer Faculty Grant?
-    - What is a SCoer Faculty Grant?
-    - What is SCoer Faculty Grant?
-    - Tell me the SCoer Faculty Grant?
-    - What is the SCoer Faculty Grant?
-    - How can I get funding for using open educational resources?
-    - USC libraries grant for faculty
-    - scoer grant details
-    - Can I get a grant for switching to OER textbooks?
-    - What is the benefit of using OER resources?
-    - University Libraries workshop for faculty
-    - How do I apply for SCoer grant?
-    - Grant for USC faculty members
-    - OER textbook grant program
-    - What are the requirements for the SCoer Faculty Grant?
-    - Faculty grant for free textbooks
-    - whats teh scoer faculity grant?
-    - I'm a professor, can I get funding to use open educational resources?
-    - Tell me about USC library grants for faculty
-    - How do I apply for the OER textbook grant?
-    - What's in it for me if I switch to OER textbooks?
-    - Are there any workshops for faculty at University Libraries?
-    - Can u tell me about the SCoer Grant details?
-    - I want to use free textbooks, is there a grant for that?
-    - How do I get a grant for using open ed resources?
-    - whats teh requirements 4 scoer faculity grant?
 - intent: service_library_offer_faculty
   examples: |-
     - What services does the library offer for faculty and instructors?

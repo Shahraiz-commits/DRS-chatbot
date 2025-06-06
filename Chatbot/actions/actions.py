@@ -28,16 +28,13 @@ class ActionSaveConversation(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        #now = datetime.now()
-        #input_time = now.strftime("%H:%M:%S")
         
         conversation_id = str(tracker.sender_id)
         conversation = tracker.events
-        #input_str_u = tracker.latest_message.get('text')
          
         count_u = 0
         count_b = 0
-        # print(conversation)
+
         import os
         if not os.path.isfile('chats.csv'):
             with open('chats.csv','w') as file:
@@ -130,7 +127,6 @@ class ActionProcessFallback(Action):
         return "action_process_fallback"
     
     def run(self, dispatcher, tracker : Tracker, domain):
-        #out_of_scope = "Sorry, I can't handle that request. Please rephrase the question"
         intents = tracker.latest_message["intent_ranking"]
         first_text = ""
         second_text = ""
@@ -138,11 +134,10 @@ class ActionProcessFallback(Action):
         name1 = intents[1]['name']
         confidence1 = intents[1]['confidence']
         name2 = intents[2]['name']
-        #confidence2 = intents[2]['confidence']
         name3 = intents[3]['name']
         
-        if(confidence1 < 0.2):
-            dispatcher.utter_message(f"I believe this query is not handled by Digital Research Services (DRS). For questions or concerns not related to our department, please refer to the university's [enhanced search engine](https://sc.edu/search/?cx=013416120310277204335%3Awk85hzl5qdq&q=#gsc.tab=0).")
+        if(confidence1 <= 0.24):
+            dispatcher.utter_message(f"out of scope")
             return
 
         # Search for first two intents text

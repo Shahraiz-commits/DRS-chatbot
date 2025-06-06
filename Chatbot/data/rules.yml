@@ -170,20 +170,10 @@ rules:
   - intent: access_harvard_business_case
   - action: utter_access_harvard_business_case
 
-- rule: Answer library_hire_student
-  steps:
-  - intent: library_hire_student
-  - action: utter_library_hire_student
-
 - rule: Answer resource_help_learn_language
   steps:
   - intent: resource_help_learn_language
   - action: utter_resource_help_learn_language
-
-- rule: Answer login_use_library_access
-  steps:
-  - intent: login_use_library_access
-  - action: utter_login_use_library_access
 
 - rule: Answer username_password_working_do
   steps:
@@ -229,12 +219,7 @@ rules:
   steps:
   - intent: cant_access_database_workplace
   - action: utter_cant_access_database_workplace
-
-- rule: Answer library_microwave
-  steps:
-  - intent: library_microwave
-  - action: utter_library_microwave
-
+  
 - rule: Answer visitor_come_library
   steps:
   - intent: visitor_come_library
@@ -275,11 +260,6 @@ rules:
   - intent: library_color_copier
   - action: utter_library_color_copier
 
-- rule: Answer starbucks_thomas_cooper
-  steps:
-  - intent: starbucks_thomas_cooper
-  - action: utter_starbucks_thomas_cooper
-
 - rule: Answer library_childrens_book
   steps:
   - intent: library_childrens_book
@@ -294,16 +274,6 @@ rules:
   steps:
   - intent: request_book_delivered_campus
   - action: utter_request_book_delivered_campus
-
-- rule: Answer get_library_card
-  steps:
-  - intent: get_library_card
-  - action: utter_get_library_card
-
-- rule: Answer cant_connect_eduroam_wireless
-  steps:
-  - intent: cant_connect_eduroam_wireless
-  - action: utter_cant_connect_eduroam_wireless
 
 - rule: Answer renew_book
   steps:
@@ -340,26 +310,6 @@ rules:
   - intent: much_fee_late_return
   - action: utter_much_fee_late_return
 
-- rule: Answer library_provide_support_endnote
-  steps:
-  - intent: library_provide_support_endnote
-  - action: utter_library_provide_support_endnote
-
-- rule: Answer find_empirical_study
-  steps:
-  - intent: find_empirical_study
-  - action: utter_find_empirical_study
-
-- rule: Answer library_car_repair_manual
-  steps:
-  - intent: library_car_repair_manual
-  - action: utter_library_car_repair_manual
-
-- rule: Answer alumnus_get_access_research
-  steps:
-  - intent: alumnus_get_access_research
-  - action: utter_alumnus_get_access_research
-
 - rule: Answer schedule_research_appointment
   steps:
   - intent: schedule_research_appointment
@@ -374,11 +324,6 @@ rules:
   steps:
   - intent: reserve_study_room
   - action: utter_reserve_study_room
-
-- rule: Answer food_drink_allowed_library
-  steps:
-  - intent: food_drink_allowed_library
-  - action: utter_food_drink_allowed_library
 
 - rule: Answer find_dissertation_thesis
   steps:
@@ -434,11 +379,6 @@ rules:
   steps:
   - intent: find_example_dissertation_online
   - action: utter_find_example_dissertation_online
-
-- rule: Answer carolinasouthern_california_trademark_dispute
-  steps:
-  - intent: carolinasouthern_california_trademark_dispute
-  - action: utter_carolinasouthern_california_trademark_dispute
 
 - rule: Answer access_journal_marketing_specific
   steps:
@@ -525,16 +465,6 @@ rules:
   - intent: get_online_access_library
   - action: utter_get_online_access_library
 
-- rule: Answer pay_library_fine
-  steps:
-  - intent: pay_library_fine
-  - action: utter_pay_library_fine
-
-- rule: Answer friend_university_library_previously
-  steps:
-  - intent: friend_university_library_previously
-  - action: utter_friend_university_library_previously
-
 - rule: Answer university_institutional_repository
   steps:
   - intent: university_institutional_repository
@@ -620,11 +550,6 @@ rules:
   - intent: find_additional_help_nvivo
   - action: utter_find_additional_help_nvivo
 
-- rule: Answer data_visualization_learning_session
-  steps:
-  - intent: data_visualization_learning_session
-  - action: utter_data_visualization_learning_session
-
 - rule: Answer open_data
   steps:
   - intent: open_data
@@ -660,16 +585,6 @@ rules:
   - intent: general_statistic_resource_available
   - action: utter_general_statistic_resource_available
 
-- rule: Answer general_data_set_available
-  steps:
-  - intent: general_data_set_available
-  - action: utter_general_data_set_available
-
-- rule: Answer source_open_data
-  steps:
-  - intent: source_open_data
-  - action: utter_source_open_data
-
 - rule: Answer create_codebook_nvivo
   steps:
   - intent: create_codebook_nvivo
@@ -689,16 +604,6 @@ rules:
   steps:
   - intent: data_visualization
   - action: utter_data_visualization
-
-- rule: Answer data_visualization_important
-  steps:
-  - intent: data_visualization_important
-  - action: utter_data_visualization_important
-
-- rule: Answer common_term_used_data
-  steps:
-  - intent: common_term_used_data
-  - action: utter_common_term_used_data
 
 - rule: Answer business_statistic_resource_available
   steps:
@@ -720,11 +625,6 @@ rules:
   - intent: choose_right_visualization_data
   - action: utter_choose_right_visualization_data
 
-- rule: Answer guideline_creating_effective_visualization
-  steps:
-  - intent: guideline_creating_effective_visualization
-  - action: utter_guideline_creating_effective_visualization
-
 - rule: Answer resource_available_finding_criminal
   steps:
   - intent: resource_available_finding_criminal
@@ -744,11 +644,6 @@ rules:
   steps:
   - intent: information_needed_properly_cite
   - action: utter_information_needed_properly_cite
-
-- rule: Answer tool_help_data_citation
-  steps:
-  - intent: tool_help_data_citation
-  - action: utter_tool_help_data_citation
 
 - rule: Answer spreadsheet_software_use_data
   steps:
@@ -785,11 +680,6 @@ rules:
   - intent: contact_interlibrary_loan_staff
   - action: utter_contact_interlibrary_loan_staff
 
-- rule: Answer usc_columbia_user
-  steps:
-  - intent: usc_columbia_user
-  - action: utter_usc_columbia_user
-
 - rule: Answer use_digital_tool_research
   steps:
   - intent: use_digital_tool_research
@@ -809,11 +699,6 @@ rules:
   steps:
   - intent: access_course_material
   - action: utter_access_course_material
-
-- rule: Answer cite_journal_article_chicago
-  steps:
-  - intent: cite_journal_article_chicago
-  - action: utter_cite_journal_article_chicago
 
 - rule: Answer resource_environmental_geospatial_statistic
   steps:
@@ -920,25 +805,15 @@ rules:
   - intent: cite_dataset
   - action: utter_cite_dataset
 
-- rule: Answer metadata_important
-  steps:
-  - intent: metadata_important
-  - action: utter_metadata_important
-
 - rule: Answer include_metadata
   steps:
   - intent: include_metadata
   - action: utter_include_metadata
 
-- rule: Answer element_metadata
+- rule: Answer sharpgrads_define
   steps:
-  - intent: element_metadata
-  - action: utter_element_metadata
-
-- rule: Answer find_information_metadata_standard
-  steps:
-  - intent: find_information_metadata_standard
-  - action: utter_find_information_metadata_standard
+  - intent: sharpgrads_define
+  - action: utter_sharpgrads_define
 
 - rule: Answer consistent_file_naming_strategy
   steps:
@@ -970,25 +845,10 @@ rules:
   - intent: university_policy_apply_research
   - action: utter_university_policy_apply_research
 
-- rule: Answer service_osf_integrate_with
-  steps:
-  - intent: service_osf_integrate_with
-  - action: utter_service_osf_integrate_with
-
-- rule: Answer resource_available_research_data
-  steps:
-  - intent: resource_available_research_data
-  - action: utter_resource_available_research_data
-
 - rule: Answer happens_article_resulting_accepted
   steps:
   - intent: happens_article_resulting_accepted
   - action: utter_happens_article_resulting_accepted
-
-- rule: Answer suggest_workshop
-  steps:
-  - intent: suggest_workshop
-  - action: utter_suggest_workshop
 
 - rule: Answer service_available_faculty_instructor
   steps:
@@ -1035,16 +895,6 @@ rules:
   - intent: text_analysis
   - action: utter_text_analysis
 
-- rule: Answer terminology_used_text_analysis
-  steps:
-  - intent: terminology_used_text_analysis
-  - action: utter_terminology_used_text_analysis
-
-- rule: Answer get_started_text_analysis
-  steps:
-  - intent: get_started_text_analysis
-  - action: utter_get_started_text_analysis
-
 - rule: Answer common_text_analysis_method
   steps:
   - intent: common_text_analysis_method
@@ -1075,11 +925,6 @@ rules:
   - intent: ai_degree_certificate_offered
   - action: utter_ai_degree_certificate_offered
 
-- rule: Answer ai_course_available
-  steps:
-  - intent: ai_course_available
-  - action: utter_ai_course_available
-
 - rule: Answer introductory_tool_text_analysis
   steps:
   - intent: introductory_tool_text_analysis
@@ -1109,11 +954,6 @@ rules:
   steps:
   - intent: policy_using_ai_developing
   - action: utter_policy_using_ai_developing
-
-- rule: Answer cite_ai_manuscript
-  steps:
-  - intent: cite_ai_manuscript
-  - action: utter_cite_ai_manuscript
 
 - rule: Answer resource_available_learning_ai
   steps:
@@ -1170,11 +1010,6 @@ rules:
   - intent: citation_style_guide
   - action: utter_citation_style_guide
 
-- rule: Answer need_cite_source
-  steps:
-  - intent: need_cite_source
-  - action: utter_need_cite_source
-
 - rule: Answer commonly_used_citation_style
   steps:
   - intent: commonly_used_citation_style
@@ -1199,71 +1034,6 @@ rules:
   steps:
   - intent: instruction_article_available_text
   - action: utter_instruction_article_available_text
-
-- rule: Answer ama_citation_style
-  steps:
-  - intent: ama_citation_style
-  - action: utter_ama_citation_style
-
-- rule: Answer cite_government_report
-  steps:
-  - intent: cite_government_report
-  - action: utter_cite_government_report
-
-- rule: Answer apa_publication_manual
-  steps:
-  - intent: apa_publication_manual
-  - action: utter_apa_publication_manual
-
-- rule: Answer cite_periodical_apa_style
-  steps:
-  - intent: cite_periodical_apa_style
-  - action: utter_cite_periodical_apa_style
-
-- rule: Answer cite_book_reference_text
-  steps:
-  - intent: cite_book_reference_text
-  - action: utter_cite_book_reference_text
-
-- rule: Answer cite_webpage_website_apa
-  steps:
-  - intent: cite_webpage_website_apa
-  - action: utter_cite_webpage_website_apa
-
-- rule: Answer cite_government_business_technical
-  steps:
-  - intent: cite_government_business_technical
-  - action: utter_cite_government_business_technical
-
-- rule: Answer cite_dissertation_thesis_apa
-  steps:
-  - intent: cite_dissertation_thesis_apa
-  - action: utter_cite_dissertation_thesis_apa
-
-- rule: Answer cite_data_set_software
-  steps:
-  - intent: cite_data_set_software
-  - action: utter_cite_data_set_software
-
-- rule: Answer find_information_apa_citation
-  steps:
-  - intent: find_information_apa_citation
-  - action: utter_find_information_apa_citation
-
-- rule: Answer chicago_manual_style
-  steps:
-  - intent: chicago_manual_style
-  - action: utter_chicago_manual_style
-
-- rule: Answer cite_primary_source_chicago
-  steps:
-  - intent: cite_primary_source_chicago
-  - action: utter_cite_primary_source_chicago
-
-- rule: Answer find_example_chicago_citation
-  steps:
-  - intent: find_example_chicago_citation
-  - action: utter_find_example_chicago_citation
 
 - rule: Answer ongoing_event_happening_library
   steps:
@@ -1300,21 +1070,6 @@ rules:
   - intent: learn_prompt_engineering
   - action: utter_learn_prompt_engineering
 
-- rule: Answer format_intext_citation_mla
-  steps:
-  - intent: format_intext_citation_mla
-  - action: utter_format_intext_citation_mla
-
-- rule: Answer format_work_cited_entry
-  steps:
-  - intent: format_work_cited_entry
-  - action: utter_format_work_cited_entry
-
-- rule: Answer additional_resource_mla_citation
-  steps:
-  - intent: additional_resource_mla_citation
-  - action: utter_additional_resource_mla_citation
-
 - rule: Answer evaluating_resource_checklist
   steps:
   - intent: evaluating_resource_checklist
@@ -1340,16 +1095,6 @@ rules:
   - intent: attribute_ai_research
   - action: utter_attribute_ai_research
 
-- rule: Answer format_footnote_citation_chicago
-  steps:
-  - intent: format_footnote_citation_chicago
-  - action: utter_format_footnote_citation_chicago
-
-- rule: Answer additional_resource_available_chicago
-  steps:
-  - intent: additional_resource_available_chicago
-  - action: utter_additional_resource_available_chicago
-
 - rule: Answer digital_scholarship_service_available
   steps:
   - intent: digital_scholarship_service_available
@@ -1364,11 +1109,6 @@ rules:
   steps:
   - intent: text_mining
   - action: utter_text_mining
-
-- rule: Answer get_started_text_mining
-  steps:
-  - intent: get_started_text_mining
-  - action: utter_get_started_text_mining
 
 - rule: Answer create_open_access_journal
   steps:
@@ -1419,11 +1159,6 @@ rules:
   steps:
   - intent: track_impact_research
   - action: utter_track_impact_research
-
-- rule: Answer uscs_create_digital
-  steps:
-  - intent: uscs_create_digital
-  - action: utter_uscs_create_digital
 
 - rule: Answer need_additional_storage
   steps:
@@ -1479,11 +1214,6 @@ rules:
   steps:
   - intent: type_repository_sharing_research
   - action: utter_type_repository_sharing_research
-
-- rule: Answer version_work_share
-  steps:
-  - intent: version_work_share
-  - action: utter_version_work_share
 
 - rule: Answer academic_social_networking_site
   steps:
@@ -1640,11 +1370,6 @@ rules:
   - intent: find_openly_available_research
   - action: utter_find_openly_available_research
 
-- rule: Answer statistic_textbook_cost
-  steps:
-  - intent: statistic_textbook_cost
-  - action: utter_statistic_textbook_cost
-
 - rule: Answer determine_journal_predatory
   steps:
   - intent: determine_journal_predatory
@@ -1665,21 +1390,6 @@ rules:
   - intent: support_library_offer_course
   - action: utter_support_library_offer_course
 
-- rule: Answer scoer_faculty_award
-  steps:
-  - intent: scoer_faculty_award
-  - action: utter_scoer_faculty_award
-
-- rule: Answer statewide_initiative_available_help
-  steps:
-  - intent: statewide_initiative_available_help
-  - action: utter_statewide_initiative_available_help
-
-- rule: Answer get_help_locating_affordable
-  steps:
-  - intent: get_help_locating_affordable
-  - action: utter_get_help_locating_affordable
-
 - rule: Answer find_resource_registering_project
   steps:
   - intent: find_resource_registering_project
@@ -1689,61 +1399,6 @@ rules:
   steps:
   - intent: open_textbook_source_available
   - action: utter_open_textbook_source_available
-
-- rule: Answer scoer_award
-  steps:
-  - intent: scoer_award
-  - action: utter_scoer_award
-
-- rule: Answer winner_scoer_award
-  steps:
-  - intent: winner_scoer_award
-  - action: utter_winner_scoer_award
-
-- rule: Answer benefit_using_open_educational
-  steps:
-  - intent: benefit_using_open_educational
-  - action: utter_benefit_using_open_educational
-
-- rule: Answer quote_award_recipient_chose
-  steps:
-  - intent: quote_award_recipient_chose
-  - action: utter_quote_award_recipient_chose
-
-- rule: Answer factor_selection_committee_consider
-  steps:
-  - intent: factor_selection_committee_consider
-  - action: utter_factor_selection_committee_consider
-
-- rule: Answer winner_plan_achieve_award
-  steps:
-  - intent: winner_plan_achieve_award
-  - action: utter_winner_plan_achieve_award
-
-- rule: Answer scoer_faculty_award_2020
-  steps:
-  - intent: scoer_faculty_award_2020
-  - action: utter_scoer_faculty_award_2020
-
-- rule: Answer winner_scoer_faculty_award
-  steps:
-  - intent: winner_scoer_faculty_award
-  - action: utter_winner_scoer_faculty_award
-
-- rule: Answer required_participate_scoer_program
-  steps:
-  - intent: required_participate_scoer_program
-  - action: utter_required_participate_scoer_program
-
-- rule: Answer scoer_grant_recipient_selected
-  steps:
-  - intent: scoer_grant_recipient_selected
-  - action: utter_scoer_grant_recipient_selected
-
-- rule: Answer scoer_faculty_grant
-  steps:
-  - intent: scoer_faculty_grant
-  - action: utter_scoer_faculty_grant
 
 - rule: Answer service_library_offer_faculty
   steps:

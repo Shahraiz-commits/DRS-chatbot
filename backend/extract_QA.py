@@ -6,8 +6,10 @@ import time
 from dotenv import load_dotenv
 from llm_paraphraser import chat_with_model
 import re
+
 # File that holds the newly created auestion-answer pairs
 #RESPONSE_JSON = "QApairs.json"
+
 # File that pairs are saved into as csv
 OUTPUT_CSV = "QAChat.csv"
 

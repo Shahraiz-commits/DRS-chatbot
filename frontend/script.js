@@ -213,14 +213,16 @@ function addMessageToChat(text, ...classNames) {
   const isUserMsg = classNames.includes("userMsg");
   const isGreeting = text.startsWith("Hi! How can I help you?");
   const isAlternativeIntro = text.includes("Sorry, I am a bit unsure");
-  const isOutOfScopeIntro = text.includes("not handled by Digital Research Services")
+  const isOutOfScope = text.includes("out of scope")
   const isFollowUp = (text.includes("Okay, I understand. How") || text.includes("Thank you for your feedback!"));
   // console.log(isFollowUp);
   const container = document.createElement("div");
   container.classList.add("message-container");
 
-  if (isBotMsg && isOutOfScopeIntro) {
-    text = text.replace(/^.*?\n\n/, '') // Remove the initial text when out of scope
+  if (isBotMsg && isOutOfScope) {
+    // text = text.replace(/^.*?\n\n/, '') // Remove the initial text when out of scope
+    text = "I believe this query is not handled by Digital Research Services (DRS). For questions or concerns not related to our department, please use the university's [enhanced search engine](https://sc.edu/search/?cx=013416120310277204335%3Awk85hzl5qdq&q=#gsc.tab=0). If your query is research related, refer to our [research help resource](https://sc.edu/about/offices_and_divisions/university_libraries/get_research_help/index.php).\n\nIf you believe your question is relevant to DRS, please consider rephrasing it so I can better assist you."
+            + "\n\n";
   }
 
   if (isBotMsg && !isAlternativeIntro && lastUserQuestion) {

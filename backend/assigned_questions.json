@@ -31,8 +31,7 @@
         "types of ML"
     ],
     "kind_ai_support_library": [
-        "who can help me make my own chatbot",
-        "ai help how to get"
+        "Who do I reach out to for help analyzing text-based data"
     ],
     "library_film_video": [
         "can i borrow films here"
@@ -67,7 +66,7 @@
         "Are there workshops on data viz in the Libraries?"
     ],
     "data_visualization_software_available": [
-        "What tools does the DRS recommend for creating data visualizations?"
+        "what data viz platforms are available through the libraries?"
     ],
     "find_subjectspecific_data_statistic": [
         "how do i get new data"
@@ -80,7 +79,7 @@
         "need help with mapping"
     ],
     "research_data_management": [
-        "organize my data"
+        "Who can I talk to about organizing all the parts of my research?"
     ],
     "resource_available_research_data": [
         "Who do I talk to for data management help?"
@@ -99,10 +98,8 @@
         "What digital tools do you recommend for collaborative research?"
     ],
     "kind_research_support_university": [
-        "where can i get statistics help",
-        "MATLAB help",
-        "can you tell me about MATLAB",
-        "where can i get SPSS help"
+        "SPSS",
+        "I have a spreadsheet of numbers, but I don\u2019t know what to do with it. Can someone help?"
     ],
     "library_help_digital_scholarship": [
         "how can I create a web site for my research?",
@@ -115,7 +112,7 @@
         "Large language model resource"
     ],
     "student_success_center_peer": [
-        "tutoring help"
+        "How do I request help with a class project?"
     ],
     "contact_library": [
         "contact number?"
@@ -142,7 +139,7 @@
         "I got an article accepted into social media + society. does the library cover the open access publishing fee?"
     ],
     "consider_using_ai_technology": [
-        "ethics of AI"
+        "ethical AI usage policy"
     ],
     "factor_consider_selecting_data": [
         "data visualization tools"
@@ -168,5 +165,35 @@
     ],
     "library_hire_student": [
         "do you guys hire"
+    ],
+    "kind_workshop_library_offer": [
+        "what kind of workshops are there"
+    ],
+    "library_textbook": [
+        "how to check out books"
+    ],
+    "service_available_faculty_instructor": [
+        "I\u2019m doing an honors thesis who can help me manage all the research?"
+    ],
+    "data_set_available_education": [
+        "Government Information and Maps"
+    ],
+    "digital_tool_available_project": [
+        "Do I need to know how to code to work on a digital project"
+    ],
+    "find_article_version": [
+        "Does USC have a place to store my research paper online"
+    ],
+    "see_example_digital_scholarship": [
+        "What kind of digital scholarship projects have other students completed?"
+    ],
+    "source_open_data": [
+        "Need political speech data"
+    ],
+    "spreadsheet_software_use_data": [
+        "What\u2019s the easiest tool to start learning data viz as a beginner"
+    ],
+    "vendor_allow_text_data": [
+        "Do we have any data mining resources/subscriptions through the University"
     ]
 }

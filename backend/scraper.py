@@ -4,7 +4,7 @@ import json
 import re # regex
 
 
-# NOTE: <li> class_ = "next" for navigating sidebar
+# NOTE: <li> class_ = "next" for navigating sidebar content
 
 QUEUE_FILE = "queue.csv"
 

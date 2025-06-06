@@ -102,7 +102,7 @@ IMAGE_TAG=$(git rev-parse --short HEAD)  # Git commit hash as tag
 #gcloud services enable containerregistry.googleapis.com storage.googleapis.com
 #gcloud config get-value project
 
-#deploy_bot
+deploy_bot
 #deploy_actions
 #deploy_frontend
 #deploy_python_api
