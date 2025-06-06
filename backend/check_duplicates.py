@@ -76,10 +76,10 @@ def generalize_intents(domain_data, target_intents, ignore_intents):
         merged_response = f"{target_response}{most_similar_response}"
         
         target_examples = get_intent_examples(target_intent)
-        #configure_domain("modify", most_similar_intent, merged_response) # Overwrite the response of this intent to be the merged response
-        #configure_domain("remove", target_intent) # Remove the short response from domain
-        #configure_nlu("modify", most_similar_intent, target_examples) # Add to this intent's examples, the examples from short response
-        #configure_nlu("remove", target_intent) # Remove the short response from nlu
+        configure_domain("modify", most_similar_intent, merged_response) # Overwrite the response of this intent to be the merged response
+        configure_domain("remove", target_intent) # Remove the short response from domain
+        configure_nlu("modify", most_similar_intent, target_examples) # Add to this intent's examples, the examples from short response
+        configure_nlu("remove", target_intent) # Remove the short response from nlu
         
         print(f"\nMerged {target_intent} into {most_similar_intent}:\n{merged_response}\n-------------------------------------------------------------------------------------------------------------------------------------------")
         
@@ -107,7 +107,6 @@ def get_intent_examples(intent: str):
     return examples
 
 def main():
-    #model = SentenceTransformer("stsb-roberta-base") # model suitable for semantic similarity
     IGNORE_INTENTS = {
         "greet",
         "iamabot",
